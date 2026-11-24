@@ -9,7 +9,7 @@ import { CamposPerfil } from './Entrar';
 import { IcoAdmin, IcoSair } from './Icones';
 
 export function TelaPerfil() {
-  const [tema, setTema] = useState<Tema>(() => (typeof window === 'undefined' ? 'auto' : lerTema()));
+  const [tema, setTema] = useState<Tema>(() => (typeof window === 'undefined' ? 'claro' : lerTema()));
   const { perfil, atualizarPerfil, avisar, online, sair } = useApp();
   const dados = useDados();
   const [v, setV] = useState({ nome: perfil.nome, cargo: perfil.cargo, igreja: perfil.igreja, cidade: perfil.cidade });

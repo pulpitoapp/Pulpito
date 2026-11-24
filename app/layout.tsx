@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-BR" suppressHydrationWarning className={`${corpo.variable} ${titulo.variable} ${rotulo.variable} ${cartaoSerif.variable} ${cartaoSans.variable} ${hebraico.variable}`}>
       <head>
         {/* aplica o modo claro/escuro antes de desenhar a página (evita piscar) */}
-        <script dangerouslySetInnerHTML={{ __html: "try{var t=JSON.parse(localStorage.getItem('pulpito:tema')||'\"auto\"');var e=t==='escuro'||(t!=='claro'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.tema=e?'escuro':'claro'}catch(_){}" }} />
+        <script dangerouslySetInnerHTML={{ __html: "try{var t=JSON.parse(localStorage.getItem('pulpito:tema')||'\"claro\"');var e=t==='escuro'||(t==='auto'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.tema=e?'escuro':'claro'}catch(_){}" }} />
       </head>
       <body>{children}</body>
     </html>

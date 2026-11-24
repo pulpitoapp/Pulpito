@@ -29,29 +29,34 @@ export function Inicio() {
   return (
     <>
     <header className="topo px-5 pb-9" style={{ paddingTop: 'max(28px, env(safe-area-inset-top))' }}>
-      <div className="mx-auto max-w-2xl">
+      <div className="mx-auto max-w-2xl lg:max-w-5xl">
         <p className="m-0"><Logo tamanho={26} /></p>
         <h1 className="mt-5 text-[26px]">{saudacao(agora.getHours())}{primeiro ? `, ${primeiro}` : ''}.</h1>
         <p className="rot m-0 mt-2 first-letter:uppercase">{data}</p>
       </div>
     </header>
-    <main className="mx-auto -mt-5 flex max-w-2xl flex-col gap-5 px-5 pb-8">
+    <main className="inicio-grade mx-auto -mt-5 max-w-2xl px-5 pb-8 lg:max-w-5xl">
 
       {!minhas.some(temAlgo) && dados.pronto ? (
-        <section className="cartao convite" aria-label="Primeira mensagem">
-          <p className="rot m-0">Comece por aqui</p>
-          <h2 className="tit mt-1">Crie sua primeira mensagem</h2>
-          <p className="m-0 mt-2 text-[15px]">Dê um título, escolha os textos bíblicos e escreva ou digite a mensagem. Tudo fica guardado no seu celular.</p>
-          <button type="button" className="btn btn-pri mt-3 w-full" onClick={nova}>Criar minha primeira mensagem</button>
+        <section className="destaque-vidro" aria-label="Primeira mensagem">
+          <span className="destaque-brilho" aria-hidden="true" />
+          <p className="rot m-0 !text-ouro">Comece por aqui</p>
+          <h2 className="destaque-tit">Crie sua primeira mensagem</h2>
+          <ol className="destaque-passos">
+            <li><b>1</b>Dê um título e o tema</li>
+            <li><b>2</b>Escolha os textos bíblicos</li>
+            <li><b>3</b>Digite ou escreva com a caneta</li>
+          </ol>
+          <button type="button" className="destaque-btn" onClick={nova}>Criar minha primeira mensagem <span aria-hidden="true">→</span></button>
         </section>
       ) : null}
       {rascunhos.length ? (
-        <section className="cartao convite" aria-label="Mensagens para concluir">
-          <p className="rot m-0">{rascunhos.length === 1 ? 'Mensagem para concluir' : `${rascunhos.length} mensagens para concluir`}</p>
+        <section className="destaque-vidro destaque-claro" aria-label="Mensagens para concluir">
+          <p className="rot m-0">{rascunhos.length === 1 ? 'Falta pouco · mensagem para concluir' : `Falta pouco · ${rascunhos.length} mensagens para concluir`}</p>
           {rascunhos.slice(0, 3).map((m) => (
-            <a key={m.id} href={`#/mensagens/${m.id}`} className="mt-2 flex items-center gap-3 rounded-xl border border-line px-3 py-2.5 no-underline">
-              <span className="flex-1"><b className="block leading-tight">{m.titulo || 'Sem título'}</b><span className="text-[13.5px] text-mute">Rascunho · {new Date(m.atualizado_em).toLocaleDateString('pt-BR')}</span></span>
-              <span className="etiqueta">Continuar</span>
+            <a key={m.id} href={`#/mensagens/${m.id}`} className="destaque-item">
+              <span className="flex-1"><b className="block text-[17px] leading-tight">{m.titulo || 'Sem título'}</b><span className="text-[13.5px] text-mute">Rascunho · {new Date(m.atualizado_em).toLocaleDateString('pt-BR')}</span></span>
+              <span className="destaque-seta" aria-hidden="true">→</span>
             </a>
           ))}
         </section>
@@ -71,8 +76,8 @@ export function Inicio() {
 
       <section className="cartao" aria-label="Mensagens">
         <p className="rot m-0">Mensagens</p>
-        <h2 className="tit mt-1">{minhas.length ? `${minhas.length} ${minhas.length === 1 ? 'mensagem' : 'mensagens'}` : 'Nenhuma ainda'}</h2>
-        {minhas.slice(0, 3).map((m) => (
+        <h2 className="tit mt-1">{(() => { const n = minhas.filter(temAlgo).length; return n ? `${n} ${n === 1 ? 'mensagem' : 'mensagens'}` : 'Nenhuma ainda'; })()}</h2>
+        {minhas.filter(temAlgo).slice(0, 3).map((m) => (
           <a key={m.id} href={`#/mensagens/${m.id}`} className="mt-2 block rounded-xl border border-line px-3 py-2 no-underline">
             <b className="block leading-tight">{m.titulo || 'Sem título'}</b>{m.tema ? <span className="text-[14px] italic text-mute">{m.tema}</span> : null}
           </a>

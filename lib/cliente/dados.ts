@@ -53,7 +53,16 @@ export async function iniciarDados(uid: string): Promise<void> {
   estado = vazio(uid);
   const salvo = await ler<Partial<Estado> | null>('dados2:' + uid, null);
   mudar({ ...(salvo || {}), fila: { ...filaVazia(), ...(salvo?.fila || {}) }, uid, pronto: true }, false);
+  limparVazias();
   void sincronizar();
+}
+
+/** Apaga mensagens minhas que ficaram em branco (abertas e abandonadas há mais de 10 minutos). */
+export function limparVazias(): void {
+  const limite = Date.now() - 10 * 60 * 1000;
+  const vazias = estado.mensagens.filter((m) => m.autor_id === estado.uid && new Date(m.atualizado_em).getTime() < limite
+    && !m.titulo.trim() && !m.tema.trim() && !m.conteudo.texto.trim() && !m.conteudo.refs.length && !m.conteudo.tracos.length && !(m.conteudo.docs || []).length);
+  for (const m of vazias) apagarMensagem(m.id);
 }
 
 export function limparDados(): void {

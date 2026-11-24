@@ -4,7 +4,8 @@ export type Tema = 'claro' | 'escuro' | 'auto';
 const CHAVE = 'pulpito:tema';
 
 export function lerTema(): Tema {
-  try { const v = JSON.parse(localStorage.getItem(CHAVE) || '"auto"'); return v === 'claro' || v === 'escuro' ? v : 'auto'; } catch { return 'auto'; }
+  // padrão: claro. A escolha da pessoa fica guardada no aparelho.
+  try { const v = JSON.parse(localStorage.getItem(CHAVE) || '"claro"'); return v === 'escuro' || v === 'auto' ? v : 'claro'; } catch { return 'claro'; }
 }
 let ouvinte: ((e: MediaQueryListEvent) => void) | null = null;
 /** Aplica o tema na página (atributo data-tema no <html>) e acompanha o celular no modo automático. */

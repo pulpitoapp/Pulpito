@@ -135,7 +135,7 @@ export function App() {
           Sem internet — a Bíblia e as suas mensagens continuam disponíveis
         </p>
       ) : null}
-      <div className="min-h-dvh pb-[88px]">{tela}</div>
+      <div className={mostrarAbas ? 'conteudo-com-abas' : 'min-h-dvh'}>{tela}</div>
       {mostrarAbas ? (
         <nav className="abas" aria-label="Navegação principal">
           <a href="#/" aria-current={aba === '/' ? 'page' : undefined}><IcoInicio />Início</a>

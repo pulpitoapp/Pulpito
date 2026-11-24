@@ -85,7 +85,7 @@
 .ornamento::after { content: ""; position: absolute; inset: 4px -6px auto; height: 1px; background: linear-gradient(90deg, transparent, var(--ouro) 30% 70%, transparent); }
 
 /* Barra de abas inferior */
-.abas { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: grid; grid-template-columns: repeat(5, 1fr); padding: 6px 8px calc(6px + env(safe-area-inset-bottom)); background: color-mix(in srgb, var(--folha) 94%, transparent); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); border-top: 1px solid var(--line); }
+.abas { position: sticky; left: 0; right: 0; bottom: 0; z-index: 30; display: grid; grid-template-columns: repeat(5, 1fr); padding: 6px 8px calc(6px + env(safe-area-inset-bottom)); background: color-mix(in srgb, var(--folha) 94%, transparent); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); border-top: 1px solid var(--line); }
 .abas a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-height: 54px; color: var(--mute); font: 400 9px/1 var(--font-rotulo), monospace; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; border-radius: 14px; }
 .abas svg { width: 23px; height: 23px; }
 .abas a[aria-current="page"] { color: var(--texto-vinho); }
@@ -192,3 +192,35 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 .nav-cap b { font: 900 17px/1.2 var(--font-corpo), Georgia, serif; }
 .nav-cap i { font-size: 12.5px; line-height: 1.35; opacity: .8; }
 .nav-cap i { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* A barra de baixo fica "grudada" no fim da tela (sticky) em vez de fixa: no iPhone a barra fixa
+   às vezes parava no meio da tela quando a barra do Safari se recolhia. */
+.conteudo-com-abas { min-height: calc(100dvh - 68px - env(safe-area-inset-bottom)); }
+
+/* ---------- Início: cartões de destaque (vidro vinho) ---------- */
+.inicio-grade { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 1024px) { .inicio-grade { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; } .inicio-grade > .destaque-vidro { grid-column: 1 / -1; } }
+.destaque-vidro { position: relative; overflow: hidden; border-radius: 26px; padding: 22px 20px 20px; color: #fff;
+  background: linear-gradient(140deg, rgba(122, 40, 64, .88), rgba(74, 22, 38, .80) 55%, rgba(46, 12, 23, .86));
+  -webkit-backdrop-filter: blur(18px) saturate(150%); backdrop-filter: blur(18px) saturate(150%);
+  border: 1px solid rgba(201, 162, 74, .5); box-shadow: 0 22px 45px -22px rgba(74, 22, 38, .85), inset 0 1px 0 rgba(255, 255, 255, .22);
+  animation: destaque-entra .6s cubic-bezier(.2, .8, .2, 1) both; }
+.destaque-vidro::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+  background: linear-gradient(115deg, transparent 30%, rgba(255, 255, 255, .14) 45%, transparent 60%); background-size: 250% 100%; animation: destaque-reflexo 5.5s ease-in-out 1s infinite; }
+.destaque-brilho { position: absolute; width: 220px; height: 220px; right: -70px; top: -90px; border-radius: 50%; background: radial-gradient(circle, rgba(201, 162, 74, .55), transparent 65%); pointer-events: none; }
+.destaque-tit { margin: 6px 0 0; color: #fff !important; font: 400 38px/1.02 var(--font-titulo), serif; }
+.destaque-passos { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 8px; }
+.destaque-passos li { display: flex; align-items: center; gap: 10px; font-size: 15px; color: #f6e9ec; }
+.destaque-passos b { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: rgba(201, 162, 74, .25); border: 1px solid rgba(201, 162, 74, .7); color: #f3d98f; font: 700 12px/1 var(--font-rotulo), monospace; }
+.destaque-btn { position: relative; z-index: 1; margin-top: 18px; width: 100%; min-height: 52px; border-radius: 999px; background: var(--ouro); color: #2a0c16; font: 700 12px/1 var(--font-rotulo), monospace; letter-spacing: .16em; text-transform: uppercase; display: flex; align-items: center; justify-content: center; gap: 10px; box-shadow: 0 10px 22px -10px rgba(201, 162, 74, .9); transition: transform .15s; }
+.destaque-btn span { font-size: 18px; transition: transform .2s; }
+.destaque-btn:hover span { transform: translateX(4px); }
+.destaque-vidro:active, .destaque-btn:active, .destaque-item:active { transform: scale(.98); }
+/* rascunhos: vidro claro com borda dourada */
+.destaque-vidro.destaque-claro { color: var(--ink); background: color-mix(in srgb, var(--paper) 82%, transparent); border: 1.5px solid var(--ouro); box-shadow: 0 16px 36px -22px rgba(74, 22, 38, .6); }
+.destaque-claro .rot { color: var(--texto-vinho); }
+.destaque-item { position: relative; z-index: 1; margin-top: 10px; display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 16px; background: var(--paper); border: 1px solid var(--line); text-decoration: none; transition: transform .15s; }
+.destaque-seta { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: var(--escuro); color: #fff; font-size: 17px; }
+@keyframes destaque-entra { from { opacity: 0; transform: translateY(12px) scale(.98); } to { opacity: 1; transform: none; } }
+@keyframes destaque-reflexo { 0%, 70% { background-position: 150% 0; } 100% { background-position: -100% 0; } }
+@media (prefers-reduced-motion: reduce) { .destaque-vidro, .destaque-vidro::after { animation: none; } }
