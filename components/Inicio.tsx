@@ -20,6 +20,9 @@ export function Inicio() {
   const primeiro = perfil.nome.trim().split(/\s+/)[0];
   const minhas = dados.mensagens.filter((m) => m.autor_id === perfil.id);
   const fila = pendentes(dados);
+  // rascunhos com algo escrito (as mensagens vazias não contam)
+  const temAlgo = (m: (typeof minhas)[number]) => !!(m.titulo.trim() || m.tema.trim() || m.conteudo.texto.trim() || m.conteudo.refs.length || m.conteudo.tracos.length);
+  const rascunhos = minhas.filter((m) => m.situacao === 'rascunho' && temAlgo(m));
   const escolher = (id: string) => { setVersao(id); pref.gravar('biblia-versao', id); };
   const nova = () => { const m = novaMensagem(perfil.id); salvarMensagem(m); ir(`/mensagens/${m.id}`); };
 
@@ -33,6 +36,26 @@ export function Inicio() {
       </div>
     </header>
     <main className="mx-auto -mt-5 flex max-w-2xl flex-col gap-5 px-5 pb-8">
+
+      {!minhas.some(temAlgo) && dados.pronto ? (
+        <section className="cartao convite" aria-label="Primeira mensagem">
+          <p className="rot m-0">Comece por aqui</p>
+          <h2 className="tit mt-1">Crie sua primeira mensagem</h2>
+          <p className="m-0 mt-2 text-[15px]">Dê um título, escolha os textos bíblicos e escreva ou digite a mensagem. Tudo fica guardado no seu celular.</p>
+          <button type="button" className="btn btn-pri mt-3 w-full" onClick={nova}>Criar minha primeira mensagem</button>
+        </section>
+      ) : null}
+      {rascunhos.length ? (
+        <section className="cartao convite" aria-label="Mensagens para concluir">
+          <p className="rot m-0">{rascunhos.length === 1 ? 'Mensagem para concluir' : `${rascunhos.length} mensagens para concluir`}</p>
+          {rascunhos.slice(0, 3).map((m) => (
+            <a key={m.id} href={`#/mensagens/${m.id}`} className="mt-2 flex items-center gap-3 rounded-xl border border-line px-3 py-2.5 no-underline">
+              <span className="flex-1"><b className="block leading-tight">{m.titulo || 'Sem título'}</b><span className="text-[13.5px] text-mute">Rascunho · {new Date(m.atualizado_em).toLocaleDateString('pt-BR')}</span></span>
+              <span className="etiqueta">Continuar</span>
+            </a>
+          ))}
+        </section>
+      ) : null}
 
       <section className="cartao" aria-label="Bíblia">
         <p className="rot m-0">Bíblia</p>

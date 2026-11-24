@@ -4,14 +4,17 @@ import { lerChave, rotuloChave, textoChave } from '@/lib/textos';
 import { CORES, ESTILOS, NOME_COR, ROTULO_SITUACAO, SITUACOES, type Conteudo, type Mensagem as Msg, type Pregacao } from '@/lib/tipos';
 import { useBiblia } from '@/lib/cliente/bibliaDados';
 import { apagarMensagem, apagarPregacao, novoId, salvarMensagem, salvarPregacao, useDados } from '@/lib/cliente/dados';
+import { pref } from '@/lib/cliente/local';
 import { compartilharArquivo, gerarPdf } from '@/lib/cliente/pdf';
 import { Cabecalho, Carregando, Confirmar } from './Cabecalho';
-import { ir, useApp } from './contexto';
+import { definirGuarda, ir, sairSemGuarda, useApp } from './contexto';
 import { AnexosDaMensagem } from './Documentos';
 import { Lousa } from './Lousa';
 import { SeletorRef } from './SeletorRef';
 
 const dataBR = (d: string) => d.split('-').reverse().join('/');
+/** Mensagem sem nada escrito (nem título, tema, texto, textos bíblicos ou escrita). */
+const vazia = (x: Msg | null) => !x || (!x.titulo.trim() && !x.tema.trim() && !x.conteudo.texto.trim() && !x.conteudo.refs.length && !x.conteudo.tracos.length && !(x.conteudo.docs || []).length);
 
 /** Uma mensagem: título, tema, textos bíblicos usados, texto digitado e folha escrita à mão. */
 export function Mensagem({ id }: { id: string }) {
@@ -27,10 +30,31 @@ export function Mensagem({ id }: { id: string }) {
   const [ocupado, setOcupado] = useState(false);
   const tempo = useRef<ReturnType<typeof setTimeout> | null>(null);
   const atual = useRef<Msg | null>(null);
+  const editou = useRef(false);                 // escreveu algo nesta visita
+  const foto = useRef<Msg | null>(null);        // como a mensagem estava ao abrir (para "sair sem salvar")
+  const [saida, setSaida] = useState<string | null>(null);   // destino pendente da pergunta de saída
 
-  useEffect(() => { if (original && (!atual.current || atual.current.id !== original.id)) { setM(original); atual.current = original; } }, [original]);
+  useEffect(() => { if (original && (!atual.current || atual.current.id !== original.id)) { setM(original); atual.current = original; foto.current = original; } }, [original]);
   // ao sair da tela, grava o que estiver pendente
   useEffect(() => () => { if (tempo.current) { clearTimeout(tempo.current); if (atual.current) salvarMensagem(atual.current); } }, []);
+  // ao tentar sair de uma mensagem que está sendo escrita, pergunta o que fazer
+  useEffect(() => {
+    definirGuarda((destino) => {
+      const a = atual.current;
+      if (!a || a.autor_id !== perfil.id) return true;
+      if (vazia(a)) { if (vazia(foto.current)) apagarMensagem(a.id); return true; }
+      if (!editou.current || a.situacao !== 'rascunho') return true;
+      setSaida(destino); return false;
+    });
+    return () => definirGuarda(null);
+  }, [perfil.id]);
+  // se o app for fechado ou trocar de aba, o que foi escrito fica salvo como rascunho
+  useEffect(() => {
+    const gravar = () => { if (tempo.current) { clearTimeout(tempo.current); tempo.current = null; } if (atual.current && editou.current) salvarMensagem(atual.current); };
+    const visivel = () => { if (document.visibilityState === 'hidden') gravar(); };
+    window.addEventListener('pagehide', gravar); document.addEventListener('visibilitychange', visivel);
+    return () => { window.removeEventListener('pagehide', gravar); document.removeEventListener('visibilitychange', visivel); };
+  }, []);
 
   if (!dados.pronto) return <Carregando />;
   if (!original || !m) return (<><Cabecalho titulo="Mensagem" voltar="/mensagens" /><p className="p-8 text-center text-mute">Mensagem não encontrada. Ela pode ter sido apagada ou deixado de ser pública.</p></>);
@@ -40,7 +64,7 @@ export function Mensagem({ id }: { id: string }) {
   const mudar = (parte: Partial<Msg>) => {
     if (!minha) return;
     const nova = { ...m, ...parte };
-    setM(nova); atual.current = nova; setEstado('editando');
+    setM(nova); atual.current = nova; setEstado('editando'); editou.current = true;
     if (tempo.current) clearTimeout(tempo.current);
     tempo.current = setTimeout(() => { tempo.current = null; salvarMensagem(nova); setEstado('salvo'); }, 900);
   };
@@ -107,7 +131,7 @@ export function Mensagem({ id }: { id: string }) {
         <section aria-label="Mensagem">
           <div className="mb-3 flex gap-2" role="group" aria-label="Como escrever">
             <button type="button" className="chip flex-1" aria-pressed={aba === 'digitar'} onClick={() => setAba('digitar')}>Digitar</button>
-            <button type="button" className="chip flex-1" aria-pressed={aba === 'mao'} onClick={() => setAba('mao')}>Escrever à mão{c.tracos.length ? ' •' : ''}</button>
+            <button type="button" className="chip flex-1" aria-pressed={aba === 'mao'} onClick={() => setAba('mao')}>Escrever{c.tracos.length ? ' •' : ''}</button>
           </div>
           {aba === 'digitar' ? (
             <textarea className="campo" rows={16} value={c.texto} onChange={(e) => mc({ texto: e.target.value })} placeholder="Escreva a mensagem" aria-label="Texto da mensagem" readOnly={!minha} style={{ lineHeight: 1.8 }} />
@@ -128,7 +152,7 @@ export function Mensagem({ id }: { id: string }) {
             <section className="cartao flex flex-col gap-3">
               <p className="rotulo !mb-0">Situação</p>
               <div className="flex gap-2" role="group" aria-label="Situação">
-                {SITUACOES.map((s) => <button key={s} type="button" className="chip flex-1" aria-pressed={m.situacao === s} onClick={() => mudar({ situacao: s })}>{ROTULO_SITUACAO[s]}</button>)}
+                {SITUACOES.map((s) => <button key={s} type="button" className="chip chip-justo flex-1" aria-pressed={m.situacao === s} onClick={() => mudar({ situacao: s })}>{ROTULO_SITUACAO[s]}</button>)}
               </div>
               <p className="rotulo !mb-0">Quem pode ler</p>
               <div className="flex gap-2" role="group" aria-label="Visibilidade">
@@ -142,6 +166,20 @@ export function Mensagem({ id }: { id: string }) {
           </>
         ) : null}
       </main>
+      {saida ? (
+        <div className="fixed inset-0 z-50 grid place-items-center bg-black/40 p-4" role="dialog" aria-modal="true" aria-label="Sair da mensagem">
+          <div className="cartao w-full max-w-sm">
+            <h2 className="tit">Sair da mensagem?</h2>
+            <p className="my-3 text-[15px]">“{m.titulo || 'Sem título'}” ainda está em rascunho. O que você quer fazer?</p>
+            <div className="flex flex-col gap-2">
+              <button type="button" className="btn btn-pri" onClick={() => { const d = saida; const nova = { ...m, situacao: 'pronta' as const }; if (tempo.current) clearTimeout(tempo.current); salvarMensagem(nova); setSaida(null); avisar('Mensagem salva como pronta'); sairSemGuarda(d); }}>Salvar como pronta</button>
+              <button type="button" className="btn" onClick={() => { const d = saida; if (tempo.current) clearTimeout(tempo.current); salvarMensagem(m); setSaida(null); avisar('Rascunho salvo'); sairSemGuarda(d); }}>Salvar rascunho</button>
+              <button type="button" className="btn btn-perigo" onClick={() => { const d = saida; if (tempo.current) { clearTimeout(tempo.current); tempo.current = null; } const f = foto.current; if (!f || vazia(f)) apagarMensagem(m.id); else salvarMensagem(f); atual.current = null; setSaida(null); sairSemGuarda(d); }}>Sair sem salvar</button>
+              <button type="button" className="btn" onClick={() => setSaida(null)}>Continuar escrevendo</button>
+            </div>
+          </div>
+        </div>
+      ) : null}
       {apagar ? <Confirmar titulo="Apagar esta mensagem?" texto={`“${m.titulo || 'Sem título'}” será apagada de vez, com os registros de pregação. Não dá para desfazer.`} acao="Apagar" perigo
         onNao={() => setApagar(false)} onSim={() => { if (tempo.current) { clearTimeout(tempo.current); tempo.current = null; } atual.current = null; apagarMensagem(m.id); avisar('Mensagem apagada'); ir('/mensagens'); }} /> : null}
     </>
@@ -152,7 +190,11 @@ function Pregacoes({ m, lista, igrejaPadrao }: { m: Msg; lista: Pregacao[]; igre
   const { avisar } = useApp();
   const [data, setData] = useState(() => new Date().toLocaleDateString('sv-SE'));
   const [igreja, setIgreja] = useState(igrejaPadrao);
-  const [ocasiao, setOcasiao] = useState<string>(ESTILOS[0]);
+  const [estilos, setEstilos] = useState<string[]>(() => pref.ler('estilos', [...ESTILOS]));
+  const [ocasiao, setOcasiao] = useState<string>(() => pref.ler<string[]>('estilos', [...ESTILOS])[0] || '');
+  const [editarEstilos, setEditarEstilos] = useState(false);
+  const [novoEstilo, setNovoEstilo] = useState('');
+  const gravarEstilos = (l: string[]) => { setEstilos(l); pref.gravar('estilos', l); if (!l.includes(ocasiao)) setOcasiao(l[0] || ''); };
   function registrar(e: React.FormEvent) {
     e.preventDefault();
     if (!data) return;
@@ -176,7 +218,21 @@ function Pregacoes({ m, lista, igrejaPadrao }: { m: Msg; lista: Pregacao[]; igre
       <form onSubmit={registrar} className="grid gap-2 sm:grid-cols-3">
         <div><label className="rotulo" htmlFor="prData">Data</label><input id="prData" type="date" className="campo" value={data} onChange={(e) => setData(e.target.value)} required /></div>
         <div><label className="rotulo" htmlFor="prIgreja">Igreja</label><input id="prIgreja" className="campo" value={igreja} onChange={(e) => setIgreja(e.target.value)} maxLength={120} /></div>
-        <div><label className="rotulo" htmlFor="prOc">Estilo</label><select id="prOc" className="campo" value={ocasiao} onChange={(e) => setOcasiao(e.target.value)}>{ESTILOS.map((o) => <option key={o}>{o}</option>)}</select></div>
+        <div><label className="rotulo" htmlFor="prOc">Estilo</label><select id="prOc" className="campo" value={ocasiao} onChange={(e) => setOcasiao(e.target.value)}>{estilos.map((o) => <option key={o}>{o}</option>)}</select>
+          <button type="button" className="ajuda !mt-1 underline" onClick={() => setEditarEstilos(!editarEstilos)}>{editarEstilos ? 'Fechar a edição dos estilos' : 'Editar os estilos'}</button></div>
+        {editarEstilos ? (
+          <div className="rounded-xl border border-line p-3 sm:col-span-3">
+            <p className="rotulo !mt-0">Seus estilos</p>
+            <ul className="m-0 flex list-none flex-wrap gap-1.5 p-0">
+              {estilos.map((e) => <li key={e} className="etiqueta inline-flex items-center gap-1.5">{e}<button type="button" aria-label={`Apagar o estilo ${e}`} className="font-bold text-red" onClick={() => gravarEstilos(estilos.filter((x) => x !== e))}>×</button></li>)}
+            </ul>
+            <div className="mt-2 flex gap-2">
+              <input className="campo flex-1" value={novoEstilo} maxLength={40} placeholder="Novo estilo" aria-label="Novo estilo" onChange={(e) => setNovoEstilo(e.target.value)} />
+              <button type="button" className="btn btn-mini" onClick={() => { const t = novoEstilo.trim(); if (t && !estilos.includes(t)) gravarEstilos([...estilos, t]); setNovoEstilo(''); }}>Acrescentar</button>
+            </div>
+            <button type="button" className="ajuda underline" onClick={() => gravarEstilos([...ESTILOS])}>Voltar aos estilos de fábrica</button>
+          </div>
+        ) : null}
         <button type="submit" className="btn sm:col-span-3">+ Registrar que preguei</button>
       </form>
     </section>

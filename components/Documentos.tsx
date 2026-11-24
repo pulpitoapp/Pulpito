@@ -1,7 +1,7 @@
 'use client';
 // "Meus documentos": comentários e comparações salvos, organizados em pastas.
 // Só a própria pessoa vê. O PDF é gerado na hora (não ocupa espaço) e pode ir para o Google Drive dela.
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { norm } from '@/lib/biblia';
 import {
   alterarDocumento, apagarDocumento, apagarPasta, criarPasta, iniciarDocumentos, renomearPasta, salvarDocumento, useDocumentos,
@@ -91,6 +91,9 @@ export function Documentos() {
   const [apagar, setApagar] = useState(false);
   const [nova, setNova] = useState<string | null>(null);
   const escolher = (p: string) => { setPasta(p); pref.gravar('docs-pasta', p); setRenomear(null); };
+  // segurar o dedo numa pasta abre a opção de renomear
+  const toque = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const segurou = useRef(false);
   const atual = d.pastas.find((p) => p.id === pasta);
   const q = norm(busca.trim());
   const lista = useMemo(() => d.documentos.filter((doc) => {
@@ -107,7 +110,13 @@ export function Documentos() {
         <input className="campo" type="search" placeholder="Buscar nos documentos" value={busca} onChange={(e) => setBusca(e.target.value)} aria-label="Buscar documentos" />
         <div className="flex flex-wrap gap-2" role="group" aria-label="Pastas">
           <button type="button" className="chip" aria-pressed={!pasta} onClick={() => escolher('')}>Todos</button>
-          {d.pastas.map((p) => <button key={p.id} type="button" className="chip" aria-pressed={pasta === p.id} onClick={() => escolher(p.id)}>{p.nome}</button>)}
+          {d.pastas.map((p) => (
+            <button key={p.id} type="button" className="chip" aria-pressed={pasta === p.id} title="Segure para renomear"
+              onClick={() => { if (segurou.current) { segurou.current = false; return; } escolher(p.id); }}
+              onPointerDown={() => { segurou.current = false; if (toque.current) clearTimeout(toque.current); toque.current = setTimeout(() => { segurou.current = true; escolher(p.id); setRenomear(p.nome); navigator.vibrate?.(15); }, 550); }}
+              onPointerUp={() => { if (toque.current) clearTimeout(toque.current); }} onPointerLeave={() => { if (toque.current) clearTimeout(toque.current); }}
+              onContextMenu={(e) => { e.preventDefault(); escolher(p.id); setRenomear(p.nome); }}>{p.nome}</button>
+          ))}
           <button type="button" className="chip" aria-pressed={pasta === '-'} onClick={() => escolher('-')}>Sem pasta</button>
           <button type="button" className="chip" onClick={() => setNova('')}>+ Pasta</button>
         </div>
@@ -132,6 +141,7 @@ export function Documentos() {
             </div>
           )
         ) : null}
+        {d.pastas.length && !atual ? <p className="ajuda !mt-0">Dica: segure o dedo numa pasta para renomear.</p> : null}
         {d.erro ? <p className="ajuda !mt-0">{d.erro}</p> : null}
         {!d.pronto ? <Carregando /> : !lista.length ? (
           <div className="cartao text-center">

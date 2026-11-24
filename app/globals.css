@@ -16,6 +16,7 @@
   --escuro: #4a1626;    /* vinho: botões principais e destaques */
   --ouro: #c9a24a;
   --red: #a3241f;
+  --texto-vinho: #4a1626; /* vinho usado em textos (no modo escuro fica rosado claro) */
 }
 
 @theme inline {
@@ -38,7 +39,7 @@
   * { min-width: 0; }
   html { -webkit-text-size-adjust: 100%; }
   body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 var(--font-corpo), Georgia, serif; overflow-x: clip; -webkit-tap-highlight-color: transparent; }
-  h1, h2, h3 { font-family: var(--font-corpo), Georgia, serif; font-weight: 900; line-height: 1.15; margin: 0; text-wrap: balance; color: var(--escuro); }
+  h1, h2, h3 { font-family: var(--font-corpo), Georgia, serif; font-weight: 900; line-height: 1.15; margin: 0; text-wrap: balance; color: var(--texto-vinho); }
   button, input, select, textarea { font: inherit; color: inherit; }
   button { cursor: pointer; }
   :focus-visible { outline: 3px solid var(--ouro); outline-offset: 2px; }
@@ -87,12 +88,12 @@
 .abas { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; display: grid; grid-template-columns: repeat(5, 1fr); padding: 6px 8px calc(6px + env(safe-area-inset-bottom)); background: color-mix(in srgb, var(--folha) 94%, transparent); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); border-top: 1px solid var(--line); }
 .abas a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; min-height: 54px; color: var(--mute); font: 400 9px/1 var(--font-rotulo), monospace; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; border-radius: 14px; }
 .abas svg { width: 23px; height: 23px; }
-.abas a[aria-current="page"] { color: var(--escuro); }
+.abas a[aria-current="page"] { color: var(--texto-vinho); }
 .abas .fab { display: grid; place-items: center; width: 50px; height: 50px; margin-top: -20px; border-radius: 50%; background: linear-gradient(135deg, #6a2338, #4a1626); color: #fff; border: 4px solid var(--folha); box-shadow: 0 10px 22px -8px #4a1626cc; }
 
 /* Leitura da Bíblia */
 .leitura-biblia { font-family: var(--font-corpo), Georgia, serif; line-height: 1.85; }
-.secao { color: var(--escuro); font-weight: 700; margin: 1.5em 0 .15em; font-size: .98em; line-height: 1.35; }
+.secao { color: var(--texto-vinho); font-weight: 700; margin: 1.5em 0 .15em; font-size: .98em; line-height: 1.35; }
 .verso { margin: 0; padding: 1px 4px; border-radius: 4px; cursor: pointer; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .verso .n { color: var(--num); font-size: .68em; margin-right: .35em; font-variant-numeric: tabular-nums; }
 .verso i { font-style: italic; opacity: .8; }
@@ -129,19 +130,19 @@
 .inter-heb { font-family: var(--font-hebraico), "Times New Roman", serif; font-size: 27px; line-height: 1.5; color: var(--ink); }
 .inter-gre { font-family: "Gentium Plus", "Times New Roman", serif; font-size: 22px; line-height: 1.4; color: var(--ink); }
 .inter-tr { font: 400 11px/1.2 var(--font-rotulo), monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--mute); }
-.inter-sig { font-size: 13.5px; line-height: 1.25; color: var(--escuro); max-width: 120px; }
-.ordem-original { margin: 10px 0 8px; font-size: 15px; line-height: 1.45; font-style: italic; color: var(--escuro); }
+.inter-sig { font-size: 13.5px; line-height: 1.25; color: var(--texto-vinho); max-width: 120px; }
+.ordem-original { margin: 10px 0 8px; font-size: 15px; line-height: 1.45; font-style: italic; color: var(--texto-vinho); }
 .ordem-original .rot { display: block; font-style: normal; margin-bottom: 2px; }
 summary.topico { list-style: none; }
 summary.topico::-webkit-details-marker { display: none; }
 summary.topico .seta { display: inline-block; width: 14px; margin-top: 1px; transition: transform .15s; }
 details[open] > summary.topico .seta { transform: rotate(90deg); }
-.ref-balao { color: var(--escuro); text-decoration: underline dotted; text-underline-offset: 3px; font-weight: 600; }
+.ref-balao { color: var(--texto-vinho); text-decoration: underline dotted; text-underline-offset: 3px; font-weight: 600; }
 .omitido { color: var(--mute); font-style: italic; font-size: .92em; }
 .comparar-tit { margin: 0; padding: 10px 14px; border-radius: 12px; background: var(--escuro); color: #fff; font-size: 17px; display: flex; flex-wrap: wrap; align-items: baseline; }
 .comparar-tit .rot { color: var(--ouro); }
 .fundo-balao { position: fixed; inset: 0; z-index: 70; background: rgba(30, 10, 16, .35); }
-.balao { position: fixed; z-index: 71; left: 16px; right: 16px; top: 50%; transform: translateY(-50%); max-width: 520px; margin: 0 auto; background: #fff; border-radius: 18px; padding: 18px; box-shadow: 0 18px 50px rgba(30, 10, 16, .35); border-top: 4px solid var(--ouro); }
+.balao { position: fixed; z-index: 71; left: 16px; right: 16px; top: 50%; transform: translateY(-50%); max-width: 520px; margin: 0 auto; background: var(--paper); border-radius: 18px; padding: 18px; box-shadow: 0 18px 50px rgba(30, 10, 16, .35); border-top: 4px solid var(--ouro); }
 .btn svg, .chip svg { width: 20px; height: 20px; flex: none; }
 
 /* ---------- abertura (3 s) ---------- */
@@ -163,3 +164,23 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
   .abertura, .abertura * { animation: none !important; }
   .ab-extra { opacity: 0; }
 }
+/* chips lado a lado que precisam caber (ex.: "Já preguei") */
+.chip.chip-justo { padding-left: 8px; padding-right: 8px; letter-spacing: .08em; white-space: nowrap; }
+/* topo das telas: rótulo um pouco maior para ler bem no celular */
+.topo p.rot { font-size: 12.5px; }
+/* tamanho da letra: balão vinho no menu da Bíblia */
+.balao-tamanho { display: inline-flex; align-items: center; gap: 6px; padding: 6px; border-radius: 999px; background: var(--escuro); color: #fff; box-shadow: 0 8px 22px rgba(74, 22, 38, .25); }
+.balao-tamanho button { width: 48px; height: 48px; border-radius: 50%; background: var(--ouro); color: #2a0c16; font: 900 17px/1 var(--font-corpo), Georgia, serif; }
+.balao-tamanho span { min-width: 120px; text-align: center; font: 900 20px/1.1 var(--font-corpo), Georgia, serif; }
+.balao-tamanho small { display: block; font: 400 9.5px/1.4 var(--font-rotulo), monospace; letter-spacing: .2em; text-transform: uppercase; color: #e7cfd5; }
+
+/* ---------- modo escuro (Perfil > Aparência). No "automático", o app aplica "escuro" quando o celular está escuro ---------- */
+:root[data-tema="escuro"] {
+  color-scheme: dark;
+  --bg: #161011; --folha: #20171a; --paper: #2a1f23; --ink: #f1e8ea; --mute: #b7a6ab; --apagado: #5e4c51;
+  --num: #94808a; --line: #3b2d31; --sel: #4b3b1b; --red: #ff8a80; --texto-vinho: #ecbcc8;
+}
+:root[data-tema="escuro"] .btn, :root[data-tema="escuro"] .chip, :root[data-tema="escuro"] .redondo { border-color: #4d3b41; }
+:root[data-tema="escuro"] .abas { background: var(--folha); border-color: var(--line); }
+:root[data-tema="escuro"] .cartao { box-shadow: none; }
+.convite { border-top: 4px solid var(--ouro); }

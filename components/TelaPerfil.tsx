@@ -1,4 +1,5 @@
 'use client';
+import { escolherTema, lerTema, type Tema } from '@/lib/cliente/tema';
 import { useState } from 'react';
 import { pendentes, sincronizar, useDados } from '@/lib/cliente/dados';
 import { supa } from '@/lib/cliente/supabase';
@@ -8,6 +9,7 @@ import { CamposPerfil } from './Entrar';
 import { IcoAdmin, IcoSair } from './Icones';
 
 export function TelaPerfil() {
+  const [tema, setTema] = useState<Tema>(() => (typeof window === 'undefined' ? 'auto' : lerTema()));
   const { perfil, atualizarPerfil, avisar, online, sair } = useApp();
   const dados = useDados();
   const [v, setV] = useState({ nome: perfil.nome, cargo: perfil.cargo, igreja: perfil.igreja, cidade: perfil.cidade });
@@ -35,6 +37,16 @@ export function TelaPerfil() {
           <CamposPerfil valor={v} mudar={(m) => setV({ ...v, ...m } as typeof v)} />
           <button type="submit" className="btn btn-pri" disabled={ocupado}>{ocupado ? 'Salvando…' : 'Salvar perfil'}</button>
         </form>
+
+        <section className="cartao">
+          <p className="rotulo">Aparência</p>
+          <div className="flex gap-2" role="group" aria-label="Aparência">
+            {([['claro', 'Claro'], ['escuro', 'Escuro'], ['auto', 'Automático']] as const).map(([k, n]) => (
+              <button key={k} type="button" className="chip chip-justo flex-1" aria-pressed={tema === k} onClick={() => { setTema(k); escolherTema(k); }}>{n}</button>
+            ))}
+          </div>
+          <p className="ajuda">No automático, o app fica escuro quando o celular estiver no modo escuro.</p>
+        </section>
 
         <section className="cartao">
           <p className="rotulo">Instalar no celular</p>

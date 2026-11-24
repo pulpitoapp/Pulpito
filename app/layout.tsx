@@ -25,7 +25,11 @@ export const viewport: Viewport = { themeColor: '#4a1626', width: 'device-width'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${corpo.variable} ${titulo.variable} ${rotulo.variable} ${cartaoSerif.variable} ${cartaoSans.variable} ${hebraico.variable}`}>
+    <html lang="pt-BR" suppressHydrationWarning className={`${corpo.variable} ${titulo.variable} ${rotulo.variable} ${cartaoSerif.variable} ${cartaoSans.variable} ${hebraico.variable}`}>
+      <head>
+        {/* aplica o modo claro/escuro antes de desenhar a página (evita piscar) */}
+        <script dangerouslySetInnerHTML={{ __html: "try{var t=JSON.parse(localStorage.getItem('pulpito:tema')||'\"auto\"');var e=t==='escuro'||(t!=='claro'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.tema=e?'escuro':'claro'}catch(_){}" }} />
+      </head>
       <body>{children}</body>
     </html>
   );

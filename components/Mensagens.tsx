@@ -45,7 +45,7 @@ export function Mensagens() {
   return (
     <>
       <Cabecalho titulo="Mensagens" sub={`${lista.length} ${lista.length === 1 ? 'mensagem' : 'mensagens'}`}>
-        <button type="button" className="btn btn-pri btn-mini" onClick={criar}>+ Nova</button>
+        <button type="button" className="btn btn-pri !text-[14px] !tracking-[.14em]" onClick={criar}>+ Nova</button>
       </Cabecalho>
       <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2">
         <AbasMensagens atual="mensagens" />

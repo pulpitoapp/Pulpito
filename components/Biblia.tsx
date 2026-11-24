@@ -40,6 +40,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   const [porPalavra, setPorPalavra] = useState<boolean>(() => pref.ler('biblia-inter', false));
   const [palavra, setPalavra] = useState<[string, string, string, string] | null>(null);
   const [comentarioV, setComentarioV] = useState<number | null>(null);
+  const arraste = useRef<{ x: number; y: number; quando: number } | null>(null);
   const [tam, setTam] = useState<number>(() => pref.ler('biblia-tam', 19));
   const [pos, setPos] = useState<{ l: number; c: number }>(() => pref.ler('biblia-pos', { l: 42, c: 0 }));
   const [sel, setSel] = useState<Set<number>>(new Set());
@@ -154,7 +155,15 @@ export function Biblia({ alvo }: { alvo: number[] }) {
         </div>
       </header>
 
-      <main className={`mx-auto max-w-2xl px-5 pb-40 ${sel.size ? 'tem-selecao' : ''}`}>
+      <main className={`mx-auto max-w-2xl px-5 pb-40 ${sel.size ? 'tem-selecao' : ''}`}
+        onTouchStart={(e) => { const t = e.touches[0]; arraste.current = e.touches.length === 1 ? { x: t.clientX, y: t.clientY, quando: Date.now() } : null; }}
+        onTouchEnd={(e) => {
+          const a = arraste.current; arraste.current = null;
+          if (!a || aberto) return;
+          const t = e.changedTouches[0], dx = t.clientX - a.x, dy = t.clientY - a.y;
+          // arrastar para o lado: para a esquerda = próximo capítulo; para a direita = anterior
+          if (Math.abs(dx) > 80 && Math.abs(dx) > Math.abs(dy) * 2 && Date.now() - a.quando < 700 && !window.getSelection()?.toString()) vizinho(dx < 0 ? 1 : -1);
+        }}>
         <button type="button" className="mx-auto mt-8 block text-center" onClick={() => setAberto('menu')} aria-label="Trocar de livro ou capítulo">
           <h1 className="text-[34px]">{nomeLivro} {pos.c + 1}</h1>
         </button>
@@ -247,7 +256,26 @@ export function Biblia({ alvo }: { alvo: number[] }) {
       {aberto === 'cartao' ? <PainelCartao texto={textoSel} livro={nomeLivro} cap={pos.c + 1} versos={faixas(selOrdenada)} sigla={versao.sigla} fechar={() => setAberto(null)} /> : null}
 
       {aberto === 'menu' ? (
-        <Painel titulo="Bíblia" sub="Versão, livro e capítulo" fechar={() => setAberto(null)}>
+        <Painel titulo="Bíblia" sub="Livro, capítulo e versão" fechar={() => setAberto(null)}>
+          <div className="grid grid-cols-2 gap-2">
+            <div><label className="rotulo" htmlFor="bLivro">Livro</label>
+              <select id="bLivro" className="campo" value={pos.l} onChange={(e) => { setAberto(null); irPara(Number(e.target.value), 0); }}>
+                {(!versao.livros || versao.livros[0] === 0) ? <optgroup label="Antigo Testamento">{LIVROS.slice(0, 39).map((n, i) => <option key={i} value={i}>{n}</option>)}</optgroup> : null}
+                {(!versao.livros || versao.livros[1] === 65) ? <optgroup label="Novo Testamento">{LIVROS.slice(39).map((n, i) => <option key={i + 39} value={i + 39}>{n}</option>)}</optgroup> : null}
+              </select></div>
+            <div><label className="rotulo" htmlFor="bCap">Capítulo</label>
+              <select id="bCap" className="campo" value={pos.c} onChange={(e) => { setAberto(null); irPara(pos.l, Number(e.target.value)); }}>{biblia[pos.l][2].map((_, i) => <option key={i} value={i}>{i + 1}</option>)}</select></div>
+          </div>
+
+          <div className="mt-5 flex justify-center">
+            <div className="balao-tamanho" role="group" aria-label="Tamanho da letra">
+              <button type="button" onClick={() => { const n = Math.max(14, tam - 1); setTam(n); pref.gravar('biblia-tam', n); }} aria-label="Diminuir a letra">A−</button>
+              <span><small>Tamanho da letra</small>{tam}</span>
+              <button type="button" onClick={() => { const n = Math.min(30, tam + 1); setTam(n); pref.gravar('biblia-tam', n); }} aria-label="Aumentar a letra">A+</button>
+            </div>
+          </div>
+          <div className="mt-5" />
+
           <label className="rotulo" htmlFor="bVersao">Qual Bíblia ler</label>
           <select id="bVersao" className="campo" value={versaoId} onChange={(e) => trocarVersao(e.target.value)}>{VERSOES.map((v) => <option key={v.id} value={v.id}>{v.nome}</option>)}</select>
           <label className="rotulo mt-4" htmlFor="bComparar">Comparar com (aparece abaixo de cada versículo)</label>
@@ -263,21 +291,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
           ) : null}
           <p className="ajuda">Almeida Revista e Corrigida e Revista e Atualizada entram aqui quando houver licença da Sociedade Bíblica do Brasil.</p>
 
-          <div className="mt-4 grid grid-cols-2 gap-2">
-            <div><label className="rotulo" htmlFor="bLivro">Livro</label>
-              <select id="bLivro" className="campo" value={pos.l} onChange={(e) => { setAberto(null); irPara(Number(e.target.value), 0); }}>
-                {(!versao.livros || versao.livros[0] === 0) ? <optgroup label="Antigo Testamento">{LIVROS.slice(0, 39).map((n, i) => <option key={i} value={i}>{n}</option>)}</optgroup> : null}
-                {(!versao.livros || versao.livros[1] === 65) ? <optgroup label="Novo Testamento">{LIVROS.slice(39).map((n, i) => <option key={i + 39} value={i + 39}>{n}</option>)}</optgroup> : null}
-              </select></div>
-            <div><label className="rotulo" htmlFor="bCap">Capítulo</label>
-              <select id="bCap" className="campo" value={pos.c} onChange={(e) => { setAberto(null); irPara(pos.l, Number(e.target.value)); }}>{biblia[pos.l][2].map((_, i) => <option key={i} value={i}>{i + 1}</option>)}</select></div>
-          </div>
-          <p className="rotulo mt-4">Tamanho da letra</p>
-          <div className="flex items-center gap-3">
-            <button type="button" className="redondo" onClick={() => { const n = Math.max(14, tam - 1); setTam(n); pref.gravar('biblia-tam', n); }} aria-label="Diminuir a letra">A−</button>
-            <span className="rot">{tam}</span>
-            <button type="button" className="redondo" onClick={() => { const n = Math.min(30, tam + 1); setTam(n); pref.gravar('biblia-tam', n); }} aria-label="Aumentar a letra">A+</button>
-          </div>
+
         </Painel>
       ) : null}
 

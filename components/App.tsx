@@ -6,7 +6,8 @@ import { BASE } from '@/lib/cliente/bibliaDados';
 import { iniciarDados, limparDados, novaMensagem, salvarMensagem, sincronizar } from '@/lib/cliente/dados';
 import { pref } from '@/lib/cliente/local';
 import { semSupabase, supa } from '@/lib/cliente/supabase';
-import { AppCtx, ir } from './contexto';
+import { AppCtx, ir, podeSair } from './contexto';
+import { aplicarTema } from '@/lib/cliente/tema';
 import { Carregando } from './Cabecalho';
 import { IcoBiblia, IcoInicio, IcoMais, IcoMensagens, IcoPerfil } from './Icones';
 import { CompletarPerfil, Entrar, NovaSenha } from './Entrar';
@@ -40,10 +41,18 @@ export function App() {
 
   // rota (endereço depois do #), rede e service worker
   useEffect(() => {
-    const aoMudar = () => { setRota(lerRota()); window.scrollTo(0, 0); };
+    let anterior = lerRota();
+    const aoMudar = () => {
+      const nova = lerRota();
+      if (nova === anterior) return;
+      // a tela atual pode pedir confirmação antes de sair (ex.: mensagem sendo escrita)
+      if (!podeSair(nova)) { history.replaceState(null, '', '#' + anterior); return; }
+      anterior = nova; setRota(nova); window.scrollTo(0, 0);
+    };
     const rede = () => { setOnline(navigator.onLine); if (navigator.onLine) void sincronizar(); };
-    setRota(lerRota());
+    setRota(anterior);
     setOnline(navigator.onLine);
+    aplicarTema();
     window.addEventListener('hashchange', aoMudar);
     window.addEventListener('online', rede);
     window.addEventListener('offline', rede);
