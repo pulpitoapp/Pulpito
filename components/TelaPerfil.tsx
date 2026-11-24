@@ -38,6 +38,8 @@ export function TelaPerfil() {
           <button type="submit" className="btn btn-pri" disabled={ocupado}>{ocupado ? 'Salvando…' : 'Salvar perfil'}</button>
         </form>
 
+        <a href="#/leitura" className="cartao block no-underline"><p className="rotulo !mb-1">Minha leitura</p><span className="text-[15px]">Relatório de leitura, tempo de uso e marcar o que já leu →</span></a>
+
         <section className="cartao">
           <p className="rotulo">Aparência</p>
           <div className="flex gap-2" role="group" aria-label="Aparência">

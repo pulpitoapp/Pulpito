@@ -300,3 +300,26 @@ drop policy if exists documentos_dono on public.documentos;
 create policy documentos_dono on public.documentos for all to authenticated
   using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar()
     and (pasta_id is null or exists (select 1 from public.pastas p where p.id = pasta_id and p.usuario_id = auth.uid())));
+-- Leitura: capítulos lidos (quantas vezes) e tempo de uso por dia. Só o dono vê.
+create table if not exists public.leituras (
+  usuario_id uuid not null default auth.uid() references public.perfis (id) on delete cascade,
+  ref text not null check (ref ~ '^[0-9]{1,2}\.[0-9]{1,3}$'),     -- "livro.capítulo" (capítulo a partir de 0)
+  vezes integer not null default 1 check (vezes between 0 and 100000),
+  ultima timestamptz not null default now(),
+  primary key (usuario_id, ref)
+);
+create table if not exists public.uso_diario (
+  usuario_id uuid not null default auth.uid() references public.perfis (id) on delete cascade,
+  dia date not null,
+  segundos integer not null default 0 check (segundos between 0 and 86400),
+  primary key (usuario_id, dia)
+);
+alter table public.leituras enable row level security;
+alter table public.uso_diario enable row level security;
+grant select, insert, update, delete on public.leituras, public.uso_diario to authenticated;
+drop policy if exists leituras_dono on public.leituras;
+create policy leituras_dono on public.leituras for all to authenticated
+  using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar());
+drop policy if exists uso_dono on public.uso_diario;
+create policy uso_dono on public.uso_diario for all to authenticated
+  using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar());

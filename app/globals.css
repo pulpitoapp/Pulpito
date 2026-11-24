@@ -224,3 +224,35 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 @keyframes destaque-entra { from { opacity: 0; transform: translateY(12px) scale(.98); } to { opacity: 1; transform: none; } }
 @keyframes destaque-reflexo { 0%, 70% { background-position: 150% 0; } 100% { background-position: -100% 0; } }
 @media (prefers-reduced-motion: reduce) { .destaque-vidro, .destaque-vidro::after { animation: none; } }
+/* progresso de leitura (topo do capítulo) */
+.progresso-leitura { display: block; max-width: 420px; margin: 14px auto 0; text-decoration: none; text-align: center; color: var(--mute); }
+.progresso-barra { display: block; height: 6px; border-radius: 99px; background: var(--line); overflow: hidden; }
+.progresso-barra > span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--escuro), var(--ouro)); transition: width .4s; }
+.progresso-texto { display: block; margin-top: 6px; font-size: 12.5px; line-height: 1.4; }
+.progresso-texto b { color: var(--texto-vinho); }
+.progresso-texto em { font-style: normal; color: var(--texto-vinho); }
+/* relatório de leitura */
+.relatorio-progresso { display: flex; align-items: center; gap: 18px; }
+.anel { flex: none; width: 112px; height: 112px; border-radius: 50%; display: grid; place-items: center; background: conic-gradient(var(--ouro) var(--p), var(--line) 0); }
+.anel span { width: 86px; height: 86px; border-radius: 50%; display: grid; place-items: center; background: var(--paper); font: 900 20px/1 var(--font-corpo), Georgia, serif; color: var(--texto-vinho); }
+.numero { border: 1px solid var(--line); border-radius: 16px; padding: 12px; display: flex; flex-direction: column; gap: 4px; }
+.numero b { font: 900 20px/1.1 var(--font-corpo), Georgia, serif; color: var(--texto-vinho); }
+.numero span { font: 400 10px/1.3 var(--font-rotulo), monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }
+.grafico-semana { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; height: 110px; align-items: end; }
+.grafico-semana > div { height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 4px; }
+.grafico-semana > div > span { width: 70%; border-radius: 8px 8px 3px 3px; background: linear-gradient(180deg, var(--ouro), var(--escuro)); }
+.grafico-semana small { font: 400 10px/1 var(--font-rotulo), monospace; text-transform: uppercase; color: var(--mute); }
+.grade-capitulos { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 6px; }
+.grade-capitulos button { position: relative; height: 40px; border-radius: 10px; border: 1px solid var(--line); background: var(--paper); font-size: 15px; }
+.grade-capitulos button[aria-pressed="true"] { background: var(--escuro); border-color: var(--escuro); color: #fff; }
+.grade-capitulos sup { position: absolute; top: 3px; right: 5px; font: 700 9px/1 var(--font-rotulo), monospace; color: var(--ouro); }
+/* Bíblia falada */
+.ouvir { display: inline-flex; align-items: center; gap: 8px; padding: 5px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); }
+.ouvir button { width: 38px; height: 38px; border-radius: 50%; background: var(--escuro); color: #fff; font-size: 13px; display: grid; place-items: center; }
+.ouvir .ouvir-vel { width: auto; padding: 0 10px; border-radius: 999px; background: transparent; color: var(--texto-vinho); border: 1px solid var(--line); font: 700 12px/1 var(--font-rotulo), monospace; height: 32px; }
+.ouvir-txt { font: 700 10.5px/1 var(--font-rotulo), monospace; letter-spacing: .14em; text-transform: uppercase; color: var(--mute); padding-right: 4px; }
+.verso[data-lendo] { background: color-mix(in srgb, var(--ouro) 22%, transparent); border-radius: 8px; box-shadow: -6px 0 0 color-mix(in srgb, var(--ouro) 22%, transparent), 6px 0 0 color-mix(in srgb, var(--ouro) 22%, transparent); }
+/* texto do dia */
+.texto-do-dia { position: relative; border-radius: 24px; padding: 20px; background: var(--paper); border: 1px solid var(--line); border-left: 5px solid var(--ouro); box-shadow: 0 10px 30px -18px #2e0c1759; }
+.texto-do-dia blockquote { font: italic 400 19px/1.55 var(--font-corpo), Georgia, serif; color: var(--ink); }
+.texto-do-dia-ref { margin: 8px 0 0; font: 700 12px/1 var(--font-rotulo), monospace; letter-spacing: .16em; text-transform: uppercase; color: var(--texto-vinho); }

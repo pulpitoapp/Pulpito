@@ -6,6 +6,7 @@ import { temLivro, transliterar, versaoPorId, VERSOES } from '@/lib/versoes';
 import { carregarTitulos, useBiblia, type Titulos } from '@/lib/cliente/bibliaDados';
 import { destacar, useDados } from '@/lib/cliente/dados';
 import { pref } from '@/lib/cliente/local';
+import { contarLeitura, porcento, resumo, useLeitura } from '@/lib/cliente/leitura';
 import { PainelCartao } from './Cartao';
 import { Carregando } from './Cabecalho';
 import { ir, useApp } from './contexto';
@@ -13,6 +14,7 @@ import { IcoApostila, IcoBusca, IcoEnviar, IcoLapis, IcoMarca, IcoMensagemAdd, I
 import { Painel, PainelEstudos, PainelNota, PainelRefs, PainelUsar } from './Paineis';
 import { OrdemOriginal, PainelOriginal, PainelVerbete, PalavrasDoVerso, temInterlinear, useCapituloInterlinear } from './Interlinear';
 import { comentariosDoVerso, PainelComentarios, useComentarios } from './Comentarios';
+import { OuvirCapitulo } from './Ouvir';
 
 type Achado = { l: number; c: number; v: number };
 type Aberto = null | 'menu' | 'busca' | 'nota' | 'refs' | 'estudos' | 'usar' | 'cartao' | 'cores' | 'original';
@@ -41,6 +43,9 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   const [palavra, setPalavra] = useState<[string, string, string, string] | null>(null);
   const [comentarioV, setComentarioV] = useState<number | null>(null);
   const arraste = useRef<{ x: number; y: number; quando: number } | null>(null);
+  const artigo = useRef<HTMLElement | null>(null);
+  const [lendo, setLendo] = useState(0);            // versículo sendo lido em voz alta
+  const leitura = useLeitura();
   const [tam, setTam] = useState<number>(() => pref.ler('biblia-tam', 19));
   const [pos, setPos] = useState<{ l: number; c: number }>(() => pref.ler('biblia-pos', { l: 42, c: 0 }));
   const [sel, setSel] = useState<Set<number>>(new Set());
@@ -49,6 +54,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   const [busca, setBusca] = useState('');
   const [achados, setAchados] = useState<{ titulo: string; lista: Achado[]; mostrar: number } | null>(null);
   const rolarPara = useRef<number | null>(null);
+  const abrirCom = useRef<number | null>(null);      // versículo cujos comentários abrem assim que carregarem
   const indice = useRef<{ id: string; dados: string[][][] } | null>(null);
 
   const versao = versaoPorId(versaoId);
@@ -63,9 +69,14 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   // endereço #/biblia/livro/capítulo/versículo
   const chaveAlvo = alvo.join('.');
   useEffect(() => {
-    const [l, c, v] = alvo;
+    const [l, c, v, abrirComentarios] = alvo;
     if (Number.isInteger(l) && Number.isInteger(c) && l >= 0 && l < 66 && c >= 0) {
       setPos({ l, c }); rolarPara.current = Number.isInteger(v) ? v : null; setSel(new Set(Number.isInteger(v) ? [v] : [])); setAberto(null);
+      // #/biblia/l/c/v/1 = abrir os comentários do versículo (eles ficam na Bíblia em hebraico/grego)
+      if (abrirComentarios === 1 && Number.isInteger(v)) {
+        const orig = l < 39 ? 'wlc' : 'tr';
+        setVersaoId(orig); pref.gravar('biblia-versao', orig); setPorPalavra(true); pref.gravar('biblia-inter', true); setSel(new Set()); abrirCom.current = v;
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chaveAlvo]);
@@ -83,8 +94,29 @@ export function Biblia({ alvo }: { alvo: number[] }) {
     else window.scrollTo(0, 0);
   }, [cap, pos]);
 
+  // ao chegar a ~75% do capítulo, conta como lido (uma vez por visita ao capítulo)
+  useEffect(() => {
+    if (!cap) return;
+    let contado = false;
+    const ver = () => {
+      const a = artigo.current;
+      if (contado || !a) return;
+      const r = a.getBoundingClientRect();
+      const lido = (window.innerHeight - r.top) / Math.max(1, r.height);
+      if (lido >= 0.75) { contado = true; contarLeitura(pos.l, pos.c); avisar(`${LIVROS[pos.l]} ${pos.c + 1} marcado como lido`); }
+    };
+    const t = setTimeout(ver, 1500);          // capítulos curtos que cabem na tela
+    window.addEventListener('scroll', ver, { passive: true });
+    return () => { clearTimeout(t); window.removeEventListener('scroll', ver); };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cap, pos.l, pos.c]);
+
   const inter = useCapituloInterlinear(pos.l, pos.c, porPalavra && ehOriginal);
   const comentarios = useComentarios(pos.l, pos.c, porPalavra && ehOriginal);
+  useEffect(() => {
+    const v = abrirCom.current;
+    if (v && comentarios && comentariosDoVerso(comentarios, v).length) { abrirCom.current = null; setComentarioV(v); }
+  }, [comentarios]);
   const selOrdenada = useMemo(() => [...sel].sort((a, b) => a - b), [sel]);
   const primeiro = selOrdenada[0];
 
@@ -176,20 +208,37 @@ export function Biblia({ alvo }: { alvo: number[] }) {
           <h1 className="text-[34px]">{nomeLivro} {pos.c + 1}</h1>
         </button>
         <div className="ornamento" aria-hidden="true" />
+        {(() => {
+          const r = resumo(leitura.lidos);
+          const vezes = leitura.lidos[`${pos.l}.${pos.c}`]?.v || 0;
+          return (
+            <a href="#/leitura" className="progresso-leitura" aria-label={`Progresso de leitura: ${porcento(r.pct)} da Bíblia. Ver relatório`}>
+              <span className="progresso-barra"><span style={{ width: `${Math.max(1, r.pct * 100)}%` }} /></span>
+              <span className="progresso-texto">
+                <b>{porcento(r.pct)} da Bíblia</b> · {r.caps} capítulos · {r.livros} {r.livros === 1 ? 'livro' : 'livros'}
+                {vezes ? <em> · você já leu este capítulo {vezes === 1 ? '1 vez' : `${vezes} vezes`}</em> : null}
+              </span>
+            </a>
+          );
+        })()}
+        <div className="mt-4 flex justify-center">
+          <OuvirCapitulo key={`${pos.l}.${pos.c}.${versao.id}`} versos={modoInter ? capPt : cap} idioma={modoInter ? 'pt' : versao.idioma} titulo={`${nomeLivro}, capítulo ${pos.c + 1}`}
+            aoVerso={(v) => { setLendo(v); if (v) document.getElementById(`v${v}`)?.scrollIntoView({ block: 'center', behavior: 'smooth' }); }} />
+        </div>
         {ehOriginal && temInterlinear(pos.l) ? (
           <div className="mt-5 flex justify-center">
             <button type="button" className="chip" aria-pressed={porPalavra} onClick={() => mudarPorPalavra(!porPalavra)}>{porPalavra ? 'Palavra por palavra · ligado' : `Ler no ${pos.l < 39 ? 'hebraico' : 'grego'} palavra por palavra`}</button>
           </div>
         ) : null}
 
-        <article className="leitura-biblia mt-8" style={{ fontSize: tam }}>
+        <article ref={artigo} className="leitura-biblia mt-8" style={{ fontSize: tam }}>
           {cap.map((t, i) => {
             const v = i + 1, chave = `${pos.l}.${pos.c}.${v}`, cor = dados.destaques[chave];
             if (!t) return null;
             return (
               <div key={v}>
                 {secoes.has(v) ? <h3 className="secao" style={i === 0 ? { marginTop: 0 } : undefined}>{secoes.get(v)}</h3> : null}
-                <p id={`v${v}`} className={`verso ${versao.idioma === 'el' && !modoInter ? 'grego' : ''}`} dir={rtl && !modoInter ? 'rtl' : undefined} lang={modoInter ? 'pt' : versao.idioma} data-sel={sel.has(v) ? '1' : undefined} onClick={() => tocar(v)}>
+                <p id={`v${v}`} className={`verso ${versao.idioma === 'el' && !modoInter ? 'grego' : ''}`} dir={rtl && !modoInter ? 'rtl' : undefined} lang={modoInter ? 'pt' : versao.idioma} data-sel={sel.has(v) ? '1' : undefined} data-lendo={lendo === v ? '1' : undefined} onClick={() => tocar(v)}>
                   <span className="n">{v}</span>
                   <span className={`txt ${cor ? 'marca' : ''}`} style={cor ? { background: CORES[cor] } : undefined}><Texto t={modoInter ? capPt[i] || t : t} /></span>
                   {dados.notas[chave] ? <span className="tem-nota" aria-label="Tem anotação" /> : null}

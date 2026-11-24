@@ -172,3 +172,15 @@ describe('meus documentos', () => {
     await falha(BETO, `insert into documentos (usuario_id, titulo) values ('${ANA}', 'em nome da Ana')`);
   });
 });
+
+describe('leitura e uso', () => {
+  it('cada um vê só a própria leitura e o próprio tempo de uso', async () => {
+    await como(ANA, `insert into leituras (ref, vezes) values ('42.2', 3)`);
+    await como(ANA, `insert into uso_diario (dia, segundos) values ('2026-11-24', 600)`);
+    expect(await como(ANA, 'select ref, vezes from leituras')).toEqual([{ ref: '42.2', vezes: 3 }]);
+    expect(await como(BETO, 'select ref from leituras')).toEqual([]);
+    expect(await como(BETO, 'select dia from uso_diario')).toEqual([]);
+    await falha(BETO, `insert into leituras (usuario_id, ref) values ('${ANA}', '0.0')`);
+    await falha(ANA, `insert into leituras (ref) values ('qualquer coisa')`);
+  });
+});

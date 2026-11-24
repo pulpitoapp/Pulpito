@@ -1,9 +1,12 @@
 'use client';
 import { useState } from 'react';
-import { LIVROS } from '@/lib/biblia';
+import { limparVerso, LIVROS } from '@/lib/biblia';
+import { useBiblia } from '@/lib/cliente/bibliaDados';
+import { textoDoDia } from '@/lib/textoDoDia';
 import { versaoPorId, VERSOES } from '@/lib/versoes';
 import { novaMensagem, pendentes, salvarMensagem, useDados } from '@/lib/cliente/dados';
 import { pref } from '@/lib/cliente/local';
+import { porcento, resumo, useLeitura } from '@/lib/cliente/leitura';
 import { ir, useApp } from './contexto';
 import { Logo } from './Logo';
 
@@ -20,6 +23,13 @@ export function Inicio() {
   const primeiro = perfil.nome.trim().split(/\s+/)[0];
   const minhas = dados.mensagens.filter((m) => m.autor_id === perfil.id);
   const fila = pendentes(dados);
+  const leitura = resumo(useLeitura().lidos);
+  const bl = useBiblia('blivre');
+  const td = textoDoDia(agora);
+  const tdTexto = Array.isArray(bl) ? (bl[td.l]?.[2]?.[td.c - 1] || []).slice(td.v - 1, td.v2).map(limparVerso).join(' ') : '';
+  const tdRef = `${LIVROS[td.l]} ${td.c}:${td.v}${td.v2 > td.v ? '-' + td.v2 : ''}`;
+  // comentários existem por enquanto em Gênesis 1-3 e João 1-3
+  const tdTemComentario = (td.l === 0 || td.l === 42) && td.c <= 3;
   // rascunhos com algo escrito (as mensagens vazias não contam)
   const temAlgo = (m: (typeof minhas)[number]) => !!(m.titulo.trim() || m.tema.trim() || m.conteudo.texto.trim() || m.conteudo.refs.length || m.conteudo.tracos.length);
   const rascunhos = minhas.filter((m) => m.situacao === 'rascunho' && temAlgo(m));
@@ -62,6 +72,16 @@ export function Inicio() {
         </section>
       ) : null}
 
+      <section className="texto-do-dia" aria-label="Texto do dia">
+        <p className="rot m-0">Texto do dia</p>
+        <blockquote className="m-0 mt-2">{tdTexto ? `“${tdTexto}”` : '…'}</blockquote>
+        <p className="texto-do-dia-ref">{tdRef}</p>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <a href={`#/biblia/${td.l}/${td.c - 1}/${td.v}`} className="btn btn-pri btn-mini no-underline">Ler o capítulo</a>
+          {tdTemComentario ? <a href={`#/biblia/${td.l}/${td.c - 1}/${td.v}/1`} className="btn btn-mini no-underline">Ler os comentários</a> : null}
+        </div>
+      </section>
+
       <section className="cartao" aria-label="Bíblia">
         <p className="rot m-0">Bíblia</p>
         <h2 className="tit mt-1 !text-[34px]">{LIVROS[pos.l]} {pos.c + 1}</h2>
@@ -73,6 +93,13 @@ export function Inicio() {
         </div>
         <p className="ajuda">{versaoPorId(versao).credito}</p>
       </section>
+
+      <a href="#/leitura" className="cartao block no-underline" aria-label="Minha leitura">
+        <p className="rot m-0">Minha leitura</p>
+        <h2 className="tit mt-1">{porcento(leitura.pct)} da Bíblia</h2>
+        <span className="progresso-barra mt-2"><span style={{ width: `${Math.max(1, leitura.pct * 100)}%` }} /></span>
+        <p className="m-0 mt-2 text-[14.5px] text-mute">{leitura.caps} capítulos · {leitura.livros} livros completos · ver relatório →</p>
+      </a>
 
       <section className="cartao" aria-label="Mensagens">
         <p className="rot m-0">Mensagens</p>

@@ -8,12 +8,14 @@ import { pref } from '@/lib/cliente/local';
 import { semSupabase, supa } from '@/lib/cliente/supabase';
 import { AppCtx, ir, podeSair } from './contexto';
 import { aplicarTema } from '@/lib/cliente/tema';
+import { iniciarLeitura, sincronizarLeitura, somarUso } from '@/lib/cliente/leitura';
 import { Carregando } from './Cabecalho';
 import { IcoBiblia, IcoInicio, IcoMais, IcoMensagens, IcoPerfil } from './Icones';
 import { CompletarPerfil, Entrar, NovaSenha } from './Entrar';
 import { Inicio } from './Inicio';
 import { Mensagens } from './Mensagens';
 import { DocumentoTela, Documentos } from './Documentos';
+import { Leitura } from './Leitura';
 import { Mensagem } from './Mensagem';
 import { Biblia } from './Biblia';
 import { TelaPerfil } from './TelaPerfil';
@@ -81,17 +83,30 @@ export function App() {
     const guardado = pref.ler<Perfil | null>('perfil', null);
     if (!uid) {
       // sem sessão válida: só segue em modo offline se já havia alguém logado neste aparelho
-      if (!navigator.onLine && guardado) { setPerfil(guardado); void iniciarDados(guardado.id); } else setPerfil(null);
+      if (!navigator.onLine && guardado) { setPerfil(guardado); void iniciarDados(guardado.id); void iniciarLeitura(guardado.id); } else setPerfil(null);
       return;
     }
     let vivo = true;
     if (guardado?.id === uid) setPerfil(guardado);
     void iniciarDados(uid);
+    void iniciarLeitura(uid);
     supa().from('perfis').select('*').eq('id', uid).maybeSingle().then(({ data }) => {
       if (vivo && data) { setPerfil(data as Perfil); pref.gravar('perfil', data); }
     });
     return () => { vivo = false; };
   }, [uid, sessao]);
+
+  // tempo de uso: soma a cada 30 s com o app aberto e na tela; envia de tempos em tempos
+  useEffect(() => {
+    if (!uid) return;
+    let ultimo = Date.now();
+    const tique = () => { const agora = Date.now(); if (document.visibilityState === 'visible') somarUso(Math.min(60, (agora - ultimo) / 1000)); ultimo = agora; };
+    const t = setInterval(tique, 30000);
+    const env = setInterval(() => void sincronizarLeitura(), 5 * 60000);
+    const vis = () => { if (document.visibilityState === 'hidden') { tique(); void sincronizarLeitura(); } else ultimo = Date.now(); };
+    document.addEventListener('visibilitychange', vis);
+    return () => { clearInterval(t); clearInterval(env); document.removeEventListener('visibilitychange', vis); };
+  }, [uid]);
 
   const sair = useCallback(async () => {
     await supa().auth.signOut().catch(() => {});
@@ -122,6 +137,7 @@ export function App() {
     else if (modulo === 'documentos') tela = <Documentos />;
     else if (modulo === 'biblia') tela = <Biblia alvo={partes.slice(1).map(Number)} />;
     else if (modulo === 'perfil') tela = <TelaPerfil />;
+    else if (modulo === 'leitura') tela = <Leitura />;
     else if (modulo === 'admin') tela = perfil.papel === 'admin' ? <Admin /> : <Inicio />;
     else tela = <Inicio />;
   }
