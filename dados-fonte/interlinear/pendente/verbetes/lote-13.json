@@ -1,0 +1,2426 @@
+[
+ {
+  "id": "H0376H",
+  "original": "אִישׁ",
+  "translit": "ish",
+  "classe": "H:N-M",
+  "glosa": "man: husband",
+  "def": ": husband\n1) man\n1a) man, male (in contrast to woman, female)\n1b) husband\n1c) human being, person (in contrast to God)\n1d) servant\n1e) mankind\n1f) champion\n1g) great man\n2) whosoever\n3) each (adjective)"
+ },
+ {
+  "id": "H0376I",
+  "original": "אִישׁ",
+  "translit": "ish",
+  "classe": "H:N-M",
+  "glosa": "man: anyone",
+  "def": ": anyone/someone\n1) man\n1a) man, male (in contrast to woman, female)\n1b) husband\n1c) human being, person (in contrast to God)\n1d) servant\n1e) mankind\n1f) champion\n1g) great man\n2) whosoever\n3) each (adjective)"
+ },
+ {
+  "id": "H0386",
+  "original": "אֵיתָן",
+  "translit": "e.tan",
+  "classe": "H:A",
+  "glosa": "strong",
+  "def": "1) perpetual, constant, perennial, ever-flowing\n1a) ever-flowing (of a stream)\n1b) permanence, permanent, enduring (fig.)"
+ },
+ {
+  "id": "H0389",
+  "original": "אַךְ",
+  "translit": "akh",
+  "classe": "H:Adv",
+  "glosa": "surely",
+  "def": "1) indeed, surely (emphatic)\n2) howbeit, only, but, yet (restrictive)"
+ },
+ {
+  "id": "H0390",
+  "original": "אַכַּד",
+  "translit": "ak.kad",
+  "classe": "N:N--L",
+  "glosa": "Accad",
+  "def": "§ Accad = \"subtle\"\na city in north Babylonia, also the district around it"
+ },
+ {
+  "id": "H0398",
+  "original": "אָכַל",
+  "translit": "a.khal",
+  "classe": "H:V",
+  "glosa": "to eat",
+  "def": "1) to eat, devour, burn up, feed\n1a) (Qal)\n1a1) to eat (human subject)\n1a2) to eat, devour (of beasts and birds)\n1a3) to devour, consume (of fire)\n1a4) to devour, slay (of sword)\n1a5) to devour, consume, destroy (inanimate subjects - ie, pestilence, drought)\n1a6) to devour (of oppression)\n1b) (Niphal)\n1b1) to be eaten (by men)\n1b2) to be devoured, consumed (of fire)\n1b3) to be wasted, destroyed (of flesh)\n1c) (Pual)\n1c1) to cause to eat, feed with\n1c2) to cause to devour\n1d) (Hiphil)\n1d1) to feed\n1d2) to cause to eat\n1e) (Piel)\n1e1) consume\nAramaic equivalent: <i>a.khal</i> (אֲכַל \"to devour\" H0399)"
+ },
+ {
+  "id": "H0400",
+  "original": "אֹ֫כֶל",
+  "translit": "o.khel",
+  "classe": "H:N-M",
+  "glosa": "food",
+  "def": "1) food\n1a) cereal\n1b) meat\n2) food supply\n3) meal, dinner"
+ },
+ {
+  "id": "H0402",
+  "original": "אׇכְלָה",
+  "translit": "okh.lah",
+  "classe": "H:N-F",
+  "glosa": "food",
+  "def": "1) food\n1a) food, eating\n1b) object of devouring, consuming\n1b1) by wild beasts (figurative)\n1b2) in fire\n1b3) of judgment (figurative)"
+ },
+ {
+  "id": "H0403",
+  "original": "אָכֵן",
+  "translit": "a.khen",
+  "classe": "H:Adv",
+  "glosa": "surely",
+  "def": "1) surely, truly, indeed\n1a) truly, indeed (strong assertive force)\n1b) but indeed, but in fact (emphasizing a contrast)"
+ },
+ {
+  "id": "H0408",
+  "original": "אַל",
+  "translit": "al",
+  "classe": "H:Neg",
+  "glosa": "not",
+  "def": "1) not, no, nor, neither, nothing (as wish or preference)\n1a) do not, let not (with a verb)\n1b) let there not be (with a verb understood)\n1c) not, no (with substantive)\n1d) nothing (as substantive)\nAramaic equivalent: <i>al</i> (אַל \"not\" H0409)"
+ },
+ {
+  "id": "H0410G",
+  "original": "אֵל",
+  "translit": "el",
+  "classe": "H:N-M",
+  "glosa": "God",
+  "def": "This name means god, god-like one, mighty one, strength, power\nAnother name of <i>ye.ho.vah</i> (יהוה \"LORD\" H3068G)"
+ },
+ {
+  "id": "H0410I",
+  "original": "אֵל",
+  "translit": "el",
+  "classe": "H:N-M",
+  "glosa": "El (Elohe)",
+  "def": "Another name of <i>ye.ho.vah</i> (יהוה \"LORD\" H3068G)\nThis name means god, god-like one, mighty one, strength, power\nCombined with \"God\" (<i>elohim</i> אֱלֹהִים H0430)"
+ },
+ {
+  "id": "H0410J",
+  "original": "אֵל",
+  "translit": "el",
+  "classe": "H:N-M",
+  "glosa": "El (Most High)",
+  "def": "Another name of <i>ye.ho.vah</i> (יהוה \"LORD\" H3068G)\nThis name means god, god-like one, mighty one, strength, power\nCombined with \"Most High\" (<i>el.yon</i> עֶלְיוֹן H5945B)"
+ },
+ {
+  "id": "H0410L",
+  "original": "אֵל",
+  "translit": "el",
+  "classe": "H:N-M",
+  "glosa": "god: power",
+  "def": ": power\n1) god, god-like one, mighty one\n1a) mighty men, men of rank, mighty heroes\n1b) angels\n1c) god, false god, (demons, imaginations)\n1d) God, the one true God, Jehovah\n2) mighty things in nature\n3) strength, power"
+ },
+ {
+  "id": "H0411",
+  "original": "אֵל",
+  "translit": "el",
+  "classe": "H:DemP",
+  "glosa": "these",
+  "def": "these, those"
+ },
+ {
+  "id": "H0413",
+  "original": "אֶל",
+  "translit": "el",
+  "classe": "H:Prep",
+  "glosa": "to(wards)",
+  "def": "1) to, toward, unto (of motion)\n2) into (limit is actually entered)\n2a) in among\n3) toward (of direction, not necessarily physical motion)\n4) against (motion or direction of a hostile character)\n5) in addition to, to\n6) concerning, in regard to, in reference to, on account of\n7) according to (rule or standard)\n8) at, by, against (of one's presence)\n9) in between, in within, to within, unto (idea of motion to)"
+ },
+ {
+  "id": "H0416",
+  "original": "אֵל בֵּית־אֵל",
+  "translit": "el bet-el",
+  "classe": "N:N--L",
+  "glosa": "El-bethel",
+  "def": "§ El Bethel = \"The God of the House of God\"\nthe place where God revealed Himself to Jacob"
+ },
+ {
+  "id": "H0420",
+  "original": "אֶלְדָּעָה",
+  "translit": "el.da.ah",
+  "classe": "N:N-M-P",
+  "glosa": "Eldaah",
+  "def": "A man of the Midianites living at the time of the Patriarchs, first mentioned at Gen.25.4; \nson of: Midian (H4080); \nbrother of: Ephah (H5891), Epher (H6081), Hanoch (H2585I) and Abida (H0028) \n§ Eldaah = \"God has known\"\na son or descendant of Midian"
+ },
+ {
+  "id": "H0423",
+  "original": "אָלָה",
+  "translit": "a.lah",
+  "classe": "H:N-F",
+  "glosa": "oath",
+  "def": "1) oath\n2) oath of covenant\n3) curse\n3a) from God\n3b) from men\n4) execration"
+ },
+ {
+  "id": "H0424",
+  "original": "אֵלָה",
+  "translit": "e.lah",
+  "classe": "H:N-F",
+  "glosa": "oak",
+  "def": "1) terebinth, terebinth tree\n2) valley where David killed Goliath"
+ },
+ {
+  "id": "H0425G",
+  "original": "אֵלָה",
+  "translit": "e.lah",
+  "classe": "N:N-M-P",
+  "glosa": "Elah",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.36.41\n§ Elah = \"An oak\"\nan Edomite chief"
+ },
+ {
+  "id": "H0428",
+  "original": "אֵ֫לֶּה",
+  "translit": "el.leh",
+  "classe": "H:DemP",
+  "glosa": "these",
+  "def": "1) these\n1a) used before antecedent\n1b) used following antecedent\nAramaic equivalent: <i>el.leh</i> (אֵלֶּה \"these\" H0429)"
+ },
+ {
+  "id": "H0430G",
+  "original": "אֱלֹהִים",
+  "translit": "e.lo.him",
+  "classe": "H:N-M",
+  "glosa": "God",
+  "def": "This name means \"gods\" (plural intensive-singular meaning), \"God\"\nAnother name of <i>ye.ho.vah</i> (יהוה \"LORD\" H3068G)"
+ },
+ {
+  "id": "H0430H",
+  "original": "אֱלֹהִים",
+  "translit": "e.lo.him",
+  "classe": "H:N-M",
+  "glosa": "(LORD)-Elohe",
+  "def": "Combined with <i>ye.ho.vah</i> (יהוה \"LORD\" H3068)"
+ },
+ {
+  "id": "H0436H",
+  "original": "אֵלוֹן",
+  "translit": "e.lon",
+  "classe": "H:N-M",
+  "glosa": "terebinth",
+  "def": "1) tree, great tree, terebinth\n2) plain"
+ },
+ {
+  "id": "H0437",
+  "original": "אַלּוֹן",
+  "translit": "al.lon",
+  "classe": "H:N-M",
+  "glosa": "oak",
+  "def": "oak, great tree"
+ },
+ {
+  "id": "H0439",
+  "original": "אַלּוֹן בָּכוּת",
+  "translit": "al.lon ba.khut",
+  "classe": "N:N--L",
+  "glosa": "Allon-bacuth",
+  "def": "§ Allon Bachuth = \"oak of weeping\"\nsite of Deborah's (Rebekah's nurse) grave near Bethel"
+ },
+ {
+  "id": "H0441B",
+  "original": "אַלּוּף",
+  "translit": "al.luph",
+  "classe": "H:N-M",
+  "glosa": "chief",
+  "def": "chief"
+ },
+ {
+  "id": "H0461G",
+  "original": "אֱלִיעֶ֫זֶר",
+  "translit": "e.li.e.zer",
+  "classe": "N:N-M-P",
+  "glosa": "Eliezer",
+  "def": "A man living at the time of the Patriarchs, only mentioned at Gen.15.2\n§ Eliezer = \"God is help\"\n1) Abraham's Damascene servant\n2) a son of Moses\n3) a Benjamite\n4) a priest who helped move the ark\n5) a Reubenite\n6) a prophet who spoke to Jehoshaphat\n7) a Levite chief\n8) son of Harim\n9) priest with foreign wife"
+ },
+ {
+  "id": "H0464G",
+  "original": "אֱלִיפַז",
+  "translit": "e.li.phaz",
+  "classe": "N:N-M-P",
+  "glosa": "Eliphaz",
+  "def": "A man of the Edomites living at the time of the Patriarchs, first mentioned at Gen.36.4; \nson of: Esau (H6215) and Adah (H5711H); \nhalf-brother of: Reuel (H7467), Jeush (H3266), Jalam (H3281) and Korah (H7141); married to Timna (H8555); \nfather of: Teman (H8487), Omar (H0201), Zepho (H6825), Gatam (H1609), Kenaz (H7073), Amalek (H6002H) and Korah (H7141H)\n§ Eliphaz = \"my God is (fine) gold\"\n1) Esau's son, father of Teman\n2) the Temanite friend of Job"
+ },
+ {
+  "id": "H0473G",
+  "original": "אֱלִישָׁה",
+  "translit": "e.li.shah",
+  "classe": "N:N-M-P",
+  "glosa": "Elishah",
+  "def": "A man of the Greeks living at the time of the Patriarchs, first mentioned at Gen.10.4; \nson of: Javan (H3120); \nbrother of: Tarshish (H8659), Kittim (H3794) and Dodanim (H1721)\n§ Elishah = \"God of the coming (one)\"\ndescendant of Noah, son of Javan; perhaps ancestor of the Aeolians"
+ },
+ {
+  "id": "H0481",
+  "original": "אָלַם",
+  "translit": "a.lam",
+  "classe": "H:V",
+  "glosa": "be dumb",
+  "def": "1) to bind\n1a) (Niphal)\n1a1) to be dumb\n1a2) to be bound\n1b) (Piel) binding (part.)"
+ },
+ {
+  "id": "H0485",
+  "original": "אֲלֻמָה",
+  "translit": "a.lum.mah",
+  "classe": "H:N-F",
+  "glosa": "sheaf",
+  "def": "1) sheaf (as something bound)\n1a) of Israel returning from exile (fig.)"
+ },
+ {
+  "id": "H0486",
+  "original": "אַלְמוֹדָד",
+  "translit": "al.mo.dad",
+  "classe": "N:N-M-P",
+  "glosa": "Almodad",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.10.26; \nson of: Joktan (H3355); \nbrother of: Sheleph (H8026), Hazarmaveth (H2700), Jerah (H3392), Hadoram (H1913A), Uzal (H0187), Diklah (H1853), Obal (H5745), Abimael (H0039), Sheba (H7614H), Ophir (H0211), Havilah (H2341I) and Jobab (H3103) \n§ Almodad = \"not measured\"\na descendant of Shem"
+ },
+ {
+  "id": "H0490",
+  "original": "אַלְמָנָה",
+  "translit": "al.ma.nah",
+  "classe": "H:N-F",
+  "glosa": "widow",
+  "def": "widow"
+ },
+ {
+  "id": "H0491",
+  "original": "אַלְמָנוּת",
+  "translit": "al.ma.nut",
+  "classe": "H:N-F",
+  "glosa": "widowhood",
+  "def": "widowhood"
+ },
+ {
+  "id": "H0495",
+  "original": "אֶלָּסָר",
+  "translit": "el.la.sar",
+  "classe": "N:N--L",
+  "glosa": "Ellasar",
+  "def": "§ Ellasar = \"God is chastener\"\na town in Babylonia, c. 28 miles (50 km) E of Ur"
+ },
+ {
+  "id": "H0505G",
+  "original": "אֶ֫לֶף",
+  "translit": "e.leph",
+  "classe": "H:N",
+  "glosa": "thousand",
+  "def": ": thousand\n1) a thousand\n1a) as numeral\n2) a thousand, company\n2a) as a company of men under one leader, troops"
+ },
+ {
+  "id": "H0517",
+  "original": "אֵם",
+  "translit": "em",
+  "classe": "H:N-F",
+  "glosa": "mother",
+  "def": "1) mother\n1a) of humans\n1b) of Deborah's relationship to the people (fig.)\n1c) of animals\n2) point of departure or division"
+ },
+ {
+  "id": "H0518A",
+  "original": "אִם",
+  "translit": "im",
+  "classe": "H:Cond",
+  "glosa": "if",
+  "def": ": if/whether_or/though\n1) if\n1a) conditional clauses\n1a1) of possible situations\n1a2) of impossible situations\n1b) oath contexts\n1b1) no, not\n1c) if...if, whether...or, whether...or...or\n1d) when, whenever\n1e) since\n1f) interrogative particle\n1g) but rather"
+ },
+ {
+  "id": "H0518B",
+  "original": "[כִּי] אם",
+  "translit": "ki im",
+  "classe": "H:Cond",
+  "glosa": "if: except",
+  "def": "1) except if \n1a) but if"
+ },
+ {
+  "id": "H0518H",
+  "original": "אִם",
+  "translit": "im",
+  "classe": "H:Cond",
+  "glosa": "if: surely no",
+  "def": ": surely_no\n1) if\n1a) conditional clauses\n1a1) of possible situations\n1a2) of impossible situations\n1b) oath contexts\n1b1) no, not\n1c) if...if, whether...or, whether...or...or\n1d) when, whenever\n1e) since\n1f) interrogative particle\n1g) but rather"
+ },
+ {
+  "id": "H0518I",
+  "original": "אִם",
+  "translit": "im",
+  "classe": "H:Cond",
+  "glosa": "if: surely yes",
+  "def": ": surely_yes\n1) if\n1a) conditional clauses\n1a1) of possible situations\n1a2) of impossible situations\n1b) oath contexts\n1b1) no, not\n1c) if...if, whether...or, whether...or...or\n1d) when, whenever\n1e) since\n1f) interrogative particle\n1g) but rather"
+ },
+ {
+  "id": "H0518J",
+  "original": "אִם",
+  "translit": "im",
+  "classe": "H:Cond",
+  "glosa": "if: until",
+  "def": ": until/except\n1) if\n1a) conditional clauses\n1a1) of possible situations\n1a2) of impossible situations\n1b) oath contexts\n1b1) no, not\n1c) if...if, whether...or, whether...or...or\n1d) when, whenever\n1e) since\n1f) interrogative particle\n1g) but rather"
+ },
+ {
+  "id": "H0519",
+  "original": "אָמָה",
+  "translit": "a.mah",
+  "classe": "H:N-F",
+  "glosa": "maidservant",
+  "def": "1) maid-servant, female slave, maid, handmaid, concubine\n1a) of humility (fig.)"
+ },
+ {
+  "id": "H0520A",
+  "original": "אַמָּה",
+  "translit": "am.mah",
+  "classe": "H:N-F",
+  "glosa": "cubit",
+  "def": "cubit-a measure of distance (the forearm), roughly 18 in (. 5m). There are several cubits used in the OT, the cubit of a man or common cubit (De 3:11), the legal cubit or cubit of the sanctuary (Eze 40:5) plus others. See a Bible Dictionary for a complete treatment.\nAramaic equivalent: <i>am.mah</i> (אַמָּה \"cubit\" H0521)"
+ },
+ {
+  "id": "H0523",
+  "original": "אֻמָּה",
+  "translit": "um.mah",
+  "classe": "H:N-F",
+  "glosa": "people",
+  "def": "people, tribe, nation\nAramaic equivalent: <i>um.mah</i> (אֻמָּה \"people\" H0524)"
+ },
+ {
+  "id": "H0539",
+  "original": "אָמַן",
+  "translit": "a.man",
+  "classe": "H:V",
+  "glosa": "be faithful",
+  "def": "1) to support, confirm, be faithful\n1a) (Qal)\n1a1) to support, confirm, be faithful, uphold, nourish\n1a1a) foster-father (subst.)\n1a1b) foster-mother, nurse\n1a1c) pillars, supporters of the door\n1b) (Niphal)\n1b1) to be established, be faithful, be carried, make firm\n1b1a) to be carried by a nurse\n1b1b) made firm, sure, lasting\n1b1c) confirmed, established, sure\n1b1d) verified, confirmed\n1b1e) reliable, faithful, trusty\n1c) (Hiphil)\n1c1) to stand firm, to trust, to be certain, to believe in\n1c1a) stand firm\n1c1b) trust, believe\nAramaic equivalent: <i>a.man</i> (אֲמַן \"to trust\" H0540)"
+ },
+ {
+  "id": "H0546",
+  "original": "אׇמְנָה",
+  "translit": "om.nah",
+  "classe": "H:Adv",
+  "glosa": "truly",
+  "def": "verily, truly, indeed"
+ },
+ {
+  "id": "H0552",
+  "original": "אֻמְנָם",
+  "translit": "um.nam",
+  "classe": "H:Adv",
+  "glosa": "truly",
+  "def": "verily, truly, indeed"
+ },
+ {
+  "id": "H0553",
+  "original": "אָמֵץ",
+  "translit": "a.mats",
+  "classe": "H:V",
+  "glosa": "to strengthen",
+  "def": "1) to be strong, alert, courageous, brave, stout, bold, solid, hard\n1a) (Qal) to be strong, brave, bold\n1b) (Piel) to strengthen, secure (for oneself), harden (heart), make firm, make obstinate, assure\n1c) (Hithpael) to be determined, to make oneself alert, strengthen oneself, confirm oneself, persist in, prove superior to\n1d) (Hiphil) to exhibit strength, be strong, feel strong"
+ },
+ {
+  "id": "H0559",
+  "original": "אָמַר",
+  "translit": "a.mar",
+  "classe": "H:V",
+  "glosa": "to say",
+  "def": "1) to say, speak, utter\n1a) (Qal) to say, to answer, to say in one's heart, to think, to command, to promise, to intend\n1b) (Niphal) to be told, to be said, to be called\n1c) (Hithpael) to boast, to act proudly\n1d) (Hiphil) to avow, to avouch\nAramaic equivalent: <i>a.mar</i> (אֲמַר \"to say\" H0560)"
+ },
+ {
+  "id": "H0561",
+  "original": "אֵמֶר",
+  "translit": "e.mer",
+  "classe": "H:N-M",
+  "glosa": "word",
+  "def": "utterance, speech, word, saying, promise, command"
+ },
+ {
+  "id": "H0565A",
+  "original": "אִמְרָה",
+  "translit": "im.rah",
+  "classe": "H:N-F",
+  "glosa": "word",
+  "def": "1) utterance, speech, word\n1a) word of God (command and promise)"
+ },
+ {
+  "id": "H0567",
+  "original": "אֱמֹרִי",
+  "translit": "e.mo.ri",
+  "classe": "N:N--LG",
+  "glosa": "Amorite",
+  "def": "Someone descended from Amor(?), first mentioned at Gen.10.16; descended from Canaan (H3667); along with Sidon (H6721), Heth (H2845), Jebusite (H2983), Girgashite (H1622), Hivite (H2340), Arkite (H6208), Sinite (H5513), Arvadite (H0721), Zemarite (H6786) and Hamathite (H2577) \n§ Amorite = \"a sayer\"\none of the peoples of east Canaan and beyond the Jordan, dispossessed by the Israelite incursion from Egypt"
+ },
+ {
+  "id": "H0569",
+  "original": "אַמְרָפֶל",
+  "translit": "am.ra.phel",
+  "classe": "N:N-M-P",
+  "glosa": "Amraphel",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.14.1 \n§ Amraphel = \"sayer of darkness: fall of the sayer\"\nthe king of Shinar (Babylon) (perhaps Hammurabi c 2100 BC)"
+ },
+ {
+  "id": "H0570",
+  "original": "אֶ֫מֶשׁ",
+  "translit": "e.mesh",
+  "classe": "H:Adv",
+  "glosa": "last night",
+  "def": "1) yesterday, last night\n2) recently (fig.)"
+ },
+ {
+  "id": "H0571G",
+  "original": "אֱמֶת",
+  "translit": "e.met",
+  "classe": "H:N-F",
+  "glosa": "truth: faithful",
+  "def": ": faithful\n1) firmness, faithfulness, truth\n1a) sureness, reliability\n1b) stability, continuance\n1c) faithfulness, reliableness\n1d) truth\n1d1) as spoken\n1d2) of testimony and judgment\n1d3) of divine instruction\n1d4) truth as a body of ethical or religious knowledge\n1d5) true doctrine\nadv\n2) in truth, truly"
+ },
+ {
+  "id": "H0571H",
+  "original": "אֱמֶת",
+  "translit": "e.met",
+  "classe": "H:N-F",
+  "glosa": "truth: true",
+  "def": ": true\n1) firmness, faithfulness, truth\n1a) sureness, reliability\n1b) stability, continuance\n1c) faithfulness, reliableness\n1d) truth\n1d1) as spoken\n1d2) of testimony and judgment\n1d3) of divine instruction\n1d4) truth as a body of ethical or religious knowledge\n1d5) true doctrine\nadv\n2) in truth, truly"
+ },
+ {
+  "id": "H0572",
+  "original": "אַמְתַּ֫חַת",
+  "translit": "am.ta.chat",
+  "classe": "H:N-F",
+  "glosa": "sack",
+  "def": "1) sack, flexible container (for grain)\n2) (TWOT) spread out"
+ },
+ {
+  "id": "H0575",
+  "original": "אָן",
+  "translit": "an",
+  "classe": "H:Intg",
+  "glosa": "where?",
+  "def": "1) where?, whither? (of place)\n2) when?, until when?, how long? (of time)"
+ },
+ {
+  "id": "H0577",
+  "original": "אָֽנָּ֫א",
+  "translit": "an.na",
+  "classe": "H:Intj",
+  "glosa": "Please!",
+  "def": "ah now! I/we beseech you, oh now!, pray now! (participle of entreaty usually followed by the imperative verb)"
+ },
+ {
+  "id": "H0582",
+  "original": "אֱנוֹשׁ",
+  "translit": "e.nosh",
+  "classe": "H:N-M",
+  "glosa": "human",
+  "def": "1) man, mortal man, person, mankind\n1a) of an individual\n1b) men (collective)\n1c) man, mankind\nAramaic equivalent: <i>e.nash</i> (אֱנָשׁ \"man\" H0606)"
+ },
+ {
+  "id": "H0583",
+  "original": "אֱנוֹשׁ",
+  "translit": "e.nosh",
+  "classe": "N:N-M-P",
+  "glosa": "Enosh",
+  "def": "A man living at the time before the Flood, first mentioned at Gen.4.26; \nson of: Seth (H8352); \nfather of: Kenan (H7018); also called Enos at Luk.3.38; \nAlso named: <i>Enōs</i> (Ἐνώς \"Enos\" G1800) \n§ Enos = \"man\"\nson of Seth"
+ },
+ {
+  "id": "H0587",
+  "original": "אֲנַ֫חְנוּ",
+  "translit": "a.nach.nu",
+  "classe": "H:PerP-CP",
+  "glosa": "we",
+  "def": "we (first pers. pl. -usually used for emphasis)"
+ },
+ {
+  "id": "H0589",
+  "original": "אֲנִי",
+  "translit": "a.ni",
+  "classe": "H:PerP-CS",
+  "glosa": "I",
+  "def": "I (first pers. sing. -usually used for emphasis)"
+ },
+ {
+  "id": "H0591",
+  "original": "אֳנִיָּה",
+  "translit": "o.niy.yah",
+  "classe": "H:N-F",
+  "glosa": "fleet",
+  "def": "1) ship\n1a) men of ships, seamen"
+ },
+ {
+  "id": "H0595",
+  "original": "אָֽנֹכִ֫י",
+  "translit": "a.no.khi",
+  "classe": "H:PerP-CS",
+  "glosa": "I",
+  "def": "I (first pers. sing.)\nAnother spelling of <i>a.ni</i> (אֲנִי, אָֽנֹכִ֫י \"I\" H0589)"
+ },
+ {
+  "id": "H0611",
+  "original": "אָסוֹן",
+  "translit": "a.son",
+  "classe": "H:N-M",
+  "glosa": "harm",
+  "def": "evil, mischief, harm, hurt"
+ },
+ {
+  "id": "H0615",
+  "original": "אָסִיר",
+  "translit": "a.sir",
+  "classe": "H:N-M",
+  "glosa": "prisoner",
+  "def": "prisoner, captive, bondman"
+ },
+ {
+  "id": "H0621",
+  "original": "אָֽסְנַת",
+  "translit": "a.se.nat",
+  "classe": "N:N-F-P",
+  "glosa": "Asenath",
+  "def": "A woman living at the time of the Patriarchs, first mentioned at Gen.41.45; \ndaughter of: Potiphera (H6319); married to Joseph (H3130); \nmother of: Manasseh (H4519) and Ephraim (H0669) \n§ Asenath = \"belonging to the goddess Neith\"\nthe wife of Joseph"
+ },
+ {
+  "id": "H0622",
+  "original": "אָסַף",
+  "translit": "a.saph",
+  "classe": "H:V",
+  "glosa": "to gather",
+  "def": "1) to gather, receive, remove, gather in\n1a) (Qal)\n1a1) to gather, collect\n1a2) to gather (an individual into company of others)\n1a3) to bring up the rear\n1a4) to gather and take away, remove, withdraw\n1b) (Niphal)\n1b1) to assemble, be gathered\n1b2) (pass of Qal 1a2)\n1b2a) to be gathered to one's fathers\n1b2b) to be brought in or into (association with others)\n1b3) (pass of Qal 1a4)\n1b3a) to be taken away, removed, perish\n1c) (Piel)\n1c1) to gather (harvest)\n1c2) to take in, receive into\n1c3) rearguard, rearward (subst)\n1d) (Pual) to be gathered\n1e) (Hithpael) to gather oneself or themselves"
+ },
+ {
+  "id": "H0631",
+  "original": "אָסַר",
+  "translit": "a.sar",
+  "classe": "H:V",
+  "glosa": "to bind",
+  "def": "1) to tie, bind, imprison\n1a) (Qal)\n1a1) to tie, bind\n1a2) to tie, harness\n1a3) to bind (with cords)\n1a4) to gird (rare and late)\n1a5) to begin the battle, make the attack\n1a6) of obligation of oath (figurative)\n1b) (Niphal) to be imprisoned, bound\n1c) (Pual) to be taken prisoner"
+ },
+ {
+  "id": "H0637",
+  "original": "אַף",
+  "translit": "aph",
+  "classe": "H:Part",
+  "glosa": "also",
+  "def": "conj (denoting addition, esp of something greater)\n1) also, yea, though, so much the more\nadv\n2) furthermore, indeed\nAramaic equivalent: <i>aph</i> (אַף \"also\" H0638)"
+ },
+ {
+  "id": "H0639G",
+  "original": "אַף",
+  "translit": "aph",
+  "classe": "H:N-M",
+  "glosa": "face: anger",
+  "def": ": anger\n1) nostril, nose, face\n2) anger"
+ },
+ {
+  "id": "H0639H",
+  "original": "אַף",
+  "translit": "aph",
+  "classe": "H:N-M",
+  "glosa": "face: nose",
+  "def": ": nose\n1) nostril, nose, face\n2) anger"
+ },
+ {
+  "id": "H0639I",
+  "original": "אַף",
+  "translit": "aph",
+  "classe": "H:N-M",
+  "glosa": "face",
+  "def": ": face\n1) nostril, nose, face\n2) anger"
+ },
+ {
+  "id": "H0644",
+  "original": "אָפָה",
+  "translit": "a.phah",
+  "classe": "H:V",
+  "glosa": "to bake",
+  "def": "1) to bake\n1a) (Qal)\n1a1) to bake\n1a2) (subst) baker\n1b) (Niphal) to be baked, baked"
+ },
+ {
+  "id": "H0645",
+  "original": "אֵפוֹ",
+  "translit": "e.pho",
+  "classe": "H:Part",
+  "glosa": "then",
+  "def": "1) then, now, so\n1a) (who) then, (what) then (with interrog)\n1b) then (with imperative-i.e. know then)\n1c) if...then (with adv)"
+ },
+ {
+  "id": "H0656",
+  "original": "אָפֵס",
+  "translit": "a.phes",
+  "classe": "H:V",
+  "glosa": "to end",
+  "def": "(Qal) to cease, break, come to an end"
+ },
+ {
+  "id": "H0662",
+  "original": "אָפַק",
+  "translit": "a.phaq",
+  "classe": "H:V",
+  "glosa": "to refrain",
+  "def": "1) to hold, be strong, restrain, hold back\n1a) (Hithpael)\n1a1) to restrain oneself, refrain\n1a2) to force, compel oneself"
+ },
+ {
+  "id": "H0665",
+  "original": "אֵ֫פֶר",
+  "translit": "e.pher",
+  "classe": "H:N-M",
+  "glosa": "ashes",
+  "def": "1) ashes\n2) (CLBL) worthlessness (fig.)"
+ },
+ {
+  "id": "H0669G",
+  "original": "אֶפְרַ֫יִם",
+  "translit": "eph.ra.yim",
+  "classe": "N:N-M-P",
+  "glosa": "Ephraim",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.41.52; \nson of: Joseph (H3130) and Asenath (H0621); \nbrother of: Manasseh (H4519); \nfather of: Shuthelah (H7803), Becher (H1071H), Tahan (H8465), Ezer (H5827), Elead (H0496) and Beriah (H1283H); also called Ephrathite (NIV: Ephraimite) at 1Sa.1.1; Ephron (Qere, KJV: Ephrain) at 2Ch.13.19; \n§ Ephraim = \"double ash-heap: I shall be doubly fruitful\"\n1) second son of Joseph, blessed by him and given preference over first son, Manasseh\n2) the tribe, Ephraim\n3) the mountain country of Ephraim\n4) sometimes used name for the northern kingdom (Hosea or Isaiah)\n5) a city near Baal-hazor\n6) a chief gate of Jerusalem"
+ },
+ {
+  "id": "H0672H",
+  "original": "אֶפְרָ֫תָה",
+  "translit": "eph.ra.tah",
+  "classe": "N:N-F-P",
+  "glosa": "Ephrath",
+  "def": "Ephrath or Ephratah = \"ash-heap: place of fruitfulness\"\nAnother name of <i>bet le.chem</i> (בֵּית לֶ֫חֶם \"Bethlehem\" H1035G)"
+ },
+ {
+  "id": "H0675G",
+  "original": "אֶצְבּוֹן",
+  "translit": "ets.bon",
+  "classe": "N:N-M-P",
+  "glosa": "Ezbon",
+  "def": "A man of the tribe of Gad living at the time of Egypt and Wilderness, first mentioned at Gen.46.16; \nson of: Gad (H1410); \nbrother of: Ziphion (H6837), Haggi (H2291), Shuni (H7764), Eri (H6179), Arod (H0720) and Areli (H0692); also called Ozni at Num.26.16; \n§ Ezbon = \"hasting to discern: I will be enlargement\"\n1) a son of Gad\n2) grandson of Benjamin"
+ },
+ {
+  "id": "H0680",
+  "original": "אָצַל",
+  "translit": "a.tsal",
+  "classe": "H:V",
+  "glosa": "to reserve",
+  "def": "1) to lay aside, reserve, withdraw, withhold\n1a) (Qal) to reserve, set apart, withhold\n1b) (Niphal) to be withdrawn\n1c) (Hiphil) to withdraw"
+ },
+ {
+  "id": "H0681",
+  "original": "אֵ֫צֶל",
+  "translit": "e.tsel",
+  "classe": "H:N-M",
+  "glosa": "beside",
+  "def": "1) beside, by, near, nearness, joining, proximity\nsubst\n2) (BDB)\n2a) conjunction, proximity\n2b) beside, in proximity, contiguous to, from beside"
+ },
+ {
+  "id": "H0687",
+  "original": "אֵ֫צֶר",
+  "translit": "e.tser",
+  "classe": "N:N-M-P",
+  "glosa": "Ezer",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.36.21; \nson of: Seir (H8165B); \nbrother of: Lotan (H3877), Shobal (H7732), Zibeon (H6649H), Anah (H6034H), Dishon (H1787), Dishan (H1789) and Timna (H8555H); \nfather of: Bilhan (H1092), Zaavan (H2190), Akan (H3292) \n§ Ezer = \"treasure\"\na chief of the Horites"
+ },
+ {
+  "id": "H0692",
+  "original": "אַרְאֵלִי",
+  "translit": "ar.e.li",
+  "classe": "N:N-M-P",
+  "glosa": "Areli",
+  "def": "A man of the tribe of Gad living at the time of Egypt and Wilderness, first mentioned at Gen.46.16; \nson of: Gad (H1410); \nbrother of: Ziphion (H6837), Haggi (H2291), Shuni (H7764), Ezbon (H0675), Eri (H6179) and Arod (H0720) \n§ Areli = \"lion of God\"\n1) a son of Gad\n2) those of the family of Areli (pater adj-Arelites)"
+ },
+ {
+  "id": "H0699",
+  "original": "אֲרֻבָּה",
+  "translit": "a.rub.bah",
+  "classe": "H:N-F",
+  "glosa": "window",
+  "def": "1) lattice, window, sluice\n2) (CLBL) chimney (lattice opening where smoke escapes)"
+ },
+ {
+  "id": "H0702",
+  "original": "אַרְבַּע",
+  "translit": "ar.ba",
+  "classe": "H:N",
+  "glosa": "four",
+  "def": "four"
+ },
+ {
+  "id": "H0705",
+  "original": "אַרְבָּעִים",
+  "translit": "ar.ba.im",
+  "classe": "H:N",
+  "glosa": "forty",
+  "def": "forty"
+ },
+ {
+  "id": "H0714G",
+  "original": "אַרְדְּ",
+  "translit": "ard",
+  "classe": "N:N-M-P",
+  "glosa": "Ard",
+  "def": "A man of the tribe of Benjamin living at the time of Egypt and Wilderness, only mentioned at Gen.46.21; \nson of: Benjamin (H1144); \nbrother of: Bela (H1106A), Becher (H1071), Ashbel (H0788), Gera (H1617), Naaman (H5283), Ehi (H0278), Rosh (H7220), Muppim (H4649), Huppim (H2650H), Ahiram (H0297) and Jediael (H3043)\n§ Ard = \"I shall subdue\"\n1) son of Benjamin\n2) grandson of Benjamin"
+ },
+ {
+  "id": "H0721",
+  "original": "אַרְוָדִי",
+  "translit": "ar.va.di",
+  "classe": "N:N--PG",
+  "glosa": "Arvadite",
+  "def": "Someone descended from Arvad(?) of the Canaanites, first mentioned at Gen.10.18; descended from Canaan (H3667); along with Sidon (H6721), Heth (H2845), Jebusite (H2983), Amorite (H0567), Girgashite (H1622), Hivite (H2340), Arkite (H6208), Sinite (H5513), Zemarite (H6786) and Hamathite (H2577) \n§ Arvadites = \"I shall break loose\"\nthe descendants of Arvad, a son of Canaan"
+ },
+ {
+  "id": "H0722",
+  "original": "אֲרוֹדִי",
+  "translit": "a.ro.di",
+  "classe": "N:N--PG",
+  "glosa": "Arodi",
+  "def": "Someone descended from Arod, a man of the tribe of Gad living at the time of Egypt and Wilderness, first mentioned at Gen.46.16; \nson of: Gad (H1410); \nbrother of: Ziphion (H6837), Haggi (H2291), Shuni (H7764), Ezbon (H0675), Eri (H6179) and Areli (H0692); also called Arod at Num.26.17; \nAnother name of <i>a.rod</i> (אֲרוֹד \"Arod\" H0720) \n§ Arodi or Arodites = \"I shall subdue: I shall roam\"\ndescendants of Arod"
+ },
+ {
+  "id": "H0727",
+  "original": "אֲרוֹן",
+  "translit": "a.ron",
+  "classe": "H:N-M",
+  "glosa": "ark",
+  "def": "1) chest, ark\n1a) money chest\n1b) Ark of the Covenant\n2)(TWOT) coffin"
+ },
+ {
+  "id": "H0734",
+  "original": "אֹ֫רַח",
+  "translit": "o.rach",
+  "classe": "H:N-M",
+  "glosa": "way",
+  "def": "1) way, path\n1a) path, road\n1b) the path, way, passing of life (fig.)\n1c) way of living (fig.)\n1d) traveller, wayfarer (meton)\nAramaic equivalent: <i>o.rach</i> (אֹ֫רַח \"way\" H0735)"
+ },
+ {
+  "id": "H0736",
+  "original": "אֹרְחָה",
+  "translit": "o.re.chah",
+  "classe": "H:N-F",
+  "glosa": "caravan",
+  "def": "caravan, travelling company"
+ },
+ {
+  "id": "H0738B",
+  "original": "אַרְיֵה",
+  "translit": "ar.yeh",
+  "classe": "H:N-M",
+  "glosa": "lion",
+  "def": "1) lion\n1a) pictures or images of lions\nAramaic equivalent: <i>ar.yeh</i> (אַרְיֵה \"lion\" H0744)"
+ },
+ {
+  "id": "H0746A",
+  "original": "אַרְיוֹךְ",
+  "translit": "ar.yokh",
+  "classe": "N:N-M-P",
+  "glosa": "Arioch",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.14.1\n§ Arioch = \"lion-like\"\nthe ancient king of Ellasar, ally of Chedorlaomer"
+ },
+ {
+  "id": "H0748",
+  "original": "אָרַךְ",
+  "translit": "a.rakh",
+  "classe": "H:V",
+  "glosa": "to prolong",
+  "def": "1) to be long, prolong\n1a) (Qal) to be long\n1b) (Hiphil)\n1b1) to prolong (days)\n1b2) to make long (tent cords)\n1b3) to grow long, continue long\nAramaic equivalent: <i>a.rakh</i> (אֲרִיךְ \"be proper\" H0749)"
+ },
+ {
+  "id": "H0751",
+  "original": "אֶ֫רֶךְ",
+  "translit": "e.rekh",
+  "classe": "N:N--L",
+  "glosa": "Erech",
+  "def": "Erech = \"long\"\na city 40 miles (64 km) northwest of Ur toward Babylon on the left bank of the Euphrates river\nAlso named: <i>ar.ke.vay</i> (אַרְכְּוָיֵא \"Erech\" H0756)"
+ },
+ {
+  "id": "H0753",
+  "original": "אֹ֫רֶךְ",
+  "translit": "o.rekh",
+  "classe": "H:N-M",
+  "glosa": "length",
+  "def": "1) length\n1a) physical length\n1b) of time\n2) forbearance, self-restraint (of patience)"
+ },
+ {
+  "id": "H0758G",
+  "original": "אֲרָם",
+  "translit": "a.ram",
+  "classe": "N:N-M-P",
+  "glosa": "Aram",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.10.22; \nson of: Shem (H8035); \nbrother of: Asshur (H0804H), Elam (H5867C), Arpachshad (H0775) and Lud (H3865); \nfather of: Uz (H5780), Hul (H2343), Gether (H1666) and Mash (H4851)\n§ Aram or Arameans = \"exalted\"\n1) Aram or Syrian nation\n2) the Syrian or Aramean people\nAram = \"exalted\"\nn m\n3) fifth son of Shem\n4) a grandson of Nahor\n5) a descendant of Asher"
+ },
+ {
+  "id": "H0758H",
+  "original": "אֲרָם",
+  "translit": "a.ram",
+  "classe": "N:N-M-P",
+  "glosa": "Aram",
+  "def": "A man living at the time of the Patriarchs, only mentioned at Gen.22.21; \nson of: Kemuel (H7055)\n§ Aram or Arameans = \"exalted\"\n1) Aram or Syrian nation\n2) the Syrian or Aramean people\nAram = \"exalted\"\nn m\n3) fifth son of Shem\n4) a grandson of Nahor\n5) a descendant of Asher"
+ },
+ {
+  "id": "H0758L",
+  "original": "אֲרָם",
+  "translit": "a.ram",
+  "classe": "N:N--L",
+  "glosa": "(Paddan)-aram",
+  "def": "Aram or Arameans = \"exalted\"\nAram or Syrian nation\nCombined with <i>pad.dan</i> (פַּדָּן \"Paddan\" H6307)"
+ },
+ {
+  "id": "H0761J",
+  "original": "אֲרַמִּי",
+  "translit": "a.ram.mi",
+  "classe": "N:N--LG",
+  "glosa": "Aramean",
+  "def": "Someone from Aram\nGroup of <i>pad.dan</i> (פַּדָּן \"Paddan\" H6307)\n§ Syrian or Aramean = \"exalted\"\na thing or a person from Syria or Aram"
+ },
+ {
+  "id": "H0763G",
+  "original": "אֲרַם נַהֲרַיִם",
+  "translit": "a.ram na.ha.ra.yim",
+  "classe": "N:N--L",
+  "glosa": "Mesopotamia",
+  "def": "§ Aram-naharaim = \"Aram of the two rivers\"\nMesopotamia"
+ },
+ {
+  "id": "H0765",
+  "original": "אֲרָן",
+  "translit": "a.ran",
+  "classe": "N:N-M-P",
+  "glosa": "Aran",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.36.28; \nson of: Dishan (H1789); \nbrother of: Uz (H5780I) \n§ Aran = \"joyous\"\na descendant of Esau"
+ },
+ {
+  "id": "H0775",
+  "original": "אַרְפַּכְשַׁד",
+  "translit": "ar.pakh.shad",
+  "classe": "N:N-M-P",
+  "glosa": "Arpachshad",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.10.22; \nson of: Shem (H8035); \nbrother of: Asshur (H0804H), Elam (H5867C), Lud (H3865) and Aram (H0758); \nfather of: Cainan (G2536); also called Arphaxad at Luk.3.36; \nAlso named: <i>Arphaxad</i> (Ἀρφαξάδ \"Arphaxad\" G0742) \n§ Arphaxad = \"I shall fail as the breast: he cursed the breast-bottle\"\nthird son of Shem"
+ },
+ {
+  "id": "H0776G",
+  "original": "אֶ֫רֶץ",
+  "translit": "e.rets",
+  "classe": "H:N-F",
+  "glosa": "land: country/planet",
+  "def": ": country/field\n1) land, earth\n1a) earth\n1a1) whole earth (as opposed to a part)\n1a2) earth (as opposed to heaven)\n1a3) earth (inhabitants)\n1b) land\n1b1) country, territory\n1b2) district, region\n1b3) tribal territory\n1b4) piece of ground\n1b5) land of Canaan, Israel\n1b6) inhabitants of land\n1b7) Sheol, land without return, (under) world\n1b8) city (-state)\n1c) ground, surface of the earth\n1c1) ground\n1c2) soil\n1d) (in phrases)\n1d1) people of the land\n1d2) space or distance of country (in measurements of distance)\n1d3) level or plain country\n1d4) land of the living\n1d5) end(s) of the earth\n1e) (almost wholly late in usage)\n1e1) lands, countries\n1e1a) often in contrast to Canaan"
+ },
+ {
+  "id": "H0776H",
+  "original": "אֶ֫רֶץ",
+  "translit": "e.rets",
+  "classe": "H:N-F",
+  "glosa": "land: soil",
+  "def": ": soil\n1) land, earth\n1a) earth\n1a1) whole earth (as opposed to a part)\n1a2) earth (as opposed to heaven)\n1a3) earth (inhabitants)\n1b) land\n1b1) country, territory\n1b2) district, region\n1b3) tribal territory\n1b4) piece of ground\n1b5) land of Canaan, Israel\n1b6) inhabitants of land\n1b7) Sheol, land without return, (under) world\n1b8) city (-state)\n1c) ground, surface of the earth\n1c1) ground\n1c2) soil\n1d) (in phrases)\n1d1) people of the land\n1d2) space or distance of country (in measurements of distance)\n1d3) level or plain country\n1d4) land of the living\n1d5) end(s) of the earth\n1e) (almost wholly late in usage)\n1e1) lands, countries\n1e1a) often in contrast to Canaan"
+ },
+ {
+  "id": "H0779",
+  "original": "אָרַר",
+  "translit": "a.rar",
+  "classe": "H:V",
+  "glosa": "to curse",
+  "def": "1) to curse\n1a) (Qal)\n1a1) to curse\n1a2) cursed be he (participle used as in curses)\n1b) (Niphal) to be cursed, cursed\n1c)(Piel) to curse, lay under a curse, put a curse on\n1d) (Hophal) to be made a curse, be cursed"
+ },
+ {
+  "id": "H0780",
+  "original": "אֲרָרַט",
+  "translit": "a.ra.rat",
+  "classe": "N:N--L",
+  "glosa": "Ararat",
+  "def": "§ Ararat = \"the curse reversed: precipitation of curse\"\na mountainous region of eastern Armenia, between the river Araxes and the lakes Van and Oroomiah, the site where Noah's ark came to rest"
+ },
+ {
+  "id": "H0784",
+  "original": "אֵשׁ",
+  "translit": "esh",
+  "classe": "H:N-F",
+  "glosa": "fire",
+  "def": "1) fire\n1a) fire, flames\n1b) supernatural fire (accompanying theophany)\n1c) fire (for cooking, roasting, parching)\n1d) altar-fire\n1e) God's anger (fig.)\nAramaic equivalent: <i>esh</i> (אֶשָּׁא \"fire\" H0785)"
+ },
+ {
+  "id": "H0788",
+  "original": "אַשְׁבֵּל",
+  "translit": "ash.bel",
+  "classe": "N:N-M-P",
+  "glosa": "Ashbel",
+  "def": "A man of the tribe of Benjamin living at the time of Egypt and Wilderness, first mentioned at Gen.46.21; \nson of: Benjamin (H1144); \nbrother of: Bela (H1106A), Becher (H1071), Gera (H1617), Naaman (H5283), Ehi (H0278), Rosh (H7220), Muppim (H4649), Huppim (H2650H), Ard (H0714), Ahiram (H0297) and Jediael (H3043)\nAlso named: <i>ash.be.li</i> (אַשְׁבֵּלִי \"Ashbelite\" H0789) \n§ Ashbel = \"a man in God: a man of Baal: fire of Bel: I will make a path\"\nsecond son of Benjamin"
+ },
+ {
+  "id": "H0790",
+  "original": "אֶשְׁבָּן",
+  "translit": "esh.ban",
+  "classe": "N:N-M-P",
+  "glosa": "Eshban",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.36.26; \nson of: Dishon (H1787); \nbrother of: Hemdan (H2533), Ithran (H3506) and Cheran (H3763) \n§ Eshban = \"fire of discernment\"\nan chief of Edom"
+ },
+ {
+  "id": "H0802G",
+  "original": "אִשָּׁה",
+  "translit": "ish.shah",
+  "classe": "H:N-F",
+  "glosa": "woman",
+  "def": ": woman\n1) woman, wife, female\n1a) woman (opposite of man)\n1b) wife (woman married to a man)\n1c) female (of animals)\n1d) each, every (pronoun)"
+ },
+ {
+  "id": "H0802H",
+  "original": "אִשָּׁה",
+  "translit": "ish.shah",
+  "classe": "H:N-F",
+  "glosa": "woman: wife",
+  "def": ": wife/widow\n1) woman, wife, female\n1a) woman (opposite of man)\n1b) wife (woman married to a man)\n1c) female (of animals)\n1d) each, every (pronoun)"
+ },
+ {
+  "id": "H0804G",
+  "original": "אַשּׁוּר",
+  "translit": "ash.shur",
+  "classe": "N:N--L",
+  "glosa": "Assyria",
+  "def": "§ Asshur or Assyria = \"a step\"\nthe nation, Assyria\nthe land, Assyria or Asshur"
+ },
+ {
+  "id": "H0804H",
+  "original": "אַשּׁוּר",
+  "translit": "ash.shur",
+  "classe": "N:N-M-P",
+  "glosa": "Asshur",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.10.22; \nson of: Shem (H8035); \nbrother of: Elam (H5867C), Arpachshad (H0775), Lud (H3865) and Aram (H0758)\n§ Asshur or Assyria = \"a step\"\n1) the second son of Shem, eponymous ancestor of the Assyrians\n2) the people of Assyria\n3) the nation, Assyria\n4) the land, Assyria or Asshur"
+ },
+ {
+  "id": "H0805A",
+  "original": "אֲשׁוּרִי",
+  "translit": "a.shu.ri",
+  "classe": "N:N--PG",
+  "glosa": "Asshurim",
+  "def": "Someone descended from Asshur(?) of the Patriarchs, only mentioned at Gen.25.3; descended from Dedan (H1719C); along with Letushim (H3912) and Leummim (H3817)\n§ Ashurites = \"guided: blessed\"\na tribe descended from Abraham and Keturah"
+ },
+ {
+  "id": "H0811",
+  "original": "אֶשְׁכּוֹל",
+  "translit": "esh.kol",
+  "classe": "H:N-M",
+  "glosa": "cluster",
+  "def": "1) cluster\n1a) of grapes\n1b) of flowers (metaphor of lover)"
+ },
+ {
+  "id": "H0812G",
+  "original": "אֶשְׁכֹּל",
+  "translit": "esh.kol",
+  "classe": "N:N-M-P",
+  "glosa": "Eshcol",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.14.13; \nbrother of: Mamre (H4471H) and Aner (H6063)\n§ Eshcol = \"cluster\"\n1) an area of Hebron, the valley of Eshcol\n2) an Amorite, the brother of Mamre, dwelling in Hebron"
+ },
+ {
+  "id": "H0813G",
+  "original": "אַשְׁכְּנַז",
+  "translit": "ash.ke.naz",
+  "classe": "N:N-M-P",
+  "glosa": "Ashkenaz",
+  "def": "A man of the Gomerians living at the time of the Patriarchs, first mentioned at Gen.10.3; \nson of: Gomer (H1586); \nbrother of: Riphath (H7384A) and Togarmah (H8425)\n§ Ashchenaz or Ashkenaz = \"a man as sprinkled: fire as scattered\"\n1) a descendant of Japheth\n2) a northern people, perhaps of Bithynia"
+ },
+ {
+  "id": "H0815",
+  "original": "אֵ֫שֶׁל",
+  "translit": "e.shel",
+  "classe": "H:N-M",
+  "glosa": "tamarisk",
+  "def": "tamarisk tree"
+ },
+ {
+  "id": "H0817",
+  "original": "אָשָׁם",
+  "translit": "a.sham",
+  "classe": "H:N-M",
+  "glosa": "guilt (offering)",
+  "def": "1) guilt, offense, guiltiness\n1a) offense, trespass, fault\n1b) guilt, guiltiness\n1c) compensation (for offense)\n1d) trespass offering, guilt offering"
+ },
+ {
+  "id": "H0818",
+  "original": "אָשֵׁם",
+  "translit": "a.shem",
+  "classe": "H:A",
+  "glosa": "guilty",
+  "def": "guilty, faulty (and obliged to offer a guilt-offering)"
+ },
+ {
+  "id": "H0833",
+  "original": "אָשַׁר",
+  "translit": "a.shar",
+  "classe": "H:V",
+  "glosa": "to bless",
+  "def": "1) to go straight, walk, go on, advance, make progress\n1a)(Qal) to go straight on, make progress\n1b) (Piel)\n1b1) to go straight on, advance\n1b2) to lead on (causative)\n1b3) to set right, righten\n1b4) to pronounce happy, call blessed\n1c) (Pual)\n1c1) to be advanced, be led on\n1c2) to be made happy, be blessed"
+ },
+ {
+  "id": "H0834A",
+  "original": "אֲשֶׁר",
+  "translit": "a.sher",
+  "classe": "H:RelP",
+  "glosa": "which",
+  "def": "A: 1) (relative part.)\n1a) which, who\n1b) that which\n2) (conj)\n2a) that (in obj clause)\n2b) when\n2c) since\n2d) as\n2e) conditional if\nB: Beth+ 1) in (that) which\n2) (adv)\n2a) where\n3) (conj)\n3a) in that, inasmuch as\n3b) on account of\nC: Mem+ 1) from (or than) that which\n2) from (the place) where\n3) from (the fact) that, since\nD: Kaph+ \n1) (conj.), according as, as, when\n1a) according to that which, according as, as\n1b) with a causal force: in so far as, since\n1c) with a temporal force: when"
+ },
+ {
+  "id": "H0834B",
+  "original": "בַאֲשֶׁר",
+  "translit": "ba.a.sher",
+  "classe": "H:Prep+H:RelP",
+  "glosa": "in which",
+  "def": "1) in (that) which\n2) (adv)\n2a) where\n3) (conj)\n3a) in that, inasmuch as\n3b) on account of"
+ },
+ {
+  "id": "H0834C",
+  "original": "מֵאֲשֶׁר",
+  "translit": "me.a.sher",
+  "classe": "H:Prep+H:RelP",
+  "glosa": "whence",
+  "def": "1) from (or than) that which\n2) from (the place) where\n3) from (the fact) that, since"
+ },
+ {
+  "id": "H0834D",
+  "original": "כַּאֲשֶׁר",
+  "translit": "ka.a.sher",
+  "classe": "H:Prep+H:RelP",
+  "glosa": "as which",
+  "def": "conj \n1) according as, as, when\n1a) according to that which, according as, as\n1b) with a causal force: in so far as, since\n1c) with a temporal force: when"
+ },
+ {
+  "id": "H0836",
+  "original": "אָשֵׁר",
+  "translit": "a.sher",
+  "classe": "N:N-M-P",
+  "glosa": "Asher",
+  "def": "A man of the tribe of Asher living at the time of the Patriarchs, first mentioned at Gen.30.13; \nson of: Israel (H3478) and Zilpah (H2153); \nbrother of: Gad (H1410); \nhalf-brother of: Reuben (H7205), Simeon (H8095), Levi (H3878), Judah (H3063), Dan (H1835H), Naphtali (H5321), Issachar (H3485), Zebulun (H2074), Dinah (H1783), Joseph (H3130) and Benjamin (H1144); \nfather of: Imnah (H3232), Ishvah (H3438), Ishvi (H3440), Beriah (H1283) and Serah (H8294); also translated \"pine\" or \"cypress wood\" at Ezk.27.6(?); Ashurite at 2Sa.2.9(?); \n§ Asher = \"happy\"\n1) son of Jacob and Zilpah\n2) the tribe descended from Asher\n3) a city east of Shechem in Manasseh"
+ },
+ {
+  "id": "H0837",
+  "original": "אֹ֫שֶׁר",
+  "translit": "o.sher",
+  "classe": "H:N-M",
+  "glosa": "happy",
+  "def": "happiness"
+ },
+ {
+  "id": "H0853",
+  "original": "אֵת",
+  "translit": "et",
+  "classe": "H:Part",
+  "glosa": "[Obj.]",
+  "def": "sign of the definite direct object, not translated in English but generally preceding and indicating the accusative\nAramaic equivalent: <i>yat</i> (יָת \"whom\" H3487)"
+ },
+ {
+  "id": "H0854",
+  "original": "אֵת",
+  "translit": "et",
+  "classe": "H:Prep",
+  "glosa": "with",
+  "def": "1) with, near, together with\n1a) with, together with\n1b) with (of relationship)\n1c) near (of place)\n1d) with (poss.)\n1e) from...with, from (with other prep)"
+ },
+ {
+  "id": "H0859A",
+  "original": "אַתָּ֫ה",
+  "translit": "at.tah",
+  "classe": "H:PerP-MS",
+  "glosa": "you(m.s.)",
+  "def": "you (second pers. sing. masc.)"
+ },
+ {
+  "id": "H0859C",
+  "original": "אַתְּ",
+  "translit": "at.te",
+  "classe": "H:PerP-FS",
+  "glosa": "you(f.s.)",
+  "def": "you (second pers. sing. fem.)\nA grammatical form of <i>at.tah</i> (אַתָּ֫ה \"you(m.s.)\" H0859A)"
+ },
+ {
+  "id": "H0859D",
+  "original": "אַתֶּם",
+  "translit": "at.tem",
+  "classe": "H:PerP-MP",
+  "glosa": "you(m.p.)",
+  "def": "you (second pers. pl. masc.)\nAramaic equivalent: <i>an.tun</i> (אַנְתּוּן \"you\" H0608)"
+ },
+ {
+  "id": "H0859E",
+  "original": "אַתֵּן",
+  "translit": "at.ten",
+  "classe": "H:PerP-FP",
+  "glosa": "you(f.p.)",
+  "def": "you (second pers. pl. fem.)\nA grammatical form of <i>at.tah</i> (אַתָּ֫ה \"you(m.s.)\" H0859A)"
+ },
+ {
+  "id": "H0860",
+  "original": "אָתוֹן",
+  "translit": "a.ton",
+  "classe": "H:N-F",
+  "glosa": "she-ass",
+  "def": "she-ass, she-donkey"
+ },
+ {
+  "id": "H0875",
+  "original": "בְּאֵר",
+  "translit": "be.er",
+  "classe": "H:N-F",
+  "glosa": "well",
+  "def": "well, pit, spring"
+ },
+ {
+  "id": "H0882G",
+  "original": "בְּאֵרִי",
+  "translit": "be.e.ri",
+  "classe": "N:N-M-P",
+  "glosa": "Beeri",
+  "def": "A man living at the time of the Patriarchs, only mentioned at Gen.26.34; married to Anah (H6034); \nfather of: Judith (H3067)\n§ Beeri = \"my well\"\n1) Esau's Hittite father-in-law\n2) father of Hosea"
+ },
+ {
+  "id": "H0883",
+  "original": "בְּאֵר לַחַי רֹאִי",
+  "translit": "be.er la.chay ro.i",
+  "classe": "N:N--L",
+  "glosa": "Beer-lahai-roi",
+  "def": "§ Beer-lahai-roi = \"well of the Living One seeing me\"\na well west of Kadesh, south of Israel"
+ },
+ {
+  "id": "H0884",
+  "original": "בְּאֵר שֶׁ֫בַע",
+  "translit": "be.er she.va",
+  "classe": "N:N--L",
+  "glosa": "Beersheba",
+  "def": "§ Beer-sheba = \"well of the sevenfold oath\"\na city at the south edge of Israel"
+ },
+ {
+  "id": "H0887",
+  "original": "בָּאַשׁ",
+  "translit": "ba.ash",
+  "classe": "H:V",
+  "glosa": "to stink",
+  "def": "1) to have a bad smell, stink, smell bad\n1a) (Qal) to stink, smell bad\n1b) (Niphal)\n1b1) to become odious\n1b2) to make oneself odious\n1c) (Hiphil)\n1c1) to stink, emit a stinking odour\n1c2) to cause to stink\n1c3) of wickedness (fig.)\n1d) (Hithpael) to make oneself odious\n2) (TWOT) to abhor"
+ },
+ {
+  "id": "H0894",
+  "original": "בָּבֶ֫ל, בָּבֶל",
+  "translit": "ba.vel",
+  "classe": "N:N--L",
+  "glosa": "Babylon",
+  "def": "§ Babel or Babylon = \"confusion (by mixing)\"\nBabel or Babylon, the ancient site and/or capital of Babylonia (modern Hillah) situated on the Euphrates"
+ },
+ {
+  "id": "H0899B",
+  "original": "בֶּ֫גֶד",
+  "translit": "be.ged",
+  "classe": "H:N-M",
+  "glosa": "garment",
+  "def": "(CLBL) garment, clothing (used indiscriminately)"
+ },
+ {
+  "id": "H0905H",
+  "original": "בַּד",
+  "translit": "bad",
+  "classe": "H:N-M",
+  "glosa": "alone",
+  "def": ": alone\n1) alone, by itself, besides, a part, separation, being alone\n1a) separation, alone, by itself\n1a1) only (adv)\n1a2) apart from, besides (prep)\n1b) part\n1c) parts (eg limbs, shoots), bars"
+ },
+ {
+  "id": "H0905J",
+  "original": "בַּד",
+  "translit": "bad",
+  "classe": "H:N-M",
+  "glosa": "alone: besides",
+  "def": ": besides/apart from\n1) alone, by itself, besides, a part, separation, being alone\n1a) separation, alone, by itself\n1a1) only (adv)\n1a2) apart from, besides (prep)\n1b) part\n1c) parts (eg limbs, shoots), bars"
+ },
+ {
+  "id": "H0911",
+  "original": "בְּדַד",
+  "translit": "be.dad",
+  "classe": "N:N-M-P",
+  "glosa": "Bedad",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.36.35; \nfather of: Hadad (H1908) \n§ Bedad = \"solitary\"\nthe father of an Edomite chief"
+ },
+ {
+  "id": "H0914",
+  "original": "בָּדַל",
+  "translit": "ba.dal",
+  "classe": "H:V",
+  "glosa": "to separate",
+  "def": "1) to divide, separate\n1a) (Hiphil)\n1a1) to divide, separate, sever\n1a2) to separate, set apart\n1a3) to make a distinction, difference\n1a4) to divide into parts\n1b) (Niphal)\n1b1) to separate oneself from (reflexive of 1a2)\n1b2) to withdraw from\n1b3) to separate oneself unto\n1b4) to be separated\n1b5) to be excluded\n1b6) to be set apart"
+ },
+ {
+  "id": "H0916",
+  "original": "בְּדֹ֫לַח",
+  "translit": "be.do.lach",
+  "classe": "H:N-M",
+  "glosa": "bdellium",
+  "def": "bdellium (ie gum resin)"
+ },
+ {
+  "id": "H0922",
+  "original": "בֹּהוּ",
+  "translit": "bo.hu",
+  "classe": "H:N-M",
+  "glosa": "void",
+  "def": "emptiness, void, waste"
+ },
+ {
+  "id": "H0926",
+  "original": "בָּהַל",
+  "translit": "ba.hal",
+  "classe": "H:V",
+  "glosa": "to dismay",
+  "def": "1) to disturb, alarm, terrify, hurry, be disturbed, be anxious, be afraid, be hurried, be nervous\n1a) (Niphal)\n1a1) to be disturbed, dismayed, terrified, anxious\n1a2) to be in haste, be hasty\n1b) (Piel)\n1b1) to make haste, act hastily, be hurried, be hastened\n1b2) to dismay, terrify\n1c) (Pual)\n1c1) to hasten\n1c2) hastened, hastily gained (part.)\n1d) (Hiphil)\n1d1) to hasten, hurry, make haste\n1d2) to dismay, terrify"
+ },
+ {
+  "id": "H0929",
+  "original": "בְּהֵמָה",
+  "translit": "be.he.mah",
+  "classe": "H:N-F",
+  "glosa": "animal",
+  "def": "1) beast, cattle, animal\n1a) beasts (coll of all animals)\n1b) cattle, livestock (of domestic animals)\n1c) wild beasts"
+ },
+ {
+  "id": "H0935G",
+  "original": "בּוֹא",
+  "translit": "bo",
+  "classe": "H:V",
+  "glosa": "to come (in): come",
+  "def": ": come/go_in\n1) to go in, enter, come, go, come in\n1a) (Qal)\n1a1) to enter, come in\n1a2) to come\n1a2a) to come with\n1a2b) to come upon, fall or light upon, attack (enemy)\n1a2c) to come to pass\n1a3) to attain to\n1a4) to be enumerated\n1a5) to go\n1b) (Hiphil)\n1b1) to lead in\n1b2) to carry in\n1b3) to bring in, cause to come in, gather, cause to come, bring near, bring against, bring upon\n1b4) to bring to pass\n1c) (Hophal)\n1c1) to be brought, brought in\n1c2) to be introduced, be put"
+ },
+ {
+  "id": "H0935I",
+  "original": "בּוֹא",
+  "translit": "bo",
+  "classe": "H:V",
+  "glosa": "to come (in): towards",
+  "def": ": towards/entrance\n1) to go in, enter, come, go, come in\n1a) (Qal)\n1a1) to enter, come in\n1a2) to come\n1a2a) to come with\n1a2b) to come upon, fall or light upon, attack (enemy)\n1a2c) to come to pass\n1a3) to attain to\n1a4) to be enumerated\n1a5) to go\n1b) (Hiphil)\n1b1) to lead in\n1b2) to carry in\n1b3) to bring in, cause to come in, gather, cause to come, bring near, bring against, bring upon\n1b4) to bring to pass\n1c) (Hophal)\n1c1) to be brought, brought in\n1c2) to be introduced, be put"
+ },
+ {
+  "id": "H0935J",
+  "original": "בּוֹא",
+  "translit": "bo",
+  "classe": "H:V",
+  "glosa": "to come (in): advanced",
+  "def": ": advanced/old\n1) to go in, enter, come, go, come in\n1a) (Qal)\n1a1) to enter, come in\n1a2) to come\n1a2a) to come with\n1a2b) to come upon, fall or light upon, attack (enemy)\n1a2c) to come to pass\n1a3) to attain to\n1a4) to be enumerated\n1a5) to go\n1b) (Hiphil)\n1b1) to lead in\n1b2) to carry in\n1b3) to bring in, cause to come in, gather, cause to come, bring near, bring against, bring upon\n1b4) to bring to pass\n1c) (Hophal)\n1c1) to be brought, brought in\n1c2) to be introduced, be put"
+ },
+ {
+  "id": "H0935K",
+  "original": "בּוֹא",
+  "translit": "bo",
+  "classe": "H:V",
+  "glosa": "to come (in): (sun)set",
+  "def": ": (sun)set\n1) to go in, enter, come, go, come in\n1a) (Qal)\n1a1) to enter, come in\n1a2) to come\n1a2a) to come with\n1a2b) to come upon, fall or light upon, attack (enemy)\n1a2c) to come to pass\n1a3) to attain to\n1a4) to be enumerated\n1a5) to go\n1b) (Hiphil)\n1b1) to lead in\n1b2) to carry in\n1b3) to bring in, cause to come in, gather, cause to come, bring near, bring against, bring upon\n1b4) to bring to pass\n1c) (Hophal)\n1c1) to be brought, brought in\n1c2) to be introduced, be put"
+ },
+ {
+  "id": "H0935M",
+  "original": "בּוֹא",
+  "translit": "bo",
+  "classe": "H:V",
+  "glosa": "to come (in): fulfill",
+  "def": ": fulfill/grant\n1) to go in, enter, come, go, come in\n1a) (Qal)\n1a1) to enter, come in\n1a2) to come\n1a2a) to come with\n1a2b) to come upon, fall or light upon, attack (enemy)\n1a2c) to come to pass\n1a3) to attain to\n1a4) to be enumerated\n1a5) to go\n1b) (Hiphil)\n1b1) to lead in\n1b2) to carry in\n1b3) to bring in, cause to come in, gather, cause to come, bring near, bring against, bring upon\n1b4) to bring to pass\n1c) (Hophal)\n1c1) to be brought, brought in\n1c2) to be introduced, be put"
+ },
+ {
+  "id": "H0935P",
+  "original": "בּוֹא",
+  "translit": "bo",
+  "classe": "H:V",
+  "glosa": "to come (in): bring",
+  "def": ": bring/take_in\n1) to go in, enter, come, go, come in\n1a) (Qal)\n1a1) to enter, come in\n1a2) to come\n1a2a) to come with\n1a2b) to come upon, fall or light upon, attack (enemy)\n1a2c) to come to pass\n1a3) to attain to\n1a4) to be enumerated\n1a5) to go\n1b) (Hiphil)\n1b1) to lead in\n1b2) to carry in\n1b3) to bring in, cause to come in, gather, cause to come, bring near, bring against, bring upon\n1b4) to bring to pass\n1c) (Hophal)\n1c1) to be brought, brought in\n1c2) to be introduced, be put"
+ },
+ {
+  "id": "H0937",
+  "original": "בּוּז",
+  "translit": "buz",
+  "classe": "H:N-M",
+  "glosa": "contempt",
+  "def": "1) contempt\n1a) springing from evil\n1b) springing from prosperity\n1c) springing from judgment"
+ },
+ {
+  "id": "H0938G",
+  "original": "בּוּז",
+  "translit": "buz",
+  "classe": "N:N-M-P",
+  "glosa": "Buz",
+  "def": "A man living at the time of the Patriarchs, only mentioned at Gen.22.21; \nson of: Nahor (H5152H) and Milcah (H4435); \nbrother of: Uz (H5780H), Kemuel (H7055), Chesed (H3777), Hazo (H2375), Pildash (H6394), Jidlaph (H3044) and Bethuel (H1328A); \nhalf-brother of: Tebah (H2875), Gaham (H1514), Tahash (H8477) and Maacah (H4601)\n§ Buz = \"contempt\"\n1) second son of Nahor, Abraham's nephew\n2) a Gadite"
+ },
+ {
+  "id": "H0953A",
+  "original": "בּוֹר",
+  "translit": "bor",
+  "classe": "H:N-M",
+  "glosa": "pit",
+  "def": "pit, well, cistern, dungeon, pit of the grave"
+ },
+ {
+  "id": "H0954",
+  "original": "בּוֹשׁ",
+  "translit": "bush",
+  "classe": "H:V",
+  "glosa": "be ashamed",
+  "def": "1) to put to shame, be ashamed, be disconcerted, be disappointed\n1a) (Qal)\n1a1) to feel shame\n1a2) to be ashamed, disconcerted, disappointed (by reason of)\n1b) (Piel) to delay (in shame)\n1c) (Hiphil)\n1c1) to put to shame\n1c2) to act shamefully\n1c3) to be ashamed\n1d) (Hithpolel) to be ashamed before one another"
+ },
+ {
+  "id": "H0959",
+  "original": "בָּזָה",
+  "translit": "ba.zah",
+  "classe": "H:V",
+  "glosa": "to despise",
+  "def": "1) to despise, hold in contempt, disdain\n1a) (Qal) to despise, regard with contempt\n1b) (Niphal)\n1b1) to be despised\n1b2) to be despicable\n1b3) to be vile, worthless\n1c) (Hiphil) to cause to despise\nAlso means: <i>ba.zoh</i> (בָּזֹה \"to despise\" H0960)"
+ },
+ {
+  "id": "H0962",
+  "original": "בָּזַז",
+  "translit": "ba.zaz",
+  "classe": "H:V",
+  "glosa": "to plunder",
+  "def": "1) to spoil, plunder, prey upon, seize\n1a) (Qal) to spoil, plunder, despoil\n1b) (Niphal) to be spoiled, plundered\n1c) (Pual) to be taken as spoil"
+ },
+ {
+  "id": "H0974",
+  "original": "בָּחַן",
+  "translit": "ba.chan",
+  "classe": "H:V",
+  "glosa": "to test",
+  "def": "1) to examine, try, prove\n1a) (Qal)\n1a1) to examine, scrutinise\n1a2) to test, prove, try (of gold, persons, the heart, man of God)\n1b) (Niphal) to be tried, proved\n1c) (Pual) to make a trial"
+ },
+ {
+  "id": "H0977",
+  "original": "בָּחַר",
+  "translit": "ba.char",
+  "classe": "H:V",
+  "glosa": "to choose",
+  "def": "1) to choose, elect, decide for\n1a) (Qal) to choose\n1b) (Niphal) to be chosen\n1c) (Pual) to be chosen, selected"
+ },
+ {
+  "id": "H0983",
+  "original": "בֶּ֫טַח",
+  "translit": "be.tach",
+  "classe": "H:N-M",
+  "glosa": "security",
+  "def": "1) security, safety\nadv\n2) securely"
+ },
+ {
+  "id": "H0990H",
+  "original": "בֶּ֫טֶן",
+  "translit": "be.ten",
+  "classe": "H:N-F",
+  "glosa": "belly: womb",
+  "def": ": womb/pregnancy\n1) belly, womb, body\n1a) belly, abdomen\n1a1) as seat of hunger\n1a2) as seat of mental faculties\n1a3) of depth of Sheol (fig.)\n1b) womb"
+ },
+ {
+  "id": "H0992",
+  "original": "בָּטְנִים",
+  "translit": "bo.ten",
+  "classe": "H:N-M",
+  "glosa": "pistachio",
+  "def": "pistachio nuts-delicacy given to Joseph by Jacob through his sons"
+ },
+ {
+  "id": "H0994",
+  "original": "בִּי",
+  "translit": "bi",
+  "classe": "H:Part",
+  "glosa": "please",
+  "def": "1) if it please, pray excuse me, excuse me please\n1a) used to introduce an entreaty or request"
+ },
+ {
+  "id": "H0995",
+  "original": "בִּין",
+  "translit": "bin",
+  "classe": "H:V",
+  "glosa": "to understand",
+  "def": "1) to discern, understand, consider\n1a) (Qal)\n1a1) to perceive, discern\n1a2) to understand, know (with the mind)\n1a3) to observe, mark, give heed to, distinguish, consider\n1a4) to have discernment, insight, understanding\n1b) (Niphal) to be discerning, intelligent, discreet, have understanding\n1c) (Hiphil)\n1c1) to understand\n1c2) to cause to understand, give understanding, teach\n1d) (Hithpolel) to show oneself discerning or attentive, consider diligently\n1e) (Polel) to teach, instruct\n2) (TWOT) prudent, regard"
+ },
+ {
+  "id": "H0996G",
+  "original": "בַּ֫יִן",
+  "translit": "ba.yin",
+  "classe": "H:A",
+  "glosa": "between",
+  "def": ": between\nbetween, among, in the midst of (with other preps), from between"
+ },
+ {
+  "id": "H1004B",
+  "original": "בַּ֫יִת",
+  "translit": "ba.yit",
+  "classe": "H:N-M",
+  "glosa": "house: home",
+  "def": ": home/temple/building\nnm\n1) house\n1a) house, dwelling habitation\n1b) shelter or abode of animals\n1c) human bodies (fig.)\n1d) of Sheol\n1e) of abode of light and darkness\n1f) of land of Ephraim\n2) place\n3) receptacle\n4) home, house as containing a family\n5) household, family\n5a) those belonging to the same household\n5b) family of descendants, descendants as organized body\n6) household affairs\n7) inwards (metaph.)\n8) (TWOT) temple\nadv\n9) on the inside\nprep\n10) within"
+ },
+ {
+  "id": "H1004M",
+  "original": "בַּ֫יִת",
+  "translit": "ba.yit",
+  "classe": "H:N-M",
+  "glosa": "house: household",
+  "def": ": household\nnm\n1) house\n1a) house, dwelling habitation\n1b) shelter or abode of animals\n1c) human bodies (fig.)\n1d) of Sheol\n1e) of abode of light and darkness\n1f) of land of Ephraim\n2) place\n3) receptacle\n4) home, house as containing a family\n5) household, family\n5a) those belonging to the same household\n5b) family of descendants, descendants as organized body\n6) household affairs\n7) inwards (metaph.)\n8) (TWOT) temple\nadv\n9) on the inside\nprep\n10) within"
+ },
+ {
+  "id": "H1004O",
+  "original": "בַּ֫יִת",
+  "translit": "ba.yit",
+  "classe": "H:N-M",
+  "glosa": "house: inside",
+  "def": ": inside\nnm\n1) house\n1a) house, dwelling habitation\n1b) shelter or abode of animals\n1c) human bodies (fig.)\n1d) of Sheol\n1e) of abode of light and darkness\n1f) of land of Ephraim\n2) place\n3) receptacle\n4) home, house as containing a family\n5) household, family\n5a) those belonging to the same household\n5b) family of descendants, descendants as organized body\n6) household affairs\n7) inwards (metaph.)\n8) (TWOT) temple\nadv\n9) on the inside\nprep\n10) within"
+ },
+ {
+  "id": "H1004P",
+  "original": "בַּ֫יִת",
+  "translit": "ba.yit",
+  "classe": "H:N-M",
+  "glosa": "house: palace",
+  "def": ": home/temple/building\nnm\n1) house\n1a) house, dwelling habitation\n1b) shelter or abode of animals\n1c) human bodies (fig.)\n1d) of Sheol\n1e) of abode of light and darkness\n1f) of land of Ephraim\n2) place\n3) receptacle\n4) home, house as containing a family\n5) household, family\n5a) those belonging to the same household\n5b) family of descendants, descendants as organized body\n6) household affairs\n7) inwards (metaph.)\n8) (TWOT) temple\nadv\n9) on the inside\nprep\n10) within"
+ },
+ {
+  "id": "H1008G",
+  "original": "בֵּֽיתְ־אֵל",
+  "translit": "bet-el",
+  "classe": "N:N--L",
+  "glosa": "Bethel",
+  "def": "§ Bethel = \"house of God\"\nancient place and seat of worship in Ephraim on border of Benjamin, identified with Luz (former name)"
+ },
+ {
+  "id": "H1035G",
+  "original": "בֵּית לֶ֫חֶם",
+  "translit": "bet le.chem",
+  "classe": "N:N--L",
+  "glosa": "Bethlehem",
+  "def": "§ Beth-lehem = \"house of bread (food)\"\na city in Judah, birthplace of David"
+ },
+ {
+  "id": "H1058",
+  "original": "בָּכָה",
+  "translit": "ba.khah",
+  "classe": "H:V",
+  "glosa": "to weep",
+  "def": "1) to weep, bewail, cry, shed tears\n1a) (Qal)\n1a1) to weep (in grief, humiliation, or joy)\n1a2) to weep bitterly (with cognate acc.)\n1a3) to weep upon (embrace and weep)\n1a4) to bewail\n1b) (Piel) participle\n1b1) lamenting\n1b2) bewailing"
+ },
+ {
+  "id": "H1060",
+  "original": "בְּכוֹר",
+  "translit": "be.khor",
+  "classe": "H:N-M",
+  "glosa": "firstborn",
+  "def": "1) firstborn, firstling\n1a) of men and women\n1b) of animals\n1c) noun of relation (fig.)"
+ },
+ {
+  "id": "H1062",
+  "original": "בְּכֹרָה",
+  "translit": "be.kho.rah",
+  "classe": "H:N-F",
+  "glosa": "birthright",
+  "def": "birthright, primogeniture, right of the first-born"
+ },
+ {
+  "id": "H1065",
+  "original": "בְּכִי",
+  "translit": "be.khi",
+  "classe": "H:N-M",
+  "glosa": "weeping",
+  "def": "a weeping, weeping"
+ },
+ {
+  "id": "H1067",
+  "original": "בְּכִירָה",
+  "translit": "be.khi.rah",
+  "classe": "H:N-F",
+  "glosa": "firstborn",
+  "def": "1) firstborn daughter, firstborn (of women)\n1a) always used of women"
+ },
+ {
+  "id": "H1068",
+  "original": "בְּכִית",
+  "translit": "be.khit",
+  "classe": "H:N-F",
+  "glosa": "weeping",
+  "def": "weeping"
+ },
+ {
+  "id": "H1071G",
+  "original": "בֶּ֫כֶר",
+  "translit": "be.kher",
+  "classe": "N:N-M-P",
+  "glosa": "Becher",
+  "def": "A man of the tribe of Benjamin living at the time of Egypt and Wilderness, first mentioned at Gen.46.21; \nson of: Benjamin (H1144); \nbrother of: Bela (H1106A), Ashbel (H0788), Gera (H1617), Naaman (H5283), Ehi (H0278), Rosh (H7220), Muppim (H4649), Huppim (H2650H), Ard (H0714), Ahiram (H0297) and Jediael (H3043); \nfather of: Zemirah (H2160), Joash (H3135), Eliezer (H0461I), Elioenai (H0454I), Omri (H6018H), Jeremoth (H3406H), Abijah (H0029K), Anathoth (H6068H) and Alemeth (H5964H)\n§ Becher = \"young camel\"\n1) a son of Ephraim\n2) a son of Benjamin"
+ },
+ {
+  "id": "H1086",
+  "original": "בָּלָה",
+  "translit": "ba.lah",
+  "classe": "H:V",
+  "glosa": "to become old",
+  "def": "1) to wear out, become old\n1a) (Qal) to wear out\n1b) (Piel)\n1b1) to wear out\n1b2) to wear out by use, use up completely\n1b3) to enjoy, use to the full\nAramaic equivalent: <i>be.la</i> (בְּלָא \"to wear out\" H1080)"
+ },
+ {
+  "id": "H1090A",
+  "original": "בִּלְהָה",
+  "translit": "bil.hah",
+  "classe": "N:N-F-P",
+  "glosa": "Bilhah",
+  "def": "A woman living at the time of the Patriarchs, first mentioned at Gen.29.29; married to Israel (H3478); \nmother of: Dan (H1835H) and Naphtali (H5321)\n§ Bilhah = \"troubled\"\nRachel's handmaid whom she gave to Jacob as a concubine, mother to two of Jacob's children, Dan and Naphtali"
+ },
+ {
+  "id": "H1092G",
+  "original": "בִּלְהָן",
+  "translit": "bil.han",
+  "classe": "N:N-M-P",
+  "glosa": "Bilhan",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.36.27; \nson of: Ezer (H0687); \nbrother of: Zaavan (H2190) and Akan (H3292)\n§ Bilhan = \"their decrepitude\"\n1) a descendant of Esau\n2) a Benjamite"
+ },
+ {
+  "id": "H1097",
+  "original": "בְּלִי",
+  "translit": "be.li",
+  "classe": "H:Neg",
+  "glosa": "without",
+  "def": "subst\n1) wearing out\nadv of negation\n2) without, no, not"
+ },
+ {
+  "id": "H1101A",
+  "original": "בָּלַל",
+  "translit": "ba.lal",
+  "classe": "H:V",
+  "glosa": "to mix",
+  "def": "1) to mix, mingle, confuse, confound\n1a) (Qal)\n1a1) to mingle, confuse\n1a2) to mix\n1b) (Hithpoel) to mix oneself (among others)\n1c) (Hiphil) to fade away"
+ },
+ {
+  "id": "H1104",
+  "original": "בָּלַע",
+  "translit": "ba.la",
+  "classe": "H:V",
+  "glosa": "to swallow up",
+  "def": "1) to swallow down, swallow up, engulf, eat up\n1a) (Qal)\n1a1) to swallow down\n1a2) to swallow up, engulf\n1b) (Niphal) to be swallowed up\n1c) (Piel)\n1c1) to swallow\n1c2) to swallow up, engulf\n1c3) squandering (fig.)\n1d) (Pual) to be swallowed up\n1e) (Hithpael) to be ended"
+ },
+ {
+  "id": "H1106A",
+  "original": "בֶּ֫לַע",
+  "translit": "be.la",
+  "classe": "N:N-M-P",
+  "glosa": "Bela",
+  "def": "A man of the tribe of Benjamin living at the time of Egypt and Wilderness, first mentioned at Gen.46.21; \nson of: Benjamin (H1144); \nbrother of: Becher (H1071), Ashbel (H0788), Gera (H1617), Naaman (H5283), Ehi (H0278), Rosh (H7220), Muppim (H4649), Huppim (H2650H), Ard (H0714), Ahiram (H0297) and Jediael (H3043); \nfather of: Ard (H0714H), Naaman (H5283H), Ezbon (H0675H), Uzzi (H5813I), Uzziel (H5816I), Jerimoth (H3406), Iri (H5901), Addar (H0146H), Gera (H1617I), Abihud (H0031), Abishua (H0050H) and Ahoah (H0265)\nAlso named: <i>bal.i</i> (בַּלְעִי \"Belaite\" H1108)\n§ Bela = \"destruction\"\n1) a king of Edom\n2) first son of Benjamin\n3) a son of Ahaz, a Reubenite"
+ },
+ {
+  "id": "H1106B",
+  "original": "בֶּ֫לַע",
+  "translit": "be.la",
+  "classe": "N:N--L",
+  "glosa": "Bela",
+  "def": "Bela = \"destruction\"\none of the five cities of the plain which was spared at the intercession of Lot, and received the name of Zoar\nAnother name of <i>tso.ar</i> (צֹ֫עַר \"Zoar\" H6820)"
+ },
+ {
+  "id": "H1106G",
+  "original": "בֶּ֫לַע",
+  "translit": "be.la",
+  "classe": "N:N-M-P",
+  "glosa": "Bela",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.36.32; \nson of: Beor (H1160)\n§ Bela = \"destruction\"\none of the five cities of the plain which was spared at the intercession of Lot, and received the name of Zoar"
+ },
+ {
+  "id": "H1107",
+  "original": "בִּלְעֲדֵי",
+  "translit": "bil.a.de",
+  "classe": "H:A",
+  "glosa": "beside",
+  "def": "apart from, except, without, besides"
+ },
+ {
+  "id": "H1115",
+  "original": "בִּלְתִּי",
+  "translit": "bil.ti",
+  "classe": "H:Cond",
+  "glosa": "lest",
+  "def": "subst\n1) not, except\nadv\n2) not\n3) except (after preceding negation)\nconj\n4) except (after an implied or expressed negation)\nwith prep\n5) so as not, in order not\n6) an account of not, because...not\n7) until not"
+ },
+ {
+  "id": "H1121A",
+  "original": "בֵּן",
+  "translit": "ben",
+  "classe": "H:N-M",
+  "glosa": "son: child",
+  "def": ": child/son"
+ },
+ {
+  "id": "H1121G",
+  "original": "בֵּן",
+  "translit": "ben",
+  "classe": "H:N-M",
+  "glosa": "son: descendant/people",
+  "def": ": descendant, people, tribe, nation\nA sub-meaning of <i>ben</i> (בֵּן \": child\" H1121) \n§ : child/son"
+ },
+ {
+  "id": "H1121H",
+  "original": "בֵּן",
+  "translit": "ben",
+  "classe": "H:N-M",
+  "glosa": "son: young animal",
+  "def": ": calf/lamb/young(ANIMAL)\nA sub-meaning of <i>ben</i> (בֵּן \": child\" H1121) \n§ : descendant"
+ },
+ {
+  "id": "H1121I",
+  "original": "בֵּן",
+  "translit": "ben",
+  "classe": "H:N-M",
+  "glosa": "son: type of",
+  "def": ": rebel/son(Belial)\nA sub-meaning of <i>ben</i> (בֵּן \": child\" H1121) \n§ : people/men/nation/tribe"
+ },
+ {
+  "id": "H1121J",
+  "original": "בֵּן",
+  "translit": "ben",
+  "classe": "H:N-M",
+  "glosa": "son",
+  "def": ": [inheriting]son/heir\nA sub-meaning of <i>ben</i> (בֵּן \": child\" H1121)"
+ },
+ {
+  "id": "H1121L",
+  "original": "בֵּן",
+  "translit": "ben",
+  "classe": "H:N-M",
+  "glosa": "son: aged",
+  "def": ": age[son_of](YEARS)\nA sub-meaning of <i>ben</i> (בֵּן \": child\" H1121)"
+ },
+ {
+  "id": "H1126",
+  "original": "בֶּן־אוֹנִ֑י",
+  "translit": "ben-o.ni",
+  "classe": "N:N-M-P",
+  "glosa": "Ben-oni",
+  "def": "A man of the tribe of Benjamin living at the time of the Patriarchs, first mentioned at Gen.35.18; \nson of: Israel (H3478) and Rachel (H7354); \nbrother of: Joseph (H3130); \nhalf-brother of: Reuben (H7205), Simeon (H8095), Levi (H3878), Judah (H3063), Dan (H1835H), Naphtali (H5321), Gad (H1410), Asher (H0836), Issachar (H3485), Zebulun (H2074) and Dinah (H1783); \nfather of: Bela (H1106A), Becher (H1071), Ashbel (H0788), Gera (H1617), Naaman (H5283), Ehi (H0278), Rosh (H7220), Muppim (H4649), Huppim (H2650H), Ard (H0714), Ahiram (H0297) and Jediael (H3043); also called Jamin at 1Sa.9.1,4; 22.7; 1x\nAnother name of <i>bin.ya.min</i> (בִּנְיָמִין \"Benjamin\" H1144G) \n§ Ben-oni = \"son of my sorrow\"\nthe name given to Benjamin by Rachel"
+ },
+ {
+  "id": "H1129",
+  "original": "בָּנָה",
+  "translit": "ba.nah",
+  "classe": "H:V",
+  "glosa": "to build",
+  "def": "1) to build, rebuild, establish, cause to continue\n1a) (Qal)\n1a1) to build, rebuild\n1a2) to build a house (ie, establish a family)\n1b) (Niphal)\n1b1) to be built\n1b2) to be rebuilt\n1b3) established (of restored exiles) (fig.)\n1b4) established (made permanent)\n1b5) to be built up (of childless wife becoming the mother of a family through the children of a concubine)\nAramaic equivalent: <i>be.nah</i> (בְּנָה \"to build\" H1124)"
+ },
+ {
+  "id": "H1144G",
+  "original": "בִּנְיָמִין",
+  "translit": "bin.ya.min",
+  "classe": "N:N-M-P",
+  "glosa": "Benjamin",
+  "def": "A man of the tribe of Benjamin living at the time of the Patriarchs, first mentioned at Gen.35.18; \nson of: Israel (H3478) and Rachel (H7354); \nbrother of: Joseph (H3130); \nhalf-brother of: Reuben (H7205), Simeon (H8095), Levi (H3878), Judah (H3063), Dan (H1835H), Naphtali (H5321), Gad (H1410), Asher (H0836), Issachar (H3485), Zebulun (H2074) and Dinah (H1783); \nfather of: Bela (H1106A), Becher (H1071), Ashbel (H0788), Gera (H1617), Naaman (H5283), Ehi (H0278), Rosh (H7220), Muppim (H4649), Huppim (H2650H), Ard (H0714), Ahiram (H0297) and Jediael (H3043); also called Jamin at 1Sa.9.1,4; 22.7; 1x\n§ Benjamin = \"son of the right hand\"\n1) Jacob's and Rachel's youngest son, Joseph's full brother\n2) son of Bilhan, great-grandson of Benjamin\n3) a Benjamite, one of the sons of Harim, in the time of Ezra who had taken a strange wife\n4) the tribe descended from Benjamin, the son of Jacob"
+ },
+ {
+  "id": "H1151",
+  "original": "בֶּן־עַמִּי",
+  "translit": "ben-am.mi",
+  "classe": "N:N-M-P",
+  "glosa": "Ben-ammi",
+  "def": "A man of Ammon living at the time of the Patriarchs, only mentioned at Gen.19.38; \nson of: Lot (H3876) and his second daughter (H3876I); half-brother of Moab (H4124H) \n§ Ben-ami = \"son of my people\"\nson of Lot, born to his second daughter, progenitor of the Ammonites"
+ },
+ {
+  "id": "H1157",
+  "original": "בַּ֫עַד",
+  "translit": "be.ad",
+  "classe": "H:A",
+  "glosa": "about/through/for",
+  "def": "1) behind, through, round about, on behalf of, away from, about\n1a) through (of action)\n1b) behind (with verbs of shutting)\n1c) about (with verbs of fencing)\n1d) on behalf of (metaph. especially with Hithpael)"
+ },
+ {
+  "id": "H1160G",
+  "original": "בְּעוֹר",
+  "translit": "be.or",
+  "classe": "N:N-M-P",
+  "glosa": "Beor",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.36.32; \nfather of: Bela (H1106)\n§ Beor = \"burning\"\n1) father of Balaam\n2) father of Bela, king of Edom"
+ },
+ {
+  "id": "H1165",
+  "original": "בְּעִיר",
+  "translit": "be.ir",
+  "classe": "H:N-M",
+  "glosa": "cattle",
+  "def": "beasts, cattle"
+ },
+ {
+  "id": "H1166I",
+  "original": "בָּעַל",
+  "translit": "ba.al",
+  "classe": "H:V",
+  "glosa": "rule: to marry",
+  "def": "1) to marry, possess, own, rule over \n1a) (Qal)\n1a1) to marry, be lord (husband) over\n1b) (Niphal) to be married"
+ },
+ {
+  "id": "H1167I",
+  "original": "בַּעַל",
+  "translit": "ba.al",
+  "classe": "H:N-M",
+  "glosa": "master: men",
+  "def": ": men/comrades\n1) owner, husband, lord\n1a) owner\n1b) a husband\n1c) citizens, inhabitants\n1d) rulers, lords\n1e) (noun of relationship used to characterise-ie, master of dreams)"
+ },
+ {
+  "id": "H1167K",
+  "original": "בַּעַל",
+  "translit": "ba.al",
+  "classe": "H:N-M",
+  "glosa": "master: [master of]",
+  "def": ": [master_of](DESCRIPTOR)\n1) owner, husband, lord\n1a) owner\n1b) a husband\n1c) citizens, inhabitants\n1d) rulers, lords\n1e) (noun of relationship used to characterise-ie, master of dreams)"
+ },
+ {
+  "id": "H1177G",
+  "original": "בַּ֫עַל חָנָן",
+  "translit": "ba.al cha.nan",
+  "classe": "N:N-M-P",
+  "glosa": "Baal-hanan",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.36.38; \nson of: Achbor (H5907)\n§ Baal-hanan = \"Baal is gracious\"\n1) an early king of Edom\n2) one of David's officers, a Gederite, who had the superintendence of his olive and sycamore plantations"
+ },
+ {
+  "id": "H1215",
+  "original": "בֶּ֫צַע",
+  "translit": "be.tsa",
+  "classe": "H:N-M",
+  "glosa": "unjust-gain",
+  "def": "profit, unjust gain, gain (profit) acquired by violence"
+ },
+ {
+  "id": "H1219",
+  "original": "בָּצַר",
+  "translit": "ba.tsar",
+  "classe": "H:V",
+  "glosa": "to gather/restrain/fortify",
+  "def": "1) to gather, restrain, fence, fortify, make inaccessible, enclose\n1a) (Qal)\n1a1) to cut off\n1a2) fortified, cut off, made inaccessible (pass participle)\n1a3) secrets, mysteries, inaccessible things (subst)\n1b) (Niphal) to be withheld\n1c) (Piel) to fortify"
+ },
+ {
+  "id": "H1224G",
+  "original": "בׇּצְרָה",
+  "translit": "bots.rah",
+  "classe": "N:N--L",
+  "glosa": "Bozrah",
+  "def": "§ Bozrah = \"sheepfold\" or \"fortress\"\na town in Edom"
+ },
+ {
+  "id": "H1234",
+  "original": "בָּקַע",
+  "translit": "ba.qa",
+  "classe": "H:V",
+  "glosa": "to break up/open",
+  "def": "1) to split, cleave, break open, divide, break through, rip up, break up, tear\n1a) (Qal)\n1a1) to cleave, cleave open\n1a2) to break through, break into\n1b) (Niphal)\n1b1) to be cleft, be rent open, be split open\n1b2) to be broken into\n1c) (Piel)\n1c1) to cleave, cut to pieces, rend open\n1c2) to break through, break down\n1d) (Pual)\n1d1) to be ripped open, be torn open\n1d2) to be rent\n1d3) to be broken into\n1e) (Hiphil)\n1e1) to break into\n1e2) to break through\n1f) (Hophal) to be broken into\n1g) (Hithpael) to burst (themselves) open, cleave asunder"
+ },
+ {
+  "id": "H1235",
+  "original": "בֶּ֫קַע",
+  "translit": "be.qa",
+  "classe": "H:N-M",
+  "glosa": "bekah",
+  "def": "1) half, part also called \"shekel of the sanctuary\" or \"holy shekel\"\n2) half a shekel (meton) There appears to be at least three different shekels, one of silver, gold and copper. See a Bible Dictionary for a complete treatment of the subject."
+ },
+ {
+  "id": "H1237K",
+  "original": "בִּקְעָה",
+  "translit": "biq.ah",
+  "classe": "H:N-F",
+  "glosa": "valley",
+  "def": "1) valley\n2) plain, level valley\nAramaic equivalent: <i>biq.a</i> (בִּקְעָא \"plain\" H1236)"
+ },
+ {
+  "id": "H1241",
+  "original": "בָּקָר",
+  "translit": "ba.qar",
+  "classe": "H:N",
+  "glosa": "cattle",
+  "def": "1) cattle, herd, oxen, ox\n1a) cattle (generic pl. but sing. in form-coll)\n1b) herd (particular one)\n1c) head of cattle (individually)"
+ },
+ {
+  "id": "H1242",
+  "original": "בֹּ֫קֶר",
+  "translit": "bo.qer",
+  "classe": "H:N-M",
+  "glosa": "morning",
+  "def": "1) morning, break of day\n1a) morning\n1a1) of end of night\n1a2) of coming of daylight\n1a3) of coming of sunrise\n1a4) of beginning of day\n1a5) of bright joy after night of distress (fig.)\n1b) morrow, next day, next morning"
+ },
+ {
+  "id": "H1245",
+  "original": "בָּקַשׁ",
+  "translit": "ba.qash",
+  "classe": "H:V",
+  "glosa": "to seek",
+  "def": "1) to seek, require, desire, exact, request\n1a) (Piel)\n1a1) to seek to find\n1a2) to seek to secure\n1a3) to seek the face\n1a4) to desire, demand\n1a5) to require, exact\n1a6) to ask, request\n1b) (Pual) to be sought"
+ },
+ {
+  "id": "H1250A",
+  "original": "בַּר",
+  "translit": "bar",
+  "classe": "H:N-M",
+  "glosa": "grain",
+  "def": "corn, grain"
+ },
+ {
+  "id": "H1254A",
+  "original": "בָּרָא",
+  "translit": "ba.ra",
+  "classe": "H:V",
+  "glosa": "to create",
+  "def": "1) to create, shape, form\n1a) (Qal) to shape, fashion, create (always with God as subject)\n1a1) of heaven and earth\n1a2) of individual man\n1a3) of new conditions and circumstances\n1a4) of transformations\n1b) (Niphal) to be created\n1b1) of heaven and earth\n1b2) of birth\n1b3) of something new\n1b4) of miracles\n1c) (Piel)\n1c1) to cut down\n1c2) to cut out"
+ },
+ {
+  "id": "H1260G",
+  "original": "בֶּ֫רֶד",
+  "translit": "be.red",
+  "classe": "N:N--L",
+  "glosa": "Bered",
+  "def": "§ Bered = \"hail\"\na place in the south of Palestine, near Kadesh, near the well Lahairoi"
+ },
+ {
+  "id": "H1261",
+  "original": "בָּרֹד",
+  "translit": "ba.rod",
+  "classe": "H:A",
+  "glosa": "spotted",
+  "def": "spotted, marked"
+ },
+ {
+  "id": "H1270",
+  "original": "בַּרְזֶל",
+  "translit": "bar.zel",
+  "classe": "H:N-M",
+  "glosa": "iron",
+  "def": "1) iron\n1a) iron\n1a1) iron ore\n1a2) as material of furniture, utensils, implements\n2) tool of iron\n3) harshness, strength, oppression (fig.)\nAramaic equivalent: <i>par.zel</i> (פַּרְזֶל \"iron\" H6523)"
+ },
+ {
+  "id": "H1272",
+  "original": "בָּרַח",
+  "translit": "ba.rach",
+  "classe": "H:V",
+  "glosa": "to flee",
+  "def": "1) to go through, flee, run away, chase, drive away, put to flight, reach, shoot (extend), hurry away\n1a) (Qal)\n1a1) to go, pass through\n1a2) to flee\n1a3) to hasten, come quickly\n1b) (Hiphil)\n1b1) to pass through\n1b2) to cause to flee, put to flight\n1b3) to drive away"
+ },
+ {
+  "id": "H1277",
+  "original": "בָּרִיא",
+  "translit": "ba.ri",
+  "classe": "H:A",
+  "glosa": "fat",
+  "def": "1) fat\n2) (TWOT) fat, fatter, fed, firm, plenteous, rank\nAlso means: <i>ber.yah</i> (בִּרְיָה \"fat\" H1274)"
+ },
+ {
+  "id": "H1283G",
+  "original": "בְּרִיעָה",
+  "translit": "be.ri.ah",
+  "classe": "N:N-M-P",
+  "glosa": "Beriah",
+  "def": "A man of the tribe of Asher living at the time of Egypt and Wilderness, first mentioned at Gen.46.17; \nson of: Asher (H0836); \nbrother of: Imnah (H3232), Ishvah (H3438), Ishvi (H3440) and Serah (H8294); \nfather of: Heber (H2268) and Malchiel (H4439); also called Beriite at Num.26.44; \nAlso named: <i>be.ri.i</i> (בְּרִיעִי \"Beriite\" H1284)\n§ Beriah = \"with a friend\"\n1) a son of Asher\n2) a son of Ephraim\n3) a Benjamite\n4) a Levite"
+ },
+ {
+  "id": "H1285",
+  "original": "בְּרִית",
+  "translit": "be.rit",
+  "classe": "H:N-F",
+  "glosa": "covenant",
+  "def": "1) covenant, alliance, pledge\n1a) between men\n1a1) treaty, alliance, league (man to man)\n1a2) constitution, ordinance (monarch to subjects)\n1a3) agreement, pledge (man to man)\n1a4) alliance (of friendship)\n1a5) alliance (of marriage)\n1b) between God and man\n1b1) alliance (of friendship)\n1b2) covenant (divine ordinance with signs or pledges)\n2) (phrases)\n2a) covenant making\n2b) covenant keeping\n2c) covenant violation"
+ },
+ {
+  "id": "H1288",
+  "original": "בָּרַךְ",
+  "translit": "ba.rakh",
+  "classe": "H:V",
+  "glosa": "to bless",
+  "def": "1) to bless, kneel\n1a) (Qal)\n1a1) to kneel\n1a2) to bless\n1b) (Niphal) to be blessed, bless oneself\n1c) (Piel) to bless\n1d) (Pual) to be blessed, be adored\n1e) (Hiphil) to cause to kneel\n1f) (Hithpael) to bless oneself\n2) (TWOT) to praise, salute, curse\nAramaic equivalent: <i>be.rakh</i> (בְּרַךְ \"to bless\" H1289)"
+ },
+ {
+  "id": "H1290",
+  "original": "בֶּ֫רֶךְ",
+  "translit": "be.rekh",
+  "classe": "H:N-F",
+  "glosa": "knee",
+  "def": "1) knee\n2) weak from fear (fig.)\nAramaic equivalent: <i>be.rekh</i> (בְּרַךְ \"knee\" H1291)"
+ },
+ {
+  "id": "H1293",
+  "original": "בְּרָכָה",
+  "translit": "be.ra.khah",
+  "classe": "H:N-F",
+  "glosa": "blessing",
+  "def": "1) blessing\n2) (source of) blessing\n3) blessing, prosperity\n4) blessing, praise of God\n5) a gift, present\n6) treaty of peace"
+ },
+ {
+  "id": "H1298",
+  "original": "בֶּ֫רַע",
+  "translit": "be.ra",
+  "classe": "N:N-M-P",
+  "glosa": "Bera",
+  "def": "A man living at the time of the Patriarchs, only mentioned at Gen.14.2 \n§ Bera = \"son of evil\"\na king of Sodom"
+ },
+ {
+  "id": "H1306",
+  "original": "בִּרְשַׁע",
+  "translit": "bir.sah",
+  "classe": "N:N-M-P",
+  "glosa": "Birsha",
+  "def": "A man living at the time of the Patriarchs, only mentioned at Gen.14.2 \n§ Birsha = \"with iniquity\"\na king of Gomorrah"
+ },
+ {
+  "id": "H1310",
+  "original": "בָּשַׁל",
+  "translit": "ba.shal",
+  "classe": "H:V",
+  "glosa": "to boil",
+  "def": "1) to boil, cook, bake, roast, ripen, grow ripe\n1a) (Qal)\n1a1) to boil, cook\n1a2) to grow ripe, ripen\n1b) (Piel)\n1b1) to boil\n1b2) to cook\n1c) (Pual)\n1c1) to be boiled\n1c2) to be sodden\n1d) (Hiphil)\n1d1) to ripen\n1d2) ripen, brought to ripeness"
+ },
+ {
+  "id": "H1315H",
+  "original": "בָּֽשְׂמַת",
+  "translit": "bos.mat",
+  "classe": "N:N-F-P",
+  "glosa": "Basemath",
+  "def": "A woman living at the time before the Flood, first mentioned at Gen.26.34; \ndaughter of: Elon (H0356); married to Esau (H6215); \nmother of: Eliphaz (H0464); also called Basemath (KJV: Bashemath) at Gen.26.34; \nAnother name of <i>a.dah</i> (עָדָה \"Adah\" H5711H)\n§ Bashemath or Basmath = \"spice\"\n1) Hittite wife of Esau, daughter of Ishmael, sister of Nebaioth\n2) daughter of Solomon, wife of Ahimaaz, one of Solomon's commissariat officers"
+ },
+ {
+  "id": "H1315I",
+  "original": "בָּֽשְׂמַת",
+  "translit": "bos.mat",
+  "classe": "N:N-F-P",
+  "glosa": "Basemath",
+  "def": "A woman of the Arabs living at the time of the Patriarchs, first mentioned at Gen.28.9; \ndaughter of: Ishmael (H3458); \nsister of: Nebaioth (H5032), Kedar (H6938), Adbeel (H0110), Mibsam (H4017), Mishma (H4927), Dumah (H1746), Massa (H4854), Hadad (H2301), Tema (H8485), Jetur (H3195), Naphish (H5305) and Kedemah (H6929); married to Esau (H6215); \nmother of: Reuel (H7467); also called Basemath (KJV: Bashemath) at Gen.36.3,4,10,13,17; \nAnother name of <i>ma.cha.lat</i> (מַחֲלַת \"Mahalath\" H4258G)\n§ Bashemath or Basmath = \"spice\"\n1) Hittite wife of Esau, daughter of Ishmael, sister of Nebaioth\n2) daughter of Solomon, wife of Ahimaaz, one of Solomon's commissariat officers"
+ },
+ {
+  "id": "H1320",
+  "original": "בָּשָׂר",
+  "translit": "ba.sar",
+  "classe": "H:N-M",
+  "glosa": "flesh",
+  "def": "1) flesh\n1a) of the body\n1a1) of humans\n1a2) of animals\n1b) the body itself\n1c) male organ of generation (euphemism)\n1d) kindred, blood-relations\n1e) flesh as frail or erring (man against God)\n1f) all living things\n1g) animals\n1h) mankind\nAramaic equivalent: <i>be.shar</i> (בְּשַׁר \"flesh\" H1321)"
+ },
+ {
+  "id": "H1323G",
+  "original": "בַּת",
+  "translit": "bat",
+  "classe": "H:N-F",
+  "glosa": "daughter",
+  "def": ": daughter\n1) daughter\n1a) daughter, girl, adopted daughter, daughter-in-law, sister, granddaughters, female child, cousin\n1a1) as polite address\n1a2) as designation of women of a particular place\n2) young women, women\n1a3) as personification\n1a4) daughter-villages\n1a5) description of character\nAlso means: <i>bat</i> (בַּת \": village\" H1323H)"
+ },
+ {
+  "id": "H1328A",
+  "original": "בְּתוּאֵל",
+  "translit": "be.tu.el",
+  "classe": "N:N-M-P",
+  "glosa": "Bethuel",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.22.22; \nson of: Nahor (H5152H) and Milcah (H4435); \nbrother of: Uz (H5780H), Buz (H0938), Kemuel (H7055), Chesed (H3777), Hazo (H2375), Pildash (H6394), Jidlaph (H3044) and Tebah (H2875); \nhalf-brother of: Gaham (H1514), Tahash (H8477) and Maacah (H4601); \nfather of: Rebekah (H7259) and Laban (H3837A)\n§ Bethuel = \"God destroys\" or \"man of God\" or \"dweller in God\"\nnephew of Abraham, son of Nahor by Milcah, father of Rebekah"
+ },
+ {
+  "id": "H1330",
+  "original": "בְּתוּלָה",
+  "translit": "be.tu.lah",
+  "classe": "H:N-F",
+  "glosa": "virgin",
+  "def": "virgin"
+ },
+ {
+  "id": "H1334",
+  "original": "בָּתַר",
+  "translit": "ba.tar",
+  "classe": "H:V",
+  "glosa": "to cut up",
+  "def": "1) to cut in two\n1a) (Qal) to cut in two\n1b) (Piel) to cut in two"
+ },
+ {
+  "id": "H1335",
+  "original": "בֶּ֫תֶר",
+  "translit": "be.ter",
+  "classe": "H:N-M",
+  "glosa": "part",
+  "def": "1) part, piece\n1a) of the parts of an animal cut in half for a sacrifice"
+ },
+ {
+  "id": "H1350A",
+  "original": "גָּאַל",
+  "translit": "ga.al",
+  "classe": "H:V",
+  "glosa": "to redeem: redeem",
+  "def": ": redeem\n1) to redeem, act as kinsman-redeemer, avenge, revenge, ransom, do the part of a kinsman\n1a) (Qal)\n1a1) to act as kinsman, do the part of next of kin, act as kinsman-redeemer\n1a1a) by marrying brother's widow to beget a child for him, to redeem from slavery, to redeem land, to exact vengeance\n1a2) to redeem (by payment)\n1a3) to redeem (with God as subject)\n1a3a) individuals from death\n1a3b) Israel from Egyptian bondage\n1a3c) Israel from exile\n1b) (Niphal)\n1b1) to redeem oneself\n1b2) to be redeemed"
+ },
+ {
+  "id": "H1364",
+  "original": "גָּבֹהַּ",
+  "translit": "ga.vo.ah",
+  "classe": "H:A",
+  "glosa": "high",
+  "def": "adj\n1) high, exalted\n1a) high, tall\n1b) high (in position)\n1c) proud, haughty\nn m\n2) loftiness\nAlso means: <i>ga.vah</i> (גָּבֹהַּ \"high\" H1362)"
+ },
+ {
+  "id": "H1366H",
+  "original": "גְּבוּל",
+  "translit": "ge.vul",
+  "classe": "H:N-M",
+  "glosa": "border: area",
+  "def": ": area\n1) border, territory\n1a) border\n1b) territory (enclosed within boundary)\n1c) region, territory (of darkness) (fig.)"
+ },
+ {
+  "id": "H1368",
+  "original": "גִּבּוֹר",
+  "translit": "gib.bor",
+  "classe": "H:N",
+  "glosa": "mighty man",
+  "def": "adj\n1) strong, mighty\nn m\n2) strong man, brave man, mighty man"
+ },
+ {
+  "id": "H1375",
+  "original": "גָּבִיעַ",
+  "translit": "ge.vi.a",
+  "classe": "H:N-M",
+  "glosa": "cup",
+  "def": "cup, bowl"
+ },
+ {
+  "id": "H1376",
+  "original": "גְּבִיר",
+  "translit": "ge.vir",
+  "classe": "H:N-M",
+  "glosa": "lord",
+  "def": "lord, ruler"
+ },
+ {
+  "id": "H1389I",
+  "original": "גִּבְעָה",
+  "translit": "giv.ah",
+  "classe": "H:N-F",
+  "glosa": "hill",
+  "def": "1) hill\n1a) hill (lower than a mountain)\n1b) as a place of illicit worship\n1c) poetic for mountain\n1d) used in place names"
+ },
+ {
+  "id": "H1396",
+  "original": "גָּבַר",
+  "translit": "ga.var",
+  "classe": "H:V",
+  "glosa": "to prevail",
+  "def": "1) to prevail, have strength, be strong, be powerful, be mighty, be great\n1a) (Qal)\n1a1) to be strong, mighty\n1a2) to prevail\n1b) (Piel) to make strong, strengthen\n1c) (Hiphil)\n1c1) to confirm, give strength\n1c2) to confirm (a covenant)\n1d) (Hithpael)\n1d1) to show oneself mighty\n1d2) to act proudly (toward God)"
+ },
+ {
+  "id": "H1404",
+  "original": "גְּבֶ֫רֶת",
+  "translit": "ge.ve.ret",
+  "classe": "H:N-F",
+  "glosa": "lady",
+  "def": "1) lady, queen\n2) mistress (of servants)"
+ },
+ {
+  "id": "H1410G",
+  "original": "גָּד",
+  "translit": "gad",
+  "classe": "N:N-M-P",
+  "glosa": "Gad",
+  "def": "A man of the tribe of Gad living at the time of the Patriarchs, first mentioned at Gen.30.11; \nson of: Israel (H3478) and Zilpah (H2153); \nbrother of: Asher (H0836); \nhalf-brother of: Reuben (H7205), Simeon (H8095), Levi (H3878), Judah (H3063), Dan (H1835H), Naphtali (H5321), Issachar (H3485), Zebulun (H2074), Dinah (H1783), Joseph (H3130) and Benjamin (H1144); \nfather of: Ziphion (H6837), Haggi (H2291), Shuni (H7764), Ezbon (H0675), Eri (H6179), Arod (H0720) and Areli (H0692)\n§ Gad = \"troop\"\n1) seventh son of Jacob by Zilpah, Leah's handmaid, and full brother of Asher.\n2) the tribe descended from Gad\n3) a prophet during the time of David; appears to have joined David when in the hold; reappears in connection with the punishment for taking a census; also assisted in the arrangements for the musical service of the \"house of God\""
+ },
+ {
+  "id": "H1416",
+  "original": "גְּדוּד",
+  "translit": "ge.dud",
+  "classe": "H:N-M",
+  "glosa": "band",
+  "def": "1) a band, troop, marauding band\n1a) marauding band, raiding band\n1b) troop, band (of divisions of army)\n1c) foray, raid"
+ },
+ {
+  "id": "H1419A",
+  "original": "גָּדוֹל",
+  "translit": "ga.dol",
+  "classe": "H:A",
+  "glosa": "great: large",
+  "def": "adj\n1) great\n1a) large (in magnitude and extent)\n1b) in number\n1c) in intensity\n1d) loud (in sound)\n1e) older (in age)\n1f) in importance\n1f1) important things\n1f2) great, distinguished (of men)\n1f3) God Himself (of God)\nsubst\n1g) great things\n1h) haughty things\n1i) greatness\nAlso means: <i>ga.dol</i> (גָּדוֹל \": old\" H1419K)\n§ Haggedolim = \"the great one\"\n(CLBL) Haggedolim, the great man?, father of Zabdiel"
+ },
+ {
+  "id": "H1419K",
+  "original": "גָּדוֹל",
+  "translit": "ga.dol",
+  "classe": "H:A",
+  "glosa": "great: old",
+  "def": "adj\n1) great\n1a) large (in magnitude and extent)\n1b) in number\n1c) in intensity\n1d) loud (in sound)\n1e) older (in age)\n1f) in importance\n1f1) important things\n1f2) great, distinguished (of men)\n1f3) God Himself (of God)\nsubst\n1g) great things\n1h) haughty things\n1i) greatness\n§ Haggedolim = \"the great one\"\n(CLBL) Haggedolim, the great man?, father of Zabdiel"
+ },
+ {
+  "id": "H1423",
+  "original": "גְּדִי",
+  "translit": "ge.di",
+  "classe": "H:N-M",
+  "glosa": "kid",
+  "def": "kid, young male goat"
+ },
+ {
+  "id": "H1431",
+  "original": "גָּדַל",
+  "translit": "ga.dal",
+  "classe": "H:V",
+  "glosa": "to magnify",
+  "def": "1) to grow, become great or important, promote, make powerful, praise, magnify, do great things\n1a) (Qal)\n1a1) to grow up\n1a2) to become great\n1a3) to be magnified\n1b) (Piel)\n1b1) to cause to grow\n1b2) to make great, powerful\n1b3) to magnify\n1c) (Pual) to be brought up\n1d) (Hiphil)\n1d1) to make great\n1d2) to magnify\n1d3) to do great things\n1e) (Hithpael) to magnify oneself"
+ },
+ {
+  "id": "H1432",
+  "original": "גָּדֵל",
+  "translit": "ga.del",
+  "classe": "H:A",
+  "glosa": "growing",
+  "def": "becoming great, growing up"
+ },
+ {
+  "id": "H1464",
+  "original": "גּוּד",
+  "translit": "gud",
+  "classe": "H:V",
+  "glosa": "to raid",
+  "def": "1) to invade, attack\n1a) (Qal) to attack"
+ },
+ {
+  "id": "H1469",
+  "original": "גּוֹזָל",
+  "translit": "go.zal",
+  "classe": "H:N-M",
+  "glosa": "young bird",
+  "def": "a nestling, young (of birds)"
+ },
+ {
+  "id": "H1471A",
+  "original": "גּוֹי",
+  "translit": "goy",
+  "classe": "H:N-M",
+  "glosa": "nation",
+  "def": "1) nation, people\n1a) nation, people\n1a1) usually of non-Hebrew people\n1a2) of descendants of Abraham\n1a3) of Israel\n1b) of swarm of locusts, other animals (fig.)"
+ },
+ {
+  "id": "H1471B",
+  "original": "גּוֹיִם",
+  "translit": "go.yim",
+  "classe": "N:N--LG",
+  "glosa": "Goiim",
+  "def": "People descended from Goy(?), first mentioned at Gen.14.1\n§ Goyim (Tidgal, king of)"
+ },
+ {
+  "id": "H1472",
+  "original": "גְּוִיָּה",
+  "translit": "ge.viy.yah",
+  "classe": "H:N-F",
+  "glosa": "body",
+  "def": "1) a body (of living creatures)\n2) a corpse, carcass, dead body"
+ },
+ {
+  "id": "H1476G",
+  "original": "גּוּנִי",
+  "translit": "gu.ni",
+  "classe": "N:N-M-P",
+  "glosa": "Guni",
+  "def": "A man of the tribe of Naphtali living at the time of Egypt and Wilderness, first mentioned at Gen.46.24; \nson of: Naphtali (H5321); \nbrother of: Jahzeel (H3183), Jezer (H3337) and Shillem (H8006)\nAlso named: <i>gu.ni</i> (גּוּנִי \"Gunite\" H1477)\n§ Guni = \"my defender (?)\"\n1) a son of Naphtali and founder of the family of Gunites\n2) a descendant of Gad"
+ },
+ {
+  "id": "H1478",
+  "original": "גָּוַע",
+  "translit": "ga.va",
+  "classe": "H:V",
+  "glosa": "to die",
+  "def": "1) to expire, die, perish, give up the ghost, yield up the ghost, be dead, be ready to die\n1a) (Qal) to expire, die, be about to die"
+ },
+ {
+  "id": "H1481A",
+  "original": "גּוּר",
+  "translit": "gur",
+  "classe": "H:V",
+  "glosa": "to sojourn",
+  "def": "1) to sojourn, abide, dwell in, dwell with, remain, inhabit, be a stranger, be continuing, surely\n1a) (Qal)\n1a1) to sojourn, dwell for a time\n1a2) to abide, stay, temporarily dwell\n1b) (Hithpolel)\n1b1) to seek hospitality with\n1b2) to assemble oneself"
+ },
+ {
+  "id": "H1482",
+  "original": "גּוּר",
+  "translit": "gur",
+  "classe": "H:N-M",
+  "glosa": "whelp",
+  "def": "cub, whelp, young"
+ },
+ {
+  "id": "H1494",
+  "original": "גָּזַז",
+  "translit": "ga.zaz",
+  "classe": "H:V",
+  "glosa": "to shear",
+  "def": "1) to shear, mow\n1a) (Qal)\n1a1) to shear\n1a2) shearer (participle)\n1b) (Niphal) to be cut off, be destroyed"
+ },
+ {
+  "id": "H1497",
+  "original": "גָּזַל",
+  "translit": "ga.zal",
+  "classe": "H:V",
+  "glosa": "to plunder",
+  "def": "1) to tear away, seize, plunder, tear off, pull off, rob, take away by force\n1a) (Qal)\n1a1) to tear away, rob\n1a2) to seize, plunder (with acc cognate)\n1b) (Niphal)\n1b1) to be robbed\n1b2) to be taken away"
+ },
+ {
+  "id": "H1506",
+  "original": "גֶּ֫זֶר",
+  "translit": "ge.zer",
+  "classe": "H:N-M",
+  "glosa": "piece",
+  "def": "part"
+ },
+ {
+  "id": "H1512",
+  "original": "גָּחוֹן",
+  "translit": "ga.chon",
+  "classe": "H:N-M",
+  "glosa": "belly",
+  "def": "belly (of reptiles)"
+ },
+ {
+  "id": "H1514",
+  "original": "גַּ֫חַם",
+  "translit": "ga.cham",
+  "classe": "N:N-M-P",
+  "glosa": "Gaham",
+  "def": "A man living at the time of the Patriarchs, only mentioned at Gen.22.24; \nson of: Nahor (H5152H) and Reumah (H7208); \nbrother of: Tebah (H2875), Tahash (H8477) and Maacah (H4601); \nhalf-brother of: Uz (H5780H), Buz (H0938), Kemuel (H7055), Chesed (H3777), Hazo (H2375), Pildash (H6394), Jidlaph (H3044) and Bethuel (H1328A) \n§ Gaham = \"burning\"\na son of Abraham's brother Nahor and his concubine Reumah"
+ },
+ {
+  "id": "H1517",
+  "original": "גִּיד",
+  "translit": "gid",
+  "classe": "H:N-M",
+  "glosa": "sinew",
+  "def": "sinew"
+ },
+ {
+  "id": "H1521",
+  "original": "גִּיחוֹן",
+  "translit": "gi.chon",
+  "classe": "N:N--L",
+  "glosa": "Gihon",
+  "def": "§ Gihon = \"bursting forth\"\none of the four rivers of the Garden of Eden"
+ },
+ {
+  "id": "H1530G",
+  "original": "גַּל",
+  "translit": "gal",
+  "classe": "H:N-M",
+  "glosa": "heap",
+  "def": ": heap/pile\n1) heap, spring, wave, billow\n1a) heap (of stones)\n1a1) over dead body\n1a2) alone\n1a3) used in ratifying a covenant\n1b) waves (fig. of chastisement of Jehovah)\n1c) spring\nAlso means: <i>gal</i> (גַּל \": wave\" H1530H)"
+ },
+ {
+  "id": "H1540H",
+  "original": "גָּלָה",
+  "translit": "ga.lah",
+  "classe": "H:V",
+  "glosa": "to reveal: reveal",
+  "def": ": reveal[information]\n1) to uncover, remove\n1a) (Qal)\n1a1) to uncover\n1a2) to remove, depart\n1a3) to go into exile\n1b) (Niphal)\n1b1) (reflexive)\n1b1a) to uncover oneself\n1b1b) to discover or show oneself\n1b1c) to reveal himself (of God)\n1b2) (passive)\n1b2a) to be uncovered\n1b2b) to be disclosed, be discovered\n1b2c) to be revealed\n1b3) to be removed\n1c) (Piel)\n1c1) to uncover (nakedness)\n1c1a) nakedness\n1c1b) general\n1c2) to disclose, discover, lay bare\n1c3) to make known, show, reveal\n1d) (Pual) to be uncovered\n1e) (Hiphil) to carry away into exile, take into exile\n1f) (Hophal) to be taken into exile\n1g) (Hithpael)\n1g1) to be uncovered\n1g2) to reveal oneself"
+ },
+ {
+  "id": "H1540I",
+  "original": "גָּלָה",
+  "translit": "ga.lah",
+  "classe": "H:V",
+  "glosa": "to reveal: uncover",
+  "def": ": uncover[things]\n1) to uncover, remove\n1a) (Qal)\n1a1) to uncover\n1a2) to remove, depart\n1a3) to go into exile\n1b) (Niphal)\n1b1) (reflexive)\n1b1a) to uncover oneself\n1b1b) to discover or show oneself\n1b1c) to reveal himself (of God)\n1b2) (passive)\n1b2a) to be uncovered\n1b2b) to be disclosed, be discovered\n1b2c) to be revealed\n1b3) to be removed\n1c) (Piel)\n1c1) to uncover (nakedness)\n1c1a) nakedness\n1c1b) general\n1c2) to disclose, discover, lay bare\n1c3) to make known, show, reveal\n1d) (Pual) to be uncovered\n1e) (Hiphil) to carry away into exile, take into exile\n1f) (Hophal) to be taken into exile\n1g) (Hithpael)\n1g1) to be uncovered\n1g2) to reveal oneself"
+ },
+ {
+  "id": "H1548",
+  "original": "גָּלַח",
+  "translit": "ga.lach",
+  "classe": "H:V",
+  "glosa": "to shave",
+  "def": "1) to poll, shave, shave off, be bald\n1a) (Piel)\n1a1) to shave\n1a2) to shave off\n1a3) (fig. of devastation)\n1b)(Pual) to be shaven\n1c) (Hithpael) to shave oneself"
+ },
+ {
+  "id": "H1556",
+  "original": "גָּלַל",
+  "translit": "ga.lal",
+  "classe": "H:V",
+  "glosa": "to roll",
+  "def": "1) to roll, roll away, roll down, roll together\n1a) (Qal) to roll\n1b) (Niphal)\n1b1) to roll up\n1b2) to flow down\n1c) (Pilpel) to roll\n1d) (Poal) to be rolled\n1e) (Hithpoel) to roll oneself\n1f) (Hithpalpel) to roll oneself\n1g) (Hiphil) to roll away\nAramaic equivalent: <i>ge.lal</i> (גְּלָל \"great\" H1560)"
+ },
+ {
+  "id": "H1558",
+  "original": "גָּלָל",
+  "translit": "ga.lal",
+  "classe": "H:N-M",
+  "glosa": "because of",
+  "def": "on account of, for the sake of"
+ },
+ {
+  "id": "H1567",
+  "original": "גַּלְעֵד",
+  "translit": "gal.ed",
+  "classe": "N:N--L",
+  "glosa": "Galeed",
+  "def": "Galeed = \"witness heap\"\nthe pile of stones heaped up between Jacob and Laban to certify their covenant; located on Mt Gilead\nAnother name of <i>ra.mot gi.l.ad</i> (רָמֹת \"Ramoth\" H7433)"
+ },
+ {
+  "id": "H1568G",
+  "original": "גִּלְעָד",
+  "translit": "gil.ad",
+  "classe": "N:N--L",
+  "glosa": "Gilead",
+  "def": "Gilead = \"rocky region\"\na mountainous region bounded on the west by the Jordan, on the north by Bashan, on the east by the Arabian plateau, and on the south by Moab and Ammon; sometimes called 'Mount Gilead' or the 'land of Gilead' or just 'Gilead'. Divided into north and south Gilead\nAlso named: <i>gil.a.di</i> (גִּלְעָדִי \"Gileadite\" H1569)"
+ },
+ {
+  "id": "H1571",
+  "original": "גַּם",
+  "translit": "gam",
+  "classe": "H:Conj",
+  "glosa": "also",
+  "def": "1) also, even, indeed, moreover, yea\n1a) also, moreover (giving emphasis)\n1b) neither, neither...nor (with negative)\n1c) even (for stress)\n1d) indeed, yea (introducing climax)\n1e) also (of correspondence or retribution)\n1f) but, yet, though (adversative)\n1g) even, yea, yea though (with 'when' in hypothetical case)\n2) (TWOT) again, alike"
+ },
+ {
+  "id": "H1572",
+  "original": "גָּמָא",
+  "translit": "ga.ma",
+  "classe": "H:V",
+  "glosa": "to swallow",
+  "def": "1) to swallow (liquids)\n1a) (Piel) to swallow\n1b) (Hiphil) to drink"
+ },
+ {
+  "id": "H1580",
+  "original": "גָּמַל",
+  "translit": "ga.mal",
+  "classe": "H:V",
+  "glosa": "to wean",
+  "def": "1) to deal fully with, recompense\n1a) (Qal)\n1a1) to deal out to, do to\n1a2) to deal bountifully with\n1a3) to recompense, repay, requite\n2) (Qal) to wean a child (Niphal) to be weaned\n3) (Qal) to ripen, bear ripe (almonds)"
+ },
+ {
+  "id": "H1581",
+  "original": "גָּמָל",
+  "translit": "ga.mal",
+  "classe": "H:N",
+  "glosa": "camel",
+  "def": "1) camel\n1a) as property, as beast of burden, for riding, forbidden for food"
+ },
+ {
+  "id": "H1586G",
+  "original": "גֹּ֫מֶר",
+  "translit": "go.mer",
+  "classe": "N:N-M-P",
+  "glosa": "Gomer",
+  "def": "A man living at the time of the Patriarchs, first mentioned at Gen.10.2; \nson of: Japheth (H3315); \nbrother of: Magog (H4031), Madai (H4074), Javan (H3120), Tubal (H8422), Meshech (H4902) and Tiras (H8494); \nfather of: Ashkenaz (H0813), Riphath (H7384A) and Togarmah (H8425)\n§ Gomer = \"complete\"\n1) the eldest son of Japheth and grandson of Noah; the progenitor of the early Cimmerians and other branches of the Celtic family\n2) the unfaithful wife of the prophet Hosea; Hosea's relationship with her was symbolic of God's relationship with wayward Israel"
+ },
+ {
+  "id": "H1588M",
+  "original": "גַּן",
+  "translit": "gan",
+  "classe": "H:N",
+  "glosa": "garden",
+  "def": "1) garden, enclosure\n1a) enclosed garden\n1a1) (fig. of a bride)\n1b) garden (of plants)\n1c) Garden of Eden"
+ },
+ {
+  "id": "H1589",
+  "original": "גָּנַב",
+  "translit": "ga.nav",
+  "classe": "H:V",
+  "glosa": "to steal",
+  "def": "1) to steal, steal away, carry away\n1a) (Qal) to steal\n1b) (Niphal) to be stolen\n1c) (Piel) to steal away\n1d)(Pual) to be stolen away, be brought by stealth\n1e) (Hithpael) to go by stealth, steal away"
+ },
+ {
+  "id": "H1605",
+  "original": "גָּעַר",
+  "translit": "ga.ar",
+  "classe": "H:V",
+  "glosa": "to rebuke",
+  "def": "(Qal) to rebuke, reprove, corrupt"
+ },
+ {
+  "id": "H1609",
+  "original": "גַּעְתָּם",
+  "translit": "ga.tam",
+  "classe": "N:N-M-P",
+  "glosa": "Gatam",
+  "def": "A man of the Edomites living at the time of the Patriarchs, first mentioned at Gen.36.11; \nson of: Eliphaz (H0464); \nbrother of: Teman (H8487), Omar (H0201), Zepho (H6825), Kenaz (H7073), Amalek (H6002H) and Korah (H7141H) \n§ Gatam = \"a burnt valley\"\nfourth son of Eliphaz and grandson of Esau and one of the dukes of Eliphaz"
+ },
+ {
+  "id": "H1612",
+  "original": "גֶּ֫פֶן",
+  "translit": "ge.phen",
+  "classe": "H:N",
+  "glosa": "vine",
+  "def": "1) vine, vine tree\n1a) of Israel (fig.)\n1b) of stars fading at Jehovah's judgment (metaph.)\n1c) of prosperity"
+ },
+ {
+  "id": "H1613",
+  "original": "גֹּ֫פֶר",
+  "translit": "go.pher",
+  "classe": "H:N-M",
+  "glosa": "gopher",
+  "def": "1) cypress?, gopher, gopher wood\n1a) wood of which the ark was made\n1b) meaning and exact type unknown"
+ },
+ {
+  "id": "H1614",
+  "original": "גׇּפְרִית",
+  "translit": "goph.rit",
+  "classe": "H:N-F",
+  "glosa": "brimstone",
+  "def": "1) brimstone\n1a) of judgment (fig.)\n1b) of Jehovah's breath (fig.)"
+ },
+ {
+  "id": "H1616",
+  "original": "גֵּר",
+  "translit": "ger",
+  "classe": "H:N-M",
+  "glosa": "sojourner",
+  "def": "1) sojourner\n1a) a temporary inhabitant, a newcomer lacking inherited rights\n1b) of foreigners in Israel, though conceded rights"
+ }
+]

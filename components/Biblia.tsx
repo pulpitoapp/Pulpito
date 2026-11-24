@@ -9,11 +9,12 @@ import { pref } from '@/lib/cliente/local';
 import { PainelCartao } from './Cartao';
 import { Carregando } from './Cabecalho';
 import { ir, useApp } from './contexto';
-import { IcoApostila, IcoAvancar, IcoBusca, IcoEnviar, IcoLapis, IcoMarca, IcoMensagemAdd, IcoMenu, IcoRefs, IcoVoltar } from './Icones';
+import { IcoApostila, IcoAvancar, IcoBusca, IcoEnviar, IcoLapis, IcoMarca, IcoMensagemAdd, IcoMenu, IcoOriginal, IcoRefs, IcoVoltar } from './Icones';
 import { Painel, PainelEstudos, PainelNota, PainelRefs, PainelUsar } from './Paineis';
+import { PainelOriginal, PainelVerbete, PalavrasDoVerso, temInterlinear, useCapituloInterlinear } from './Interlinear';
 
 type Achado = { l: number; c: number; v: number };
-type Aberto = null | 'menu' | 'busca' | 'nota' | 'refs' | 'estudos' | 'usar' | 'cartao' | 'cores';
+type Aberto = null | 'menu' | 'busca' | 'nota' | 'refs' | 'estudos' | 'usar' | 'cartao' | 'cores' | 'original';
 
 /** Texto do versículo com as palavras acrescentadas ([...]) em itálico. */
 function Texto({ t }: { t: string }) {
@@ -35,6 +36,8 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   const [versaoId, setVersaoId] = useState<string>(() => pref.ler('biblia-versao', 'blivre'));
   const [comparar, setComparar] = useState<string>(() => pref.ler('biblia-comparar', ''));
   const [translit, setTranslit] = useState<boolean>(() => pref.ler('biblia-translit', true));
+  const [porPalavra, setPorPalavra] = useState<boolean>(() => pref.ler('biblia-inter', false));
+  const [palavra, setPalavra] = useState<[string, string, string, string] | null>(null);
   const [tam, setTam] = useState<number>(() => pref.ler('biblia-tam', 19));
   const [pos, setPos] = useState<{ l: number; c: number }>(() => pref.ler('biblia-pos', { l: 42, c: 0 }));
   const [sel, setSel] = useState<Set<number>>(new Set());
@@ -75,6 +78,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
     else window.scrollTo(0, 0);
   }, [cap, pos]);
 
+  const inter = useCapituloInterlinear(pos.l, pos.c, porPalavra);
   const selOrdenada = useMemo(() => [...sel].sort((a, b) => a - b), [sel]);
   const primeiro = selOrdenada[0];
 
@@ -86,6 +90,10 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   const secoes = new Map((titulos[pos.l]?.[pos.c + 1] || []).map(([v, t]) => [v, t]));
   const rtl = versao.idioma === 'he';
   const capOutra = comparar && Array.isArray(outra) ? outra[pos.l]?.[2]?.[pos.c] : undefined;
+  const modoInter = porPalavra && temInterlinear(pos.l);
+  // texto em português mostrado acima das palavras do original
+  const capPt = versao.idioma === 'pt' ? cap : pt[pos.l]?.[2]?.[pos.c] || [];
+  const mudarPorPalavra = (x: boolean) => { setPorPalavra(x); pref.gravar('biblia-inter', x); };
   const irPara = (l: number, c: number, v?: number) => { setAchados(null); ir(`/biblia/${l}/${c}${v ? '/' + v : ''}`); };
   const vizinho = (d: number) => {
     let { l, c } = pos; c += d;
@@ -146,6 +154,11 @@ export function Biblia({ alvo }: { alvo: number[] }) {
           <h1 className="text-[34px]">{nomeLivro} {pos.c + 1}</h1>
         </button>
         <div className="ornamento" aria-hidden="true" />
+        {temInterlinear(pos.l) ? (
+          <div className="mt-5 flex justify-center">
+            <button type="button" className="chip" aria-pressed={porPalavra} onClick={() => mudarPorPalavra(!porPalavra)}>{porPalavra ? 'Palavra por palavra · ligado' : `Ler no ${pos.l < 39 ? 'hebraico' : 'grego'} palavra por palavra`}</button>
+          </div>
+        ) : null}
 
         <article className="leitura-biblia mt-8" style={{ fontSize: tam }}>
           {cap.map((t, i) => {
@@ -154,13 +167,19 @@ export function Biblia({ alvo }: { alvo: number[] }) {
             return (
               <div key={v}>
                 {secoes.has(v) ? <h3 className="secao" style={i === 0 ? { marginTop: 0 } : undefined}>{secoes.get(v)}</h3> : null}
-                <p id={`v${v}`} className={`verso ${versao.idioma === 'el' ? 'grego' : ''}`} dir={rtl ? 'rtl' : undefined} lang={versao.idioma} data-sel={sel.has(v) ? '1' : undefined} onClick={() => tocar(v)}>
+                <p id={`v${v}`} className={`verso ${versao.idioma === 'el' && !modoInter ? 'grego' : ''}`} dir={rtl && !modoInter ? 'rtl' : undefined} lang={modoInter ? 'pt' : versao.idioma} data-sel={sel.has(v) ? '1' : undefined} onClick={() => tocar(v)}>
                   <span className="n">{v}</span>
-                  <span className={`txt ${cor ? 'marca' : ''}`} style={cor ? { background: CORES[cor] } : undefined}><Texto t={t} /></span>
+                  <span className={`txt ${cor ? 'marca' : ''}`} style={cor ? { background: CORES[cor] } : undefined}><Texto t={modoInter ? capPt[i] || t : t} /></span>
                   {dados.notas[chave] ? <span className="tem-nota" aria-label="Tem anotação" /> : null}
                 </p>
-                {rtl && translit ? <p className="translit">{transliterar(t)}</p> : null}
-                {capOutra?.[i] ? <p className="comparada" lang={versaoPorId(comparar).idioma}>{limparVerso(capOutra[i])}</p> : null}
+                {modoInter ? (
+                  inter && inter !== 'erro' && inter[v] ? <PalavrasDoVerso l={pos.l} palavras={inter[v]} aoTocar={setPalavra} /> : inter === 'erro' ? <p className="ajuda">Não foi possível abrir o original. Abra uma vez com internet.</p> : null
+                ) : (
+                  <>
+                    {rtl && translit ? <p className="translit">{transliterar(t)}</p> : null}
+                    {capOutra?.[i] ? <p className="comparada" lang={versaoPorId(comparar).idioma}>{limparVerso(capOutra[i])}</p> : null}
+                  </>
+                )}
               </div>
             );
           })}
@@ -188,8 +207,9 @@ export function Biblia({ alvo }: { alvo: number[] }) {
               {([
                 ['Anotar', IcoLapis, () => setAberto('nota')], ['Marcar', IcoMarca, () => setAberto('cores')], ['Ligações', IcoRefs, () => setAberto('refs')],
                 ['Apostilas', IcoApostila, () => setAberto('estudos')], ['Mensagem', IcoMensagemAdd, () => setAberto('usar')], ['Cartão', IcoEnviar, () => setAberto('cartao')],
+                ...(temInterlinear(pos.l) ? [['Original', IcoOriginal, () => setAberto('original')] as const] : []),
               ] as const).map(([rotulo, Ico, acao]) => (
-                <button key={rotulo} type="button" onClick={acao} className="flex w-[52px] flex-col items-center gap-1 rounded-xl py-1.5 text-ink" aria-label={rotulo === 'Ligações' ? 'Referências' : rotulo}>
+                <button key={rotulo} type="button" onClick={acao} className="flex w-[48px] flex-col items-center gap-1 rounded-xl py-1.5 text-ink" aria-label={rotulo === 'Ligações' ? 'Referências' : rotulo}>
                   <Ico className="h-6 w-6" /><span className="rot !text-[8px] !tracking-[.08em]">{rotulo}</span>
                 </button>
               ))}
@@ -208,6 +228,8 @@ export function Biblia({ alvo }: { alvo: number[] }) {
       ) : null}
       {aberto === 'nota' && primeiro ? <PainelNota chave={`${pos.l}.${pos.c}.${primeiro}`} rotulo={formatarRef({ l: pos.l, c: pos.c, v: primeiro })} fechar={() => setAberto(null)} /> : null}
       {aberto === 'refs' && primeiro ? <PainelRefs l={pos.l} c={pos.c} v={primeiro} biblia={pt} fechar={() => setAberto(null)} /> : null}
+      {aberto === 'original' && primeiro ? <PainelOriginal l={pos.l} c={pos.c} v={primeiro} textoPt={limparVerso(capPt[primeiro - 1] || '')} fechar={() => setAberto(null)} /> : null}
+      {palavra ? <PainelVerbete l={pos.l} palavra={palavra} fechar={() => setPalavra(null)} /> : null}
       {aberto === 'estudos' ? <PainelEstudos l={pos.l} c={pos.c} fechar={() => setAberto(null)} /> : null}
       {aberto === 'usar' ? <PainelUsar refChave={chaveSel} rotulo={refSel} fechar={() => setAberto(null)} /> : null}
       {aberto === 'cartao' ? <PainelCartao texto={textoSel} livro={nomeLivro} cap={pos.c + 1} versos={faixas(selOrdenada)} sigla={versao.sigla} fechar={() => setAberto(null)} /> : null}
@@ -221,6 +243,8 @@ export function Biblia({ alvo }: { alvo: number[] }) {
             <option value="">Nenhuma</option>{VERSOES.filter((v) => v.id !== versaoId).map((v) => <option key={v.id} value={v.id}>{v.nome}</option>)}
           </select>
           {versao.idioma === 'he' ? <label className="mt-3 flex items-center gap-2 text-[15px]"><input type="checkbox" className="h-5 w-5" checked={translit} onChange={(e) => { setTranslit(e.target.checked); pref.gravar('biblia-translit', e.target.checked); }} />Mostrar a transliteração (como se lê)</label> : null}
+          <label className="mt-3 flex items-center gap-2 text-[15px]"><input type="checkbox" className="h-5 w-5" checked={porPalavra} onChange={(e) => mudarPorPalavra(e.target.checked)} />Palavra por palavra no original (hebraico/grego)</label>
+          <p className="ajuda !mt-1">Disponível por enquanto em Gênesis e João. Toque numa palavra para ver o significado.</p>
           <p className="ajuda">Almeida Revista e Corrigida e Revista e Atualizada entram aqui quando houver licença da Sociedade Bíblica do Brasil.</p>
 
           <div className="mt-4 grid grid-cols-2 gap-2">

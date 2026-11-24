@@ -23,4 +23,5 @@ export const IcoMarca = (p: P) => <svg {...cheio} {...p}><path d="M14.5 3.5l6 6-
 export const IcoRefs = (p: P) => <svg {...traco} strokeWidth={2.2} {...p}><path d="M9.5 14.5l5-5" /><path d="M11 6.5l1.2-1.2a4.2 4.2 0 016 6L17 12.5M13 17.5l-1.2 1.2a4.2 4.2 0 01-6-6L7 11.5" /></svg>;
 export const IcoApostila = (p: P) => <svg {...cheio} {...p}><path d="M5 3h10l4 4v14H5zM8 10h8v1.6H8zm0 3.4h8V15H8zm0 3.4h5v1.6H8z" fillRule="evenodd" /></svg>;
 export const IcoMensagemAdd = (p: P) => <svg {...cheio} {...p}><path d="M7 3h10a1 1 0 011 1v17l-6-3.6L6 21V4a1 1 0 011-1z" /></svg>;
+export const IcoOriginal = (p: P) => <svg viewBox="0 0 24 24" aria-hidden="true" {...p}><text x="12" y="17" textAnchor="middle" fontSize="15" fontWeight="700" fill="currentColor" fontFamily="Georgia, serif">אα</text></svg>;
 export const IcoEnviar = (p: P) => <svg {...cheio} {...p}><path d="M21 3L3 10.5l6.5 2.6L19 5l-7.4 9.6L14 21z" /></svg>;

@@ -1,0 +1,690 @@
+[
+ {
+  "id": "G2920",
+  "original": "κρίσις",
+  "translit": "krisis",
+  "classe": "G:N-F",
+  "glosa": "judgment",
+  "def": "<b>κρίσις</b>, -εως, ἡ\n(κρίνω), [in LXX chiefly for מִשְׁפָּט, also for רִיב, etc. ;] \n1. a seperating, selection (Arist., al.) \n2. <b>a decision, judgment </b>(cl.): {{Jhn.8.16}}, {{1Ti.5.24}}, {{2Pe.2.11}}, {{Jude.9}}; κ. κρίνειν, {{Jhn.7.24}} in forensic sense, {{Act.8.33}} (LXX) (see Page, in l); esp. of the Divine judgment, {{Jhn.3.19; 5.24, 27; 5.29-30; 12.31; 16.8, 11}}, {{2Th.1.5}}, {{Heb.10.27}}, {{Jas.2.13; 5.12}}, {{2Pe.2.4}}, {{Rev.18.10}}; pl., {{Rev.16.7; 19.2}}; of the last judgment, {{Mat.10.15; 11.22, 24; 12.36, 41-42}} {{Luk.10.14; 11.31-32}}, {{Heb.9.27}}, {{2Pe.2.9; 3.7}}, {{1Jn.4.17}}, {{Jude.6,15}}; τῆς γεέννης, {{Mat.23.33.}} \n3. By meton. (as in LXX for מִשְׁפָּט, {{Isa.5.7}}, al.; דִּישׁוֹן, {{Dan.7.10}}), of the standard of judgment, <b>right, justice</b>: {{Mat.12.18, 20}} (LXX, {{Isa.42.43}}) {{Isa.23.23}}, {{Luk.11.42}} of the tribunal (a local court), {{Mat.5.21-22}}†\n(AS)"
+ },
+ {
+  "id": "G2927",
+  "original": "κρυπτός",
+  "translit": "kruptos",
+  "classe": "G:A",
+  "glosa": "hidden",
+  "def": "<b>κρυπτός</b>, -ή, -όν\n(κρύπτω) [in LXX for אָטַם, מִסְתָּר, etc. ;] \n<b>hidden, secret</b>: {{Mat.10.26}}, {{Mrk.4.22}}, {{Luk.8.17; 12.2}}; ὁ κ. τῆς καρδίας ἄνθρωπος, {{1Pe.3.4}} neut., ἐν τῷ κ., {{Mat.6.4}}, 6; ἐν κ., {{Jhn.7.4, 10; 18.20}}; ὁ ἐν κ. Ἰουδαῖος, {{Rom.2.29}} pl., τὰ κ. τ. σκότους, {{1Co.4.5}} τ. ἀνθρώπων, {{Rom.2.16}} τ. καρδίας, {{1Co.14.25}} τ. αἰσχύνης, {{2Co.4.2.}}†\nκρυφαῖος, -αία, -αῖον \n(κρύφα = κρυφῆ) [in LXX for מִסְתָּר, {{Jer.23.24}}, al. ;] \n<b>hidden, secret</b>: ἐν τῷ κ., {{Mat.6.18.}}†\n(AS)"
+ },
+ {
+  "id": "G2928",
+  "original": "κρύπτω",
+  "translit": "kruptō",
+  "classe": "G:V",
+  "glosa": "to hide",
+  "def": "<b>Κρύπτω </b>\n[in LXX for חָבָא, טָמַן, סָתַר, צָפַן, etc. ;] \n<b>to hide, conceal</b>: with accusative, {{Mat.13.44; 25.18}}; before ἐν, {{Mat.25.25}} (pass., {{Mat.13.44}}, {{Col.3.3}}); pass., {{Mat.5.14}}, {{Heb.11.23}}, {{1Ti.5.25}}, {{Rev.2.17}}; ἐκρύβη (on the tense and its formation, see M, <i>Pr.</i>, 161; Bl., § 19, 3) κ. ἐξῆλθεν {{Jhn.8.59}} before εἰς, {{Luk.13.21}}, {{Rev.6.15}}; ἀπό (in cl. more frequently dupl. accusative), {{Rev.6.16}} pass., {{Jhn.12.36}}, (Bl., § 34, 4). Metaphorical: {{Mat.11.25; 13.35}}, {{Luk.11.52}}, WH, mg., {{Luk.18.34; 19.42}}, {{Jhn.19.38}} (cf.ἀτο-, ἐν-, περι-κρύπτω).†\n(AS)"
+ },
+ {
+  "id": "G2944",
+  "original": "κυκλόω",
+  "translit": "kukloō",
+  "classe": "G:V",
+  "glosa": "to surround",
+  "def": "<b>κυκλόω</b>, -ῶ\n(κύκλος), [in LXX chiefly for סָבַב ;] \n1. to move in a circle, revolve. \n2. <b>to surround, encircle</b>: with accusative of person(s), {{Jhn.10.24}} (WH, txt., cf. -εύω), {{Act.14.20}} pass., {{Luk.21.20}}, {{Heb.11.30}} (cf. περι-κυκλόω).†\n(AS)"
+ },
+ {
+  "id": "G2955",
+  "original": "κύπτω",
+  "translit": "kuptō",
+  "classe": "G:V",
+  "glosa": "to stoop/bend down",
+  "def": "<b>κύπτω </b>\n[in LXX chiefly for קָדַד ;] \n<b>to bow the head, stoop down</b>: {{Mrk.1.7}} before κάτω, {{Jhn.8.6}}, 8 (cf. ἀνα-, παρα-, συν-κύπτω).†\nκατα-κύπτω, \n[in LXX: {{2Ki.9.32}} (שָׁקַף hi.)* ;] \n<b>to bend down, stoop</b>: {{Jhn.8.8}} (κάτω κύψας, Rec., WH, mg.).†\n(AS)"
+ },
+ {
+  "id": "G2962G",
+  "original": "κύριος",
+  "translit": "kurios",
+  "classe": "G:N-M",
+  "glosa": "lord: God",
+  "def": "<b>κύριος</b>, -α, -ον (also -ος, -ον), \n[in LXX (subst.) chiefly for יהוה, also for בַּעַל ,אָדוֹן, etc. ;] \n<b>having power</b> (κῦρος) or <b>authority</b>; as subst., ὁ κ., <b>lord, master</b>; \n1. <b>in general</b>: with genitive of thing(s), {{Mat.9.38; 20.8}}, {{Mrk.12.9; 13.35}}, {{Luk.19.33}}; τ. σαββάτου, {{Mat.12.8}}, {{Mrk.2.28}}, {{Luk.6.5}}; with genitive of person(s), δούλου, etc., {{Mat.10.24}}, {{Luk.14.21}}, {{Act.16.16}}, al.; absol, opposite to οἱ δοῦλοι, {{Eph.6.5}}, 9 al.; of the Emperor (Deiss., <i>LAE</i>, 161), {{Act.25.26}} θεοὶ πολλοὶ καὶ κ. πολλοί, {{1Co.8.5}} of a husband, {{1Pe.3.6}} in voc, as a title of respect to masters, teachers, magistrates, etc., {{Mat.13.27; 16.22; 27.63}}, {{Mrk.7.28}}, {{Luk.5.12}}, {{Jhn.4.11}}, {{Act.9.5}}, al. \n2. <b>As a divine title </b>(frequently in π.; Deiss., <i>LAE</i>, 353 ff.); in NT, \n(a) <b>of God</b>: ὁ κ., {{Mat.5.33}}, {{Mrk.5.19}}, {{Luk.1.6}}, {{Act.7.33}}, {{Heb.8.2}}, {{Jas.4.15}}, al.; anarth. (Bl., §46, 6), {{Mat.21.9}}, {{Mrk.13.20}}, {{Luk.1.17}}, {{Heb.7.21}}, {{1Pe.1.25}}, al.; κ. τ. οὐρανοῦ καὶ τ. γῆς, {{Mat.11.25}} τ. κυριευόντων, {{1Ti.6.15}} κ. ὁ θεός, {{Mat.4.7, 10}} al.; id. before παντοκράτωρ, {{Rev.4.8}} κ. σαβαώθ, {{Rom.9.29}} (ὁ) ἄγγελος κυρίου, {{Mat.1.20; 2.13}}, {{Luk.1.11}}, al.; πνεῦμα κυρίου, {{Luk.4.18}}, {{Act.8.39}}; \n(b) <b>of the Christ</b>: {{Mat.21.3}}, {{Mrk.11.3}}, {{Luk.1.43; 20.44}}, al.; of Jesus after his resurrection (Dalman, <i>Words</i>, 330), {{Act.10.36}}, {{Rom.14.8}}, {{1Co.7.22}}, {{Eph.4.5}}, al.; ὁ κ. μου, {{Jhn.20.28}} ὁ κ. Ἰησοῦς, {{Act.1.21}}, {{1Co.11.23}}, al.; id. before Χριστός, {{Eph.1.2}}, al.; ὁ κ. ἡμῶν, {{1Ti.1.14}}, {{Heb.7.14}}, al.; id. before Ἰησοῦς, {{1Th.3.11}}, {{Heb.13.20}}, al.; Χριστός, {{Rom.16.18}} Ἰ Χ., {{1Co.1.2}}, {{1Th.1.3}}, al.; Ἰ. Χ. (Χ. Ἰ) ὁ κ. (ἡμῶν), {{Rom.1.4}}, {{Col.2.6}}, {{Eph.3.11}}, al.; ὁ κ. καὶ ὁ σωτὴρ, {{2Pe.3.2}} id. before Ἰ. Χ., ib. 18; anarth., {{1Co.7.22, 25}} {{Jas.5.4}}, al.; κ. κυρίων, {{Rev.19.16}} with prep., ἀπὸ (κατὰ, πρὸς, σὺν, etc.) κ., {{Col.3.24}}, al.\n<i>SYN:</i> see: δεσπότης. (AS)"
+ },
+ {
+  "id": "G2962H",
+  "original": "κύριος",
+  "translit": "kurios",
+  "classe": "G:N-M",
+  "glosa": "lord: master",
+  "def": "<b>κύριος</b>, -α, -ον (also -ος, -ον), \n[in LXX (subst.) chiefly for יהוה, also for בַּעַל ,אָדוֹן, etc. ;] \n<b>having power</b> (κῦρος) or <b>authority</b>; as subst., ὁ κ., <b>lord, master</b>; \n1. <b>in general</b>: with genitive of thing(s), {{Mat.9.38; 20.8}}, {{Mrk.12.9; 13.35}}, {{Luk.19.33}}; τ. σαββάτου, {{Mat.12.8}}, {{Mrk.2.28}}, {{Luk.6.5}}; with genitive of person(s), δούλου, etc., {{Mat.10.24}}, {{Luk.14.21}}, {{Act.16.16}}, al.; absol, opposite to οἱ δοῦλοι, {{Eph.6.5}}, 9 al.; of the Emperor (Deiss., <i>LAE</i>, 161), {{Act.25.26}} θεοὶ πολλοὶ καὶ κ. πολλοί, {{1Co.8.5}} of a husband, {{1Pe.3.6}} in voc, as a title of respect to masters, teachers, magistrates, etc., {{Mat.13.27; 16.22; 27.63}}, {{Mrk.7.28}}, {{Luk.5.12}}, {{Jhn.4.11}}, {{Act.9.5}}, al. \n2. <b>As a divine title </b>(frequently in π.; Deiss., <i>LAE</i>, 353 ff.); in NT, \n(a) <b>of God</b>: ὁ κ., {{Mat.5.33}}, {{Mrk.5.19}}, {{Luk.1.6}}, {{Act.7.33}}, {{Heb.8.2}}, {{Jas.4.15}}, al.; anarth. (Bl., §46, 6), {{Mat.21.9}}, {{Mrk.13.20}}, {{Luk.1.17}}, {{Heb.7.21}}, {{1Pe.1.25}}, al.; κ. τ. οὐρανοῦ καὶ τ. γῆς, {{Mat.11.25}} τ. κυριευόντων, {{1Ti.6.15}} κ. ὁ θεός, {{Mat.4.7, 10}} al.; id. before παντοκράτωρ, {{Rev.4.8}} κ. σαβαώθ, {{Rom.9.29}} (ὁ) ἄγγελος κυρίου, {{Mat.1.20; 2.13}}, {{Luk.1.11}}, al.; πνεῦμα κυρίου, {{Luk.4.18}}, {{Act.8.39}}; \n(b) <b>of the Christ</b>: {{Mat.21.3}}, {{Mrk.11.3}}, {{Luk.1.43; 20.44}}, al.; of Jesus after his resurrection (Dalman, <i>Words</i>, 330), {{Act.10.36}}, {{Rom.14.8}}, {{1Co.7.22}}, {{Eph.4.5}}, al.; ὁ κ. μου, {{Jhn.20.28}} ὁ κ. Ἰησοῦς, {{Act.1.21}}, {{1Co.11.23}}, al.; id. before Χριστός, {{Eph.1.2}}, al.; ὁ κ. ἡμῶν, {{1Ti.1.14}}, {{Heb.7.14}}, al.; id. before Ἰησοῦς, {{1Th.3.11}}, {{Heb.13.20}}, al.; Χριστός, {{Rom.16.18}} Ἰ Χ., {{1Co.1.2}}, {{1Th.1.3}}, al.; Ἰ. Χ. (Χ. Ἰ) ὁ κ. (ἡμῶν), {{Rom.1.4}}, {{Col.2.6}}, {{Eph.3.11}}, al.; ὁ κ. καὶ ὁ σωτὴρ, {{2Pe.3.2}} id. before Ἰ. Χ., ib. 18; anarth., {{1Co.7.22, 25}} {{Jas.5.4}}, al.; κ. κυρίων, {{Rev.19.16}} with prep., ἀπὸ (κατὰ, πρὸς, σὺν, etc.) κ., {{Col.3.24}}, al.\n<i>SYN:</i> see: δεσπότης. (AS)"
+ },
+ {
+  "id": "G2968",
+  "original": "κώμη",
+  "translit": "kōmē",
+  "classe": "G:N-F",
+  "glosa": "village",
+  "def": "<b>κώμη</b>, -ης, ἡ \n[in LXX for בַּת, חָצֵר, עִיר, etc. ;] \na village or country town, prop, as opposite to a walled city: {{Mat.14.15}}, {{Mrk.6.6}}, al.; πόλεις καὶ κ., {{Mat.9.35}}, al.; with the name added, Βηθλεέμ, {{Jhn.7.42}} Βηθανΐα, {{Jhn.11.1}} with the name of the district, τὰς κ. Καισαρίας, {{Mrk.8.27}} Σαμαρειτῶν, {{Luk.9.52}}, {{Act.8.25}} \n(AS)"
+ },
+ {
+  "id": "G2975",
+  "original": "λαγχάνω",
+  "translit": "lagchanō",
+  "classe": "G:V",
+  "glosa": "to choose by lot",
+  "def": "<b>λαγχάνω </b>\n[in LXX: {{1Sa.14.47}} (לָכַד, see <i>Th.</i>, <i>Gr.</i>, 38), {{Wis.8.19}}, 3Mac 61 * ;] \n1. <b>to obtain by lot, to obtain </b>(in cl., with genitive): with inf. art. (B1., § 36, 3; 71, 3), {{Luk.1.9}} with accusative of thing(s), {{Act.1.17}}, {{2Pe.1.1}}. \n2. <b>to draw lots</b>: before περί, {{Jhn.19.24}} \n(AS)"
+ },
+ {
+  "id": "G2976H",
+  "original": "Λάζαρος",
+  "translit": "Lazaros",
+  "classe": "N:N-M-P",
+  "glosa": "Lazarus",
+  "def": "<b>Λάζαρος</b>, -ου, ὁ \ncolloquial abbreviation of Ἐλεαζάρ (άζαρος), which see), \n<b>Lazarus</b>; \n1. <b>of Bethany</b>: {{Jhn.11.1}} ff. {{Jhn.12.1-2, 9-10; 12.17}}. \n2. <b>The beggar in the parable</b>: {{Luk.16.20, 23-25}}.†\n(AS)"
+ },
+ {
+  "id": "G2977",
+  "original": "λάθρα",
+  "translit": "lathra",
+  "classe": "G:ADV",
+  "glosa": "quietly",
+  "def": "<b>λάθρᾳ</b> (Att..; in Hom., -ρῃ, Rec. -ρα), \n<i>adv.</i>, [in LXX chiefly for ‎סֵתֶר ;] \n<b>secretly</b>: {{Mat.1.19; 2.7}}, {{Mrk.5.33}} (WH, mg.), {{Jhn.11.28}}, {{Act.16.37}}.†\n(AS)"
+ },
+ {
+  "id": "G2980",
+  "original": "λαλέω",
+  "translit": "laleō",
+  "classe": "G:V",
+  "glosa": "to speak",
+  "def": "<b>λαλέω</b>, -ῶ, \n[in LXX chiefly for דּבר pi., also for אמר, etc. ;] \n1. <b>to utter</b>: of inanimate things, {{Rev.4.1; 10.4}}; metaphorically, {{Heb.11.4; 12.24}}. \n2. <b>to talk, speak, say</b>: absol., {{Mat.9.33; 12.46}}, {{Mrk.5.35}}, {{Luk.8.49}}; before ὡς, {{1Co.13.11}}, {{Rev.13.11}}; εἰς, {{1Co.14.9}} ἐκ, {{Mat.12.34}} with accusative of thing(s), {{Mat.10.19}}, {{Mrk.11.32}}, {{Jhn.8.30}}, al.; with dative of person(s), {{Mat.12.46}}, {{Luk.24.6}}, {{Rom.7.1}}, al.; with accusative of thing(s) and dative of person(s), {{Mat.9.18}}, {{Jhn.10.6}}, al.; with prep., πρός, μετά, περί, {{Mrk.6.50}}, {{Luk.1.19; 2.33}}, al.; ἐν, ἐξ, ἀπό, {{Mat.13.3}}, {{Jhn.12.49; 14.10}}, al.; λ. τ. λόγον, {{Mrk.8.32}}, al.; before orat. dir. (not cl.), {{Mrk.14.31}}, {{Heb.5.5; 11.18}}; Hebraistically (Dalman, <i>Words</i>, 25f.), ἐλάλησε λέγων, {{Mat.14.27}}, {{Jhn.8.12}}, {{Act.8.26}}, al. \n<i>SYN.</i>: see: λέγω. (AS)"
+ },
+ {
+  "id": "G2981",
+  "original": "λαλιά",
+  "translit": "lalia",
+  "classe": "G:N-F",
+  "glosa": "speech",
+  "def": "<b>λαλία</b>, -ᾶς, ἡ \n[in LXX chiefly for דָּבָר, דִּבְרָה ;] \n1. loquacity = Very talkative. \n2. <b>talk, speech, conversation</b>: {{Mat.26.73}} (cf. Ca 43), {{Jhn.4.42; 8.43}}.†\n(AS)"
+ },
+ {
+  "id": "G2983",
+  "original": "λαμβάνω",
+  "translit": "lambanō",
+  "classe": "G:V",
+  "glosa": "to take",
+  "def": "<b>λαμβάνω</b>, \n[in LXX chiefly for לקח, also for אחז ,לכד ,נשׂא, etc. ;] \n1. <b>to take, lay hold of</b>: absol., {{Mat.26.26}}, {{Mrk.14.22}}; with accusative of thing(s), {{Mat.5.40; 26.52}}, al. mult.; with accusative of person(s), {{Mat.21.35}}, {{Mrk.12.3}}, al.; pleonastic λαβών (M, <i>Pr.</i>, 230; Bl., §74, 2), {{Mat.13.31; 14.19}}, al.; so also indic., {{Mrk.7.27}}, {{Jhn.19.1, 40}} {{Rev.8.5}}, al.; metaphorically, with accusative of thing(s), ἀφορμήν, {{Rom.7.8, 11}}; ὑδόδειγμα, {{Jas.5.10}} id. with accusative of person(s), φόβος, {{Luk.7.16}} πνεῦμα, {{Luk.9.39}} πειρασμός, {{1Co.10.13}} aoristic pf. (M, <i>Pr.</i>, 145, 238; BL, §59, 4), {{Rev.5.7; 8.5}}, al. \n2. <b>to receive</b>: absol., opposite to αἰτεῖν, {{Mat.7.8}}, al.; διδόναι, {{Mat.10.8}}, {{Act.20.35}}; with accusative of thing(s), {{Mat.27.6}}, {{Mrk.10.3}}o, al. mult.; with accusative of person(s), {{Jhn.6.21; 13.20; 19.27}}, {{2Jn.10}}; ῥαπίσμασιν (a vulgarism; Bl., §38, 3), {{Mrk.14.65}} metaphorically, τ. λόγον, {{Mat.13.20}}, {{Mrk.4.16}}; τ. μαρτυρίαν, {{Jhn.3.11}} τ. ῥήματα, {{Jhn.12.48}} πρόσωπον (Heb. נָשָׂא פָּנִים, Dalman, <i>Words</i>, 30), {{Luk.20.21}}, {{Gal.2.6}}; ζωὴν αἰώνιον (Dalman, <i>op. cit.</i>, 124f.), {{Mrk.10.30}} (cf. ἀνα-, ἀντι-, συν-αντι- (-μαι), ἀπο-, ἐπι-, κατα-, μετα-, παρα-, συν-παρα-, προ-, προσ-, συν-, συν-περι-, ὑπο-λαμβάνω). \n(AS)"
+ },
+ {
+  "id": "G2985",
+  "original": "λαμπάς",
+  "translit": "lampas",
+  "classe": "G:N-F",
+  "glosa": "window",
+  "def": "<b>λαμπάς</b>, -άδος, ἡ\n(λάμπω), [in LXX for לַפִּיד ;] \n<b>a torch </b>(frequently fed, like a lamp, with oil): {{Mat.25.1}} ff., {{Jhn.18.3}}, {{Act.20.8}}, {{Rev.4.5; 8.10}}.†\n(AS)"
+ },
+ {
+  "id": "G2992",
+  "original": "λαός",
+  "translit": "laos",
+  "classe": "G:N-M",
+  "glosa": "a people",
+  "def": "<b>λαός</b>, -οῦ, ὁ, \n[in LXX very frequently for עַם, {{Gen.14.16}}, al.; occasionally for לְאֹם ( {{Gen.25.23}}, al.), etc. ;] \na word rarely found in Att. prose; \n1. <b>the people</b> at large (Hom., al.), esp. of people assembled: {{Mat.27.25}}, {{Luk.1.21; 3.15}} al.; pl. (Hom., al., π.; see MM, xvi), {{Act.4.27.}} \n2. <b>a people</b>, those of the same race and language (Pind., Æsch., al.: in LXX, {{Gen.26.11}}, {{Exo.9.16}}, al.): joined with γλῶσσα, φυλή, ἔθνος, {{Rev.5.9; 7.9; 11.9}}, al.; pl., {{Luk.2.31}}, {{Rom.15.11}}; esp. as almost always in LXX, of Israel, {{Mat.4.23}}, {{Mrk.7.6}}, {{Luk.2.10}}, {{Jhn.11.50}}, {{Heb.2.17}}, al.; opposite to τ. ἔθνη, {{Act.26.17, 23}} {{Rom.15.10}}; πρεσβύτεροι (πρῶτοι, etc.) τοῦ λ., {{Mat.21.23}}, {{Luk.19.17}}, {{Act.4.8}}, al.; ὁ λ. μου (αὐτοῦ, τ. θεοῦ), {{Mat.2.6}}, {{Luk.1.68}}, {{Heb.11.25}}, al.; of the people disting. from the rulers and priests ( I {{Est.1.10}}, {{Jdt.8.9}}, al.), {{Mat.26.5}}, {{Luk.20.19}}, {{Heb.5.3}}, al.; of Christians, as the people of God, {{Act.15.14}}, {{Rom.9.25, 26}} {{Heb.4.9}}; περιούσιος, {{Tit.2.14}} εἰς περιποίησιν, {{1Pe.2.9}} (LXX). \n<i>SYN.</i>: see: δῆμος. (AS)"
+ },
+ {
+  "id": "G2999",
+  "original": "λατρεία",
+  "translit": "latreia",
+  "classe": "G:N-F",
+  "glosa": "ministry",
+  "def": "<b>λατρεία</b>, -ας, ἡ\n(λατρεύω, which see), [in LXX (always of divine service): {{Exo.12.25-26; 13.5}}, {{Jos.22.27}}, {{1Ch.28.13}} (עֲבֹדָה), {{1Ma.1.43}} {{1Mac.2.19}} {{1Mac.2.22}}, {{3Ma.4.14}} * ;] \n1. hired service, service. \n2. (in cl. also) divine service, <b>worship</b>: {{Jhn.16.2}}, {{Rom.9.4; 12.1}}, {{Heb.9.1}}, 6.†\n(AS)"
+ },
+ {
+  "id": "G3004G",
+  "original": "λέγω",
+  "translit": "legō",
+  "classe": "G:V",
+  "glosa": "to say",
+  "def": "<b>λέγω</b>, \n[in LXX very freq., chiefly for אמר; λέγει for נְאֻם, {{Gen.22.16}}, al. ;] \n1. in Hom., <b>to pick out, gather, reckon, recount</b>.\n2. In Hdt. and Att., <b>to say, speak, affirm, declare</b>: absol., {{Act.13.15; 24.10}}; before orat. dir., {{Mat.9.34}}, {{Mrk.3.11}}, {{Jhn.1.29}}, al.; before ὅτι recit., {{Mrk.3.21}}, {{Luk.1.24}}, {{Jhn.6.14}}, al.; accusative and inf., {{Luk.11.18}}, {{Jhn.12.29}}, al.; after another verb of speaking, προσφωνεῖν κ. λέγειν, {{Mat.11.17}}, al.; ἀπεκρίθη (ἐλάλησεν) λέγων (καὶ λέγει; Dalman, <i>Words</i>, 24 ff.), {{Mat.25.9}}, {{Mrk.3.33; 7.28}}, {{Luk.24.6}}, 7, al.; of unspoken thought, λ. ἐν ἑαυτῷ, {{Mat.3.9}}, {{Luk.3.8}}, al.; of writing, {{2Co.8.8}}, {{Php.4.11}}, al.; λέγει ἡ γραφή, {{Rom.4.3}}, {{Jas.2.23}}, al.; with accusative of thing(s), {{Luk.8.8; 9.33}}, {{Jhn.5.34}}, al.; σὺ λέγεις (a non-committal phrase; Swete, <i>Mk.</i>, 359, 369f.), {{Mat.27.11}}, {{Mrk.15.2}}, {{Luk.23.3}}, {{Jhn.18.37}}; with dative of person(s), before orat. dir., {{Mat.8.20}}, {{Mrk.2.17}}, al. mult.; id. before ὅτι, {{Mat.3.9}}, al.; with prep., πρός, μετά, περί, etc., {{Mrk.4.41}}, {{Jhn.11.56}}, {{Heb.9.5}}, al.; <b>to mean</b> (cl.), {{Mrk.14.71}}, {{Jhn.6.71}}, {{1Co.10.29}}, al.; <b>to call, name</b>, {{Mrk.10.18}} pass., {{Mat.9.9}}, {{Mrk.15.7}}, al (cf. ἀντι-, δια- (-μαι), προ-, συλ-λέγω). \n<i>SYN.</i>: λαλέω, which refers to the utterance, as λέγω to the meaning of what is said, its correspondence with thought (Tr., <i>Syn.</i>, Ixxvi; Thayer, see word λαλέω). (AS)"
+ },
+ {
+  "id": "G3004H",
+  "original": "λέγω",
+  "translit": "legō",
+  "classe": "G:V",
+  "glosa": "to say: call",
+  "def": "<b>λέγω</b>, \n[in LXX very freq., chiefly for אמר; λέγει for נְאֻם, {{Gen.22.16}}, al. ;] \n1. in Hom., <b>to pick out, gather, reckon, recount</b>.\n2. In Hdt. and Att., <b>to say, speak, affirm, declare</b>: absol., {{Act.13.15; 24.10}}; before orat. dir., {{Mat.9.34}}, {{Mrk.3.11}}, {{Jhn.1.29}}, al.; before ὅτι recit., {{Mrk.3.21}}, {{Luk.1.24}}, {{Jhn.6.14}}, al.; accusative and inf., {{Luk.11.18}}, {{Jhn.12.29}}, al.; after another verb of speaking, προσφωνεῖν κ. λέγειν, {{Mat.11.17}}, al.; ἀπεκρίθη (ἐλάλησεν) λέγων (καὶ λέγει; Dalman, <i>Words</i>, 24 ff.), {{Mat.25.9}}, {{Mrk.3.33; 7.28}}, {{Luk.24.6}}, 7, al.; of unspoken thought, λ. ἐν ἑαυτῷ, {{Mat.3.9}}, {{Luk.3.8}}, al.; of writing, {{2Co.8.8}}, {{Php.4.11}}, al.; λέγει ἡ γραφή, {{Rom.4.3}}, {{Jas.2.23}}, al.; with accusative of thing(s), {{Luk.8.8; 9.33}}, {{Jhn.5.34}}, al.; σὺ λέγεις (a non-committal phrase; Swete, <i>Mk.</i>, 359, 369f.), {{Mat.27.11}}, {{Mrk.15.2}}, {{Luk.23.3}}, {{Jhn.18.37}}; with dative of person(s), before orat. dir., {{Mat.8.20}}, {{Mrk.2.17}}, al. mult.; id. before ὅτι, {{Mat.3.9}}, al.; with prep., πρός, μετά, περί, etc., {{Mrk.4.41}}, {{Jhn.11.56}}, {{Heb.9.5}}, al.; <b>to mean</b> (cl.), {{Mrk.14.71}}, {{Jhn.6.71}}, {{1Co.10.29}}, al.; <b>to call, name</b>, {{Mrk.10.18}} pass., {{Mat.9.9}}, {{Mrk.15.7}}, al (cf. ἀντι-, δια- (-μαι), προ-, συλ-λέγω). \n<i>SYN.</i>: λαλέω, which refers to the utterance, as λέγω to the meaning of what is said, its correspondence with thought (Tr., <i>Syn.</i>, Ixxvi; Thayer, see word λαλέω). (AS)"
+ },
+ {
+  "id": "G3012",
+  "original": "λέντιον",
+  "translit": "lention",
+  "classe": "G:N-N",
+  "glosa": "towel",
+  "def": "<b>λέντιον</b>, -ου, τό (Lat. linteum), \n<b>a linen cloth, towel</b>: {{Jhn.13.4-5.}}†\n(AS)"
+ },
+ {
+  "id": "G3019",
+  "original": "Λευΐτης",
+  "translit": "Leuitēs",
+  "classe": "N:N--PG",
+  "glosa": "Levite",
+  "def": "<b>Λευείτης</b>\n(Rec. Λευΐτης), -ου, ὁ [in LXX for לֵוִיִּי ;] \n<b>a Levite</b>: {{Luk.10.32}}, {{Jhn.1.19}}, {{Act.4.36}}.†\n(AS)"
+ },
+ {
+  "id": "G3022",
+  "original": "λευκός",
+  "translit": "leukos",
+  "classe": "G:A",
+  "glosa": "white",
+  "def": "<b>λευκο-βύσσινος</b>, -ον\n(cf. λευκολινής, a robe of white flax, C.I., 155, 17), \n<b>white linen</b>: {{Rev.19.14}} (WH, mg.).†\nλευκός, ή, -όν \n[in LXX chiefly for לָבָן ;] \n1. <b>bright, brilliant</b>: of clothing, {{Mat.17.2}}, {{Mrk.9.3; 16.5}}, {{Luk.9.29}}, {{Act.1.10}}, {{Rev.3.5; 4.4; 6.11; 7.9, 13; 19.14}} (cf. {{Ecc.9.8}}); ὡς χιών, {{Mat.28.3}} ἐν λ.. (sc. ἱματίοις), {{Jhn.20.12}}, {{Rev.3.4}}; θρόνος, {{Rev.20.11.}} \n2. <b>white</b>: {{Mat.5.36}}, {{Rev.1.14; 2.17; 4.4; 6.2; 14.14; 19.11}}; figuratively, of garments, {{Rev.3.18}} of ripened grain, {{Jhn.4.35.}}†\n(AS)"
+ },
+ {
+  "id": "G3027",
+  "original": "λῃστής",
+  "translit": "lēstēs",
+  "classe": "G:N-M",
+  "glosa": "robber/rebel",
+  "def": "<b>λῃστής</b>, -οῦ, ὁ\n(Ep. ληίς = λεία, booty), [in LXX for גְּדוּד, etc. ;] \n<b>a robber, brigand</b>: {{Mat.21.13}} (LXX) {{Mat.26.55; 27.38, 44}}, {{Mrk.11.17; 14.48; 15.27}}, {{Luk.10.30, 36; 19.46; 22.52}}, {{Jhn.10.1, 8; 18.40}}, {{2Co.11.26}}.†\n<i>SYN.</i>: κλέπτης, q.v (AS)"
+ },
+ {
+  "id": "G3034",
+  "original": "λιθάζω",
+  "translit": "lithazō",
+  "classe": "G:V",
+  "glosa": "to stone",
+  "def": "<b>λιθάζω</b>\n(λίθος), [in LXX (before ἐν λίθοις): {{2Ki.16.6; 16.13}} (סָקַל pi.)* ;] \n1. to throw stones (Arist., Polyb., al.). \n2. = λιθοβολέω (LXX, NT), <b>to pelt with stones, to stone</b>: with accusative of person(s), {{Jhn.8.6; 10.31-31; 11.8}}, {{Act.14.10}}; pass., {{Act.5.26}}, {{2Co.11.25}}, {{Heb.11.37}} (see <i>DB</i>, Art., \" Crimes and punish­ments,\" and cf. κατα-λιθάζω).†\n(AS)"
+ },
+ {
+  "id": "G3035",
+  "original": "λίθινος",
+  "translit": "lithinos",
+  "classe": "G:A",
+  "glosa": "stone",
+  "def": "<b>λίθινος</b>, -η, -ον\n(λίθος) [in LXX for אֶבֶן ;] \n<b>of stone</b>: {{Jhn.2.6}}, {{2Co.3.3}}, {{Rev.9.20}}.†\n(AS)"
+ },
+ {
+  "id": "G3036",
+  "original": "λιθοβολέω",
+  "translit": "lithoboleō",
+  "classe": "G:V",
+  "glosa": "to stone",
+  "def": "<b>λιθο-βολέω</b>, -ῶ\n(λίθος, βάλλω), [in LXX for סָקַל, רָגַם, {{Exo.19.13}}, {{Lev.20.2}}, al. ;] \n<b>to pelt with stones, to kill by stoning, to stone </b>(cf. λιθάζω): with accusative of person(s), {{Mat.21.35; 23.37}}, {{Luk.13.34}} {{Act.7.58-59; 14.5}}; pass., {{Heb.12.20}} (LXX).†\n(AS)"
+ },
+ {
+  "id": "G3037",
+  "original": "λίθος",
+  "translit": "lithos",
+  "classe": "G:N-M",
+  "glosa": "stone",
+  "def": "<b>λίθος</b>, -ου, ὁ\n(and, in Att.., of precious stones, ἡ.) [in LXX for אֶבֶן, {{Gen.11.3}}, al.; λ. τίμιος, for פָּז, {{Psa.19.10; 21.3}}, {{Pro.8.19}}, al. ;] \n<b>a stone</b>: {{Mat.4.6}}, al.; pl., {{Mat.3.9}}, al.; at the entrance of a tomb, {{Mat.27.60, 66; 28.2}}, {{Mrk.15.46; 16.3-4}}, {{Luk.24.2}}, {{Jhn.11.38, 32; 11.41; 20.1}}; λ. μυλικός, {{Luk.17.2}}, cf. {{Rev.18.21}} of building stones, {{Mat.21.42}}, [44], {{Mat.24.2}}, {{Mrk.12.10; 13.1-2}}, {{Luk.19.44; 20.17-18; 21.5-6}} {{Act.4.11}}, {{1Pe.2.7}}; metaphorically, of Christ, λ. ἀκρογωναῖος, ἐκλεκτός, ἔντιμος, {{1Pe.2.6}} (LXX); λ. ζῶν, {{1Pe.2.4}} προσκόμματος, {{1Pe.2.8}}, {{Rom.9.33}}; of Christians, λ. ζῶντες, {{1Pe.2.5}} of precious stones, λ. τίμιος, {{Rev.17.4; 18.12, 16; 21.11, 19}}; ἴασπις, {{Rev.4.3}} ἐνδεδυμένοι λ. καθαρόν, {{Rev.15.6}} (λίνον, Rec., R, mg., see Swete, in l); metaphorically, λ. τίμιοι, {{1Co.3.12}} of the tables of the law, {{2Co.3.7}} of idols, {{Act.17.29}} \n(AS)"
+ },
+ {
+  "id": "G3038",
+  "original": "λιθόστρωτος",
+  "translit": "lithostrōtos",
+  "classe": "G:A",
+  "glosa": "The Stone Pavement",
+  "def": "<b>λιθό-στρωτος</b>, -ον\n(στρώννυμι), [in LXX: {{2Ch.7.3}}, {{Est.1.6}}, {{Sng.3.10}} (רִצְפָּה, רָצַף)* ;] \npaved with stones, esp. of tessallated work (Ca, i.e.); as subst., τὸ λ., <b>a tessallated pavement</b>: {{Jhn.19.13}} (cf. Γαββαθᾶ).†\n(AS)"
+ },
+ {
+  "id": "G3046",
+  "original": "λίτρα",
+  "translit": "litra",
+  "classe": "G:N-F",
+  "glosa": "pound",
+  "def": "<b>λίτρα</b>, -ας, ἡ\n(cf. Lat. libra), \n1. a Sicilian coin = Rom. libra or as. \n2. <b>In weight, a pound</b>: {{Jhn.12.3; 19.39}}.†\n(AS)"
+ },
+ {
+  "id": "G3056",
+  "original": "λόγος",
+  "translit": "logos",
+  "classe": "G:N-M",
+  "glosa": "word",
+  "def": "<b>λόγος</b>, -ου, ὁ (λέγω) \n[in LXX chiefly for דָּבָר, also for מִלָּה ,אֵמֶר, etc. ;] \nI. Of that by which the inward thought is expressed, Lat. oratio, sermo, vox, verbum. \n1. <b>a word</b>, not in the grammatical sense of a mere name (ἔπος, ὄνομα, ῥῆμα), but a word as embodying a conception or idea: {{Mat.8.8}}, {{Luk.7.7}}, {{1Co.14.9, 19}} {{Heb.12.19}}, al. \n2. <b>a saying, statement, declaration</b>: {{Mat.19.22}} (T om.), {{Mrk.5.36; 7.29}}, {{Luk.1.29}}, {{Jhn.2.22; 6.60}}, {{Act.7.29}}, al.; with genitive attrib., {{Act.13.15}}, {{Rom.9.9}}, {{Heb.7.28}}, al.; of the sayings, commands, promises, etc., of teachers, {{Mat.7.24; 10.14}}, {{Mrk.8.38}}, {{Luk.9.4}}, {{Jhn.14.24}}, al.; λ. κενοί, {{Eph.5.6}} ἀληθινοί, {{Rev.19.9}} πιστοί, {{Rev.22.6}} esp. of the precepts, decrees and promises of God, ὁ λ. τ. θεοῦ, <b>the word of God</b>: {{Mrk.7.13}}, {{Jhn.10.35}}, {{Rom.13.9}}, {{1Co.14.36}}, {{Php.1.14}}, al.; absol., ὁ λ., {{Mat.13.21, 22}} Mrk.16:[20], {{Luk.1.2}}, {{Act.6.4}}, {{Heb.4.12}}, al. \n3. <b>speech, discourse</b>: {{Act.14.12}}, {{2Co.10.10}}, {{Jas.3.2}}; opposite to ἐπιστολή, {{2Th.2.15}} disting, from σοφία, {{1Co.2.1}} ἀναστροφή, {{1Ti.4.12}} δύναμις, {{1Co.4.19}}, {{1Th.1.5}}; ἔργον, {{Rom.15.18}} οὐδενὸς λ. τίμιον (<b>not worthy of mention</b>), {{Act.20.24}} of the faculty of speech, {{Luk.24.19}}, {{2Co.11.6}}; of the style of speech, {{Mat.5.37}}, {{1Co.1.5}}; of instruction, {{Col.4.3}}, {{1Pe.3.1}}; with genitive of person(s), {{Jhn.5.24; 8.52}}, {{Act.2.41}}, al.; ὁ λ. ὁ ἐμός, {{Jhn.8.31}} with genitive obj. (τ.) ἀληθείας, {{2Co.6.7}}, {{Col.1.5}}, {{Jas.1.18}}; τ. καταλλαγῆς, {{2Co.5.19}} τ. σταυροῦ, {{1Co.1.18}} of mere talk, {{1Co.4.19}}, 2o, {{Col.2.23}}, {{1Jn.3.18}} of the talk which one occasions, hence, <b>repute</b>: {{Col.2.23.}} \n4. subject-matter, hence, <b>teaching, doctrine</b>: {{Act.18.15}}, {{2Ti.2.17}}, al.; esp. of Christian doctrine: {{Mat.13.20-23}}, {{Mrk.4.14-20; 8.32}}, {{Luk.1.2}}, {{Act.8.4}}, {{Gal.6.6}}, {{1Th.1.6}}, al.; with genitive of person(s), τ. θεοῦ, {{Luk.5.1}}, {{Jhn.17.6}}, {{Act.4.29}}, {{1Co.14.36}}, I {{Jhn.1.10}}, {{Rev.6.9}}, al.; τ. Κυρίου, {{Act.8.25}}, {{1Th.1.8}}, al.; τ. Χριστοῦ, {{Col.3.16}}, {{Rev.3.8}}; with genitive appos., {{Act.15.7}} with genitive attrib., {{Heb.5.13.}} \n5. <b>a story, tale, narrative</b>: {{Mat.28.15}}, {{Jhn.21.23}}, {{Act.1.1; 11.22}}; before περί, {{Luk.5.15.}} \n6. That which is spoken of (Plat., al.; V. Kennedy, <i>Sources</i>, 124), <b>matter, affair, thing</b>: {{Mat.21.24}}, {{Mrk.1.45; 11.29}}, {{Luk.20.3}}, {{Act.8.21}}; of a matter in dispute, as a case or suit at law, {{Act.19.38}} pl. ({{1Ma.7.33}}, al.), {{Luk.1.4}}. \nII. Of the inward thought itself, Lat. ratio. \n1. <b>reason</b>, \n(a) <b>of the mental faculty </b>(Hdt., Plat., al.): κατὰ λόγον, {{Act.18.14}} \n(b) <b>a reason, cause</b>: τίνι λόγῳ, {{Act.10.29}} παρεκτὸς λόγου πορνείας, {{Mat.5.32; 19.9}}, WH, mg., R, mg. \n2. <b>account</b>, \n(a) <b>regard</b>: {{Act.20.24}}, Rec.; \n(b) <b>reckoning</b>: {{Php.4.15, 17}}; συναίρειν (which see) λ., {{Mat.18.23; 25.19}}; in forensic sense, {{Rom.14.12}}, {{Heb.13.17}}, {{1Pe.4.5}}; with genitive of thing(s), {{Luk.16.2}} before περί, {{Mat.12.36}}, {{Act.19.40}}, {{1Pe.3.15}}. \n3. <b>proportion, analogy</b>: {{Php.2.16}} (Field, <i>Notes</i>, 193 f.). \nIII. ὁ λ., the Divine <b>Word</b> or <b>Logos</b>: {{Jhn.1.1, 14}}; τ. ζωῆς, {{1Jn.1.1}} τ. θεοῦ, {{Rev.19.13}} (see Westc, Swete, <i>CGT</i>, in ll.; reff. in Artt., <i>Logos</i>, <i>DB</i>, <i>DCG</i>). \n(AS)"
+ },
+ {
+  "id": "G3057",
+  "original": "λόγχη",
+  "translit": "logchē",
+  "classe": "G:N-F",
+  "glosa": "spear",
+  "def": "<b>λόγχη</b>, -ης, ἡ \n[in LXX for רֹמַח, etc. ;] \n1. a spear-head. \n2. <b>a lance, spear</b>: {{Mat.27.49}} ([WH], R, mg.), {{Jhn.19.34.}}†\n(AS)"
+ },
+ {
+  "id": "G3058",
+  "original": "λοιδορέω",
+  "translit": "loidoreō",
+  "classe": "G:V",
+  "glosa": "to revile",
+  "def": "<b>λοιδορέω</b>, -ῶ\n(λοίδορος) [in LXX chiefly for רִיב ;] \n<b>to abuse, revile</b>: with accusative of person(s), {{Jhn.9.28}}, {{Act.23.4}}; pass., {{1Co.4.12}}, {{1Pe.2.23}} (cf. ἀντι-λοιδορέω).†\n(AS)"
+ },
+ {
+  "id": "G3068",
+  "original": "λούω",
+  "translit": "louō",
+  "classe": "G:V",
+  "glosa": "to wash",
+  "def": "<b>λούω </b>\n[in LXX chiefly for רָחַץ (frequently of ceremonial washing; cf. Deiss., BS, 226 f.) ;] \n<b>to bathe, wash the body</b>: with accusative of person(s), {{Act.9.37}} (of a dead body); id. before ἀπό (Deiss., BS, l.with), {{Act.16.33}} pass. ptcp. pf., {{Jhn.13.10}}, {{Heb.10.22}}; mid., to wash oneself (Mayor, in l; M. <i>Pr.</i>, 155 f., 238 f.), {{2Pe.2.22}} metaphorically, {{Rev.1.5}}, Rec., R, mg. (cf. ἀπο-λούω).†\n<i>SYN.</i>: νίπτω, used of parts of the body-hands, feet, face; πλύνω, of things, as garments, etc. (see {{Lev.15.11}} cf. Tr., <i>Syn.</i>, § xlv) (AS)"
+ },
+ {
+  "id": "G3074",
+  "original": "λύκος",
+  "translit": "lukos",
+  "classe": "G:N-M",
+  "glosa": "wolf",
+  "def": "<b>λύκος</b>, -ου, ὁ \n[in LXX for זְאֵב ;] \n<b>a wolf</b>: {{Mat.10.16}}, {{Luk.10.3}}, {{Jhn.10.12}}; figuratively (as {{Ezk.22.27}}, {{Zep.3.3}}, {{Jer.5.6}}, al.), {{Mat.7.1}}, {{Act.20.29}}.†\n(AS)"
+ },
+ {
+  "id": "G3076",
+  "original": "λυπέω",
+  "translit": "lupeō",
+  "classe": "G:V",
+  "glosa": "to grieve",
+  "def": "<b>λυπέω</b>, -ῶ\n(λύπη), [in LXX for חָרָה, etc. ;] \n<b>to distress, grieve, cause pain or grief</b>: with accusative of person(s), {{2Co.2.2; 2.5; 7.8}}; pass., {{Mat.14.9; 17.23; 18.31; 19.22; 26.22}}, {{Mrk.10.22; 14.19}}, {{Jhn.16.20; 21.17}}, {{Rom.14.15}}, {{2Co.2.4}}, {{1Th.4.13}}, {{1Pe.1.6}}; λ. καὶ ἀδημονεῖν, {{Mat.26.37}} opposite to χαίρειν, {{2Co.6.10}} κατὰ θεόν, {{2Co.7.9; 7.11}}; τ. πνεῦμα τ. ἅγιον, {{Eph.4.30}} (cf. συν-λνπέω),†\n<i>SYN.</i>: see: θρηνέω (AS)"
+ },
+ {
+  "id": "G3077",
+  "original": "λύπη",
+  "translit": "lupē",
+  "classe": "G:N-F",
+  "glosa": "grief",
+  "def": "<b>λύπη</b>, -ης, ἡ \n[in LXX for עֶצֶב and cogn. forms, etc. ;] \n<b>pain of body or mind, grief, sorrow</b>: {{Jhn.16.6}}, {{2Co.2.7}}; opposite to χαρά, {{Jhn.16.20}}, {{Heb.12.11}}; ἀπὸ τῆς λ., {{Luk.22.45}} ἐκ λ., {{2Co.9.7}} ἡ κατὰ θεὸν λ., opposite to ἡ τ. κόσ-μου λ., {{2Co.7.10}} λ. μοι ἐστιν, {{Rom.9.2}} λ. ἔχω, {{Jhn.16.21-22;}} id. before ἀπό, {{2Co.2.3}} λ. ἐπὶ λ. ἔχω, {{Php.2.27}} ἐν λ. ἐλθεῖν, {{2Co.2.1}} (to come sad and cause sadness); pl. (cf. {{Gen.3.16}}, {{Pro.15.13}}, al.), {{1Pe.2.19}}.†\n(AS)"
+ },
+ {
+  "id": "G3088",
+  "original": "λύχνος",
+  "translit": "luchnos",
+  "classe": "G:N-M",
+  "glosa": "lamp",
+  "def": "<b>λύχνος</b>, -ου, ὁ \n[in LXX for נִיר ({{Exo.25.37}}), al.) ;] \n<b>a lamp </b>(portable, and usually set on a stand, λυχνία): {{Mat.5.15}}, {{Luk.11.36}}; ἔρχεται ὁ λ., {{Mrk.4.21}} λ. ἅπτειν {{Luk.8.16; 11.33; 15.8}}; φῶς λύχνου, {{Rev.18.23}} id. opposite to φ.ἡλίου, {{Rev.22.5}} metaphorically, of the eye, {{Mat.6.22}} {{Luk.11.34}}; of John the Baptist, {{Jhn.5.35}} of the Lamb, {{Rev.21.23}} of prophecy, {{2Pe.1.19}} of spiritual readiness, pl., λύχνοι (as always in LXX; frequently in Att.. λύχνα), {{Luk.12.35.}}†\n<i>SYN.</i>: λαμπάς, q.v (AS)"
+ },
+ {
+  "id": "G3089",
+  "original": "λύω",
+  "translit": "luō",
+  "classe": "G:V",
+  "glosa": "to loose",
+  "def": "<b>λύω </b>\n[in LXX for פָּתַח, נָתַר hi., etc. ;] \n1. <b>to loose, unbind, release</b>: of things, {{Mrk.1.7}}, {{Luk.3.16}}, al.; of beasts, {{Mat.21.2}}, {{Luk.13.15}}, al.; of persons, {{Jhn.11.44}}, {{Act.22.30}}; of Satan, {{Rev.20.3}}, 7; metaphorically, of the marriage tie, {{1Co.7.27}} of one diseased, {{Luk.13.16}} of release from sin, {{Rev.1.5}}, WH, R, txt. (see: λούω). \n2. <b>To resolve a whole into its parts, loosen, dissolve, break up, destroy</b>: {{Jhn.2.19}}, {{Act.27.41}}, {{Rev.5.2}}; metaphorically, {{2Pe.3.11}} of an assembly, <b>to dismiss</b>: {{Act.13.43}} τ. μεσότοιχον τ. φραγμοῦ, {{Eph.2.14}} τ. στοιχεῖα, {{2Pe.3.10}} οὐρανοί, {{2Pe.3.12}} τ. ἔργα τ. διαβόλου, {{1Jn.3.8}} τ. ὠδῖνας τ. θανάτου, {{Act.2.24}} of laws, etc., <b>to break, annul, cancel </b>(MM, xvi): ἐντολήν, {{Mat.5.19}} τ. νόμον, {{Jhn.7.23}} τ. σάββατον, {{Jhn.5.18}} τ. γραφήν, {{Jhn.10.35.}} \n(cf. ἀνα-, ἀπο-, δια-, ἐκ-, ἐπι-, κατα-, παρα-λύω.)\n(AS)"
+ },
+ {
+  "id": "G3094",
+  "original": "Μαγδαληνή",
+  "translit": "Magdalēnē",
+  "classe": "N:N-F-LG",
+  "glosa": "Magdalene",
+  "def": "<b>Μαγδαληνός</b>, -ά, όν \n<b>Magdalene, of Magdala</b>: Μαρία (which see) ἡ MM., {{Mat.27.56, 61; 28.1}}, {{Mrk.15.40, 47; 16.1, 9}}, {{Luk.8.2; 24.10}}, {{Jhn.19.25; 20.1, 18}}†\n(AS)"
+ },
+ {
+  "id": "G3101",
+  "original": "μαθητής",
+  "translit": "mathētēs",
+  "classe": "G:N-M",
+  "glosa": "disciple",
+  "def": "<b>μαθητής</b>, -οῦ, ὁ (μανθάνω), \n[in LXX only as seel. (A) in {{Jer.13.21; 20.11}} 26(46):9 * ;] \n<b>a disciple</b>: opposite to διδάσκαλος, {{Mat.10.24}}, {{Luk.6.40}}; Ἰωάννου, {{Mat.9.14}}, {{Luk.7.18}}, {{Jhn.3.25}}; τ. Φαρισσίων, {{Mat.22.16}}, {{Mrk.2.18}}, {{Luk.5.33}}; Μωυσέως, {{Jhn.9.28}} Ἰησοῦ, {{Luk.6.17; 7.11; 19.37}}, {{Jhn.6.66; 7.3; 19.38}}; esp. the twelve, {{Mat.10.1; 11.1}}, {{Mrk.7.17}}, {{Luk.8.9}}, {{Jhn.2.2}}, al.; later, of Christians generally, {{Act.6.1, 2, 7; 9.19}}, al.; τ. κυρίου, {{Act.9.1.}}\n(AS)"
+ },
+ {
+  "id": "G3105",
+  "original": "μαίνομαι",
+  "translit": "mainomai",
+  "classe": "G:V",
+  "glosa": "to rave",
+  "def": "<b>μαίνομαι </b>\n[in LXX: {{Jer.25.16}} (הָלַל hith.) {{Jer.29.26}} (שָׁגַע pu.), {{Wis.14.28}}, a). ;] \n1. to rage, be furious. \n2. <b>to rave, be mad</b>: {{Jhn.10.29}}, {{Act.12.15; 26.24-25}}, {{1Co.14.23}} (cf. ἐμ-μαίνομαι).†\n(AS)"
+ },
+ {
+  "id": "G3107",
+  "original": "μακάριος",
+  "translit": "makarios",
+  "classe": "G:A",
+  "glosa": "blessed",
+  "def": "<b>μακάριος</b>, -α, -ον\n(collat. form of poët. μάκαρ, in Hom., Hes., chiefly of the gods and the departed), [in LXX for אֹשֶׁר ;] \n<b>blessed, happy </b>(<i>DCG</i>, i, 177, 213): θεός (δυνάστης), {{1Ti.1.11; 6.15}}; ἐλπίς, {{Tit.2.13}} esp. in congratulations, usually with the omission of the copula (M, <i>Pr.</i>, 180; B1., § 30, 3), μ. ὁ, {{Mat.5.3}} ff., {{Luk.6.20}} ff. {{Jhn.20.29}}, {{Rev.1.3}}, al.; before ptcp., {{Luk.1.45}}, al.; ὅς, {{Mat.11.6}}, {{Luk.7.23}}, {{Rom.4.7-8}}; ὅτι, {{Mat.13.16}}, al.; ἐάν, {{Jhn.13.17}}, {{1Co.7.40}}; compar., μ. . . . μᾶλλον, {{Act.20.35}} -ώτερος, {{1Co.7.40}} \n<i>SYN.</i>: εὐλογητός, q.v (AS)"
+ },
+ {
+  "id": "G3112",
+  "original": "μακράν",
+  "translit": "makran",
+  "classe": "G:ADV",
+  "glosa": "far",
+  "def": "<b>μακράν (prop. fem. accusative of μακρός</b>, Sc. ὁδόν), adv. ,\n[in LXX for רָחוֹק hi., רָחַק, etc. ;] \n<b>a long way, far</b>: {{Luk.15.20}}, {{Act.22.21}}; before ἀπό, {{Mat.8.30}}, {{Luk.7.6}}, {{Jhn.21.8}}, {{Act.17.27}}; id. metaphorically, {{Mrk.12.34}} οἱ εἰς μ., {{Act.2.39}} (cf. {{Isa.2.2}}); metaphorically, οἱ ποτὲ ὄντες μ. (opposite to ἐγγύς), {{Eph.2.13}} οἱ μ., {{Eph.2.17.}}†\n(AS)"
+ },
+ {
+  "id": "G3123G",
+  "original": "μᾶλλον",
+  "translit": "mallon",
+  "classe": "G:ADV",
+  "glosa": "more",
+  "def": "<b>μάλα </b>\n<i>adv.</i>, [in LXX for אֲבָל, {{3Ki.1.43}}, Dan LXX 10:21, al.; compar. for מ, {{Num.13.32}} (31), al.; μᾶλλον ἠ (מ), {{Gen.19.9}}, al.; superlat., {{2Ma.8.7}}, {{4Ma.4.22; 12.9; 15.4}} ;] \nI. Pos., <b>very, very much, exceedingly</b> (cl.; LXX ut supr.; in NT its place is taken by λίαν, σφόδρα, etc.). \nII. Compar., μᾶλλον. \n1. Of increase, <b>more</b>; with qualifying words: πολλῷ, {{Mrk.10.48}}, {{Luk.18.39}}, {{Rom.5.15, 17}}, {{Php.2.12}}, al.; πόσῳ, {{Luk.12.24}}, {{Rom.11.12}}, al.; τοσούτῳ . . . ὅσῳ, {{Heb.10.25.}} \n2. Of comparison, <b>the more</b>: {{Luk.5.15}}, {{Jhn.5.18}}, {{Act.5.14}}, {{1Th.4.1, 10}}, {{2Pe.1.10}}; ἔτι μ. καὶ μ., {{Php.1.9}} with compar., {{Mrk.7.36}}, {{2Co.7.13}}; πολλῴ μ. κρεῖσον, {{Php.1.23}} μ. διαφέρειν, with genitive, {{Mat.6.26}} μ. ἤ, {{Mat.18.13}} with genitive, {{1Co.14.18}} as periphr. for compar., {{Act.20.35}}, {{1Co.9.15}}, {{Gal.4.27}}; μ. δέ (EV, <b>yea rather</b>), {{Rom.8.34.}} \n3. Of preference, <b>rather, the rather, sooner</b>: with qualifying words, πολλῷ, {{Mat.6.30}}, al.; πολύ, {{Heb.12.25}} πόσῳ, {{Mat.7.11}}, al.; in a question, οὐ μ., {{1Co.9.12}} after a neg., {{Mat.10.6}}, al.; θέλω (εὐδοκῶ) μ., {{1Co.14.5}}, {{2Co.5.8}}; ζηλῶ, {{1Co.14.1}} with subst., τ. σκότος ἢ τ. φῶς, {{Jhn.3.19}} μ. δέ, {{Gal.4.9.}} \nIII. Superl., <b>μάλιστα</b>\n, <b>most, most of all, above all</b>: {{Act.20.38; 25.26}}, {{Gal.6.10}}, {{Php.4.22}}, {{1Ti.4.10; 5.8, 17}}, {{2Ti.4.13}}, {{Tit.1.10}}, Phm 16, {{2Pe.2.10}}; μ. γνώστης, {{Act.26.3}} \n(AS)"
+ },
+ {
+  "id": "G3123H",
+  "original": "μᾶλλον",
+  "translit": "mallon",
+  "classe": "G:ADV",
+  "glosa": "more: rather",
+  "def": "<b>μάλα </b>\n<i>adv.</i>, [in LXX for אֲבָל, {{3Ki.1.43}}, Dan LXX 10:21, al.; compar. for מ, {{Num.13.32}} (31), al.; μᾶλλον ἠ (מ), {{Gen.19.9}}, al.; superlat., {{2Ma.8.7}}, {{4Ma.4.22; 12.9; 15.4}} ;] \nI. Pos., <b>very, very much, exceedingly</b> (cl.; LXX ut supr.; in NT its place is taken by λίαν, σφόδρα, etc.). \nII. Compar., μᾶλλον. \n1. Of increase, <b>more</b>; with qualifying words: πολλῷ, {{Mrk.10.48}}, {{Luk.18.39}}, {{Rom.5.15, 17}}, {{Php.2.12}}, al.; πόσῳ, {{Luk.12.24}}, {{Rom.11.12}}, al.; τοσούτῳ . . . ὅσῳ, {{Heb.10.25.}} \n2. Of comparison, <b>the more</b>: {{Luk.5.15}}, {{Jhn.5.18}}, {{Act.5.14}}, {{1Th.4.1, 10}}, {{2Pe.1.10}}; ἔτι μ. καὶ μ., {{Php.1.9}} with compar., {{Mrk.7.36}}, {{2Co.7.13}}; πολλῴ μ. κρεῖσον, {{Php.1.23}} μ. διαφέρειν, with genitive, {{Mat.6.26}} μ. ἤ, {{Mat.18.13}} with genitive, {{1Co.14.18}} as periphr. for compar., {{Act.20.35}}, {{1Co.9.15}}, {{Gal.4.27}}; μ. δέ (EV, <b>yea rather</b>), {{Rom.8.34.}} \n3. Of preference, <b>rather, the rather, sooner</b>: with qualifying words, πολλῷ, {{Mat.6.30}}, al.; πολύ, {{Heb.12.25}} πόσῳ, {{Mat.7.11}}, al.; in a question, οὐ μ., {{1Co.9.12}} after a neg., {{Mat.10.6}}, al.; θέλω (εὐδοκῶ) μ., {{1Co.14.5}}, {{2Co.5.8}}; ζηλῶ, {{1Co.14.1}} with subst., τ. σκότος ἢ τ. φῶς, {{Jhn.3.19}} μ. δέ, {{Gal.4.9.}} \nIII. Superl., <b>μάλιστα</b>\n, <b>most, most of all, above all</b>: {{Act.20.38; 25.26}}, {{Gal.6.10}}, {{Php.4.22}}, {{1Ti.4.10; 5.8, 17}}, {{2Ti.4.13}}, {{Tit.1.10}}, Phm 16, {{2Pe.2.10}}; μ. γνώστης, {{Act.26.3}} \n(AS)"
+ },
+ {
+  "id": "G3124",
+  "original": "Μάλχος",
+  "translit": "Malchos",
+  "classe": "N:N-M-P",
+  "glosa": "Malchus",
+  "def": "<b>Μάλχος</b>, -ου, ὁ (Hellenistic form of <i>Heb.</i> מֶלֶךְ), \n<b>Malchus</b>: {{Jhn.18.10.}}†\n(AS)"
+ },
+ {
+  "id": "G3129",
+  "original": "μανθάνω",
+  "translit": "manthanō",
+  "classe": "G:V",
+  "glosa": "to learn",
+  "def": "<b>μανθάνω </b>\n[in LXX chiefly for לָמַד ;] \n1. to learn, esp. by inquiry: absol., {{1Co.14.31}}, {{1Ti.2.11}}, {{2Ti.3.7}}; with accusative of thing(s), {{Jhn.7.15}} (sc. αὐτά), {{Rom.16.17}}, {{1Co.14.35}}, {{Php.4.9}}, {{2Ti.3.14}}, {{Rev.14.3}}; before quaes. indir., {{Mat.9.13}} Χριστόν, {{Eph.4.20}} (<i>ICC</i>, in l); before ἀπό, with genitive of thing(s), {{Mat.24.32}}, {{Mrk.13.28}}; ἀπό, with genitive of person(s), {{Mat.11.29}}, {{Col.1.7}}; παρά, with genitive of person(s), {{2Ti.3.14}} ἐν, with dative of person(s), {{1Co.4.6}} \"point\" aorist (M, <i>Pr.</i>, 117), to ascertain, before ὅτι, {{Act.23.27}} with accusative before ἀπό, {{Gal.3.2.}} \n2. <b>to learn by use and practice, acquire the habit of, be accustomed to</b>: with inf. (Bl., § 69, 4), {{1Ti.5.4}}, {{Tit.3.14}}; id. with nom, in pred. (El., § 72, 1), {{Php.4.11}} with accusative of thing(s) before ἀπό, {{Heb.5.8}} ἀργαὶ μανθάνουσιν (EV, they learn to be idle; Bl., § 73, 5; Field, <i>Notes</i>, 210), {{1Ti.5.13.}}†\n(AS)"
+ },
+ {
+  "id": "G3131",
+  "original": "μάννα",
+  "translit": "manna",
+  "classe": "H:N",
+  "glosa": "manna",
+  "def": "<b>μάννα</b>, τό ,\n(in FlJ, also ἡ), \nindecl. \n[in LXX: τὸ μάν, {{Exo.16.31}} ff., elsewhere τ. μάννα, {{Num.11.6}} ff., al. (מָן, Aram. מַנָּא) ;] \n<b>manna</b>: {{Jhn.6.31, 49}}, {{Heb.9.4}}; symb., {{Rev.2.17.}}†\n(AS)"
+ },
+ {
+  "id": "G3136",
+  "original": "Μάρθα",
+  "translit": "Martha",
+  "classe": "N:N-F-P",
+  "glosa": "Martha",
+  "def": "<b>Μάρθα</b>, -ας (Bl., § 7, 2), ἡ (Aram. מָרְתָּא), \n<b>Martha</b>: {{Luk.10.38, 40-41}}, {{Jhn.11.1, 5; 11.19}} ff. {{Luk.12.2}}.†\n(AS)"
+ },
+ {
+  "id": "G3137I",
+  "original": "Μαρία",
+  "translit": "Maria",
+  "classe": "N:N-F-P",
+  "glosa": "Mary",
+  "def": "<b>Μαρία</b>, -ας (Hellenized form), and Μαριάμ, indecl., ἡ (Aram. מַרְיָם; <i>Heb.</i> מִרְיָם) \nMary. In NT; \n1. <b>the mother of Jesus</b>: {{Mat.1.16}} ff. {{Mat.2.11; 13.55}}, {{Mrk.6.3}}, {{Luk.1.27}} ff. {{Luk.2.5, 16; 2.19, 34}}, {{Act.1.14}} \n2. M. Magdalene (which see). \n3. The wife of Clopas ({{Jhn.19.25}}) and mother of James the little, <b>and Joses</b>: {{Mat.27.56, 61; 28.1}}, {{Mrk.15.40, 47; 16.1}}, {{Luk.24.10}}. \n4. <b>The sister of Martha and Lazarus</b>: {{Luk.10.39, 42}} {{Jhn.11.1-2, 19}} ff. {{Jhn.12.3}}. \n5. <b>The mother of John Mark</b>: {{Act.12.12.}} \n6. A Christian greeted by St. Paul: {{Rom.16.6}} (on the signification of the name, see Zorell, see word; on the use of the alternative forms in NT, <i>DB</i>, iii, 278 bn).†\n(AS)"
+ },
+ {
+  "id": "G3137J",
+  "original": "Μαρία",
+  "translit": "Maria",
+  "classe": "N:N-F-P",
+  "glosa": "Mary",
+  "def": "<b>Μαρία</b>, -ας (Hellenized form), and Μαριάμ, indecl., ἡ (Aram. מַרְיָם; <i>Heb.</i> מִרְיָם) \nMary. In NT; \n1. <b>the mother of Jesus</b>: {{Mat.1.16}} ff. {{Mat.2.11; 13.55}}, {{Mrk.6.3}}, {{Luk.1.27}} ff. {{Luk.2.5, 16; 2.19, 34}}, {{Act.1.14}} \n2. M. Magdalene (which see). \n3. The wife of Clopas ({{Jhn.19.25}}) and mother of James the little, <b>and Joses</b>: {{Mat.27.56, 61; 28.1}}, {{Mrk.15.40, 47; 16.1}}, {{Luk.24.10}}. \n4. <b>The sister of Martha and Lazarus</b>: {{Luk.10.39, 42}} {{Jhn.11.1-2, 19}} ff. {{Jhn.12.3}}. \n5. <b>The mother of John Mark</b>: {{Act.12.12.}} \n6. A Christian greeted by St. Paul: {{Rom.16.6}} (on the signification of the name, see Zorell, see word; on the use of the alternative forms in NT, <i>DB</i>, iii, 278 bn).†\n(AS)"
+ },
+ {
+  "id": "G3137K",
+  "original": "Μαρία",
+  "translit": "Maria",
+  "classe": "N:N-F-P",
+  "glosa": "Mary",
+  "def": "<b>Μαρία</b>, -ας (Hellenized form), and Μαριάμ, indecl., ἡ (Aram. מַרְיָם; <i>Heb.</i> מִרְיָם) \nMary. In NT; \n1. <b>the mother of Jesus</b>: {{Mat.1.16}} ff. {{Mat.2.11; 13.55}}, {{Mrk.6.3}}, {{Luk.1.27}} ff. {{Luk.2.5, 16; 2.19, 34}}, {{Act.1.14}} \n2. M. Magdalene (which see). \n3. The wife of Clopas ({{Jhn.19.25}}) and mother of James the little, <b>and Joses</b>: {{Mat.27.56, 61; 28.1}}, {{Mrk.15.40, 47; 16.1}}, {{Luk.24.10}}. \n4. <b>The sister of Martha and Lazarus</b>: {{Luk.10.39, 42}} {{Jhn.11.1-2, 19}} ff. {{Jhn.12.3}}. \n5. <b>The mother of John Mark</b>: {{Act.12.12.}} \n6. A Christian greeted by St. Paul: {{Rom.16.6}} (on the signification of the name, see Zorell, see word; on the use of the alternative forms in NT, <i>DB</i>, iii, 278 bn).†\n(AS)"
+ },
+ {
+  "id": "G3140",
+  "original": "μαρτυρέω",
+  "translit": "martureō",
+  "classe": "G:V",
+  "glosa": "to testify",
+  "def": "<b>μαρτυρέω</b>, -ῶ\n(μάρτυς), [in LXX chiefly for עֵד (עֵד ({{Gen.31.47-48}}, al.), also for עוּד hi. ({{Gen.43.3}}, {{Lam.2.13}}), עָנָה ({{Num.35.30}}) ;] \n(a) prop., <b>to be a witness, bear witness, testify</b>: absol. (find., al.), {{Jhn.15.27}}, {{Act.26.5}}; parenthetical (Bl., § 79, 7; MM, xvi), {{2Co.8.3}} with dative of person(s) (comm. and incomm.; El., § 37, 2), {{Act.22.5}}, {{Heb.10.15}}; id. before ὅτι, {{Mat.23.31}}, {{Rom.10.2}}, al.; accusative and inf., {{Act.10.43}} with accusative of thing(s) (cl.), {{Jhn.3.11}}, {{Rev.22.16, 20}}; with accusative cogn., before περί, {{Jhn.5.32}}, {{1Jn.5.10}}; with dative of thing(s), {{Jhn.5.33}}, {{Act.14.3}}, al.; before περί, with genitive (of person(s) and of thing(s)), {{Jhn.1.7-8, 15; 2.25; 18.23; 21.24}}, al.; id. before ὅτι, {{Jhn.5.36; 7.7}}; ὅτι, {{Jhn.1.34; 4.44}} al.; ὅτι recit., {{Jhn.4.39}} κατά before ὅτι, {{1Co.15.15}} pass., {{Heb.7.8}} ptcp., {{Rom.3.21}} impers., {{Heb.7.17}} \n(b) in late Gk., <b>to witness favourably, give a good report, approve </b>(Bl., § 54, 3; MM, xvi; Deiss., BS, 265): with dative of person(s), {{Luk.4.22}} before ἐπί with dative of thing(s), {{Heb.11.4}} pass., {{Act.6.3}} before ἐν, {{1Ti.5.10}}, {{Heb.11.2}}; διά, with genitive of thing(s), {{Heb.11.39}} with genitive of person(s), {{Act.10.22}}, al.; impers., {{3Jn.12}} (cf. ἐπι, συν-επι-, κατα-, συν-μαρτυρέω) \n(AS)"
+ },
+ {
+  "id": "G3141",
+  "original": "μαρτυρία",
+  "translit": "marturia",
+  "classe": "G:N-F",
+  "glosa": "testimony",
+  "def": "<b>μαρτυρία</b>, -ας, ἡ\n(μαρτυρέω), [in LXX: {{Gen.31.47}} R (גַּלְעֵד), {{Exo.20.16}}, {{Deu.5.20}} (17), {{Pro.25.18}}, {{Psa.19.7}} (עֵד, עֵדוּת), {{Pro.12.19}}, {{Sir.31.23-24}}, {{4Ma.6.32}} * ;] \n<b>witness, testimony, evidence</b>: {{Mrk.14.56}}, {{Luk.22.71}}, {{Jhn.5.34; 19.35; 21.24}}, {{1Ti.3.7}}, {{Tit.1.13}}, {{3Jn.12}}, {{Rev.11.7}}; with genitive subj., {{Mrk.14.59}}, {{Jhn.8.17}} (LXX aliter), {{1Jn.5.9}} before κατά, with genitive of person(s), {{Mrk.14.55}} esp. of witness concerning Christ and divine things, {{Jhn.1.7; 3.11, 32-33; 5.32, 36}} {{Rev.6.9}}; with genitive subj., {{Jhn.1.19; 5.31; 8.13-14}}, {{Act.22.18}}, {{1Jn.5.9-11}}, {{Rev.12.11}}; with genitive obj., {{Rev.1.2, 9; 12.17; 19.10; 20.4}}; μ. ἔχειν, {{Rev.6.9; 12.17; 19.10}}.†\n(AS)"
+ },
+ {
+  "id": "G3146",
+  "original": "μαστιγόω",
+  "translit": "mastigoō",
+  "classe": "G:V",
+  "glosa": "to whip",
+  "def": "<b>μαστιγόω</b>, -ῶ \n(μάστιξ) [in LXX chiefly for נָכָה hi. ;] \n<b>to scourge</b>: with accusative, {{Mat.10.17; 20.19; 23.34}}, {{Mrk.10.34}}, {{Luk.18.33}}, {{Jhn.19.1}}; metaphorically, {{Heb.12.6}} (cf. {{Pro.3.12}}, {{Jer.5.3}}, {{Jdt.8.27}}).†\n(AS)"
+ },
+ {
+  "id": "G3162",
+  "original": "μάχαιρα",
+  "translit": "machaira",
+  "classe": "G:N-F",
+  "glosa": "sword",
+  "def": "<b>μάχαιρα</b>, -ης\n(Att.. -ας; see WH, <i>App.</i>, 1568; ΒΙ., § 7, 1), ἡ, [in LXX chiefly for חֶרֶב; also for מַאֲכֶלֶת, etc. ;] \n1. (in Hom., al.) a large knife or dirk, for sacrificial purposes ({{Gen.22.6, 10}}, {{Jdg.19.20}} A). \n2. <b>a short sword or dagger </b>(as disting. from ῥομφαία, a large broad sword and ξίφος, a straight sword for thrusting): {{Mat.26.47}} ff., {{Mrk.14.43, 47-48}}, {{Luk.22.36}} ff., {{Jhn.18.10-11}} {{Act.16.27}}, {{Heb.11.37}}, {{Rev.6.4; 13.10, 14}}; στόμα μαχαίρης (as in <i>Heb.</i> חֶרֶב פֶּה, {{Gen.34.26}}, al.), the edge of the sword: {{Luk.21.24}}, {{Heb.11.34}}; μ. δίστομος, {{Heb.4.12}} ἀναιρεῖν μαχαίρῃ, {{Act.12.2}} τὴν μ. φορεῖν, {{Rom.13.4.}} Metaphorical, {{Mat.10.34}} (opposite to εἰρήνη), {{Rom.8.35}} μ. τοῦ πνεῦματος, {{Eph.6.17.}}†\n(AS)"
+ },
+ {
+  "id": "G3164",
+  "original": "μάχομαι",
+  "translit": "machomai",
+  "classe": "G:V",
+  "glosa": "to quarrel",
+  "def": "<b>μάχομαι </b>\n[in LXX chiefly for רִיב, also for נָצָה ni., etc. ;] \n1. to fight: {{Act.7.26.}} \n2. <b>to quarrel, dispute</b>: {{2Ti.2.24}}, {{Jas.4.2}}; πρὸς ἀλλήλους, {{Jhn.6.52}} (cf. δια-μάχομαι).†\n(AS)"
+ },
+ {
+  "id": "G3165",
+  "original": "μέ",
+  "translit": "me",
+  "classe": "G:P-1",
+  "glosa": "me",
+  "def": "1. apostrophe for με. \n2. rarely for μοι, (Homer) (ML)"
+ },
+ {
+  "id": "G3173",
+  "original": "μέγας",
+  "translit": "megas",
+  "classe": "G:A",
+  "glosa": "great",
+  "def": "<b>μέγας</b>, μεγάλη, μέγα, \n[in LXX chiefly for גָּדוֹל, also for מַרְבֶּה ,רַב (incl. μείζων), רֹב (μέγιστος) ;] \n<b>great</b>; \n1. <b>of external form, bodily size, measure, extent</b>: λίθος, {{Mat.2.60}} δράκων, {{Rev.12.3}} ἰχθῦς, {{Jhn.21.11}} πόλις, {{Rev.11.8}} μάχαιρα, {{Rev.6.4}}, al. \n2. <b>Of intensity and degree</b>: δύναμις, {{Act.4.33}} φόβος, {{Mrk.4.41}} ἀγάπη, {{Jhn.15.13}} ἄνεμος, {{Jhn.6.18}}; κραυγή, {{Act.23.9}} φῶς, {{Mat.4.16}} πυρετός, {{Luk.4.38}} θλίψις, {{Mat.24.21.}} \n3. <b>Of rank</b>; \n(a) <b>of persons</b>: θεός (MM, xvi), {{Tit.2.13}} Ἄρτεμις, {{Act.19.27}} compar. (see infr.), {{Mat.18.1}} (cf. Dalman, <i>Words</i>, 113f.); neut. for masc. (Bl., §32, 1), {{Mat.12.6}} \n(b) <b>of things</b>: ἁμαρτία, {{Jhn.19.11}} μυστήριον, {{Eph.5.32}} = μεγίστη (see infr., and cf. Field, <i>Notes</i>, 16f.), {{Mat.22.36}} compar. for superl. (M, <i>Pr.</i>, 78), {{1Co.13.13.}} \n4. \n(a) Compar., μείζων: {{Mat.11.11; 23.17}}, al.; neut. pl., μείζονα, contr. μείζω, {{Jhn.1.51}} double compar., μειζότερος (M, <i>Pr.</i>, 236; Bl., §11, 4), {{3Jn.4}}; \n(b) superl, μέγιστος (Deiss., <i>BS</i>, 365), {{2Pe.1.4.}}\n(AS)"
+ },
+ {
+  "id": "G3177",
+  "original": "μεθερμηνεύω",
+  "translit": "methermēneuō",
+  "classe": "G:V",
+  "glosa": "to mean",
+  "def": "<b>μεθερμηνεύω </b>\n[in LXX: Sirach prologue 23 * ;] \n<b>to translate, interpret</b>: {{Mat.1.23}}, {{Mrk.5.41; 15.22, 34}}, {{Jhn.1.38, 42}}, {{Act.4.36; 13.8}} (cf. ἑρμηνεύω).†\n(AS)"
+ },
+ {
+  "id": "G3184",
+  "original": "μεθύω",
+  "translit": "methuō",
+  "classe": "G:V",
+  "glosa": "to get drunk",
+  "def": "<b>μεθύω</b>\n(μέθυ, wine, cf. μέθη), [in LXX chiefly for שָׁכַר, רָוָה ;] \n<b>to be drunken</b>: {{Mat.24.49}}, {{Jhn.2.10}}, {{Act.2.15}}, {{1Co.11.21}}, {{1Th.5.7}}; metaphorically, {{Rev.17.2}}, 6.†\n(AS)"
+ },
+ {
+  "id": "G3195",
+  "original": "μέλλω",
+  "translit": "mellō",
+  "classe": "G:V",
+  "glosa": "to ensue",
+  "def": "<b>μέλλω</b>, \n[in LXX: {{Job.3.8}} (עָתִיד) 19:25 (אַחֲרוֹן); elsewhere for fut., and frequently in Wi, II, 4Mac ;] \n<b>to be about</b> to be or do; \n1. with inf. (Bl., §62, 4; 68, 2; M, <i>Pr.</i>, 114); \n(a) of intending or being about to do of one's own free will: with inf. praes., {{Mat.2.13}}, {{Luk.10.1}}, {{Act.3.3; 5.35}}, {{Heb.8.5}}, {{2Pe.1.12}} (Field, <i>Notes</i>, 240), al.; with inf. aor. (Bl., §58, 3), {{Act.12.6}}, {{Rev.3.16}}; \n(b) <b>of compulsion, necessity or certainty</b>: with inf. praes., {{Mat.16.27}}, {{Luk.9.31}}, {{Jhn.6.71}}, {{Rom.4.24}}, al.; with inf. aor., {{Rom.8.18}}, {{Gal.3.23}}, {{Rev.3.2; 12.4}}. \n2. Ptcp., ὁ μέλλων: absol., {{Rom.8.38}}, {{1Co.3.22}}; τὰ μ., {{Col.2.17}} εἰς τὸ μ. (Field, <i>Notes</i>, 65); with subst., {{Mat.3.7; 12.32}} (ὁ αἰὼν ὁ μ.; LXX for עַד), {{Act.24.25}}, {{1Ti.4.8}}, {{Heb.2.5}}, al. \n(AS)"
+ },
+ {
+  "id": "G3199",
+  "original": "μέλω",
+  "translit": "melō",
+  "classe": "G:V",
+  "glosa": "to concern",
+  "def": "<b>μέλω </b>\n[in LXX: {{Job.22.3}} (חֵפֶץ), {{Tob.10.5}}, {{Wis.12.13}}, {{1Ma.14.42-43}} * ;] \n1. intrans., to be an object of care, be a care; commonly in third of person(s): with dative of person(s), {{Act.18.17}} very frequently impers., {{1Co.7.21}} before ὅτι, {{Mrk.4.38}}, {{Luk.10.40}}; with genitive of thing(s) (as frequently in Att..), {{1Co.9.9}} before περί, {{Mat.22.16}}, {{Mrk.12.14}}, {{Jhn.10.13; 12.6}}, {{1Pe.5.7}}. \n2. Trans., in act. and mid., to care for (not in LXX or NT).†\n(AS)"
+ },
+ {
+  "id": "G3303",
+  "original": "μέν",
+  "translit": "men",
+  "classe": "G:PRT",
+  "glosa": "on the other hand",
+  "def": "<b>μέν</b>, \n<i>conjunctive particle</i> (originally a form of μήν), usually related to a following δέ or other adversative conjunction, and distinguishing the word or clause with which it stands from that which follows. \nIt is generally untranslatable and is not nearly so frequent in NT as in cl. Like δέ, it never stands first in a clause. \n1. <b>Answered by δέ or some other particle</b>: μὲν . . . δέ, <b>indeed . . . but</b>, {{Mat.3.11}}, {{Luk.3.16}}, al.; with pronouns, ὃς μὲν . . . ὃς δέ, <b>one . . . another</b>, {{Mat.21.35}}, al.; pl., {{Php.1.16, 17}}; ὃ μὲν . . . ὃ δὲ . . . ὃ δέ, some . . . some . . . some, {{Mat.13.8}} τοῦτο μὲν . . . τοῦτο δέ, partly . . . partly, {{Heb.10.33}} μὲν . . . ἔπειτα, {{Jhn.11.6}} μὲν . . . καί, {{Luk.8.5.}} \n2. <b>μέν solitarium, answered by no other particle</b>: πρῶτον μέν (Bl., l.with), {{Rom.1.8; 3.2}}, {{1Co.11.18}}; μὲν οὖν in narrative, summing up what precedes or introducing something further (Bl., §78, 5), <b>so then, rather, nay rather</b>: {{Luk.11.28}} (WH, μενοῦν), {{Act.1.6; 9.31}}, al.; μὲν οὖν γε ({{Php.3.8}}, WH): see: μενοῦνγε.\n(AS)"
+ },
+ {
+  "id": "G3305",
+  "original": "μέντοι",
+  "translit": "mentoi",
+  "classe": "G:CONJ",
+  "glosa": "yet",
+  "def": "<b>μέν-τοι</b>\n= μέν τοι, \n<b>yet, however</b>: {{Jhn.4.27}}, al.; εἰ μ., {{Jas.2.8}} (if indeed). \n(AS)"
+ },
+ {
+  "id": "G3306",
+  "original": "μένω",
+  "translit": "menō",
+  "classe": "G:V",
+  "glosa": "to stay",
+  "def": "<b>μένω</b>, \n[in LXX for קוּם ,עמד, etc. ;] \n<b>to stay, abide, remain</b>. \n1. Intrans.; \n(i) <b>of place</b>: before ἐν, {{Luk.8.27}}, al.; παρά, with dative of person(s), {{Jhn.1.40}}, al; σύν, {{Luk.1.56}} καθ᾽ ἑαυτόν, {{Act.28.16}} with adv., ἐκεῖ, {{Mat.10.11}} ὧδε, {{Mat.26.38}} metaphorically, {{1Jn.2.18}} of the Holy Spirit, {{Jhn.1.32, 33; 14.17}}; of Christ, {{Jhn.6.56; 15.4}}, al.; ὁ θεός, {{1Jn.4.15}}, conversely, of Christians, {{Jhn.6.56; 15.4}}, {{1Jn.4.15}}, al.; ὁ λόγος τ. θεοῦ, {{1Jn.2.14}} ἡ ἀλήθεια, {{2Jn.2}}, al. \n(ii) <b>Of time</b>; \n(a) <b>of persons</b>: {{Php.1.25}} before εἰς τ. αἰῶνα, {{Jhn.12.34}}, {{Heb.7.24}}, {{1Jn.2.17}}; ὀλίγον, {{Rev.17.10}} ἕως ἔρχομαι, {{Jhn.21.22, 23}}; \n(b) <b>of things, lasting or enduring</b>: cities, {{Mat.11.23}}, {{Heb.13.14}}; λόγος θεοῦ, {{1Pe.1.23}} ἁμαρτία, {{Jhn.9.41.}} \n(iii) <b>Of condition</b>: with pred., μόνος, {{Jhn.12.24}} ἄγαμος, {{1Co.7.11}} πιστός, {{2Ti.2.13}} ἱερεύς, {{Heb.7.3}} with adv., οὕτως, {{1Co.7.40}} ὡς κἀγώ, ib. 8; before ἐν, ib. 20, 24. \n2. Trans. (Bl., §34, 1; Field, <i>Notes</i>, 132): with accusative of person(s), {{Act.20.5, 23}} (cf. ἀνα-, δια-, ἐν-, ἐπι-, κατα-, παρα-, συν-παρα-, περι-, προσ-, ὑπο-μένω). \n(AS)"
+ },
+ {
+  "id": "G3313",
+  "original": "μέρος",
+  "translit": "meros",
+  "classe": "G:N-N",
+  "glosa": "part",
+  "def": "<b>μέρος</b>, -ους, τό\n(μείρομαι), [in LXX chiefly for קָצֶה ;] \n1. <b>a part, share, portion</b>: {{Jhn.13.8}}, {{Act.19.27}} (Page, in l), {{Rev.20.6; 22.19}}; hence (cl.), lot, destiny, {{Mat.24.51}}, {{Luk.12.46}}, {{Rev.21.8}}. \n2. a part as opposite to the whole : {{Luk.11.36}}, {{Jhn.19.23}}, {{Act.5.2; 23.6}}, {{Eph.4.16}}, {{Rev.16.19}}; with genitive (of the whole), {{Luk.15.12; 24.42}}; τ. Φαρισαίων, {{Act.23.9}} pl., {{Jhn.21.6}} of the divisions of a province, {{Mat.2.22}}, {{Act.2.10; 19.1; 20.2}}; of the regions belonging to a city, {{Mat.15.21; 16.13}}, {{Mrk.8.10}}; with genitive appos., {{Eph.4.9}} in adverbial phrases, ἀνὰ (κατὰ) μέρος, {{1Co.14.27}}, {{Heb.9.5}}; μέρος τι, ἀπὸ μ., in part, {{Rom.11.25; 15.15, 24}}, {{1Co.11.18}}, {{2Co.1.14; 2.5}}; ἐκ μ., {{1Co.12.27; 13.9; 13.12}}; τὸ ἐκ μ., {{1Co.13.10}} \n3. A class or category (in cl. usually ἐν μ. τιθέναι, λαβεῖν, etc.) :ἐν μ., in respect of, {{Col.2.16}} ἐν τ. μ, τούτῳ, in this respect, {{2Co.3.10; 9.3}}.†\n(AS)"
+ },
+ {
+  "id": "G3319",
+  "original": "μέσος",
+  "translit": "mesos",
+  "classe": "G:A",
+  "glosa": "midst",
+  "def": "<b>μέσος</b>, -η, -ον \n[in LXX chiefly for תָּוֶךְ ;] \n<b>middle, in the middle or midst</b>; \n1. prop., as an adj.: {{Luk.23.45}}, {{Jhn.19.18}}, {{Act.1.18}}; with genitive pl., {{Luk.22.55}}, {{Jhn.1.26}}; genitive temp. (Bl., § 36, 13), μέσης νυκτός, {{Mat.25.6}} μ. ἡμέρας, {{Act.26.13.}} \n2. In adverbial phrases, neut., μέσον, τὸ μ., as subst.: ἀνὰ μέσον, with genitive, between (cl.; in LXX: {{Gen.1.4}}, al.), elliptically (but see M, <i>Pr.</i>, 99), {{1Co.6.5}} = ἐν μ., among, in the midst of (El., § 39, 2; 40, 8; cf. in LXX: {{Jos.19.1}}, {{Sir.27.2}}), {{Mat.13.25}}, {{Mrk.7.31}}, {{Rev.7.17}}; διὰ μέσου, with genitive, {{Luk.4.30}} διὰ μέσον (Rec. -ου, see 81., § 42, 1), between, {{Luk.17.11}} (<i>ICC</i>, in l); εἰς τὸ μ. (see: εἰς), {{Mrk.3.3}}, {{Luk.4.35; 5.19; 6.8}}, {{Jhn.20.19, 26}}; εἰς μ., {{Mrk.14.60}} ἐν τῷ μ., {{Mat.14.6}} ἐν μ., {{Jos.8.3}}, 9, {{Act.4.7}}; with, genitive loc., {{Mrk.6.47}}, {{Luk.21.21; 22.55}}, {{Act.17.22}}, {{Heb.2.12}}\" (LXX), {{Rev.4.6; 5.6; 22.2}}. with genitive pl., {{Mat.10.16; 18.2, 20}}, {{Mrk.9.36}}, {{Luk.2.46; 8.7; 10.3; 22.27; 24.36}}, {{Act.1.15; 2.22; 27.21}}, {{1Th.2.7}}, {{Rev.1.13; 2.1; 5.6; 6.6}}; κατὰ μέσον τ. νυκτός, {{Act.27.27}} (Bl., § 47, 6); ἐκ τοῦ μ. (Lft., in l; Deiss., BS, 252 f.), {{Col.2.14}} ἐκ μ.., {{2Th.2.7}} ἐκ τοῦ μ., with genitive, {{Mat.13.49}}, {{Act.17.33; 23.10}}, {{1Co.5.2}}, {{2Co.6.17}}. \n3. Neut., μέσον, adverbially, with genitive, in the midst of, {{Mat.14.24}} (WH, txt., R, mg., aliter), {{Php.2.15}} (διὰ μέσου­see supr.-also {{Jhn.8.50}}, R, mg.).†\n(AS)"
+ },
+ {
+  "id": "G3322",
+  "original": "μεσόω",
+  "translit": "mesoō",
+  "classe": "G:V",
+  "glosa": "be in the middle",
+  "def": "<b>μεσόω</b>, -ῶ\n(μέσός), [in LXX: μεσούσης τ. νυκός, {{Exo.12.29}} (חֵצִי), etc. ;] \nto be in the middle, esp. of time: τ. ἑορτῆς μεσούσης, in the middle of the feast, {{Jhn.7.14.}}†\n(AS)"
+ },
+ {
+  "id": "G3323",
+  "original": "Μεσσίας",
+  "translit": "Messias",
+  "classe": "N:N--T",
+  "glosa": "Messiah",
+  "def": "<b>Μεσσίας</b>, -ου, ὁ (Aram. מְשִׁיחָא = <i>Heb.</i> מָשִׁיחַ = Χριστός, which see), \n<b>Messiah</b>: {{Jhn.1.42; 4.22}}.†\n(AS)"
+ },
+ {
+  "id": "G3324",
+  "original": "μεστός",
+  "translit": "mestos",
+  "classe": "G:A",
+  "glosa": "full",
+  "def": "<b>μεστός</b>, -ή, -όν \n[in LXX: {{Nam.1.10}}, {{Ezk.37.1}} (מָלֵא), {{Est.5.2}}, {{Pro.6.34}} * ;] \n<b>full</b>: with genitive of thing(s), {{Jhn.19.29; 21.11}}, {{Jas.3.8}}; metaphorically, of thoughts and feelings, {{Mat.23.28}}, {{Rom.1.29; 15.14}}, {{2Pe.2.14}}, {{Jas.3.17}} (cf. Pr, l.with).†\n(AS)"
+ },
+ {
+  "id": "G3326",
+  "original": "μετά",
+  "translit": "meta",
+  "classe": "G:PREP",
+  "glosa": "with/after",
+  "def": "<b>μετά</b> (before vowel μετ᾽; on the neglect of elision in certain cases, V. WH, <i>App.</i>, 146 b), \n<i>prep.</i> with genitive, accusative (in poet, also with dative), [in LXX for אַחַד ,עִם ,אֵת, etc.]. \nI. C. genitive, \n1. <b>among, amid</b>: {{Mrk.1.13}}, {{Luk.22.37}} (LXX, ἐν) 24:5, {{Jhn.18.5}}, al.; διωγμῶν, {{Mrk.10.30.}} \n2. <b>Of association and companionship, with </b>(in which sense it gradually superseded σύν, than which it is much more frequently in NT; cf. Bl., §42, 3): with genitive of person(s), {{Mat.8.11; 20.20}} {{Mrk.1.29; 3.7}} {{Luk.5.30}}, {{Jhn.3.22}}, {{Gal.2.1}}, al. mult.; εἶναι μετά, {{Mat.5.25}}, {{Mrk.3.14}}, al.; metaphorically, of divine help and guidance, {{Jhn.3.2}}, {{Act.7.9}}, {{Php.4.9}}, al.; opposite to εἶναι κατά, {{Mat.12.30}}, {{Luk.11.23}}; in Hellenistic usage (but see M, <i>Pr.</i>, 106, 246f.), πολεμεῖν μετά = cl. π., with dative, <b>to wage war against</b> (so LXX for נִלְחַם עִם, {{1Ki.17.33}}), {{Rev.2.16}}, al.; with genitive of thing(s), χαρᾶς, {{Mat.13.20}}, {{Mrk.4.16}}, al.; ὀργῆς, {{Mrk.3.5}}, al. \nII. C. accusative, \n1. of place, <b>behind, after</b>: {{Heb.9.3.}} \n2. Of time, <b>after</b>: {{Mat.17.1}}, {{Mrk.14.1}}, {{Luk.1.24}}, {{Act.1.5}}, {{Gal.1.18}}, al.; μετὰ τοῦτο, {{Jhn.2.12}}, al.; ταῦτα, Mrk.16:[12], {{Luk.5.27}}, {{Jhn.3.22}}, al; with inf. artic. (BL, §71, 5; 72, 3), {{Mat.26.32}}, {{Mrk.1.14}}, al.\nIII. In composition, \n1. <b>of association or community</b>: μεταδίδωμι, μετέχω, etc. \n2. <b>Exchange or transference</b>: μεταλλάσσω, μετοικίζω, etc. \n3. <b>after</b>: μεταμέλομαι.\n(AS)"
+ },
+ {
+  "id": "G3327",
+  "original": "μεταβαίνω",
+  "translit": "metabainō",
+  "classe": "G:V",
+  "glosa": "to depart",
+  "def": "<b>μετα-βαίνω </b>\n[in LXX: {{Wis.7.27; 19.19}}, {{2Ma.6.1}} {{2Mac.6.9}} {{2Mac.6.24}} * ;] \n<b>to pass over from one place to another </b>: {{Mat.17.20}}, {{Luk.10.7}}; with reference to the point of departure only, <b>to withdraw, depart</b>: {{Mat.8.34; 11.1; 12.9; 15.29}}, {{Jhn.7.3}}, {{Act.18.7}}; of removal from this life, ἐκ τ. κότμου πρὸς τ. Πατέρα, {{Jhn.13.1}} metaphorically, ἐκ τ. θανάτου εἰς τ. ζωήν, {{Jhn.5.24}}, {{1Jn.3.14}}.†\n(AS)"
+ },
+ {
+  "id": "G3342",
+  "original": "μεταξύ",
+  "translit": "metaxu",
+  "classe": "G:PREP",
+  "glosa": "between/meanwhile",
+  "def": "<b>μεταξύ</b>\n(μετά + ξύν = σύν), [in LXX: {{Gen.31.50}}, {{Jdg.5.27}}, {{3Ki.15.6}}; {{1Ki.15.32}}, {{Wis.4.10; 16.19; 18.23}} * ;] \n1. adv. of place and time (in NT time only); \n(a) <b>between</b>: ἐν τῷ μ. (s.with χρόνῳ), {{Jhn.4.31}} \n(b) in late writers (FlJ, Plut., al.), like μετά (adv.), <b>after, afterwards</b>: τὸ μ. σάββατον, {{Act.13.42}} (cf. Cl., Ro., I Co., 44, 2). \n2. Prep. with genitive, <b>between</b>: of place, {{Mat.23.35}}, {{Luk.11.51; 16.26}}, {{Act.12.6}}; of persons, as to mutual relation, {{Mat.18.15}}, {{Act.15.9}}, {{Rom.2.1-29; 15.1-33}}.†\n(AS)"
+ },
+ {
+  "id": "G3355",
+  "original": "μετρητής",
+  "translit": "metrētēs",
+  "classe": "G:N-M",
+  "glosa": "measure",
+  "def": "<b>μετρητής</b>, -οῦ, ὁ\n(μετρέω), [in LXX: {{1Ki.18.32}} (סְאָה), {{2Ch.4.5}}, (בַּת), etc. ;] \n1. a measurer (Plat.). \n2. = ἀμφορεύς, an Attic measure, = 11⁄2 Roman amphoræ or about 9 Eng. gallons: {{Jhn.2.6.}}†\n(AS)"
+ },
+ {
+  "id": "G3358",
+  "original": "μέτρον",
+  "translit": "metron",
+  "classe": "G:N-N",
+  "glosa": "measure",
+  "def": "<b>μέτρον</b>, -ου, τό \n[in LXX chiefly for מִדָּה, also for אֵיפָה, etc. ;] \n1. <b>that which is used for measuring, a measure</b>; \n(a) <b>a vessel</b>: fig., {{Mat.23.32}}, {{Luk.6.38}}; ἐκ μ., by measure, {{Jhn.3.34}} \n(b) <b>a rod or rule</b>: {{Rev.21.15, 17}}; figuratively, {{Mat.7.2}}, {{Mrk.4.24}}. \n2. <b>That which is measured, measure</b>: with genitive of thing(s), {{Rom.12.3}}, {{2Co.10.13}}, {{Eph.4.7, 13; 4.16}}.†\n(AS)"
+ },
+ {
+  "id": "G3361",
+  "original": "μή",
+  "translit": "mē",
+  "classe": "G:PRT-N",
+  "glosa": "not",
+  "def": "<b>μή</b>, \n<i>subjective negative particle</i>, \nused where the negation depends on a condition or hypothesis, expressed or understood, as distinct from οὐ, which denies absolutely. μή is used where one <i>thinks</i> a thing is not, as distinct from an absolute negation. As a general rule, οὐ negatives the indic, μή the other moods, incl, ptcp. [In LXX for אֵין ,אַיִן ,אַל ] \nI. As a neg. adv., <b>not</b>; \n1. with ref. to thought or opinion: {{Jhn.3.18}}, {{Tit.1.11}}, {{2Pe.1.9}}. \n2. In delib. questions, with subjc. (M, <i>Pr.</i>, 185): {{Mrk.12.14}}, {{Rom.3.8}}. \n3. <b>In conditional and final sentences, after εἰ, ἐάν, ἄν, ἵνα, ὅπως</b>: {{Mat.10.14}}, {{Mrk.6.11; 12.19}}, {{Luk.9.5}}, {{Jhn.6.50}}, {{Rom.11.25}}, al. \n4. C. inf. (see M, <i>Pr.</i>, 234f., 239, 255), \n(a) after verbs of saying, etc.: {{Mat.2.12; 5.34}}, {{Mrk.12.18}}, {{Act.15.38}}, {{Rom.2.21}}, al.; \n(b) with artic. inf.: after a prep., {{Mat.13.5}}, {{Mrk.4.5}}, {{Act.7.19}}, {{1Co.10.6}}, al.; without a prep., {{Rom.14.13}}, {{2Co.2.1, 13}} {{1Th.4.6}}; \n(with) <b>in sentences expressing consequence, after ὥστε</b>: {{Mat.8.28}}, {{Mrk.3.20}}, {{1Co.1.7}}, {{2Co.3.7}}, al. \n5. C. ptcp. (see M, <i>Pr.</i>, 231f., 239), in hypothetical references to persons of a certain character or description: {{Mat.10.28; 12.30}}, {{Luk.6.49}}, {{Jhn.3.18}}, {{Rom.4.5}}, {{1Co.7.38}}, {{1Jn.3.10}}, al.; where the person or thing being definite, the denial is a matter of opinion: {{Jhn.6.64}}, {{1Co.1.28; 4.7, 18}}, {{2Co.5.21}}, al.; where the ptcp. has a concessive, causal or conditional force, <b>if, though, because not</b>: {{Mat.18.25}}, {{Luk.2.45}}, {{Jhn.7.49}}, {{Act.9.26}}, {{Rom.2.14; 5.13}}, {{2Co.3.14}}, {{Gal.6.9}}, {{Jude.5}}; where the ptcp. has a descriptive force (<i>being such as</i>), <b>not</b>: {{Act.9.9}}, {{Rom.1.28}}, {{1Co.10.33}}, {{Gal.4.8}}, {{Heb.12.27}}, al. \n6. μή prohibitive, in indep. sentences, \n(a) with subjc. praes., 1 of person(s) pl.: {{Gal.5.26; 6.9}}, {{1Th.5.6}}, {{1Jn.3.18}}; \n(b) with imperat. praes., <b>usually where one is bidden to desist from what has already begun </b>(cf. M, <i>Pr.</i>, 122ff.): {{Mat.7.1}}, {{Mrk.5.36}}, {{Luk.6.30}}, {{Jhn.2.16; 5.45}}, {{Act.10.15}}, {{Rom.11.18}}, {{Jas.2.1}}, {{Rev.5.5}}, al.; \n(with) <b>forbidding that which is still future</b>: with imperat. aor., 3 of person(s), {{Mat.24.18}}, {{Mrk.13.15}}, {{Luk.17.31}}, al.; with subjc. aor., 2 of person(s), {{Mat.3.9; 10.26}}, {{Mrk.5.7}}, {{Luk.6.29}}, {{Jhn.3.7}}, {{Rom.10.6}}, al.; \n(d) with optative, <b>in wishes</b>: {{2Ti.4.16}} (LXX); μὴ γένοιτο (see M, <i>Pr.</i>, 194; Bl., §66, 1), {{Luk.20.16}}, {{Rom.3.3}}, al.; μή τις, {{Mrk.13.5}}, al.\nII. As a conj., \n1. after verbs of fearing, caution, etc., <b>that, lest, perhaps</b> (M, <i>Pr.</i>, 192f.): with subjc. praes., {{Heb.12.15}} with subjc. aor., {{Mat.24.4}}, {{Mrk.13.5}}, {{Luk.21.8}}, {{Act.13.40}}, {{Gal.5.15}}, al.; ὅρα μή (see M, <i>Pr.</i>, 124, 178), elliptically, {{Rev.19.10; 22.9}}; with indic, fut. (M, <i>Pr.</i>, l.with), {{Col.2.8.}} \n2. <b>in order that not</b>: with subjc. aor., {{Mrk.13.36}}, {{2Co.8.20; 12.6}}. \nIII. Interrogative, in hesitant questions (M, <i>Pr.</i>, 170), or <b>where a negative answer is expected</b>: {{Mat.7.9, 10}}, {{Mrk.2.19}}, {{Jhn.3.4}}, {{Rom.3.3; 10.18, 19}}, {{1Co.1.13}}, al.; μή τις, {{Luk.22.35}}, al.; before οὐ ({{Rom.10.17}}, al. in Pl.), expecting an affirm, ans.; οὐ μή, {{Luk.18.7}}, {{Jhn.18.11}}.\nIV. οὐ μή as emphatic negation (cf. M, <i>Pr.</i>, 188, 190ff.; Bl. §64, 5), <b>not at all, by no means</b>: with indic, fut., {{Mat.16.22}}, {{Jhn.6.35}}, {{Heb.10.17}}, al.; with subjc. aor., {{Mat.24.2}}, {{Mrk.13.2}}, {{Luk.6.37}}, {{Jhn.13.8}}, {{1Co.8.13}}, al.\n(AS)"
+ },
+ {
+  "id": "G3366",
+  "original": "μηδέ",
+  "translit": "mēde",
+  "classe": "G:PRT-N+G:CONJ",
+  "glosa": "nor",
+  "def": "<b>μηδέ </b>\nnegative particle, related to οὐδέ as μή to οὐ, \n1. as conic., <b>continuing a negation or prohibition, but not, and not, nor</b>: preceded by μή, {{Mat.6.25; 22.29}}, {{Mrk.12.24}}, {{Luk.14.12}}, al.; ἵνα μή, {{Jhn.4.15}} ὅπως μή, {{Luk.16.26}} μηδέ . . . μηδέ, neither . . . nor, {{Mat.10.10}}, {{1Co.10.8-9}}. \n2. As adv., <b>strengthening a negation, not even</b>: {{Mrk.2.2}}, {{1Co.5.11}}, al \n(AS)"
+ },
+ {
+  "id": "G3367",
+  "original": "μηδείς",
+  "translit": "mēdeis",
+  "classe": "G:A",
+  "glosa": "nothing",
+  "def": "<b>μηδείς</b>, -δεμία, -δέν\n(and -θέν, {{Act.27.33}}, a Hellenistic form; see Bl., 6, 7; Thackeray, <i>Gr.</i>, 58) \nrelated to οὐδείς as μή to οὐ, \n<b>no, none, no one</b>; neut., <b>nothing</b>: {{Mat.16.20}}, {{Mrk.5.43; 6.8}}, {{Luk.3.14}}, {{Act.8.24}}, {{Rom.13.8}}, al.; with genitive, {{Act.4.17; 24.23}}; neut. accusative, μηδέν, adverbially, in no respect, {{Act.10.20; 11.12}}; as accusative obj. after verb, βλάπτειν, {{Luk.4.35}} ὠφελεῖσθαι, {{Mrk.5.26}} ὑστερεῖν, {{2Co.11.5}} μεριμνᾶν, {{Php.4.6}} in double negation, strengthening the denial, μηκέτι μ., {{Mrk.11.14}}, {{Act.4.17}}; μὴ . . . μηδέν (μηδένα, μηδεμίαν), {{2Co.13.7}}, {{2Th.2.3}}, {{1Pe.3.6}} \nμηθείς, see. μηδείς \n(AS)"
+ },
+ {
+  "id": "G3371",
+  "original": "μηκέτι",
+  "translit": "mēketi",
+  "classe": "G:ADV-N",
+  "glosa": "never again",
+  "def": "<b>μηκέτι</b>\n(μή, ἔτι) \n<i>adv.</i>, \n<b>no more, no longer</b>: with 2 aor. subjc., {{Mrk.9.25}} οὐ μ., {{Mat.21.19}} with praes. subjc., {{Rom.14.13}} with praes. imperat., {{Luk.8.49}}, {{Jhn.5.14; 8.11}} {{Eph.4.28}}, {{1Ti.5.23}}; with optative, {{Mrk.11.14}} ἵνα μ., {{2Co.5.15}}, {{Eph.4.14}}; with inf., {{Mrk.1.45; 2.2}}, {{Act.4.17; 25.24}}, {{Rom.6.6}}, {{Eph.4.17}}, {{1Pe.4.2}}; with ptcp., {{Act.13.34}}, {{Rom.15.23}}, {{1Th.3.1; 3.5}}.†\n(AS)"
+ },
+ {
+  "id": "G3377",
+  "original": "μηνύω",
+  "translit": "mēnuō",
+  "classe": "G:V",
+  "glosa": "to disclose",
+  "def": "<b>μηνύω </b>\n[in LXX: {{2Ma.3.7}} {{2Mac.6.11}} {{2Mac.14.37}}, {{3Ma.3.28}}, {{4Ma.4.3}} * ;] \n<b>to disclose, declare, make known</b>: {{Luk.20.37}}, {{1Co.10.28}}; in forensic sense, <b>to inform, report</b>: {{Jhn.11.57}} pass., with dative of person(s), {{Act.23.30.}}†\n(AS)"
+ },
+ {
+  "id": "G3384",
+  "original": "μήτηρ",
+  "translit": "mētēr",
+  "classe": "G:N-F",
+  "glosa": "mother",
+  "def": "<b>μήτηρ </b>\ngenitive, \nμητρός, ἡ, \n[in LXX chiefly for אֵם ;] \n<b>mother</b>: {{Mat.1.18; 2.11}}, al.; figuratively, of one who takes the place of a mother, ἰδοὺ, ἡ μ. μου, {{Mat.12.49}} (cf. {{Mat.12.50}}, {{Mrk.3.35}}, {{Jhn.19.27}}, {{Rom.16.13}}, {{1Ti.5.2}}); of a city, ἥτις ἐσὶν μ. ἡμῶν, {{Gal.4.26}} symbolically of Babylon, ἡ μ. τ. πορνῶν, {{Rev.17.5}} \n(AS)"
+ },
+ {
+  "id": "G3385",
+  "original": "μήτι",
+  "translit": "mēti",
+  "classe": "G:PRT-N+G:CONJ",
+  "glosa": "surely not",
+  "def": "<b>μή-τι </b>\ninterrog. particle, <b>expecting a negative answer</b>: {{Mat.7.16; 26.22, 25}}, {{Mrk.4.21; 14.19}}, {{Luk.6.39}}, {{Jhn.8.22; 18.35}}, {{Act.10.47}}, {{2Co.12.18}}, {{Jas.3.11}}; in hesitant questions (see M, <i>Pr.</i>, 170.), μ οὗτός ἐστιν, \ncan this be, {{Mat.12.23}}, {{Jhn.4.29}}; μ. ἄρα, {{2Co.1.17}} On εἰ μήτι ({{Luk.9.13}}, cf. Bl., § 65, 6), see: εἰ.†\n<b>εἰ</b>, \n<i>conjunctive particle</i>, used in conditions and in indirect questions. \nI. Conditional, <b>if</b>; \n1. with indic, expressing a general assumption; \n(a) pres.: before indic, pres., {{Mat.11.14}}, {{Rom.8.25}}, al.; before imperat., {{Mrk.4.23; 9.22}}, {{Jhn.15.18}}, {{1Co.7.9}}, al.; before fut. indic., {{Luk.16.31}}, {{Rom.8.11}}, al.; before pf. or aor., with negation in apodosis, {{Mat.12.26}}, {{Rom.4.14}}, al.; similarly, before impf., {{Luk.17.6}}, {{Jhn.8.39}}; before quæst., {{Mat.6.23}}, {{Jhn.5.47; 7.23; 8.46}}, {{1Pe.2.20}}; \n(b) fut.: {{Mat.26.33}}, {{1Pe.2.20}}; \n(with) pf.: {{Jhn.11.12}}, {{Rom.6.5}}, al.; \n(d) aor.: {{Luk.16.11; 19.8}}, {{Jhn.13.32; 18.23}}, {{Rev.20.15}}, al. \n2. <b>Where the assumption is certain = ἐπεί</b>: {{Mat.12.28}}, {{Jhn.7.4}}, {{Rom.5.17}}, al. \n3. Of an unfulfilled condition, with indic, impf., aor. or plpf., before ἄν, with imp. or aor. (see: ἄν, I, i). \n4. C. indic., after verbs denoting wonder, etc., sometimes, but not always, coupled with an element of doubt: {{Mrk.15.44}}, {{1Jn.3.13}}, al. \n5. C. indic., as in LXX ({{Num.14.3}}o, {{1Sa.14.45}}, al. = Heb. אִם), in oaths, with the formula of imprecation understood in a suppressed apodosis (WM, 627; Burton, §272): {{Mrk.8.12}}, {{Heb.3.11}}\" (LXX) 4:3 (LXX). \n6. Rarely (cl.) with optative, <b>to express a merely possible condition</b>: {{Act.24.19; 27.39}}, {{1Co.14.10; 15.37}}, I Pe3:14, 17. \nII. Interrogative, <b>if, whether</b>. \n1. As in cl., in indir. questions after verbs of seeing, asking, knowing, saying, etc.: with indic. pres., {{Mat.26.63}}, {{Mrk.15.36}}, {{Act.19.2}}, {{2Co.13.5}}, al.; fut., {{Mrk.3.2}}, {{Act.8.22}}, al.; aor., {{Mrk.15.44}}, {{1Co.1.16}}, al.; with subjc. aor. (M, <i>Pr.</i>, 194), {{Php.3.12.}} \n2. As in LXX (= Heb. אִם and interrog. הֲ, {{Gen.17.17}}, al.; see WM, 639f.; Viteau, i, 22), <b>in direct questions</b>: {{Mrk.8.23}} (Tr., WH, txt.), {{Luk.13.23; 22.49}}, {{Act.19.2}}, al.\nIII. With other particles. \n1. εἰ ἄρα, εἴγε, εἰ δὲ μήγε, see: ἄρα, γε. \n2. εἰ δὲ καί, <b>but if also</b>: {{Luk.11.18}} <b>but even if</b>, {{1Co.4.7}}, {{2Co.4.3; 11.16}}. \n3. εἰ δὲ μή, <b>but if not, but if otherwise</b>: {{Mrk.2.21, 22}} {{Jhn.14.2}}, {{Rev.2.5}}, al. \n4. εἰ καί, <b>if even, if also, although</b>: {{Mrk.14.29}}, {{Luk.11.8}}, {{1Co.7.21}}, {{2Co.4.16}}, {{Php.2.17}}, al. \n5. καὶ εἰ, <b>even if</b>, see: καί \n6. εἰ μή, <b>if not, unless, except, but only</b>: {{Mat.24.22}}, {{Mrk.2.26; 6.5}}, {{Jhn.9.33}}, {{1Co.7.17}} (<b>only</b>), {{Gal.1.19}} (cf. ἐὰν μή, 2:16; see Hort., <i>Ja.</i>, xvi); ἐκτὸς εἰ μή, pleonastic (Bl., §65, 6), {{1Co.14.5; 15.2}}, {{1Ti.5.19}}. \n7. εἰ μήν = cl. ἦ μήν (M, <i>Pr.</i>, 46), in oaths, <b>surely</b> ({{Ezk.33.27}}, al.): {{Heb.6.14}}. \n8. εἴ πως, <b>if haply</b>: {{Act.27.12}}, {{Rom.1.10}}. \n9. εἴτε . . . εἴτε, <b>whether . . . or</b>; {{Rom.12.6-8}}, {{1Co.3.22; 13.8}}, al. \n(AS)"
+ },
+ {
+  "id": "G3392",
+  "original": "μιαίνω",
+  "translit": "miainō",
+  "classe": "G:V",
+  "glosa": "to stain",
+  "def": "<b>μιαίνω </b>\n[in LXX chiefly for טָמֵא ;] \n1. to dye or stain. \n2. <b>to stain, defile, soil</b>; \n(a) <b>in physical sense</b>; \n(b) <b>in moral sense </b>: {{Tit.1.15}}, {{Heb.12.15}}, {{Jude.8}}; \n(with) in ritual sense (cf. {{Lev.22.5}}, al.): {{Jhn.18.28}}.†\n<i>SYN.</i>: μολύνω, to besmear, which also differs from μ. in that it is never used, as μ. in its primary meaning, in an honourable sense (cf. Tr., <i>Syn.</i>, § xxxi) (AS)"
+ },
+ {
+  "id": "G3395",
+  "original": "μίγμα",
+  "translit": "migma",
+  "classe": "G:N-N",
+  "glosa": "mixture",
+  "def": "<b>μίγμα</b> (LT, cl., μῖγμα; on the orthogr., see B1., § 3, 5), -τος, τό \n(μίγνυμι), [in LXX: {{Sir.38.8}} * ;] \n<b>a mixture</b>: {{Jhn.19.39}} (ἕλιγμα, WH, R, mg.).†\n(AS)"
+ },
+ {
+  "id": "G3398",
+  "original": "μικρός",
+  "translit": "mikros",
+  "classe": "G:A",
+  "glosa": "small",
+  "def": "<b>μικρός</b>, -ά, -όν \n[in LXX chiefly for קָטָן, מָעַט ;] \n<b>small, little</b>; \n1. <b>of persons</b>; \n(a) lit., of stature: {{Mrk.15.40}} (MM, iii, xvi; on the view that age is meant, see Deiss., BS, 144), {{Luk.19.3}} οἱ μ., the little ones, {{Mat.18.6, 10; 18.14}}, {{Mrk.9.42}}; \n(b) hence metaphorically, of rank or influence (cf. Dalman, <i>Words</i>, 113 f.) : {{Mat.10.42}}, {{Luk.17.2}}, {{Act.8.10; 26.22}}, {{Heb.8.11}}\" (LXX), {{Rev.11.18; 13.16; 19.5, 18; 20.12}}; compar., -ότερος, {{Mat.11.11}}, {{Luk.7.28; 9.48}}. \n2. <b>Of things</b>; \n(a) <b>of size </b>: {{Mat.13.32}} {{Mrk.4.31}}, {{Jas.3.5}}; \n(b) <b>of quantity</b>: {{Luk.12.32}}, {{1Co.5.6}}, {{Gal.5.9}}, {{Rev.3.8}}; \n(with) <b>of time </b>: {{Jhn.7.33; 12.35}}, {{Rev.6.11; 20.3}}. \n3. Neut., μικρόν, used adverbially; \n(a) <b>of distance</b>: {{Mat.26.39}}, {{Mrk.14.35}}; \n(b) <b>of quantity</b>: {{2Co.11.1; 11.16}}; \n(with) <b>of time </b>: {{Jhn.13.33; 14.19; 16.16-19}}, {{Heb.10.37}}; μετὰ μ., {{Mat.26.73}}, {{Mrk.14.70}}.†\n(AS)"
+ }
+]
