@@ -353,3 +353,4 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 .ico-ferr i { bottom: 26px; }
 .paleta-ferr { align-items: flex-start; }
 .paleta-mini .ico-ferr i { display: none; }
+.destaque-passos b { flex: none; }

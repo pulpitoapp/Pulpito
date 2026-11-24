@@ -97,17 +97,23 @@ export function Inicio() {
         <p className="ajuda">{versaoPorId(versao).credito}</p>
       </section>
 
-      <a href="#/planos" className="banner-planos" aria-label="Planos de leitura">
-        <p className="rot m-0">Planos de leitura</p>
+      <a href="#/planos" className="destaque-vidro block no-underline" aria-label="Planos de leitura">
+        <p className="rot m-0 !text-ouro">Planos de leitura</p>
         {plano ? (
           <>
-            <h2 className="tit mt-1">{plano.nome}</h2>
-            <p className="m-0 mt-1 text-[15px]">{plano.feitos.length} {plano.feitos.length === 1 ? 'dia feito' : 'dias feitos'} · continuar a leitura de hoje →</p>
+            <h2 className="destaque-tit">{plano.nome}</h2>
+            <p className="m-0 mt-2 text-[15px] text-[#f6e9ec]">{plano.feitos.length} {plano.feitos.length === 1 ? 'leitura feita' : 'leituras feitas'}</p>
+            <span className="destaque-btn">Continuar a leitura de hoje <span aria-hidden="true">→</span></span>
           </>
         ) : (
           <>
-            <h2 className="tit mt-1">Leia a Bíblia com um plano</h2>
-            <p className="m-0 mt-1 text-[15px]">Em ordem cronológica, os Evangelhos em harmonia, só o Antigo Testamento ou um plano montado para você em 5 minutos →</p>
+            <h2 className="destaque-tit">Leia a Bíblia com um plano</h2>
+            <ol className="destaque-passos">
+              <li><b>✓</b>Em ordem cronológica</li>
+              <li><b>✓</b>Os Evangelhos em harmonia</li>
+              <li><b>✓</b>Um plano montado para você em 5 minutos</li>
+            </ol>
+            <span className="destaque-btn">Escolher um plano <span aria-hidden="true">→</span></span>
           </>
         )}
       </a>
