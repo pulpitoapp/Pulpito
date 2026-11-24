@@ -177,3 +177,54 @@ export function PainelOriginal({ l, c, v, textoPt, fechar }: { l: number; c: num
     </Painel>
   );
 }
+
+/** O sentido de cada palavra, na ordem em que está escrita no original. */
+export function OrdemOriginal({ l, palavras }: { l: number; palavras: Palavra[] }) {
+  const frase = palavras.map((p) => p[2]).join(' ')
+    .replace(/\(obj\.\)/g, '').replace(/[⟨⟩]/g, '')
+    .replace(/\s+([,.;:!?])/g, '$1').replace(/\s{2,}/g, ' ').trim();
+  if (!frase) return null;
+  return (
+    <p className="ordem-original">
+      <span className="rot">Na ordem do {hebraico(l) ? 'hebraico' : 'grego'}</span>
+      {frase}
+    </p>
+  );
+}
+
+// ---------- comentário por versículo (prévia: João 1:1) ----------
+type Secao = { titulo: string; grego: string; texto: string };
+type Comentario = { autor: string; obra: string; ano: number; secoes: Secao[] };
+const COMENTARIOS = new Set(['42.0']);                 // capítulos que já têm comentário
+export const temComentario = (l: number, c: number) => COMENTARIOS.has(`${l}.${c}`);
+
+export function useComentarioCapitulo(l: number, c: number, ativo: boolean): Record<string, Comentario> | null {
+  const [estado, setEstado] = useState<{ k: string; d: Record<string, Comentario> | null }>({ k: '', d: null });
+  const k = `${l}.${c}`;
+  useEffect(() => {
+    if (!ativo || !temComentario(l, c)) return;
+    let vivo = true;
+    fetch(`${BASE}/dados/comentario/${l}/${c + 1}.json`).then((r) => (r.ok ? r.json() : null)).then((d) => { if (vivo) setEstado({ k, d }); }).catch(() => {});
+    return () => { vivo = false; };
+  }, [l, c, k, ativo]);
+  return estado.k === k ? estado.d : null;
+}
+
+export function PainelComentario({ l, c, v, com, fechar }: { l: number; c: number; v: number; com: Comentario; fechar: () => void }) {
+  return (
+    <Painel titulo={`${LIVROS[l]} ${c + 1}:${v}`} sub={`Comentário · ${com.autor}`} fechar={fechar}>
+      <p className="ajuda !mt-0">{com.autor}, <i>{com.obra}</i> ({com.ano}). Toque num tópico para abrir.</p>
+      {com.secoes.map((s, i) => (
+        <details key={i} className="cartao mt-3 !p-4" open={i === 0}>
+          <summary className="cursor-pointer text-[17px] font-bold">
+            {s.titulo}{s.grego ? <span className="inter-gre !text-[17px] font-normal"> · {s.grego}</span> : null}
+          </summary>
+          <div className="mt-2 space-y-3">
+            {s.texto.split(/\n\n+/).map((par, j) => <TextoVerbete key={j} def={par} fechar={fechar} />)}
+          </div>
+        </details>
+      ))}
+      <p className="ajuda mt-4">É a explicação do autor, não do app. Texto de {com.ano}, em domínio público. Tradução para o português feita para o Púlpito, sem revisão de especialista.</p>
+    </Painel>
+  );
+}

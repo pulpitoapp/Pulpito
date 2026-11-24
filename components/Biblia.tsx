@@ -11,7 +11,7 @@ import { Carregando } from './Cabecalho';
 import { ir, useApp } from './contexto';
 import { IcoApostila, IcoAvancar, IcoBusca, IcoEnviar, IcoLapis, IcoMarca, IcoMensagemAdd, IcoMenu, IcoOriginal, IcoRefs, IcoVoltar } from './Icones';
 import { Painel, PainelEstudos, PainelNota, PainelRefs, PainelUsar } from './Paineis';
-import { PainelOriginal, PainelVerbete, PalavrasDoVerso, temInterlinear, useCapituloInterlinear } from './Interlinear';
+import { OrdemOriginal, PainelComentario, PainelOriginal, PainelVerbete, PalavrasDoVerso, temInterlinear, useCapituloInterlinear, useComentarioCapitulo } from './Interlinear';
 
 type Achado = { l: number; c: number; v: number };
 type Aberto = null | 'menu' | 'busca' | 'nota' | 'refs' | 'estudos' | 'usar' | 'cartao' | 'cores' | 'original';
@@ -38,6 +38,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   const [translit, setTranslit] = useState<boolean>(() => pref.ler('biblia-translit', true));
   const [porPalavra, setPorPalavra] = useState<boolean>(() => pref.ler('biblia-inter', false));
   const [palavra, setPalavra] = useState<[string, string, string, string] | null>(null);
+  const [comentarioV, setComentarioV] = useState<number | null>(null);
   const [tam, setTam] = useState<number>(() => pref.ler('biblia-tam', 19));
   const [pos, setPos] = useState<{ l: number; c: number }>(() => pref.ler('biblia-pos', { l: 42, c: 0 }));
   const [sel, setSel] = useState<Set<number>>(new Set());
@@ -79,6 +80,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   }, [cap, pos]);
 
   const inter = useCapituloInterlinear(pos.l, pos.c, porPalavra);
+  const comentarios = useComentarioCapitulo(pos.l, pos.c, porPalavra);
   const selOrdenada = useMemo(() => [...sel].sort((a, b) => a - b), [sel]);
   const primeiro = selOrdenada[0];
 
@@ -173,7 +175,13 @@ export function Biblia({ alvo }: { alvo: number[] }) {
                   {dados.notas[chave] ? <span className="tem-nota" aria-label="Tem anotação" /> : null}
                 </p>
                 {modoInter ? (
-                  inter && inter !== 'erro' && inter[v] ? <PalavrasDoVerso l={pos.l} palavras={inter[v]} aoTocar={setPalavra} /> : inter === 'erro' ? <p className="ajuda">Não foi possível abrir o original. Abra uma vez com internet.</p> : null
+                  inter && inter !== 'erro' && inter[v] ? (
+                    <>
+                      <OrdemOriginal l={pos.l} palavras={inter[v]} />
+                      <PalavrasDoVerso l={pos.l} palavras={inter[v]} aoTocar={setPalavra} />
+                      {comentarios?.[v] ? <button type="button" className="chip -mt-2 mb-5" onClick={() => setComentarioV(v)}>Comentário · {comentarios[v].autor}</button> : null}
+                    </>
+                  ) : inter === 'erro' ? <p className="ajuda">Não foi possível abrir o original. Abra uma vez com internet.</p> : null
                 ) : (
                   <>
                     {rtl && translit ? <p className="translit">{transliterar(t)}</p> : null}
@@ -229,6 +237,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
       {aberto === 'nota' && primeiro ? <PainelNota chave={`${pos.l}.${pos.c}.${primeiro}`} rotulo={formatarRef({ l: pos.l, c: pos.c, v: primeiro })} fechar={() => setAberto(null)} /> : null}
       {aberto === 'refs' && primeiro ? <PainelRefs l={pos.l} c={pos.c} v={primeiro} biblia={pt} fechar={() => setAberto(null)} /> : null}
       {aberto === 'original' && primeiro ? <PainelOriginal l={pos.l} c={pos.c} v={primeiro} textoPt={limparVerso(capPt[primeiro - 1] || '')} fechar={() => setAberto(null)} /> : null}
+      {comentarioV && comentarios?.[comentarioV] ? <PainelComentario l={pos.l} c={pos.c} v={comentarioV} com={comentarios[comentarioV]} fechar={() => setComentarioV(null)} /> : null}
       {palavra ? <PainelVerbete l={pos.l} palavra={palavra} fechar={() => setPalavra(null)} /> : null}
       {aberto === 'estudos' ? <PainelEstudos l={pos.l} c={pos.c} fechar={() => setAberto(null)} /> : null}
       {aberto === 'usar' ? <PainelUsar refChave={chaveSel} rotulo={refSel} fechar={() => setAberto(null)} /> : null}
