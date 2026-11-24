@@ -153,8 +153,7 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 .ab-pag-dir, .ab-capa-dir { transform-origin: left center; animation: ab-abrir .9s cubic-bezier(.2, .8, .2, 1) .08s both; }
 .ab-extra { animation: ab-sumir .5s ease 1.75s forwards; }
 .ab-fita { animation: ab-descer .8s cubic-bezier(.3, 1.35, .45, 1) .95s both; }
-.ab-nome { margin: .3em 0 0; color: #fff; font: 900 clamp(34px, 11vw, 52px)/1 var(--font-corpo), Georgia, serif; letter-spacing: -0.0125em; animation: ab-nome .6s ease-out 2s both; }
-.ab-nome span { color: #c9a24a; }
+.ab-nome { display: block; width: min(58vw, 250px); height: auto; margin-top: 6px; animation: ab-nome .6s ease-out 2s both; }
 @keyframes ab-abrir { from { transform: scaleX(0); opacity: .4; } to { transform: scaleX(1); opacity: 1; } }
 @keyframes ab-descer { 0% { transform: translateY(-260%); opacity: 0; } 25% { opacity: 1; } 100% { transform: translateY(0); opacity: 1; } }
 @keyframes ab-sumir { to { opacity: 0; } }

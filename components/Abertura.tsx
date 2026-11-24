@@ -4,6 +4,7 @@
 // Aparece uma vez a cada vez que o app é aberto; um toque pula. Quem pede menos movimento no
 // aparelho vê só o logo, sem animação.
 import { useEffect, useState } from 'react';
+import { BASE } from '@/lib/cliente/bibliaDados';
 
 const DURACAO = 3000;
 
@@ -43,7 +44,8 @@ export function Abertura() {
           </g>
           <path className="ab-fita" d="M58 52H66V80L62 75L58 80Z" fill="#c9a24a" />
         </svg>
-        <p className="ab-nome">Púl<span>pito</span></p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img className="ab-nome" src={`${BASE}/logo/nome-fundo-vinho.svg`} alt="" />
       </div>
     </div>
   );

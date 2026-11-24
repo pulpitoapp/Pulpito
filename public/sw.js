@@ -1,6 +1,6 @@
 // Service worker do Púlpito: guarda o app e os dados bíblicos no aparelho para uso sem internet.
 // Funciona tanto na raiz do site quanto numa subpasta (usa endereços relativos).
-const VERSAO = 'pulpito-v5';
+const VERSAO = 'pulpito-v6';
 const RAIZ = new URL('./', self.location).pathname;            // ex.: "/" ou "/pulpito/"
 const BASE = ['', 'biblia.json', 'dados/titulos.json', 'manifest.webmanifest', 'icone-192.png', 'icone-512.png'].map((p) => RAIZ + p);
 
