@@ -1,9 +1,9 @@
 // Tipos e listas usados em todo o app.
 
 export const CARGOS = ['Pastor', 'Ungido', 'Diácono', 'Obreiro', 'Jovem', 'Senhora', 'Outros'] as const;
-export const OCASIOES = ['Culto de domingo', 'Culto de oração', 'Santa ceia', 'Culto de jovens', 'Seminário', 'Vigília', 'Culto nos lares', 'Evangelismo', 'Outro'] as const;
+export const ESTILOS = ['Oração', 'Salvação', 'Renovo', 'Avivamento', 'Volta de Jesus', 'Entrega', 'Despertamento', 'Doutrina', 'Louvor'] as const;
 export const SITUACOES = ['rascunho', 'pronta', 'pregada'] as const;
-export const ROTULO_SITUACAO: Record<string, string> = { rascunho: 'Rascunho', pronta: 'Pronta', pregada: 'Pregada' };
+export const ROTULO_SITUACAO: Record<string, string> = { rascunho: 'Rascunho', pronta: 'Pronta', pregada: 'Já preguei' };
 
 /** Cores do marca-texto. */
 export const CORES: Record<string, string> = { am: '#f6dc7a', vd: '#a8dbab', az: '#a6cdf2', rs: '#f4b0c8', lj: '#f7c08a' };

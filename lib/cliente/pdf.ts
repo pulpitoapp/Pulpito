@@ -35,7 +35,6 @@ export async function gerarPdf(m: Mensagem, biblia: BibliaDados | null): Promise
   const titulo = (txt: string) => { y += 8; espaco(40); paragrafo(txt.toUpperCase(), { tam: 10, estilo: 'bold', justo: false, cor: [125, 122, 112] }); };
   const c = m.conteudo;
 
-  if (m.serie) paragrafo(m.serie, { tam: 10, justo: false, cor: [125, 122, 112] });
   paragrafo(m.titulo || 'Mensagem', { tam: 22, estilo: 'bold', justo: false });
   if (m.tema) paragrafo(m.tema, { tam: 13, estilo: 'italic', justo: false });
   if (m.autor_linha) paragrafo(m.autor_linha, { tam: 10, justo: false, cor: [125, 122, 112] });

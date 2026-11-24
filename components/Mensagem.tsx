@@ -1,14 +1,14 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
-import { lerRef } from '@/lib/biblia';
-import { chaveDe, lerChave, rotuloChave, textoChave } from '@/lib/textos';
-import { CORES, NOME_COR, OCASIOES, ROTULO_SITUACAO, SITUACOES, type Conteudo, type Mensagem as Msg, type Pregacao } from '@/lib/tipos';
+import { lerChave, rotuloChave, textoChave } from '@/lib/textos';
+import { CORES, ESTILOS, NOME_COR, ROTULO_SITUACAO, SITUACOES, type Conteudo, type Mensagem as Msg, type Pregacao } from '@/lib/tipos';
 import { useBiblia } from '@/lib/cliente/bibliaDados';
 import { apagarMensagem, apagarPregacao, novoId, salvarMensagem, salvarPregacao, useDados } from '@/lib/cliente/dados';
 import { compartilharArquivo, gerarPdf } from '@/lib/cliente/pdf';
 import { Cabecalho, Carregando, Confirmar } from './Cabecalho';
 import { ir, useApp } from './contexto';
 import { Lousa } from './Lousa';
+import { SeletorRef } from './SeletorRef';
 
 const dataBR = (d: string) => d.split('-').reverse().join('/');
 
@@ -22,8 +22,6 @@ export function Mensagem({ id }: { id: string }) {
   const [m, setM] = useState<Msg | null>(null);
   const [estado, setEstado] = useState<'salvo' | 'editando'>('salvo');
   const [aba, setAba] = useState<'digitar' | 'mao'>('digitar');
-  const [novaRef, setNovaRef] = useState('');
-  const [corRef, setCorRef] = useState('am');
   const [apagar, setApagar] = useState(false);
   const [ocupado, setOcupado] = useState(false);
   const tempo = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -48,13 +46,9 @@ export function Mensagem({ id }: { id: string }) {
   const mc = (parte: Partial<Conteudo>) => mudar({ conteudo: { ...c, ...parte } });
   const pregs = minha ? dados.pregacoes.filter((p) => p.mensagem_id === m.id).sort((a, b) => b.data.localeCompare(a.data)) : [];
 
-  function acrescentarRef(e: React.FormEvent) {
-    e.preventDefault();
-    const r = lerRef(novaRef);
-    if (!r || !r.v || !biblia?.[r.l]?.[2]?.[r.c]?.[r.v - 1]) { avisar('Escreva a referência com versículo. Ex.: João 3:16-18'); return; }
-    const chave = chaveDe(r);
-    mc({ refs: [...c.refs.filter((x) => x.ref !== chave), { ref: chave, cor: corRef }] });
-    setNovaRef('');
+  function acrescentarRef(chave: string, cor: string) {
+    mc({ refs: [...c.refs.filter((x) => x.ref !== chave), { ref: chave, cor }] });
+    avisar(`${rotuloChave(chave)} acrescentado`);
   }
   async function pdf() {
     setOcupado(true);
@@ -76,8 +70,6 @@ export function Mensagem({ id }: { id: string }) {
             <input id="mTitulo" className="campo !text-[21px] font-bold" value={m.titulo} onChange={(e) => mudar({ titulo: e.target.value })} maxLength={200} placeholder="Título da mensagem" readOnly={!minha} /></div>
           <div><label className="rotulo" htmlFor="mTema">Tema</label>
             <input id="mTema" className="campo italic" value={m.tema} onChange={(e) => mudar({ tema: e.target.value })} maxLength={300} placeholder="A ideia central, em uma frase" readOnly={!minha} /></div>
-          {minha || m.serie ? <div><label className="rotulo" htmlFor="mSerie">Série</label>
-            <input id="mSerie" className="campo" value={m.serie} onChange={(e) => mudar({ serie: e.target.value })} maxLength={120} placeholder="Opcional" readOnly={!minha} /></div> : null}
         </section>
 
         <section aria-label="Textos bíblicos usados">
@@ -105,15 +97,9 @@ export function Mensagem({ id }: { id: string }) {
                 );
               })}
             </ul>
-          ) : <p className="m-0 mb-3 text-[15px] text-mute">Nenhum texto ainda.{minha ? ' Acrescente pela referência abaixo ou selecionando versículos na Bíblia.' : ''}</p>}
+          ) : <p className="m-0 mb-3 text-[15px] text-mute">Nenhum texto ainda.{minha ? ' Comece a digitar o livro abaixo, ou selecione versículos na Bíblia.' : ''}</p>}
           {minha ? (
-            <form onSubmit={acrescentarRef} className="flex flex-wrap items-center gap-2">
-              <input className="campo flex-1 basis-40" value={novaRef} onChange={(e) => setNovaRef(e.target.value)} placeholder="Ex.: Lucas 15:11-24" aria-label="Referência a acrescentar" />
-              <span className="flex gap-1" role="group" aria-label="Cor">
-                {Object.entries(CORES).map(([k, cor]) => <button key={k} type="button" aria-label={NOME_COR[k]} aria-pressed={corRef === k} className="h-7 w-7 rounded-full border-2" style={{ background: cor, borderColor: corRef === k ? 'var(--ink)' : 'transparent' }} onClick={() => setCorRef(k)} />)}
-              </span>
-              <button type="submit" className="btn">Acrescentar</button>
-            </form>
+            <SeletorRef biblia={biblia} aoEscolher={acrescentarRef} />
           ) : null}
         </section>
 
@@ -158,7 +144,7 @@ function Pregacoes({ m, lista, igrejaPadrao }: { m: Msg; lista: Pregacao[]; igre
   const { avisar } = useApp();
   const [data, setData] = useState(() => new Date().toLocaleDateString('sv-SE'));
   const [igreja, setIgreja] = useState(igrejaPadrao);
-  const [ocasiao, setOcasiao] = useState<string>(OCASIOES[0]);
+  const [ocasiao, setOcasiao] = useState<string>(ESTILOS[0]);
   function registrar(e: React.FormEvent) {
     e.preventDefault();
     if (!data) return;
@@ -182,8 +168,8 @@ function Pregacoes({ m, lista, igrejaPadrao }: { m: Msg; lista: Pregacao[]; igre
       <form onSubmit={registrar} className="grid gap-2 sm:grid-cols-3">
         <div><label className="rotulo" htmlFor="prData">Data</label><input id="prData" type="date" className="campo" value={data} onChange={(e) => setData(e.target.value)} required /></div>
         <div><label className="rotulo" htmlFor="prIgreja">Igreja</label><input id="prIgreja" className="campo" value={igreja} onChange={(e) => setIgreja(e.target.value)} maxLength={120} /></div>
-        <div><label className="rotulo" htmlFor="prOc">Ocasião</label><select id="prOc" className="campo" value={ocasiao} onChange={(e) => setOcasiao(e.target.value)}>{OCASIOES.map((o) => <option key={o}>{o}</option>)}</select></div>
-        <button type="submit" className="btn sm:col-span-3">+ Registrar pregação</button>
+        <div><label className="rotulo" htmlFor="prOc">Estilo</label><select id="prOc" className="campo" value={ocasiao} onChange={(e) => setOcasiao(e.target.value)}>{ESTILOS.map((o) => <option key={o}>{o}</option>)}</select></div>
+        <button type="submit" className="btn sm:col-span-3">+ Registrar que preguei</button>
       </form>
     </section>
   );

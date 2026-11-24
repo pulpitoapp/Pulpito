@@ -25,18 +25,15 @@ export function Mensagens() {
   const dados = useDados();
   const [quais, setQuais] = useState<'minhas' | 'publicas'>(() => pref.ler('lista-quais', 'minhas'));
   const [busca, setBusca] = useState('');
-  const [serie, setSerie] = useState('');
   const [situacao, setSituacao] = useState('');
 
   const base = useMemo(() => dados.mensagens.filter((m) => (quais === 'minhas' ? m.autor_id === perfil.id : m.autor_id !== perfil.id && m.visibilidade === 'publica')), [dados.mensagens, quais, perfil.id]);
-  const series = useMemo(() => [...new Set(base.map((m) => m.serie).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt-BR')), [base]);
   const q = norm(busca.trim());
   const lista = useMemo(() => base.filter((m) => {
-    if (serie && m.serie !== serie) return false;
     if (situacao && m.situacao !== situacao) return false;
     if (!q) return true;
-    return norm([m.titulo, m.tema, m.serie, m.autor_linha, m.conteudo.texto, m.conteudo.refs.map((r) => rotuloChave(r.ref)).join(' ')].join(' ')).includes(q);
-  }).sort((a, b) => b.atualizado_em.localeCompare(a.atualizado_em)), [base, q, serie, situacao]);
+    return norm([m.titulo, m.tema, m.autor_linha, m.conteudo.texto, m.conteudo.refs.map((r) => rotuloChave(r.ref)).join(' ')].join(' ')).includes(q);
+  }).sort((a, b) => b.atualizado_em.localeCompare(a.atualizado_em)), [base, q, situacao]);
 
   function criar() {
     const m = novaMensagem(perfil.id);
@@ -53,13 +50,10 @@ export function Mensagens() {
         <input className="campo" type="search" placeholder="Buscar por palavra, título, tema ou texto bíblico" value={busca} onChange={(e) => setBusca(e.target.value)} aria-label="Buscar mensagens" />
         <div className="flex gap-2" role="group" aria-label="Quais mensagens">
           {(['minhas', 'publicas'] as const).map((k) => (
-            <button key={k} type="button" className="chip flex-1" aria-pressed={quais === k} onClick={() => { setQuais(k); pref.gravar('lista-quais', k); setSerie(''); }}>{k === 'minhas' ? 'Minhas' : 'Públicas'}</button>
+            <button key={k} type="button" className="chip flex-1" aria-pressed={quais === k} onClick={() => { setQuais(k); pref.gravar('lista-quais', k); }}>{k === 'minhas' ? 'Minhas' : 'Públicas'}</button>
           ))}
         </div>
         <div className="flex gap-2">
-          <select className="campo" value={serie} onChange={(e) => setSerie(e.target.value)} aria-label="Filtrar por série">
-            <option value="">Todas as séries</option>{series.map((s) => <option key={s}>{s}</option>)}
-          </select>
           <select className="campo" value={situacao} onChange={(e) => setSituacao(e.target.value)} aria-label="Filtrar por situação">
             <option value="">Todas as situações</option>{SITUACOES.map((s) => <option key={s} value={s}>{ROTULO_SITUACAO[s]}</option>)}
           </select>
@@ -85,7 +79,6 @@ function Item({ m, minha, pendente, q }: { m: Mensagem; minha: boolean; pendente
   return (
     <li>
       <a href={`#/mensagens/${m.id}`} className="cartao block no-underline">
-        {m.serie ? <span className="rot block">{m.serie}</span> : null}
         <b className="block text-[19px] leading-tight">{m.titulo || 'Sem título'}</b>
         {m.tema ? <span className="block text-[14.5px] italic text-mute">{m.tema}</span> : null}
         {achado ? <span className="mt-1 block text-[14px]">{achado}</span> : null}
