@@ -1,11 +1,14 @@
 'use client';
 // Comentários bíblicos (domínio público, traduzidos para o Púlpito): lista por versículo,
 // leitura de cada obra, comparação lado a lado, balão com o texto das referências e PDF.
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { LIVROS, limparVerso } from '@/lib/biblia';
 import { BASE, useBiblia } from '@/lib/cliente/bibliaDados';
 import { ir, useApp } from './contexto';
-import { IcoCompartilhar, IcoVoltar } from './Icones';
+import { IcoCompartilhar, IcoSalvar, IcoVoltar } from './Icones';
+import { SelecaoTexto } from './SelecaoTexto';
+import { salvarDocumento } from '@/lib/cliente/documentos';
+import { pref } from '@/lib/cliente/local';
 import { SalvarEmDocumentos } from './Documentos';
 import { Painel } from './Paineis';
 
@@ -19,6 +22,7 @@ export const OBRAS: Record<string, { autor: string; rotulo: string; obra: string
   robertson: { autor: 'A. T. Robertson', rotulo: 'Estudo do grego (Mais complexo)', obra: 'Retratos Verbais do Novo Testamento', ano: '1930–1933' },
   keil: { autor: 'Keil & Delitzsch', rotulo: 'Estudo das Palavras', obra: 'Comentário sobre o Antigo Testamento', ano: '1866–1891' },
   jfb: { autor: 'Jamieson, Fausset e Brown', rotulo: 'Explicação do sentido', obra: 'Comentário Crítico e Explicativo de Toda a Bíblia', ano: '1871' },
+  trecho: { autor: 'Trecho salvo', rotulo: 'Seleção', obra: 'Púlpito', ano: '' },
 };
 const ORDEM = ['vincent', 'robertson', 'keil', 'jfb'];          // as que já estavam primeiro
 
@@ -129,7 +133,7 @@ function Paragrafo({ texto, aoRef }: { texto: string; aoRef: (r: Ref) => void })
   return <p className="m-0 text-[16px] leading-relaxed">{out}</p>;
 }
 
-export function Secoes({ secoes, aoRef, aoCompartilhar, ocupado, abrirPrimeira = true }: { secoes: Secao[]; aoRef: (r: Ref) => void; aoCompartilhar?: (s: Secao) => void; ocupado?: boolean; abrirPrimeira?: boolean }) {
+export function Secoes({ secoes, aoRef, aoCompartilhar, aoSalvar, ocupado, abrirPrimeira = true }: { secoes: Secao[]; aoRef: (r: Ref) => void; aoCompartilhar?: (s: Secao) => void; aoSalvar?: (s: Secao) => void; ocupado?: boolean; abrirPrimeira?: boolean }) {
   return (
     <>
       {secoes.map((s, i) => (
@@ -137,6 +141,7 @@ export function Secoes({ secoes, aoRef, aoCompartilhar, ocupado, abrirPrimeira =
           <summary className="topico flex cursor-pointer items-start gap-2 text-[17px] font-bold">
             <span className="seta" aria-hidden="true">▸</span>
             <span className="flex-1">{s.titulo}{s.original ? <span className="inter-gre !text-[17px] font-normal"> · {s.original}</span> : null}</span>
+            {aoSalvar ? <button type="button" className="redondo !h-10 !w-10 shrink-0" aria-label={`Salvar: ${s.titulo}`} title="Salvar em Meus documentos" onClick={(e) => { e.preventDefault(); e.stopPropagation(); aoSalvar(s); }}><IcoSalvar /></button> : null}
             {aoCompartilhar ? <button type="button" className="redondo !h-10 !w-10 shrink-0" aria-label={`Compartilhar em PDF: ${s.titulo}`} disabled={ocupado} onClick={(e) => { e.preventDefault(); e.stopPropagation(); aoCompartilhar(s); }}><IcoCompartilhar /></button> : null}
           </summary>
           <div className="mt-2 space-y-3">{s.texto.split(/\n\n+/).map((par, j) => <Paragrafo key={j} texto={par} aoRef={aoRef} />)}</div>
@@ -166,6 +171,7 @@ export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: numb
   const [tela, setTela] = useState<Tela>(lista.length === 1 ? { tipo: 'obra', obra: lista[0].obra } : { tipo: 'lista' });
   const [ref, setRef] = useState<Ref | null>(null);
   const [ocupado, setOcupado] = useState(false);
+  const area = useRef<HTMLDivElement>(null);
   const refVerso = `${LIVROS[l]} ${c + 1}:${v}`;
 
   async function pdf(blocos: { obra: string; secoes: Secao[] }[], sufixo: string) {
@@ -206,7 +212,8 @@ export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: numb
         <p className="ajuda !mt-0">{o.autor}, <i>{o.obra}</i> ({o.ano}){x.ref ? ` · comenta os versículos ${x.ref}` : ''}. Toque num tópico para abrir.</p>
         <button type="button" className="btn btn-pri mt-2 w-full gap-2" disabled={ocupado} onClick={() => void pdf([x], o.autor)}><IcoCompartilhar /> {ocupado ? 'Gerando o PDF…' : 'Compartilhar em PDF'}</button>
         <SalvarEmDocumentos titulo={`${refVerso} · ${o.autor}`} tipo="comentario" conteudo={{ ref: refVerso, l, c, v, blocos: [{ obra: x.obra, secoes: x.secoes }] }} />
-        <Secoes secoes={x.secoes} aoRef={setRef} ocupado={ocupado} aoCompartilhar={(s) => void pdf([{ obra: x.obra, secoes: [s] }], s.titulo)} />
+        <Secoes secoes={x.secoes} aoRef={setRef} ocupado={ocupado} aoCompartilhar={(s) => void pdf([{ obra: x.obra, secoes: [s] }], s.titulo)}
+          aoSalvar={async (s) => { try { await salvarDocumento({ titulo: `${refVerso} · ${o.autor} · ${s.titulo}`.slice(0, 200), tipo: 'comentario', pasta_id: pref.ler<string>('docs-ultima-pasta', '') || null, conteudo: { ref: refVerso, l, c, v, blocos: [{ obra: x.obra, secoes: [s] }] } }); avisar('Tópico salvo em Meus documentos'); } catch (e) { avisar((e as Error).message); } }} />
       </>
     );
   } else {
@@ -228,7 +235,8 @@ export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: numb
   }
   return (
     <Painel titulo={refVerso} sub={sub} fechar={fechar}>
-      {corpo}
+      <div ref={area}>{corpo}</div>
+      <SelecaoTexto area={area} origem={tela.tipo === 'obra' ? OBRAS[tela.obra].autor : 'Comentários'} refTexto={refVerso} l={l} c={c} v={v} />
       <p className="ajuda mt-4">É a explicação dos autores, não do app. Textos antigos, em domínio público, traduzidos para o português pelo Púlpito, sem revisão de especialista. Trechos que ainda passam por revisão doutrinária aparecem como “[trecho omitido]”.</p>
       {ref ? <Balao r={ref} fechar={() => setRef(null)} /> : null}
     </Painel>

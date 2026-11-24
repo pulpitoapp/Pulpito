@@ -26,3 +26,4 @@ export const IcoMensagemAdd = (p: P) => <svg {...cheio} {...p}><path d="M7 3h10a
 export const IcoOriginal = (p: P) => <svg viewBox="0 0 24 24" aria-hidden="true" {...p}><text x="12" y="17" textAnchor="middle" fontSize="15" fontWeight="700" fill="currentColor" fontFamily="Georgia, serif">אα</text></svg>;
 export const IcoEnviar = (p: P) => <svg {...cheio} {...p}><path d="M21 3L3 10.5l6.5 2.6L19 5l-7.4 9.6L14 21z" /></svg>;
 export const IcoCompartilhar = (p: P) => <svg {...traco} {...p}><path d="M12 3v12M7.5 7.5L12 3l4.5 4.5" /><path d="M8 11H6v9h12v-9h-2" /></svg>;
+export const IcoSalvar = (p: P) => <svg {...traco} {...p}><path d="M7 3h10a1 1 0 011 1v17l-6-3.6L6 21V4a1 1 0 011-1z" /></svg>;

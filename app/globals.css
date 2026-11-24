@@ -318,3 +318,8 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
   .paleta-linha { flex-wrap: wrap; justify-content: center; row-gap: 2px; overflow: visible; }
   .paleta-cores { grid-template-columns: repeat(6, 26px); }
 }
+/* barra do trecho selecionado */
+.barra-selecao { position: fixed; z-index: 95; left: 50%; bottom: calc(96px + env(safe-area-inset-bottom)); transform: translateX(-50%); display: flex; gap: 2px; padding: 5px; border-radius: 999px; background: var(--escuro); box-shadow: 0 14px 30px -10px rgba(30, 10, 16, .6); }
+.barra-selecao button { padding: 10px 14px; border-radius: 999px; color: #fff; font: 700 11px/1 var(--font-rotulo), monospace; letter-spacing: .12em; text-transform: uppercase; }
+.barra-selecao button:last-child { background: var(--ouro); color: #2a0c16; }
+.chip { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }

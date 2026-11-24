@@ -2,7 +2,8 @@
 // Leitura palavra por palavra no original (hebraico em Gênesis, grego em João),
 // com o significado de cada palavra e o verbete do dicionário ao tocar.
 // Fonte: STEPBible (Tyndale House, Cambridge), CC BY 4.0 — tradução para o português feita para o Púlpito.
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { SelecaoTexto } from './SelecaoTexto';
 import { LIVROS } from '@/lib/biblia';
 import { BASE } from '@/lib/cliente/bibliaDados';
 import { gravar, ler } from '@/lib/cliente/local';
@@ -122,6 +123,7 @@ function TextoVerbete({ def, fechar }: { def: string; fechar: () => void }) {
 
 export function PainelVerbete({ l, palavra, fechar }: { l: number; palavra: Palavra; fechar: () => void }) {
   const [v, setV] = useState<Verbete | null | 'erro'>(null);
+  const area = useRef<HTMLDivElement>(null);
   useEffect(() => {
     let vivo = true;
     carregarLexico(l).then((d) => { if (vivo) setV(d[palavra[3]] || 'erro'); }).catch(() => { if (vivo) setV('erro'); });
@@ -130,6 +132,7 @@ export function PainelVerbete({ l, palavra, fechar }: { l: number; palavra: Pala
   const heb = hebraico(l);
   return (
     <Painel titulo={palavra[1]} sub={heb ? 'Hebraico' : 'Grego'} fechar={fechar}>
+      <div ref={area}>
       <p className={`m-0 text-center ${heb ? 'inter-heb' : 'inter-gre'} !text-[40px]`} dir={heb ? 'rtl' : 'ltr'} lang={heb ? 'he' : 'el'}>{semPont(palavra[0])}</p>
       <p className="mt-1 text-center text-[15px]">Neste versículo: <b>{semPont(palavra[2])}</b></p>
       {v === null ? <p className="text-mute">Abrindo o dicionário…</p> : v === 'erro' ? <p className="text-mute">Sem verbete para esta palavra. Abra o app uma vez com internet para guardar o dicionário.</p> : (
@@ -156,6 +159,8 @@ export function PainelVerbete({ l, palavra, fechar }: { l: number; palavra: Pala
         </section>
       )}
       <p className="ajuda mt-4">Dados: STEPBible (Tyndale House, Cambridge), licença CC BY 4.0. Tradução para o português feita para o Púlpito, sem revisão de especialista.</p>
+      </div>
+      <SelecaoTexto area={area} origem={`Dicionário (${heb ? 'hebraico' : 'grego'})`} refTexto={`${palavra[1]} · ${palavra[0]}`} l={l} c={0} v={1} />
     </Painel>
   );
 }
