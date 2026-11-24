@@ -31,3 +31,9 @@ Marque cada trecho em que o autor afirma posição sobre: dons espirituais (lín
 
 ## Conferência
 Ao terminar, valide: `node -e "const d=require('ARQUIVO');for(const[k,v] of Object.entries(d)) if(k!=='_atencao') console.log(k, v.ate||'', v.secoes.length, v.secoes.reduce((s,x)=>s+x.texto.split(/\s+/).length,0))"`. A contagem de palavras em português deve ficar entre 85% e 125% do inglês do capítulo; nenhuma frase em inglês pode sobrar. Responda com: arquivos gravados, palavras (inglês × português), quantos trechos em `_atencao` e dúvidas.
+
+## Critério da revisão (definido pelo usuário)
+- Prioridade é sempre o entendimento da Igreja Cristã Maranata. Trecho que diverge não vai para o app.
+- Eleição: não depende do homem. Trechos que condicionem a escolha de Deus à condição do homem são omitidos.
+- Figuras de Cristo no Antigo Testamento são bem-vindas (ex.: o cordeiro sacrificado/túnicas de peles apontam para Jesus); trechos que neguem essas figuras são omitidos.
+- Na dúvida, o trecho fica fora e vai para "Pontos para confirmar depois" (decisao "confirmar").

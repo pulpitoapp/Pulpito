@@ -4,7 +4,7 @@
 // Revisão doutrinária: cada tradução marca em "_atencao" os trechos sobre dons, profecia, batismo etc.
 // As decisões ficam em dados-fonte/comentarios/revisao.json:
 //   [{ "obra": "jfb", "l": 0, "c": 3, "v": "15", "trecho": "…", "decisao": "manter" | "omitir" }]
-// Enquanto um trecho não tiver decisão "manter", ele NÃO vai para o app: aparece "[trecho omitido]".
+// "confirmar" = ponto separado para confirmar depois (fica omitido). Enquanto um trecho não tiver decisão "manter", ele NÃO vai para o app: aparece "[trecho omitido]".
 // A lista do que falta decidir é gravada em dados-fonte/comentarios/REVISAO-PENDENTE.md.
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
@@ -36,7 +36,7 @@ for (const obra of readdirSync(FONTE).filter((n) => existsSync(path.join(FONTE, 
       for (const a of atencao) {
         const dec = revisao.get(chave(obra, Number(l), c, String(a.v), a.trecho)) || 'pendente';
         if (dec === 'manter') { mantidos++; continue; }
-        if (dec === 'pendente') pendentes.push({ obra, l: Number(l), c, ...a });
+        if (dec === 'pendente' || dec === 'confirmar') pendentes.push({ obra, l: Number(l), c, dec, ...a });
         const entrada = d[String(a.v)];
         const s = entrada?.secoes?.[a.secao];
         if (s && s.texto.includes(a.trecho)) { s.texto = s.texto.replace(a.trecho, OMITIDO); omitidos++; }
@@ -60,6 +60,12 @@ writeFileSync(path.join(SAIDA, 'indice.json'), JSON.stringify(indice));
 
 const NOMES = { vincent: 'Vincent', jfb: 'Jamieson, Fausset e Brown', keil: 'Keil & Delitzsch', robertson: 'Robertson' };
 const md = ['# Trechos aguardando revisão doutrinária', '', 'Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para aprovar, registre em `revisao.json` com "decisao": "manter".', ''];
-for (const p of pendentes) md.push(`- **${NOMES[p.obra] || p.obra} · ${LIVROS[p.l]} ${p.c}:${p.v}** · tema: ${p.tema}\n  > ${p.trecho}\n  _Motivo:_ ${p.motivo}`);
+for (const [tit, filtro] of [['## Pontos para confirmar depois', 'confirmar'], ['## Ainda não revisados', 'pendente']]) {
+  const lista = pendentes.filter((p) => p.dec === filtro);
+  if (!lista.length) continue;
+  md.push(tit, '');
+  for (const p of lista) md.push(`- **${NOMES[p.obra] || p.obra} · ${LIVROS[p.l]} ${p.c}:${p.v}** · tema: ${p.tema}\n  > ${p.trecho}\n  _Motivo:_ ${p.motivo}`);
+  md.push('');
+}
 writeFileSync(path.join(FONTE, 'REVISAO-PENDENTE.md'), md.join('\n') + '\n');
 console.log(`Comentários montados. Trechos omitidos: ${omitidos} (pendentes: ${pendentes.length}, frase não localizada: ${naoAchados}). Aprovados: ${mantidos}.`);

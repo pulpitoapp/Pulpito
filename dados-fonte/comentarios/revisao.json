@@ -349,7 +349,7 @@
   "c": 3,
   "v": "20",
   "trecho": "de modo que esse ato de Deus lançou o fundamento dos sacrifícios, ainda que a primeira vestimenta não prefigurasse o nosso definitivo “ser revestidos” ({{2Co.5.4}}), nem as túnicas de peles a veste da justiça.",
-  "decisao": "manter"
+  "decisao": "omitir"
  },
  {
   "obra": "keil",
@@ -358,5 +358,69 @@
   "v": "22",
   "trecho": "mas simplesmente impediu o seu retorno, para mostrar que ele seria preservado até o tempo do fim, quando o pecado será extirpado pelo juízo e a morte abolida pelo Vencedor da serpente ({{1Co.15.26}}), e quando, sobre a nova terra, a árvore da vida voltará a florescer na Jerusalém celestial e a dar fruto para os remidos ({{Rev.20.1-15}} e {{Rev.21}}).",
   "decisao": "manter"
+ },
+ {
+  "obra": "vincent",
+  "l": 42,
+  "c": 1,
+  "v": "33",
+  "trecho": "Aqui, porém, pareceria significar o elemento da vida nova, assim como ἐν ὕδατι, em água, significa o elemento do batismo simbólico, e poderia ser mais bem traduzida por “em”.",
+  "decisao": "confirmar"
+ },
+ {
+  "obra": "vincent",
+  "l": 42,
+  "c": 3,
+  "v": "5",
+  "trecho": "Que a água aponta definidamente para o rito do batismo, e isso com dupla referência — ao passado e ao futuro.",
+  "decisao": "omitir"
+ },
+ {
+  "obra": "jfb",
+  "l": 42,
+  "c": 2,
+  "v": "22",
+  "trecho": "o bastante para prefigurar o seu último ato para com aquele povo infiel — varrê-los da casa de Deus.",
+  "decisao": "omitir"
+ },
+ {
+  "obra": "jfb",
+  "l": 42,
+  "c": 3,
+  "v": "10",
+  "trecho": "Pois a proposição de nosso Senhor é universal: nenhum homem caído é, nem pode ser, espiritual sem uma operação regeneradora do Espírito Santo",
+  "decisao": "confirmar"
+ },
+ {
+  "obra": "keil",
+  "l": 0,
+  "c": 1,
+  "v": "24",
+  "trecho": "em que a cessação do pecado e a completa transformação do mundo no reino de Deus são descritas como acompanhadas da cessação da matança e do comer carne, até mesmo no reino animal",
+  "decisao": "omitir"
+ },
+ {
+  "obra": "keil",
+  "l": 0,
+  "c": 2,
+  "v": "1",
+  "trecho": "chegará por fim o mundo inteiro, especialmente o homem, a cabeça da criação terrena",
+  "decisao": "omitir"
+ },
+ {
+  "obra": "keil",
+  "l": 0,
+  "c": 2,
+  "v": "15",
+  "trecho": "por uma operação especial do Espírito de Deus, operação que só podemos imaginar como de caráter sacramental, fazendo dos elementos terrenos receptáculos e veículos de poderes celestiais",
+  "decisao": "omitir"
+ },
+ {
+  "obra": "keil",
+  "l": 0,
+  "c": 3,
+  "v": "14",
+  "trecho": "Por meio desses atos de seleção divina constantemente repetidos, que não eram exclusões arbitrárias, mas se tornavam necessários pelas diferenças na condição espiritual dos indivíduos envolvidos, a “descendência” a quem foi prometida a vitória sobre Satanás foi determinada espiritual ou eticamente e deixou de coincidir com a descendência física.",
+  "decisao": "omitir"
  }
 ]
