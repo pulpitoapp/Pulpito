@@ -25,7 +25,7 @@ export function Carregando({ texto = 'Carregando…' }: { texto?: string }) {
 /** Janela de confirmação simples. */
 export function Confirmar({ titulo, texto, acao, perigo, onSim, onNao }: { titulo: string; texto: string; acao: string; perigo?: boolean; onSim: () => void; onNao: () => void }) {
   return (
-    <div className="fixed inset-0 z-50 grid place-items-center bg-black/40 p-4" role="dialog" aria-modal="true" aria-label={titulo}>
+    <div className="fixed inset-0 z-[85] grid place-items-center bg-black/40 p-4" role="dialog" aria-modal="true" aria-label={titulo}>
       <div className="cartao w-full max-w-sm">
         <h2 className="tit">{titulo}</h2>
         <p className="my-3 text-[15px]">{texto}</p>

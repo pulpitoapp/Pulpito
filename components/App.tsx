@@ -164,7 +164,7 @@ export function App() {
         </nav>
       ) : null}
       {toast ? (
-        <div role="status" className="rot fixed bottom-[100px] left-1/2 z-[60] max-w-[92vw] -translate-x-1/2 rounded-full bg-escuro px-5 py-3 text-center !text-[#fdf5df] !tracking-[.1em] shadow-lg">{toast}</div>
+        <div role="status" className="rot fixed bottom-[100px] left-1/2 z-[90] max-w-[92vw] -translate-x-1/2 rounded-full bg-escuro px-5 py-3 text-center !text-[#fdf5df] !tracking-[.1em] shadow-lg">{toast}</div>
       ) : null}
     </AppCtx.Provider>
   );

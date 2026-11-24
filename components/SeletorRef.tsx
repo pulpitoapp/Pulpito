@@ -17,7 +17,7 @@ function sugerirLivros(texto: string): number[] {
   return achados.slice(0, 10);
 }
 
-export function SeletorRef({ biblia, aoEscolher }: { biblia: BibliaDados | null; aoEscolher: (chave: string, cor: string) => void }) {
+export function SeletorRef({ biblia, aoEscolher, id = 'refBusca' }: { biblia: BibliaDados | null; aoEscolher: (chave: string, cor: string) => void; id?: string }) {
   const [texto, setTexto] = useState('');
   const [livro, setLivro] = useState<number | null>(null);
   const [cap, setCap] = useState<number | null>(null);
@@ -42,9 +42,9 @@ export function SeletorRef({ biblia, aoEscolher }: { biblia: BibliaDados | null;
 
   return (
     <div className="cartao !p-3.5">
-      <label className="rotulo" htmlFor="refBusca">Acrescentar texto</label>
+      <label className="rotulo" htmlFor={id}>Acrescentar texto</label>
       <div className="flex gap-2">
-        <input id="refBusca" className="campo flex-1" value={texto} autoComplete="off"
+        <input id={id} className="campo flex-1" value={texto} autoComplete="off"
           onChange={(e) => { setTexto(e.target.value); if (livro !== null && !norm(e.target.value).startsWith(norm(LIVROS[livro]))) { setLivro(null); setCap(null); setSel([]); } }}
           placeholder="Comece a digitar o livro: Lu, Sl, 1 Co…" />
         {texto ? <button type="button" className="btn btn-mini" onClick={limpar}>Limpar</button> : null}

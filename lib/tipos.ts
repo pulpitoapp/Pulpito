@@ -22,8 +22,10 @@ export type Perfil = {
   aceite_privacidade: string | null;
 };
 
-/** Um traço feito à mão: cor, espessura, ferramenta e pontos [x, y, pressão] em medidas de 0 a 1000 da largura. */
-export type Traco = { c: string; e: number; f: 'caneta' | 'marca'; p: number[] };
+/** Um traço feito à mão: cor, espessura, ferramenta, pontos [x, y, pressão] em medidas de 0 a 1000 da largura e opacidade (0 a 1). */
+export type Traco = { c: string; e: number; f: 'caneta' | 'marca' | 'lapis'; p: number[]; a?: number };
+/** Bloco de texto colocado na folha (texto bíblico ou algo salvo): posição e largura em medidas de 0 a 1000. */
+export type Bloco = { id: string; x: number; y: number; w: number; titulo: string; texto: string };
 
 /** Texto bíblico usado numa mensagem, com a cor do marca-texto. */
 export type TextoUsado = { ref: string; cor: string };
@@ -33,6 +35,7 @@ export type Conteudo = {
   refs: TextoUsado[];     // textos bíblicos usados
   tracos: Traco[];        // mensagem escrita à mão
   altura: number;         // altura da folha de escrita (em medidas de 0 a 1000 da largura)
+  blocos?: Bloco[];       // textos colocados na folha de escrita
   docs?: string[];        // documentos anexados (de Meus documentos)
 };
 

@@ -270,3 +270,25 @@ export function AnexosDaMensagem({ ids, mudar, pode }: { ids: string[]; mudar: (
     </div>
   );
 }
+
+/** Lista de documentos salvos para escolher um e colocar o texto na folha de escrita. */
+export function EscolherSalvo({ aoEscolher }: { aoEscolher: (r: { titulo: string; texto: string }) => void }) {
+  const d = useIniciar();
+  if (!d.pronto) return <Carregando />;
+  if (!d.documentos.length) return <p className="text-mute">Você ainda não salvou nada em Meus documentos.</p>;
+  return (
+    <ul className="m-0 flex list-none flex-col gap-2 p-0">
+      {d.documentos.map((doc) => (
+        <li key={doc.id}>
+          <button type="button" className="cartao w-full !p-3 text-left" onClick={() => {
+            const texto = (doc.conteudo?.blocos || []).flatMap((b) => b.secoes.map((s) => `${s.titulo}: ${textoPlanoDoc(s.texto)}`)).join(' ');
+            aoEscolher({ titulo: doc.titulo, texto });
+          }}>
+            <b className="block">{doc.titulo}</b><span className="text-[13.5px] text-mute">{TIPO[doc.tipo]}</span>
+          </button>
+        </li>
+      ))}
+    </ul>
+  );
+}
+const textoPlanoDoc = (t: string) => t.replace(/<\/?[bi]>/g, '').replace(/\{\{([^}]+)\}\}/g, '$1').replace(/\s+/g, ' ');

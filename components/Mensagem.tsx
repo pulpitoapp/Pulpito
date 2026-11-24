@@ -8,7 +8,8 @@ import { pref } from '@/lib/cliente/local';
 import { compartilharArquivo, gerarPdf } from '@/lib/cliente/pdf';
 import { Cabecalho, Carregando, Confirmar } from './Cabecalho';
 import { definirGuarda, ir, sairSemGuarda, useApp } from './contexto';
-import { AnexosDaMensagem } from './Documentos';
+import { AnexosDaMensagem, EscolherSalvo } from './Documentos';
+import { Painel } from './Paineis';
 import { Lousa } from './Lousa';
 import { SeletorRef } from './SeletorRef';
 
@@ -33,6 +34,8 @@ export function Mensagem({ id }: { id: string }) {
   const editou = useRef(false);                 // escreveu algo nesta visita
   const foto = useRef<Msg | null>(null);        // como a mensagem estava ao abrir (para "sair sem salvar")
   const [saida, setSaida] = useState<string | null>(null);   // destino pendente da pergunta de saída
+  // escolha de um texto bíblico ou de algo salvo para colocar na folha de escrita
+  const [escolha, setEscolha] = useState<{ tipo: 'biblia' | 'salvo'; resolve: (r: { titulo: string; texto: string } | null) => void } | null>(null);
 
   useEffect(() => { if (original && (!atual.current || atual.current.id !== original.id)) { setM(original); atual.current = original; foto.current = original; } }, [original]);
   // ao sair da tela, grava o que estiver pendente
@@ -136,7 +139,8 @@ export function Mensagem({ id }: { id: string }) {
           {aba === 'digitar' ? (
             <textarea className="campo" rows={16} value={c.texto} onChange={(e) => mc({ texto: e.target.value })} placeholder="Escreva a mensagem" aria-label="Texto da mensagem" readOnly={!minha} style={{ lineHeight: 1.8 }} />
           ) : (
-            <Lousa tracos={c.tracos} altura={c.altura} mudar={minha ? (tracos, altura) => mc({ tracos, altura }) : undefined} leitura={!minha} rotulo="Mensagem escrita à mão" />
+            <Lousa tracos={c.tracos} altura={c.altura} blocos={c.blocos || []} mudar={minha ? (tracos, altura, blocos) => mc({ tracos, altura, ...(blocos ? { blocos } : {}) }) : undefined} leitura={!minha} rotulo="Mensagem escrita"
+              aoInserir={(tipo) => new Promise((resolve) => setEscolha({ tipo, resolve }))} />
           )}
         </section>
 
@@ -166,8 +170,15 @@ export function Mensagem({ id }: { id: string }) {
           </>
         ) : null}
       </main>
+      {escolha ? (
+        <Painel titulo={escolha.tipo === 'biblia' ? 'Texto da Bíblia' : 'Algo que salvei'} sub="Colocar na folha" fechar={() => { escolha.resolve(null); setEscolha(null); }}>
+          {escolha.tipo === 'biblia' ? (
+            <SeletorRef id="refBuscaFolha" biblia={biblia} aoEscolher={(chave) => { const t = textoChave(chave, biblia) || ''; escolha.resolve({ titulo: rotuloChave(chave), texto: t }); setEscolha(null); }} />
+          ) : <EscolherSalvo aoEscolher={(r) => { escolha.resolve(r); setEscolha(null); }} />}
+        </Painel>
+      ) : null}
       {saida ? (
-        <div className="fixed inset-0 z-50 grid place-items-center bg-black/40 p-4" role="dialog" aria-modal="true" aria-label="Sair da mensagem">
+        <div className="fixed inset-0 z-[85] grid place-items-center bg-black/40 p-4" role="dialog" aria-modal="true" aria-label="Sair da mensagem">
           <div className="cartao w-full max-w-sm">
             <h2 className="tit">Sair da mensagem?</h2>
             <p className="my-3 text-[15px]">“{m.titulo || 'Sem título'}” ainda está em rascunho. O que você quer fazer?</p>

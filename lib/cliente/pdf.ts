@@ -49,10 +49,10 @@ export async function gerarPdf(m: Mensagem, biblia: BibliaDados | null): Promise
     }
   }
   if (c.texto.trim()) { titulo('Mensagem'); paragrafo(c.texto); }
-  if (c.tracos.length) {
+  if (c.tracos.length || (c.blocos || []).length) {
     titulo('Anotações à mão');
-    const altura = Math.min(c.altura, alturaUsada(c.tracos) + 40);
-    const img = tracosEmImagem(c.tracos, altura, 1100);
+    const altura = Math.min(c.altura, alturaUsada(c.tracos, c.blocos || []) + 40);
+    const img = tracosEmImagem(c.tracos, altura, 1100, c.blocos || []);
     let resto = (altura / 1000) * larg, origem = 0;
     // a folha pode ser mais alta que a página: é fatiada
     while (resto > 0 && img) {
