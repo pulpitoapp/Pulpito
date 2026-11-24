@@ -223,25 +223,28 @@ function textoPlano(t: string) {
 export function PainelComentario({ l, c, v, com, fechar }: { l: number; c: number; v: number; com: Comentario; fechar: () => void }) {
   const { avisar } = useApp();
   const ref = `${LIVROS[l]} ${c + 1}:${v}`;
-  async function compartilhar(s: Secao) {
-    const texto = `${ref} — ${s.titulo}${s.grego ? ` (${s.grego})` : ''}\n\n${textoPlano(s.texto)}\n\n— ${com.autor}, ${com.obra} (${com.ano}). Tradução para o português feita pelo app Púlpito.`;
+  const [ocupado, setOcupado] = useState(false);
+  async function compartilhar(secoes: Secao[]) {
+    if (ocupado) return;
+    setOcupado(true);
     try {
-      if (navigator.share) { await navigator.share({ title: `${ref} — ${s.titulo}`, text: texto }); return; }
-      await navigator.clipboard.writeText(texto); avisar('Comentário copiado');
-    } catch (e) {
-      if ((e as Error)?.name === 'AbortError') return;
-      try { await navigator.clipboard.writeText(texto); avisar('Comentário copiado'); } catch { avisar('Não foi possível compartilhar'); }
-    }
+      const [{ gerarPdfComentario }, { compartilharArquivo }] = await Promise.all([import('@/lib/cliente/pdfComentario'), import('@/lib/cliente/pdf')]);
+      const arq = await gerarPdfComentario({ ref, autor: com.autor, obra: com.obra, ano: com.ano, secoes }, textoPlano);
+      const r = await compartilharArquivo(arq, `${ref} — comentário`);
+      if (r === 'baixado') avisar('PDF baixado');
+    } catch { avisar('Não foi possível gerar o PDF. Abra o app uma vez com internet e tente de novo.'); }
+    finally { setOcupado(false); }
   }
   return (
     <Painel titulo={`${LIVROS[l]} ${c + 1}:${v}`} sub={`Comentário · ${com.autor}`} fechar={fechar}>
       <p className="ajuda !mt-0">{com.autor}, <i>{com.obra}</i> ({com.ano}). Toque num tópico para abrir.</p>
+      <button type="button" className="btn btn-pri mt-2 w-full gap-2" disabled={ocupado} onClick={() => void compartilhar(com.secoes)}><IcoCompartilhar /> {ocupado ? 'Gerando o PDF…' : 'Compartilhar o comentário completo em PDF'}</button>
       {com.secoes.map((s, i) => (
         <details key={i} className="cartao mt-3 !p-4" open={i === 0}>
           <summary className="topico flex cursor-pointer items-start gap-2 text-[17px] font-bold">
             <span className="seta" aria-hidden="true">▸</span>
             <span className="flex-1">{s.titulo}{s.grego ? <span className="inter-gre !text-[17px] font-normal"> · {s.grego}</span> : null}</span>
-            <button type="button" className="redondo !h-10 !w-10 shrink-0" aria-label={`Compartilhar: ${s.titulo}`} onClick={(e) => { e.preventDefault(); e.stopPropagation(); void compartilhar(s); }}><IcoCompartilhar /></button>
+            <button type="button" className="redondo !h-10 !w-10 shrink-0" aria-label={`Compartilhar em PDF: ${s.titulo}`} disabled={ocupado} onClick={(e) => { e.preventDefault(); e.stopPropagation(); void compartilhar([s]); }}><IcoCompartilhar /></button>
           </summary>
           <div className="mt-2 space-y-3">
             {s.texto.split(/\n\n+/).map((par, j) => <TextoVerbete key={j} def={par} fechar={fechar} />)}
