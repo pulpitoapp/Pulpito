@@ -13,6 +13,7 @@ const eslintConfig = defineConfig([
     },
   },
   globalIgnores([
+    "supabase/functions/**",
     'referencia/**',
     'public/sw.js',
     'scripts/gerar-icones.cjs',

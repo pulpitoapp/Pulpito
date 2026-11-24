@@ -184,3 +184,15 @@ describe('leitura e uso', () => {
     await falha(ANA, `insert into leituras (ref) values ('qualquer coisa')`);
   });
 });
+
+describe('notificações', () => {
+  it('ninguém de fora lê as chaves internas', async () => {
+    await falha(ANA, `select public.config_ler('segredo_cron')`);
+    await falha(ANA, `select * from privado.config`);
+  });
+  it('cada um vê só as próprias inscrições', async () => {
+    await como(ANA, `insert into push_inscricoes (endpoint, p256dh, auth) values ('https://push.exemplo/ana', 'x', 'y')`);
+    expect(await como(BETO, 'select endpoint from push_inscricoes')).toEqual([]);
+    await falha(BETO, `insert into push_inscricoes (endpoint, usuario_id, p256dh, auth) values ('https://push.exemplo/b', '${ANA}', 'x', 'y')`);
+  });
+});

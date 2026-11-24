@@ -323,3 +323,30 @@ create policy leituras_dono on public.leituras for all to authenticated
 drop policy if exists uso_dono on public.uso_diario;
 create policy uso_dono on public.uso_diario for all to authenticated
   using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar());
+
+-- Notificações do texto do dia (Web Push). As chaves e o segredo do agendamento ficam em privado.config,
+-- que só o servidor (service_role) lê. O envio é feito pela função supabase/functions/texto-do-dia,
+-- chamada pelo pg_cron todo dia às 11:00 UTC (08:00 em Brasília) — ver README.
+create schema if not exists privado;
+revoke all on schema privado from public, anon, authenticated;
+create table if not exists privado.config (chave text primary key, valor text not null);
+revoke all on privado.config from public, anon, authenticated;
+create or replace function public.config_ler(p_chave text) returns text
+language sql security definer set search_path = '' as $$ select valor from privado.config where chave = p_chave $$;
+create or replace function public.config_gravar(p_chave text, p_valor text) returns void
+language sql security definer set search_path = '' as $$
+  insert into privado.config (chave, valor) values (p_chave, p_valor) on conflict (chave) do nothing $$;
+revoke all on function public.config_ler(text) from public, anon, authenticated;
+revoke all on function public.config_gravar(text, text) from public, anon, authenticated;
+create table if not exists public.push_inscricoes (
+  endpoint text primary key check (char_length(endpoint) < 1000 and endpoint like 'https://%'),
+  usuario_id uuid not null default auth.uid() references public.perfis (id) on delete cascade,
+  p256dh text not null check (char_length(p256dh) < 200),
+  auth text not null check (char_length(auth) < 100),
+  criado_em timestamptz not null default now()
+);
+alter table public.push_inscricoes enable row level security;
+grant select, insert, update, delete on public.push_inscricoes to authenticated;
+drop policy if exists push_dono on public.push_inscricoes;
+create policy push_dono on public.push_inscricoes for all to authenticated
+  using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar());

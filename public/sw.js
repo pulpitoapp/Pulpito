@@ -1,6 +1,6 @@
 // Service worker do Púlpito: guarda o app e os dados bíblicos no aparelho para uso sem internet.
 // Funciona tanto na raiz do site quanto numa subpasta (usa endereços relativos).
-const VERSAO = 'pulpito-v6';
+const VERSAO = 'pulpito-v7';
 const RAIZ = new URL('./', self.location).pathname;            // ex.: "/" ou "/pulpito/"
 const BASE = ['', 'biblia.json', 'dados/titulos.json', 'manifest.webmanifest', 'icone-192.png', 'icone-512.png'].map((p) => RAIZ + p);
 
@@ -45,4 +45,23 @@ self.addEventListener('fetch', (e) => {
       return r;
     })),
   );
+});
+
+// Notificação do texto do dia (enviada pelo servidor às 8h).
+self.addEventListener('push', (e) => {
+  let d = {};
+  try { d = e.data ? e.data.json() : {}; } catch { d = { corpo: e.data ? e.data.text() : '' }; }
+  e.waitUntil(self.registration.showNotification(d.titulo || 'Texto do dia', {
+    body: d.corpo || '', icon: RAIZ + 'icone-192.png', badge: RAIZ + 'icone-192.png', tag: 'texto-do-dia', data: { url: d.url || '#/' },
+  }));
+});
+
+// Ao tocar na notificação: abre o app no texto (e nos comentários, quando houver).
+self.addEventListener('notificationclick', (e) => {
+  e.notification.close();
+  const destino = RAIZ + (e.notification.data && e.notification.data.url ? e.notification.data.url : '');
+  e.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then((abertas) => {
+    for (const c of abertas) if (c.url.startsWith(self.location.origin + RAIZ) && 'focus' in c) { c.navigate(destino); return c.focus(); }
+    return self.clients.openWindow(destino);
+  }));
 });

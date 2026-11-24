@@ -1,6 +1,7 @@
 'use client';
 import { escolherTema, lerTema, type Tema } from '@/lib/cliente/tema';
-import { useState } from 'react';
+import { ativarNotificacoes, desativarNotificacoes, inscricaoAtual, precisaInstalarNoIphone, temSuporte } from '@/lib/cliente/notificacoes';
+import { useEffect, useState } from 'react';
 import { pendentes, sincronizar, useDados } from '@/lib/cliente/dados';
 import { supa } from '@/lib/cliente/supabase';
 import { Cabecalho, Confirmar } from './Cabecalho';
@@ -39,6 +40,8 @@ export function TelaPerfil() {
         </form>
 
         <a href="#/leitura" className="cartao block no-underline"><p className="rotulo !mb-1">Minha leitura</p><span className="text-[15px]">Relatório de leitura, tempo de uso e marcar o que já leu →</span></a>
+
+        <NotificacaoTextoDoDia />
 
         <section className="cartao">
           <p className="rotulo">Aparência</p>
@@ -83,5 +86,34 @@ export function TelaPerfil() {
           onNao={() => setConfirmarSaida(false)} onSim={() => void sair()} />
       ) : null}
     </>
+  );
+}
+
+/** Ligar/desligar o texto do dia às 8h. */
+function NotificacaoTextoDoDia() {
+  const { avisar } = useApp();
+  const [ligada, setLigada] = useState<boolean | null>(null);
+  const [ocupado, setOcupado] = useState(false);
+  useEffect(() => { void inscricaoAtual().then((s) => setLigada(!!s)).catch(() => setLigada(false)); }, []);
+  const suporte = typeof window !== 'undefined' && temSuporte();
+  const instalar = typeof window !== 'undefined' && precisaInstalarNoIphone();
+  return (
+    <section className="cartao">
+      <p className="rotulo">Texto do dia às 8h</p>
+      {instalar ? (
+        <p className="m-0 text-[15px]">No iPhone, a notificação só funciona com o Púlpito na Tela de Início: no Safari, toque em <b>Compartilhar</b> e depois em <b>Adicionar à Tela de Início</b>. Abra o app pelo ícone e volte aqui.</p>
+      ) : !suporte ? (
+        <p className="m-0 text-[15px] text-mute">Este navegador não aceita notificações.</p>
+      ) : (
+        <>
+          <p className="m-0 text-[15px]">Receba todo dia às 8h (horário de Brasília) um versículo de encorajamento. Ao tocar, abre o texto e os comentários, quando houver.</p>
+          <button type="button" className={`btn mt-3 w-full ${ligada ? '' : 'btn-pri'}`} disabled={ocupado || ligada === null} onClick={async () => {
+            setOcupado(true);
+            try { if (ligada) { await desativarNotificacoes(); setLigada(false); avisar('Notificação desligada'); } else { await ativarNotificacoes(); setLigada(true); avisar('Pronto! Você vai receber o texto do dia às 8h'); } }
+            catch (e) { avisar((e as Error).message); } finally { setOcupado(false); }
+          }}>{ocupado ? 'Aguarde…' : ligada ? 'Desligar a notificação' : 'Ligar a notificação'}</button>
+        </>
+      )}
+    </section>
   );
 }
