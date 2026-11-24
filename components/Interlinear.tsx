@@ -69,6 +69,7 @@ export function useCapituloInterlinear(l: number, c: number, ativo: boolean): Ca
 
 const hebraico = (l: number) => l < 39;
 const limparTr = (s: string) => s.replace(/[.]/g, '');
+const semPont = (s: string) => s.replace(/[\s,.;:·;!?]+$/u, '');
 
 /** As palavras de um versículo, lado a lado (da direita para a esquerda no hebraico). */
 export function PalavrasDoVerso({ l, palavras, aoTocar }: { l: number; palavras: Palavra[]; aoTocar: (p: Palavra) => void }) {
@@ -129,8 +130,8 @@ export function PainelVerbete({ l, palavra, fechar }: { l: number; palavra: Pala
   const heb = hebraico(l);
   return (
     <Painel titulo={palavra[1]} sub={heb ? 'Hebraico' : 'Grego'} fechar={fechar}>
-      <p className={`m-0 text-center ${heb ? 'inter-heb' : 'inter-gre'} !text-[40px]`} dir={heb ? 'rtl' : 'ltr'} lang={heb ? 'he' : 'el'}>{palavra[0]}</p>
-      <p className="mt-1 text-center text-[15px]">Neste versículo: <b>{palavra[2]}</b></p>
+      <p className={`m-0 text-center ${heb ? 'inter-heb' : 'inter-gre'} !text-[40px]`} dir={heb ? 'rtl' : 'ltr'} lang={heb ? 'he' : 'el'}>{semPont(palavra[0])}</p>
+      <p className="mt-1 text-center text-[15px]">Neste versículo: <b>{semPont(palavra[2])}</b></p>
       {v === null ? <p className="text-mute">Abrindo o dicionário…</p> : v === 'erro' ? <p className="text-mute">Sem verbete para esta palavra. Abra o app uma vez com internet para guardar o dicionário.</p> : (
         <section className="cartao mt-4 !p-4">
           <p className="rot m-0">Forma no dicionário</p>
