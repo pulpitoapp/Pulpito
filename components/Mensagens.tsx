@@ -7,6 +7,7 @@ import { novaMensagem, salvarMensagem, useDados } from '@/lib/cliente/dados';
 import { pref } from '@/lib/cliente/local';
 import { Cabecalho, Carregando } from './Cabecalho';
 import { ir, useApp } from './contexto';
+import { AbasMensagens } from './Documentos';
 import { IcoCadeado, IcoGlobo } from './Icones';
 
 const dataBR = (iso: string) => new Date(iso).toLocaleDateString('pt-BR');
@@ -47,6 +48,7 @@ export function Mensagens() {
         <button type="button" className="btn btn-pri btn-mini" onClick={criar}>+ Nova</button>
       </Cabecalho>
       <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2">
+        <AbasMensagens atual="mensagens" />
         <input className="campo" type="search" placeholder="Buscar por palavra, título, tema ou texto bíblico" value={busca} onChange={(e) => setBusca(e.target.value)} aria-label="Buscar mensagens" />
         <div className="flex gap-2" role="group" aria-label="Quais mensagens">
           {(['minhas', 'publicas'] as const).map((k) => (

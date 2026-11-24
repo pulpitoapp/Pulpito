@@ -12,6 +12,7 @@ import { IcoBiblia, IcoInicio, IcoMais, IcoMensagens, IcoPerfil } from './Icones
 import { CompletarPerfil, Entrar, NovaSenha } from './Entrar';
 import { Inicio } from './Inicio';
 import { Mensagens } from './Mensagens';
+import { DocumentoTela, Documentos } from './Documentos';
 import { Mensagem } from './Mensagem';
 import { Biblia } from './Biblia';
 import { TelaPerfil } from './TelaPerfil';
@@ -108,6 +109,8 @@ export function App() {
     const [modulo, a] = partes;
     if (modulo === 'mensagens' && a) tela = <Mensagem key={a} id={a} />;
     else if (modulo === 'mensagens') tela = <Mensagens />;
+    else if (modulo === 'documentos' && a) tela = <DocumentoTela key={a} id={a} />;
+    else if (modulo === 'documentos') tela = <Documentos />;
     else if (modulo === 'biblia') tela = <Biblia alvo={partes.slice(1).map(Number)} />;
     else if (modulo === 'perfil') tela = <TelaPerfil />;
     else if (modulo === 'admin') tela = perfil.papel === 'admin' ? <Admin /> : <Inicio />;
@@ -129,7 +132,7 @@ export function App() {
           <a href="#/" aria-current={aba === '/' ? 'page' : undefined}><IcoInicio />Início</a>
           <a href="#/biblia" aria-current={aba === '/biblia' ? 'page' : undefined}><IcoBiblia />Bíblia</a>
           <a href="#/mensagens" onClick={(e) => { e.preventDefault(); const m = novaMensagem(perfil.id); salvarMensagem(m); ir(`/mensagens/${m.id}`); }} aria-label="Nova mensagem"><span className="fab"><IcoMais /></span>Nova</a>
-          <a href="#/mensagens" aria-current={aba === '/mensagens' ? 'page' : undefined}><IcoMensagens />Mensagens</a>
+          <a href="#/mensagens" aria-current={aba === '/mensagens' || aba === '/documentos' ? 'page' : undefined}><IcoMensagens />Mensagens</a>
           <a href="#/perfil" aria-current={aba === '/perfil' || aba === '/admin' ? 'page' : undefined}><IcoPerfil />Perfil</a>
         </nav>
       ) : null}

@@ -33,6 +33,7 @@ export type Conteudo = {
   refs: TextoUsado[];     // textos bíblicos usados
   tracos: Traco[];        // mensagem escrita à mão
   altura: number;         // altura da folha de escrita (em medidas de 0 a 1000 da largura)
+  docs?: string[];        // documentos anexados (de Meus documentos)
 };
 
 export type Mensagem = {

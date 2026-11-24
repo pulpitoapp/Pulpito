@@ -7,6 +7,7 @@ import { apagarMensagem, apagarPregacao, novoId, salvarMensagem, salvarPregacao,
 import { compartilharArquivo, gerarPdf } from '@/lib/cliente/pdf';
 import { Cabecalho, Carregando, Confirmar } from './Cabecalho';
 import { ir, useApp } from './contexto';
+import { AnexosDaMensagem } from './Documentos';
 import { Lousa } from './Lousa';
 import { SeletorRef } from './SeletorRef';
 
@@ -114,6 +115,13 @@ export function Mensagem({ id }: { id: string }) {
             <Lousa tracos={c.tracos} altura={c.altura} mudar={minha ? (tracos, altura) => mc({ tracos, altura }) : undefined} leitura={!minha} rotulo="Mensagem escrita à mão" />
           )}
         </section>
+
+        {minha ? (
+          <section aria-label="Documentos anexados">
+            <p className="rotulo">Documentos anexados</p>
+            <AnexosDaMensagem ids={c.docs || []} mudar={(docs) => mc({ docs })} pode={minha} />
+          </section>
+        ) : null}
 
         {minha ? (
           <>

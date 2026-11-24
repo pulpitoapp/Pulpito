@@ -37,6 +37,8 @@ jobs:
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
           NEXT_PUBLIC_SUPABASE_URL: https://efyzegejfmtoveyvxxrm.supabase.co
           NEXT_PUBLIC_SUPABASE_ANON_KEY: sb_publishable_6zTcUPqCoJ5XBldOHkp3Mw_1f7O9j0o
+          # ID público do cliente Google (Drive da própria pessoa, permissão drive.file)
+          NEXT_PUBLIC_GOOGLE_CLIENT_ID: 630226363633-0cjhcf443c6kidq81o323f21je7suc6t.apps.googleusercontent.com
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:

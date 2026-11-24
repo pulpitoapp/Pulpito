@@ -6,6 +6,7 @@ import { LIVROS, limparVerso } from '@/lib/biblia';
 import { BASE, useBiblia } from '@/lib/cliente/bibliaDados';
 import { ir, useApp } from './contexto';
 import { IcoCompartilhar, IcoVoltar } from './Icones';
+import { SalvarEmDocumentos } from './Documentos';
 import { Painel } from './Paineis';
 
 export type Secao = { titulo: string; original: string; texto: string };
@@ -83,7 +84,8 @@ export function comentariosDoVerso(com: Record<string, Capitulo> | null, v: numb
 }
 
 // ---------- texto com referências que abrem um balão ----------
-function Balao({ r, fechar }: { r: Ref; fechar: () => void }) {
+export type { Ref };
+export function Balao({ r, fechar }: { r: Ref; fechar: () => void }) {
   const biblia = useBiblia('blivre');
   const cap = Array.isArray(biblia) ? biblia[r.l]?.[2]?.[r.c - 1] : null;
   const ini = r.v || 1, fim = r.v ? (r.v2 || r.v) : Math.min(cap?.length || 0, 10);
@@ -127,7 +129,7 @@ function Paragrafo({ texto, aoRef }: { texto: string; aoRef: (r: Ref) => void })
   return <p className="m-0 text-[16px] leading-relaxed">{out}</p>;
 }
 
-function Secoes({ secoes, aoRef, aoCompartilhar, ocupado, abrirPrimeira = true }: { secoes: Secao[]; aoRef: (r: Ref) => void; aoCompartilhar?: (s: Secao) => void; ocupado?: boolean; abrirPrimeira?: boolean }) {
+export function Secoes({ secoes, aoRef, aoCompartilhar, ocupado, abrirPrimeira = true }: { secoes: Secao[]; aoRef: (r: Ref) => void; aoCompartilhar?: (s: Secao) => void; ocupado?: boolean; abrirPrimeira?: boolean }) {
   return (
     <>
       {secoes.map((s, i) => (
@@ -147,6 +149,17 @@ function Secoes({ secoes, aoRef, aoCompartilhar, ocupado, abrirPrimeira = true }
 // ---------- painel ----------
 type Tela = { tipo: 'lista' } | { tipo: 'obra'; obra: string } | { tipo: 'comparar' };
 
+/** Gera e compartilha o PDF de um ou mais comentários. */
+export async function compartilharPdf(refVerso: string, blocos: { obra: string; secoes: Secao[] }[], sufixo: string): Promise<'compartilhado' | 'baixado' | 'cancelado'> {
+  const [{ gerarPdfComentario }, { compartilharArquivo }] = await Promise.all([import('@/lib/cliente/pdfComentario'), import('@/lib/cliente/pdf')]);
+  const arq = await gerarPdfComentario({ ref: refVerso, sufixo, blocos: blocos.map((b) => ({ ...OBRAS[b.obra], secoes: b.secoes })) }, textoPlano);
+  return compartilharArquivo(arq, `${refVerso} — comentário`);
+}
+export async function arquivoPdf(refVerso: string, blocos: { obra: string; secoes: Secao[] }[], sufixo: string): Promise<File> {
+  const { gerarPdfComentario } = await import('@/lib/cliente/pdfComentario');
+  return gerarPdfComentario({ ref: refVerso, sufixo, blocos: blocos.map((b) => ({ ...OBRAS[b.obra], secoes: b.secoes })) }, textoPlano);
+}
+
 export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: number; v: number; com: Record<string, Capitulo>; fechar: () => void }) {
   const { avisar } = useApp();
   const lista = comentariosDoVerso(com, v);
@@ -159,9 +172,7 @@ export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: numb
     if (ocupado) return;
     setOcupado(true);
     try {
-      const [{ gerarPdfComentario }, { compartilharArquivo }] = await Promise.all([import('@/lib/cliente/pdfComentario'), import('@/lib/cliente/pdf')]);
-      const arq = await gerarPdfComentario({ ref: refVerso, sufixo, blocos: blocos.map((b) => ({ ...OBRAS[b.obra], secoes: b.secoes })) }, textoPlano);
-      const r = await compartilharArquivo(arq, `${refVerso} — comentário`);
+      const r = await compartilharPdf(refVerso, blocos, sufixo);
       if (r === 'baixado') avisar('PDF baixado');
     } catch { avisar('Não foi possível gerar o PDF. Abra o app uma vez com internet e tente de novo.'); }
     finally { setOcupado(false); }
@@ -194,6 +205,7 @@ export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: numb
         {voltar}
         <p className="ajuda !mt-0">{o.autor}, <i>{o.obra}</i> ({o.ano}){x.ref ? ` · comenta os versículos ${x.ref}` : ''}. Toque num tópico para abrir.</p>
         <button type="button" className="btn btn-pri mt-2 w-full gap-2" disabled={ocupado} onClick={() => void pdf([x], o.autor)}><IcoCompartilhar /> {ocupado ? 'Gerando o PDF…' : 'Compartilhar em PDF'}</button>
+        <SalvarEmDocumentos titulo={`${refVerso} · ${o.autor}`} tipo="comentario" conteudo={{ ref: refVerso, l, c, v, blocos: [{ obra: x.obra, secoes: x.secoes }] }} />
         <Secoes secoes={x.secoes} aoRef={setRef} ocupado={ocupado} aoCompartilhar={(s) => void pdf([{ obra: x.obra, secoes: [s] }], s.titulo)} />
       </>
     );
@@ -204,6 +216,7 @@ export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: numb
         {voltar}
         <p className="ajuda !mt-0">Os comentários deste versículo, um depois do outro, para você comparar.</p>
         <button type="button" className="btn btn-pri mt-2 w-full gap-2" disabled={ocupado} onClick={() => void pdf(lista, 'comparação')}><IcoCompartilhar /> {ocupado ? 'Gerando o PDF…' : 'Compartilhar a comparação em PDF'}</button>
+        <SalvarEmDocumentos titulo={`${refVerso} · Comparação`} tipo="comparacao" conteudo={{ ref: refVerso, l, c, v, blocos: lista.map((x) => ({ obra: x.obra, secoes: x.secoes })) }} />
         {lista.map((x) => (
           <section key={x.obra} className="mt-5">
             <h3 className="comparar-tit">{OBRAS[x.obra].autor}<span className="rot ml-2">{OBRAS[x.obra].rotulo}</span></h3>
