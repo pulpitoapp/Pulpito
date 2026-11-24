@@ -21,7 +21,7 @@ export function Abertura() {
   return (
     <div className="abertura" role="img" aria-label="Púlpito" onClick={() => setVer(false)}>
       <div className="ab-centro">
-        <svg className="ab-svg" viewBox="0 0 96 96" aria-hidden="true">
+        <svg className="ab-svg" viewBox="0 12 96 72" aria-hidden="true">
           {/* capa e detalhes da Bíblia: somem depois que o marcador chega */}
           <g className="ab-extra">
             <path className="ab-capa-esq" d="M44 24C34 18 18 18 5 22V63C18 59 34 59 46 65L48 65V26Z" fill="#2c0b15" stroke="#c9a24a" strokeWidth=".8" />
