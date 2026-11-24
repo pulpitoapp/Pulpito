@@ -23,7 +23,7 @@ export type Perfil = {
 };
 
 /** Um traço feito à mão: cor, espessura, ferramenta, pontos [x, y, pressão] em medidas de 0 a 1000 da largura e opacidade (0 a 1). */
-export type Traco = { c: string; e: number; f: 'caneta' | 'marca' | 'lapis'; p: number[]; a?: number };
+export type Traco = { c: string; e: number; f: 'caneta' | 'fina' | 'marca' | 'lapis'; p: number[]; a?: number };
 /** Bloco de texto colocado na folha (texto bíblico ou algo salvo): posição e largura em medidas de 0 a 1000. */
 export type Bloco = { id: string; x: number; y: number; w: number; titulo: string; texto: string };
 

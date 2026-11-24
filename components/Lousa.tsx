@@ -7,11 +7,12 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Bloco, Traco } from '@/lib/tipos';
 import { pref } from '@/lib/cliente/local';
+import { BASE } from '@/lib/cliente/bibliaDados';
 
 export const PAGINA = 1414;                       // altura de uma página (proporção A4) em medidas da folha
-type Ferramenta = 'caneta' | 'lapis' | 'marca' | 'borracha' | 'laco';
+type Ferramenta = 'caneta' | 'fina' | 'lapis' | 'marca' | 'borracha' | 'laco';
 const CORES_PADRAO = ['#1a1a1a', '#1d6ee6', '#2f9e44', '#f2b705', '#e03131'];
-const ESPESSURA: Record<string, number> = { caneta: 3.2, lapis: 2.4, marca: 22 };
+const ESPESSURA: Record<string, number> = { caneta: 3.2, fina: 2.2, lapis: 2.4, marca: 22 };
 
 /** Desenha os traços num canvas. escala = pixels por unidade (a largura tem 1000 unidades). */
 export function desenharTracos(ctx: CanvasRenderingContext2D, tracos: Traco[], escala: number) {
@@ -133,7 +134,10 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   const [ativa, setAtiva] = useState(false);              // o dedo escreve (a caneta sempre escreve)
   const [ferramenta, setFerramenta] = useState<Ferramenta>('caneta');
   const [cores, setCores] = useState<string[]>(() => pref.ler('lousa-cores', CORES_PADRAO));
-  const [corIdx, setCorIdx] = useState(0);
+  // cada ferramenta lembra a sua cor (como no iPhone)
+  const [corPor, setCorPor] = useState<Record<string, number>>(() => pref.ler('lousa-cor-por', { caneta: 0, fina: 1, marca: 3, lapis: 4 }));
+  const corIdx = corPor[ferramenta] ?? 0;
+  const setCorIdx = (i: number) => { const n = { ...corPor, [ferramenta]: i }; setCorPor(n); pref.gravar('lousa-cor-por', n); };
   const [opacidade, setOpacidade] = useState(1);
   const [regua, setRegua] = useState(false);
   const [cheia, setCheia] = useState(false);
@@ -352,20 +356,13 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
 }
 
 // ---------- paleta flutuante ----------
-function IcoFerramenta({ f, cor }: { f: Ferramenta | 'regua'; cor: string }) {
-  // desenhos simples das ferramentas, com a ponta na cor escolhida
-  const corpo = '#f4f1ee', linha = '#8a7f82';
-  if (f === 'borracha') return <svg viewBox="0 0 24 48" aria-hidden="true"><rect x="5" y="10" width="14" height="36" rx="3" fill={corpo} stroke={linha} /><rect x="5" y="4" width="14" height="10" rx="3" fill="#f08c9b" /></svg>;
-  if (f === 'laco') return <svg viewBox="0 0 24 48" aria-hidden="true"><path d="M7 46V14l5-10 5 10v32z" fill={corpo} stroke={linha} /><path d="M9 14h6" stroke={linha} strokeDasharray="2 2" /></svg>;
-  if (f === 'regua') return <svg viewBox="0 0 24 48" aria-hidden="true"><rect x="5" y="4" width="14" height="42" rx="2" fill={corpo} stroke={linha} />{[10, 16, 22, 28, 34, 40].map((y) => <path key={y} d={`M5 ${y}h${y % 12 === 4 ? 7 : 4}`} stroke={linha} />)}</svg>;
-  const ponta = f === 'marca' ? <path d="M6 12h12l-2-8H8z" fill={cor} /> : f === 'lapis' ? <path d="M7 14L12 2l5 12z" fill="#e9c896" /> : <path d="M8 14L12 3l4 11z" fill={corpo} stroke={linha} />;
+function IcoFerramenta({ f, cor }: { f: Ferramenta | 'regua'; cor?: string }) {
   return (
-    <svg viewBox="0 0 24 48" aria-hidden="true">
-      <rect x={f === 'marca' ? 5 : 7} y="14" width={f === 'marca' ? 14 : 10} height="32" rx="2" fill={corpo} stroke={linha} />
-      {ponta}
-      {f === 'lapis' ? <path d="M10.5 6l1.5-4 1.5 4z" fill={cor} /> : f === 'caneta' ? <path d="M11 6l1-3 1 3z" fill={cor} /> : null}
-      <rect x={f === 'marca' ? 5 : 7} y="22" width={f === 'marca' ? 14 : 10} height="4" fill={cor} opacity=".85" />
-    </svg>
+    <span className="ico-ferr">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={`${BASE}/canetas/${f}.png`} alt="" draggable={false} />
+      {cor && f !== 'borracha' && f !== 'laco' && f !== 'regua' ? <i style={{ background: cor }} /> : null}
+    </span>
   );
 }
 
@@ -395,11 +392,11 @@ function Paleta(p: {
     return (
       <button type="button" className="paleta paleta-mini" style={estilo} aria-label="Abrir as ferramentas de escrita"
         onClick={() => { setMini(false); setPos(null); pref.gravar('lousa-paleta', null); }}>
-        <IcoFerramenta f={p.ferramenta === 'borracha' || p.ferramenta === 'laco' ? p.ferramenta : p.ferramenta} cor={p.cor} />
+        <IcoFerramenta f={p.ferramenta} cor={p.cor} />
       </button>
     );
   }
-  const ferramentas: [Ferramenta, string][] = [['caneta', 'Caneta'], ['lapis', 'Lápis'], ['marca', 'Marca-texto'], ['borracha', 'Borracha'], ['laco', 'Laço (selecionar e arrastar)']];
+  const ferramentas: [Ferramenta, string][] = [['caneta', 'Caneta'], ['fina', 'Caneta fina'], ['marca', 'Marca-texto'], ['lapis', 'Lápis'], ['borracha', 'Borracha'], ['laco', 'Laço (selecionar e arrastar)']];
   return (
     <div className="paleta" style={estilo} role="toolbar" aria-label="Ferramentas de escrita">
       <div className="paleta-alca" onPointerDown={arrastar} onPointerMove={mover} onPointerUp={soltar} aria-label="Arraste para mover as ferramentas" role="separator" />
@@ -411,10 +408,10 @@ function Paleta(p: {
         <div className="paleta-ferramentas">
           {ferramentas.map(([f, nome]) => (
             <button key={f} type="button" className="paleta-ferr" aria-pressed={p.ferramenta === f} aria-label={nome} title={nome} onClick={() => p.setFerramenta(f)}>
-              <IcoFerramenta f={f} cor={p.cor} />
+              <IcoFerramenta f={f} cor={p.ferramenta === f ? p.cor : undefined} />
             </button>
           ))}
-          <button type="button" className="paleta-ferr" aria-pressed={p.regua} aria-label="Régua (linha reta)" title="Régua (linha reta)" onClick={() => p.setRegua(!p.regua)}><IcoFerramenta f="regua" cor={p.cor} /></button>
+          <button type="button" className="paleta-ferr" aria-pressed={p.regua} aria-label="Régua (linha reta)" title="Régua (linha reta)" onClick={() => p.setRegua(!p.regua)}><IcoFerramenta f="regua" /></button>
         </div>
         <div className="paleta-cores">
           {p.cores.map((c, i) => <button key={i} type="button" className="paleta-cor" aria-pressed={p.corIdx === i} aria-label={`Cor ${i + 1}`} style={{ background: c }} onClick={() => p.setCorIdx(i)} />)}

@@ -350,3 +350,15 @@ grant select, insert, update, delete on public.push_inscricoes to authenticated;
 drop policy if exists push_dono on public.push_inscricoes;
 create policy push_dono on public.push_inscricoes for all to authenticated
   using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar());
+
+-- Plano de leitura em andamento (um por pessoa). Só o dono vê.
+create table if not exists public.planos_leitura (
+  usuario_id uuid primary key default auth.uid() references public.perfis (id) on delete cascade,
+  plano jsonb check (plano is null or pg_column_size(plano) < 500000),
+  atualizado_em timestamptz not null default now()
+);
+alter table public.planos_leitura enable row level security;
+grant select, insert, update, delete on public.planos_leitura to authenticated;
+drop policy if exists planos_dono on public.planos_leitura;
+create policy planos_dono on public.planos_leitura for all to authenticated
+  using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar());

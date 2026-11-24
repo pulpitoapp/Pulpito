@@ -1,9 +1,9 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { limparVerso, LIVROS } from '@/lib/biblia';
 import { useBiblia } from '@/lib/cliente/bibliaDados';
 import { textoDoDia } from '@/lib/textoDoDia';
-import { lerPlano } from './Planos';
+import { lerPlano, sincronizarPlano } from './Planos';
 import { versaoPorId, VERSOES } from '@/lib/versoes';
 import { novaMensagem, pendentes, salvarMensagem, useDados } from '@/lib/cliente/dados';
 import { pref } from '@/lib/cliente/local';
@@ -25,7 +25,8 @@ export function Inicio() {
   const minhas = dados.mensagens.filter((m) => m.autor_id === perfil.id);
   const fila = pendentes(dados);
   const leitura = resumo(useLeitura().lidos);
-  const [plano] = useState(() => lerPlano(perfil.id));
+  const [plano, setPlano] = useState(() => lerPlano(perfil.id));
+  useEffect(() => { void sincronizarPlano(perfil.id).then(setPlano); }, [perfil.id]);
   const bl = useBiblia('blivre');
   const td = textoDoDia(agora);
   const tdTexto = Array.isArray(bl) ? (bl[td.l]?.[2]?.[td.c - 1] || []).slice(td.v - 1, td.v2).map(limparVerso).join(' ') : '';

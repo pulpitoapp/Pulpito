@@ -6,6 +6,7 @@ import { limparVerso, LIVROS } from '@/lib/biblia';
 import { BASE, useBiblia } from '@/lib/cliente/bibliaDados';
 import { CAPITULOS, useLeitura } from '@/lib/cliente/leitura';
 import { pref } from '@/lib/cliente/local';
+import { supa } from '@/lib/cliente/supabase';
 import { Cabecalho, Carregando, Confirmar } from './Cabecalho';
 import { ir, useApp } from './contexto';
 
@@ -19,9 +20,37 @@ export const PLANOS = [
   { id: 'antigo', nome: 'Antigo Testamento em ordem cronológica', desc: 'Da Criação a Malaquias na ordem dos acontecimentos, em 365 dias.', arquivo: 'antigo-cronologico' },
 ];
 
+// O plano fica na conta (tabela planos_leitura) e uma cópia no aparelho para abrir sem internet.
 const chave = (uid: string) => `plano:${uid}`;
-export const lerPlano = (uid: string) => pref.ler<PlanoAtivo | null>(chave(uid), null);
-const gravarPlano = (uid: string, p: PlanoAtivo | null) => pref.gravar(chave(uid), p);
+type Guardado = { p: PlanoAtivo | null; quando: string; pendente?: boolean };
+const lerLocal = (uid: string): Guardado => {
+  const v = pref.ler<Guardado | PlanoAtivo | null>(chave(uid), null);
+  return v && 'quando' in v ? v : { p: (v as PlanoAtivo | null) || null, quando: '1970-01-01T00:00:00Z', pendente: !!v };
+};
+export const lerPlano = (uid: string) => lerLocal(uid).p;
+async function enviarPlano(uid: string, g: Guardado) {
+  const { error } = await supa().from('planos_leitura').upsert({ usuario_id: uid, plano: g.p, atualizado_em: g.quando });
+  if (!error) pref.gravar(chave(uid), { ...g, pendente: false });
+}
+const gravarPlano = (uid: string, p: PlanoAtivo | null) => {
+  const g = { p, quando: new Date().toISOString(), pendente: true };
+  pref.gravar(chave(uid), g);
+  void enviarPlano(uid, g).catch(() => {});
+};
+/** Traz o plano da conta (vale o mais recente entre o aparelho e a conta). */
+export async function sincronizarPlano(uid: string): Promise<PlanoAtivo | null> {
+  const local = lerLocal(uid);
+  try {
+    const { data, error } = await supa().from('planos_leitura').select('plano, atualizado_em').eq('usuario_id', uid).maybeSingle();
+    if (error) return local.p;
+    if (data && (!local.pendente || data.atualizado_em > local.quando)) {
+      pref.gravar(chave(uid), { p: data.plano as PlanoAtivo | null, quando: data.atualizado_em, pendente: false });
+      return data.plano as PlanoAtivo | null;
+    }
+    if (local.pendente) await enviarPlano(uid, local);
+  } catch { /* sem internet */ }
+  return local.p;
+}
 const rotulo = (k: string) => { const [l, c] = k.split('.').map(Number); return `${LIVROS[l]} ${c}`; };
 /** Junta capítulos seguidos do mesmo livro: "Gênesis 1-3, Jó 1". */
 export function resumoCaps(caps: string[]) {
@@ -55,6 +84,7 @@ export const proximoDia = (p: PlanoAtivo, total: number) => { for (let i = 0; i 
 export function Planos() {
   const { perfil } = useApp();
   const [plano, setPlano] = useState<PlanoAtivo | null>(() => lerPlano(perfil.id));
+  useEffect(() => { void sincronizarPlano(perfil.id).then(setPlano); }, [perfil.id]);
   const [quiz, setQuiz] = useState(false);
   const [trocar, setTrocar] = useState<null | (() => void)>(null);
   const salvar = (p: PlanoAtivo | null) => { setPlano(p); gravarPlano(perfil.id, p); };

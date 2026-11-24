@@ -196,3 +196,12 @@ describe('notificações', () => {
     await falha(BETO, `insert into push_inscricoes (endpoint, usuario_id, p256dh, auth) values ('https://push.exemplo/b', '${ANA}', 'x', 'y')`);
   });
 });
+
+describe('plano de leitura', () => {
+  it('cada um vê só o próprio plano', async () => {
+    await como(ANA, `insert into planos_leitura (plano) values ('{"id":"cronologico","feitos":[0,1]}')`);
+    expect((await como(ANA, 'select plano from planos_leitura')).length).toBe(1);
+    expect(await como(BETO, 'select plano from planos_leitura')).toEqual([]);
+    await falha(BETO, `insert into planos_leitura (usuario_id, plano) values ('${ANA}', '{}')`);
+  });
+});

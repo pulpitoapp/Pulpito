@@ -324,3 +324,10 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 .barra-selecao button { padding: 10px 14px; border-radius: 999px; color: #fff; font: 700 11px/1 var(--font-rotulo), monospace; letter-spacing: .12em; text-transform: uppercase; }
 .barra-selecao button:last-child { background: var(--ouro); color: #2a0c16; }
 .chip { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+/* canetas (imagens) na paleta */
+.ico-ferr { position: relative; display: block; width: 28px; height: 60px; overflow: hidden; }
+.ico-ferr img { width: 100%; height: auto; display: block; pointer-events: none; user-select: none; -webkit-user-drag: none; }
+.ico-ferr i { position: absolute; left: 50%; bottom: 3px; width: 8px; height: 8px; margin-left: -4px; border-radius: 50%; box-shadow: 0 0 0 1.5px #fff; }
+.paleta-ferr { width: 32px; height: 62px; transform: translateY(12px); }
+.paleta-ferr svg { display: none; }
+.paleta-mini .ico-ferr { width: 24px; height: 46px; }
