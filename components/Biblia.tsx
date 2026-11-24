@@ -9,7 +9,7 @@ import { pref } from '@/lib/cliente/local';
 import { PainelCartao } from './Cartao';
 import { Carregando } from './Cabecalho';
 import { ir, useApp } from './contexto';
-import { IcoApostila, IcoAvancar, IcoBusca, IcoEnviar, IcoLapis, IcoMarca, IcoMensagemAdd, IcoMenu, IcoOriginal, IcoRefs, IcoVoltar } from './Icones';
+import { IcoApostila, IcoBusca, IcoEnviar, IcoLapis, IcoMarca, IcoMensagemAdd, IcoMenu, IcoOriginal, IcoRefs, IcoVoltar } from './Icones';
 import { Painel, PainelEstudos, PainelNota, PainelRefs, PainelUsar } from './Paineis';
 import { OrdemOriginal, PainelOriginal, PainelVerbete, PalavrasDoVerso, temInterlinear, useCapituloInterlinear } from './Interlinear';
 import { comentariosDoVerso, PainelComentarios, useComentarios } from './Comentarios';
@@ -101,12 +101,20 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   const capPt = versao.idioma === 'pt' ? cap : pt[pos.l]?.[2]?.[pos.c] || [];
   const mudarPorPalavra = (x: boolean) => { setPorPalavra(x); pref.gravar('biblia-inter', x); };
   const irPara = (l: number, c: number, v?: number) => { setAchados(null); ir(`/biblia/${l}/${c}${v ? '/' + v : ''}`); };
-  const vizinho = (d: number) => {
+  /** Capítulo anterior (d = -1) ou próximo (d = 1), atravessando livros; null no começo/fim. */
+  const posVizinha = (d: number): { l: number; c: number } | null => {
     let { l, c } = pos; c += d;
     const [min, max] = versao.livros || [0, 65];
-    if (c < 0) { l--; if (l < min) return; c = biblia[l][2].length - 1; }
-    else if (c >= biblia[l][2].length) { l++; if (l > max) return; c = 0; }
-    irPara(l, c);
+    if (c < 0) { l--; if (l < min) return null; c = biblia[l][2].length - 1; }
+    else if (c >= biblia[l][2].length) { l++; if (l > max) return null; c = 0; }
+    return { l, c };
+  };
+  const vizinho = (d: number) => { const v = posVizinha(d); if (v) irPara(v.l, v.c); };
+  /** Títulos de seção do capítulo (para os cartões de anterior/próximo). */
+  const tituloDe = (v: { l: number; c: number }) => {
+    const t = titulos[v.l]?.[v.c + 1] || [];
+    // os dois primeiros títulos, ligados por "+"; reticências se houver mais
+    return t.slice(0, 2).map((x) => x[1]).join(' + ') + (t.length > 2 ? ' + …' : '');
   };
   const trocarVersao = (id: string) => { setVersaoId(id); pref.gravar('biblia-versao', id); indice.current = null; if (id === comparar) { setComparar(''); pref.gravar('biblia-comparar', ''); } };
   const tocar = (v: number) => { const n = new Set(sel); if (n.has(v)) n.delete(v); else n.add(v); setSel(n); if (!n.size) setAberto(null); };
@@ -207,11 +215,24 @@ export function Biblia({ alvo }: { alvo: number[] }) {
 
         {rtl || versao.idioma === 'el' ? <p className="ajuda mt-6">{rtl ? 'A numeração do texto hebraico difere em alguns pontos (títulos dos Salmos, Joel, Malaquias). A transliteração é automática e aproximada.' : 'Texto grego sem acentos, como na edição de origem.'}</p> : null}
 
-        <div className="mt-10 flex items-center justify-between">
-          <button type="button" className="redondo" onClick={() => vizinho(-1)} aria-label="Capítulo anterior"><IcoVoltar /></button>
-          <span className="rot">{versao.sigla}</span>
-          <button type="button" className="redondo" onClick={() => vizinho(1)} aria-label="Próximo capítulo"><IcoAvancar /></button>
-        </div>
+        {(() => {
+          const ant = posVizinha(-1), prox = posVizinha(1);
+          return (
+            <nav className="nav-cap mt-10" aria-label="Capítulos vizinhos">
+              {ant ? (
+                <button type="button" className="nav-cap-ant" onClick={() => vizinho(-1)} aria-label={`Capítulo anterior: ${LIVROS[ant.l]} ${ant.c + 1}`}>
+                  <span className="rot">‹ Anterior</span><b>{LIVROS[ant.l]} {ant.c + 1}</b>{tituloDe(ant) ? <i>{tituloDe(ant)}</i> : null}
+                </button>
+              ) : <span />}
+              {prox ? (
+                <button type="button" className="nav-cap-prox" onClick={() => vizinho(1)} aria-label={`Próximo capítulo: ${LIVROS[prox.l]} ${prox.c + 1}`}>
+                  <span className="rot">Próximo ›</span><b>{LIVROS[prox.l]} {prox.c + 1}</b>{tituloDe(prox) ? <i>{tituloDe(prox)}</i> : null}
+                </button>
+              ) : <span />}
+            </nav>
+          );
+        })()}
+        <p className="rot mt-4 text-center">{versao.sigla} · arraste o dedo para os lados para trocar de capítulo</p>
         <p className="ajuda mt-6 text-center">{versao.credito}</p>
       </main>
 
