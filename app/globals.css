@@ -136,3 +136,9 @@ summary.topico { list-style: none; }
 summary.topico::-webkit-details-marker { display: none; }
 summary.topico .seta { display: inline-block; width: 14px; margin-top: 1px; transition: transform .15s; }
 details[open] > summary.topico .seta { transform: rotate(90deg); }
+.ref-balao { color: var(--escuro); text-decoration: underline dotted; text-underline-offset: 3px; font-weight: 600; }
+.omitido { color: var(--mute); font-style: italic; font-size: .92em; }
+.comparar-tit { margin: 0; padding: 10px 14px; border-radius: 12px; background: var(--escuro); color: #fff; font-size: 17px; display: flex; flex-wrap: wrap; align-items: baseline; }
+.comparar-tit .rot { color: var(--ouro); }
+.fundo-balao { position: fixed; inset: 0; z-index: 70; background: rgba(30, 10, 16, .35); }
+.balao { position: fixed; z-index: 71; left: 16px; right: 16px; top: 50%; transform: translateY(-50%); max-width: 520px; margin: 0 auto; background: #fff; border-radius: 18px; padding: 18px; box-shadow: 0 18px 50px rgba(30, 10, 16, .35); border-top: 4px solid var(--ouro); }

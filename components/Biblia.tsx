@@ -11,7 +11,8 @@ import { Carregando } from './Cabecalho';
 import { ir, useApp } from './contexto';
 import { IcoApostila, IcoAvancar, IcoBusca, IcoEnviar, IcoLapis, IcoMarca, IcoMensagemAdd, IcoMenu, IcoOriginal, IcoRefs, IcoVoltar } from './Icones';
 import { Painel, PainelEstudos, PainelNota, PainelRefs, PainelUsar } from './Paineis';
-import { OrdemOriginal, PainelComentario, PainelOriginal, PainelVerbete, PalavrasDoVerso, temInterlinear, useCapituloInterlinear, useComentarioCapitulo } from './Interlinear';
+import { OrdemOriginal, PainelOriginal, PainelVerbete, PalavrasDoVerso, temInterlinear, useCapituloInterlinear } from './Interlinear';
+import { comentariosDoVerso, PainelComentarios, useComentarios } from './Comentarios';
 
 type Achado = { l: number; c: number; v: number };
 type Aberto = null | 'menu' | 'busca' | 'nota' | 'refs' | 'estudos' | 'usar' | 'cartao' | 'cores' | 'original';
@@ -69,7 +70,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   }, [chaveAlvo]);
 
   // se a versão não tem o livro aberto (ex.: hebraico no Novo Testamento), vai para o primeiro que tem
-  useEffect(() => { if (!temLivro(versao, pos.l)) setPos({ l: versao.livros![0], c: 0 }); }, [versao, pos.l]);
+  useEffect(() => { if (!temLivro(versao, pos.l)) setPos((p) => (temLivro(versao, p.l) ? p : { l: versao.livros![0], c: 0 })); }, [versao, pos.l]);
 
   const cap = Array.isArray(biblia) ? biblia[pos.l]?.[2]?.[pos.c] : undefined;
   useEffect(() => {
@@ -82,7 +83,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   }, [cap, pos]);
 
   const inter = useCapituloInterlinear(pos.l, pos.c, porPalavra && ehOriginal);
-  const comentarios = useComentarioCapitulo(pos.l, pos.c, porPalavra && ehOriginal);
+  const comentarios = useComentarios(pos.l, pos.c, porPalavra && ehOriginal);
   const selOrdenada = useMemo(() => [...sel].sort((a, b) => a - b), [sel]);
   const primeiro = selOrdenada[0];
 
@@ -181,7 +182,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
                     <>
                       <OrdemOriginal l={pos.l} palavras={inter[v]} />
                       <PalavrasDoVerso l={pos.l} palavras={inter[v]} aoTocar={setPalavra} />
-                      {comentarios?.[v] ? <button type="button" className="chip -mt-2 mb-5" onClick={() => setComentarioV(v)}>Comentário · {comentarios[v].autor}</button> : null}
+                      {(() => { const n = comentariosDoVerso(comentarios, v).length; return n ? <button type="button" className="chip -mt-2 mb-5" onClick={() => setComentarioV(v)}>Comentários ({n})</button> : null; })()}
                     </>
                   ) : inter === 'erro' ? <p className="ajuda">Não foi possível abrir o original. Abra uma vez com internet.</p> : null
                 ) : (
@@ -239,7 +240,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
       {aberto === 'nota' && primeiro ? <PainelNota chave={`${pos.l}.${pos.c}.${primeiro}`} rotulo={formatarRef({ l: pos.l, c: pos.c, v: primeiro })} fechar={() => setAberto(null)} /> : null}
       {aberto === 'refs' && primeiro ? <PainelRefs l={pos.l} c={pos.c} v={primeiro} biblia={pt} fechar={() => setAberto(null)} /> : null}
       {aberto === 'original' && primeiro ? <PainelOriginal l={pos.l} c={pos.c} v={primeiro} textoPt={limparVerso(capPt[primeiro - 1] || '')} fechar={() => setAberto(null)} /> : null}
-      {comentarioV && comentarios?.[comentarioV] ? <PainelComentario l={pos.l} c={pos.c} v={comentarioV} com={comentarios[comentarioV]} fechar={() => setComentarioV(null)} /> : null}
+      {comentarioV && comentarios ? <PainelComentarios key={`${pos.l}.${pos.c}.${comentarioV}`} l={pos.l} c={pos.c} v={comentarioV} com={comentarios} fechar={() => setComentarioV(null)} /> : null}
       {palavra ? <PainelVerbete l={pos.l} palavra={palavra} fechar={() => setPalavra(null)} /> : null}
       {aberto === 'estudos' ? <PainelEstudos l={pos.l} c={pos.c} fechar={() => setAberto(null)} /> : null}
       {aberto === 'usar' ? <PainelUsar refChave={chaveSel} rotulo={refSel} fechar={() => setAberto(null)} /> : null}
