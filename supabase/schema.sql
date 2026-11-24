@@ -72,6 +72,25 @@ create table if not exists public.notas (
   primary key (usuario_id, ref)
 );
 
+-- Meus documentos: pastas e documentos salvos (comentários, comparações). Só o dono vê.
+create table if not exists public.pastas (
+  id uuid primary key default gen_random_uuid(),
+  usuario_id uuid not null default auth.uid() references public.perfis (id) on delete cascade,
+  nome text not null check (char_length(nome) between 1 and 80),
+  criado_em timestamptz not null default now()
+);
+create table if not exists public.documentos (
+  id uuid primary key default gen_random_uuid(),
+  usuario_id uuid not null default auth.uid() references public.perfis (id) on delete cascade,
+  pasta_id uuid references public.pastas (id) on delete set null,
+  titulo text not null default '' check (char_length(titulo) <= 200),
+  tipo text not null default 'comentario' check (tipo in ('comentario', 'comparacao', 'anotacao')),
+  conteudo jsonb not null default '{}'::jsonb check (pg_column_size(conteudo) < 1000000),
+  drive_id text,
+  criado_em timestamptz not null default now(),
+  atualizado_em timestamptz not null default now()
+);
+
 -- Acervo de apostilas da ICM: trechos mostrados ao lado das passagens
 create table if not exists public.apostilas (
   id uuid primary key default gen_random_uuid(),
@@ -267,3 +286,17 @@ revoke all on function public.confirmar_email_automatico() from public, anon, au
 drop trigger if exists confirmar_email_automatico on auth.users;
 create trigger confirmar_email_automatico before insert on auth.users
   for each row execute function public.confirmar_email_automatico();
+
+-- Meus documentos: índices, acesso e regras (só o dono)
+create index if not exists documentos_usuario on public.documentos (usuario_id, atualizado_em desc);
+create index if not exists pastas_usuario on public.pastas (usuario_id);
+alter table public.pastas enable row level security;
+alter table public.documentos enable row level security;
+grant select, insert, update, delete on public.pastas, public.documentos to authenticated;
+drop policy if exists pastas_dono on public.pastas;
+create policy pastas_dono on public.pastas for all to authenticated
+  using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar());
+drop policy if exists documentos_dono on public.documentos;
+create policy documentos_dono on public.documentos for all to authenticated
+  using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar()
+    and (pasta_id is null or exists (select 1 from public.pastas p where p.id = pasta_id and p.usuario_id = auth.uid())));

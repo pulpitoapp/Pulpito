@@ -156,3 +156,19 @@ describe('administrador e apostilas', () => {
     expect(await como(ANA, 'select ref from destaques')).toHaveLength(0);
   });
 });
+
+describe('meus documentos', () => {
+  it('cada um vê e mexe só nas próprias pastas e documentos', async () => {
+    await como(ANA, `insert into pastas (id, nome) values ('cccccccc-cccc-cccc-cccc-cccccccccccc', 'Estudos')`);
+    await como(ANA, `insert into documentos (titulo, pasta_id, conteudo) values ('João 1:1', 'cccccccc-cccc-cccc-cccc-cccccccccccc', '{"ref":"João 1:1"}')`);
+    expect(await como(ANA, 'select titulo from documentos')).toEqual([{ titulo: 'João 1:1' }]);
+    expect(await como(BETO, 'select titulo from documentos')).toEqual([]);
+    expect(await como(BETO, 'select nome from pastas')).toEqual([]);
+    expect(await como(BETO, `update documentos set titulo = 'x'`)).toEqual([]);
+    expect(await como(BETO, `delete from pastas`)).toEqual([]);
+  });
+  it('não deixa guardar documento na pasta de outra pessoa nem em nome de outro', async () => {
+    await falha(BETO, `insert into documentos (titulo, pasta_id) values ('intruso', 'cccccccc-cccc-cccc-cccc-cccccccccccc')`);
+    await falha(BETO, `insert into documentos (usuario_id, titulo) values ('${ANA}', 'em nome da Ana')`);
+  });
+});
