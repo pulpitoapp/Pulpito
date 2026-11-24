@@ -16,6 +16,7 @@ import { Inicio } from './Inicio';
 import { Mensagens } from './Mensagens';
 import { DocumentoTela, Documentos } from './Documentos';
 import { Leitura } from './Leitura';
+import { Planos } from './Planos';
 import { Mensagem } from './Mensagem';
 import { Biblia } from './Biblia';
 import { TelaPerfil } from './TelaPerfil';
@@ -138,6 +139,7 @@ export function App() {
     else if (modulo === 'biblia') tela = <Biblia alvo={partes.slice(1).map(Number)} />;
     else if (modulo === 'perfil') tela = <TelaPerfil />;
     else if (modulo === 'leitura') tela = <Leitura />;
+    else if (modulo === 'planos') tela = <Planos />;
     else if (modulo === 'admin') tela = perfil.papel === 'admin' ? <Admin /> : <Inicio />;
     else tela = <Inicio />;
   }

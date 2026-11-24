@@ -1,0 +1,88 @@
+Lc 1; Mt 1 | Anúncios e genealogia de Jesus
+Lc 2; Mt 2 | O nascimento e a infância de Jesus
+Mt 3; Mc 1; Lc 3 | João Batista e o batismo de Jesus
+Mt 4; Lc 4; Jo 1 | A tentação; os primeiros discípulos
+Jo 2-4 | Caná, Nicodemos e a samaritana
+Mc 2; Lc 5; Jo 5 | Curas e controvérsias
+Mt 12; Mc 3; Lc 6 | Senhor do sábado; os Doze
+Mt 5-7 | O Sermão do Monte
+Mt 8; Lc 7; Mt 11 | O centurião; a pergunta de João
+Mt 13; Mc 4; Lc 8 | As parábolas do Reino
+Mc 5; Mt 9-10 | Poder sobre a morte; envio dos Doze
+Mt 14; Mc 6; Lc 9 | Morte de João; os cinco mil
+Jo 6; Mt 15; Mc 7 | O pão da vida; a tradição dos homens
+Mt 16; Mc 8; Mt 17 | A confissão de Pedro; a transfiguração
+Mc 9; Mt 18; Jo 7 | O maior no Reino; os Tabernáculos
+Jo 8-10 | A luz do mundo; o bom pastor
+Lc 10-12 | Os setenta; oração e vigilância
+Lc 13-15 | O banquete; as parábolas do perdido
+Lc 16-17; Jo 11 | O rico e Lázaro; Lázaro ressuscita
+Lc 18; Mt 19; Mc 10 | As crianças; o jovem rico
+Mt 20; Lc 19; Jo 12 | Zaqueu; a entrada triunfal
+Mt 21; Mc 11; Lc 20 | A purificação do templo; autoridade
+Mt 22; Mc 12; Mt 23 | Perguntas no templo; os ais
+Mt 24; Mc 13; Lc 21 | O sermão profético
+Mt 25-26 | As parábolas finais; a última ceia
+Mc 14; Lc 22; Jo 13 | A ceia e o Getsêmani
+Jo 14-17 | O discurso de despedida
+Jo 18; Mt 27; Mc 15 | Julgamento e crucificação
+Lc 23; Jo 19 | A morte e o sepultamento de Jesus
+Mt 28; Mc 16; Lc 24 | A ressurreição
+Jo 20-21; At 1 | Jesus ressuscitado; a ascensão
+At 2-3 | Pentecostes
+At 4-5 | Ousadia diante da perseguição
+At 6-7 | Estêvão
+At 8-9 | Filipe; a conversão de Saulo
+At 10-11 | Cornélio; a igreja em Antioquia
+At 12; Tg 1-2 | Pedro liberto; a fé que age
+Tg 3-5 | A língua, a humildade e a paciência
+At 13-14 | A primeira viagem missionária
+Gl 1-3 | Justificados pela fé
+Gl 4-6 | A liberdade em Cristo
+At 15-16 | O concílio de Jerusalém; Filipos
+At 17; 1Ts 1-2 | Tessalônica, Bereia e Atenas
+1Ts 3-5 | A vinda do Senhor
+2Ts 1-3 | Firmes até a vinda de Cristo
+At 18-19 | Corinto e Éfeso
+1Co 1-4 | Divisões na igreja
+1Co 5-8 | Pureza e liberdade
+1Co 9-11 | Direitos, culto e Ceia
+1Co 12-14 | Os dons e o amor
+1Co 15-16 | A ressurreição
+2Co 1-4 | O ministério da nova aliança
+2Co 5-7 | Embaixadores de Cristo
+2Co 8-10 | A graça de contribuir
+2Co 11-13 | O poder na fraqueza
+Rm 1-3 | Todos pecaram
+Rm 4-6 | Justificados pela fé
+Rm 7-8 | Nenhuma condenação
+Rm 9-11 | Israel e as nações
+Rm 12-14 | Sacrifício vivo
+Rm 15-16 | Os planos de Paulo; saudações
+At 20-21 | Despedida de Éfeso; Paulo preso
+At 22-23 | A defesa de Paulo
+At 24-26 | Diante de Félix, Festo e Agripa
+At 27-28 | O naufrágio; Paulo em Roma
+Ef 1-3 | As riquezas em Cristo
+Ef 4-6 | A nova vida; a armadura de Deus
+Fp 1-4 | A alegria em Cristo
+Cl 1-4; Fm 1 | A supremacia de Cristo; Onésimo
+1Tm 1-3 | Instruções a Timóteo
+1Tm 4-6 | O bom ministro de Cristo
+Tt 1-3 | A sã doutrina
+1Pe 1-2 | Esperança viva; povo de Deus
+1Pe 3-5 | Sofrer pelo bem
+2Tm 1-4 | "Combati o bom combate"
+2Pe 1-3 | Crescei na graça
+Hb 1-4 | Cristo, superior aos anjos
+Hb 5-7 | Sacerdote segundo Melquisedeque
+Hb 8-10 | A nova aliança
+Hb 11-13 | Os heróis da fé
+Jd 1; 1Jo 1-3 | Batalhar pela fé; Deus é luz
+1Jo 4-5; 2Jo 1; 3Jo 1 | Deus é amor
+Ap 1-3 | As cartas às sete igrejas
+Ap 4-7 | O trono e o Cordeiro
+Ap 8-11 | As trombetas
+Ap 12-14 | A mulher, o dragão e as bestas
+Ap 15-18 | As taças; a queda da Babilônia
+Ap 19-22 | Novo céu e nova terra

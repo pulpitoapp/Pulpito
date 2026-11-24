@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { limparVerso, LIVROS } from '@/lib/biblia';
 import { useBiblia } from '@/lib/cliente/bibliaDados';
 import { textoDoDia } from '@/lib/textoDoDia';
+import { lerPlano } from './Planos';
 import { versaoPorId, VERSOES } from '@/lib/versoes';
 import { novaMensagem, pendentes, salvarMensagem, useDados } from '@/lib/cliente/dados';
 import { pref } from '@/lib/cliente/local';
@@ -24,6 +25,7 @@ export function Inicio() {
   const minhas = dados.mensagens.filter((m) => m.autor_id === perfil.id);
   const fila = pendentes(dados);
   const leitura = resumo(useLeitura().lidos);
+  const [plano] = useState(() => lerPlano(perfil.id));
   const bl = useBiblia('blivre');
   const td = textoDoDia(agora);
   const tdTexto = Array.isArray(bl) ? (bl[td.l]?.[2]?.[td.c - 1] || []).slice(td.v - 1, td.v2).map(limparVerso).join(' ') : '';
@@ -93,6 +95,21 @@ export function Inicio() {
         </div>
         <p className="ajuda">{versaoPorId(versao).credito}</p>
       </section>
+
+      <a href="#/planos" className="banner-planos" aria-label="Planos de leitura">
+        <p className="rot m-0">Planos de leitura</p>
+        {plano ? (
+          <>
+            <h2 className="tit mt-1">{plano.nome}</h2>
+            <p className="m-0 mt-1 text-[15px]">{plano.feitos.length} {plano.feitos.length === 1 ? 'dia feito' : 'dias feitos'} · continuar a leitura de hoje →</p>
+          </>
+        ) : (
+          <>
+            <h2 className="tit mt-1">Leia a Bíblia com um plano</h2>
+            <p className="m-0 mt-1 text-[15px]">Em ordem cronológica, os Evangelhos em harmonia, só o Antigo Testamento ou um plano montado para você em 5 minutos →</p>
+          </>
+        )}
+      </a>
 
       <a href="#/leitura" className="cartao block no-underline" aria-label="Minha leitura">
         <p className="rot m-0">Minha leitura</p>
