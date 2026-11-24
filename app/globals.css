@@ -331,3 +331,14 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 .paleta-ferr { width: 32px; height: 62px; transform: translateY(12px); }
 .paleta-ferr svg { display: none; }
 .paleta-mini .ico-ferr { width: 24px; height: 46px; }
+/* fileira das canetas: a ponta de baixo fica "cortada" como no iPhone, sem invadir as cores */
+.paleta-ferramentas { height: 62px; overflow: hidden; }
+@media (max-width: 560px) {
+  .paleta-linha { row-gap: 10px; }
+  .paleta-ferramentas { order: 1; }
+  .paleta-grupo:first-child { order: 0; }
+  .paleta-cores { order: 2; }
+  .paleta-grupo:last-child { order: 3; }
+  .paleta-ferr { width: 36px; }
+  .ico-ferr { width: 30px; }
+}
