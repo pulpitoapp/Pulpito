@@ -342,3 +342,14 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
   .paleta-ferr { width: 36px; }
   .ico-ferr { width: 30px; }
 }
+/* canetas novas (5 ferramentas) */
+.paleta-ferramentas { height: 84px; gap: 4px; }
+.paleta-ferr { width: 38px; height: 84px; transform: translateY(16px); }
+.ico-ferr { width: 34px; height: 84px; }
+.ico-ferr i { bottom: 6px; width: 10px; height: 10px; margin-left: -5px; }
+@media (max-width: 560px) { .paleta-ferr { width: 44px; } .ico-ferr { width: 38px; } }
+.paleta-mini .ico-ferr { width: 22px; height: 44px; }
+.ico-ferr { height: 104px; }
+.ico-ferr i { bottom: 26px; }
+.paleta-ferr { align-items: flex-start; }
+.paleta-mini .ico-ferr i { display: none; }

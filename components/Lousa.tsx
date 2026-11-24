@@ -135,7 +135,7 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   const [ferramenta, setFerramenta] = useState<Ferramenta>('caneta');
   const [cores, setCores] = useState<string[]>(() => pref.ler('lousa-cores', CORES_PADRAO));
   // cada ferramenta lembra a sua cor (como no iPhone)
-  const [corPor, setCorPor] = useState<Record<string, number>>(() => pref.ler('lousa-cor-por', { caneta: 0, fina: 1, marca: 3, lapis: 4 }));
+  const [corPor, setCorPor] = useState<Record<string, number>>(() => pref.ler('lousa-cor-por', { caneta: 1, fina: 0, marca: 3 }));
   const corIdx = corPor[ferramenta] ?? 0;
   const setCorIdx = (i: number) => { const n = { ...corPor, [ferramenta]: i }; setCorPor(n); pref.gravar('lousa-cor-por', n); };
   const [opacidade, setOpacidade] = useState(1);
@@ -396,7 +396,7 @@ function Paleta(p: {
       </button>
     );
   }
-  const ferramentas: [Ferramenta, string][] = [['caneta', 'Caneta'], ['fina', 'Caneta fina'], ['marca', 'Marca-texto'], ['lapis', 'Lápis'], ['borracha', 'Borracha'], ['laco', 'Laço (selecionar e arrastar)']];
+  const ferramentas: [Ferramenta, string][] = [['caneta', 'Caneta'], ['fina', 'Caneta fina'], ['marca', 'Marca-texto'], ['borracha', 'Borracha'], ['laco', 'Laço (selecionar e arrastar)']];
   return (
     <div className="paleta" style={estilo} role="toolbar" aria-label="Ferramentas de escrita">
       <div className="paleta-alca" onPointerDown={arrastar} onPointerMove={mover} onPointerUp={soltar} aria-label="Arraste para mover as ferramentas" role="separator" />
@@ -411,7 +411,6 @@ function Paleta(p: {
               <IcoFerramenta f={f} cor={p.ferramenta === f ? p.cor : undefined} />
             </button>
           ))}
-          <button type="button" className="paleta-ferr" aria-pressed={p.regua} aria-label="Régua (linha reta)" title="Régua (linha reta)" onClick={() => p.setRegua(!p.regua)}><IcoFerramenta f="regua" /></button>
         </div>
         <div className="paleta-cores">
           {p.cores.map((c, i) => <button key={i} type="button" className="paleta-cor" aria-pressed={p.corIdx === i} aria-label={`Cor ${i + 1}`} style={{ background: c }} onClick={() => p.setCorIdx(i)} />)}
