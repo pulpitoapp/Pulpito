@@ -143,3 +143,24 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 .fundo-balao { position: fixed; inset: 0; z-index: 70; background: rgba(30, 10, 16, .35); }
 .balao { position: fixed; z-index: 71; left: 16px; right: 16px; top: 50%; transform: translateY(-50%); max-width: 520px; margin: 0 auto; background: #fff; border-radius: 18px; padding: 18px; box-shadow: 0 18px 50px rgba(30, 10, 16, .35); border-top: 4px solid var(--ouro); }
 .btn svg, .chip svg { width: 20px; height: 20px; flex: none; }
+
+/* ---------- abertura (3 s) ---------- */
+.abertura { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; background: #4a1626; animation: ab-sair .3s ease-in 2.7s forwards; cursor: pointer; }
+.ab-centro { display: flex; flex-direction: column; align-items: center; }
+.ab-svg { width: min(56vw, 240px); height: auto; overflow: visible; }
+.ab-svg g, .ab-svg path { transform-box: fill-box; }
+.ab-pag-esq, .ab-capa-esq { transform-origin: right center; animation: ab-abrir .9s cubic-bezier(.2, .8, .2, 1) both; }
+.ab-pag-dir, .ab-capa-dir { transform-origin: left center; animation: ab-abrir .9s cubic-bezier(.2, .8, .2, 1) .08s both; }
+.ab-extra { animation: ab-sumir .5s ease 1.75s forwards; }
+.ab-fita { animation: ab-descer .8s cubic-bezier(.3, 1.35, .45, 1) .95s both; }
+.ab-nome { margin: .5em 0 0; color: #fff; font: 900 clamp(34px, 11vw, 52px)/1 var(--font-corpo), Georgia, serif; letter-spacing: -0.0125em; animation: ab-nome .6s ease-out 2s both; }
+.ab-nome span { color: #c9a24a; }
+@keyframes ab-abrir { from { transform: scaleX(0); opacity: .4; } to { transform: scaleX(1); opacity: 1; } }
+@keyframes ab-descer { 0% { transform: translateY(-260%); opacity: 0; } 25% { opacity: 1; } 100% { transform: translateY(0); opacity: 1; } }
+@keyframes ab-sumir { to { opacity: 0; } }
+@keyframes ab-nome { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes ab-sair { to { opacity: 0; visibility: hidden; } }
+@media (prefers-reduced-motion: reduce) {
+  .abertura, .abertura * { animation: none !important; }
+  .ab-extra { opacity: 0; }
+}
