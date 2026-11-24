@@ -6,7 +6,8 @@ import { useEffect, useState } from 'react';
 import { LIVROS } from '@/lib/biblia';
 import { BASE } from '@/lib/cliente/bibliaDados';
 import { gravar, ler } from '@/lib/cliente/local';
-import { ir } from './contexto';
+import { ir, useApp } from './contexto';
+import { IcoCompartilhar } from './Icones';
 import { Painel } from './Paineis';
 
 /** Livros que já têm a leitura palavra por palavra. */
@@ -210,14 +211,37 @@ export function useComentarioCapitulo(l: number, c: number, ativo: boolean): Rec
   return estado.k === k ? estado.d : null;
 }
 
+/** Texto do comentário sem marcações, com as referências escritas por extenso (para compartilhar). */
+function textoPlano(t: string) {
+  return t.replace(/<\/?[bi]>/g, '').replace(/\{\{([^}]+)\}\}/g, (_, ref: string) => {
+    const r = ref.match(/^([1-3]?[A-Za-z]{2,3})\.(\d+)(?:\.(\d+))?(.*)$/);
+    const l = r ? OSIS.indexOf(r[1]) : -1;
+    return r && l >= 0 ? `${LIVROS[l]} ${r[2]}${r[3] ? ':' + r[3] : ''}${r[4].replace(/\./g, ':')}` : ref;
+  });
+}
+
 export function PainelComentario({ l, c, v, com, fechar }: { l: number; c: number; v: number; com: Comentario; fechar: () => void }) {
+  const { avisar } = useApp();
+  const ref = `${LIVROS[l]} ${c + 1}:${v}`;
+  async function compartilhar(s: Secao) {
+    const texto = `${ref} — ${s.titulo}${s.grego ? ` (${s.grego})` : ''}\n\n${textoPlano(s.texto)}\n\n— ${com.autor}, ${com.obra} (${com.ano}). Tradução para o português feita pelo app Púlpito.`;
+    try {
+      if (navigator.share) { await navigator.share({ title: `${ref} — ${s.titulo}`, text: texto }); return; }
+      await navigator.clipboard.writeText(texto); avisar('Comentário copiado');
+    } catch (e) {
+      if ((e as Error)?.name === 'AbortError') return;
+      try { await navigator.clipboard.writeText(texto); avisar('Comentário copiado'); } catch { avisar('Não foi possível compartilhar'); }
+    }
+  }
   return (
     <Painel titulo={`${LIVROS[l]} ${c + 1}:${v}`} sub={`Comentário · ${com.autor}`} fechar={fechar}>
       <p className="ajuda !mt-0">{com.autor}, <i>{com.obra}</i> ({com.ano}). Toque num tópico para abrir.</p>
       {com.secoes.map((s, i) => (
         <details key={i} className="cartao mt-3 !p-4" open={i === 0}>
-          <summary className="cursor-pointer text-[17px] font-bold">
-            {s.titulo}{s.grego ? <span className="inter-gre !text-[17px] font-normal"> · {s.grego}</span> : null}
+          <summary className="topico flex cursor-pointer items-start gap-2 text-[17px] font-bold">
+            <span className="seta" aria-hidden="true">▸</span>
+            <span className="flex-1">{s.titulo}{s.grego ? <span className="inter-gre !text-[17px] font-normal"> · {s.grego}</span> : null}</span>
+            <button type="button" className="redondo !h-10 !w-10 shrink-0" aria-label={`Compartilhar: ${s.titulo}`} onClick={(e) => { e.preventDefault(); e.stopPropagation(); void compartilhar(s); }}><IcoCompartilhar /></button>
           </summary>
           <div className="mt-2 space-y-3">
             {s.texto.split(/\n\n+/).map((par, j) => <TextoVerbete key={j} def={par} fechar={fechar} />)}

@@ -132,3 +132,7 @@
 .inter-sig { font-size: 13.5px; line-height: 1.25; color: var(--escuro); max-width: 120px; }
 .ordem-original { margin: 10px 0 8px; font-size: 15px; line-height: 1.45; font-style: italic; color: var(--escuro); }
 .ordem-original .rot { display: block; font-style: normal; margin-bottom: 2px; }
+summary.topico { list-style: none; }
+summary.topico::-webkit-details-marker { display: none; }
+summary.topico .seta { display: inline-block; width: 14px; margin-top: 1px; transition: transform .15s; }
+details[open] > summary.topico .seta { transform: rotate(90deg); }
