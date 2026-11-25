@@ -33,19 +33,29 @@ for (const obra of readdirSync(FONTE).filter((n) => existsSync(path.join(FONTE, 
       const d = JSON.parse(readFileSync(path.join(FONTE, obra, l, arq), 'utf8'));
       const atencao = d._atencao || [];
       delete d._atencao;
+      // trechos a omitir: marca as faixas no texto original e junta as que se sobrepõem
+      const faixas = new Map();          // seção -> [ini, fim][]
       for (const a of atencao) {
         const dec = revisao.get(chave(obra, Number(l), c, String(a.v), a.trecho)) || 'pendente';
         if (dec === 'manter') { mantidos++; continue; }
         if (dec === 'pendente' || dec === 'confirmar') pendentes.push({ obra, l: Number(l), c, dec, ...a });
         const entrada = d[String(a.v)];
-        const s = entrada?.secoes?.[a.secao];
-        if (s && s.texto.includes(a.trecho)) { s.texto = s.texto.replace(a.trecho, OMITIDO); omitidos++; }
+        let s = entrada?.secoes?.[a.secao];
+        if (s && !s.texto.includes(a.trecho)) s = entrada.secoes.find((x) => x.texto.includes(a.trecho)) || s;
+        const i = s ? s.texto.indexOf(a.trecho) : -1;
+        if (i >= 0) { if (!faixas.has(s)) faixas.set(s, []); faixas.get(s).push([i, i + a.trecho.length]); omitidos++; }
         else if (entrada) {
           // não achou a frase exata: por segurança, omite a seção inteira
           const alvo = s || entrada.secoes.find((x) => x.texto.includes(a.trecho.slice(0, 40)));
-          if (alvo) alvo.texto = OMITIDO;
+          if (alvo) faixas.set(alvo, [[0, alvo.texto.length]]);
           naoAchados++; omitidos++;
         }
+      }
+      for (const [s, lista] of faixas) {
+        lista.sort((x, y) => x[0] - y[0]);
+        const juntas = [];
+        for (const f of lista) { const u = juntas[juntas.length - 1]; if (u && f[0] <= u[1]) u[1] = Math.max(u[1], f[1]); else juntas.push([...f]); }
+        for (const [ini, fim] of juntas.reverse()) s.texto = s.texto.slice(0, ini) + OMITIDO + s.texto.slice(fim);
       }
       for (const e of Object.values(d)) for (const s of e.secoes) { s.texto = s.texto.normalize('NFC'); s.original = (s.original || '').normalize('NFC'); }
       mkdirSync(path.join(SAIDA, obra, l), { recursive: true });
