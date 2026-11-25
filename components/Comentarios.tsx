@@ -249,7 +249,7 @@ export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: numb
         <p className="ajuda !mt-0">{o.autor} não tem nota própria do versículo {v}. Estas são as partes do capítulo {c + 1} mais próximas dele.</p>
         {x.secoes.map((g) => (
           <section key={g.rotulo} className="mt-4">
-            <h3 className="comparar-tit">{g.rotulo}</h3>
+            {g.rotulo === 'Introdução ao capítulo' && g.secoes.length === 1 ? null : <h3 className="comparar-tit">{g.rotulo}</h3>}
             <Secoes secoes={g.secoes} aoRef={setRef} abrirPrimeira={false} />
           </section>
         ))}
