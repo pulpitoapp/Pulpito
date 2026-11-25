@@ -147,6 +147,16 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   const [opacidade, setOpacidade] = useState(1);
   const [regua] = useState(false);
   const [cheia, setCheia] = useState(false);
+  // o botão "Mexer na página" sobre as ferramentas só aparece quando o de cima saiu da tela
+  const modoRef = useRef<HTMLDivElement>(null);
+  const [modoVisivel, setModoVisivel] = useState(true);
+  useEffect(() => {
+    const el = modoRef.current;
+    if (!el || typeof IntersectionObserver === 'undefined') return;
+    const obs = new IntersectionObserver(([e]) => setModoVisivel(e.isIntersecting), { threshold: 0.6 });
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, [cheia, leitura, mudar]);
   const [seletor, setSeletor] = useState(false);
   const [mais, setMais] = useState(false);
   const [selecao, setSelecao] = useState<{ tr: number[]; bl: string[] } | null>(null);
@@ -343,19 +353,23 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
         {cheia
           ? <button type="button" className="redondo redondo-claro" onClick={() => setCheia(false)} aria-label="Sair da tela cheia" title="Sair da tela cheia"><IcoVoltar /></button>
           : <button type="button" className="chip" onClick={() => setCheia(true)}>Tela cheia</button>}
-        {cheia || !setEscrevendo ? <button type="button" className="chip" aria-pressed={ativa} onClick={() => setAtiva(!ativa)}>Escrever</button> : null}
+        <div ref={modoRef} className="modo-dedo" role="group" aria-label="O que o dedo faz">
+          <button type="button" aria-pressed={ativa} onClick={() => setAtiva(true)}>✏️ Escrever</button>
+          <button type="button" aria-pressed={!ativa} onClick={() => setAtiva(false)}>✋ Mexer na página</button>
+        </div>
       </div>
       {folha}
       <div className="mt-2 flex gap-2">
         <button type="button" className="btn btn-mini flex-1" onClick={() => aplicar({ ...atual.current, altura: (Math.floor(atual.current.altura / PAGINA) + 1) * PAGINA + PAGINA })}>+ Página</button>
         <button type="button" className="btn btn-mini flex-1" onClick={() => aplicar({ ...atual.current, altura: atual.current.altura + 350 })}>+ Linhas</button>
       </div>
-      <p className="ajuda">{ativa ? 'Escrevendo com o dedo. Toque em “Escrever” de novo para voltar a rolar a página.' : 'Toque em “Escrever” (fica bordô) para escrever com o dedo. Com a caneta (Apple Pencil) é só escrever.'}</p>
+      <p className="ajuda">{ativa ? 'Escrevendo com o dedo. Para rolar a página, toque em “Mexer na página” (aqui em cima ou no botão sobre as ferramentas).' : 'O dedo rola a página. Toque em “Escrever” ou numa caneta para escrever. Com a caneta (Apple Pencil) é só escrever.'}</p>
       <Paleta
         ferramenta={ferramenta} setFerramenta={(f) => { setFerramenta(f); setAtiva(true); if (f !== 'laco') setSelecao(null); }}
         cor={cor} corDe={(f) => cores[corPor[f] ?? 0] || '#1a1a1a'} mini={mini} setMini={setMini}
         podeDesfazer={pilhas.d > 0} podeRefazer={pilhas.r > 0} desfazer={voltar} refazer={avancar}
         abrirCores={() => setSeletor(true)} abrirMais={() => setMais(!mais)} selecao={!!selecao} apagarSelecao={apagarSelecao}
+        rolar={ativa && !modoVisivel ? () => { setAtiva(false); setMini(true); } : undefined}
       />
       {mais ? (
         <div className="lousa-mais" role="menu">
@@ -389,17 +403,24 @@ function Paleta(p: {
   ferramenta: Ferramenta; setFerramenta: (f: Ferramenta) => void; cor: string; corDe: (f: Ferramenta) => string; mini: boolean; setMini: (m: boolean) => void;
   podeDesfazer: boolean; podeRefazer: boolean; desfazer: () => void; refazer: () => void;
   abrirCores: () => void; abrirMais: () => void; selecao: boolean; apagarSelecao: () => void;
+  /** Só aparece enquanto o dedo escreve: volta o dedo a rolar a página. */
+  rolar?: () => void;
 }) {
+  const botaoRolar = p.rolar ? <button type="button" className={`paleta-rolar ${p.mini ? 'mini' : ''}`} onClick={p.rolar}>✋ Mexer na página</button> : null;
   if (p.mini) {
     return (
-      <button type="button" className="paleta paleta-mini" aria-label="Abrir as ferramentas de escrita" onClick={() => p.setMini(false)}>
-        <span className="paleta-mini-cor" style={{ background: p.cor }} />
-      </button>
+      <>
+        {botaoRolar}
+        <button type="button" className="paleta paleta-mini" aria-label="Abrir as ferramentas de escrita" onClick={() => p.setMini(false)}>
+          <span className="paleta-mini-cor" style={{ background: p.cor }} />
+        </button>
+      </>
     );
   }
   const ferramentas: [Ferramenta, string][] = [['caneta', 'Caneta'], ['fina', 'Caneta fina'], ['marca', 'Marca-texto'], ['borracha', 'Borracha']];
   return (
     <div className="paleta" role="toolbar" aria-label="Ferramentas de escrita">
+      {botaoRolar}
       <div className="paleta-linha">
         <div className="paleta-grupo">
           <button type="button" className="paleta-redondo" disabled={!p.podeDesfazer} onClick={p.desfazer} aria-label="Desfazer">↶</button>

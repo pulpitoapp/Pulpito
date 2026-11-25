@@ -407,3 +407,13 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 /* a bolinha fica acima da barra de baixo (na tela cheia, rente à borda) */
 .paleta-mini { bottom: calc(86px + env(safe-area-inset-bottom)) !important; }
 .lousa-cheia .paleta-mini { bottom: calc(10px + env(safe-area-inset-bottom)) !important; }
+
+/* o que o dedo faz na folha: escrever ou mexer na página */
+.modo-dedo { display: inline-flex; padding: 3px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); }
+.modo-dedo button { padding: 8px 14px; border-radius: 999px; font: 700 11px/1 var(--font-rotulo), monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
+.modo-dedo button[aria-pressed="true"] { background: var(--escuro); color: #fff; }
+/* botão sempre à mão, sobre as ferramentas, enquanto o dedo escreve */
+.paleta-rolar { position: absolute; left: 50%; bottom: calc(100% + 8px); transform: translateX(-50%); white-space: nowrap; padding: 10px 16px; border-radius: 999px; background: var(--escuro); color: #fff;
+  font: 700 11px/1 var(--font-rotulo), monospace; letter-spacing: .1em; text-transform: uppercase; box-shadow: 0 12px 28px -10px rgba(30, 10, 16, .6); }
+.paleta-rolar.mini { position: fixed; z-index: 65; left: auto; right: 16px; transform: none; bottom: calc(84px + 58px + 10px + env(safe-area-inset-bottom)); }
+.lousa-cheia .paleta-rolar.mini { bottom: calc(16px + 58px + 10px + env(safe-area-inset-bottom)); }

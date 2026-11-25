@@ -138,7 +138,7 @@ export function Mensagem({ id }: { id: string }) {
         <section aria-label="Mensagem">
           <div className="mb-3 flex gap-2" role="group" aria-label="Como escrever">
             <button type="button" className="chip flex-1" aria-pressed={aba === 'digitar'} onClick={() => setAba('digitar')}>Digitar</button>
-            <button type="button" className="chip flex-1" aria-pressed={aba === 'mao' && escrevendo} onClick={() => { if (aba !== 'mao') { setAba('mao'); setEscrevendo(true); } else setEscrevendo(!escrevendo); }}>Escrever{c.tracos.length ? ' •' : ''}</button>
+            <button type="button" className="chip flex-1" aria-pressed={aba === 'mao'} onClick={() => { if (aba !== 'mao') { setAba('mao'); setEscrevendo(true); } }}>Escrever{c.tracos.length ? ' •' : ''}</button>
           </div>
           {aba === 'digitar' ? (
             <>
