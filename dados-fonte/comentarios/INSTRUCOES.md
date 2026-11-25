@@ -34,6 +34,6 @@ Ao terminar, valide: `node -e "const d=require('ARQUIVO');for(const[k,v] of Obje
 
 ## Critério da revisão (definido pelo usuário)
 - Prioridade é sempre o entendimento da Igreja Cristã Maranata. Trecho que diverge não vai para o app.
-- Eleição: não depende do homem. Trechos que condicionem a escolha de Deus à condição do homem são omitidos.
+- Eleição e livre-arbítrio (vale o ensino das apostilas): Deus elege e chama por iniciativa dele, mas o homem tem a escolha de aceitar ou rejeitar o chamado, e quem foi servo pode se desviar. Saem os trechos de predestinação incondicional, graça irresistível ou chamado “infalível/eficaz” que não pode ser recusado, perseverança garantida (“uma vez salvo, salvo para sempre”, crente verdadeiro não pode se perder) e reprovação por decreto (alguém “destinado” à perdição). Ficam os trechos que mostram a iniciativa de Deus, a responsabilidade do homem e o perigo de se desviar.
 - Figuras de Cristo no Antigo Testamento são bem-vindas (ex.: o cordeiro sacrificado/túnicas de peles apontam para Jesus); trechos que neguem essas figuras são omitidos.
 - Na dúvida, o trecho fica fora e vai para "Pontos para confirmar depois" (decisao "confirmar").
