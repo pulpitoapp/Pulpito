@@ -1,10 +1,10 @@
 'use client';
 // Folha de escrita (dedo, mouse ou caneta, como a Apple Pencil), no estilo das ferramentas do iPhone:
-// paleta flutuante que acompanha a tela, pode ser arrastada e minimizada numa bolinha; caneta, lápis,
-// marca-texto, borracha, laço (seleciona e arrasta), régua, desfazer/refazer, 5 cores + cor livre,
-// tela cheia, "+ Página" e blocos de texto (texto bíblico ou algo salvo).
+// barra como a do app Notas (link para colocar texto e caneta para abrir as ferramentas, que fecham no ✕),
+// caneta, caneta fina, marca-texto, borracha, desfazer/refazer, cores, tela cheia, "+ Página" e textos
+// colocados na folha (texto bíblico ou algo salvo) como links que abrem um balão; segurar o dedo coloca ali.
 // Os traços são vetores (medidas de 0 a 1000 da largura): ficam nítidos em qualquer tela.
-import { IcoVoltar } from './Icones';
+import { IcoCaneta, IcoLink, IcoVoltar } from './Icones';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Bloco, Traco } from '@/lib/tipos';
 import { pref } from '@/lib/cliente/local';
@@ -66,31 +66,20 @@ export function desenharTracos(ctx: CanvasRenderingContext2D, tracos: Traco[], e
   ctx.globalAlpha = 1;
 }
 
-/** Escreve os blocos de texto num canvas (usado no PDF). */
+/** Escreve os textos colocados na folha como links (título sublinhado) num canvas (usado no PDF). */
 export function desenharBlocos(ctx: CanvasRenderingContext2D, blocos: Bloco[], escala: number) {
   for (const b of blocos) {
-    const x = b.x * escala, w = b.w * escala;
-    let y = b.y * escala;
-    ctx.fillStyle = '#fbf3dc'; ctx.strokeStyle = '#c9a24a'; ctx.lineWidth = 2 * escala;
-    const linhas = quebrar(ctx, b.texto, w - 24 * escala, 17 * escala);
-    const alt = (34 + linhas.length * 25) * escala;
-    ctx.fillRect(x, y, w, alt); ctx.strokeRect(x, y, w, alt);
-    ctx.fillStyle = '#4a1626'; ctx.font = `bold ${15 * escala}px Georgia, serif`;
-    ctx.fillText(b.titulo, x + 12 * escala, y + 22 * escala);
-    ctx.fillStyle = '#21171a'; ctx.font = `${17 * escala}px Georgia, serif`;
-    y += 46 * escala;
-    for (const l of linhas) { ctx.fillText(l, x + 12 * escala, y); y += 25 * escala; }
+    const x = b.x * escala, y = b.y * escala;
+    ctx.font = `bold ${17 * escala}px Georgia, serif`;
+    const t = '↗ ' + b.titulo, w = ctx.measureText(t).width;
+    ctx.fillStyle = '#4a1626'; ctx.fillText(t, x, y + 24 * escala);
+    ctx.strokeStyle = '#4a1626'; ctx.lineWidth = 1.5 * escala;
+    ctx.beginPath(); ctx.moveTo(x, y + 29 * escala); ctx.lineTo(x + w, y + 29 * escala); ctx.stroke();
   }
 }
-function quebrar(ctx: CanvasRenderingContext2D, texto: string, largura: number, tam: number) {
-  ctx.font = `${tam}px Georgia, serif`;
-  const out: string[] = [];
-  let linha = '';
-  for (const p of texto.split(/\s+/)) { const t = linha ? linha + ' ' + p : p; if (ctx.measureText(t).width > largura && linha) { out.push(linha); linha = p; } else linha = t; }
-  if (linha) out.push(linha);
-  return out;
-}
-const alturaBloco = (b: Bloco) => 34 + Math.ceil((b.texto.length * 9.2) / Math.max(120, b.w - 24)) * 25 + 12;
+// o texto colocado aparece como um link de uma linha (toque abre o balão com o texto)
+const alturaBloco = (b: Bloco) => (b ? 46 : 0);
+const larguraLink = (titulo: string) => Math.min(900, 70 + titulo.length * 17);
 
 /** Gera uma imagem dos traços (e blocos) sobre fundo branco (para o PDF). */
 export function tracosEmImagem(tracos: Traco[], altura: number, larguraPx = 1200, blocos: Bloco[] = []): string {
@@ -137,7 +126,6 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   const [ativaLocal, setAtivaLocal] = useState(false);     // o dedo escreve (a caneta sempre escreve)
   const ativa = escrevendo ?? ativaLocal;
   const setAtiva = (v: boolean) => { if (setEscrevendo) setEscrevendo(v); else setAtivaLocal(v); };
-  const [mini, setMini] = useState(false);                // a paleta vira uma bolinha enquanto se escreve
   const [ferramenta, setFerramenta] = useState<Ferramenta>('caneta');
   const [cores, setCores] = useState<string[]>(() => pref.ler('lousa-cores', CORES_PADRAO));
   // cada ferramenta lembra a sua cor (como no iPhone)
@@ -147,18 +135,13 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   const [opacidade, setOpacidade] = useState(1);
   const [regua] = useState(false);
   const [cheia, setCheia] = useState(false);
-  // o botão "Mexer na página" sobre as ferramentas só aparece quando o de cima saiu da tela
-  const modoRef = useRef<HTMLDivElement>(null);
-  const [modoVisivel, setModoVisivel] = useState(true);
-  useEffect(() => {
-    const el = modoRef.current;
-    if (!el || typeof IntersectionObserver === 'undefined') return;
-    const obs = new IntersectionObserver(([e]) => setModoVisivel(e.isIntersecting), { threshold: 0.6 });
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, [cheia, leitura, mudar]);
   const [seletor, setSeletor] = useState(false);
-  const [mais, setMais] = useState(false);
+  // menu de colocar texto: no botão da barra (null = no meio da tela) ou onde o dedo ficou pressionado
+  const [mais, setMais] = useState<null | { x?: number; y?: number; cx?: number; cy?: number }>(null);
+  const [balao, setBalao] = useState<string | null>(null);   // link aberto (mostra o texto)
+  const [colocando, setColocando] = useState(false);         // escolhendo o texto: as ferramentas somem
+  const pressao = useRef<{ x: number; y: number; cx: number; cy: number; t: ReturnType<typeof setTimeout> } | null>(null);
+  const cancelarPressao = () => { if (pressao.current) { clearTimeout(pressao.current.t); pressao.current = null; } };
   const [selecao, setSelecao] = useState<{ tr: number[]; bl: string[] } | null>(null);
   const emCurso = useRef<Traco | null>(null);
   const laco = useRef<number[] | null>(null);
@@ -239,12 +222,21 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
 
   function aoBaixar(e: React.PointerEvent) {
     if (leitura || !mudar) return;
+    setBalao(null);
+    if (e.pointerType !== 'pen' && aoInserir) {
+      // segurar o dedo parado ~meio segundo abre "colocar texto aqui"
+      cancelarPressao();
+      const [px, py] = ponto(e), cx = e.clientX, cy = e.clientY;
+      pressao.current = { x: px, y: py, cx, cy, t: setTimeout(() => {
+        pressao.current = null; emCurso.current = null; laco.current = null; redesenhar();
+        setMais({ x: px, y: py, cx, cy });
+      }, 550) };
+    }
     if (e.pointerType !== 'pen' && !ativa) return;
     if (e.pointerType === 'pen' && !ativa) setAtiva(true);
     e.preventDefault();
     (e.target as Element).setPointerCapture(e.pointerId);
     const [x, y, p] = ponto(e);
-    setMini(true);
     if (ferramenta === 'laco') {
       if (naSelecao(x, y)) { arrasto.current = { x, y }; desfazer.current.push(atual.current); refazer.current = []; return; }
       setSelecao(null); laco.current = [x, y]; return;
@@ -255,6 +247,8 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
     redesenhar();
   }
   function aoMover(e: React.PointerEvent) {
+    const pr = pressao.current;
+    if (pr && Math.abs(e.clientX - pr.cx) + Math.abs(e.clientY - pr.cy) > 12) cancelarPressao();
     const [x, y] = ponto(e);
     if (arrasto.current && selecao) {
       e.preventDefault();
@@ -284,6 +278,7 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
     if (ferramenta !== 'borracha') redesenhar();
   }
   function aoSoltar() {
+    cancelarPressao();
     if (arrasto.current) { arrasto.current = null; forcar(); return; }
     if (laco.current) {
       const poli = laco.current; laco.current = null;
@@ -313,15 +308,25 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   const voltar = () => { const f = desfazer.current.pop(); if (!f) return; refazer.current.push(atual.current); aplicar(f, false); setSelecao(null); };
   const avancar = () => { const f = refazer.current.pop(); if (!f) return; desfazer.current.push(atual.current); aplicar(f, false); };
   const inserir = async (tipo: 'biblia' | 'salvo') => {
-    setMais(false);
-    const r = await aoInserir?.(tipo);
+    const onde = mais;
+    setMais(null);
+    setColocando(true);
+    const r = await aoInserir?.(tipo).finally(() => setColocando(false));
     if (!r) return;
     const f = atual.current;
-    const fundo = alturaUsada(f.tracos, f.blocos);
-    const y = Math.min(fundo + 30, f.altura - 200);
-    const b: Bloco = { id: Math.random().toString(36).slice(2), x: 60, y: Math.max(30, y), w: 880, titulo: r.titulo, texto: r.texto.slice(0, 1200) };
-    aplicar({ ...f, blocos: [...f.blocos, b], altura: Math.max(f.altura, b.y + alturaBloco(b) + 200) });
+    let x = onde?.x, y = onde?.y;
+    if (x === undefined || y === undefined) {
+      // no meio da parte da folha que está na tela
+      const rc = tela.current?.getBoundingClientRect();
+      const k = rc ? 1000 / rc.width : 1;
+      x = 60; y = rc ? (Math.min(window.innerHeight, rc.bottom) / 2 + Math.max(0, rc.top) / 2 - rc.top) * k : alturaUsada(f.tracos, f.blocos) + 30;
+    }
+    const w = larguraLink(r.titulo);
+    const b: Bloco = { id: Math.random().toString(36).slice(2), x: Math.max(10, Math.min(x - 20, 990 - w)), y: Math.max(10, Math.min(y - 23, f.altura - 60)), w, titulo: r.titulo, texto: r.texto.slice(0, 4000) };
+    aplicar({ ...f, blocos: [...f.blocos, b] });
+    setBalao(b.id);
   };
+  const tirarBloco = (id: string) => { const f = atual.current; aplicar({ ...f, blocos: f.blocos.filter((b) => b.id !== id) }); setBalao(null); };
   // a cor escolhida vai para a ferramenta atual (cada uma lembra a sua)
   const trocarCor = (nova: string) => {
     let i = cores.indexOf(nova);
@@ -337,10 +342,24 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
       {pautada ? <div className="pautas" aria-hidden="true" /> : null}
       {Array.from({ length: paginas }, (_, i) => <div key={i} className="lousa-pagina" style={{ top: `${((i + 1) * PAGINA / 1000) * largura}px` }} aria-hidden="true"><span>Página {i + 2}</span></div>)}
       {blocos.map((b) => (
-        <div key={b.id} className={`lousa-bloco ${selecao?.bl.includes(b.id) ? 'sel' : ''}`} style={{ left: (b.x / 1000) * largura, top: (b.y / 1000) * largura, width: (b.w / 1000) * largura, fontSize: Math.max(12, largura * 0.017) }}>
-          <b>{b.titulo}</b>{b.texto}
-        </div>
+        <button key={b.id} type="button" className={`lousa-link ${selecao?.bl.includes(b.id) ? 'sel' : ''}`} style={{ left: (b.x / 1000) * largura, top: (b.y / 1000) * largura }}
+          aria-expanded={balao === b.id} onClick={() => setBalao(balao === b.id ? null : b.id)}>↗ {b.titulo}</button>
       ))}
+      {(() => {
+        const b = blocos.find((z) => z.id === balao);
+        if (!b) return null;
+        const topo = ((b.y + 50) / 1000) * largura;
+        return (
+          <div className="lousa-balao" role="dialog" aria-label={b.titulo} style={{ top: topo }}>
+            <b>{b.titulo}</b>
+            <p>{b.texto}</p>
+            <div className="lousa-balao-acoes">
+              {editavel ? <button type="button" onClick={() => tirarBloco(b.id)}>Tirar da folha</button> : <span />}
+              <button type="button" onClick={() => setBalao(null)}>Fechar</button>
+            </div>
+          </div>
+        );
+      })()}
       <canvas ref={tela} role="img" aria-label={rotulo}
         onPointerDown={aoBaixar} onPointerMove={aoMover} onPointerUp={aoSoltar} onPointerCancel={aoSoltar} style={{ position: 'relative' }} />
     </div>
@@ -349,43 +368,48 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   if (!editavel) return folha;
   const conteudo = (
     <>
-      {(() => {
-        const modo = (
-          <div ref={modoRef} className="modo-dedo" role="group" aria-label="O que o dedo faz">
-            <button type="button" aria-pressed={ativa} onClick={() => setAtiva(true)}>✏️ Escrever</button>
-            <button type="button" aria-pressed={!ativa} onClick={() => setAtiva(false)}>✋ Mexer na página</button>
+      {cheia ? (
+        <div className="mb-2 flex items-center gap-2">
+          <button type="button" className="redondo redondo-claro" onClick={() => setCheia(false)} aria-label="Sair da tela cheia" title="Sair da tela cheia"><IcoVoltar /></button>
+        </div>
+      ) : (
+        <div className="mb-3 flex justify-center">
+          <button type="button" className="chip" onClick={() => setCheia(true)}>⛶ Tela cheia</button>
+        </div>
+      )}
+      <div className="relative">
+        {folha}
+        {/* ferramentas presas à folha: acompanham a tela enquanto a folha aparece e nunca cobrem o que vem depois dela */}
+        {colocando || (mais && !ativa) ? null : (
+          <div className="ancora-ferr">
+            {ativa ? (
+              <Paleta
+                ferramenta={ferramenta} setFerramenta={(f) => { setFerramenta(f); if (f !== 'laco') setSelecao(null); }}
+                cor={cor} corDe={(f) => cores[corPor[f] ?? 0] || '#1a1a1a'}
+                podeDesfazer={pilhas.d > 0} podeRefazer={pilhas.r > 0} desfazer={voltar} refazer={avancar}
+                abrirCores={() => setSeletor(true)} abrirMais={aoInserir ? () => setMais(mais ? null : {}) : undefined} selecao={!!selecao} apagarSelecao={apagarSelecao}
+                fechar={() => { setAtiva(false); setSelecao(null); setMais(null); }}
+              />
+            ) : (
+              <div className="barra-notas" role="toolbar" aria-label="Folha de escrita">
+                {aoInserir ? <button type="button" onClick={() => setMais(mais ? null : {})} aria-label="Colocar texto da Bíblia ou algo salvo" title="Colocar texto"><IcoLink /></button> : null}
+                <button type="button" onClick={() => setAtiva(true)} aria-label="Abrir as canetas" title="Canetas"><IcoCaneta /></button>
+              </div>
+            )}
           </div>
-        );
-        return cheia ? (
-          <div className="mb-2 flex flex-wrap items-center gap-2">
-            <button type="button" className="redondo redondo-claro" onClick={() => setCheia(false)} aria-label="Sair da tela cheia" title="Sair da tela cheia"><IcoVoltar /></button>
-            {modo}
-          </div>
-        ) : (
-          <div className="mb-3 flex flex-col items-center gap-2">
-            {modo}
-            <button type="button" className="chip" onClick={() => setCheia(true)}>⛶ Tela cheia</button>
-          </div>
-        );
-      })()}
-      {folha}
+        )}
+      </div>
       <div className="mt-2 flex gap-2">
         <button type="button" className="btn btn-mini flex-1" onClick={() => aplicar({ ...atual.current, altura: (Math.floor(atual.current.altura / PAGINA) + 1) * PAGINA + PAGINA })}>+ Página</button>
         <button type="button" className="btn btn-mini flex-1" onClick={() => aplicar({ ...atual.current, altura: atual.current.altura + 350 })}>+ Linhas</button>
       </div>
-      <p className="ajuda">{ativa ? 'Escrevendo com o dedo. Para rolar a página, toque em “Mexer na página” (aqui em cima ou no botão sobre as ferramentas).' : 'O dedo rola a página. Toque em “Escrever” ou numa caneta para escrever. Com a caneta (Apple Pencil) é só escrever.'}</p>
-      <Paleta
-        ferramenta={ferramenta} setFerramenta={(f) => { setFerramenta(f); setAtiva(true); if (f !== 'laco') setSelecao(null); }}
-        cor={cor} corDe={(f) => cores[corPor[f] ?? 0] || '#1a1a1a'} mini={mini} setMini={setMini}
-        podeDesfazer={pilhas.d > 0} podeRefazer={pilhas.r > 0} desfazer={voltar} refazer={avancar}
-        abrirCores={() => setSeletor(true)} abrirMais={() => setMais(!mais)} selecao={!!selecao} apagarSelecao={apagarSelecao}
-        rolar={ativa && !modoVisivel ? () => { setAtiva(false); setMini(true); } : undefined}
-      />
+      <p className="ajuda">{ativa ? 'Canetas abertas: o dedo escreve. Toque no ✕ das canetas para fechar e voltar a rolar a página.' : aoInserir ? 'Toque na caneta (embaixo, à direita) para escrever; no link, para colocar um texto. Segure o dedo na folha para colocar um texto naquele lugar.' : 'Toque na caneta (embaixo, à direita) para escrever. Com a caneta (Apple Pencil) é só escrever.'}</p>
       {mais ? (
-        <div className="lousa-mais" role="menu">
+        <div className={`lousa-mais ${mais.cx !== undefined ? 'no-ponto' : ''}`} role="menu" style={mais.cx !== undefined ? { left: Math.min(Math.max(12, (mais.cx || 0) - 100), window.innerWidth - 232), top: Math.min((mais.cy || 0) + 12, window.innerHeight - 220) } : undefined}>
+          {mais.cx !== undefined ? <p className="rot m-0 px-3 pt-1">Colocar aqui</p> : null}
           <button type="button" role="menuitem" onClick={() => void inserir('biblia')}>📖 Texto da Bíblia</button>
           <button type="button" role="menuitem" onClick={() => void inserir('salvo')}>🔖 Algo que salvei</button>
-          <button type="button" role="menuitem" onClick={() => setMais(false)}>Fechar</button>
+          <button type="button" role="menuitem" onClick={() => setMais(null)}>Fechar</button>
         </div>
       ) : null}
       {seletor ? <SeletorCor inicial={cor} recentes={cores} opacidade={opacidade} aoEscolher={(c, a) => { trocarCor(c); setOpacidade(a); setSeletor(false); }} fechar={() => setSeletor(false)} /> : null}
@@ -410,27 +434,15 @@ function IcoFerramenta({ f, cor }: { f: Ferramenta | 'regua'; cor?: string }) {
 }
 
 function Paleta(p: {
-  ferramenta: Ferramenta; setFerramenta: (f: Ferramenta) => void; cor: string; corDe: (f: Ferramenta) => string; mini: boolean; setMini: (m: boolean) => void;
+  ferramenta: Ferramenta; setFerramenta: (f: Ferramenta) => void; cor: string; corDe: (f: Ferramenta) => string;
   podeDesfazer: boolean; podeRefazer: boolean; desfazer: () => void; refazer: () => void;
-  abrirCores: () => void; abrirMais: () => void; selecao: boolean; apagarSelecao: () => void;
-  /** Só aparece enquanto o dedo escreve: volta o dedo a rolar a página. */
-  rolar?: () => void;
+  abrirCores: () => void; abrirMais?: () => void; selecao: boolean; apagarSelecao: () => void;
+  /** Fecha as canetas: o dedo volta a rolar a página. */
+  fechar: () => void;
 }) {
-  const botaoRolar = p.rolar ? <button type="button" className={`paleta-rolar ${p.mini ? 'mini' : ''}`} onClick={p.rolar}>✋ Mexer na página</button> : null;
-  if (p.mini) {
-    return (
-      <>
-        {botaoRolar}
-        <button type="button" className="paleta paleta-mini" aria-label="Abrir as ferramentas de escrita" onClick={() => p.setMini(false)}>
-          <span className="paleta-mini-cor" style={{ background: p.cor }} />
-        </button>
-      </>
-    );
-  }
   const ferramentas: [Ferramenta, string][] = [['caneta', 'Caneta'], ['fina', 'Caneta fina'], ['marca', 'Marca-texto'], ['borracha', 'Borracha']];
   return (
     <div className="paleta" role="toolbar" aria-label="Ferramentas de escrita">
-      {botaoRolar}
       <div className="paleta-linha">
         <div className="paleta-grupo">
           <button type="button" className="paleta-redondo" disabled={!p.podeDesfazer} onClick={p.desfazer} aria-label="Desfazer">↶</button>
@@ -445,8 +457,8 @@ function Paleta(p: {
         </div>
         <div className="paleta-grupo">
           <button type="button" className="paleta-anel" aria-label="Escolher a cor" title="Cor" onClick={p.abrirCores}><span style={{ background: p.cor }} /></button>
-          <button type="button" className="paleta-redondo" onClick={p.abrirMais} aria-label="Acrescentar texto da Bíblia ou algo salvo">＋</button>
-          <button type="button" className="paleta-redondo" onClick={() => p.setMini(true)} aria-label="Recolher as ferramentas">⌄</button>
+          {p.abrirMais ? <button type="button" className="paleta-redondo" onClick={p.abrirMais} aria-label="Colocar texto da Bíblia ou algo salvo"><IcoLink /></button> : null}
+          <button type="button" className="paleta-redondo paleta-fechar" onClick={p.fechar} aria-label="Fechar as canetas" title="Fechar as canetas">✕</button>
         </div>
       </div>
       {p.selecao ? <div className="paleta-sel"><span>Arraste a seleção para mover</span><button type="button" onClick={p.apagarSelecao}>Apagar seleção</button></div> : null}

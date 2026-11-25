@@ -23,11 +23,12 @@ function useIniciar() {
 }
 
 /** Abas no topo da lista: Mensagens | Meus documentos. */
-export function AbasMensagens({ atual }: { atual: 'mensagens' | 'documentos' }) {
+export function AbasMensagens({ atual }: { atual: 'mensagens' | 'documentos' | 'marcacoes' }) {
   return (
-    <div className="flex gap-2" role="group" aria-label="Mensagens ou documentos">
-      <button type="button" className="chip flex-1" aria-pressed={atual === 'mensagens'} onClick={() => ir('/mensagens')}>Mensagens</button>
-      <button type="button" className="chip flex-1" aria-pressed={atual === 'documentos'} onClick={() => ir('/documentos')}>Meus documentos</button>
+    <div className="flex gap-2" role="group" aria-label="Mensagens, documentos ou textos marcados">
+      <button type="button" className="chip flex-1 !px-2" aria-pressed={atual === 'mensagens'} onClick={() => ir('/mensagens')}>Mensagens</button>
+      <button type="button" className="chip flex-1 !px-2" aria-pressed={atual === 'documentos'} onClick={() => ir('/documentos')}>Documentos</button>
+      <button type="button" className="chip flex-1 !px-2" aria-pressed={atual === 'marcacoes'} onClick={() => ir('/marcacoes')}>Marcações</button>
     </div>
   );
 }

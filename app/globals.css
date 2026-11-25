@@ -417,3 +417,35 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
   font: 700 11px/1 var(--font-rotulo), monospace; letter-spacing: .1em; text-transform: uppercase; box-shadow: 0 12px 28px -10px rgba(30, 10, 16, .6); }
 .paleta-rolar.mini { position: fixed; z-index: 65; left: 16px; bottom: calc(84px + 9px + env(safe-area-inset-bottom)); }
 .lousa-cheia .paleta-rolar.mini { bottom: calc(16px + 9px + env(safe-area-inset-bottom)); }
+
+/* ---------- folha de escrita estilo Notas: barra com link e caneta; ferramentas presas à folha ---------- */
+.ancora-ferr { position: sticky; bottom: calc(96px + env(safe-area-inset-bottom)); height: 0; z-index: 30; }
+.painel .ancora-ferr, .lousa-cheia .ancora-ferr { bottom: calc(14px + env(safe-area-inset-bottom)); }
+.ancora-ferr > * { position: absolute; bottom: 10px; }
+.ancora-ferr > .paleta { left: 50%; transform: translateX(-50%); width: min(100%, 560px); max-width: none; }
+.barra-notas { right: 10px; display: flex; gap: 4px; padding: 5px; border-radius: 999px; border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--paper) 90%, transparent); -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px); box-shadow: 0 12px 30px -12px rgba(30, 10, 16, .45); }
+.barra-notas button { width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; color: var(--escuro); }
+.barra-notas button:active { background: var(--folha); }
+.barra-notas svg { width: 24px; height: 24px; }
+.paleta-redondo svg { width: 18px; height: 18px; }
+.paleta-fechar { background: var(--escuro) !important; color: #fff !important; font-size: 15px !important; }
+.lousa { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+/* texto colocado na folha: um link; o toque abre o balão */
+.lousa-link { position: absolute; z-index: 2; padding: 4px 10px; border-radius: 999px; background: #fbf3dc; border: 1.5px solid var(--ouro); color: #4a1626;
+  font: 700 14px/1.3 Georgia, serif; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
+.lousa-link.sel { outline: 3px solid color-mix(in srgb, var(--ouro) 70%, transparent); }
+.lousa-balao { position: absolute; z-index: 40; left: 10px; right: 10px; max-height: 50vh; overflow: auto; padding: 14px 16px 10px; border-radius: 18px;
+  background: var(--paper); border: 1px solid var(--line); box-shadow: 0 18px 40px -14px rgba(30, 10, 16, .5); color: var(--ink); }
+.lousa-balao b { display: block; color: #4a1626; font-size: 15px; }
+.lousa-balao p { margin: 6px 0 0; font-size: 16px; line-height: 1.55; }
+.lousa-balao-acoes { display: flex; justify-content: space-between; margin-top: 10px; }
+.lousa-balao-acoes button { font: 700 11px/1 var(--font-rotulo), monospace; letter-spacing: .1em; text-transform: uppercase; padding: 8px 4px; color: var(--escuro); }
+.lousa-balao-acoes button:first-child { color: var(--red); }
+.lousa-mais.no-ponto { transform: none; bottom: auto; width: 220px; }
+/* link de texto colocado no texto digitado */
+.link-texto { display: inline; padding: 1px 8px; margin: 0 2px; border-radius: 999px; background: #fbf3dc; border: 1.5px solid var(--ouro); color: #4a1626; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.balao-texto { display: block; margin: 8px 0; padding: 12px 14px; border-radius: 16px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 14px 32px -14px rgba(30, 10, 16, .45); font-size: 16px; line-height: 1.55; cursor: default; }
+.balao-texto b { display: block; color: #4a1626; }
+.menu-texto { position: absolute; z-index: 40; right: 0; top: calc(100% + 6px); width: 230px; display: flex; flex-direction: column; gap: 2px; padding: 8px; border-radius: 18px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 16px 40px -12px rgba(0, 0, 0, .35); }
+.menu-texto button { text-align: left; padding: 10px 12px; border-radius: 12px; font-size: 15px; }

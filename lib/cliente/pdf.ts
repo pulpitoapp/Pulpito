@@ -89,7 +89,7 @@ export async function gerarPdf(m: Mensagem, biblia: BibliaDados | null): Promise
       if (t) paragrafo(t, { estilo: 'italic', recuo: 10 });
     }
   }
-  if (c.texto.trim()) { titulo('Mensagem'); paragrafoRico(c.texto); }
+  if (c.texto.trim()) { titulo('Mensagem'); paragrafoRico(c.texto.replace(/⟦([^⟧]+)⟧/g, '$1')); }
   if (c.tracos.length || (c.blocos || []).length) {
     titulo('Anotações à mão');
     const altura = Math.min(c.altura, alturaUsada(c.tracos, c.blocos || []) + 40);
@@ -108,6 +108,14 @@ export async function gerarPdf(m: Mensagem, biblia: BibliaDados | null): Promise
       resto -= fatia; origem += fatia; y += fatia;
       if (resto > 0) { doc.addPage(); y = T; }
     }
+  }
+  // textos colocados como links (na folha ou no texto digitado): o conteúdo vai aqui
+  const citados = new Map<string, string>();
+  for (const b of c.blocos || []) citados.set(b.titulo, b.texto);
+  for (const [t, x] of Object.entries(c.links || {})) if (c.texto.includes(`⟦${t}⟧`)) citados.set(t, x);
+  if (citados.size) {
+    titulo('Textos citados');
+    for (const [t, x] of citados) { paragrafo(t, { estilo: 'bold', justo: false }); if (x) paragrafo(x, { estilo: 'italic', recuo: 10 }); }
   }
 
   const total = doc.getNumberOfPages();

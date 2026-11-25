@@ -27,3 +27,6 @@ export const IcoOriginal = (p: P) => <svg viewBox="0 0 24 24" aria-hidden="true"
 export const IcoEnviar = (p: P) => <svg {...cheio} {...p}><path d="M21 3L3 10.5l6.5 2.6L19 5l-7.4 9.6L14 21z" /></svg>;
 export const IcoCompartilhar = (p: P) => <svg {...traco} {...p}><path d="M12 3v12M7.5 7.5L12 3l4.5 4.5" /><path d="M8 11H6v9h12v-9h-2" /></svg>;
 export const IcoSalvar = (p: P) => <svg {...traco} {...p}><path d="M7 3h10a1 1 0 011 1v17l-6-3.6L6 21V4a1 1 0 011-1z" /></svg>;
+// barra da folha de escrita (estilo Notas do iPhone)
+export const IcoLink = (p: P) => <svg {...traco} strokeWidth={2} {...p}><path d="M9.5 14.5l5-5" /><path d="M11 6.5l1.2-1.2a4.2 4.2 0 016 6L17 12.5M13 17.5l-1.2 1.2a4.2 4.2 0 01-6-6L7 11.5" /></svg>;
+export const IcoCaneta = (p: P) => <svg {...traco} strokeWidth={1.9} {...p}><path d="M15.5 4.5l4 4L9 19l-5 1 1-5z" /><path d="M13.5 6.5l4 4" /><circle cx="18.5" cy="19" r="1.4" fill="currentColor" stroke="none" /></svg>;

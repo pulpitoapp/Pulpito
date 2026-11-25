@@ -35,13 +35,19 @@ export function PainelNota({ chave, rotulo, fechar }: { chave: string; rotulo: s
   const [texto, setTexto] = useState(atual?.texto || '');
   const [tracos, setTracos] = useState<Traco[]>(atual?.tracos || []);
   const [altura, setAltura] = useState(700);
+  const [aba, setAba] = useState<'digitar' | 'mao'>(() => (!atual?.texto?.trim() && atual?.tracos?.length ? 'mao' : 'digitar'));
   const salvar = () => { salvarNota(chave, texto, tracos); avisar(texto.trim() || tracos.length ? 'Nota salva' : 'Nota removida'); fechar(); };
   return (
     <Painel titulo="Anotação" sub={rotulo} fechar={salvar}>
-      <label className="rotulo" htmlFor="notaTexto">Digitar</label>
-      <textarea id="notaTexto" className="campo" rows={4} value={texto} onChange={(e) => setTexto(e.target.value)} placeholder="O que este texto diz, no contexto" />
-      <p className="rotulo mt-4">Escrever à mão</p>
-      <Lousa tracos={tracos} altura={altura} mudar={(t, a) => { setTracos(t); setAltura(a); }} rotulo={`Nota à mão de ${rotulo}`} />
+      <div className="mb-3 flex gap-2" role="group" aria-label="Como anotar">
+        <button type="button" className="chip flex-1" aria-pressed={aba === 'digitar'} onClick={() => setAba('digitar')}>Digitar{texto.trim() ? ' •' : ''}</button>
+        <button type="button" className="chip flex-1" aria-pressed={aba === 'mao'} onClick={() => setAba('mao')}>Escrever{tracos.length ? ' •' : ''}</button>
+      </div>
+      {aba === 'digitar' ? (
+        <textarea id="notaTexto" className="campo" rows={6} value={texto} onChange={(e) => setTexto(e.target.value)} placeholder="O que este texto diz, no contexto" aria-label="Anotação digitada" />
+      ) : (
+        <Lousa tracos={tracos} altura={altura} mudar={(t, a) => { setTracos(t); setAltura(a); }} rotulo={`Nota à mão de ${rotulo}`} />
+      )}
       <div className="mt-4 flex gap-2">
         <button type="button" className="btn btn-perigo flex-1" onClick={() => { salvarNota(chave, '', []); avisar('Nota removida'); fechar(); }}>Apagar</button>
         <button type="button" className="btn btn-pri flex-1" onClick={salvar}>Salvar nota</button>

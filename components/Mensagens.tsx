@@ -1,6 +1,7 @@
 'use client';
 import { useMemo, useState } from 'react';
-import { norm } from '@/lib/biblia';
+import { limparVerso, LIVROS, norm } from '@/lib/biblia';
+import { useBiblia } from '@/lib/cliente/bibliaDados';
 import { rotuloChave } from '@/lib/textos';
 import { CORES, ROTULO_SITUACAO, SITUACOES, type Mensagem } from '@/lib/tipos';
 import { novaMensagem, salvarMensagem, useDados } from '@/lib/cliente/dados';
@@ -44,9 +45,7 @@ export function Mensagens() {
 
   return (
     <>
-      <Cabecalho titulo="Mensagens" sub={`${lista.length} ${lista.length === 1 ? 'mensagem' : 'mensagens'}`}>
-        <button type="button" className="btn btn-pri !text-[14px] !tracking-[.14em]" onClick={criar}>+ Nova</button>
-      </Cabecalho>
+      <Cabecalho titulo="Mensagens" sub={`${lista.length} ${lista.length === 1 ? 'mensagem' : 'mensagens'}`} />
       <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2 lg:max-w-5xl">
         <AbasMensagens atual="mensagens" />
         <input className="campo" type="search" placeholder="Buscar por palavra, título, tema ou texto bíblico" value={busca} onChange={(e) => setBusca(e.target.value)} aria-label="Buscar mensagens" />
@@ -98,5 +97,50 @@ function Item({ m, minha, pendente, q }: { m: Mensagem; minha: boolean; pendente
         </span>
       </a>
     </li>
+  );
+}
+
+/** Textos da Bíblia com marcação (cor) e/ou anotação, um por versículo; toque abre o versículo. */
+export function Marcacoes() {
+  const dados = useDados();
+  const pt = useBiblia('blivre');
+  const [filtro, setFiltro] = useState<'todos' | 'marcados' | 'anotados'>('todos');
+  const lista = useMemo(() => {
+    const refs = new Set([...Object.keys(dados.destaques), ...Object.keys(dados.notas)]);
+    return [...refs].map((r) => { const [l, c, v] = r.split('.').map(Number); return { r, l, c, v, cor: dados.destaques[r], nota: dados.notas[r] }; })
+      .filter((x) => (filtro === 'marcados' ? x.cor : filtro === 'anotados' ? x.nota : true))
+      .sort((a, b) => a.l - b.l || a.c - b.c || a.v - b.v);
+  }, [dados.destaques, dados.notas, filtro]);
+  return (
+    <>
+      <Cabecalho titulo="Marcações" sub={`${lista.length} ${lista.length === 1 ? 'texto' : 'textos'}`} />
+      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2 lg:max-w-5xl">
+        <AbasMensagens atual="marcacoes" />
+        <div className="flex gap-2" role="group" aria-label="Quais textos">
+          {([['todos', 'Todos'], ['marcados', 'Marcados'], ['anotados', 'Com anotação']] as const).map(([k, t]) => (
+            <button key={k} type="button" className="chip flex-1 !px-2" aria-pressed={filtro === k} onClick={() => setFiltro(k)}>{t}</button>
+          ))}
+        </div>
+        {!lista.length ? <p className="cartao m-0 text-[15px] text-mute">Nenhum texto ainda. Na Bíblia, toque num versículo e use “Marcar” ou “Anotar”.</p> : null}
+        <ul className="m-0 flex list-none flex-col gap-2 p-0">
+          {lista.map((x) => {
+            const t = Array.isArray(pt) ? limparVerso(pt[x.l]?.[2]?.[x.c]?.[x.v - 1] || '') : '';
+            return (
+              <li key={x.r}>
+                <button type="button" className="cartao block w-full text-left" onClick={() => ir(`/biblia/${x.l}/${x.c}/${x.v}`)}>
+                  <span className="flex items-center gap-2">
+                    {x.cor ? <span className="h-3.5 w-3.5 flex-none rounded-full" style={{ background: CORES[x.cor] }} aria-label="Marcado" /> : null}
+                    <b className="text-[16px]">{LIVROS[x.l]} {x.c + 1}:{x.v}</b>
+                    {x.nota ? <span className="etiqueta ml-auto">{x.nota.texto.trim() ? 'Anotação' : 'Nota à mão'}</span> : null}
+                  </span>
+                  {t ? <span className="mt-1 block text-[15px] leading-relaxed" style={x.cor ? { background: CORES[x.cor], borderRadius: 4 } : undefined}>{t}</span> : null}
+                  {x.nota?.texto.trim() ? <span className="mt-2 block border-l-2 border-ouro pl-3 text-[15px] italic text-mute">{x.nota.texto.length > 220 ? x.nota.texto.slice(0, 217) + '…' : x.nota.texto}</span> : null}
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </main>
+    </>
   );
 }

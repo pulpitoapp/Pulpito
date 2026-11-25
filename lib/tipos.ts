@@ -37,6 +37,7 @@ export type Conteudo = {
   altura: number;         // altura da folha de escrita (em medidas de 0 a 1000 da largura)
   blocos?: Bloco[];       // textos colocados na folha de escrita
   docs?: string[];        // documentos anexados (de Meus documentos)
+  links?: Record<string, string>;  // textos colocados no texto digitado como ⟦título⟧ → conteúdo
 };
 
 export type Mensagem = {

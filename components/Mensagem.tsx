@@ -39,6 +39,8 @@ export function Mensagem({ id }: { id: string }) {
   const foto = useRef<Msg | null>(null);        // como a mensagem estava ao abrir (para "sair sem salvar")
   const [saida, setSaida] = useState<string | null>(null);   // destino pendente da pergunta de saída
   // escolha de um texto bíblico ou de algo salvo para colocar na folha de escrita
+  const cursor = useRef<number | null>(null);   // onde o cursor estava no texto digitado (para colocar o link ali)
+  const [menuTexto, setMenuTexto] = useState(false);
   const [escolha, setEscolha] = useState<{ tipo: 'biblia' | 'salvo'; resolve: (r: { titulo: string; texto: string } | null) => void } | null>(null);
 
   useEffect(() => { if (original && (!atual.current || atual.current.id !== original.id)) { setM(original); atual.current = original; foto.current = original; } }, [original]);
@@ -76,6 +78,19 @@ export function Mensagem({ id }: { id: string }) {
     tempo.current = setTimeout(() => { tempo.current = null; salvarMensagem(nova); setEstado('salvo'); }, 900);
   };
   const mc = (parte: Partial<Conteudo>) => mudar({ conteudo: { ...c, ...parte } });
+  /** Coloca um texto bíblico ou algo salvo onde está o cursor, como ⟦título⟧ (aparece como link). */
+  const colocarNoTexto = (tipo: 'biblia' | 'salvo') => {
+    setMenuTexto(false);
+    void new Promise<{ titulo: string; texto: string } | null>((resolve) => setEscolha({ tipo, resolve })).then((r) => {
+      if (!r) return;
+      const a = atual.current?.conteudo || c;
+      const pos = Math.min(cursor.current ?? a.texto.length, a.texto.length);
+      const antes = a.texto.slice(0, pos), depois = a.texto.slice(pos);
+      const marca = `${antes && !/\s$/.test(antes) ? ' ' : ''}⟦${r.titulo}⟧${depois && !/^\s/.test(depois) ? ' ' : ''}`;
+      mudar({ conteudo: { ...a, texto: antes + marca + depois, links: { ...(a.links || {}), [r.titulo]: r.texto } } });
+      cursor.current = pos + marca.length;
+    });
+  };
   const pregs = minha ? dados.pregacoes.filter((p) => p.mensagem_id === m.id).sort((a, b) => b.data.localeCompare(a.data)) : [];
 
   function acrescentarRef(chave: string, cor: string) {
@@ -142,16 +157,30 @@ export function Mensagem({ id }: { id: string }) {
           </div>
           {aba === 'digitar' ? (
             <>
+              {minha ? (
+                <div className="relative mb-2 flex justify-end">
+                  <button type="button" className="chip" onMouseDown={(e) => e.preventDefault()} onClick={() => setMenuTexto(!menuTexto)}>🔗 Colocar texto</button>
+                  {menuTexto ? (
+                    <div className="menu-texto" role="menu">
+                      <p className="rot m-0 px-3 pt-1">Entra onde está o cursor</p>
+                      <button type="button" role="menuitem" onClick={() => colocarNoTexto('biblia')}>📖 Texto da Bíblia</button>
+                      <button type="button" role="menuitem" onClick={() => colocarNoTexto('salvo')}>🔖 Algo que salvei</button>
+                      <button type="button" role="menuitem" onClick={() => setMenuTexto(false)}>Fechar</button>
+                    </div>
+                  ) : null}
+                </div>
+              ) : null}
               {editandoTexto || !c.texto.trim() ? (
-                <textarea className="campo" rows={16} value={c.texto} onChange={(e) => mc({ texto: e.target.value })} placeholder="Escreva a mensagem" aria-label="Texto da mensagem" readOnly={!minha} style={{ lineHeight: 1.8 }}
+                <textarea className="campo" rows={16} value={c.texto} onChange={(e) => { mc({ texto: e.target.value }); cursor.current = e.target.selectionStart; }}
+                  onSelect={(e) => { cursor.current = (e.target as HTMLTextAreaElement).selectionStart; }} placeholder="Escreva a mensagem" aria-label="Texto da mensagem" readOnly={!minha} style={{ lineHeight: 1.8 }}
                   autoFocus={editandoTexto} onFocus={() => setEditandoTexto(true)} onBlur={() => setEditandoTexto(false)} />
               ) : (
                 <div className="campo texto-formatado" role={minha ? 'button' : undefined} tabIndex={minha ? 0 : undefined} aria-label={minha ? 'Texto da mensagem (toque para editar)' : 'Texto da mensagem'}
                   onClick={() => minha && setEditandoTexto(true)} onKeyDown={(e) => { if (minha && e.key === 'Enter') setEditandoTexto(true); }}>
-                  <TextoFormatado texto={c.texto} />
+                  <TextoFormatado texto={c.texto} links={c.links} />
                 </div>
               )}
-              {minha ? <p className="ajuda">Dica: *entre asteriscos* fica em <b>negrito</b>; _entre sublinhados_ fica em <i>itálico</i>.</p> : null}
+              {minha ? <p className="ajuda">Dica: *entre asteriscos* fica em <b>negrito</b>; _entre sublinhados_ fica em <i>itálico</i>. O texto colocado aparece como link: toque nele para ler.</p> : null}
             </>
           ) : (
             <Lousa tracos={c.tracos} altura={c.altura} blocos={c.blocos || []} mudar={minha ? (tracos, altura, blocos) => mc({ tracos, altura, ...(blocos ? { blocos } : {}) }) : undefined} leitura={!minha} rotulo="Mensagem escrita"
@@ -186,7 +215,7 @@ export function Mensagem({ id }: { id: string }) {
         ) : null}
       </main>
       {escolha ? (
-        <Painel titulo={escolha.tipo === 'biblia' ? 'Texto da Bíblia' : 'Algo que salvei'} sub="Colocar na folha" fechar={() => { escolha.resolve(null); setEscolha(null); }}>
+        <Painel titulo={escolha.tipo === 'biblia' ? 'Texto da Bíblia' : 'Algo que salvei'} sub="Colocar na mensagem" fechar={() => { escolha.resolve(null); setEscolha(null); }}>
           {escolha.tipo === 'biblia' ? (
             <SeletorRef id="refBuscaFolha" biblia={biblia} aoEscolher={(chave) => { const t = textoChave(chave, biblia) || ''; escolha.resolve({ titulo: rotuloChave(chave), texto: t }); setEscolha(null); }} />
           ) : <EscolherSalvo aoEscolher={(r) => { escolha.resolve(r); setEscolha(null); }} />}
