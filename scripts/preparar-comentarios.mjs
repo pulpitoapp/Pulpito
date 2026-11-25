@@ -58,7 +58,7 @@ for (const o of Object.values(indice)) for (const l of Object.keys(o)) o[l].sort
 mkdirSync(SAIDA, { recursive: true });
 writeFileSync(path.join(SAIDA, 'indice.json'), JSON.stringify(indice));
 
-const NOMES = { vincent: 'Vincent', jfb: 'Jamieson, Fausset e Brown', keil: 'Keil & Delitzsch', robertson: 'Robertson' };
+const NOMES = { vincent: 'Vincent', jfb: 'Jamieson, Fausset e Brown', keil: 'Keil & Delitzsch', robertson: 'Robertson', clarke: 'Adam Clarke', barnes: 'Albert Barnes' };
 const md = ['# Trechos aguardando revisão doutrinária', '', 'Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para aprovar, registre em `revisao.json` com "decisao": "manter".', ''];
 for (const [tit, filtro] of [['## Pontos para confirmar depois', 'confirmar'], ['## Ainda não revisados', 'pendente']]) {
   const lista = pendentes.filter((p) => p.dec === filtro);
