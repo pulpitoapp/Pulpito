@@ -255,7 +255,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
                     <>
                       <OrdemOriginal l={pos.l} palavras={inter[v]} />
                       <PalavrasDoVerso l={pos.l} palavras={inter[v]} aoTocar={setPalavra} />
-                      {(() => { const n = comentariosDoVerso(comentarios, v).length; return n ? <button type="button" className="chip -mt-2 mb-5" onClick={() => setComentarioV(v)}>Comentários ({n})</button> : null; })()}
+                      {(() => { const n = comentariosDoVerso(comentarios, v).length; return n ? <button type="button" className="chip -mt-2 mb-5" onClick={() => setComentarioV(v)}>Comentários ({n})</button> : comentarios && Object.keys(comentarios).length ? <button type="button" className="chip -mt-2 mb-5 opacity-80" onClick={() => setComentarioV(v)}>Comentários do capítulo</button> : null; })()}
                     </>
                   ) : inter === 'erro' ? <p className="ajuda">Não foi possível abrir o original. Abra uma vez com internet.</p> : null
                 ) : (
@@ -344,7 +344,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
       {aberto === 'original' && primeiro ? <PainelOriginal l={pos.l} c={pos.c} v={primeiro} textoPt={limparVerso(capPt[primeiro - 1] || '')} fechar={() => setAberto(null)} /> : null}
       {comentarioV && comentarios ? <PainelComentarios key={`${pos.l}.${pos.c}.${comentarioV}`} l={pos.l} c={pos.c} v={comentarioV} com={comentarios} fechar={() => setComentarioV(null)} /> : null}
       {palavra ? <PainelVerbete l={pos.l} palavra={palavra} fechar={() => setPalavra(null)} /> : null}
-      {aberto === 'estudos' ? <PainelEstudos l={pos.l} c={pos.c} fechar={() => setAberto(null)} /> : null}
+      {aberto === 'estudos' ? <PainelEstudos l={pos.l} c={pos.c} v={primeiro} fechar={() => setAberto(null)} /> : null}
       {aberto === 'usar' ? <PainelUsar refChave={chaveSel} rotulo={refSel} fechar={() => setAberto(null)} /> : null}
       {aberto === 'cartao' ? <PainelCartao texto={textoSel} livro={nomeLivro} cap={pos.c + 1} versos={faixas(selOrdenada)} sigla={versao.sigla} fechar={() => setAberto(null)} /> : null}
 

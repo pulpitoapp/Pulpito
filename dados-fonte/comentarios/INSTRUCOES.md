@@ -1,11 +1,15 @@
 # Tradução de comentários bíblicos (domínio público) para o português do Brasil
 
-Público: pregadores da Igreja Cristã Maranata, num app de Bíblia. Diretório do projeto: `/home/user/pulpito-main`. Não altere nada fora dos arquivos que lhe foram indicados e não faça commit.
+Público: pregadores da Igreja Cristã Maranata, num app de Bíblia. Diretório do projeto: `/home/user/Pulpito`. Não altere nada fora dos arquivos que lhe foram indicados e não faça commit.
 
 ## Obras
 - `vincent` — Marvin R. Vincent, *Word Studies in the New Testament* (1887). Estudo das palavras gregas.
 - `jfb` — Jamieson, Fausset & Brown, *Commentary Critical and Explanatory on the Whole Bible* (1871). Explicação do sentido.
 - `keil` — C. F. Keil & F. Delitzsch, *Commentary on the Old Testament* (1866-91). Estudo das palavras hebraicas.
+- `clarke` — Adam Clarke, *Commentary on the Holy Bible* (1810-26). Comentário completo (palavras, sentido e aplicação).
+- `barnes` — Albert Barnes, *Notes on the New Testament* (1832-53). Notas explicativas para pregação e ensino.
+
+Fonte de `clarke` e `barnes`: Free Use Bible API (módulos da CrossWire), um texto por capítulo, com blocos “## Introdução (antes do versículo 1)” e “## Versículo N”. Cada bloco pode ter várias notas; em Clarke a nota começa com a expressão comentada seguida de “ - ” (ex.: “Jesus answered - …”); em Barnes, com a expressão terminada em ponto (ex.: “Verse 2. The same came to Jesus. …”). Cada nota vira uma seção, com `titulo` = a expressão comentada (sem “Verse 2.”). As linhas de Barnes no formato `(a) "palavra" Ref` são referências da margem da Bíblia inglesa, não texto do autor: não traduza. Referências nas abreviações inglesas (Mt, Mk, Lk, Jn/Joh, Ac, Ro, 1Co, Ga, Eph, Php, Col, Heb, Jas, 1Pe, 1Jo, Re, Ge/Gen, Ex, Le, Nu, De, Ps, Pr, Isa, Jer, Eze, Da etc.) viram `{{OSIS}}`; “Mk 15:40,41” vira `{{Mrk.15.40-41}}`; listas de versículos soltos viram uma chave por versículo.
 
 ## Tradução
 - Fiel e COMPLETA: não resuma, não omita, não acrescente explicação nem aplicação própria. Português claro e natural.

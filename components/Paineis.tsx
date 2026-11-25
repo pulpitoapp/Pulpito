@@ -112,7 +112,16 @@ export function PainelRefs({ l, c, v, biblia, fechar }: { l: number; c: number; 
 }
 
 /** Trechos das apostilas da ICM que citam o capítulo aberto. */
-export function PainelEstudos({ l, c, fechar }: { l: number; c: number; fechar: () => void }) {
+/** O trecho cita o versículo v do capítulo c (ex.: "3:16", "3.14-18")? */
+function citaVerso(texto: string, c: number, v: number) {
+  for (const m of texto.matchAll(/(\d+)\s*[:.]\s*(\d+)(?:\s*[-–]\s*(\d+))?/g)) {
+    const cc = Number(m[1]), v1 = Number(m[2]), v2 = m[3] ? Number(m[3]) : v1;
+    if (cc === c && v >= v1 && v <= v2) return true;
+  }
+  return false;
+}
+
+export function PainelEstudos({ l, c, v, fechar }: { l: number; c: number; v?: number; fechar: () => void }) {
   const { online } = useApp();
   const [trechos, setTrechos] = useState<Trecho[] | null | 'erro'>(null);
   const [aberto, setAberto] = useState<number | null>(null);
@@ -139,22 +148,31 @@ export function PainelEstudos({ l, c, fechar }: { l: number; c: number; fechar: 
         : trechos === 'erro' ? <p className="text-mute">Sem internet. Os estudos deste capítulo aparecem depois de abertos uma vez com conexão.</p>
         : !trechos.length ? <p className="text-mute">Nenhuma apostila do acervo cita este capítulo.</p>
         : (
-          <ul className="m-0 flex list-none flex-col gap-2 p-0">
-            {trechos.map((t) => (
+          (() => {
+            const doVerso = v ? trechos.filter((t) => citaVerso(t.texto, c + 1, v)) : [];
+            const doCap = trechos.filter((t) => !doVerso.includes(t));
+            const item = (t: Trecho) => (
               <li key={t.id} className="cartao !p-3.5">
                 <p className="rot m-0">{t.apostila}</p>
                 {t.titulo ? <p className="m-0 mt-1 font-bold">{t.titulo}</p> : null}
                 <p className="m-0 mt-1 whitespace-pre-line text-[15px] leading-relaxed">{aberto === t.id || t.texto.length < 420 ? t.texto : t.texto.slice(0, 380).replace(/\s\S*$/, '') + '…'}</p>
                 {t.texto.length >= 420 ? <button type="button" className="btn btn-mini mt-2" onClick={() => setAberto(aberto === t.id ? null : t.id)}>{aberto === t.id ? 'Mostrar menos' : 'Ler o trecho inteiro'}</button> : null}
               </li>
-            ))}
-          </ul>
+            );
+            return (
+              <>
+                {v ? <p className="rot mb-2">{doVerso.length ? `Citam o versículo ${v}` : `Nenhum trecho cita o versículo ${v}`}</p> : null}
+                {doVerso.length ? <ul className="m-0 mb-4 flex list-none flex-col gap-2 p-0">{doVerso.map(item)}</ul> : null}
+                {doCap.length ? <p className="rot mb-2">{v ? `Falam do capítulo ${c + 1}` : ''}</p> : null}
+                <ul className="m-0 flex list-none flex-col gap-2 p-0">{doCap.map(item)}</ul>
+              </>
+            );
+          })()
         )}
       <p className="ajuda">Trechos das apostilas da Igreja Cristã Maranata enviadas pelo administrador, mostrados como estão escritos.</p>
     </Painel>
   );
 }
-
 /** Acrescenta os versículos selecionados a uma mensagem (nova ou existente). */
 export function PainelUsar({ refChave, rotulo, fechar }: { refChave: string; rotulo: string; fechar: () => void }) {
   const { perfil, avisar } = useApp();

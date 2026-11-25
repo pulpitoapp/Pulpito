@@ -22,10 +22,12 @@ export const OBRAS: Record<string, { autor: string; rotulo: string; obra: string
   robertson: { autor: 'A. T. Robertson', rotulo: 'Estudo do grego (Mais complexo)', obra: 'Retratos Verbais do Novo Testamento', ano: '1930–1933' },
   keil: { autor: 'Keil & Delitzsch', rotulo: 'Estudo das Palavras', obra: 'Comentário sobre o Antigo Testamento', ano: '1866–1891' },
   jfb: { autor: 'Jamieson, Fausset e Brown', rotulo: 'Explicação do sentido', obra: 'Comentário Crítico e Explicativo de Toda a Bíblia', ano: '1871' },
+  clarke: { autor: 'Adam Clarke', rotulo: 'Comentário completo', obra: 'Comentário sobre a Bíblia Sagrada', ano: '1810–1826' },
+  barnes: { autor: 'Albert Barnes', rotulo: 'Notas para pregação e ensino', obra: 'Notas sobre o Novo Testamento', ano: '1832–1853' },
   trecho: { autor: 'Trecho salvo', rotulo: 'Seleção', obra: 'Púlpito', ano: '' },
   dicionario: { autor: 'Dicionário de palavras', rotulo: 'Hebraico e grego', obra: 'STEPBible (Tyndale House), CC BY 4.0', ano: '' },
 };
-const ORDEM = ['vincent', 'robertson', 'keil', 'jfb'];          // as que já estavam primeiro
+const ORDEM = ['vincent', 'robertson', 'keil', 'jfb', 'clarke', 'barnes'];          // as que já estavam primeiro
 
 const OSIS = ['Gen','Exo','Lev','Num','Deu','Jos','Jdg','Rut','1Sa','2Sa','1Ki','2Ki','1Ch','2Ch','Ezr','Neh','Est','Job','Psa','Pro','Ecc','Sng','Isa','Jer','Lam','Ezk','Dan','Hos','Jol','Amo','Oba','Jon','Mic','Nam','Hab','Zep','Hag','Zec','Mal','Mat','Mrk','Luk','Jhn','Act','Rom','1Co','2Co','Gal','Eph','Php','Col','1Th','2Th','1Ti','2Ti','Tit','Phm','Heb','Jas','1Pe','2Pe','1Jn','2Jn','3Jn','Jud','Rev'];
 type Ref = { l: number; c: number; v?: number; v2?: number; rotulo: string };
@@ -84,6 +86,26 @@ export function comentariosDoVerso(com: Record<string, Capitulo> | null, v: numb
       if (v === ini || (e.ate && v > ini && v <= e.ate)) { secoes.push(...e.secoes); if (e.ate) faixa = `${ini}-${e.ate}`; }
     }
     if (secoes.length) out.push({ obra: o, ref: faixa, secoes });
+  }
+  return out;
+}
+
+/** Obras que não comentam este versículo, mas comentam o capítulo: a introdução e as notas mais próximas
+ *  (a anterior e a seguinte), para sugerir quando o versículo não tem nota própria. */
+export function comentariosDoCapitulo(com: Record<string, Capitulo> | null, v: number): { obra: string; resumo: string; secoes: { rotulo: string; secoes: Secao[] }[] }[] {
+  if (!com) return [];
+  const comVerso = new Set(comentariosDoVerso(com, v).map((x) => x.obra));
+  const out: { obra: string; resumo: string; secoes: { rotulo: string; secoes: Secao[] }[] }[] = [];
+  for (const o of ORDEM) {
+    const cap = com[o];
+    if (!cap || comVerso.has(o)) continue;
+    const entradas = Object.entries(cap).filter(([k]) => Number(k) > 0).map(([k, e]) => ({ ini: Number(k), fim: e.ate || Number(k), e })).sort((a, b) => a.ini - b.ini);
+    const antes = [...entradas].reverse().find((x) => x.fim < v), depois = entradas.find((x) => x.ini > v);
+    const grupos: { rotulo: string; secoes: Secao[] }[] = [];
+    if (cap['0']) grupos.push({ rotulo: 'Introdução ao capítulo', secoes: cap['0'].secoes });
+    for (const x of [antes, depois]) if (x) grupos.push({ rotulo: `Versículo${x.fim > x.ini ? 's' : ''} ${x.ini}${x.fim > x.ini ? '-' + x.fim : ''}`, secoes: x.e.secoes });
+    if (!grupos.length) continue;
+    out.push({ obra: o, resumo: grupos.map((g) => g.rotulo.replace('Introdução ao capítulo', 'introdução')).join(' · '), secoes: grupos });
   }
   return out;
 }
@@ -153,7 +175,7 @@ export function Secoes({ secoes, aoRef, aoCompartilhar, aoSalvar, ocupado, abrir
 }
 
 // ---------- painel ----------
-type Tela = { tipo: 'lista' } | { tipo: 'obra'; obra: string } | { tipo: 'comparar' };
+type Tela = { tipo: 'lista' } | { tipo: 'obra'; obra: string } | { tipo: 'comparar' } | { tipo: 'capitulo'; obra: string };
 
 /** Gera e compartilha o PDF de um ou mais comentários. */
 export async function compartilharPdf(refVerso: string, blocos: { obra: string; secoes: Secao[] }[], sufixo: string): Promise<'compartilhado' | 'baixado' | 'cancelado'> {
@@ -169,7 +191,8 @@ export async function arquivoPdf(refVerso: string, blocos: { obra: string; secoe
 export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: number; v: number; com: Record<string, Capitulo>; fechar: () => void }) {
   const { avisar } = useApp();
   const lista = comentariosDoVerso(com, v);
-  const [tela, setTela] = useState<Tela>(lista.length === 1 ? { tipo: 'obra', obra: lista[0].obra } : { tipo: 'lista' });
+  const doCap = comentariosDoCapitulo(com, v);
+  const [tela, setTela] = useState<Tela>(lista.length === 1 && !doCap.length ? { tipo: 'obra', obra: lista[0].obra } : { tipo: 'lista' });
   const [ref, setRef] = useState<Ref | null>(null);
   const [ocupado, setOcupado] = useState(false);
   const area = useRef<HTMLDivElement>(null);
@@ -185,7 +208,7 @@ export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: numb
     finally { setOcupado(false); }
   }
 
-  const voltar = lista.length > 1 && tela.tipo !== 'lista' ? <button type="button" className="chip mb-2 gap-1" onClick={() => setTela({ tipo: 'lista' })}><IcoVoltar /> Comentários</button> : null;
+  const voltar = lista.length + doCap.length > 1 && tela.tipo !== 'lista' ? <button type="button" className="chip mb-2 gap-1" onClick={() => setTela({ tipo: 'lista' })}><IcoVoltar /> Comentários</button> : null;
   let corpo: React.ReactNode;
   let sub = 'Comentários';
   if (tela.tipo === 'lista') {
@@ -201,6 +224,35 @@ export function PainelComentarios({ l, c, v, com, fechar }: { l: number; c: numb
           ))}
         </div>
         {lista.length > 1 ? <button type="button" className="btn btn-pri mt-4 w-full" onClick={() => setTela({ tipo: 'comparar' })}>Comparar os {lista.length} comentários</button> : null}
+        {doCap.length ? (
+          <>
+            <p className="rot mt-5">{lista.length ? 'Também comentam o capítulo' : 'Sem nota deste versículo, mas comentam o capítulo'}</p>
+            <div className="mt-2 flex flex-col gap-2">
+              {doCap.map((x) => (
+                <button key={x.obra} type="button" className="cartao !p-4 text-left" onClick={() => setTela({ tipo: 'capitulo', obra: x.obra })}>
+                  <span className="block text-[17px] font-bold">{OBRAS[x.obra].autor}</span>
+                  <span className="rot mt-1 block">Do capítulo: {x.resumo}</span>
+                </button>
+              ))}
+            </div>
+          </>
+        ) : null}
+      </>
+    );
+  } else if (tela.tipo === 'capitulo') {
+    const x = doCap.find((y) => y.obra === tela.obra)!;
+    const o = OBRAS[tela.obra];
+    sub = `${o.autor} · do capítulo`;
+    corpo = (
+      <>
+        {voltar}
+        <p className="ajuda !mt-0">{o.autor} não tem nota própria do versículo {v}. Estas são as partes do capítulo {c + 1} mais próximas dele.</p>
+        {x.secoes.map((g) => (
+          <section key={g.rotulo} className="mt-4">
+            <h3 className="comparar-tit">{g.rotulo}</h3>
+            <Secoes secoes={g.secoes} aoRef={setRef} abrirPrimeira={false} />
+          </section>
+        ))}
       </>
     );
   } else if (tela.tipo === 'obra') {
