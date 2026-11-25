@@ -349,15 +349,25 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   if (!editavel) return folha;
   const conteudo = (
     <>
-      <div className="mb-2 flex flex-wrap items-center gap-2">
-        {cheia
-          ? <button type="button" className="redondo redondo-claro" onClick={() => setCheia(false)} aria-label="Sair da tela cheia" title="Sair da tela cheia"><IcoVoltar /></button>
-          : <button type="button" className="chip" onClick={() => setCheia(true)}>Tela cheia</button>}
-        <div ref={modoRef} className="modo-dedo" role="group" aria-label="O que o dedo faz">
-          <button type="button" aria-pressed={ativa} onClick={() => setAtiva(true)}>✏️ Escrever</button>
-          <button type="button" aria-pressed={!ativa} onClick={() => setAtiva(false)}>✋ Mexer na página</button>
-        </div>
-      </div>
+      {(() => {
+        const modo = (
+          <div ref={modoRef} className="modo-dedo" role="group" aria-label="O que o dedo faz">
+            <button type="button" aria-pressed={ativa} onClick={() => setAtiva(true)}>✏️ Escrever</button>
+            <button type="button" aria-pressed={!ativa} onClick={() => setAtiva(false)}>✋ Mexer na página</button>
+          </div>
+        );
+        return cheia ? (
+          <div className="mb-2 flex flex-wrap items-center gap-2">
+            <button type="button" className="redondo redondo-claro" onClick={() => setCheia(false)} aria-label="Sair da tela cheia" title="Sair da tela cheia"><IcoVoltar /></button>
+            {modo}
+          </div>
+        ) : (
+          <div className="mb-3 flex flex-col items-center gap-2">
+            {modo}
+            <button type="button" className="chip" onClick={() => setCheia(true)}>⛶ Tela cheia</button>
+          </div>
+        );
+      })()}
       {folha}
       <div className="mt-2 flex gap-2">
         <button type="button" className="btn btn-mini flex-1" onClick={() => aplicar({ ...atual.current, altura: (Math.floor(atual.current.altura / PAGINA) + 1) * PAGINA + PAGINA })}>+ Página</button>

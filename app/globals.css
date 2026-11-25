@@ -413,7 +413,7 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 .modo-dedo button { padding: 8px 14px; border-radius: 999px; font: 700 11px/1 var(--font-rotulo), monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
 .modo-dedo button[aria-pressed="true"] { background: var(--escuro); color: #fff; }
 /* botão sempre à mão, sobre as ferramentas, enquanto o dedo escreve */
-.paleta-rolar { position: absolute; left: 50%; bottom: calc(100% + 8px); transform: translateX(-50%); white-space: nowrap; padding: 10px 16px; border-radius: 999px; background: var(--escuro); color: #fff;
+.paleta-rolar { position: absolute; left: 8px; bottom: calc(100% + 8px); white-space: nowrap; padding: 10px 16px; border-radius: 999px; background: var(--escuro); color: #fff;
   font: 700 11px/1 var(--font-rotulo), monospace; letter-spacing: .1em; text-transform: uppercase; box-shadow: 0 12px 28px -10px rgba(30, 10, 16, .6); }
-.paleta-rolar.mini { position: fixed; z-index: 65; left: auto; right: 16px; transform: none; bottom: calc(84px + 58px + 10px + env(safe-area-inset-bottom)); }
-.lousa-cheia .paleta-rolar.mini { bottom: calc(16px + 58px + 10px + env(safe-area-inset-bottom)); }
+.paleta-rolar.mini { position: fixed; z-index: 65; left: 16px; bottom: calc(84px + 9px + env(safe-area-inset-bottom)); }
+.lousa-cheia .paleta-rolar.mini { bottom: calc(16px + 9px + env(safe-area-inset-bottom)); }
