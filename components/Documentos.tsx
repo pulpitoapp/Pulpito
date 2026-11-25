@@ -14,7 +14,7 @@ import { ir, useApp } from './contexto';
 import { IcoCompartilhar } from './Icones';
 
 const dataBR = (iso: string) => new Date(iso).toLocaleDateString('pt-BR');
-const TIPO: Record<string, string> = { comentario: 'Comentário', comparacao: 'Comparação', anotacao: 'Anotação' };
+const TIPO: Record<string, string> = { comentario: 'Comentário', comparacao: 'Comparação', anotacao: 'Trecho salvo' };
 
 function useIniciar() {
   const { perfil } = useApp();
@@ -37,18 +37,19 @@ function EscolherPasta({ valor, mudar }: { valor: string; mudar: (id: string) =>
   const { avisar } = useApp();
   const d = useDocumentos();
   const [nova, setNova] = useState<string | null>(null);
-  if (nova !== null) {
+  const semPastas = d.pastas.length === 0;
+  if (nova !== null || semPastas) {
     return (
-      <form className="flex gap-2" onSubmit={async (e) => { e.preventDefault(); if (!nova.trim()) return; try { const p = await criarPasta(nova); mudar(p.id); setNova(null); } catch (er) { avisar((er as Error).message); } }}>
-        <input className="campo flex-1" autoFocus maxLength={80} placeholder="Nome da pasta" value={nova} onChange={(e) => setNova(e.target.value)} aria-label="Nome da nova pasta" />
+      <form className="flex gap-2" onSubmit={async (e) => { e.preventDefault(); if (!nova?.trim()) return; try { const p = await criarPasta(nova); mudar(p.id); setNova(null); } catch (er) { avisar((er as Error).message); } }}>
+        <input className="campo flex-1" autoFocus maxLength={80} placeholder={semPastas ? 'Crie a primeira pasta' : 'Nome da pasta'} value={nova || ''} onChange={(e) => setNova(e.target.value)} aria-label="Nome da nova pasta" />
         <button type="submit" className="btn btn-pri btn-mini">Criar</button>
-        <button type="button" className="btn btn-mini" onClick={() => setNova(null)}>Cancelar</button>
+        {semPastas ? null : <button type="button" className="btn btn-mini" onClick={() => setNova(null)}>Cancelar</button>}
       </form>
     );
   }
   return (
     <select className="campo" value={valor} aria-label="Pasta" onChange={(e) => (e.target.value === '+' ? setNova('') : mudar(e.target.value))}>
-      <option value="">Sem pasta</option>
+      <option value="" disabled>Escolha a pasta…</option>
       {d.pastas.map((p) => <option key={p.id} value={p.id}>{p.nome}</option>)}
       <option value="+">+ Nova pasta…</option>
     </select>
@@ -59,7 +60,9 @@ function EscolherPasta({ valor, mudar }: { valor: string; mudar: (id: string) =>
 export function SalvarEmDocumentos({ titulo, tipo, conteudo }: { titulo: string; tipo: Documento['tipo']; conteudo: ConteudoDoc }) {
   const { perfil, avisar } = useApp();
   const [aberto, setAberto] = useState(false);
-  const [pasta, setPasta] = useState<string>(() => pref.ler('docs-ultima-pasta', ''));
+  const [pastaLida, setPasta] = useState<string>(() => pref.ler('docs-ultima-pasta', ''));
+  const pastas = useDocumentos().pastas;
+  const pasta = pastas.some((p) => p.id === pastaLida) ? pastaLida : '';   // a pasta guardada pode ter sido apagada
   const [salvo, setSalvo] = useState<string | null>(null);
   const [ocupado, setOcupado] = useState(false);
   useEffect(() => { if (aberto) void iniciarDocumentos(perfil.id); }, [aberto, perfil.id]);
@@ -71,9 +74,9 @@ export function SalvarEmDocumentos({ titulo, tipo, conteudo }: { titulo: string;
       <EscolherPasta valor={pasta} mudar={setPasta} />
       <div className="mt-2 flex gap-2">
         <button type="button" className="btn flex-1" onClick={() => setAberto(false)}>Cancelar</button>
-        <button type="button" className="btn btn-pri flex-1" disabled={ocupado} onClick={async () => {
+        <button type="button" className="btn btn-pri flex-1" disabled={ocupado || !pasta} onClick={async () => {
           setOcupado(true);
-          try { const doc = await salvarDocumento({ titulo, tipo, conteudo, pasta_id: pasta || null }); pref.gravar('docs-ultima-pasta', pasta); setSalvo(doc.id); avisar('Salvo em Meus documentos'); }
+          try { const doc = await salvarDocumento({ titulo, tipo, conteudo, pasta_id: pasta }); pref.gravar('docs-ultima-pasta', pasta); setSalvo(doc.id); avisar('Salvo em Meus documentos'); }
           catch (e) { avisar((e as Error).message); } finally { setOcupado(false); }
         }}>{ocupado ? 'Salvando…' : 'Salvar'}</button>
       </div>
@@ -85,7 +88,7 @@ export function SalvarEmDocumentos({ titulo, tipo, conteudo }: { titulo: string;
 export function Documentos() {
   const { avisar } = useApp();
   const d = useIniciar();
-  const [pasta, setPasta] = useState<string>(() => pref.ler('docs-pasta', ''));   // '' = todas, '-' = sem pasta
+  const [pasta, setPasta] = useState<string>(() => { const p: string = pref.ler<string>('docs-pasta', ''); return p === '-' ? '' : p; });   // '' = todos
   const [busca, setBusca] = useState('');
   const [renomear, setRenomear] = useState<string | null>(null);
   const [apagar, setApagar] = useState(false);
@@ -97,7 +100,7 @@ export function Documentos() {
   const atual = d.pastas.find((p) => p.id === pasta);
   const q = norm(busca.trim());
   const lista = useMemo(() => d.documentos.filter((doc) => {
-    if (pasta === '-' ? doc.pasta_id : pasta && doc.pasta_id !== pasta) return false;
+    if (pasta === 'trechos' ? doc.tipo !== 'anotacao' : pasta && doc.pasta_id !== pasta) return false;
     if (!q) return true;
     return norm([doc.titulo, doc.conteudo?.ref, ...(doc.conteudo?.blocos || []).flatMap((b) => [OBRAS[b.obra]?.autor || '', ...b.secoes.map((s) => s.titulo + ' ' + s.texto)])].join(' ')).includes(q);
   }), [d.documentos, pasta, q]);
@@ -105,7 +108,7 @@ export function Documentos() {
   return (
     <>
       <Cabecalho titulo="Meus documentos" sub={`${lista.length} ${lista.length === 1 ? 'documento' : 'documentos'}`} />
-      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2">
+      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2 lg:max-w-5xl">
         <AbasMensagens atual="documentos" />
         <input className="campo" type="search" placeholder="Buscar nos documentos" value={busca} onChange={(e) => setBusca(e.target.value)} aria-label="Buscar documentos" />
         <div className="flex flex-wrap gap-2" role="group" aria-label="Pastas">
@@ -117,7 +120,7 @@ export function Documentos() {
               onPointerUp={() => { if (toque.current) clearTimeout(toque.current); }} onPointerLeave={() => { if (toque.current) clearTimeout(toque.current); }}
               onContextMenu={(e) => { e.preventDefault(); escolher(p.id); setRenomear(p.nome); }}>{p.nome}</button>
           ))}
-          <button type="button" className="chip" aria-pressed={pasta === '-'} onClick={() => escolher('-')}>Sem pasta</button>
+          <button type="button" className="chip" aria-pressed={pasta === 'trechos'} onClick={() => escolher('trechos')}>Trechos salvos</button>
           <button type="button" className="chip" onClick={() => setNova('')}>+ Pasta</button>
         </div>
         {nova !== null ? (
@@ -149,7 +152,7 @@ export function Documentos() {
             {!d.documentos.length ? <p className="ajuda">Abra a Bíblia em hebraico ou grego, toque em “Comentários” num versículo e use “Salvar em Meus documentos”.</p> : null}
           </div>
         ) : (
-          <ol className="m-0 flex list-none flex-col gap-2 p-0">
+          <ol className="m-0 grid list-none grid-cols-1 gap-2 p-0 lg:grid-cols-2">
             {lista.map((doc) => (
               <li key={doc.id}>
                 <a href={`#/documentos/${doc.id}`} className="cartao block no-underline">
@@ -167,7 +170,7 @@ export function Documentos() {
           </ol>
         )}
       </main>
-      {apagar && atual ? <Confirmar titulo="Apagar esta pasta?" texto={`A pasta “${atual.nome}” será apagada. Os documentos dela NÃO são apagados: passam para “Sem pasta”.`} acao="Apagar pasta" perigo
+      {apagar && atual ? <Confirmar titulo="Apagar esta pasta?" texto={`A pasta “${atual.nome}” será apagada. Os documentos dela NÃO são apagados: continuam em “Todos”.`} acao="Apagar pasta" perigo
         onNao={() => setApagar(false)} onSim={async () => { setApagar(false); try { await apagarPasta(atual.id); escolher(''); } catch (e) { avisar((e as Error).message); } }} /> : null}
     </>
   );
@@ -205,7 +208,7 @@ export function DocumentoTela({ id }: { id: string }) {
   return (
     <>
       <Cabecalho titulo={doc.titulo || 'Documento'} sub={TIPO[doc.tipo]} voltar="/documentos" />
-      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2">
+      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2 md:max-w-3xl">
         {titulo !== null ? (
           <form className="flex gap-2" onSubmit={async (e) => { e.preventDefault(); try { await alterarDocumento(doc.id, { titulo: titulo.trim() }); setTitulo(null); } catch (er) { avisar((er as Error).message); } }}>
             <input className="campo flex-1" autoFocus maxLength={200} value={titulo} onChange={(e) => setTitulo(e.target.value)} aria-label="Título do documento" />
@@ -263,7 +266,7 @@ export function AnexosDaMensagem({ ids, mudar, pode }: { ids: string[]; mudar: (
           <select className="campo mt-2" defaultValue="" aria-label="Escolher documento para anexar" onChange={(e) => { if (e.target.value) { mudar([...ids, e.target.value]); setEscolher(false); } }}>
             <option value="" disabled>Escolha um documento…</option>
             {d.pastas.map((p) => { const ds = livres.filter((x) => x.pasta_id === p.id); return ds.length ? <optgroup key={p.id} label={p.nome}>{ds.map((x) => <option key={x.id} value={x.id}>{x.titulo}</option>)}</optgroup> : null; })}
-            {livres.some((x) => !x.pasta_id) ? <optgroup label="Sem pasta">{livres.filter((x) => !x.pasta_id).map((x) => <option key={x.id} value={x.id}>{x.titulo}</option>)}</optgroup> : null}
+            {livres.some((x) => !x.pasta_id) ? <optgroup label="Outros">{livres.filter((x) => !x.pasta_id).map((x) => <option key={x.id} value={x.id}>{x.titulo}</option>)}</optgroup> : null}
           </select>
         ) : <p className="ajuda">Você não tem outros documentos salvos.</p>
       ) : <button type="button" className="btn btn-mini mt-2" onClick={() => setEscolher(true)}>+ Anexar documento</button>) : null}

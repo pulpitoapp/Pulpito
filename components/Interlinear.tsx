@@ -7,7 +7,10 @@ import { SelecaoTexto } from './SelecaoTexto';
 import { LIVROS } from '@/lib/biblia';
 import { BASE } from '@/lib/cliente/bibliaDados';
 import { gravar, ler } from '@/lib/cliente/local';
-import { ir } from './contexto';
+import { ir, useApp } from './contexto';
+import { IcoSalvar } from './Icones';
+import { salvarDocumento } from '@/lib/cliente/documentos';
+import { pref } from '@/lib/cliente/local';
 import { Painel } from './Paineis';
 
 /** Livros que já têm a leitura palavra por palavra. */
@@ -124,6 +127,7 @@ function TextoVerbete({ def, fechar }: { def: string; fechar: () => void }) {
 export function PainelVerbete({ l, palavra, fechar }: { l: number; palavra: Palavra; fechar: () => void }) {
   const [v, setV] = useState<Verbete | null | 'erro'>(null);
   const area = useRef<HTMLDivElement>(null);
+  const { avisar } = useApp();
   useEffect(() => {
     let vivo = true;
     carregarLexico(l).then((d) => { if (vivo) setV(d[palavra[3]] || 'erro'); }).catch(() => { if (vivo) setV('erro'); });
@@ -144,7 +148,17 @@ export function PainelVerbete({ l, palavra, fechar }: { l: number; palavra: Pala
             <span className="etiqueta">{classe(v[2])}</span>
             <span className="text-[13px] text-mute">{palavra[3].replace(/^([HG])0*/, '$1')}</span>
           </p>
-          <p className="m-0 mt-3 text-[17px] font-bold">{v[3]}</p>
+          <div className="mt-3 flex items-start gap-2">
+            <p className="m-0 flex-1 text-[17px] font-bold">{v[3]}</p>
+            <button type="button" className="redondo !h-10 !w-10 shrink-0" aria-label="Salvar o verbete em Meus documentos" title="Salvar em Meus documentos" onClick={async () => {
+              const texto = `${v[3]}\n\n${v[4]}`;
+              try {
+                await salvarDocumento({ titulo: `${palavra[1]} (${heb ? 'hebraico' : 'grego'}) · ${v[3]}`.slice(0, 200), tipo: 'anotacao', pasta_id: pref.ler<string>('docs-ultima-pasta', '') || null,
+                  conteudo: { ref: `${palavra[1]} · ${v[0]}`, l, c: 0, v: 1, blocos: [{ obra: 'dicionario', secoes: [{ titulo: `${v[0]} · ${limparTr(v[1])} · ${classe(v[2])}`, original: v[0], texto }] }] } });
+                avisar('Verbete salvo em Meus documentos');
+              } catch (e) { avisar((e as Error).message); }
+            }}><IcoSalvar /></button>
+          </div>
           <div className="mt-2"><TextoVerbete def={v[4]} fechar={fechar} /></div>
           {!v[5] ? <p className="ajuda">Verbete ainda em inglês: a tradução está em andamento.</p> : null}
           {v[6].length > 1 ? (

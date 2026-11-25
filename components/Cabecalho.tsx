@@ -6,7 +6,7 @@ import { ir } from './contexto';
 export function Cabecalho({ titulo, sub, voltar = '/', children }: { titulo: string; sub?: string; voltar?: string; children?: React.ReactNode }) {
   return (
     <header className="topo sticky top-0 z-20" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
-      <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 py-2">
+      <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 py-2 md:max-w-3xl lg:max-w-5xl">
         <button type="button" onClick={() => ir(voltar)} aria-label={voltar === '/' ? 'Voltar ao início' : 'Voltar'} className="redondo"><IcoVoltar /></button>
         <div className="flex-1">
           {sub ? <p className="rot m-0 truncate">{sub}</p> : null}

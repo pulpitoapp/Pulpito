@@ -135,8 +135,8 @@ function Marcar({ lidos }: { lidos: ReturnType<typeof useLeitura>['lidos'] }) {
               })}
             </div>
             <div className="mt-3 flex gap-2">
-              <button type="button" className="btn btn-pri btn-mini flex-1" onClick={() => definirLidos(Array.from({ length: n }, (_, c) => [lv, c] as [number, number]), true)}>Marcar o livro todo</button>
-              <button type="button" className="btn btn-mini flex-1" onClick={() => setDesmarcar(lv)}>Desmarcar o livro</button>
+              <button type="button" className="btn btn-pri btn-mini btn-quebra flex-1" onClick={() => definirLidos(Array.from({ length: n }, (_, c) => [lv, c] as [number, number]), true)}>Marcar o livro todo</button>
+              <button type="button" className="btn btn-mini btn-quebra flex-1" onClick={() => setDesmarcar(lv)}>Desmarcar o livro</button>
             </div>
           </div>
         ) : null}
@@ -153,5 +153,36 @@ function Marcar({ lidos }: { lidos: ReturnType<typeof useLeitura>['lidos'] }) {
       {desmarcar !== null ? <Confirmar titulo="Desmarcar o livro?" texto={`Todos os capítulos de ${LIVROS[desmarcar]} voltam a ficar como não lidos, e a contagem de vezes é zerada.`} acao="Desmarcar" perigo
         onNao={() => setDesmarcar(null)} onSim={() => { definirLidos(Array.from({ length: CAPITULOS[desmarcar] }, (_, c) => [desmarcar, c] as [number, number]), false); setDesmarcar(null); }} /> : null}
     </>
+  );
+}
+
+/** Mini painel da leitura (usado no Perfil e no Início): progresso, tempo da semana e o gráfico dos 7 dias. */
+export function MiniLeitura() {
+  const l = useLeitura();
+  const r = resumo(l.lidos);
+  const d = new Date();
+  const semana = Array.from({ length: 7 }, (_, i) => { const x = new Date(d); x.setDate(d.getDate() - (6 - i)); return x.toLocaleDateString('sv-SE'); });
+  const tempoSemana = semana.reduce((a, k) => a + (l.uso[k] || 0), 0);
+  const max = Math.max(60, ...semana.map((k) => l.uso[k] || 0));
+  const dias = 'DSTQQSS';
+  const seguidos = (() => { let n = 0; for (let i = 6; i >= 0; i--) { if ((l.uso[semana[i]] || 0) > 0) n++; else if (i < 6) break; } return n; })();
+  return (
+    <a href="#/leitura" className="cartao mini-leitura block no-underline" aria-label="Minha leitura: abrir o relatório">
+      <div className="flex items-center justify-between"><p className="rot m-0">Minha leitura</p><span className="text-[13px] text-mute">ver tudo →</span></div>
+      <div className="mt-3 flex items-center gap-4">
+        <div className="anel anel-mini" style={{ ['--p' as string]: `${r.pct * 360}deg` }} aria-hidden="true"><span>{pct(r.pct)}</span></div>
+        <div className="grid flex-1 grid-cols-3 gap-2 text-center">
+          <div className="mini-num"><b>{r.caps}</b><span>capítulos</span></div>
+          <div className="mini-num"><b>{r.livros}</b><span>livros</span></div>
+          <div className="mini-num"><b>{horas(tempoSemana)}</b><span>na semana</span></div>
+        </div>
+      </div>
+      <div className="mini-semana mt-3" aria-label={`Tempo de uso nos últimos 7 dias: ${horas(tempoSemana)}`}>
+        {semana.map((k) => { const s = l.uso[k] || 0; const dt = new Date(k + 'T12:00'); return (
+          <div key={k} title={`${dt.toLocaleDateString('pt-BR')}: ${horas(s)}`}><i style={{ height: `${Math.max(4, (s / max) * 100)}%`, opacity: s ? 1 : 0.35 }} /><span>{dias[dt.getDay()]}</span></div>
+        ); })}
+      </div>
+      <p className="m-0 mt-2 text-[13.5px] text-mute">{seguidos > 1 ? `${seguidos} dias seguidos usando o Púlpito` : 'Marque o que já leu e acompanhe o seu progresso'}</p>
+    </a>
   );
 }

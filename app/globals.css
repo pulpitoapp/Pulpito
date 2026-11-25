@@ -354,3 +354,56 @@ details[open] > summary.topico .seta { transform: rotate(90deg); }
 .paleta-ferr { align-items: flex-start; }
 .paleta-mini .ico-ferr i { display: none; }
 .destaque-passos b { flex: none; }
+/* cor da ponta/faixa: camada colorida recortada pela máscara, "multiplicada" sobre o desenho neutro (mantém a sombra) */
+.ico-tinta { position: absolute; inset: 0; width: 100%; height: auto; aspect-ratio: var(--prop, auto); -webkit-mask-size: 100% auto; mask-size: 100% auto; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-position: top center; mask-position: top center; mix-blend-mode: multiply; pointer-events: none; }
+.ico-ferr { isolation: isolate; }
+.ico-ferr i { display: none; }
+/* telas largas (iPad deitado, computador): leitura da Bíblia com letra um pouco maior e barras centralizadas */
+@media (min-width: 1024px) {
+  .abas { max-width: 720px; margin: 0 auto; border-radius: 22px 22px 0 0; border-left: 1px solid var(--line); border-right: 1px solid var(--line); }
+  .painel { max-width: 760px; margin: 0 auto; }
+}
+
+/* ---------- paleta v3: fixa embaixo, rente à tela; cor num anel só; vira bolinha ao escrever ---------- */
+.paleta { bottom: calc(6px + env(safe-area-inset-bottom)) !important; top: auto !important; left: 50% !important; transform: translateX(-50%) !important; z-index: 72; padding: 8px 10px 6px; }
+.lousa-cheia .paleta { bottom: calc(6px + env(safe-area-inset-bottom)) !important; }
+.paleta-linha { flex-wrap: nowrap !important; justify-content: center; align-items: flex-end; }
+.paleta-anel { width: 40px; height: 40px; border-radius: 50%; padding: 4px; background: conic-gradient(#e03131, #f2b705, #2f9e44, #1d9be6, #6741d9, #c2255c, #e03131); display: grid; place-items: center; flex: none; }
+.paleta-anel span { width: 100%; height: 100%; border-radius: 50%; border: 3px solid var(--paper); }
+.paleta-mini { left: auto !important; right: 14px !important; transform: none !important; width: 54px; height: 54px; padding: 5px; background: conic-gradient(#e03131, #f2b705, #2f9e44, #1d9be6, #6741d9, #c2255c, #e03131); }
+.paleta-mini-cor { width: 100%; height: 100%; border-radius: 50%; border: 4px solid var(--paper); }
+.cores-recentes { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 4px; }
+.cores-recentes button { width: 30px; height: 30px; border-radius: 50%; box-shadow: 0 0 0 1px var(--line); }
+.cores-recentes button[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px var(--ink); }
+@media (max-width: 560px) { .paleta-ferr { width: 40px; } .ico-ferr { width: 34px; } .paleta { padding: 6px 6px 4px; } .paleta-redondo { width: 32px; height: 32px; } .paleta-anel { width: 36px; height: 36px; } }
+@media (max-width: 380px) { .paleta-ferr { width: 34px; } .ico-ferr { width: 30px; } }
+.texto-formatado { min-height: 18em; white-space: normal; line-height: 1.8; cursor: text; overflow-wrap: anywhere; }
+/* botões que podem quebrar a linha (texto mais longo) */
+.btn-quebra { white-space: normal; letter-spacing: .08em; line-height: 1.25; padding: 8px 10px; text-align: center; }
+/* interruptor no estilo do iPhone */
+.interruptor { display: flex; align-items: center; justify-content: space-between; gap: 12px; cursor: pointer; font-size: 15px; position: relative; }
+.interruptor input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.interruptor i { width: 51px; height: 31px; border-radius: 31px; background: #d8d2d4; position: relative; transition: background .2s; flex: none; }
+.interruptor i::after { content: ""; position: absolute; top: 2px; left: 2px; width: 27px; height: 27px; border-radius: 50%; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,.25); transition: transform .2s; }
+.interruptor input:checked + i { background: #34c759; }
+.interruptor input:checked + i::after { transform: translateX(20px); }
+.interruptor input:focus-visible + i { outline: 2px solid var(--vinho, #4a1626); outline-offset: 2px; }
+.interruptor input:disabled + i { opacity: .5; }
+.redondo-claro { color: var(--vinho, #4a1626); border-color: var(--line) !important; background: var(--paper) !important; }
+.avatar { border-radius: 50%; overflow: hidden; display: grid; place-items: center; background: var(--vinho, #4a1626); color: #fff; font-weight: 700; flex: none; }
+.avatar img { width: 100%; height: 100%; object-fit: cover; }
+.avatar-grande { width: 76px; height: 76px; font-size: 26px; box-shadow: 0 0 0 3px var(--paper), 0 0 0 4px var(--line); }
+.avatar-aba { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; }
+.abas a[aria-current="page"] .avatar-aba { box-shadow: 0 0 0 2px var(--vinho, #4a1626); }
+.anel-mini { width: 76px; height: 76px; }
+.anel-mini span { width: 60px; height: 60px; font-size: 16px; }
+.mini-num { display: flex; flex-direction: column; gap: 2px; }
+.mini-num b { font: 800 19px/1.1 var(--font-corpo), Georgia, serif; color: var(--ink); }
+.mini-num span { font-size: 11.5px; color: var(--mute); text-transform: uppercase; letter-spacing: .06em; }
+.mini-semana { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; height: 64px; }
+.mini-semana div { display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 3px; height: 100%; }
+.mini-semana i { width: 100%; max-width: 26px; border-radius: 6px 6px 3px 3px; background: var(--ouro); display: block; }
+.mini-semana span { font-size: 10.5px; color: var(--mute); }
+/* a bolinha fica acima da barra de baixo (na tela cheia, rente à borda) */
+.paleta-mini { bottom: calc(86px + env(safe-area-inset-bottom)) !important; }
+.lousa-cheia .paleta-mini { bottom: calc(10px + env(safe-area-inset-bottom)) !important; }

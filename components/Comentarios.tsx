@@ -23,6 +23,7 @@ export const OBRAS: Record<string, { autor: string; rotulo: string; obra: string
   keil: { autor: 'Keil & Delitzsch', rotulo: 'Estudo das Palavras', obra: 'Comentário sobre o Antigo Testamento', ano: '1866–1891' },
   jfb: { autor: 'Jamieson, Fausset e Brown', rotulo: 'Explicação do sentido', obra: 'Comentário Crítico e Explicativo de Toda a Bíblia', ano: '1871' },
   trecho: { autor: 'Trecho salvo', rotulo: 'Seleção', obra: 'Púlpito', ano: '' },
+  dicionario: { autor: 'Dicionário de palavras', rotulo: 'Hebraico e grego', obra: 'STEPBible (Tyndale House), CC BY 4.0', ano: '' },
 };
 const ORDEM = ['vincent', 'robertson', 'keil', 'jfb'];          // as que já estavam primeiro
 

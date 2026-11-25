@@ -4,6 +4,7 @@
 // marca-texto, borracha, laço (seleciona e arrasta), régua, desfazer/refazer, 5 cores + cor livre,
 // tela cheia, "+ Página" e blocos de texto (texto bíblico ou algo salvo).
 // Os traços são vetores (medidas de 0 a 1000 da largura): ficam nítidos em qualquer tela.
+import { IcoVoltar } from './Icones';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Bloco, Traco } from '@/lib/tipos';
 import { pref } from '@/lib/cliente/local';
@@ -123,15 +124,20 @@ const dentro = (x: number, y: number, poli: number[]) => {
 };
 type Foto = { tracos: Traco[]; altura: number; blocos: Bloco[] };
 
-export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = true, rotulo = 'Folha de escrita', aoInserir }: {
+export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = true, rotulo = 'Folha de escrita', aoInserir, escrevendo, setEscrevendo }: {
   tracos: Traco[]; altura: number; blocos?: Bloco[]; mudar?: (tracos: Traco[], altura: number, blocos?: Bloco[]) => void; leitura?: boolean; pautada?: boolean; rotulo?: string;
   /** Abre a escolha de um texto bíblico ou de algo salvo; devolve o bloco a colocar (ou null). */
   aoInserir?: (tipo: 'biblia' | 'salvo') => Promise<{ titulo: string; texto: string } | null>;
+  /** Quando vem de fora: o dedo escreve (botão “Escrever” bordô) ou rola a página. */
+  escrevendo?: boolean; setEscrevendo?: (v: boolean) => void;
 }) {
   const caixa = useRef<HTMLDivElement>(null);
   const tela = useRef<HTMLCanvasElement>(null);
   const [largura, setLargura] = useState(0);
-  const [ativa, setAtiva] = useState(false);              // o dedo escreve (a caneta sempre escreve)
+  const [ativaLocal, setAtivaLocal] = useState(false);     // o dedo escreve (a caneta sempre escreve)
+  const ativa = escrevendo ?? ativaLocal;
+  const setAtiva = (v: boolean) => { if (setEscrevendo) setEscrevendo(v); else setAtivaLocal(v); };
+  const [mini, setMini] = useState(false);                // a paleta vira uma bolinha enquanto se escreve
   const [ferramenta, setFerramenta] = useState<Ferramenta>('caneta');
   const [cores, setCores] = useState<string[]>(() => pref.ler('lousa-cores', CORES_PADRAO));
   // cada ferramenta lembra a sua cor (como no iPhone)
@@ -139,7 +145,7 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   const corIdx = corPor[ferramenta] ?? 0;
   const setCorIdx = (i: number) => { const n = { ...corPor, [ferramenta]: i }; setCorPor(n); pref.gravar('lousa-cor-por', n); };
   const [opacidade, setOpacidade] = useState(1);
-  const [regua, setRegua] = useState(false);
+  const [regua] = useState(false);
   const [cheia, setCheia] = useState(false);
   const [seletor, setSeletor] = useState(false);
   const [mais, setMais] = useState(false);
@@ -228,6 +234,7 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
     e.preventDefault();
     (e.target as Element).setPointerCapture(e.pointerId);
     const [x, y, p] = ponto(e);
+    setMini(true);
     if (ferramenta === 'laco') {
       if (naSelecao(x, y)) { arrasto.current = { x, y }; desfazer.current.push(atual.current); refazer.current = []; return; }
       setSelecao(null); laco.current = [x, y]; return;
@@ -305,7 +312,13 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
     const b: Bloco = { id: Math.random().toString(36).slice(2), x: 60, y: Math.max(30, y), w: 880, titulo: r.titulo, texto: r.texto.slice(0, 1200) };
     aplicar({ ...f, blocos: [...f.blocos, b], altura: Math.max(f.altura, b.y + alturaBloco(b) + 200) });
   };
-  const trocarCor = (nova: string) => { const l = [...cores]; l[corIdx] = nova; setCores(l); pref.gravar('lousa-cores', l); };
+  // a cor escolhida vai para a ferramenta atual (cada uma lembra a sua)
+  const trocarCor = (nova: string) => {
+    let i = cores.indexOf(nova);
+    let l = cores;
+    if (i < 0) { l = [...cores, nova].slice(-12); i = l.length - 1; setCores(l); pref.gravar('lousa-cores', l); }
+    setCorIdx(i);
+  };
 
   const editavel = !leitura && !!mudar;
   const paginas = Math.floor(altura / PAGINA);
@@ -327,18 +340,20 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
   const conteudo = (
     <>
       <div className="mb-2 flex flex-wrap items-center gap-2">
-        <button type="button" className="chip" onClick={() => setCheia(!cheia)}>{cheia ? 'Sair da tela cheia' : 'Tela cheia'}</button>
-        <button type="button" className="chip" aria-pressed={ativa} onClick={() => setAtiva(!ativa)}>{ativa ? 'Dedo: escreve' : 'Dedo: rola a página'}</button>
+        {cheia
+          ? <button type="button" className="redondo redondo-claro" onClick={() => setCheia(false)} aria-label="Sair da tela cheia" title="Sair da tela cheia"><IcoVoltar /></button>
+          : <button type="button" className="chip" onClick={() => setCheia(true)}>Tela cheia</button>}
+        {cheia || !setEscrevendo ? <button type="button" className="chip" aria-pressed={ativa} onClick={() => setAtiva(!ativa)}>Escrever</button> : null}
       </div>
       {folha}
       <div className="mt-2 flex gap-2">
         <button type="button" className="btn btn-mini flex-1" onClick={() => aplicar({ ...atual.current, altura: (Math.floor(atual.current.altura / PAGINA) + 1) * PAGINA + PAGINA })}>+ Página</button>
         <button type="button" className="btn btn-mini flex-1" onClick={() => aplicar({ ...atual.current, altura: atual.current.altura + 350 })}>+ Linhas</button>
       </div>
-      <p className="ajuda">Com a caneta (Apple Pencil) é só escrever. Com o dedo, ligue “Dedo: escreve”; para rolar, volte para “Dedo: rola a página”.</p>
+      <p className="ajuda">{ativa ? 'Escrevendo com o dedo. Toque em “Escrever” de novo para voltar a rolar a página.' : 'Toque em “Escrever” (fica bordô) para escrever com o dedo. Com a caneta (Apple Pencil) é só escrever.'}</p>
       <Paleta
         ferramenta={ferramenta} setFerramenta={(f) => { setFerramenta(f); setAtiva(true); if (f !== 'laco') setSelecao(null); }}
-        cores={cores} corIdx={corIdx} setCorIdx={setCorIdx} cor={cor} regua={regua} setRegua={setRegua}
+        cor={cor} corDe={(f) => cores[corPor[f] ?? 0] || '#1a1a1a'} mini={mini} setMini={setMini}
         podeDesfazer={pilhas.d > 0} podeRefazer={pilhas.r > 0} desfazer={voltar} refazer={avancar}
         abrirCores={() => setSeletor(true)} abrirMais={() => setMais(!mais)} selecao={!!selecao} apagarSelecao={apagarSelecao}
       />
@@ -349,57 +364,42 @@ export function Lousa({ tracos, altura, blocos = [], mudar, leitura, pautada = t
           <button type="button" role="menuitem" onClick={() => setMais(false)}>Fechar</button>
         </div>
       ) : null}
-      {seletor ? <SeletorCor inicial={cor} opacidade={opacidade} aoEscolher={(c, a) => { trocarCor(c); setOpacidade(a); setSeletor(false); }} fechar={() => setSeletor(false)} /> : null}
+      {seletor ? <SeletorCor inicial={cor} recentes={cores} opacidade={opacidade} aoEscolher={(c, a) => { trocarCor(c); setOpacidade(a); setSeletor(false); }} fechar={() => setSeletor(false)} /> : null}
     </>
   );
   return cheia ? <div className="lousa-cheia" role="dialog" aria-modal="true" aria-label="Escrever em tela cheia">{conteudo}</div> : <div>{conteudo}</div>;
 }
 
 // ---------- paleta flutuante ----------
+const TINGE = ['caneta', 'fina', 'marca'];
+/** Desenho da ferramenta; a ponta e a faixa ficam da cor escolhida para ela (a borracha e o laço não mudam). */
 function IcoFerramenta({ f, cor }: { f: Ferramenta | 'regua'; cor?: string }) {
+  const tinge = !!cor && TINGE.includes(f);
+  const mascara = `url(${BASE}/canetas/${f}-cor.png)`;
   return (
     <span className="ico-ferr">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`${BASE}/canetas/${f}.png`} alt="" draggable={false} />
-      {cor && f !== 'borracha' && f !== 'laco' && f !== 'regua' ? <i style={{ background: cor }} /> : null}
+      <img src={`${BASE}/canetas/${f}${tinge ? '-base' : ''}.png`} alt="" draggable={false} />
+      {tinge ? <b className="ico-tinta" style={{ background: cor, WebkitMaskImage: mascara, maskImage: mascara }} /> : null}
     </span>
   );
 }
 
 function Paleta(p: {
-  ferramenta: Ferramenta; setFerramenta: (f: Ferramenta) => void; cores: string[]; corIdx: number; setCorIdx: (i: number) => void; cor: string;
-  regua: boolean; setRegua: (r: boolean) => void; podeDesfazer: boolean; podeRefazer: boolean; desfazer: () => void; refazer: () => void;
+  ferramenta: Ferramenta; setFerramenta: (f: Ferramenta) => void; cor: string; corDe: (f: Ferramenta) => string; mini: boolean; setMini: (m: boolean) => void;
+  podeDesfazer: boolean; podeRefazer: boolean; desfazer: () => void; refazer: () => void;
   abrirCores: () => void; abrirMais: () => void; selecao: boolean; apagarSelecao: () => void;
 }) {
-  const [mini, setMini] = useState(false);
-  const [pos, setPos] = useState<{ x: number; y: number } | null>(() => pref.ler('lousa-paleta', null));
-  const toque = useRef<{ x: number; y: number; px: number; py: number } | null>(null);
-  const arrastar = (e: React.PointerEvent) => {
-    const el = (e.currentTarget as HTMLElement).closest('.paleta') as HTMLElement;
-    const r = el.getBoundingClientRect();
-    toque.current = { x: e.clientX, y: e.clientY, px: r.left, py: r.top };
-    (e.target as Element).setPointerCapture(e.pointerId);
-  };
-  const mover = (e: React.PointerEvent) => {
-    const t = toque.current; if (!t) return;
-    const x = Math.min(window.innerWidth - 60, Math.max(4, t.px + e.clientX - t.x)), y = Math.min(window.innerHeight - 60, Math.max(4, t.py + e.clientY - t.y));
-    setPos({ x, y });
-  };
-  const soltar = () => { if (toque.current) { toque.current = null; if (pos) pref.gravar('lousa-paleta', pos); } };
-  const estilo = pos ? { left: pos.x, top: pos.y, bottom: 'auto', transform: 'none' } : undefined;
-
-  if (mini) {
+  if (p.mini) {
     return (
-      <button type="button" className="paleta paleta-mini" style={estilo} aria-label="Abrir as ferramentas de escrita"
-        onClick={() => { setMini(false); setPos(null); pref.gravar('lousa-paleta', null); }}>
-        <IcoFerramenta f={p.ferramenta} cor={p.cor} />
+      <button type="button" className="paleta paleta-mini" aria-label="Abrir as ferramentas de escrita" onClick={() => p.setMini(false)}>
+        <span className="paleta-mini-cor" style={{ background: p.cor }} />
       </button>
     );
   }
-  const ferramentas: [Ferramenta, string][] = [['caneta', 'Caneta'], ['fina', 'Caneta fina'], ['marca', 'Marca-texto'], ['borracha', 'Borracha'], ['laco', 'Laço (selecionar e arrastar)']];
+  const ferramentas: [Ferramenta, string][] = [['caneta', 'Caneta'], ['fina', 'Caneta fina'], ['marca', 'Marca-texto'], ['borracha', 'Borracha']];
   return (
-    <div className="paleta" style={estilo} role="toolbar" aria-label="Ferramentas de escrita">
-      <div className="paleta-alca" onPointerDown={arrastar} onPointerMove={mover} onPointerUp={soltar} aria-label="Arraste para mover as ferramentas" role="separator" />
+    <div className="paleta" role="toolbar" aria-label="Ferramentas de escrita">
       <div className="paleta-linha">
         <div className="paleta-grupo">
           <button type="button" className="paleta-redondo" disabled={!p.podeDesfazer} onClick={p.desfazer} aria-label="Desfazer">↶</button>
@@ -408,17 +408,14 @@ function Paleta(p: {
         <div className="paleta-ferramentas">
           {ferramentas.map(([f, nome]) => (
             <button key={f} type="button" className="paleta-ferr" aria-pressed={p.ferramenta === f} aria-label={nome} title={nome} onClick={() => p.setFerramenta(f)}>
-              <IcoFerramenta f={f} cor={p.ferramenta === f ? p.cor : undefined} />
+              <IcoFerramenta f={f} cor={p.corDe(f)} />
             </button>
           ))}
         </div>
-        <div className="paleta-cores">
-          {p.cores.map((c, i) => <button key={i} type="button" className="paleta-cor" aria-pressed={p.corIdx === i} aria-label={`Cor ${i + 1}`} style={{ background: c }} onClick={() => p.setCorIdx(i)} />)}
-          <button type="button" className="paleta-cor paleta-arcoiris" aria-label="Escolher outra cor" onClick={p.abrirCores} />
-        </div>
         <div className="paleta-grupo">
+          <button type="button" className="paleta-anel" aria-label="Escolher a cor" title="Cor" onClick={p.abrirCores}><span style={{ background: p.cor }} /></button>
           <button type="button" className="paleta-redondo" onClick={p.abrirMais} aria-label="Acrescentar texto da Bíblia ou algo salvo">＋</button>
-          <button type="button" className="paleta-redondo" onClick={() => setMini(true)} aria-label="Minimizar as ferramentas">⌄</button>
+          <button type="button" className="paleta-redondo" onClick={() => p.setMini(true)} aria-label="Recolher as ferramentas">⌄</button>
         </div>
       </div>
       {p.selecao ? <div className="paleta-sel"><span>Arraste a seleção para mover</span><button type="button" onClick={p.apagarSelecao}>Apagar seleção</button></div> : null}
@@ -441,7 +438,7 @@ const hslParaHex = (s: string) => {
   return `#${f(0)}${f(8)}${f(4)}`;
 };
 
-function SeletorCor({ inicial, opacidade, aoEscolher, fechar }: { inicial: string; opacidade: number; aoEscolher: (cor: string, opacidade: number) => void; fechar: () => void }) {
+function SeletorCor({ inicial, recentes = [], opacidade, aoEscolher, fechar }: { inicial: string; recentes?: string[]; opacidade: number; aoEscolher: (cor: string, opacidade: number) => void; fechar: () => void }) {
   const [aba, setAba] = useState<'grade' | 'espectro'>('grade');
   const [cor, setCor] = useState(inicial);
   const [op, setOp] = useState(opacidade);
@@ -467,6 +464,11 @@ function SeletorCor({ inicial, opacidade, aoEscolher, fechar }: { inicial: strin
     <div className="cores-fundo" onClick={fechar}>
       <div className="cores" role="dialog" aria-label="Cores" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-center justify-between"><b>Cores</b><button type="button" onClick={fechar} aria-label="Fechar">✕</button></div>
+        {recentes.length ? (
+          <div className="cores-recentes" aria-label="Suas cores">
+            {recentes.map((c) => <button key={c} type="button" aria-label={c} aria-pressed={c === cor} style={{ background: c }} onClick={() => aoEscolher(c, op)} />)}
+          </div>
+        ) : null}
         <div className="cores-abas">
           <button type="button" aria-pressed={aba === 'grade'} onClick={() => setAba('grade')}>Grade</button>
           <button type="button" aria-pressed={aba === 'espectro'} onClick={() => setAba('espectro')}>Espectro</button>

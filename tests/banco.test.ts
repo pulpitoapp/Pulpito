@@ -205,3 +205,11 @@ describe('plano de leitura', () => {
     await falha(BETO, `insert into planos_leitura (usuario_id, plano) values ('${ANA}', '{}')`);
   });
 });
+
+describe('preferências', () => {
+  it('cada um vê só as próprias preferências', async () => {
+    await como(ANA, `insert into preferencias (dados) values ('{"estilos":["Oração"]}')`);
+    expect(await como(BETO, 'select dados from preferencias')).toEqual([]);
+    await falha(BETO, `insert into preferencias (usuario_id, dados) values ('${ANA}', '{}')`);
+  });
+});

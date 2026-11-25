@@ -4,6 +4,7 @@ import type { BibliaDados } from '@/lib/biblia';
 import { rotuloChave, textoChave } from '@/lib/textos';
 import type { Mensagem } from '@/lib/tipos';
 import { alturaUsada, tracosEmImagem } from '@/components/Lousa';
+import { pedacos } from '@/lib/formatacao';
 
 export async function gerarPdf(m: Mensagem, biblia: BibliaDados | null): Promise<File> {
   const { jsPDF } = await import('jspdf');
@@ -32,6 +33,46 @@ export async function gerarPdf(m: Mensagem, biblia: BibliaDados | null): Promise
       y += tam * 0.45;
     }
   };
+
+  // parágrafo com *negrito* e _itálico_ misturados, justificado
+  const paragrafoRico = (txt: string) => {
+    const tam = 12, alt = tam * 1.5;
+    doc.setFontSize(tam); doc.setTextColor(41, 46, 51);
+    const estiloDe = (b?: boolean, i?: boolean) => (b && i ? 'bolditalic' : b ? 'bold' : i ? 'italic' : 'normal');
+    const espacoW = () => { doc.setFont('times', 'normal'); return doc.getTextWidth(' '); };
+    for (const bloco of String(txt || '').split(/\n+/).map((s) => s.trim()).filter(Boolean)) {
+      // palavras com estilo (uma palavra pode ter partes de estilos diferentes)
+      const palavras: { partes: { t: string; e: string }[]; w: number }[] = [];
+      let atual: { partes: { t: string; e: string }[]; w: number } | null = null;
+      for (const p of pedacos(bloco)) {
+        const e = estiloDe(p.b, p.i);
+        p.t.split(/(\s+)/).forEach((tok) => {
+          if (!tok) return;
+          if (/^\s+$/.test(tok)) { atual = null; return; }
+          doc.setFont('times', e);
+          if (!atual) { atual = { partes: [], w: 0 }; palavras.push(atual); }
+          atual.partes.push({ t: tok, e }); atual.w += doc.getTextWidth(tok);
+        });
+      }
+      const sp = espacoW();
+      const linhas: (typeof palavras)[] = [];
+      let linha: typeof palavras = [], w = 0;
+      for (const pal of palavras) {
+        if (linha.length && w + sp + pal.w > larg) { linhas.push(linha); linha = []; w = 0; }
+        w += (linha.length ? sp : 0) + pal.w; linha.push(pal);
+      }
+      if (linha.length) linhas.push(linha);
+      linhas.forEach((ln, i) => {
+        espaco(alt);
+        const ocupado = ln.reduce((s, p) => s + p.w, 0);
+        const vao = i < linhas.length - 1 && ln.length > 1 ? (larg - ocupado) / (ln.length - 1) : sp;
+        let px = L;
+        for (const pal of ln) { for (const pt of pal.partes) { doc.setFont('times', pt.e); doc.text(pt.t, px, y); px += doc.getTextWidth(pt.t); } px += vao; }
+        y += alt;
+      });
+      y += tam * 0.45;
+    }
+  };
   const titulo = (txt: string) => { y += 8; espaco(40); paragrafo(txt.toUpperCase(), { tam: 10, estilo: 'bold', justo: false, cor: [125, 122, 112] }); };
   const c = m.conteudo;
 
@@ -48,7 +89,7 @@ export async function gerarPdf(m: Mensagem, biblia: BibliaDados | null): Promise
       if (t) paragrafo(t, { estilo: 'italic', recuo: 10 });
     }
   }
-  if (c.texto.trim()) { titulo('Mensagem'); paragrafo(c.texto); }
+  if (c.texto.trim()) { titulo('Mensagem'); paragrafoRico(c.texto); }
   if (c.tracos.length || (c.blocos || []).length) {
     titulo('Anotações à mão');
     const altura = Math.min(c.altura, alturaUsada(c.tracos, c.blocos || []) + 40);

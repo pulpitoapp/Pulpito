@@ -5,12 +5,14 @@ import { CORES, ESTILOS, NOME_COR, ROTULO_SITUACAO, SITUACOES, type Conteudo, ty
 import { useBiblia } from '@/lib/cliente/bibliaDados';
 import { apagarMensagem, apagarPregacao, novoId, salvarMensagem, salvarPregacao, useDados } from '@/lib/cliente/dados';
 import { pref } from '@/lib/cliente/local';
+import { gravarPreferencia, lerPreferencias } from '@/lib/cliente/preferencias';
 import { compartilharArquivo, gerarPdf } from '@/lib/cliente/pdf';
 import { Cabecalho, Carregando, Confirmar } from './Cabecalho';
 import { definirGuarda, ir, sairSemGuarda, useApp } from './contexto';
 import { AnexosDaMensagem, EscolherSalvo } from './Documentos';
 import { Painel } from './Paineis';
 import { Lousa } from './Lousa';
+import { TextoFormatado } from './TextoFormatado';
 import { SeletorRef } from './SeletorRef';
 
 const dataBR = (d: string) => d.split('-').reverse().join('/');
@@ -27,6 +29,8 @@ export function Mensagem({ id }: { id: string }) {
   const [m, setM] = useState<Msg | null>(null);
   const [estado, setEstado] = useState<'salvo' | 'editando'>('salvo');
   const [aba, setAba] = useState<'digitar' | 'mao'>('digitar');
+  const [editandoTexto, setEditandoTexto] = useState(false);
+  const [escrevendo, setEscrevendo] = useState(false);       // o dedo escreve na folha (botão Escrever bordô)
   const [apagar, setApagar] = useState(false);
   const [ocupado, setOcupado] = useState(false);
   const tempo = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -92,7 +96,7 @@ export function Mensagem({ id }: { id: string }) {
       <Cabecalho titulo={minha ? 'Mensagem' : m.titulo || 'Mensagem'} sub={minha ? (estado === 'salvo' ? 'Salva' : 'Salvando…') : m.autor_linha || 'Mensagem pública'} voltar="/mensagens">
         <button type="button" className="btn btn-mini" onClick={pdf} disabled={ocupado}>{ocupado ? '…' : 'PDF'}</button>
       </Cabecalho>
-      <main className="mx-auto flex max-w-2xl flex-col gap-5 px-4 pb-8 pt-3">
+      <main className="mx-auto flex max-w-2xl flex-col gap-5 px-4 pb-8 pt-3 md:max-w-3xl lg:max-w-4xl">
         <section className="flex flex-col gap-3">
           <div><label className="rotulo" htmlFor="mTitulo">Título</label>
             <input id="mTitulo" className="campo !text-[21px] font-bold" value={m.titulo} onChange={(e) => mudar({ titulo: e.target.value })} maxLength={200} placeholder="Título da mensagem" readOnly={!minha} /></div>
@@ -134,13 +138,24 @@ export function Mensagem({ id }: { id: string }) {
         <section aria-label="Mensagem">
           <div className="mb-3 flex gap-2" role="group" aria-label="Como escrever">
             <button type="button" className="chip flex-1" aria-pressed={aba === 'digitar'} onClick={() => setAba('digitar')}>Digitar</button>
-            <button type="button" className="chip flex-1" aria-pressed={aba === 'mao'} onClick={() => setAba('mao')}>Escrever{c.tracos.length ? ' •' : ''}</button>
+            <button type="button" className="chip flex-1" aria-pressed={aba === 'mao' && escrevendo} onClick={() => { if (aba !== 'mao') { setAba('mao'); setEscrevendo(true); } else setEscrevendo(!escrevendo); }}>Escrever{c.tracos.length ? ' •' : ''}</button>
           </div>
           {aba === 'digitar' ? (
-            <textarea className="campo" rows={16} value={c.texto} onChange={(e) => mc({ texto: e.target.value })} placeholder="Escreva a mensagem" aria-label="Texto da mensagem" readOnly={!minha} style={{ lineHeight: 1.8 }} />
+            <>
+              {editandoTexto || !c.texto.trim() ? (
+                <textarea className="campo" rows={16} value={c.texto} onChange={(e) => mc({ texto: e.target.value })} placeholder="Escreva a mensagem" aria-label="Texto da mensagem" readOnly={!minha} style={{ lineHeight: 1.8 }}
+                  autoFocus={editandoTexto} onFocus={() => setEditandoTexto(true)} onBlur={() => setEditandoTexto(false)} />
+              ) : (
+                <div className="campo texto-formatado" role={minha ? 'button' : undefined} tabIndex={minha ? 0 : undefined} aria-label={minha ? 'Texto da mensagem (toque para editar)' : 'Texto da mensagem'}
+                  onClick={() => minha && setEditandoTexto(true)} onKeyDown={(e) => { if (minha && e.key === 'Enter') setEditandoTexto(true); }}>
+                  <TextoFormatado texto={c.texto} />
+                </div>
+              )}
+              {minha ? <p className="ajuda">Dica: *entre asteriscos* fica em <b>negrito</b>; _entre sublinhados_ fica em <i>itálico</i>.</p> : null}
+            </>
           ) : (
             <Lousa tracos={c.tracos} altura={c.altura} blocos={c.blocos || []} mudar={minha ? (tracos, altura, blocos) => mc({ tracos, altura, ...(blocos ? { blocos } : {}) }) : undefined} leitura={!minha} rotulo="Mensagem escrita"
-              aoInserir={(tipo) => new Promise((resolve) => setEscolha({ tipo, resolve }))} />
+              aoInserir={(tipo) => new Promise((resolve) => setEscolha({ tipo, resolve }))} escrevendo={minha ? escrevendo : undefined} setEscrevendo={minha ? setEscrevendo : undefined} />
           )}
         </section>
 
@@ -205,7 +220,16 @@ function Pregacoes({ m, lista, igrejaPadrao }: { m: Msg; lista: Pregacao[]; igre
   const [ocasiao, setOcasiao] = useState<string>(() => pref.ler<string[]>('estilos', [...ESTILOS])[0] || '');
   const [editarEstilos, setEditarEstilos] = useState(false);
   const [novoEstilo, setNovoEstilo] = useState('');
-  const gravarEstilos = (l: string[]) => { setEstilos(l); pref.gravar('estilos', l); if (!l.includes(ocasiao)) setOcasiao(l[0] || ''); };
+  const gravarEstilos = (l: string[]) => { setEstilos(l); pref.gravar('estilos', l); void gravarPreferencia(m.autor_id, 'estilos', l); if (!l.includes(ocasiao)) setOcasiao(l[0] || ''); };
+  // a lista de estilos fica na conta: vale em qualquer aparelho
+  useEffect(() => {
+    let vivo = true;
+    void lerPreferencias(m.autor_id).then((d) => {
+      const l = d.estilos as string[] | undefined;
+      if (vivo && Array.isArray(l) && l.length) { setEstilos(l); pref.gravar('estilos', l); setOcasiao((o) => (l.includes(o) ? o : l[0])); }
+    });
+    return () => { vivo = false; };
+  }, [m.autor_id]);
   function registrar(e: React.FormEvent) {
     e.preventDefault();
     if (!data) return;

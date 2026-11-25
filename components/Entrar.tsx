@@ -48,11 +48,6 @@ export function Entrar() {
     } finally { setOcupado(false); }
   }
 
-  async function google() {
-    setMsg('');
-    const { error } = await supa().auth.signInWithOAuth({ provider: 'google', options: { redirectTo: window.location.origin + window.location.pathname } });
-    if (error) setMsg(traduzir(error.message));
-  }
 
   return (
     <main className="topo min-h-dvh px-5 pb-10 pt-[max(56px,env(safe-area-inset-top))]">
@@ -76,7 +71,6 @@ export function Entrar() {
           ) : null}
           {msg ? <p className="aviso m-0" role="alert">{msg}</p> : null}
           <button type="submit" className="btn btn-pri" disabled={ocupado}>{ocupado ? 'Aguarde…' : modo === 'entrar' ? 'Entrar' : modo === 'criar' ? 'Criar conta' : 'Enviar link'}</button>
-          {modo !== 'esqueci' ? <button type="button" className="btn" onClick={google}>Continuar com o Google</button> : null}
           <div className="flex flex-wrap justify-between gap-2 text-[14.5px]">
             <button type="button" className="underline" onClick={() => { setModo(modo === 'entrar' ? 'criar' : 'entrar'); setMsg(''); }}>{modo === 'entrar' ? 'Criar uma conta' : 'Já tenho conta'}</button>
             {modo === 'entrar' ? <button type="button" className="underline" onClick={() => { setModo('esqueci'); setMsg(''); }}>Esqueci a senha</button> : null}

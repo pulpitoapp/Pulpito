@@ -47,7 +47,7 @@ export function Mensagens() {
       <Cabecalho titulo="Mensagens" sub={`${lista.length} ${lista.length === 1 ? 'mensagem' : 'mensagens'}`}>
         <button type="button" className="btn btn-pri !text-[14px] !tracking-[.14em]" onClick={criar}>+ Nova</button>
       </Cabecalho>
-      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2">
+      <main className="mx-auto flex max-w-2xl flex-col gap-3 px-4 pb-6 pt-2 lg:max-w-5xl">
         <AbasMensagens atual="mensagens" />
         <input className="campo" type="search" placeholder="Buscar por palavra, título, tema ou texto bíblico" value={busca} onChange={(e) => setBusca(e.target.value)} aria-label="Buscar mensagens" />
         <div className="flex gap-2" role="group" aria-label="Quais mensagens">
@@ -66,7 +66,7 @@ export function Mensagens() {
             {quais === 'minhas' && !base.length ? <button type="button" className="btn btn-pri mt-3" onClick={criar}>Escrever a primeira</button> : null}
           </div>
         ) : (
-          <ol className="m-0 flex list-none flex-col gap-2 p-0">
+          <ol className="m-0 grid list-none grid-cols-1 gap-2 p-0 lg:grid-cols-2">
             {lista.map((m) => <Item key={m.id} m={m} minha={m.autor_id === perfil.id} pendente={dados.fila.salvar.includes(m.id)} q={q} />)}
           </ol>
         )}

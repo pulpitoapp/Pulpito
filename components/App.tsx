@@ -20,6 +20,7 @@ import { Planos } from './Planos';
 import { Mensagem } from './Mensagem';
 import { Biblia } from './Biblia';
 import { TelaPerfil } from './TelaPerfil';
+import { useFoto } from '@/lib/cliente/foto';
 import { Admin } from './Admin';
 import { Privacidade } from './Privacidade';
 
@@ -160,7 +161,7 @@ export function App() {
           <a href="#/biblia" aria-current={aba === '/biblia' ? 'page' : undefined}><IcoBiblia />Bíblia</a>
           <a href="#/mensagens" onClick={(e) => { e.preventDefault(); const m = novaMensagem(perfil.id); salvarMensagem(m); ir(`/mensagens/${m.id}`); }} aria-label="Nova mensagem"><span className="fab"><IcoMais /></span>Nova</a>
           <a href="#/mensagens" aria-current={aba === '/mensagens' || aba === '/documentos' ? 'page' : undefined}><IcoMensagens />Mensagens</a>
-          <a href="#/perfil" aria-current={aba === '/perfil' || aba === '/admin' ? 'page' : undefined}><IcoPerfil />Perfil</a>
+          <a href="#/perfil" aria-current={aba === '/perfil' || aba === '/admin' ? 'page' : undefined}><FotoOuIcone uid={perfil.id} />Perfil</a>
         </nav>
       ) : null}
       {toast ? (
@@ -187,4 +188,11 @@ function SemConfiguracao() {
       <p className="mt-3">Falta configurar o Supabase. Crie o arquivo <code>.env.local</code> na pasta do projeto com as variáveis <code>NEXT_PUBLIC_SUPABASE_URL</code> e <code>NEXT_PUBLIC_SUPABASE_ANON_KEY</code> e reinicie. O passo a passo está no <code>README.md</code>.</p>
     </main>
   );
+}
+
+/** Na barra de baixo, a foto da pessoa no lugar do ícone (quando houver). */
+function FotoOuIcone({ uid }: { uid: string }) {
+  const foto = useFoto(uid);
+  // eslint-disable-next-line @next/next/no-img-element
+  return foto ? <img className="avatar-aba" src={foto} alt="" /> : <IcoPerfil />;
 }

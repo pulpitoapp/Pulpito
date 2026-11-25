@@ -1,0 +1,105 @@
+{
+ "1": {
+  "secoes": [
+   {
+    "titulo": "O sacrifício de Isaque",
+    "original": "",
+    "texto": "O SACRIFÍCIO DE ISAQUE. ({{Gen.22.1-19}})"
+   },
+   {
+    "titulo": "Deus tentou a Abraão",
+    "original": "",
+    "texto": "Não o incitou ao pecado ({{Jas.1.13}}), mas o provou, o pôs à prova — deu ocasião para o desenvolvimento da sua fé ({{1Pe.1.7}})."
+   },
+   {
+    "titulo": "E ele disse… Eis-me aqui",
+    "original": "",
+    "texto": "Pronto, ao primeiro aviso, para o serviço de Deus."
+   }
+  ]
+ },
+ "2": {
+  "secoes": [
+   {
+    "titulo": "Toma agora o teu filho etc.",
+    "original": "",
+    "texto": "Cada circunstância mencionada era de molde a ferir mais fundo o coração paterno. Perder o seu único filho e, ainda por cima, por um ato da sua própria mão! Que multidão de sentimentos contraditórios a ordem deve ter levantado! Mas ele ouviu e obedeceu sem um murmúrio ({{Gal.1.16}}; {{Luk.14.26}})."
+   }
+  ]
+ },
+ "3": {
+  "secoes": [
+   {
+    "titulo": "Abraão levantou-se… de madrugada etc.",
+    "original": "",
+    "texto": "Para que não houvesse aparência alguma de demora ou relutância da sua parte, fez todos os preparativos para o sacrifício antes de partir — os materiais, o cutelo e os servos para levá-los. De Berseba a Moriá, uma viagem de dois dias, levou o doloroso segredo encerrado no peito. Um lugar tão distante deve ter sido escolhido por alguma razão importante. Geralmente se pensa que este era um dos montes de Jerusalém, sobre o qual o Grande Sacrifício foi mais tarde oferecido."
+   }
+  ]
+ },
+ "4": {
+  "secoes": [
+   {
+    "titulo": "Ao terceiro dia levantou Abraão os olhos etc.",
+    "original": "",
+    "texto": "Deixando os servos ao pé do monte [{{Gen.22.5}}], o pai e o filho subiram, um levando o cutelo e o outro a lenha para consumir o sacrifício [{{Gen.22.6}}]. Mas não havia vítima; e à pergunta tão naturalmente feita por Isaque [{{Gen.22.7}}], Abraão contentou-se em responder: “Deus proverá para si o cordeiro para o holocausto, meu filho”. Tem-se suposto que o propósito deste extraordinário acontecimento era mostrar-lhe, por ação em vez de palavras, o modo pelo qual todas as famílias da terra seriam abençoadas; e que, na sua resposta a Isaque, ele previa alguma substituição. É mais provável que as suas palavras tenham sido ditas evasivamente a seu filho, na ignorância do desfecho, mas com ilimitada confiança em que aquele filho, embora sacrificado, seria, de algum modo milagroso, restituído ({{Heb.11.19}})."
+   }
+  ]
+ },
+ "9": {
+  "secoes": [
+   {
+    "titulo": "Abraão edificou um altar etc.",
+    "original": "",
+    "texto": "Não fosse o patriarca sustentado pela plena consciência de agir em obediência à vontade de Deus, o esforço teria sido grande demais para a resistência humana; e, não tivesse Isaque, então com mais de vinte anos de idade, demonstrado igual fé ao submeter-se, esta grande prova não poderia ter sido levada a termo."
+   }
+  ]
+ },
+ "11": {
+  "secoes": [
+   {
+    "titulo": "O anjo… bradou etc.",
+    "original": "",
+    "texto": "O sacrifício foi virtualmente oferecido — a intenção, o propósito de fazê-lo, foi demonstrado com toda a sinceridade e plenitude. A Testemunha onisciente, igualmente, declarou a sua aceitação nos mais altos termos de aprovação; e o apóstolo fala dele como realmente feito ({{Heb.11.17}}; {{Jas.2.21}})."
+   }
+  ]
+ },
+ "13": {
+  "secoes": [
+   {
+    "titulo": "Abraão levantou os olhos… e eis… um carneiro etc.",
+    "original": "",
+    "texto": "Nenhum método era mais admiravelmente apropriado para dar ao patriarca uma ideia distinta do propósito da graça do que esta representação cênica; e daí a alusão que nosso Senhor faz a ela ({{Jhn.8.56}})."
+   }
+  ]
+ },
+ "_atencao": [
+  {
+   "v": "3",
+   "secao": 0,
+   "tema": "tipologia",
+   "trecho": "Geralmente se pensa que este era um dos montes de Jerusalém, sobre o qual o Grande Sacrifício foi mais tarde oferecido.",
+   "motivo": "o autor liga o monte Moriá ao lugar do sacrifício de Cristo"
+  },
+  {
+   "v": "4",
+   "secao": 0,
+   "tema": "tipologia",
+   "trecho": "Tem-se suposto que o propósito deste extraordinário acontecimento era mostrar-lhe, por ação em vez de palavras, o modo pelo qual todas as famílias da terra seriam abençoadas; e que, na sua resposta a Isaque, ele previa alguma substituição.",
+   "motivo": "o autor registra a leitura do sacrifício de Isaque como figura do modo pelo qual as famílias da terra seriam abençoadas (substituição)"
+  },
+  {
+   "v": "4",
+   "secao": 0,
+   "tema": "tipologia",
+   "trecho": "É mais provável que as suas palavras tenham sido ditas evasivamente a seu filho, na ignorância do desfecho, mas com ilimitada confiança em que aquele filho, embora sacrificado, seria, de algum modo milagroso, restituído ({{Heb.11.19}}).",
+   "motivo": "ATENÇÃO: o autor prefere entender que “Deus proverá o cordeiro” foi resposta evasiva, e não previsão de um substituto — enfraquece/nega a figura de Cristo no cordeiro provido"
+  },
+  {
+   "v": "13",
+   "secao": 0,
+   "tema": "tipologia",
+   "trecho": "Nenhum método era mais admiravelmente apropriado para dar ao patriarca uma ideia distinta do propósito da graça do que esta representação cênica; e daí a alusão que nosso Senhor faz a ela ({{Jhn.8.56}}).",
+   "motivo": "o autor vê no carneiro substituto uma representação do propósito da graça (figura de Cristo), ligada a João 8:56"
+  }
+ ]
+}

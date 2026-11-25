@@ -362,3 +362,15 @@ grant select, insert, update, delete on public.planos_leitura to authenticated;
 drop policy if exists planos_dono on public.planos_leitura;
 create policy planos_dono on public.planos_leitura for all to authenticated
   using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar());
+
+-- Preferências pessoais (ex.: lista de estilos de pregação). Só o dono vê.
+create table if not exists public.preferencias (
+  usuario_id uuid primary key default auth.uid() references public.perfis (id) on delete cascade,
+  dados jsonb not null default '{}'::jsonb check (pg_column_size(dados) < 50000),
+  atualizado_em timestamptz not null default now()
+);
+alter table public.preferencias enable row level security;
+grant select, insert, update, delete on public.preferencias to authenticated;
+drop policy if exists preferencias_dono on public.preferencias;
+create policy preferencias_dono on public.preferencias for all to authenticated
+  using (usuario_id = auth.uid()) with check (usuario_id = auth.uid() and public.posso_usar());

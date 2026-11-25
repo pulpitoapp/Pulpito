@@ -1,4 +1,5 @@
 'use client';
+import { MiniLeitura } from './Leitura';
 import { useEffect, useState } from 'react';
 import { limparVerso, LIVROS } from '@/lib/biblia';
 import { useBiblia } from '@/lib/cliente/bibliaDados';
@@ -7,7 +8,6 @@ import { lerPlano, sincronizarPlano } from './Planos';
 import { versaoPorId, VERSOES } from '@/lib/versoes';
 import { novaMensagem, pendentes, salvarMensagem, useDados } from '@/lib/cliente/dados';
 import { pref } from '@/lib/cliente/local';
-import { porcento, resumo, useLeitura } from '@/lib/cliente/leitura';
 import { ir, useApp } from './contexto';
 import { Logo } from './Logo';
 
@@ -24,7 +24,6 @@ export function Inicio() {
   const primeiro = perfil.nome.trim().split(/\s+/)[0];
   const minhas = dados.mensagens.filter((m) => m.autor_id === perfil.id);
   const fila = pendentes(dados);
-  const leitura = resumo(useLeitura().lidos);
   const [plano, setPlano] = useState(() => lerPlano(perfil.id));
   useEffect(() => { void sincronizarPlano(perfil.id).then(setPlano); }, [perfil.id]);
   const bl = useBiblia('blivre');
@@ -118,12 +117,7 @@ export function Inicio() {
         )}
       </a>
 
-      <a href="#/leitura" className="cartao block no-underline" aria-label="Minha leitura">
-        <p className="rot m-0">Minha leitura</p>
-        <h2 className="tit mt-1">{porcento(leitura.pct)} da Bíblia</h2>
-        <span className="progresso-barra mt-2"><span style={{ width: `${Math.max(1, leitura.pct * 100)}%` }} /></span>
-        <p className="m-0 mt-2 text-[14.5px] text-mute">{leitura.caps} capítulos · {leitura.livros} livros completos · ver relatório →</p>
-      </a>
+      <MiniLeitura />
 
       <section className="cartao" aria-label="Mensagens">
         <p className="rot m-0">Mensagens</p>

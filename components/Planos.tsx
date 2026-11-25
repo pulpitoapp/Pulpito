@@ -18,6 +18,7 @@ export const PLANOS = [
   { id: 'cronologico', nome: 'Bíblia em ordem cronológica', desc: 'A Bíblia inteira na ordem em que os fatos aconteceram, em 365 dias.', arquivo: 'cronologico' },
   { id: 'evangelhos', nome: 'Os Evangelhos em harmonia', desc: 'A vida de Jesus em ordem, com as passagens iguais de Mateus, Marcos, Lucas e João uma depois da outra.', arquivo: 'evangelhos' },
   { id: 'antigo', nome: 'Antigo Testamento em ordem cronológica', desc: 'Da Criação a Malaquias na ordem dos acontecimentos, em 365 dias.', arquivo: 'antigo-cronologico' },
+  { id: 'novo', nome: 'Novo Testamento em ordem cronológica', desc: 'Os Evangelhos em ordem, Atos com as cartas encaixadas no tempo em que foram escritas, até o Apocalipse. 130 dias, 2 capítulos por dia.', arquivo: 'novo-cronologico' },
 ];
 
 // O plano fica na conta (tabela planos_leitura) e uma cópia no aparelho para abrir sem internet.
@@ -94,7 +95,7 @@ export function Planos() {
   return (
     <>
       <Cabecalho titulo="Planos de leitura" sub={plano ? `Lendo: ${plano.nome}` : 'Escolha como ler'} />
-      <main className="mx-auto flex max-w-2xl flex-col gap-4 px-4 pb-8 pt-3">
+      <main className="mx-auto flex max-w-2xl flex-col gap-4 px-4 pb-8 pt-3 md:max-w-3xl">
         {plano ? <PlanoEmAndamento plano={plano} salvar={salvar} /> : null}
         <button type="button" className="destaque-vidro text-left" onClick={() => setQuiz(true)}>
           <p className="rot m-0 !text-ouro">5 minutos</p>
@@ -241,7 +242,7 @@ function Questionario({ aoCancelar, aoCriar }: { aoCancelar: () => void; aoCriar
   return (
     <>
       <Cabecalho titulo="Monte o seu plano" sub={fim ? 'Seu cronograma' : `Pergunta ${passo + 1} de ${perguntas.length}`} />
-      <main className="mx-auto flex max-w-2xl flex-col gap-4 px-4 pb-8 pt-3">
+      <main className="mx-auto flex max-w-2xl flex-col gap-4 px-4 pb-8 pt-3 md:max-w-3xl">
         <span className="progresso-barra"><span style={{ width: `${(Math.min(passo, perguntas.length) / perguntas.length) * 100}%` }} /></span>
         {!fim ? (() => {
           const q = perguntas[passo];

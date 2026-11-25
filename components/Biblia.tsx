@@ -14,7 +14,6 @@ import { IcoApostila, IcoBusca, IcoEnviar, IcoLapis, IcoMarca, IcoMensagemAdd, I
 import { Painel, PainelEstudos, PainelNota, PainelRefs, PainelUsar } from './Paineis';
 import { OrdemOriginal, PainelOriginal, PainelVerbete, PalavrasDoVerso, temInterlinear, useCapituloInterlinear } from './Interlinear';
 import { comentariosDoVerso, PainelComentarios, useComentarios } from './Comentarios';
-import { OuvirCapitulo } from './Ouvir';
 
 type Achado = { l: number; c: number; v: number };
 type Aberto = null | 'menu' | 'busca' | 'nota' | 'refs' | 'estudos' | 'usar' | 'cartao' | 'cores' | 'original';
@@ -44,7 +43,6 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   const [comentarioV, setComentarioV] = useState<number | null>(null);
   const arraste = useRef<{ x: number; y: number; quando: number } | null>(null);
   const artigo = useRef<HTMLElement | null>(null);
-  const [lendo, setLendo] = useState(0);            // versículo sendo lido em voz alta
   const leitura = useLeitura();
   const [tam, setTam] = useState<number>(() => pref.ler('biblia-tam', 19));
   const [pos, setPos] = useState<{ l: number; c: number }>(() => pref.ler('biblia-pos', { l: 42, c: 0 }));
@@ -195,7 +193,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
         </div>
       </header>
 
-      <main className={`mx-auto max-w-2xl px-5 pb-40 ${sel.size ? 'tem-selecao' : ''}`}
+      <main className={`mx-auto max-w-2xl px-5 pb-40 md:max-w-3xl md:px-8 ${sel.size ? 'tem-selecao' : ''}`}
         onTouchStart={(e) => { const t = e.touches[0]; arraste.current = e.touches.length === 1 ? { x: t.clientX, y: t.clientY, quando: Date.now() } : null; }}
         onTouchEnd={(e) => {
           const a = arraste.current; arraste.current = null;
@@ -221,10 +219,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
             </a>
           );
         })()}
-        <div className="mt-4 flex justify-center">
-          <OuvirCapitulo key={`${pos.l}.${pos.c}.${versao.id}`} versos={modoInter ? capPt : cap} idioma={modoInter ? 'pt' : versao.idioma} titulo={`${nomeLivro}, capítulo ${pos.c + 1}`}
-            aoVerso={(v) => { setLendo(v); if (v) document.getElementById(`v${v}`)?.scrollIntoView({ block: 'center', behavior: 'smooth' }); }} />
-        </div>
+
         {ehOriginal && temInterlinear(pos.l) ? (
           <div className="mt-5 flex justify-center">
             <button type="button" className="chip" aria-pressed={porPalavra} onClick={() => mudarPorPalavra(!porPalavra)}>{porPalavra ? 'Palavra por palavra · ligado' : `Ler no ${pos.l < 39 ? 'hebraico' : 'grego'} palavra por palavra`}</button>
@@ -238,7 +233,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
             return (
               <div key={v}>
                 {secoes.has(v) ? <h3 className="secao" style={i === 0 ? { marginTop: 0 } : undefined}>{secoes.get(v)}</h3> : null}
-                <p id={`v${v}`} className={`verso ${versao.idioma === 'el' && !modoInter ? 'grego' : ''}`} dir={rtl && !modoInter ? 'rtl' : undefined} lang={modoInter ? 'pt' : versao.idioma} data-sel={sel.has(v) ? '1' : undefined} data-lendo={lendo === v ? '1' : undefined} onClick={() => tocar(v)}>
+                <p id={`v${v}`} className={`verso ${versao.idioma === 'el' && !modoInter ? 'grego' : ''}`} dir={rtl && !modoInter ? 'rtl' : undefined} lang={modoInter ? 'pt' : versao.idioma} data-sel={sel.has(v) ? '1' : undefined} onClick={() => tocar(v)}>
                   <span className="n">{v}</span>
                   <span className={`txt ${cor ? 'marca' : ''}`} style={cor ? { background: CORES[cor] } : undefined}><Texto t={modoInter ? capPt[i] || t : t} /></span>
                   {dados.notas[chave] ? <span className="tem-nota" aria-label="Tem anotação" /> : null}

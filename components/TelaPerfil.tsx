@@ -7,7 +7,10 @@ import { supa } from '@/lib/cliente/supabase';
 import { Cabecalho, Confirmar } from './Cabecalho';
 import { useApp } from './contexto';
 import { CamposPerfil } from './Entrar';
+import { MiniLeitura } from './Leitura';
 import { IcoAdmin, IcoSair } from './Icones';
+import { gravarFoto, prepararFoto, useFoto } from '@/lib/cliente/foto';
+import { useRef } from 'react';
 
 export function TelaPerfil() {
   const [tema, setTema] = useState<Tema>(() => (typeof window === 'undefined' ? 'claro' : lerTema()));
@@ -33,13 +36,14 @@ export function TelaPerfil() {
   return (
     <>
       <Cabecalho titulo="Perfil" sub={perfil.email || undefined} />
-      <main className="mx-auto flex max-w-2xl flex-col gap-4 px-4 pb-8 pt-2">
+      <main className="mx-auto flex max-w-2xl flex-col gap-4 px-4 pb-8 pt-2 md:max-w-3xl">
+        <FotoPerfil />
         <form onSubmit={salvar} className="cartao flex flex-col gap-3">
           <CamposPerfil valor={v} mudar={(m) => setV({ ...v, ...m } as typeof v)} />
           <button type="submit" className="btn btn-pri" disabled={ocupado}>{ocupado ? 'Salvando…' : 'Salvar perfil'}</button>
         </form>
 
-        <a href="#/leitura" className="cartao block no-underline"><p className="rotulo !mb-1">Minha leitura</p><span className="text-[15px]">Relatório de leitura, tempo de uso e marcar o que já leu →</span></a>
+        <MiniLeitura />
 
         <NotificacaoTextoDoDia />
 
@@ -107,13 +111,44 @@ function NotificacaoTextoDoDia() {
       ) : (
         <>
           <p className="m-0 text-[15px]">Receba todo dia às 8h (horário de Brasília) um versículo de encorajamento. Ao tocar, abre o texto e os comentários, quando houver.</p>
-          <button type="button" className={`btn mt-3 w-full ${ligada ? '' : 'btn-pri'}`} disabled={ocupado || ligada === null} onClick={async () => {
-            setOcupado(true);
-            try { if (ligada) { await desativarNotificacoes(); setLigada(false); avisar('Notificação desligada'); } else { await ativarNotificacoes(); setLigada(true); avisar('Pronto! Você vai receber o texto do dia às 8h'); } }
-            catch (e) { avisar((e as Error).message); } finally { setOcupado(false); }
-          }}>{ocupado ? 'Aguarde…' : ligada ? 'Desligar a notificação' : 'Ligar a notificação'}</button>
+          <label className="interruptor mt-3">
+            <span>{ocupado ? 'Aguarde…' : ligada ? 'Ligada' : 'Desligada'}</span>
+            <input type="checkbox" role="switch" checked={!!ligada} disabled={ocupado || ligada === null} aria-label="Notificação do texto do dia" onChange={async () => {
+              setOcupado(true);
+              try { if (ligada) { await desativarNotificacoes(); setLigada(false); avisar('Notificação desligada'); } else { await ativarNotificacoes(); setLigada(true); avisar('Pronto! Você vai receber o texto do dia às 8h'); } }
+              catch (e) { avisar((e as Error).message); } finally { setOcupado(false); }
+            }} />
+            <i aria-hidden="true" />
+          </label>
         </>
       )}
+    </section>
+  );
+}
+
+function FotoPerfil() {
+  const { perfil, avisar } = useApp();
+  const foto = useFoto(perfil.id);
+  const entrada = useRef<HTMLInputElement>(null);
+  const iniciais = (perfil.nome || '?').split(/\s+/).filter(Boolean).slice(0, 2).map((p) => p[0]).join('').toUpperCase();
+  return (
+    <section className="cartao flex items-center gap-4">
+      <button type="button" className="avatar avatar-grande" onClick={() => entrada.current?.click()} aria-label={foto ? 'Trocar a foto do perfil' : 'Colocar uma foto no perfil'}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        {foto ? <img src={foto} alt="" /> : <span>{iniciais}</span>}
+      </button>
+      <div className="flex flex-1 flex-col gap-2">
+        <b className="text-[17px]">{perfil.nome}</b>
+        <div className="flex flex-wrap gap-2">
+          <button type="button" className="btn btn-mini" onClick={() => entrada.current?.click()}>{foto ? 'Trocar foto' : 'Colocar foto'}</button>
+          {foto ? <button type="button" className="btn btn-mini" onClick={() => { void gravarFoto(perfil.id, ''); avisar('Foto removida'); }}>Tirar foto</button> : null}
+        </div>
+      </div>
+      <input ref={entrada} type="file" accept="image/*" hidden onChange={async (e) => {
+        const f = e.target.files?.[0]; e.target.value = '';
+        if (!f) return;
+        try { await gravarFoto(perfil.id, await prepararFoto(f)); avisar('Foto do perfil salva'); } catch (er) { avisar((er as Error).message); }
+      }} />
     </section>
   );
 }

@@ -15,7 +15,7 @@ export function Admin() {
   return (
     <>
       <Cabecalho titulo="Administrador" sub="Só você vê esta área" voltar="/perfil" />
-      <main className="mx-auto flex max-w-2xl flex-col gap-4 px-4 pb-8 pt-2">
+      <main className="mx-auto flex max-w-2xl flex-col gap-4 px-4 pb-8 pt-2 md:max-w-3xl">
         <div className="flex gap-2" role="group" aria-label="Seções do administrador">
           <button type="button" className="chip flex-1" aria-pressed={aba === 'apostilas'} onClick={() => setAba('apostilas')}>Apostilas</button>
           <button type="button" className="chip flex-1" aria-pressed={aba === 'usuarios'} onClick={() => setAba('usuarios')}>Usuários</button>
