@@ -23,7 +23,7 @@ async function chaves(): Promise<{ publica: string; privada: string }> {
 
 // Os textos (referência, texto da Bíblia Livre e link) ficam publicados junto com o app
 // (public/dados/textos-do-dia.json, gerado de lib/textoDoDia.ts).
-const URL_TEXTOS = 'https://buffalowear.github.io/Pulpito/dados/textos-do-dia.json';
+const URL_TEXTOS = 'https://pulpitoapp.github.io/Pulpito/dados/textos-do-dia.json';
 
 /** Mesmo cálculo do app (lib/textoDoDia.ts), com a data de Brasília. */
 async function textoDeHoje(): Promise<[string, string, string]> {
@@ -42,7 +42,7 @@ Deno.serve(async (req) => {
   if (!segredo || req.headers.get('x-segredo') !== segredo) return new Response(JSON.stringify({ erro: 'não autorizado' }), { status: 401, headers: cors });
 
   // contato exigido pelo padrão das notificações: o endereço do próprio app (sem e-mail pessoal)
-  webpush.setVapidDetails('https://buffalowear.github.io/Pulpito/', k.publica, k.privada);
+  webpush.setVapidDetails('https://pulpitoapp.github.io/Pulpito/', k.publica, k.privada);
   const [ref, texto, url] = await textoDeHoje();
   const corpo = JSON.stringify({ titulo: 'Texto do dia · ' + ref, corpo: texto.length > 180 ? texto.slice(0, 177) + '…' : texto, url });
   const { data: lista } = await db.from('push_inscricoes').select('endpoint, p256dh, auth').limit(10000);

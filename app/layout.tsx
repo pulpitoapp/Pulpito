@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   manifest: `${BASE}/manifest.webmanifest`,
   appleWebApp: { capable: true, title: 'Púlpito', statusBarStyle: 'default' },
   // prévia do link (WhatsApp, iMessage etc.): nome e ícone do app
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_ORIGIN || 'https://buffalowear.github.io'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_ORIGIN || 'https://pulpitoapp.github.io'),
   openGraph: { type: 'website', siteName: 'Púlpito', title: 'Púlpito', description: 'Bíblia, anotações e mensagens para pregadores.', locale: 'pt_BR', images: [{ url: `${BASE}/icone-512.png`, width: 512, height: 512, alt: 'Púlpito' }] },
   twitter: { card: 'summary', title: 'Púlpito', description: 'Bíblia, anotações e mensagens para pregadores.', images: [`${BASE}/icone-512.png`] },
   icons: { icon: [{ url: `${BASE}/logo/icone-app.svg`, type: 'image/svg+xml' }, { url: `${BASE}/icone-48.png`, sizes: '48x48' }, { url: `${BASE}/icone-192.png`, sizes: '192x192' }], apple: `${BASE}/icone-180.png` },
