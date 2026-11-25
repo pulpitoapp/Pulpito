@@ -2,8 +2,8 @@
 // Planos de leitura: cronológico (Bíblia toda ou só AT), Evangelhos em harmonia e "Meu plano" (questionário).
 // O andamento fica guardado no aparelho.
 import { useEffect, useMemo, useState } from 'react';
-import { limparVerso, LIVROS } from '@/lib/biblia';
-import { BASE, useBiblia } from '@/lib/cliente/bibliaDados';
+import { LIVROS } from '@/lib/biblia';
+import { BASE } from '@/lib/cliente/bibliaDados';
 import { CAPITULOS, useLeitura } from '@/lib/cliente/leitura';
 import { pref } from '@/lib/cliente/local';
 import { supa } from '@/lib/cliente/supabase';
@@ -79,6 +79,15 @@ function useDadosPlano(id: string | null): { dias?: Dia[]; secoes?: Secao[] } | 
   return d && d.id === id ? d.v : null;
 }
 
+/** Trechos da leitura de hoje (Evangelhos em harmonia): a Bíblia abre só neles e passa de um para o outro. */
+export type Trecho = [number, number, number, number];   // livro, capítulo (a partir de 1), versículo inicial, final
+export const lerTrechos = () => pref.ler<Trecho[]>('plano-trechos', []);
+export function abrirTrecho(lista: Trecho[], j: number) {
+  pref.gravar('plano-trechos', lista);
+  const [l, c, v1, v2] = lista[j];
+  ir(`/biblia/${l}/${c - 1}/${v1}/0/${v2}`);
+}
+
 /** Próximo dia ainda não feito. */
 export const proximoDia = (p: PlanoAtivo, total: number) => { for (let i = 0; i < total; i++) if (!p.feitos.includes(i)) return i; return total; };
 
@@ -121,7 +130,6 @@ function PlanoEmAndamento({ plano, salvar }: { plano: PlanoAtivo; salvar: (p: Pl
   const dados = useDadosPlano(plano.id === 'meu' ? null : plano.id);
   const [aberto, setAberto] = useState<number | null>(null);
   const [parar, setParar] = useState(false);
-  const pt = useBiblia('blivre');
   const dias: Dia[] | undefined = plano.id === 'meu' ? plano.dias : dados && dados !== 'erro' ? dados.dias : undefined;
   const secoes = dados && dados !== 'erro' ? dados.secoes : undefined;
   const total = dias?.length ?? secoes?.length ?? 0;
@@ -148,15 +156,12 @@ function PlanoEmAndamento({ plano, salvar }: { plano: PlanoAtivo; salvar: (p: Pl
     return (
       <>
         <p className="m-0 font-bold">{s.titulo}</p>
-        {s.passagens.map(([l, c, v1, v2], j) => (
-          <div key={j} className="mt-3 rounded-xl border border-line p-3">
-            <button type="button" className="rot !text-[11.5px] underline" onClick={() => ir(`/biblia/${l}/${c - 1}/${v1}`)}>{LIVROS[l]} {c}:{v1}{v2 > v1 ? `-${v2}` : ''}</button>
-            <p className="m-0 mt-1.5 text-[15.5px] leading-relaxed">
-              {Array.isArray(pt) ? (pt[l]?.[2]?.[c - 1] || []).slice(v1 - 1, v2).map((t, k) => <span key={k}><sup className="text-mute">{v1 + k}</sup> {limparVerso(t)} </span>) : 'Carregando…'}
-            </p>
-          </div>
-        ))}
-        {s.passagens.length > 1 ? <p className="ajuda">As passagens paralelas aparecem uma depois da outra para você comparar.</p> : null}
+        <div className="mt-2 flex flex-wrap gap-1.5">
+          {s.passagens.map(([l, c, v1, v2], j) => (
+            <button key={j} type="button" className="chip" onClick={() => abrirTrecho(s.passagens, j)}>{LIVROS[l]} {c}:{v1}{v2 > v1 ? `-${v2}` : ''}</button>
+          ))}
+        </div>
+        {s.passagens.length > 1 ? <p className="ajuda">São passagens paralelas: leia uma depois da outra para comparar.</p> : null}
       </>
     );
   };

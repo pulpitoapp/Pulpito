@@ -52,6 +52,8 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   const [busca, setBusca] = useState('');
   const [achados, setAchados] = useState<{ titulo: string; lista: Achado[]; mostrar: number } | null>(null);
   const rolarPara = useRef<number | null>(null);
+  // leitura de hoje de um plano: só os versículos v1..v2 (#/biblia/l/c/v1/0/v2)
+  const [trecho, setTrecho] = useState<{ v1: number; v2: number } | null>(null);
   const abrirCom = useRef<number | null>(null);      // versículo cujos comentários abrem assim que carregarem
   const indice = useRef<{ id: string; dados: string[][][] } | null>(null);
 
@@ -67,9 +69,11 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   // endereço #/biblia/livro/capítulo/versículo
   const chaveAlvo = alvo.join('.');
   useEffect(() => {
-    const [l, c, v, abrirComentarios] = alvo;
+    const [l, c, v, abrirComentarios, fim] = alvo;
     if (Number.isInteger(l) && Number.isInteger(c) && l >= 0 && l < 66 && c >= 0) {
-      setPos({ l, c }); rolarPara.current = Number.isInteger(v) ? v : null; setSel(new Set(Number.isInteger(v) ? [v] : [])); setAberto(null);
+      const ehTrecho = Number.isInteger(v) && Number.isInteger(fim) && fim >= v;
+      setTrecho(ehTrecho ? { v1: v, v2: fim } : null);
+      setPos({ l, c }); rolarPara.current = Number.isInteger(v) && !ehTrecho ? v : null; setSel(new Set(Number.isInteger(v) && !ehTrecho ? [v] : [])); setAberto(null);
       // #/biblia/l/c/v/1 = abrir os comentários do versículo (eles ficam na Bíblia em hebraico/grego)
       if (abrirComentarios === 1 && Number.isInteger(v)) {
         const orig = l < 39 ? 'wlc' : 'tr';
@@ -92,9 +96,9 @@ export function Biblia({ alvo }: { alvo: number[] }) {
     else window.scrollTo(0, 0);
   }, [cap, pos]);
 
-  // ao chegar a ~75% do capítulo, conta como lido (uma vez por visita ao capítulo)
+  // ao chegar a ~75% do capítulo, conta como lido (uma vez por visita ao capítulo; um trecho só não conta)
   useEffect(() => {
-    if (!cap) return;
+    if (!cap || trecho) return;
     let contado = false;
     const ver = () => {
       const a = artigo.current;
@@ -107,7 +111,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
     window.addEventListener('scroll', ver, { passive: true });
     return () => { clearTimeout(t); window.removeEventListener('scroll', ver); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [cap, pos.l, pos.c]);
+  }, [cap, pos.l, pos.c, trecho]);
 
   const inter = useCapituloInterlinear(pos.l, pos.c, porPalavra && ehOriginal);
   const comentarios = useComentarios(pos.l, pos.c, porPalavra && ehOriginal);
@@ -123,6 +127,8 @@ export function Biblia({ alvo }: { alvo: number[] }) {
   if (!cap) return <Carregando texto="Abrindo…" />;
 
   const nomeLivro = LIVROS[pos.l];
+  const trechos: number[][] = trecho ? pref.ler<number[][]>('plano-trechos', []) : [];
+  const idxTrecho = trecho ? trechos.findIndex((x) => x[0] === pos.l && x[1] === pos.c + 1 && x[2] === trecho.v1 && x[3] === trecho.v2) : -1;
   const secoes = new Map((titulos[pos.l]?.[pos.c + 1] || []).map(([v, t]) => [v, t]));
   const rtl = versao.idioma === 'he';
   const capOutra = comparar && Array.isArray(outra) ? outra[pos.l]?.[2]?.[pos.c] : undefined;
@@ -197,14 +203,20 @@ export function Biblia({ alvo }: { alvo: number[] }) {
         onTouchStart={(e) => { const t = e.touches[0]; arraste.current = e.touches.length === 1 ? { x: t.clientX, y: t.clientY, quando: Date.now() } : null; }}
         onTouchEnd={(e) => {
           const a = arraste.current; arraste.current = null;
-          if (!a || aberto) return;
+          if (!a || aberto || trecho) return;
           const t = e.changedTouches[0], dx = t.clientX - a.x, dy = t.clientY - a.y;
           // arrastar para o lado: para a esquerda = próximo capítulo; para a direita = anterior
           if (Math.abs(dx) > 80 && Math.abs(dx) > Math.abs(dy) * 2 && Date.now() - a.quando < 700 && !window.getSelection()?.toString()) vizinho(dx < 0 ? 1 : -1);
         }}>
         <button type="button" className="mx-auto mt-8 block text-center" onClick={() => setAberto('menu')} aria-label="Trocar de livro ou capítulo">
-          <h1 className="text-[34px]">{nomeLivro} {pos.c + 1}</h1>
+          <h1 className="text-[34px]">{nomeLivro} {pos.c + 1}{trecho ? `:${trecho.v1}${trecho.v2 > trecho.v1 ? `-${trecho.v2}` : ''}` : ''}</h1>
         </button>
+        {trecho ? (
+          <div className="mt-2 flex flex-wrap justify-center gap-2">
+            <span className="rot">Leitura de hoje{trechos.length > 1 ? ` · ${idxTrecho + 1} de ${trechos.length}` : ''}</span>
+            <button type="button" className="rot underline" onClick={() => { setTrecho(null); window.scrollTo(0, 0); }}>Ver o capítulo inteiro</button>
+          </div>
+        ) : null}
         <div className="ornamento" aria-hidden="true" />
         {(() => {
           const r = resumo(leitura.lidos);
@@ -229,7 +241,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
         <article ref={artigo} className="leitura-biblia mt-8" style={{ fontSize: tam }}>
           {cap.map((t, i) => {
             const v = i + 1, chave = `${pos.l}.${pos.c}.${v}`, cor = dados.destaques[chave];
-            if (!t) return null;
+            if (!t || (trecho && (v < trecho.v1 || v > trecho.v2))) return null;
             return (
               <div key={v}>
                 {secoes.has(v) ? <h3 className="secao" style={i === 0 ? { marginTop: 0 } : undefined}>{secoes.get(v)}</h3> : null}
@@ -259,7 +271,23 @@ export function Biblia({ alvo }: { alvo: number[] }) {
 
         {rtl || versao.idioma === 'el' ? <p className="ajuda mt-6">{rtl ? 'A numeração do texto hebraico difere em alguns pontos (títulos dos Salmos, Joel, Malaquias). A transliteração é automática e aproximada.' : 'Texto grego sem acentos, como na edição de origem.'}</p> : null}
 
-        {(() => {
+        {trecho ? (() => {
+          const ant = idxTrecho > 0 ? trechos[idxTrecho - 1] : null, prox = idxTrecho >= 0 && idxTrecho < trechos.length - 1 ? trechos[idxTrecho + 1] : null;
+          const nome = (x: number[]) => `${LIVROS[x[0]]} ${x[1]}:${x[2]}${x[3] > x[2] ? `-${x[3]}` : ''}`;
+          const abrir = (x: number[]) => ir(`/biblia/${x[0]}/${x[1] - 1}/${x[2]}/0/${x[3]}`);
+          return (
+            <nav className="nav-cap mt-10" aria-label="Leitura de hoje">
+              {ant ? (
+                <button type="button" className="nav-cap-ant" onClick={() => abrir(ant)}><span className="rot">‹ Anterior</span><b>{nome(ant)}</b></button>
+              ) : <span />}
+              {prox ? (
+                <button type="button" className="nav-cap-prox" onClick={() => abrir(prox)}><span className="rot">Próxima ›</span><b>{nome(prox)}</b></button>
+              ) : (
+                <button type="button" className="nav-cap-prox" onClick={() => ir('/planos')}><span className="rot">Terminou ›</span><b>Voltar ao plano</b><i>marque a leitura como feita</i></button>
+              )}
+            </nav>
+          );
+        })() : (() => {
           const ant = posVizinha(-1), prox = posVizinha(1);
           return (
             <nav className="nav-cap mt-10" aria-label="Capítulos vizinhos">
@@ -276,7 +304,7 @@ export function Biblia({ alvo }: { alvo: number[] }) {
             </nav>
           );
         })()}
-        <p className="rot mt-4 text-center">{versao.sigla} · arraste o dedo para os lados para trocar de capítulo</p>
+        {trecho ? null : <p className="rot mt-4 text-center">{versao.sigla} · arraste o dedo para os lados para trocar de capítulo</p>}
         <p className="ajuda mt-6 text-center">{versao.credito}</p>
       </main>
 
