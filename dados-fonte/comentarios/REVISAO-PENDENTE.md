@@ -40,108 +40,102 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 
 ## Ainda não revisados
 
-- **Albert Barnes · Mateus 1:0** · tema: religioes
-  > Da mesma maneira, o nome Alcorão, ou leitura, é dado aos escritos de Maomé, indicando que são os principais escritos a serem lidos, ou a leitura por excelência.
-  _Motivo:_ usa o Alcorão como ilustração do nome Bíblia
-- **Albert Barnes · Mateus 1:0** · tema: ofensivo
-  > Os olhos do povo começavam a abrir-se para as abominações da igreja de Roma
-  _Motivo:_ expressão ofensiva contra a Igreja Católica
-- **Albert Barnes · Mateus 1:1** · tema: tipologia
-  > A unção com óleo, além disso, era tida como emblema das influências do Espírito Santo; e, como Deus lhe deu o Espírito sem medida ({{Jhn.3.34}}), ele é chamado de modo particular o Ungido de Deus.
-  _Motivo:_ unção de reis e sacerdotes como figura de Cristo, o Ungido, e do Espírito Santo
-- **Albert Barnes · Mateus 1:20** · tema: dons
-  > Os sonhos são movimentos desordenados e irregulares da mente quando ela está livre das rédeas da razão, e é mera superstição supor que Deus hoje dá a conhecer a sua vontade deste modo.
-  _Motivo:_ afirma que Deus não revela mais a sua vontade por sonhos (cessacionismo)
-- **Albert Barnes · Mateus 1:20** · tema: dons
-  > e observar que hoje não há evidência de que devamos confiar nos nossos sonhos.
-  _Motivo:_ nega a revelação atual por sonhos
-- **Albert Barnes · Mateus 1:21** · tema: obra do Espírito Santo
-  > por dar o Espírito para renová-los ({{Jhn.16.7-8}})
-  _Motivo:_ o Espírito dado por Cristo para renovar os salvos
-- **Albert Barnes · Mateus 1:21** · tema: predestinação
-  > Os cristãos são chamados povo de Cristo porque era propósito do Pai dá-los a ele ({{Isa.53.11}}; {{Jhn.6.37}})
-  _Motivo:_ povo de Cristo definido pelo propósito do Pai de dá-los a ele (eleição)
-- **Albert Barnes · Mateus 1:21** · tema: predestinação
-  > Que Jesus tinha um propósito ao vir ao mundo — ele veio salvar o seu povo — e esse propósito certamente será cumprido. É impossível que ele falhe em qualquer parte dele.
-  _Motivo:_ pode ser lido como salvação infalível dos eleitos
-- **Albert Barnes · Mateus 1:22** · tema: profecia
-  > Este parece ser o cumprimento literal da passagem de Isaías.
-  _Motivo:_ situa o cumprimento literal de Is 7:14 no tempo de Acaz
-- **Albert Barnes · Mateus 1:22** · tema: profecia
-  > Pode ser este o sentido em que se pode dizer que a profecia agora em consideração se cumpriu.
-  _Motivo:_ trata o cumprimento de Is 7:14 em Cristo como sentido secundário/acomodação
-- **Albert Barnes · Mateus 1:22** · tema: tipologia
-  > Foi o que aconteceu com os tipos e sacrifícios do Antigo Testamento, que se cumpriram com a vinda de Cristo.
-  _Motivo:_ tipos e sacrifícios do AT cumpridos em Cristo
-- **Albert Barnes · Mateus 1:22** · tema: cristologia
-  > ou que o corpo do Messias foi criado diretamente pelo poder de Deus
-  _Motivo:_ posição sobre a concepção e o corpo de Cristo
-- **Albert Barnes · Mateus 1:22** · tema: cristologia
-  > prova que Jesus era mais do que um homem: que era Deus tanto quanto homem.
-  _Motivo:_ afirma as duas naturezas de Cristo
-- **Albert Barnes · Mateus 2:1** · tema: ofensivo
-  > compreendendo judeus, turcos, árabes, armênios, gregos e papistas.
-  _Motivo:_ termo pejorativo “papistas” para católicos
-- **Albert Barnes · Mateus 2:2** · tema: ciencia
-  > O mais provável é que fosse uma aparição luminosa, ou meteoro, como os que hoje às vezes vemos riscar o céu, ou como os que parecem estacionários, que os magos viram e que os dirigiu a Jerusalém.
-  _Motivo:_ explicação naturalista/especulativa da estrela de Belém (meteoro)
-- **Albert Barnes · Mateus 2:2** · tema: cristologia
-  > Não há evidência de que supusessem que ele seria divino. Vieram honrá-lo como príncipe, ou rei, não como Deus.
-  _Motivo:_ o autor nega que a adoração dos magos fosse adoração a Cristo como Deus
-- **Albert Barnes · Mateus 2:9** · tema: ciencia
-  > Disto se vê que a estrela era um meteoro luminoso, talvez a não grande distância do chão.
-  _Motivo:_ explicação naturalista/especulativa da estrela
-- **Albert Barnes · Mateus 2:15** · tema: tipologia
-  > Não se pode supor que a passagem de Oseias fosse uma profecia do Messias; ela foi apenas usada por Mateus de modo apropriado para exprimir o acontecimento.
-  _Motivo:_ o autor nega que Os 11:1 aponte para Cristo (Israel como figura do Filho)
-- **Albert Barnes · Mateus 2:17** · tema: profecia
-  > A palavra “cumpriu”, aqui, é tomada evidentemente no sentido de que as palavras de Jeremias exprimem com propriedade o acontecimento que Mateus estava registrando.
-  _Motivo:_ o autor reduz o cumprimento profético a mera acomodação de linguagem
-- **Albert Barnes · Mateus 2:23** · tema: tipologia
-  > Alguns supuseram que Mateus quis referir-se a {{Jdg.13.5}}, a Sansão como tipo de Cristo; outros, que ele se refere a {{Isa.11.1}}, onde o descendente de Jessé é chamado “Renovo”, em hebraico Netzer. Alguns supuseram que Mateus se refere a alguma profecia que não foi registrada, mas transmitida pela tradição. Mas estas suposições não são satisfatórias.
-  _Motivo:_ o autor rejeita Sansão como tipo de Cristo e a ligação com o “Renovo” de Is 11:1
-- **Albert Barnes · Mateus 3:2** · tema: escatologia
-  > Alguns pensaram que se referem ao estado de coisas no céu; outros, ao reinado pessoal de Cristo na terra; outros, que significam a igreja, ou o reinado de Cristo no coração do seu povo.
-  _Motivo:_ o autor interpreta o reino como reinado espiritual na igreja e no céu, sem reinado pessoal de Cristo na terra (posição sobre o milênio)
-- **Albert Barnes · Mateus 3:2** · tema: escatologia
-  > o seu reinado espiritual, começado na igreja na terra e completado no céu.
-  _Motivo:_ define o reino como espiritual, iniciado na igreja e consumado no céu
-- **Albert Barnes · Mateus 3:6** · tema: batismo
-  > Por estas passagens se verá que o seu sentido radical não é aspergir nem imergir.
-  _Motivo:_ o autor argumenta contra a imersão como sentido necessário de batizar
-- **Albert Barnes · Mateus 3:6** · tema: batismo
-  > Se eles entravam na água, ainda assim isso não prova que o único modo de batismo fosse por imersão, pois poderia ter sido por derramamento, embora estivessem na água.
-  _Motivo:_ defende o batismo por derramamento como válido
-- **Albert Barnes · Mateus 3:6** · tema: batismo
-  > Sem tal preceito, ela não pode ser tornada obrigatória para os povos de todas as épocas, nações e climas, ainda que fosse provável que, no clima ameno da Judeia, esse fosse o modo usual.
-  _Motivo:_ nega a obrigatoriedade do batismo por imersão
-- **Albert Barnes · Mateus 3:7** · tema: ofensivo
-  > Pode-se dizer dos judeus em geral que possuíam pouco do espírito da religião; que tinham corrompido algumas das doutrinas mais importantes da Bíblia; e que eram um povo ignorante, orgulhoso, ambicioso e sensual.
-  _Motivo:_ generalização depreciativa sobre os judeus
-- **Albert Barnes · Mateus 3:11** · tema: batismo
-  > O batismo do Espírito Santo é, portanto, o mesmo que o envio das suas influências para converter, purificar e guiar a alma.
-  _Motivo:_ define o batismo com o Espírito Santo como influência na conversão, não como experiência distinta
-- **Albert Barnes · Mateus 3:11** · tema: obra do Espírito Santo
-  > Ser batizado com o Espírito Santo significa que o Messias enviaria sobre o mundo uma influência muito mais poderosa e forte do que a que acompanhara a pregação de João.
-  _Motivo:_ interpretação do batismo com o Espírito Santo como influência geral de conversão
-- **Albert Barnes · Mateus 3:11** · tema: batismo
-  > Uma parte dos seus ouvintes ele batizaria com o Espírito Santo, mas os ímpios com fogo e vingança.
-  _Motivo:_ o autor prefere entender o batismo com fogo como juízo, não como purificação dos crentes
-- **Albert Barnes · Mateus 3:16** · tema: sacramentos
-  > As ordenanças da religião serão comumente ineficazes sem oração.
-  _Motivo:_ afirmação sobre a eficácia das ordenanças
-- **Albert Barnes · Mateus 3:17** · tema: cristologia
-  > É impossível explicar esta ocorrência de modo coerente de outra maneira que não seja supondo que há três Pessoas iguais na Natureza ou Essência Divina, e que cada uma delas desempenha partes importantes na obra da redenção dos homens.
-  _Motivo:_ afirmação sobre a Trindade e a pessoa de Cristo
-- **Albert Barnes · Mateus 7:21** · tema: dons
-  > O poder de operar milagres não tinha nenhuma conexão necessária com a piedade.
-  _Motivo:_ o autor afirma que dons de milagre e profecia podem ser dados a ímpios, sem relação com o caráter moral
-- **Albert Barnes · Mateus 7:23** · tema: perda da salvação
-  > Não conheço prova mais decisiva de que os cristãos não caem da graça do que este texto.
-  _Motivo:_ o autor usa o texto para defender a perseverança dos santos (o crente verdadeiro não pode se perder)
-- **Albert Barnes · Mateus 7:23** · tema: perda da salvação
-  > que tinham sido cristãos e depois caíram; que tinham sido perdoados e depois apostataram; mas que nunca os conhecera — NUNCA TINHAM SIDO VERDADEIROS CRISTÃOS.
-  _Motivo:_ nega que quem foi perdoado possa apostatar
+- **Albert Barnes · Marcos 1:24** · tema: cristologia
+  > era o Filho unigênito de Deus — igual ao Pai
+  _Motivo:_ afirma a filiação e a igualdade de Cristo com o Pai
+- **Albert Barnes · Marcos 1:40** · tema: cristologia
+  > Ninguém senão Deus pode operar um milagre. Contudo, Jesus o faz pela sua própria vontade — por um exercício do seu próprio poder. Ele era, portanto, divino.
+  _Motivo:_ argumento da divindade de Cristo a partir dos milagres
+- **Albert Barnes · Marcos 10:16** · tema: batismo
+  > E assim também a questão a respeito do batismo infantil não é tanto se um pai DEVE consagrar os filhos a Deus nesta ordenança, mas se PODE fazê-lo.
+  _Motivo:_ o autor defende o batismo infantil
+- **Albert Barnes · Marcos 10:16** · tema: batismo
+  > e, tendo sido oferecidos a Jesus pela oração e pelo batismo nos seus primeiros dias na terra,
+  _Motivo:_ pressupõe o batismo de crianças pequenas
+- **Albert Barnes · Marcos 13:11** · tema: obra do Espírito Santo
+  > Esta é uma promessa plena de que seriam inspirados; e, consequentemente, as suas defesas registradas nos Atos dos Apóstolos são palavras do Espírito Santo.
+  _Motivo:_ o autor afirma posição sobre a inspiração dos apóstolos pelo Espírito Santo
+- **Albert Barnes · Marcos 13:32** · tema: cristologia
+  > Como homem, o seu conhecimento tinha de ser finito, pois as faculdades da alma humana não são infinitas.
+  _Motivo:_ o autor explica a ignorância do Filho pela sua natureza humana (duas naturezas)
+- **Albert Barnes · Marcos 15:28** · tema: cristologia
+  > Nem significa que Deus o considerasse pecador; mas que, na sua morte, na opinião popular, ou pela sentença do juiz, ele foi considerado transgressor e tratado da mesma maneira que os outros que eram mortos pelas suas transgressões.
+  _Motivo:_ o autor afirma que Cristo foi contado com os transgressores só na estima humana, não diante de Deus
+- **Albert Barnes · Marcos 16:7** · tema: perda da salvação
+  > Antes da sua queda, Jesus havia orado por ele para que a sua fé não desfalecesse ({{Luk.22.32}}); e, como a oração de Jesus era sempre ouvida, {{Jhn.11.42}}, segue-se que Pedro ainda conservava fé suficiente para ser discípulo, embora, como outros discípulos, lhe fosse permitido cair em pecado.
+  _Motivo:_ o autor argumenta que Pedro não deixou de ser discípulo mesmo na queda, com base na oração de Jesus (pode ser lido como perseverança garantida)
+- **Albert Barnes · Marcos 16:15** · tema: predestinação/eleição
+  > Deus não tem culpa se eles não escolhem ser salvos.
+  _Motivo:_ o autor afirma oferta universal da salvação e responsabilidade da escolha humana
+- **Albert Barnes · Marcos 16:16** · tema: batismo
+  > For iniciado na igreja pela aplicação da água, como sinal de que é pecador e necessita das influências purificadoras do Espírito Santo.
+  _Motivo:_ o autor define o batismo como rito de iniciação na igreja pela aplicação da água
+- **Albert Barnes · Marcos 16:16** · tema: batismo
+  > ele não disse, é verdade, que um homem não pudesse ser salvo sem o batismo, mas deu a entender fortemente que, onde este é negligenciado, sabendo-se que é uma ordem do Salvador, isso põe em perigo a salvação da alma.
+  _Motivo:_ o autor trata da necessidade do batismo para a salvação
+- **Albert Barnes · Marcos 16:17** · tema: dons
+  > Os apóstolos e aqueles que, na era primitiva, foram dotados de poder semelhante.
+  _Motivo:_ o autor restringe os sinais aos apóstolos e à era primitiva
+- **Albert Barnes · Marcos 16:17** · tema: dons
+  > o cristão deve ficar satisfeito de que a promessa se cumpriu se estes milagres foram alguma vez realmente operados, embora não ocorram agora; e o crente de hoje não deve esperar um milagre no seu caso. Os milagres foram necessários para o estabelecimento da religião no mundo; não são necessários agora.
+  _Motivo:_ o autor afirma que os sinais e milagres cessaram
+- **Albert Barnes · Marcos 16:17** · tema: cristologia
+  > Ele era, portanto, Deus; eles eram homens sujeitos às mesmas paixões que os outros homens, {{Act.14.15}}.
+  _Motivo:_ o autor afirma a divindade de Cristo a partir dos milagres operados em seu próprio nome
+- **Albert Barnes · Marcos 16:17** · tema: dons
+  > Falarão outras línguas além da sua língua nativa.
+  _Motivo:_ o autor interpreta as novas línguas apenas como idiomas humanos
+- **Albert Barnes · Marcos 16:18** · tema: dons
+  > Quando for necessário para o estabelecimento da religião, manusearão répteis venenosos sem dano, mostrando assim que Deus estava com eles, para guardá-los do mal.
+  _Motivo:_ o autor limita os sinais à necessidade de estabelecer a religião
+- **Albert Barnes · Marcos 2:27** · tema: sábado
+  > E é fácil provar que nenhuma instituição tem sido mais assinaladamente abençoada para o bem-estar do homem do que o dia de descanso cristão.
+  _Motivo:_ trata o “sábado cristão” (Christian Sabbath, o domingo) como dia de guarda obrigatória
+- **Albert Barnes · Marcos 2:27** · tema: sábado
+  > Não seria para o nosso verdadeiro bem, mas para o nosso real e eterno prejuízo, dedicar o dia de descanso ao vício, ao trabalho ou à diversão.
+  _Motivo:_ impõe a guarda do dia de descanso aos cristãos, sob pena de prejuízo eterno
+- **Albert Barnes · Marcos 3:5** · tema: obra do Espírito Santo
+  > Torna-se duro pela entrega ao pecado; por resistir longamente às ofertas de vida; ou por se opor a quaisquer apelos grandes e comoventes que Deus nos faça pelo seu Espírito ou pela sua Providência, pela aflição ou por um avivamento da religião.
+  _Motivo:_ o homem pode resistir aos apelos do Espírito e endurecer o coração (responsabilidade humana)
+- **Albert Barnes · Marcos 4:29** · tema: escatologia
+  > A seu tempo ele voltaria, enviaria os anjos, recolheria a colheita e salvaria o seu povo para sempre.
+  _Motivo:_ interpreta a ceifa como a volta de Cristo e o ajuntamento final dos salvos
+- **Albert Barnes · Marcos 4:39** · tema: cristologia
+  > Ninguém senão o Deus das tempestades e das vagas poderia intimidar, com uma palavra, os elementos revoltos e espalhar uma paz e uma calma universais entre os ventos e as ondas. Ele deve ser, portanto, divino.
+  _Motivo:_ argumento da divindade de Cristo
+- **Albert Barnes · Marcos 7:4** · tema: batismo
+  > e o batismo é legitimamente ministrado sem imergir o corpo inteiro na água.
+  _Motivo:_ o autor defende o batismo por aspersão ou outro modo, sem imersão
+- **Albert Barnes · Marcos 7:4** · tema: batismo
+  > Neste lugar não significa imergir o corpo inteiro, mas apenas as mãos.
+  _Motivo:_ argumento sobre o sentido de batizar sem imersão
+- **Albert Barnes · Marcos 8:25** · tema: obra do Espírito Santo
+  > O efeito da religião, ou da influência do Espírito Santo, é abrir os olhos, mostrar ao pecador a sua condição e o seu perigo, e levá-lo a olhar para aquele a quem traspassou.
+  _Motivo:_ o autor descreve a obra do Espírito Santo na iluminação e conversão do pecador
+- **Albert Barnes · Marcos 9:44** · tema: escatologia
+  > Não se deve supor que haverá algum verme real no inferno; talvez nem fogo material.
+  _Motivo:_ o autor afirma posição sobre a natureza do castigo eterno (fogo talvez não material)
+- **Albert Barnes · Marcos 9:49** · tema: perda da salvação
+  > Fazendo isto, sereis ofertas aceitáveis e sereis salvos; sem isto, sereis inaptos para o seu serviço eterno e estareis perdidos
+  _Motivo:_ o autor afirma que os discípulos podem perder-se se não perseverarem na abnegação
+- **Albert Barnes · Lucas 4:16** · tema: ofensivo
+  > Se, portanto, o unitarista não adora o Deus verdadeiro, e se o católico romano adora a Deus de maneira proibida e presta homenagem às criaturas de Deus, sendo assim culpado de idolatria, não pode ser um dever frequentar tal lugar de culto.
+  _Motivo:_ juízo do autor sobre unitaristas e católicos romanos como idólatras
+- **Albert Barnes · Lucas 4:18** · tema: obra do Espírito Santo
+  > Ou: falo por designação divina. Sou divinamente inspirado para falar.
+  _Motivo:_ o autor reduz “o Espírito do Senhor é sobre mim” a designação e inspiração divina para falar
+- **Albert Barnes · Lucas 4:18** · tema: profecia
+  > A sua primeira aplicação pode ter sido à restauração dos judeus de Babilônia; mas a linguagem da profecia é muitas vezes aplicável a dois acontecimentos semelhantes, e o acontecimento secundário é muitas vezes o mais importante.
+  _Motivo:_ o autor adota dupla aplicação da profecia de Isaías 61, primeiro à volta de Babilônia
+- **Albert Barnes · Lucas 4:18** · tema: tipologia
+  > Por isso o Filho de Deus é chamado Messias, palavra hebraica que significa o Ungido, ou Cristo, palavra grega que significa a mesma coisa.
+  _Motivo:_ a unção de reis, profetas e sacerdotes no AT apresentada como figura de Cristo, profeta, sacerdote e rei
+- **Albert Barnes · Lucas 4:19** · tema: tipologia
+  > Há aqui, talvez, uma alusão ao ano do jubileu, o quinquagésimo ano, quando se tocava a trombeta e por toda a terra se fazia proclamação da liberdade dos escravos hebreus,
+  _Motivo:_ o jubileu apresentado como figura do ano aceitável anunciado por Cristo
+- **Albert Barnes · Lucas 4:29** · tema: ofensivo
+  > Que o caráter atribuído em outros lugares aos galileus, como sendo particularmente perversos, era justo.
+  _Motivo:_ generalização negativa sobre um povo (galileus)
 - **Adam Clarke · Êxodo 1:19** · tema: ciencia
   > as mulheres que, durante toda a gravidez, estão acostumadas a trabalho pesado, especialmente ao ar livre, têm comparativamente pouca dor no parto
   _Motivo:_ o autor apresenta como fato de experiência geral uma afirmação médica ultrapassada e anedótica
@@ -904,4 +898,208 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Lucas 9:62** · tema: ofensivo
   > deve ser atribuída ou a extrema ignorância das Sagradas Escrituras, ou a extrema perversidade
   _Motivo:_ linguagem polêmica forte contra a Igreja Católica Romana
+- **Jamieson, Fausset e Brown · Mateus 1:16** · tema: tipologia
+  > e foi aplicado, no seu sentido mais sublime e abrangente, ao Libertador prometido, visto que ele havia de ser consagrado a um ofício que abrangia todos os três, pela unção sem medida do Espírito Santo
+  _Motivo:_ reis, sacerdotes e profetas ungidos do Antigo Testamento como figura do Cristo ungido
+- **Jamieson, Fausset e Brown · Mateus 1:18** · tema: obra do Espírito Santo
+  > Que o Espírito Santo é uma Pessoa viva e consciente está claramente implícito aqui, e é ensinado com clareza em outros lugares
+  _Motivo:_ o autor afirma a personalidade do Espírito Santo e sua distinção do Pai e do Filho na concepção de Jesus
+- **Jamieson, Fausset e Brown · Mateus 10:8** · tema: dons
+  > Temos aqui a primeira comunicação de poder sobrenatural feita pelo próprio Cristo aos seus seguidores — antecipando assim os dons de Pentecostes.
+  _Motivo:_ posição sobre a comunicação dos dons sobrenaturais
+- **Jamieson, Fausset e Brown · Mateus 10:22** · tema: perda da salvação
+  > Assim como o “retroceder para a perdição” é apenas a prova palpável da falta de “raiz” desde o princípio na profissão cristã ({{Luk.8.13}}), assim o “perseverar até o fim” é justamente a prova própria da sua realidade e solidez.
+  _Motivo:_ quem se desvia nunca teria tido fé verdadeira (perseverança dos santos)
+- **Jamieson, Fausset e Brown · Mateus 10:23** · tema: escatologia
+  > “A vinda do Filho do homem” tem um sentido doutrinário fixo, referindo-se aqui imediatamente à crise da história de Israel como reino visível de Deus, quando Cristo havia de vir e julgá-lo;
+  _Motivo:_ interpreta a vinda do Filho do homem como a destruição de Jerusalém
+- **Jamieson, Fausset e Brown · Mateus 10:41** · tema: dons
+  > Predizer acontecimentos futuros não era parte necessária do ofício de profeta, especialmente no sentido em que a palavra é usada no Novo Testamento.
+  _Motivo:_ define a profecia do Novo Testamento sem predição
+- **Jamieson, Fausset e Brown · Mateus 11:1** · tema: dons
+  > — não como remédio, mas como sinal da virtude curadora que era comunicada pelas mãos deles, e símbolo de algo ainda mais precioso.
+  _Motivo:_ interpretação da unção com óleo e do dom de cura na Igreja apostólica
+- **Jamieson, Fausset e Brown · Mateus 11:27** · tema: predestinacao
+  > Este testemunho da soberania daquela graciosa “vontade”, da qual unicamente depende a salvação dos homens, destina-se apenas a revelar a fonte e realçar a glória dela, uma vez concedida — não a paralisar a alma ou encerrá-la no desespero.
+  _Motivo:_ salvação dependente unicamente da vontade soberana do Filho (classe favorecida)
+- **Jamieson, Fausset e Brown · Mateus 12:7** · tema: sábado
+  > Máxima gloriosa e de vasto alcance, tanto para o estabelecimento permanente do sábado como para a verdadeira liberdade da sua observância.
+  _Motivo:_ afirma o estabelecimento permanente do sábado
+- **Jamieson, Fausset e Brown · Mateus 12:8** · tema: sábado
+  > Certamente não para aboli-lo — esse seria por certo um estranho senhorio, especialmente logo depois de dizer que ele fora feito ou instituído para o HOMEM —, mas para reconhecê-lo como seu, interpretá-lo, presidi-lo e enobrecê-lo, fundindo-o no “Dia do Senhor” ({{Rev.1.10}}),
+  _Motivo:_ sábado transferido para o Dia do Senhor (sabatismo dominical)
+- **Jamieson, Fausset e Brown · Mateus 12:28** · tema: espirito santo
+  > Esta última expressão é apenas um modo figurado de representar o poder de Deus, ao passo que a primeira nos diz que o Agente vivo e pessoal foi utilizado pelo Senhor Jesus em todo exercício desse poder.
+  _Motivo:_ obra do Espírito Santo nos milagres de Cristo
+- **Jamieson, Fausset e Brown · Mateus 12:32** · tema: espirito santo
+  > É um contraste entre caluniar “o Filho do homem” na sua condição velada e na sua obra inacabada — o que podia ser feito “por ignorância, na incredulidade” ({{1Ti.1.13}}) — e caluniar a mesma bendita Pessoa depois do clarão de glória que o Espírito Santo havia em breve de lançar ao redor das suas pretensões, e com pleno conhecimento de tudo isso.
+  _Motivo:_ interpretação do pecado contra o Espírito Santo
+- **Jamieson, Fausset e Brown · Mateus 12:43** · tema: ofensivo
+  > Quão inteiramente alheio é este sentimento ao ensino da Igreja de Roma, que sem dúvida excomungaria qualquer dos seus membros que ousasse falar desse modo!
+  _Motivo:_ ataque polêmico à Igreja Católica
+- **Jamieson, Fausset e Brown · Mateus 13:13** · tema: predestinação
+  > por uma lei fixa da administração divina, o dever que os homens voluntariamente se recusam a cumprir, e de fato não cumprem, por fim se tornam moralmente incapazes de cumprir
+  _Motivo:_ endurecimento judicial apresentado como lei divina (decorrente da recusa voluntária)
+- **Jamieson, Fausset e Brown · Mateus 13:30** · tema: escatologia
+  > Observe-se que o joio é queimado antes de o trigo ser recolhido
+  _Motivo:_ ordem dos acontecimentos do juízo final tomada em sentido literal
+- **Jamieson, Fausset e Brown · Mateus 13:33** · tema: escatologia
+  > em virtude da qual ele ainda há de moldar todas as instituições e tribos dos homens, e exibir sobre a terra inteira um só “reino de nosso Senhor e do seu Cristo”
+  _Motivo:_ expectativa de cristianização universal do mundo antes do fim (visão pós-milenista)
+- **Jamieson, Fausset e Brown · Mateus 13:39** · tema: escatologia
+  > O período da segunda vinda de Cristo e da separação judicial dos justos e dos ímpios.
+  _Motivo:_ posição sobre a segunda vinda e o juízo
+- **Jamieson, Fausset e Brown · Mateus 13:48** · tema: eleição
+  > Pois a separação não será feita senão quando o número dos eleitos estiver completo.
+  _Motivo:_ número fixo de eleitos
+- **Jamieson, Fausset e Brown · Mateus 16:19** · tema: ofensivo
+  > é infundada e atrevida
+  _Motivo:_ linguagem polêmica contra a Igreja de Roma e os papas
+- **Jamieson, Fausset e Brown · Mateus 16:28** · tema: escatologia
+  > A referência, fora de dúvida, é ao firme estabelecimento e ao progresso vitorioso, durante a vida de alguns ali presentes, daquele novo reino de Cristo
+  _Motivo:_ interpretação da vinda do Filho do Homem no seu reino como o estabelecimento da Igreja
+- **Jamieson, Fausset e Brown · Mateus 17:26** · tema: cristologia
+  > Como seu Filho, então, esse imposto não é devido por mim — EU SOU LIVRE
+  _Motivo:_ filiação única de Cristo, distinta da dos discípulos (posição sobre a pessoa de Cristo)
+- **Jamieson, Fausset e Brown · Mateus 18:11** · tema: perda da salvação
+  > cuidai de não perder, causando escândalos, os que foram salvos
+  _Motivo:_ admite que os salvos podem perder-se por causa de escândalos
+- **Jamieson, Fausset e Brown · Mateus 18:18** · tema: ofensivo
+  > e muito menos aos seus pretensos sucessores em Roma
+  _Motivo:_ linguagem polêmica contra o papado
+- **Jamieson, Fausset e Brown · Mateus 2:2** · tema: ciencia
+  > talvez o mais seguro seja considerá-la simplesmente um meteoro luminoso, que apareceu sob leis especiais e para um propósito especial
+  _Motivo:_ explicação naturalista da estrela dos magos como meteoro (repetida no v.9)
+- **Jamieson, Fausset e Brown · Mateus 2:15** · tema: tipologia
+  > a aplicação teria sido feita irresistivelmente por todos os que aprenderam a penetrar além da superfície até as relações mais profundas que Cristo tem com o seu povo, e ambos com Deus
+  _Motivo:_ Israel, filho de Deus chamado do Egito, como figura de Cristo
+- **Jamieson, Fausset e Brown · Mateus 2:18** · tema: tipologia
+  > aquele Menino de Belém será ele mesmo o Carneiro, preso em outra espécie de mato
+  _Motivo:_ o carneiro preso no mato no lugar de Isaque como figura de Cristo
+- **Jamieson, Fausset e Brown · Mateus 2:20** · tema: tipologia
+  > pela mesma razão pela qual o maior do que Moisés recebia agora ordem de ser trazido de volta de lá
+  _Motivo:_ paralelo entre Moisés e Cristo
+- **Jamieson, Fausset e Brown · Mateus 20:16** · tema: predestinação/eleição
+  > O “chamado” de que o Novo Testamento fala quase invariavelmente é o que os teólogos denominam chamado eficaz, que traz consigo uma operação sobrenatural sobre a vontade para assegurar o seu consentimento.
+  _Motivo:_ o autor afirma o chamado eficaz que assegura o consentimento da vontade (graça irresistível)
+- **Jamieson, Fausset e Brown · Mateus 20:16** · tema: predestinação/eleição
+  > E assim o sentido é: muitos recebem os convites do evangelho, a quem Deus nunca “escolheu para a salvação, em santificação do Espírito e fé da verdade” ({{2Th.2.13}}).
+  _Motivo:_ eleição incondicional: Deus nunca escolheu alguns para a salvação
+- **Jamieson, Fausset e Brown · Mateus 20:16** · tema: predestinação/eleição
+  > Provavelmente isto: ensinar-nos que homens que trabalharam no serviço de Cristo todos os seus dias podem, pelo espírito que manifestam no fim, tornar evidente demais que, no que diz respeito à relação entre Deus e a sua própria alma, nunca foram de modo algum trabalhadores escolhidos.
+  _Motivo:_ quem cai no fim nunca foi escolhido (perseverança dos eleitos), em vez de servo que se desviou
+- **Jamieson, Fausset e Brown · Mateus 21:43** · tema: Israel
+  > Isto é, a grande comunidade evangélica dos fiéis, que, depois da exclusão da nação judaica, haveria de consistir principalmente de gentios, até que “todo o Israel seja salvo” ({{Rom.11.25-26}}).
+  _Motivo:_ posição sobre a futura salvação nacional de Israel
+- **Jamieson, Fausset e Brown · Mateus 22:1** · tema: tipologia
+  > O “casamento” de Jeová com o seu povo Israel era familiar aos ouvidos judeus; e no {{Psa.45.1-17}} esse casamento é visto consumado na Pessoa do Messias, “O REI”, ele mesmo chamado “DEUS” e, no entanto, ungido pelo “SEU DEUS” com óleo de alegria mais do que os seus companheiros.
+  _Motivo:_ o casamento de Jeová com Israel e o rei do Salmo 45 apresentados como figura de Cristo
+- **Jamieson, Fausset e Brown · Mateus 23:14** · tema: ofensivo
+  > Que descrição viva do clero romanista, os verdadeiros sucessores daqueles escribas!
+  _Motivo:_ ataque ao clero católico romano
+- **Jamieson, Fausset e Brown · Mateus 23:16** · tema: ofensivo
+  > Sabemos quem são os sucessores destes homens.
+  _Motivo:_ alusão polêmica ao clero católico romano
+- **Jamieson, Fausset e Brown · Mateus 23:39** · tema: tipologia
+  > Aquela glória, outrora visível no santo dos santos, sobre o propiciatório, quando no dia da expiação o sangue da expiação típica era aspergido sobre ele e diante dele — chamada pelos judeus de Shekinah, ou Habitação, por ser o pavilhão visível de Jeová —, aquela glória que Isaías ({{Isa.6.1-13}}) viu em visão, o discípulo amado diz que era a glória de Cristo ({{Jhn.12.41}}).
+  _Motivo:_ o sangue do dia da expiação e a glória do santuário como figuras de Cristo
+- **Jamieson, Fausset e Brown · Mateus 23:39** · tema: Israel
+  > Que tal tempo virá é claro por {{Zec.12.10}}; {{Rom.11.26}}; {{2Co.3.15-16}} etc.
+  _Motivo:_ o autor afirma uma futura conversão nacional de Israel
+- **Jamieson, Fausset e Brown · Mateus 27:51** · tema: tipologia
+  > Mas agora, estando provido o único sacrifício expiatório no precioso sangue de Cristo, o acesso a este Deus santo já não podia ser negado; e assim, no momento em que a Vítima expirou sobre o altar, aquele espesso véu, que por tantos séculos fora o temível símbolo da separação entre Deus e os homens culpados, sem que mão alguma o tocasse, misteriosamente “se rasgou em dois, de alto a baixo”
+  _Motivo:_ o véu e o sangue do dia da expiação como figuras do sacrifício de Cristo
+- **Jamieson, Fausset e Brown · Mateus 27:52** · tema: escatologia
+  > Mas esta foi uma ressurreição de uma vez por todas, para a vida eterna; e assim não há lugar para duvidar de que foram para a glória com o seu Senhor, como brilhantes troféus da sua vitória sobre a morte.
+  _Motivo:_ o autor afirma que os santos ressuscitados em Mt 27:52 subiram à glória com Cristo
+- **Jamieson, Fausset e Brown · Mateus 28:20** · tema: batismo
+  > Ponde o selo do discipulado visível sobre os convertidos, “batizando-os para o nome”, isto é, para toda a plenitude da graça “do Pai, e do Filho, e do Espírito Santo”, como pertencente aos que creem.
+  _Motivo:_ o autor apresenta o batismo como selo do discipulado e entrada na plenitude da graça
+- **Jamieson, Fausset e Brown · Mateus 3:6** · tema: batismo
+  > Este batismo era ao mesmo tempo um selo público da necessidade que sentiam de libertação do pecado, da sua expectativa do Libertador que havia de vir e da sua prontidão para recebê-lo quando aparecesse.
+  _Motivo:_ o autor define o sentido do batismo de João
+- **Jamieson, Fausset e Brown · Mateus 3:9** · tema: Israel
+  > era claramente o chamado dos gentios — naquele tempo mortos como pedras nos seus pecados, e tão inconscientes disso quanto elas — para o lugar do Israel incrédulo e deserdado que ele queria assim indicar
+  _Motivo:_ o autor afirma que os gentios tomaram o lugar de Israel, “deserdado”
+- **Jamieson, Fausset e Brown · Mateus 3:10** · tema: escatologia
+  > O “fogo”, que em outro versículo é chamado “que nunca se apagará”, não pode ser outro senão aquele “tormento” futuro dos impenitentes
+  _Motivo:_ o autor interpreta o fogo como castigo eterno futuro dos impenitentes
+- **Jamieson, Fausset e Brown · Mateus 3:11** · tema: batismo
+  > Claramente, segundo pensamos, não é senão o caráter ardente das operações do Espírito sobre a alma — que sonda, consome, refina, sublima —, como quase todos os bons intérpretes entendem as palavras.
+  _Motivo:_ o autor interpreta o batismo “com o Espírito Santo e com fogo” como uma só operação purificadora do Espírito, rejeitando outras leituras
+- **Jamieson, Fausset e Brown · Mateus 3:11** · tema: batismo
+  > eu ministro apenas o símbolo exterior da purificação; a ele pertence, como sua prerrogativa exclusiva, dispensar a realidade interior.
+  _Motivo:_ distinção entre o batismo com água (símbolo) e o batismo com o Espírito Santo (realidade)
+- **Jamieson, Fausset e Brown · Mateus 3:12** · tema: escatologia
+  > uma exprimindo a destruição total de tudo o que constitui a verdadeira vida de alguém, a outra a consciência contínua da existência naquela condição terrível.
+  _Motivo:_ o autor afirma o castigo eterno consciente
+- **Jamieson, Fausset e Brown · Mateus 3:15** · tema: batismo
+  > O significado da circuncisão e do batismo parece ser radicalmente o mesmo.
+  _Motivo:_ o autor equipara circuncisão e batismo
+- **Jamieson, Fausset e Brown · Mateus 3:16** · tema: obra do Espírito Santo
+  > não podemos duvidar de que foi este repouso permanente e perfeito do Espírito Santo sobre o Filho de Deus — agora e daí em diante na sua capacidade oficial — que foi aqui visivelmente manifestado.
+  _Motivo:_ o autor interpreta a descida do Espírito no batismo de Jesus
+- **Jamieson, Fausset e Brown · Mateus 4:13** · tema: ofensivo
+  > aquele intenso fanatismo que até hoje caracteriza todos os lugares onde judeus em grande número vivem quase sozinhos
+  _Motivo:_ generalização depreciativa sobre os judeus
+- **Jamieson, Fausset e Brown · Mateus 4:17** · tema: Espírito Santo
+  > mas a sua economia estava apenas “próxima” até que o sangue da cruz fosse derramado e o Espírito, no dia de Pentecostes, abrisse ao mundo em geral a fonte para o pecado e para a impureza
+  _Motivo:_ posição sobre a vinda do reino ligada à obra do Espírito no Pentecostes
+- **Jamieson, Fausset e Brown · Mateus 4:2** · tema: ciencia
+  > mas este provavelmente atuou por meio de uma lei natural — a absorção do espírito do Redentor no terrível conflito com o tentador
+  _Motivo:_ explicação fisiológica especulativa do jejum de Cristo
+- **Jamieson, Fausset e Brown · Mateus 5:3** · tema: escatologia
+  > e quando ele lhes disser, do seu grande trono branco: “Vinde, benditos de meu Pai, possuí por herança o reino que vos está preparado”, ele os convidará apenas ao pleno gozo de uma herança já possuída.
+  _Motivo:_ o autor identifica o juízo de Mt 25 com o grande trono branco e apresenta o reino em dois estágios, presente e futuro
+- **Jamieson, Fausset e Brown · Mateus 5:7** · tema: perda da salvação
+  > e aquele que fora destinado a ser vaso de misericórdia é tratado como vaso de ira
+  _Motivo:_ usa a linguagem de vasos de misericórdia/ira para quem perde o perdão recebido
+- **Jamieson, Fausset e Brown · Mateus 5:13** · tema: escatologia
+  > e por fim o evangelho levaria tudo de vencida.
+  _Motivo:_ visão otimista (pós-milenarista) de que o evangelho acabará conquistando o mundo
+- **Jamieson, Fausset e Brown · Mateus 5:13** · tema: perda da salvação
+  > A questão não é: podem os santos, ou chegam alguma vez, a perder totalmente aquela graça que os torna uma bênção para os seus semelhantes?
+  _Motivo:_ o autor afasta do texto a questão de os santos perderem a graça, deixando implícita a posição da perseverança
+- **Jamieson, Fausset e Brown · Mateus 5:14** · tema: obra do Espírito Santo
+  > em virtude do seu Espírito que neles habita e de haver neles o mesmo sentimento que houve também em Cristo Jesus.
+  _Motivo:_ os discípulos são luz somente pelo Espírito de Cristo que neles habita
+- **Jamieson, Fausset e Brown · Mateus 5:24** · tema: ceia
+  > Certamente, se este é o mais alto ato de culto na terra, tal reconciliação, embora obrigatória em todas as outras ocasiões de culto, deve sê-lo de modo peculiar nesta.
+  _Motivo:_ o autor chama a Santa Comunhão de o mais alto ato de culto na terra e cita a rubrica da Igreja da Inglaterra
+- **Jamieson, Fausset e Brown · Mateus 5:31** · tema: ofensivo
+  > E, de fato, até hoje os judeus permitem divórcios sob os pretextos mais frívolos.
+  _Motivo:_ generalização depreciativa sobre os judeus
+- **Jamieson, Fausset e Brown · Mateus 5:43** · tema: ofensivo
+  > Não admira que os romanos acusassem os judeus de ódio ao gênero humano.
+  _Motivo:_ generalização depreciativa sobre os judeus
+- **Jamieson, Fausset e Brown · Mateus 6:7** · tema: ofensivo
+  > Este método de devoção pagã ainda é observado pelos devotos hindus e maometanos.
+  _Motivo:_ generalização sobre hindus e muçulmanos, com termo antiquado (“maometanos”)
+- **Jamieson, Fausset e Brown · Mateus 6:7** · tema: ofensivo
+  > Na Igreja de Roma, não só isto é levado a um ponto vergonhoso
+  _Motivo:_ crítica dura à Igreja Católica, comparando a sua devoção à pagã
+- **Jamieson, Fausset e Brown · Mateus 6:10** · tema: escatologia
+  > Se os “novos céus e nova terra” hão de ser exatamente o nosso presente sistema material purificado pelo fogo e transfigurado, naturalmente será.
+  _Motivo:_ o autor especula sobre a natureza dos novos céus e nova terra e nega que a petição se refira diretamente a esse cumprimento
+- **Jamieson, Fausset e Brown · Mateus 6:16** · tema: ofensivo
+  > E estão os jejuns extenuantes da Igreja de Roma, e dos protestantes romanizantes, livres desta mácula?
+  _Motivo:_ insinua hipocrisia nos jejuns católicos
+- **Jamieson, Fausset e Brown · Mateus 7:18** · tema: ofensivo
+  > ninguém que saiba como a Igreja de Roma faz das ações um mérito, inteiramente à parte dos motivos que as movem
+  _Motivo:_ crítica à Igreja Católica
+- **Jamieson, Fausset e Brown · Mateus 7:22** · tema: dons
+  > Como um dos dons especiais do Espírito na Igreja primitiva, tem o sentido de “ensino inspirado e com autoridade”, e é classificado logo depois do apostolado.
+  _Motivo:_ o autor situa o dom de profecia na Igreja primitiva e o define como ensino inspirado, o que pode sugerir cessação ou reduzir a profecia a ensino
+- **Jamieson, Fausset e Brown · Mateus 8:2** · tema: tipologia
+  > E, enquanto as ordenanças cerimoniais para a identificação e purificação prescritas neste caso pela lei de Moisés ({{Lev.13}}; {{Lev.14}}) apontavam para um remédio vindouro “para o pecado e para a impureza”
+  _Motivo:_ a lepra como figura do pecado e as purificações da lei como figura da obra de Cristo
+- **Jamieson, Fausset e Brown · Mateus 8:3** · tema: dons
+  > Que contraste isto com as pretensas curas modernas!
+  _Motivo:_ o autor desqualifica as curas dos dias atuais
+- **Jamieson, Fausset e Brown · Mateus 8:21** · tema: perda da salvação
+  > assim também ficarão aquém da salvação os que levam adiante a obra de Deus com uma atenção distraída, com um coração dividido
+  _Motivo:_ afirma o perigo de o discípulo vacilante perder a salvação; coerente com o ensino da Igreja, apenas para conferência
+- **Jamieson, Fausset e Brown · Mateus 9:9** · tema: predestinacao
+  > Palavras cativantes estas, vindas dos lábios daquele que nunca as empregou sem lhes dar eficácia irresistível no coração daqueles a quem eram dirigidas.
+  _Motivo:_ o chamado de Cristo descrito como de eficácia irresistível
 
