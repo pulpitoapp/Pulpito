@@ -55,6 +55,267 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 
 ## Ainda não revisados
 
+- **Albert Barnes · Atos 1:0** · tema: obra do Espírito Santo
+  > assim também os Atos dos Apóstolos podem ser considerados o registro dos feitos do Espírito Santo nessa mesma grande obra.
+  _Motivo:_ o autor expõe a obra do Espírito Santo na redenção
+- **Albert Barnes · Atos 1:0** · tema: obra do Espírito Santo
+  > Este livro é um relato inspirado do caráter dos verdadeiros avivamentos da religião.
+  _Motivo:_ o autor vê em Atos o padrão dos avivamentos e critica o “entusiasmo e fanatismo”; conferir
+- **Albert Barnes · Atos 1:0** · tema: obra do Espírito Santo
+  > Pode-se observar ainda que este livro mostra que se devem esperar avivamentos da religião na igreja.
+  _Motivo:_ posição sobre a continuidade da obra do Espírito na igreja
+- **Albert Barnes · Atos 1:2** · tema: obra do Espírito Santo
+  > Embora, nas suas influências maiores e mais poderosas, o Espírito não tenha descido senão no dia de Pentecostes,
+  _Motivo:_ o autor distingue graus da comunicação do Espírito antes e depois do Pentecostes
+- **Albert Barnes · Atos 1:5** · tema: batismo
+  > Nesses versículos João é apresentado como batizando com água, mas o Messias que havia de vir, como batizando com o Espírito Santo e com fogo.
+  _Motivo:_ batismo com água e com o Espírito Santo
+- **Albert Barnes · Atos 1:6** · tema: profecia e escatologia
+  > Os apóstolos tinham alimentado as opiniões comuns dos judeus sobre o domínio temporal do Messias.
+  _Motivo:_ o autor trata como erro a expectativa da restauração do reino a Israel
+- **Albert Barnes · Atos 1:8** · tema: dons
+  > o poder de falar novas línguas; de pregar o evangelho com grande efeito; de suportar grandes provações etc.
+  _Motivo:_ o autor descreve o poder do Espírito, incluindo as línguas
+- **Albert Barnes · Atos 1:8** · tema: profecia e escatologia
+  > nem afirmasse que restauraria o reino a Israel,
+  _Motivo:_ posição sobre a restauração do reino a Israel
+- **Albert Barnes · Atos 1:11** · tema: profecia e escatologia
+  > Isso será melhor do que seria permitir um milênio eterno na terra, enquanto muitos dos santos dormissem e os ímpios continuassem nos seus sepulcros.
+  _Motivo:_ o autor se posiciona sobre o milênio e a volta de Cristo
+- **Albert Barnes · Atos 1:16** · tema: predestinação/eleição
+  > Isto nada afirma sobre a liberdade de Judas em fazê-lo. Um homem será tão livre na impiedade se for predito que será ímpio, como se isso nunca tivesse sido conhecido por nenhum outro ser.
+  _Motivo:_ presciência divina e liberdade humana no caso de Judas
+- **Albert Barnes · Atos 1:17** · tema: perda da salvação
+  > Isto não significa que fosse um verdadeiro cristão, mas que era contado entre os apóstolos. Jesus sabia que ele nunca o amara.
+  _Motivo:_ o autor nega que Judas tenha sido verdadeiro discípulo (pode implicar perseverança dos santos)
+- **Albert Barnes · Atos 1:20** · tema: tipologia
+  > não é que Davi representasse ou tipificasse o Messias, o que em parte alguma se afirma, e que não pode ser verdade em nenhum sentido inteligível;
+  _Motivo:_ o autor nega que Davi seja figura/tipo de Cristo
+- **Albert Barnes · Atos 1:24** · tema: cristologia
+  > Segundo, ele tem de ser divino.
+  _Motivo:_ argumento da divindade de Cristo pela oração dirigida a ele
+- **Albert Barnes · Atos 1:25** · tema: profecia e escatologia
+  > Que haverá um castigo futuro e eterno. Um homem assim certamente está no inferno, e sempre estará.
+  _Motivo:_ o autor afirma o destino eterno de Judas e o castigo eterno
+- **Albert Barnes · Atos 1:25** · tema: predestinação/eleição
+  > Ele não faz violência à liberdade deles, deixa-os agir como querem, mas tira da sua conduta fins importantes.
+  _Motivo:_ soberania de Deus e liberdade humana
+- **Albert Barnes · Atos 1:26** · tema: ciencia
+  > O lançamento de uma sorte é determinado pelas leis da natureza, tão regularmente quanto qualquer outra coisa. Não há propriamente acaso nele.
+  _Motivo:_ explicação naturalista do lançamento de sortes
+- **Albert Barnes · Atos 1:26** · tema: dons
+  > A obra peculiar do apostolado cessou com a morte deles.
+  _Motivo:_ o autor afirma a cessação do ofício apostólico
+- **Albert Barnes · Atos 10:2** · tema: obra do Espírito Santo
+  > Alguns outros casos foram encontrados por missionários em terras pagãs, de pessoas que assim tinham sido preparadas para o evangelho de Cristo por uma série de acontecimentos providenciais, ou pelo ensino do Espírito.
+  _Motivo:_ o autor supõe pagãos preparados pelo Espírito antes do evangelho e cita as ilhas Sandwich como exemplo
+- **Albert Barnes · Atos 10:4** · tema: predestinação/eleição
+  > dispostos a fazer a vontade de Deus até onde lhes é dada a conhecer e, portanto, aceitos e salvos pela sua misericórdia no Senhor Jesus
+  _Motivo:_ o autor admite a salvação de pagãos que não ouviram o evangelho, por agirem segundo a luz que têm
+- **Albert Barnes · Atos 10:10** · tema: dons
+  > Esse efeito parece ser causado por uma sequência de pensamentos tão intensa e absorvente que vence os sentidos do corpo, ou retira inteiramente a mente da influência deles, e a fixa no objeto invisível que a absorve.
+  _Motivo:_ o autor explica o êxtase/visão por mecanismo psicológico (cita o Dr. Rush), embora admita influência sobrenatural no caso de Pedro
+- **Albert Barnes · Atos 10:34** · tema: predestinação/eleição
+  > Mas isto não afirma que ele não fará diferença no caráter deles e depois os tratará segundo o seu caráter; nem que não perdoará a quem lhe apraz, o que é outra questão.
+  _Motivo:_ o autor defende a soberania e a eleição divinas na salvação
+- **Albert Barnes · Atos 10:34** · tema: predestinação/eleição
+  > Contudo, quanto à raça inteira considerada como estando no mesmo nível, ele sustentava que Deus tinha o direito de exercer as prerrogativas de soberano e de ter misericórdia de quem quisesse ter misericórdia.
+  _Motivo:_ eleição soberana atribuída a Paulo
+- **Albert Barnes · Atos 10:34** · tema: predestinação/eleição
+  > (4.) Se alguns fossem salvos, seria por Deus mostrar misericórdia aos desta massa comum que ele escolhesse.
+  _Motivo:_ salvação apenas dos que Deus escolhe da massa comum (eleição incondicional)
+- **Albert Barnes · Atos 10:36** · tema: cristologia
+  > Isto não implica necessariamente divindade, mas apenas que o Senhor Jesus, como Mediador, fora constituído ou designado Senhor sobre todas as nações.
+  _Motivo:_ o autor afirma que “Senhor de todos” não implica por si a divindade de Cristo (embora a admita em seguida)
+- **Albert Barnes · Atos 10:42** · tema: escatologia
+  > A doutrina do Novo Testamento é que os que estiverem vivos quando o Senhor Jesus voltar para julgar o mundo serão arrebatados em vastos números, como nuvens, para encontrá-lo nos ares, sem ver a morte,
+  _Motivo:_ o autor liga o arrebatamento à volta de Cristo para o juízo do mundo
+- **Albert Barnes · Atos 10:44** · tema: batismo com o Espírito Santo
+  > Dotando-os do poder de falar outras línguas,
+  _Motivo:_ a descida do Espírito sobre os gentios e o falar em línguas
+- **Albert Barnes · Atos 10:46** · tema: dons
+  > Em outras línguas que não a sua língua nativa,
+  _Motivo:_ o autor entende as línguas como idiomas estrangeiros
+- **Albert Barnes · Atos 10:47** · tema: batismo
+  > e pareceria dar a entender que foram batizados não por imersão, mas por efusão ou aspersão.
+  _Motivo:_ o autor defende batismo por efusão ou aspersão
+- **Albert Barnes · Atos 10:48** · tema: batismo
+  > Pode-se acrescentar também que parece não ter sido prática dos próprios apóstolos batizar muito extensamente.
+  _Motivo:_ posição sobre quem ministrava o batismo
+- **Albert Barnes · Atos 12:25** · tema: escatologia
+  > e podemos estar seguros de que aquele que era então o seu Amigo ainda a tem “gravada nas palmas das suas mãos”, e quer que ela se estenda até encher a terra de luz e salvação.
+  _Motivo:_ expectativa de que a igreja se estenda até encher a terra (visão de tendência pós-milenista)
+- **Albert Barnes · Atos 3:6** · tema: predestinação
+  > Onde ele pode obter poder para fazê-lo é outra questão.
+  _Motivo:_ o autor trata da capacidade do pecador de arrepender-se e crer por ordem de Deus; conferir alinhamento com o ensino sobre chamado e livre-arbítrio
+- **Albert Barnes · Atos 3:16** · tema: dons
+  > foi por meio da fé que os apóstolos exerceram nele que o milagre foi operado, e foi assim um cumprimento da declaração de {{Mat.17.20}}
+  _Motivo:_ o autor afirma que a cura se deu pela fé dos apóstolos, não do enfermo
+- **Albert Barnes · Atos 3:17** · tema: perda da salvação
+  > Está claramente implícito que, se o tivessem matado sabendo que ele era o Messias, e como Messias, não haveria perdão.
+  _Motivo:_ afirmação sobre pecado imperdoável, com base em {{Heb.10.26-29}}
+- **Albert Barnes · Atos 3:18** · tema: predestinação
+  > visto que tudo aconteceu segundo a predição e o propósito de Deus, eles tinham esperança na sua misericórdia.
+  _Motivo:_ o autor trata da presciência e do propósito de Deus em relação ao pecado humano (Deus dirige os pecados para os seus fins), mantendo a culpa do homem
+- **Albert Barnes · Atos 3:19** · tema: predestinação
+  > Ser convertido não pode ser matéria de obrigação; mas voltar-se para Deus é dever de todo pecador.
+  _Motivo:_ o autor nega que a conversão seja passiva e enfatiza a responsabilidade do homem de voltar-se para Deus
+- **Albert Barnes · Atos 3:19** · tema: escatologia
+  > Estais vivendo nos tempos do evangelho, no reinado do Messias, nos tempos do refrigério.
+  _Motivo:_ o autor interpreta os tempos do refrigério como a dispensação presente do evangelho, que vai até o fim do mundo e a volta de Cristo para o juízo
+- **Albert Barnes · Atos 3:21** · tema: escatologia
+  > Esta palavra implica que ele então voltaria à terra; mas não implica que não subiria de novo ao céu.
+  _Motivo:_ posição sobre a volta de Cristo; sugere que ele não permaneceria reinando na terra (contra um reino milenar terreno)
+- **Albert Barnes · Atos 3:21** · tema: escatologia
+  > Transmite também a ideia da predita recuperação do mundo do pecado e da restauração da paz e da ordem;
+  _Motivo:_ visão do triunfo progressivo do evangelho no mundo antes da volta de Cristo (tendência pós-milenista)
+- **Albert Barnes · Atos 3:22** · tema: tipologia
+  > Assim explicada, a profecia não tinha referência exclusiva, nem mesmo direta, ao Messias,
+  _Motivo:_ o autor nega que {{Deu.18.15}} seja profecia direta de Cristo
+- **Albert Barnes · Atos 3:22** · tema: tipologia
+  > A semelhança entre Moisés e o Messias não deve ser forçada demais.
+  _Motivo:_ o autor restringe Moisés como figura de Cristo ao simples fato de ambos terem sido levantados por Deus
+- **Albert Barnes · Atos 4:12** · tema: salvação
+  > Se alguns dos pagãos hão de ser salvos, como supõe a maioria dos cristãos, e como parece estar de acordo com a misericórdia de Deus, não é menos certo que isso será em consequência da intervenção de Cristo.
+  _Motivo:_ o autor admite a possível salvação de pagãos que não ouviram o evangelho (e de crianças pelos méritos da expiação); conferir
+- **Albert Barnes · Atos 4:12** · tema: ofensivo
+  > voltaram para levar esses poucos raios de luz divina aos seus compatriotas mergulhados nas trevas.
+  _Motivo:_ citação de época que descreve os índios americanos como povo “mergulhado nas trevas”
+- **Albert Barnes · Atos 4:13** · tema: dons
+  > e agora haviam sido diretamente dotados pelo Espírito Santo do poder de falar em línguas.
+  _Motivo:_ o autor trata o dom de línguas como dote miraculoso dos apóstolos
+- **Albert Barnes · Atos 4:13** · tema: dons
+  > concedendo-lhes dotes miraculosos que nenhuma erudição pode atualmente proporcionar.
+  _Motivo:_ sugere que os dotes miraculosos pertenciam àquele tempo e hoje são supridos pela instrução (cessacionismo implícito)
+- **Albert Barnes · Atos 4:31** · tema: obra do Espírito Santo
+  > O serem eles cheios do Espírito Santo, aqui, denota antes que foram inspirados de confiança ou ousadia do que dotados de novos poderes, como em {{Act.2.4}}.
+  _Motivo:_ o autor interpreta o novo enchimento do Espírito Santo apenas como ousadia, não como nova concessão de poder
+- **Albert Barnes · Atos 5:3** · tema: obra do Espírito Santo
+  > O Espírito Santo é uma Pessoa distinta do Pai e do Filho;
+  _Motivo:_ o autor argumenta a personalidade e a divindade do Espírito Santo como Terceira Pessoa da Trindade
+- **Albert Barnes · Atos 5:5** · tema: ciencia
+  > Embora tenha sido ato de Deus, não se segue que não estivesse em conexão com as leis usuais pelas quais ele governa os homens, ou que ele não tenha usado meios naturais para isso.
+  _Motivo:_ o autor explica a morte de Ananias pelo choque emocional (causa natural), especulação fisiológica sobre um juízo divino
+- **Albert Barnes · Atos 5:9** · tema: dons
+  > Fica claro por outros exemplos que os apóstolos tinham o poder de punir pecadores, e que a violação dos mandamentos de Cristo era acompanhada de juízos súbitos e temíveis.
+  _Motivo:_ posição sobre o poder/dom apostólico de discernimento e juízo
+- **Albert Barnes · Atos 5:15** · tema: dons
+  > O escritor sagrado, porém, não diz que alguém tenha sido curado desta maneira; nem que lhes tenha sido mandado fazer isto.
+  _Motivo:_ o autor relativiza as curas pela sombra de Pedro
+- **Albert Barnes · Atos 5:31** · tema: obra do Espírito Santo
+  > A sua exaltação está imediatamente ligada à concessão do Espírito Santo, por cuja influência os homens são levados ao arrependimento
+  _Motivo:_ posição sobre a obra do Espírito Santo no arrependimento; conferir junto com o item (4.), se não sugere graça irresistível
+- **Albert Barnes · Atos 5:32** · tema: obra do Espírito Santo
+  > A descida do Espírito Santo para dotá-los de dons notáveis
+  _Motivo:_ interpretação do Pentecostes e dos dons como atestado da doutrina
+- **Albert Barnes · Atos 5:38** · tema: ofensivo
+  > O maometismo é sustentado pela espada e pelo Estado; o paganismo se apoia no braço do poder civil e nos terrores da superstição, e é sustentado por todas as paixões corruptas dos homens;
+  _Motivo:_ juízo depreciativo sobre o islã e outras religiões
+- **Albert Barnes · Atos 5:39** · tema: obra do Espírito Santo
+  > Sem o auxílio do Espírito Santo ninguém pode ser salvo; e resistir às suas influências é rejeitar a única perspectiva de vida eterna.
+  _Motivo:_ o autor afirma que o Espírito pode ser resistido e talvez não volte a contender (coerente com o livre-arbítrio)
+- **Albert Barnes · Atos 6:3** · tema: dons
+  > Isto evidentemente não significa dotados de dons miraculosos ou do poder de falar línguas estrangeiras, pois tais dons não eram necessários para o desempenho do seu ofício;
+  _Motivo:_ o autor nega que “cheios do Espírito Santo” se refira a dons espirituais e entende “línguas” como idiomas estrangeiros
+- **Albert Barnes · Atos 6:6** · tema: obra do Espírito Santo
+  > Isso era feito não para comunicar algum poder ou capacidade, mas para indicar que recebiam a sua autoridade, ou comissão, daqueles que assim lhes impunham as mãos;
+  _Motivo:_ o autor reduz a imposição de mãos a sinal de comissão, sem comunicação de dom
+- **Albert Barnes · Atos 6:10** · tema: obra do Espírito Santo
+  > Isto tem sido comumente entendido como o Espírito Santo, pelo qual ele era auxiliado; mas antes significa a energia, o poder ou o ardor de Estêvão.
+  _Motivo:_ o autor nega que o “espírito” de Estêvão seja o Espírito Santo
+- **Albert Barnes · Atos 6:11** · tema: tipologia
+  > Qualquer insinuação, portanto, de que havia um legislador maior do que ele, ou de que as suas instituições eram meras sombras e tipos e já não obrigavam, seria tida por blasfêmia,
+  _Motivo:_ as instituições mosaicas como sombras e tipos (de Cristo)
+- **Albert Barnes · Atos 6:15** · tema: dons
+  > Não se quer dizer que houve algo de miraculoso no caso de Estêvão;
+  _Motivo:_ o autor nega qualquer manifestação sobrenatural no rosto de Estêvão
+- **Albert Barnes · Atos 7:30** · tema: tipologia
+  > Todas estas circunstâncias parecem apontar para a conclusão de que este não era outro senão o futuro Libertador do mundo, que veio então tomar o seu povo sob a sua própria direção, como emblema da futura redenção da humanidade.
+  _Motivo:_ o autor identifica o Anjo do Senhor da sarça com o Messias (Cristo pré-encarnado) e vê na libertação do Egito figura da redenção
+- **Albert Barnes · Atos 7:30** · tema: cristologia
+  > linguagem que implica que Deus estava ali e que exprime fortemente a doutrina de que o anjo era Jeová.
+  _Motivo:_ posição sobre a identidade divina do Anjo do Senhor
+- **Albert Barnes · Atos 7:38** · tema: cristologia
+  > É claro, portanto, que pelo anjo Estêvão pretende designar aqui aquele que era Deus.
+  _Motivo:_ o autor identifica o anjo do Sinai com o próprio Deus
+- **Albert Barnes · Atos 7:51** · tema: obra do Espírito Santo
+  > A mensagem trazida por Moisés, pelos profetas, pelo Salvador e pelos apóstolos — todos sob a direção infalível do Espírito Santo — eles e seus pais a combateram.
+  _Motivo:_ resistir ao Espírito é entendido como opor-se à mensagem inspirada; afirma que o Espírito pode ser resistido
+- **Albert Barnes · Atos 7:55** · tema: dons
+  > No caso de Estêvão há todo indício de uma visão, ou representação sobrenatural dos objetos celestiais; algo que vai além da mera fé, tal como a que os cristãos moribundos têm agora.
+  _Motivo:_ o autor distingue a visão de Estêvão da experiência dos cristãos de hoje e nega que tenha visto com os olhos do corpo; conferir com o ensino sobre visões
+- **Albert Barnes · Atos 7:59** · tema: cristologia
+  > De todas estas considerações segue-se que o Senhor Jesus é objeto de culto; que, nas circunstâncias mais solenes, é apropriado invocá-lo, adorá-lo e confiar às suas mãos os nossos interesses mais caros. Se isto pode ser feito, ele é divino.
+  _Motivo:_ o autor defende a divindade de Cristo e a oração dirigida a ele
+- **Albert Barnes · Atos 7:0** · tema: inspiração
+  > A respeito deste discurso, pode-se observar ainda que não é necessário supor que Estêvão fosse inspirado.
+  _Motivo:_ undefined
+- **Albert Barnes · Atos 7:0** · tema: inspiração
+  > não um homem de quem haja evidência de que fosse inspirado
+  _Motivo:_ undefined
+- **Albert Barnes · Atos 7:15** · tema: inspiração
+  > Que, tal como o texto se encontra agora, é um erro evidente.
+  _Motivo:_ undefined
+- **Albert Barnes · Atos 8:15** · tema: dons
+  > Estas coisas deixam claro que pelo dom do Espírito Santo se entende aqui o poder de falar novas línguas (comp. {{1Co.14}}) e o poder de operar milagres.
+  _Motivo:_ o autor restringe o dom do Espírito Santo recebido em Samaria a línguas e milagres, distinto da conversão e da santificação
+- **Albert Barnes · Atos 8:15** · tema: dons
+  > Pois, além do fato de que agora não há apóstolos, aquilo de que se fala aqui é inteiramente diferente do rito da confirmação.
+  _Motivo:_ sugere que o dom extraordinário era ligado aos apóstolos e não existe hoje
+- **Albert Barnes · Atos 8:15** · tema: sacramentos
+  > E fica ainda claro que esta passagem não deve ser apresentada em favor do “rito da confirmação” na igreja cristã.
+  _Motivo:_ posição sobre o rito da confirmação
+- **Albert Barnes · Atos 8:15** · tema: dons
+  > Se se perguntar por que este poder foi conferido aos primeiros cristãos, pode-se responder que foi para fornecer uma prova notável da verdade da religião cristã; para impressionar o povo e assim ganhá-lo para abraçar o evangelho.
+  _Motivo:_ finalidade dos dons apresentada como atestação da igreja primitiva
+- **Albert Barnes · Atos 8:15** · tema: obra do Espírito Santo
+  > (1) Não era aquele dom do Espírito Santo pelo qual a alma é convertida ou renovada, pois eles o tinham recebido quando creram, {{Act.8.6}}.
+  _Motivo:_ distinção entre conversão e recebimento do Espírito Santo
+- **Albert Barnes · Atos 8:17** · tema: batismo
+  > Este foi um ato de oração, que exprimia uma invocação a Deus para que ele lhes concedesse a bênção.
+  _Motivo:_ interpretação da imposição de mãos para o recebimento do Espírito Santo
+- **Albert Barnes · Atos 8:18** · tema: dons
+  > Isto é, ele testemunhou os efeitos extraordinários, o poder de falar de maneira miraculosa etc.
+  _Motivo:_ línguas como sinal visível do recebimento do Espírito
+- **Albert Barnes · Atos 8:22** · tema: predestinação
+  > Devem arrepender-se do pecado; e então devem sentir, não que tenham algum direito diante de Deus, mas que dependem dele e hão de ser salvos ou perdidos segundo a vontade dele.
+  _Motivo:_ salvação ou perdição atribuída à vontade soberana de Deus
+- **Albert Barnes · Atos 8:26** · tema: predestinação
+  > Quando tal pecador é convertido, é porque Deus forma um plano ou propósito de fazê-lo.
+  _Motivo:_ conversão atribuída ao propósito de Deus
+- **Albert Barnes · Atos 8:26** · tema: obra do Espírito Santo
+  > É mais provável, penso eu, que a passagem signifique que Deus comunicou a mensagem pelo seu Espírito; pois em {{Act.8.29}}, {{Act.8.39}}, diz-se expressamente que o Espírito falou a Filipe etc.
+  _Motivo:_ o autor inclina-se a ver o “anjo” como comunicação do Espírito, não aparição angélica
+- **Albert Barnes · Atos 8:30** · tema: obra do Espírito Santo
+  > É bom seguir as primeiras sugestões do Espírito; ceder às indicações claras do dever e cumpri-lo de imediato.
+  _Motivo:_ direção do Espírito entendida como sugestão interior
+- **Albert Barnes · Atos 8:33** · tema: ofensivo
+  > uma falsidade manifesta, e uma história que ilustra de modo notável o caráter dos escritos judaicos
+  _Motivo:_ generalização depreciativa dos escritos judaicos
+- **Albert Barnes · Atos 8:33** · tema: cristologia
+  > Mas a palavra nas Escrituras não tem tal significado; e tal sentido não se ajustaria ao contexto.
+  _Motivo:_ rejeita a leitura do texto como referente à geração eterna do Filho (exegese, não negação da doutrina)
+- **Albert Barnes · Atos 8:36** · tema: batismo
+  > Tudo o que se dá a entender é que havia água bastante para realizar o rito do batismo, quer este fosse por aspersão, por efusão ou por imersão.
+  _Motivo:_ posição sobre o modo do batismo
+- **Albert Barnes · Atos 8:37** · tema: sacramentos
+  > Nada menos é exigido; e nada senão isto pode constituir a qualificação própria para a Ceia do Senhor.
+  _Motivo:_ qualificação para a Ceia do Senhor
+- **Albert Barnes · Atos 8:38** · tema: batismo
+  > E segue-se, portanto, que não se pode provar que a imersão seja o único modo legítimo de batismo.
+  _Motivo:_ o autor defende aspersão/efusão como válidas e nega a necessidade da imersão
+- **Albert Barnes · Atos 8:38** · tema: batismo
+  > A aspersão ou a efusão podiam ser realizadas ali tão bem como em qualquer outro lugar.
+  _Motivo:_ posição sobre o modo do batismo
+- **Albert Barnes · Atos 8:39** · tema: obra do Espírito Santo
+  > A tais interpretações tolas muitos expositores têm sido levados.
+  _Motivo:_ o autor nega que Filipe tenha sido arrebatado milagrosamente pelo Espírito
+- **Albert Barnes · Atos 8:39** · tema: obra do Espírito Santo
+  > E tudo o que pode ser significado aqui é que o Espírito advertiu fortemente Filipe a ir para algum outro lugar; que sugeriu o dever à sua mente com tanta força ou vivacidade que o arrancou, por assim dizer, da companhia do eunuco.
+  _Motivo:_ reduz o arrebatamento de Filipe a uma impressão interior do dever
+- **Albert Barnes · Atos 8:40** · tema: obra do Espírito Santo
+  > Não significa aqui que tenha havido algum milagre no caso, mas que Filipe, depois de deixar o eunuco, chegou a Azoto, ou estava em Azoto.
+  _Motivo:_ nega o caráter miraculoso do transporte de Filipe
 - **Adam Clarke · Êxodo 1:19** · tema: ciencia
   > as mulheres que, durante toda a gravidez, estão acostumadas a trabalho pesado, especialmente ao ar livre, têm comparativamente pouca dor no parto
   _Motivo:_ o autor apresenta como fato de experiência geral uma afirmação médica ultrapassada e anedótica
@@ -523,115 +784,4 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Êxodo 9:35** · tema: sábado
   > Lembra-te do dia de sábado, para o santificar
   _Motivo:_ o autor inclui “profanadores do sábado” entre os pecadores com a Bíblia na mão, aplicando o mandamento aos cristãos
-- **Jamieson, Fausset e Brown · Marcos 1:24** · tema: tipologia
-  > percebendo nele, talvez, a Semente da mulher que havia de esmagar a cabeça e destruir as obras do diabo
-  _Motivo:_ o autor vê em Cristo a Semente da mulher de Gn 3:15
-- **Jamieson, Fausset e Brown · Marcos 1:35** · tema: sábado
-  > O leitor deve notar que ele escolheu este dia para inaugurar uma nova e gloriosa etapa da sua obra pública.
-  _Motivo:_ o autor atribui significado ao primeiro dia da semana em contraste com o sábado
-- **Jamieson, Fausset e Brown · Marcos 13:0** · tema: escatologia
-  > Profecia de Cristo sobre a destruição de Jerusalém, e advertências por ela sugeridas para nos prepararmos para a sua segunda vinda
-  _Motivo:_ o autor liga a profecia da destruição de Jerusalém às advertências sobre a segunda vinda
-- **Jamieson, Fausset e Brown · Marcos 14:1** · tema: tipologia
-  > brilhante prefiguração típica do grande Sacrifício e da redenção por ele efetuada
-  _Motivo:_ o cordeiro pascal como figura de Cristo
-- **Jamieson, Fausset e Brown · Marcos 14:1** · tema: predestinação
-  > Por isso, “pelo determinado conselho e presciência de Deus, que é maravilhoso em conselho e grande em obra”, foi ordenado que, precisamente na época da páscoa, “Cristo, nossa páscoa, fosse sacrificado por nós”.
-  _Motivo:_ o autor atribui o momento da morte de Cristo ao conselho determinado de Deus
-- **Jamieson, Fausset e Brown · Lucas 1:15** · tema: tipologia
-  > ELE era a REALIDADE e a PERFEIÇÃO do nazireu sem o símbolo, o qual desapareceu nessa viva realização dele
-  _Motivo:_ o nazireu como figura de Cristo
-- **Jamieson, Fausset e Brown · Lucas 1:10** · tema: tipologia
-  > Mas que a aceitação desta oferta diária dependia da virtude expiatória pressuposta no holocausto, e que apontava para o único “sacrifício de cheiro suave” ({{Eph.5.2}}), é evidente por {{Isa.6.6-7}}.
-  _Motivo:_ o holocausto diário como figura do sacrifício de Cristo
-- **Jamieson, Fausset e Brown · Lucas 1:35** · tema: cristologia
-  > Não devemos nem pensar numa dupla Filiação, como alguns fazem, com dureza e sem nenhum fundamento, nem negar o que aqui está claramente expresso: a ligação entre o seu nascimento humano e a sua própria Filiação pessoal.
-  _Motivo:_ o autor afirma a filiação eterna e rejeita a ideia de dupla filiação
-- **Jamieson, Fausset e Brown · Lucas 1:28** · tema: ofensivo
-  > O erro da tradução da Vulgata, “cheia de graça”, tem sido abundantemente aproveitado pela Igreja Romana.
-  _Motivo:_ polêmica contra a Igreja Católica
-- **Jamieson, Fausset e Brown · Lucas 1:47** · tema: ofensivo
-  > Maria, pobre coração, nunca sonhou, como vemos, com a sua própria “imaculada conceição” (na linguagem ofensiva dos romanistas), nem tampouco com a sua própria vida imaculada.
-  _Motivo:_ linguagem polêmica contra católicos (“romanistas”)
-- **Jamieson, Fausset e Brown · Lucas 1:59** · tema: batismo
-  > O costume de dar nome às crianças no batismo tem sua origem no costume judaico na circuncisão
-  _Motivo:_ pressupõe o batismo de crianças
-- **Jamieson, Fausset e Brown · Lucas 10:19** · tema: dons
-  > mas as palavras seguintes, “e sobre toda a força do inimigo, e nada vos fará dano algum”, mostram que o que se quer dizer é o glorioso poder da fé para “vencer o mundo” e “apagar todos os dardos inflamados do maligno”
-  _Motivo:_ o autor admite o sentido literal só “em primeiro lugar” e espiritualiza a promessa de autoridade sobre serpentes e escorpiões
-- **Jamieson, Fausset e Brown · Lucas 11:13** · tema: obra do Espírito Santo
-  > aquele, o Dom dos dons, que desce sobre a Igreja por meio de Cristo, e que compreende estas.
-  _Motivo:_ o Espírito Santo como o Dom dos dons que compreende todas as boas coisas
-- **Jamieson, Fausset e Brown · Lucas 11:20** · tema: obra do Espírito Santo
-  > aquele denotando figuradamente o poder de Deus, este o Agente vivo e pessoal em todo exercício dele.
-  _Motivo:_ o Espírito como Agente pessoal em todo exercício do poder de Deus
-- **Jamieson, Fausset e Brown · Lucas 11:22** · tema: tipologia
-  > Exprimindo sublimemente a aproximação do Redentor, como a Semente da mulher, para esmagar a cabeça da Serpente.
-  _Motivo:_ liga a vitória de Cristo à promessa da Semente da mulher ({{Gen.3.15}})
-- **Jamieson, Fausset e Brown · Lucas 11:27** · tema: ofensivo
-  > Quão inteiramente alheio é este sentimento ao ensino da Igreja de Roma, que excomungaria qualquer um dos seus membros que ousasse falar no espírito deste glorioso dito!
-  _Motivo:_ polêmica direta contra a Igreja Católica Romana
-- **Jamieson, Fausset e Brown · Lucas 11:50** · tema: escatologia
-  > assim a iniquidade de Israel foi deixada acumular-se de era em era até que naquela geração chegou ao máximo, e toda a vingança acumulada do Céu se abateu de uma vez sobre a sua cabeça condenada.
-  _Motivo:_ juízo sobre Israel naquela geração, com aplicação à Revolução Francesa e à cristandade
-- **Jamieson, Fausset e Brown · Lucas 16:23** · tema: escatologia
-  > Não o lugar final dos perdidos (para o qual se usa outra palavra), mas, como dizemos, “o mundo invisível”.
-  _Motivo:_ o autor distingue o hades (estado intermediário) do lugar final dos perdidos
-- **Jamieson, Fausset e Brown · Lucas 16:26** · tema: escatologia
-  > Por um decreto irrevogável foi colocado um vasto abismo intransponível entre os dois estados e os ocupantes de cada um.
-  _Motivo:_ posição sobre a condição irrevogável dos mortos após a morte
-- **Jamieson, Fausset e Brown · Lucas 17:24** · tema: escatologia
-  > tornou-se tão manifesto a todos como o relâmpago do céu que o reino de Deus deixara de existir na sua forma antiga e entrara numa forma nova e inteiramente diferente.
-  _Motivo:_ o autor aplica a vinda do Filho do Homem, em primeiro plano, à destruição de Jerusalém (cumprimento preterista parcial)
-- **Jamieson, Fausset e Brown · Lucas 17:34** · tema: escatologia
-  > cumprida antes da destruição de Jerusalém, quando os cristãos se viram forçados, pelas instruções do seu Senhor ({{Luk.21.21}}), a afastar-se de uma vez e para sempre dos seus antigos companheiros; mas sobretudo quando a segunda vinda de Cristo irromper sobre um mundo descuidado.
-  _Motivo:_ o autor aplica “um será tomado” à fuga de Jerusalém e à segunda vinda, sem mencionar arrebatamento
-- **Jamieson, Fausset e Brown · Lucas 17:37** · tema: escatologia
-  > um dito proverbial terrivelmente comprovado na destruição de Jerusalém, e muitas vezes desde então, embora a sua mais tremenda ilustração venha a ser no dia final do mundo.
-  _Motivo:_ interpretação de “onde estiver o corpo” como juízo sobre Jerusalém e no fim do mundo
-- **Jamieson, Fausset e Brown · Lucas 2:25** · tema: obra do Espírito Santo
-  > Assim o Espírito, depois de uma triste ausência de quase quatrocentos anos, voltava à Igreja, para despertar a expectativa e preparar os acontecimentos vindouros.
-  _Motivo:_ o autor afirma uma ausência do Espírito por quatrocentos anos
-- **Jamieson, Fausset e Brown · Lucas 2:26** · tema: obra do Espírito Santo
-  > O que implica, fora de toda dúvida, a personalidade do Espírito.
-  _Motivo:_ afirmação sobre a personalidade do Espírito Santo
-- **Jamieson, Fausset e Brown · Lucas 2:36** · tema: dons
-  > Outra evidência de que estavam próximos “os últimos tempos”, em que Deus havia de “derramar o seu Espírito sobre toda a carne”.
-  _Motivo:_ o dom de profecia ligado ao derramamento do Espírito nos últimos tempos
-- **Jamieson, Fausset e Brown · Lucas 2:34** · tema: obra do Espírito Santo
-  > depois que a efusão do Espírito no Pentecostes lançou para elas uma nova luz sobre todo o assunto
-  _Motivo:_ o derramamento do Espírito no Pentecostes como iluminação
-- **Jamieson, Fausset e Brown · Lucas 2:22** · tema: tipologia
-  > e a queima do holocausto da mãe, e a aspersão dela com o sangue da sua oferta pelo pecado, haviam de encontrar a sua realização permanente no “sacrifício vivo” da própria mãe cristã
-  _Motivo:_ os sacrifícios da purificação como figuras cumpridas no Novo Testamento
-- **Jamieson, Fausset e Brown · Lucas 23:43** · tema: escatologia
-  > não serás separado de mim nem por um momento, mas juntos iremos, e comigo, antes que este dia termine, estarás no Paraíso
-  _Motivo:_ posição sobre o estado intermediário: o salvo vai ao Paraíso no mesmo dia da morte
-- **Jamieson, Fausset e Brown · Lucas 24:27** · tema: tipologia
-  > Aqui nosso Senhor nos ensina tanto a reverência devida às Escrituras do Antigo Testamento quanto o grande tema delas: “ele mesmo”.
-  _Motivo:_ o Antigo Testamento tem Cristo como seu grande tema
-- **Jamieson, Fausset e Brown · Lucas 24:49** · tema: obra do Espírito Santo
-  > o Espírito Santo, do qual Cristo é o Dispensador com autoridade
-  _Motivo:_ posição sobre o envio do Espírito Santo por Cristo
-- **Jamieson, Fausset e Brown · Lucas 24:49** · tema: obra do Espírito Santo
-  > que seriam de tal modo penetrados e movidos por um poder sobrenatural consciente (no pleno sentido da palavra), que este imprimiria autoridade divina a todo o exercício do seu ofício apostólico, incluindo, é claro, a sua pena tanto quanto a sua boca.
-  _Motivo:_ o revestimento de poder interpretado como dom ligado ao ofício apostólico e à inspiração dos escritos
-- **Jamieson, Fausset e Brown · Lucas 3:2** · tema: cristologia
-  > Ele era a única manifestação eterna da Divindade: O VERBO [OLSHAUSEN].
-  _Motivo:_ afirmação sobre a natureza divina permanente de Cristo
-- **Jamieson, Fausset e Brown · Lucas 3:23** · tema: tipologia
-  > traça a descendência até Adão, o tronco de toda a família humana, mostrando assim que ele é a prometida “Semente da mulher”.
-  _Motivo:_ a promessa da Semente da mulher ({{Gen.3.15}}) aplicada a Cristo
-- **Jamieson, Fausset e Brown · Lucas 4:19** · tema: cristologia
-  > As primeiras palavras, “O ESPÍRITO do SENHOR é sobre MIM”, têm sido apontadas desde os dias dos Pais da Igreja como exemplo ilustre de o Pai, o Filho e o Espírito Santo serem apresentados em ação distinta e, contudo, harmoniosa no plano da salvação.
-  _Motivo:_ a passagem como prova da Trindade
-- **Jamieson, Fausset e Brown · Lucas 4:25** · tema: tipologia
-  > os dois grandes profetas que estão no começo da antiguidade profética, e cujos milagres prefiguraram de modo impressionante os de nosso Senhor.
-  _Motivo:_ os milagres de Elias e Eliseu como figuras dos de Cristo
-- **Jamieson, Fausset e Brown · Lucas 9:27** · tema: escatologia
-  > A referência é, sem dúvida, ao firme estabelecimento e ao progresso vitorioso, durante a vida de alguns dos que ali estavam, daquele novo Reino de Cristo que estava destinado a operar a maior de todas as mudanças nesta terra e a ser o grande penhor da sua vinda final em glória.
-  _Motivo:_ o autor interpreta “ver o reino de Deus” como o estabelecimento da Igreja no século I, não como a vinda futura
-- **Jamieson, Fausset e Brown · Lucas 9:62** · tema: perda da salvação
-  > assim ficarão aquém da salvação os que levam adiante a obra de Deus com atenção distraída, com coração dividido.
-  _Motivo:_ o autor afirma que o coração dividido faz ficar aquém da salvação (coerente com o perigo de se desviar)
 
