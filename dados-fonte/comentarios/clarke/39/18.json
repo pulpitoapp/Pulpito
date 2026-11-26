@@ -130,13 +130,11 @@
     {"v": "1", "secao": 1, "tema": "ofensivo", "trecho": "nem entenderam, como querem os católicos romanos, que Cristo o tivesse constituído chefe deles", "motivo": "polêmica contra os católicos romanos sobre a supremacia de Pedro"},
     {"v": "3", "secao": 1, "tema": "religioes", "trecho": "O seguinte dito do <i>Bostan</i> do poeta Saadi é muito apropriado", "motivo": "o autor usa um poeta persa muçulmano como ilustração"},
     {"v": "6", "secao": 2, "tema": "religioes", "trecho": "Vemos também que era instituição positiva da antiga lei hindu.", "motivo": "o autor usa o código de leis hindu como ilustração"},
-    {"v": "10", "secao": 1, "tema": "obra do Espírito Santo", "trecho": "confirma a noção recebida por quase todas as nações, a saber: que cada pessoa tem um anjo da guarda", "motivo": "o autor afirma como doutrina que cada pessoa tem um anjo da guarda"},
+    {"v": "10", "secao": 1, "tema": "anjos", "trecho": "confirma a noção recebida por quase todas as nações, a saber: que cada pessoa tem um anjo da guarda", "motivo": "o autor afirma como doutrina que cada pessoa tem um anjo da guarda"},
     {"v": "12", "secao": 1, "tema": "perda da salvação", "trecho": "Isto também pode ser considerado uma lição de instrução e de consolo para os desviados. Quão dificilmente Cristo desiste deles!", "motivo": "o autor aplica a parábola aos desviados"},
     {"v": "14", "secao": 0, "tema": "predestinação", "trecho": "Se alguma alma se perder finalmente, não é porque a vontade ou o conselho de Deus fossem contrários à sua salvação", "motivo": "o autor nega a reprovação por decreto e atribui a perdição à escolha do homem"},
-    {"v": "18", "secao": 0, "tema": "obra do Espírito Santo", "trecho": "Por conseguinte, a mesma comissão que primeiro foi dada somente a São Pedro ({{Mat.16.19}}) foi depois estendida a todos os apóstolos.", "motivo": "o autor interpreta o ligar e desligar como declaração doutrinária dos apóstolos e as chaves de Pedro como a abertura do evangelho a judeus e gentios"},
     {"v": "20", "secao": 0, "tema": "religioes", "trecho": "E o seguinte, dos antigos hindus, é semelhante a ele", "motivo": "o autor cita o Bhagavad Gita como paralelo à promessa de Cristo"},
     {"v": "20", "secao": 2, "tema": "cristologia", "trecho": "Mas Jesus diz estas palavras: logo, Jesus é Deus.", "motivo": "o autor argumenta a divindade de Cristo pela sua onipresença"},
-    {"v": "26", "secao": 1, "tema": "tipologia", "trecho": "ao apresentar o sangue do Cordeiro", "motivo": "o autor apresenta o sacrifício de Cristo como o pagamento da dívida do pecador"},
     {"v": "34", "secao": 0, "tema": "profecia e escatologia", "trecho": "então o verme que não morre e o fogo que não se apaga são os atormentadores", "motivo": "o autor aplica a parábola ao castigo eterno no dia do juízo"}
   ]
 }
