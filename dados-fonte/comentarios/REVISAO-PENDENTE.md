@@ -40,108 +40,6 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 
 ## Ainda não revisados
 
-- **Albert Barnes · Lucas 1:0** · tema: obra do Espírito Santo
-  > Se ele não foi um dos apóstolos, e se não foi um daqueles expressamente comissionados por nosso Senhor, aos quais foi dada a promessa do ensino infalível do Espírito Santo
-  _Motivo:_ o autor discute a inspiração e a promessa do Espírito aos apóstolos
-- **Albert Barnes · Lucas 1:3** · tema: obra do Espírito Santo
-  > Deus, pelo seu Espírito Santo, presidia às suas faculdades, dirigia-as e o guardava do erro.
-  _Motivo:_ o autor explica o modo da inspiração de Lucas pelo Espírito Santo
-- **Albert Barnes · Lucas 1:15** · tema: ciencia
-  > A espécie de vinho comumente usada na Judeia era um vinho leve, muitas vezes não mais forte do que a sidra neste país.
-  _Motivo:_ afirmação histórica discutível sobre o teor do vinho, apresentada como fato
-- **Albert Barnes · Lucas 1:15** · tema: obra do Espírito Santo
-  > Ser cheio do Espírito Santo é ser iluminado, santificado e guiado pela sua influência.
-  _Motivo:_ o autor define o que é ser cheio do Espírito Santo
-- **Albert Barnes · Lucas 1:15** · tema: predestinação/eleição
-  > À intenção divina de que ele fosse separado para esta obra, assim como Deus determinou que Paulo fosse apóstolo desde o ventre de sua mãe
-  _Motivo:_ designação divina desde o ventre
-- **Albert Barnes · Lucas 1:17** · tema: cristologia
-  > Se assim é, segue-se que o Messias era o Senhor Deus de Israel
-  _Motivo:_ o autor afirma a divindade do Messias a partir do texto
-- **Albert Barnes · Lucas 1:33** · tema: escatologia
-  > é o mesmo que dizer que ele reinaria sobre a sua própria igreja e povo para sempre
-  _Motivo:_ o autor interpreta a “casa de Jacó” como a igreja (Israel espiritualizado)
-- **Albert Barnes · Lucas 1:35** · tema: cristologia
-  > Deus, portanto, preparou-lhe um corpo, por criação direta, que fosse puro e santo.
-  _Motivo:_ o autor afirma que o corpo de Jesus foi criado diretamente, livre da corrupção da queda
-- **Albert Barnes · Lucas 1:35** · tema: cristologia
-  > Isto é dito com referência à natureza humana de Cristo, e esta passagem prova, sem controvérsia, que uma das razões por que Jesus foi chamado Filho de Deus foi ter sido gerado de maneira sobrenatural.
-  _Motivo:_ o autor liga o título Filho de Deus à concepção sobrenatural e à ressurreição (posição de Barnes sobre a filiação)
-- **Albert Barnes · Lucas 1:41** · tema: dons
-  > de espírito profético, ou do conhecimento do caráter da criança que havia de nascer dela. Tudo isso foi produzido pelo Espírito Santo.
-  _Motivo:_ o autor fala do espírito profético dado por Espírito Santo
-- **Albert Barnes · Lucas 1:45** · tema: dons
-  > Que o espírito de profecia não tinha cessado inteiramente entre os judeus.
-  _Motivo:_ o autor fala da cessação/continuidade do espírito de profecia
-- **Albert Barnes · Lucas 1:45** · tema: ofensivo
-  > É a partir dessa honra que os católicos romanos determinaram que é justo adorar a Virgem Maria e oferecer-lhe orações, ato de culto tão idólatra quanto qualquer outro que se pudesse oferecer a uma criatura.
-  _Motivo:_ polêmica dura contra os católicos romanos
-- **Albert Barnes · Lucas 1:67** · tema: dons
-  > Ensinar ou pregar o evangelho etc.
-  _Motivo:_ o autor inclui ensinar/pregar no sentido de profetizar
-- **Albert Barnes · Lucas 1:69** · tema: tipologia
-  > Assim o Redentor pode ser chamado o “chifre de salvação”, porque os que fogem para ele estão a salvo.
-  _Motivo:_ os chifres do altar como figura do Redentor
-- **Albert Barnes · Lucas 11:49** · tema: tipologia
-  > Muitos também pensaram que o Messias era referido no capítulo 8 de Provérbios sob o nome de Sabedoria.
-  _Motivo:_ o autor menciona a Sabedoria de {{Pro.8}} como figura do Messias (sem afirmá-la como própria)
-- **Albert Barnes · Lucas 14:1** · tema: sábado
-  > E certamente este deveria ser o último caso do mundo a ser invocado para justificar banquetes e cenas de orgia e glutonaria no sábado.
-  _Motivo:_ o autor trata o sábado como dia de guarda a ser observado pelos cristãos (aplicação ao dia de descanso)
-- **Albert Barnes · Lucas 14:21** · tema: profecia e escatologia
-  > Por eles eram indicados os judeus; pelos que estavam nas ruas, os gentios.
-  _Motivo:_ interpretação da parábola sobre Israel rejeitado e o chamado dos gentios
-- **Albert Barnes · Lucas 14:23** · tema: profecia e escatologia
-  > O grande ponto desta parábola era que Deus chamaria os gentios depois que os judeus tivessem rejeitado o evangelho.
-  _Motivo:_ posição sobre Israel e os gentios
-- **Albert Barnes · Lucas 14:24** · tema: obra do Espírito Santo
-  > Quantas vezes Deus abandona para sempre o pecador que foi uma vez despertado e que entristece o Espírito Santo!
-  _Motivo:_ afirma que Deus abandona para sempre quem resiste ao Espírito; mostra a responsabilidade do homem de aceitar ou rejeitar o chamado
-- **Albert Barnes · Lucas 14:32** · tema: perda da salvação
-  > Nenhum homem pode ser cristão se, ao fazer a sua profissão de fé, está resolvido a voltar daqui a algum tempo para o mundo; nem pode ser verdadeiro cristão se espera que voltará atrás.
-  _Motivo:_ liga a autenticidade do discípulo à perseverança; conferir se não sugere que quem se desvia nunca foi verdadeiro cristão
-- **Albert Barnes · Lucas 2:14** · tema: escatologia
-  > Nos dias do milênio haverá paz universal; todas as causas de guerra terão cessado; os homens amarão uns aos outros e agirão com justiça; todas as nações serão trazidas sob a influência do evangelho.
-  _Motivo:_ o autor descreve o milênio como era de paz universal produzida pela difusão do evangelho (pós-milenismo)
-- **Albert Barnes · Lucas 2:40** · tema: cristologia
-  > Jesus tinha uma alma humana, e essa alma estava sujeita a todas as leis próprias de um espírito humano. Por isso cresceu em conhecimento, em força e em caráter.
-  _Motivo:_ posição sobre a natureza humana de Cristo e o seu crescimento em conhecimento
-- **Albert Barnes · Lucas 3:22** · tema: dons
-  > Assim, assumiu a forma de línguas, para significar os poderes miraculosos de linguagem de que os apóstolos seriam dotados;
-  _Motivo:_ o autor interpreta as línguas de Pentecostes como poder miraculoso de idiomas dado aos apóstolos
-- **Albert Barnes · Lucas 4:16** · tema: ofensivo
-  > Se, portanto, o unitarista não adora o Deus verdadeiro, e se o católico romano adora a Deus de maneira proibida e presta homenagem às criaturas de Deus, sendo assim culpado de idolatria, não pode ser um dever frequentar tal lugar de culto.
-  _Motivo:_ juízo do autor sobre unitaristas e católicos romanos como idólatras
-- **Albert Barnes · Lucas 4:18** · tema: obra do Espírito Santo
-  > Ou: falo por designação divina. Sou divinamente inspirado para falar.
-  _Motivo:_ o autor reduz “o Espírito do Senhor é sobre mim” a designação e inspiração divina para falar
-- **Albert Barnes · Lucas 4:18** · tema: profecia
-  > A sua primeira aplicação pode ter sido à restauração dos judeus de Babilônia; mas a linguagem da profecia é muitas vezes aplicável a dois acontecimentos semelhantes, e o acontecimento secundário é muitas vezes o mais importante.
-  _Motivo:_ o autor adota dupla aplicação da profecia de Isaías 61, primeiro à volta de Babilônia
-- **Albert Barnes · Lucas 4:18** · tema: tipologia
-  > Por isso o Filho de Deus é chamado Messias, palavra hebraica que significa o Ungido, ou Cristo, palavra grega que significa a mesma coisa.
-  _Motivo:_ a unção de reis, profetas e sacerdotes no AT apresentada como figura de Cristo, profeta, sacerdote e rei
-- **Albert Barnes · Lucas 4:19** · tema: tipologia
-  > Há aqui, talvez, uma alusão ao ano do jubileu, o quinquagésimo ano, quando se tocava a trombeta e por toda a terra se fazia proclamação da liberdade dos escravos hebreus,
-  _Motivo:_ o jubileu apresentado como figura do ano aceitável anunciado por Cristo
-- **Albert Barnes · Lucas 4:29** · tema: ofensivo
-  > Que o caráter atribuído em outros lugares aos galileus, como sendo particularmente perversos, era justo.
-  _Motivo:_ generalização negativa sobre um povo (galileus)
-- **Albert Barnes · Lucas 6:12** · tema: cristologia
-  > Se se perguntar por que Jesus haveria de orar, se era divino, pode-se responder que ele era também homem, um homem sujeito aos mesmos sofrimentos que os outros e que, como homem, necessitava da bênção divina.
-  _Motivo:_ posição do autor sobre as duas naturezas de Cristo e a oração de Jesus como homem e Mediador
-- **Albert Barnes · Lucas 6:24** · tema: predestinação
-  > Deus os abandona, e ri-se da calamidade DELES, e zomba quando lhes sobrevém o temor,
-  _Motivo:_ afirma que Deus “abandona” os que adiaram o arrependimento; conferir se não sugere reprovação
-- **Albert Barnes · Lucas 7:11** · tema: ofensivo
-  > entre as quais moram algumas famílias de muçulmanos fanáticos.
-  _Motivo:_ citação de Thomson com expressão depreciativa sobre muçulmanos
-- **Albert Barnes · Lucas 7:12** · tema: ciencia
-  > As emanações dos cadáveres são extremamente insalubres.
-  _Motivo:_ teoria dos miasmas apresentada como fato
-- **Albert Barnes · Lucas 7:30** · tema: predestinação
-  > Os homens não podem frustrar os propósitos reais de Deus, mas podem desprezar as suas mensagens, podem violar os seus mandamentos e, assim, podem rejeitar o conselho que ele lhes dá
-  _Motivo:_ distingue decretos de Deus e vontade revelada; afirma que o homem pode rejeitar o conselho de Deus
 - **Adam Clarke · Êxodo 1:19** · tema: ciencia
   > as mulheres que, durante toda a gravidez, estão acostumadas a trabalho pesado, especialmente ao ar livre, têm comparativamente pouca dor no parto
   _Motivo:_ o autor apresenta como fato de experiência geral uma afirmação médica ultrapassada e anedótica
@@ -754,6 +652,96 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Lucas 14:34** · tema: perda da salvação
   > e que ninguém pode pertencer a tal Igreja sem pôr em perigo a sua salvação
   _Motivo:_ o autor afirma que pertencer a uma igreja perseguidora põe em perigo a salvação
+- **Adam Clarke · Lucas 15:8** · tema: obra do Espírito Santo
+  > receber aquele Espírito que é luz para a alma, para convencer do pecado, da justiça e do juízo
+  _Motivo:_ o autor descreve a obra do Espírito Santo na restauração do pecador
+- **Adam Clarke · Lucas 15:12** · tema: religioes
+  > Ver. <i>Code of Gentoo Laws</i> (Código das leis hindus), disc. prel., p. 56
+  _Motivo:_ o autor usa o código de leis hindus como ilustração do costume da parábola
+- **Adam Clarke · Lucas 15:28** · tema: religioes
+  > O seguinte é um preceito da lei hindu sobre este assunto
+  _Motivo:_ o autor usa a lei hindu como prova do direito do pai sobre os bens
+- **Adam Clarke · Lucas 15:32** · tema: perda da salvação
+  > O quarto grau da miséria do pecador apóstata é que, tendo abandonado a Deus e perdido a sua graça e o seu amor, agora não consegue achar senão pobreza, miséria e necessidade.
+  _Motivo:_ a reflexão trata o pródigo como apóstata que perdeu a graça de Deus
+- **Adam Clarke · Lucas 15:32** · tema: obra do Espírito Santo
+  > Ele cai em si, porque o Espírito de Deus primeiro vem a ele
+  _Motivo:_ afirma a iniciativa do Espírito Santo na conversão
+- **Adam Clarke · Lucas 15:32** · tema: profecia e escatologia
+  > o filho mais novo, dissoluto, pode representar o mundo gentio; e o filho mais velho, que tanto tempo servira o pai, {{Luk.15.29}}, o povo judeu
+  _Motivo:_ interpretação da parábola como figura de Israel e dos gentios
+- **Adam Clarke · Lucas 16:12** · tema: obra do Espírito Santo
+  > a não ser que seja fiel aos primeiros pequenos movimentos e influências do Espírito divino
+  _Motivo:_ o autor condiciona o gozo da graça à fidelidade aos movimentos do Espírito
+- **Adam Clarke · Lucas 16:16** · tema: profecia e escatologia
+  > pois haverá apenas pouco tempo antes que uma destruição total caia sobre esta geração ímpia
+  _Motivo:_ o autor liga o texto à destruição de Jerusalém pelos romanos
+- **Adam Clarke · Lucas 16:19** · tema: predestinação/eleição
+  > No entanto, aqui está o primeiro grau da sua reprovação: ele ganhava tudo o que podia e guardava tudo para si.
+  _Motivo:_ o autor usa “reprovação” como condenação resultante da conduta, não de decreto
+- **Adam Clarke · Lucas 16:22** · tema: profecia e escatologia
+  > O propósito eterno de Deus, formado sobre os princípios da razão eterna, separa as pessoas e as moradas dos justos e dos ímpios, de modo que não pode haver comunicação
+  _Motivo:_ o autor descreve o estado eterno dos perdidos e a separação definitiva
+- **Adam Clarke · Lucas 16:31** · tema: perda da salvação
+  > estamos em perigo imediato de ser privados de todas as bênçãos de que assim abusamos e de ser separados de Deus e da glória do seu poder para sempre
+  _Motivo:_ o autor afirma o perigo de perder as bênçãos e ser separado de Deus por abuso dos dons
+- **Adam Clarke · Lucas 17:10** · tema: obra do Espírito Santo
+  > Se este texto pudesse ser honestamente interpretado como apoio à imperfeição pecaminosa, seria fácil demonstrar que não há um só dos espíritos dos justos aperfeiçoados
+  _Motivo:_ o autor nega que o crente tenha necessariamente de continuar pecando (doutrina wesleyana da perfeição cristã)
+- **Adam Clarke · Lucas 17:17** · tema: perda da salvação
+  > Ai! quantos voltaram atrás para a perdição! e quantos se misturaram de novo com o mundo!
+  _Motivo:_ o autor afirma que convertidos podem voltar atrás para a perdição
+- **Adam Clarke · Lucas 17:20** · tema: profecia e escatologia
+  > Ele estava prestes a destruir toda a organização política judaica e a reinar gloriosamente entre os gentios.
+  _Motivo:_ o autor interpreta o reino e a vinda do Filho do homem como destruição de Israel em 70 d.C.
+- **Adam Clarke · Lucas 17:22** · tema: profecia e escatologia
+  > dando a entender que grandes calamidades estavam prestes a cair sobre eles
+  _Motivo:_ aplica o texto às calamidades dos judeus, não à volta de Cristo
+- **Adam Clarke · Lucas 17:25** · tema: profecia e escatologia
+  > assim esta desolação não pode acontecer senão depois da minha morte
+  _Motivo:_ interpretação preterista do discurso escatológico
+- **Adam Clarke · Lucas 17:27** · tema: profecia e escatologia
+  > Assim aconteceu quando os romanos vieram destruir a Judeia
+  _Motivo:_ aplica os dias de Noé à destruição da Judeia pelos romanos
+- **Adam Clarke · Lucas 18:7** · tema: obra do Espírito Santo
+  > Assim como Deus prometeu graciosamente dar a salvação a toda alma que vem a ele por meio do seu Filho, e pôs o seu Espírito nos corações deles, induzindo-os a clamar a ele incessantemente por ela
+  _Motivo:_ o autor descreve o Espírito como quem move os escolhidos a orar e entende “escolhidos” como os que vêm a Deus por Cristo
+- **Adam Clarke · Lucas 18:8** · tema: escatologia
+  > Para exigir o fruto da semente do reino semeada no meio deste povo.
+  _Motivo:_ o autor aplica a vinda do Filho do homem ao juízo sobre Israel (destruição de Jerusalém), não à segunda vinda
+- **Adam Clarke · Lucas 18:8** · tema: escatologia
+  > Não! E por isso ele destruiu aquela terra.
+  _Motivo:_ o autor lê “achará fé na terra?” como referência à terra de Israel e à sua destruição
+- **Adam Clarke · Lucas 18:13** · tema: tipologia
+  > Esta não era uma doutrina nova: era a doutrina pública e solenemente pregada por todo sacrifício oferecido sob a lei judaica.
+  _Motivo:_ o autor vê os sacrifícios da lei como anúncio da expiação de Cristo
+- **Adam Clarke · Lucas 18:15** · tema: religioes
+  > Quando um guia espiritual (um guru) visita o seu discípulo, este leva-lhe o filho para receber a sua bênção
+  _Motivo:_ o autor usa um costume religioso hindu como ilustração
+- **Adam Clarke · Lucas 18:40** · tema: ofensivo
+  > Ver. o notável relato do negro e do homem branco, narrado na nota sobre {{Mrk.10.50}}.
+  _Motivo:_ remete a um relato com designação racial de época
+- **Adam Clarke · Lucas 19:5** · tema: predestinação/eleição
+  > Com este convite, o nosso bendito Senhor comunicou uma influência celestial ao coração dele; por isso, ele se dispôs a prestar a mais implícita e alegre obediência ao chamado, e assim não recebeu em vão a graça de Deus.
+  _Motivo:_ o autor trata da graça que chama e da resposta humana a ela
+- **Adam Clarke · Lucas 19:12** · tema: escatologia
+  > Para julgar e castigar os judeus rebeldes.
+  _Motivo:_ o autor interpreta a volta do nobre como o juízo sobre os judeus (destruição de Jerusalém)
+- **Adam Clarke · Lucas 19:13** · tema: predestinação/eleição
+  > A mesma palavra é dada a todos, para que todos possam crer e ser salvos.
+  _Motivo:_ o autor afirma a oferta universal da salvação
+- **Adam Clarke · Lucas 19:14** · tema: ofensivo
+  > Não é de admirar que os que mataram o Senhor da glória preferissem um homicida, alguém do seu próprio temperamento, ao Redentor das suas almas.
+  _Motivo:_ generalização depreciativa contra os judeus
+- **Adam Clarke · Lucas 19:15** · tema: escatologia
+  > Quando veio castigar os judeus desobedientes; e quando vier julgar o mundo.
+  _Motivo:_ o autor aplica a volta do senhor à destruição de Jerusalém e ao juízo final
+- **Adam Clarke · Lucas 19:27** · tema: escatologia
+  > Os judeus, que em breve matarei pela espada dos romanos.
+  _Motivo:_ o autor identifica os inimigos da parábola com os judeus mortos na guerra romana
+- **Adam Clarke · Lucas 19:48** · tema: escatologia
+  > A profecia relativa à destruição de Jerusalém é uma das mais circunstanciadas, e das mais literalmente cumpridas, de todas as predições jamais proferidas.
+  _Motivo:_ leitura preterista da profecia de Jesus
 - **Adam Clarke · Lucas 2:11** · tema: obra do Espírito Santo
   > era considerada emblema da comunicação dos dons e graças do Espírito Santo
   _Motivo:_ o autor liga a unção do AT à comunicação dos dons e graças do Espírito Santo
@@ -799,6 +787,102 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Lucas 2:24** · tema: cristologia
   > pois ela era imaculada e ele era o Santo
   _Motivo:_ o autor chama Maria de imaculada (mariologia; confirmar)
+- **Adam Clarke · Lucas 21:8** · tema: escatologia
+  > A respeito desta predição da destruição de Jerusalém e do seu cumprimento literal
+  _Motivo:_ o autor lê o discurso escatológico como cumprido na destruição de Jerusalém (preterismo)
+- **Adam Clarke · Lucas 21:18** · tema: escatologia
+  > Todo cristão genuíno escapará quando esta desolação vier sobre o Estado judeu.
+  _Motivo:_ o autor aplica a promessa à fuga dos cristãos na guerra judaica
+- **Adam Clarke · Lucas 21:19** · tema: perda da salvação
+  > Antes, “a vossa perseverança”, a vossa fiel permanência na minha palavra e doutrina.
+  _Motivo:_ o autor liga a preservação da alma à perseverança fiel
+- **Adam Clarke · Lucas 21:24** · tema: escatologia
+  > e até que chegue o tempo da sua conversão a Deus. Mas quando será isso? Não sabemos. As nações ainda estão pisando Jerusalém, e o fim só o Senhor o conhece.
+  _Motivo:_ o autor trata dos “tempos dos gentios”, de Israel e de Jerusalém
+- **Adam Clarke · Lucas 21:25** · tema: escatologia
+  > Indicando figuradamente os imensos exércitos romanos pelos quais a Judeia haveria de ser invadida e destruída.
+  _Motivo:_ o autor interpreta os sinais cósmicos como figura da guerra romana
+- **Adam Clarke · Lucas 21:31** · tema: escatologia
+  > Depois da destruição do Estado judeu, a doutrina de Cristo crucificado será pregada em toda parte e em toda parte prevalecerá.
+  _Motivo:_ o autor identifica a proximidade do reino com a difusão do evangelho após 70 d.C.
+- **Adam Clarke · Lucas 21:35** · tema: escatologia
+  > Ou “de toda esta terra”: a terra da Judeia, sobre a qual haviam de cair estes pesados juízos.
+  _Motivo:_ o autor restringe o juízo à Judeia
+- **Adam Clarke · Lucas 21:36** · tema: perda da salvação
+  > Os que foram fiéis à graça que tinham recebido não só não foram destruídos na destruição de Jerusalém
+  _Motivo:_ o autor condiciona a preservação à fidelidade à graça recebida; aplica “estar em pé diante do Filho do homem” ao ano 70
+- **Adam Clarke · Lucas 22:18** · tema: ceia/sacramentos
+  > a ceia sacramental tomará o lugar do cordeiro pascal
+  _Motivo:_ o autor apresenta a ceia como sacramento que substitui a páscoa
+- **Adam Clarke · Lucas 22:20** · tema: ceia/sacramentos
+  > Neste aspecto, o modo atual de administrar a Ceia do Senhor não está estritamente de acordo com a instituição original.
+  _Motivo:_ o autor opina sobre a forma de administrar a ceia
+- **Adam Clarke · Lucas 22:21** · tema: ceia/sacramentos
+  > Que mais se pode desejar, diz o Dr. Lightfoot, como demonstração de que Judas estava presente na eucaristia?
+  _Motivo:_ posição sobre a participação de Judas na ceia
+- **Adam Clarke · Lucas 22:32** · tema: perda da salvação
+  > A fé de Pedro falhou, mas não totalmente: ele caiu, mas não decaiu de vez, não apostatou nem abandonou finalmente o seu Mestre e a sua causa, como fez Judas.
+  _Motivo:_ o autor distingue queda de apostasia final
+- **Adam Clarke · Lucas 22:15** · tema: tipologia
+  > assim como a páscoa figurativa também fora celebrada uma vez antes da saída do Egito e do livramento do povo escolhido de Deus
+  _Motivo:_ a páscoa como figura do sacrifício de Cristo
+- **Adam Clarke · Lucas 22:16** · tema: tipologia
+  > até que aquilo de que a páscoa é um tipo se cumpra na minha morte
+  _Motivo:_ a páscoa como tipo da morte de Cristo
+- **Adam Clarke · Lucas 22:71** · tema: cristologia
+  > Há algo de muito chocante nesta suposição; e, no entanto, é verdadeiramente assombroso quão geral ela é.
+  _Motivo:_ o autor rejeita que Cristo tenha sofrido a ira de Deus no Getsêmani (natureza da expiação)
+- **Adam Clarke · Lucas 22:71** · tema: cristologia
+  > pode facilmente ser crido sem supor que ele estivesse de modo algum sob o desagrado do seu Pai celestial
+  _Motivo:_ posição sobre a natureza dos sofrimentos vicários de Cristo
+- **Adam Clarke · Lucas 22:44** · tema: ciencia
+  > Às vezes acontecem casos em que, pela pressão mental, os poros podem dilatar-se tanto que o sangue sai por eles, de modo que pode haver um suor de sangue.
+  _Motivo:_ explicação médica antiga (Galeno/Mead) apresentada como fato
+- **Adam Clarke · Lucas 22:71** · tema: tipologia
+  > assim como Satanás assaltou o primeiro Adão num jardim em forma corpórea, não é irrazoável concluir que do mesmo modo assaltou o segundo Adão num jardim
+  _Motivo:_ paralelo Adão/Cristo (segundo Adão) citado de Lightfoot
+- **Adam Clarke · Lucas 23:28** · tema: cristologia
+  > Para alívio de todas elas, fique sabido para sempre que nenhum espírito humano pode possivelmente tomar parte na paixão do Messias.
+  _Motivo:_ posição do autor sobre a natureza exclusiva e expiatória dos sofrimentos de Cristo
+- **Adam Clarke · Lucas 23:28** · tema: ofensivo
+  > A lenda de São Francisco e dos seus estigmas é bem conhecida: conta a fábula que ele recebeu as marcas nas mãos, nos pés e no lado.
+  _Motivo:_ juízo depreciativo sobre a tradição católica
+- **Adam Clarke · Lucas 23:30** · tema: escatologia
+  > o Dr. Lightfoot conjectura que todo aquele capítulo pode referir-se ao mesmo acontecimento
+  _Motivo:_ interpretação de Apocalipse 6 como referente à destruição de Jerusalém
+- **Adam Clarke · Lucas 23:43** · tema: religioes
+  > Disto os antigos pagãos tomaram as suas ideias dos jardins das Hespérides
+  _Motivo:_ ilustração com mitologia pagã
+- **Adam Clarke · Lucas 23:43** · tema: religioes
+  > diz-se que o <i>Jenet al Ferdoos</i>, Jardim do Paraíso, foi “criado por Deus a partir da luz, e que os profetas e os sábios sobem para lá”
+  _Motivo:_ citação de fonte islâmica/persa
+- **Adam Clarke · Lucas 23:43** · tema: religioes
+  > Nas <i>Institutas de Manu</i>, capítulo “Economia”, Inst. 243, encontram-se as seguintes palavras
+  _Motivo:_ uso das Leis de Manu (hinduísmo) como ilustração
+- **Adam Clarke · Lucas 23:48** · tema: predestinação/eleição
+  > Quão terrível é o estado daqueles que, em consequência da sua longa oposição à graça e à verdade de Deus, são por fim entregues a uma mente reprovada!
+  _Motivo:_ abandono à reprovação como consequência da resistência (não por decreto)
+- **Adam Clarke · Lucas 24:29** · tema: obra do Espírito Santo
+  > Tens o testemunho do seu Espírito de que o teu pecado foi apagado pelo seu sangue?
+  _Motivo:_ o autor ensina o testemunho interior do Espírito como certeza do perdão (doutrina wesleyana)
+- **Adam Clarke · Lucas 24:31** · tema: ceia
+  > Mas não devemos imaginar que ele tenha ministrado a santa eucaristia nessa ocasião; não há a mais remota evidência disso.
+  _Motivo:_ o autor nega que o partir do pão em Emaús tenha sido a ceia do Senhor
+- **Adam Clarke · Lucas 24:47** · tema: predestinação
+  > Porque Deus quer a salvação de Todos; e Jesus Cristo, pela sua graça, provou a morte por Todo homem, {{Heb.2.9}}.
+  _Motivo:_ o autor afirma a vontade salvífica universal e a expiação por todos os homens
+- **Adam Clarke · Lucas 24:48** · tema: predestinação
+  > e de que não quer que ninguém pereça, mas que todos cheguem ao conhecimento da verdade e sejam salvos.
+  _Motivo:_ o autor afirma que Cristo quer a salvação de todos (contra a eleição restrita)
+- **Adam Clarke · Lucas 24:49** · tema: dons
+  > 3. Para que pudessem operar milagres que confirmassem a sua pretensão a uma missão divina e estabelecessem a verdade das doutrinas que pregavam.
+  _Motivo:_ o autor descreve os milagres como finalidade do revestimento de poder, ligados à confirmação da missão apostólica
+- **Adam Clarke · Lucas 24:49** · tema: obra do Espírito Santo
+  > A energia do Espírito Santo lhes seria comunicada para três propósitos particulares:
+  _Motivo:_ o autor define os propósitos do revestimento de poder do Espírito Santo
+- **Adam Clarke · Lucas 24:52** · tema: cristologia
+  > Adoraram-no como seu Deus, e estavam certamente esclarecidos demais para serem capazes de qualquer espécie de idolatria.
+  _Motivo:_ o autor afirma a divindade de Cristo com base na adoração dos discípulos
 - **Adam Clarke · Lucas 3:2** · tema: religioes
   > Difere também das revelações pagãs e maometanas, que foram fabricadas num canto e não tiveram testemunhas.
   _Motivo:_ o autor qualifica as revelações pagãs e islâmicas como fabricadas
@@ -904,4 +988,94 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Lucas 9:62** · tema: ofensivo
   > deve ser atribuída ou a extrema ignorância das Sagradas Escrituras, ou a extrema perversidade
   _Motivo:_ linguagem polêmica forte contra a Igreja Católica Romana
+- **Jamieson, Fausset e Brown · Marcos 1:24** · tema: tipologia
+  > percebendo nele, talvez, a Semente da mulher que havia de esmagar a cabeça e destruir as obras do diabo
+  _Motivo:_ o autor vê em Cristo a Semente da mulher de Gn 3:15
+- **Jamieson, Fausset e Brown · Marcos 1:35** · tema: sábado
+  > O leitor deve notar que ele escolheu este dia para inaugurar uma nova e gloriosa etapa da sua obra pública.
+  _Motivo:_ o autor atribui significado ao primeiro dia da semana em contraste com o sábado
+- **Jamieson, Fausset e Brown · Marcos 13:0** · tema: escatologia
+  > Profecia de Cristo sobre a destruição de Jerusalém, e advertências por ela sugeridas para nos prepararmos para a sua segunda vinda
+  _Motivo:_ o autor liga a profecia da destruição de Jerusalém às advertências sobre a segunda vinda
+- **Jamieson, Fausset e Brown · Marcos 14:1** · tema: tipologia
+  > brilhante prefiguração típica do grande Sacrifício e da redenção por ele efetuada
+  _Motivo:_ o cordeiro pascal como figura de Cristo
+- **Jamieson, Fausset e Brown · Marcos 14:1** · tema: predestinação
+  > Por isso, “pelo determinado conselho e presciência de Deus, que é maravilhoso em conselho e grande em obra”, foi ordenado que, precisamente na época da páscoa, “Cristo, nossa páscoa, fosse sacrificado por nós”.
+  _Motivo:_ o autor atribui o momento da morte de Cristo ao conselho determinado de Deus
+- **Jamieson, Fausset e Brown · Lucas 1:15** · tema: tipologia
+  > ELE era a REALIDADE e a PERFEIÇÃO do nazireu sem o símbolo, o qual desapareceu nessa viva realização dele
+  _Motivo:_ o nazireu como figura de Cristo
+- **Jamieson, Fausset e Brown · Lucas 1:10** · tema: tipologia
+  > Mas que a aceitação desta oferta diária dependia da virtude expiatória pressuposta no holocausto, e que apontava para o único “sacrifício de cheiro suave” ({{Eph.5.2}}), é evidente por {{Isa.6.6-7}}.
+  _Motivo:_ o holocausto diário como figura do sacrifício de Cristo
+- **Jamieson, Fausset e Brown · Lucas 1:35** · tema: cristologia
+  > Não devemos nem pensar numa dupla Filiação, como alguns fazem, com dureza e sem nenhum fundamento, nem negar o que aqui está claramente expresso: a ligação entre o seu nascimento humano e a sua própria Filiação pessoal.
+  _Motivo:_ o autor afirma a filiação eterna e rejeita a ideia de dupla filiação
+- **Jamieson, Fausset e Brown · Lucas 1:28** · tema: ofensivo
+  > O erro da tradução da Vulgata, “cheia de graça”, tem sido abundantemente aproveitado pela Igreja Romana.
+  _Motivo:_ polêmica contra a Igreja Católica
+- **Jamieson, Fausset e Brown · Lucas 1:47** · tema: ofensivo
+  > Maria, pobre coração, nunca sonhou, como vemos, com a sua própria “imaculada conceição” (na linguagem ofensiva dos romanistas), nem tampouco com a sua própria vida imaculada.
+  _Motivo:_ linguagem polêmica contra católicos (“romanistas”)
+- **Jamieson, Fausset e Brown · Lucas 1:59** · tema: batismo
+  > O costume de dar nome às crianças no batismo tem sua origem no costume judaico na circuncisão
+  _Motivo:_ pressupõe o batismo de crianças
+- **Jamieson, Fausset e Brown · Lucas 10:19** · tema: dons
+  > mas as palavras seguintes, “e sobre toda a força do inimigo, e nada vos fará dano algum”, mostram que o que se quer dizer é o glorioso poder da fé para “vencer o mundo” e “apagar todos os dardos inflamados do maligno”
+  _Motivo:_ o autor admite o sentido literal só “em primeiro lugar” e espiritualiza a promessa de autoridade sobre serpentes e escorpiões
+- **Jamieson, Fausset e Brown · Lucas 16:23** · tema: escatologia
+  > Não o lugar final dos perdidos (para o qual se usa outra palavra), mas, como dizemos, “o mundo invisível”.
+  _Motivo:_ o autor distingue o hades (estado intermediário) do lugar final dos perdidos
+- **Jamieson, Fausset e Brown · Lucas 16:26** · tema: escatologia
+  > Por um decreto irrevogável foi colocado um vasto abismo intransponível entre os dois estados e os ocupantes de cada um.
+  _Motivo:_ posição sobre a condição irrevogável dos mortos após a morte
+- **Jamieson, Fausset e Brown · Lucas 17:24** · tema: escatologia
+  > tornou-se tão manifesto a todos como o relâmpago do céu que o reino de Deus deixara de existir na sua forma antiga e entrara numa forma nova e inteiramente diferente.
+  _Motivo:_ o autor aplica a vinda do Filho do Homem, em primeiro plano, à destruição de Jerusalém (cumprimento preterista parcial)
+- **Jamieson, Fausset e Brown · Lucas 17:34** · tema: escatologia
+  > cumprida antes da destruição de Jerusalém, quando os cristãos se viram forçados, pelas instruções do seu Senhor ({{Luk.21.21}}), a afastar-se de uma vez e para sempre dos seus antigos companheiros; mas sobretudo quando a segunda vinda de Cristo irromper sobre um mundo descuidado.
+  _Motivo:_ o autor aplica “um será tomado” à fuga de Jerusalém e à segunda vinda, sem mencionar arrebatamento
+- **Jamieson, Fausset e Brown · Lucas 17:37** · tema: escatologia
+  > um dito proverbial terrivelmente comprovado na destruição de Jerusalém, e muitas vezes desde então, embora a sua mais tremenda ilustração venha a ser no dia final do mundo.
+  _Motivo:_ interpretação de “onde estiver o corpo” como juízo sobre Jerusalém e no fim do mundo
+- **Jamieson, Fausset e Brown · Lucas 2:25** · tema: obra do Espírito Santo
+  > Assim o Espírito, depois de uma triste ausência de quase quatrocentos anos, voltava à Igreja, para despertar a expectativa e preparar os acontecimentos vindouros.
+  _Motivo:_ o autor afirma uma ausência do Espírito por quatrocentos anos
+- **Jamieson, Fausset e Brown · Lucas 2:26** · tema: obra do Espírito Santo
+  > O que implica, fora de toda dúvida, a personalidade do Espírito.
+  _Motivo:_ afirmação sobre a personalidade do Espírito Santo
+- **Jamieson, Fausset e Brown · Lucas 2:36** · tema: dons
+  > Outra evidência de que estavam próximos “os últimos tempos”, em que Deus havia de “derramar o seu Espírito sobre toda a carne”.
+  _Motivo:_ o dom de profecia ligado ao derramamento do Espírito nos últimos tempos
+- **Jamieson, Fausset e Brown · Lucas 2:34** · tema: obra do Espírito Santo
+  > depois que a efusão do Espírito no Pentecostes lançou para elas uma nova luz sobre todo o assunto
+  _Motivo:_ o derramamento do Espírito no Pentecostes como iluminação
+- **Jamieson, Fausset e Brown · Lucas 2:22** · tema: tipologia
+  > e a queima do holocausto da mãe, e a aspersão dela com o sangue da sua oferta pelo pecado, haviam de encontrar a sua realização permanente no “sacrifício vivo” da própria mãe cristã
+  _Motivo:_ os sacrifícios da purificação como figuras cumpridas no Novo Testamento
+- **Jamieson, Fausset e Brown · Lucas 23:43** · tema: escatologia
+  > não serás separado de mim nem por um momento, mas juntos iremos, e comigo, antes que este dia termine, estarás no Paraíso
+  _Motivo:_ posição sobre o estado intermediário: o salvo vai ao Paraíso no mesmo dia da morte
+- **Jamieson, Fausset e Brown · Lucas 24:27** · tema: tipologia
+  > Aqui nosso Senhor nos ensina tanto a reverência devida às Escrituras do Antigo Testamento quanto o grande tema delas: “ele mesmo”.
+  _Motivo:_ o Antigo Testamento tem Cristo como seu grande tema
+- **Jamieson, Fausset e Brown · Lucas 24:49** · tema: obra do Espírito Santo
+  > o Espírito Santo, do qual Cristo é o Dispensador com autoridade
+  _Motivo:_ posição sobre o envio do Espírito Santo por Cristo
+- **Jamieson, Fausset e Brown · Lucas 24:49** · tema: obra do Espírito Santo
+  > que seriam de tal modo penetrados e movidos por um poder sobrenatural consciente (no pleno sentido da palavra), que este imprimiria autoridade divina a todo o exercício do seu ofício apostólico, incluindo, é claro, a sua pena tanto quanto a sua boca.
+  _Motivo:_ o revestimento de poder interpretado como dom ligado ao ofício apostólico e à inspiração dos escritos
+- **Jamieson, Fausset e Brown · Lucas 3:2** · tema: cristologia
+  > Ele era a única manifestação eterna da Divindade: O VERBO [OLSHAUSEN].
+  _Motivo:_ afirmação sobre a natureza divina permanente de Cristo
+- **Jamieson, Fausset e Brown · Lucas 3:23** · tema: tipologia
+  > traça a descendência até Adão, o tronco de toda a família humana, mostrando assim que ele é a prometida “Semente da mulher”.
+  _Motivo:_ a promessa da Semente da mulher ({{Gen.3.15}}) aplicada a Cristo
+- **Jamieson, Fausset e Brown · Lucas 9:27** · tema: escatologia
+  > A referência é, sem dúvida, ao firme estabelecimento e ao progresso vitorioso, durante a vida de alguns dos que ali estavam, daquele novo Reino de Cristo que estava destinado a operar a maior de todas as mudanças nesta terra e a ser o grande penhor da sua vinda final em glória.
+  _Motivo:_ o autor interpreta “ver o reino de Deus” como o estabelecimento da Igreja no século I, não como a vinda futura
+- **Jamieson, Fausset e Brown · Lucas 9:62** · tema: perda da salvação
+  > assim ficarão aquém da salvação os que levam adiante a obra de Deus com atenção distraída, com coração dividido.
+  _Motivo:_ o autor afirma que o coração dividido faz ficar aquém da salvação (coerente com o perigo de se desviar)
 
