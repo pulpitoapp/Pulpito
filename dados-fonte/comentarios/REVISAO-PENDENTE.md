@@ -7,6 +7,21 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Albert Barnes · João 5:26** · tema: cristologia
   > Isto evidentemente não se refere ao modo como a segunda pessoa da Trindade existe, pois o poder e a autoridade de que Cristo aqui fala são os que ele exerce como Mediador.
   _Motivo:_ o autor restringe o “dar a vida em si mesmo” ao ofício de Mediador; tema ligado à filiação eterna
+- **Albert Barnes · Atos 13:33** · tema: cristologia
+  > Esta interpretação do apóstolo Paulo prova, portanto, que esta passagem não deve ser usada para estabelecer a doutrina da geração eterna de Cristo.
+  _Motivo:_ o autor nega que o Sl 2:7 sustente a geração eterna do Filho; liga a filiação à ressurreição
+- **Albert Barnes · Atos 13:33** · tema: cristologia
+  > Em quaisquer outros sentidos que ele seja chamado Filho no Novo Testamento, fica aqui provado:
+  _Motivo:_ conclui que Cristo é chamado Filho por causa da ressurreição
+- **Albert Barnes · Atos 13:33** · tema: cristologia
+  > Mas o significado da palavra, que nunca se refere à eternidade, o contexto e a intenção evidente de quem fala são contra isso.
+  _Motivo:_ rejeita a leitura do “hoje” como eternidade/preexistência
+- **Albert Barnes · Atos 13:33** · tema: cristologia
+  > mas em nenhum sentido assim pode ser aplicado à relação de Deus Pai com o Filho.
+  _Motivo:_ trata a geração do Filho apenas como figura da ressurreição
+- **Albert Barnes · Atos 4:12** · tema: salvação
+  > Se alguns dos pagãos hão de ser salvos, como supõe a maioria dos cristãos, e como parece estar de acordo com a misericórdia de Deus, não é menos certo que isso será em consequência da intervenção de Cristo.
+  _Motivo:_ o autor admite a possível salvação de pagãos que não ouviram o evangelho (e de crianças pelos méritos da expiação); conferir
 - **Adam Clarke · Gênesis 36:43** · tema: predestinação/eleição
   > por que não podemos esperar encontrá-lo com eles no último dia, assim como Ló, ou Jó, ou qualquer outro homem bom e virtuoso que não foi destinado a ser participante da bênção dada a Abraão?
   _Motivo:_ especulação sobre a salvação final de Esaú
@@ -55,267 +70,6 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 
 ## Ainda não revisados
 
-- **Albert Barnes · Atos 1:0** · tema: obra do Espírito Santo
-  > assim também os Atos dos Apóstolos podem ser considerados o registro dos feitos do Espírito Santo nessa mesma grande obra.
-  _Motivo:_ o autor expõe a obra do Espírito Santo na redenção
-- **Albert Barnes · Atos 1:0** · tema: obra do Espírito Santo
-  > Este livro é um relato inspirado do caráter dos verdadeiros avivamentos da religião.
-  _Motivo:_ o autor vê em Atos o padrão dos avivamentos e critica o “entusiasmo e fanatismo”; conferir
-- **Albert Barnes · Atos 1:0** · tema: obra do Espírito Santo
-  > Pode-se observar ainda que este livro mostra que se devem esperar avivamentos da religião na igreja.
-  _Motivo:_ posição sobre a continuidade da obra do Espírito na igreja
-- **Albert Barnes · Atos 1:2** · tema: obra do Espírito Santo
-  > Embora, nas suas influências maiores e mais poderosas, o Espírito não tenha descido senão no dia de Pentecostes,
-  _Motivo:_ o autor distingue graus da comunicação do Espírito antes e depois do Pentecostes
-- **Albert Barnes · Atos 1:5** · tema: batismo
-  > Nesses versículos João é apresentado como batizando com água, mas o Messias que havia de vir, como batizando com o Espírito Santo e com fogo.
-  _Motivo:_ batismo com água e com o Espírito Santo
-- **Albert Barnes · Atos 1:6** · tema: profecia e escatologia
-  > Os apóstolos tinham alimentado as opiniões comuns dos judeus sobre o domínio temporal do Messias.
-  _Motivo:_ o autor trata como erro a expectativa da restauração do reino a Israel
-- **Albert Barnes · Atos 1:8** · tema: dons
-  > o poder de falar novas línguas; de pregar o evangelho com grande efeito; de suportar grandes provações etc.
-  _Motivo:_ o autor descreve o poder do Espírito, incluindo as línguas
-- **Albert Barnes · Atos 1:8** · tema: profecia e escatologia
-  > nem afirmasse que restauraria o reino a Israel,
-  _Motivo:_ posição sobre a restauração do reino a Israel
-- **Albert Barnes · Atos 1:11** · tema: profecia e escatologia
-  > Isso será melhor do que seria permitir um milênio eterno na terra, enquanto muitos dos santos dormissem e os ímpios continuassem nos seus sepulcros.
-  _Motivo:_ o autor se posiciona sobre o milênio e a volta de Cristo
-- **Albert Barnes · Atos 1:16** · tema: predestinação/eleição
-  > Isto nada afirma sobre a liberdade de Judas em fazê-lo. Um homem será tão livre na impiedade se for predito que será ímpio, como se isso nunca tivesse sido conhecido por nenhum outro ser.
-  _Motivo:_ presciência divina e liberdade humana no caso de Judas
-- **Albert Barnes · Atos 1:17** · tema: perda da salvação
-  > Isto não significa que fosse um verdadeiro cristão, mas que era contado entre os apóstolos. Jesus sabia que ele nunca o amara.
-  _Motivo:_ o autor nega que Judas tenha sido verdadeiro discípulo (pode implicar perseverança dos santos)
-- **Albert Barnes · Atos 1:20** · tema: tipologia
-  > não é que Davi representasse ou tipificasse o Messias, o que em parte alguma se afirma, e que não pode ser verdade em nenhum sentido inteligível;
-  _Motivo:_ o autor nega que Davi seja figura/tipo de Cristo
-- **Albert Barnes · Atos 1:24** · tema: cristologia
-  > Segundo, ele tem de ser divino.
-  _Motivo:_ argumento da divindade de Cristo pela oração dirigida a ele
-- **Albert Barnes · Atos 1:25** · tema: profecia e escatologia
-  > Que haverá um castigo futuro e eterno. Um homem assim certamente está no inferno, e sempre estará.
-  _Motivo:_ o autor afirma o destino eterno de Judas e o castigo eterno
-- **Albert Barnes · Atos 1:25** · tema: predestinação/eleição
-  > Ele não faz violência à liberdade deles, deixa-os agir como querem, mas tira da sua conduta fins importantes.
-  _Motivo:_ soberania de Deus e liberdade humana
-- **Albert Barnes · Atos 1:26** · tema: ciencia
-  > O lançamento de uma sorte é determinado pelas leis da natureza, tão regularmente quanto qualquer outra coisa. Não há propriamente acaso nele.
-  _Motivo:_ explicação naturalista do lançamento de sortes
-- **Albert Barnes · Atos 1:26** · tema: dons
-  > A obra peculiar do apostolado cessou com a morte deles.
-  _Motivo:_ o autor afirma a cessação do ofício apostólico
-- **Albert Barnes · Atos 10:2** · tema: obra do Espírito Santo
-  > Alguns outros casos foram encontrados por missionários em terras pagãs, de pessoas que assim tinham sido preparadas para o evangelho de Cristo por uma série de acontecimentos providenciais, ou pelo ensino do Espírito.
-  _Motivo:_ o autor supõe pagãos preparados pelo Espírito antes do evangelho e cita as ilhas Sandwich como exemplo
-- **Albert Barnes · Atos 10:4** · tema: predestinação/eleição
-  > dispostos a fazer a vontade de Deus até onde lhes é dada a conhecer e, portanto, aceitos e salvos pela sua misericórdia no Senhor Jesus
-  _Motivo:_ o autor admite a salvação de pagãos que não ouviram o evangelho, por agirem segundo a luz que têm
-- **Albert Barnes · Atos 10:10** · tema: dons
-  > Esse efeito parece ser causado por uma sequência de pensamentos tão intensa e absorvente que vence os sentidos do corpo, ou retira inteiramente a mente da influência deles, e a fixa no objeto invisível que a absorve.
-  _Motivo:_ o autor explica o êxtase/visão por mecanismo psicológico (cita o Dr. Rush), embora admita influência sobrenatural no caso de Pedro
-- **Albert Barnes · Atos 10:34** · tema: predestinação/eleição
-  > Mas isto não afirma que ele não fará diferença no caráter deles e depois os tratará segundo o seu caráter; nem que não perdoará a quem lhe apraz, o que é outra questão.
-  _Motivo:_ o autor defende a soberania e a eleição divinas na salvação
-- **Albert Barnes · Atos 10:34** · tema: predestinação/eleição
-  > Contudo, quanto à raça inteira considerada como estando no mesmo nível, ele sustentava que Deus tinha o direito de exercer as prerrogativas de soberano e de ter misericórdia de quem quisesse ter misericórdia.
-  _Motivo:_ eleição soberana atribuída a Paulo
-- **Albert Barnes · Atos 10:34** · tema: predestinação/eleição
-  > (4.) Se alguns fossem salvos, seria por Deus mostrar misericórdia aos desta massa comum que ele escolhesse.
-  _Motivo:_ salvação apenas dos que Deus escolhe da massa comum (eleição incondicional)
-- **Albert Barnes · Atos 10:36** · tema: cristologia
-  > Isto não implica necessariamente divindade, mas apenas que o Senhor Jesus, como Mediador, fora constituído ou designado Senhor sobre todas as nações.
-  _Motivo:_ o autor afirma que “Senhor de todos” não implica por si a divindade de Cristo (embora a admita em seguida)
-- **Albert Barnes · Atos 10:42** · tema: escatologia
-  > A doutrina do Novo Testamento é que os que estiverem vivos quando o Senhor Jesus voltar para julgar o mundo serão arrebatados em vastos números, como nuvens, para encontrá-lo nos ares, sem ver a morte,
-  _Motivo:_ o autor liga o arrebatamento à volta de Cristo para o juízo do mundo
-- **Albert Barnes · Atos 10:44** · tema: batismo com o Espírito Santo
-  > Dotando-os do poder de falar outras línguas,
-  _Motivo:_ a descida do Espírito sobre os gentios e o falar em línguas
-- **Albert Barnes · Atos 10:46** · tema: dons
-  > Em outras línguas que não a sua língua nativa,
-  _Motivo:_ o autor entende as línguas como idiomas estrangeiros
-- **Albert Barnes · Atos 10:47** · tema: batismo
-  > e pareceria dar a entender que foram batizados não por imersão, mas por efusão ou aspersão.
-  _Motivo:_ o autor defende batismo por efusão ou aspersão
-- **Albert Barnes · Atos 10:48** · tema: batismo
-  > Pode-se acrescentar também que parece não ter sido prática dos próprios apóstolos batizar muito extensamente.
-  _Motivo:_ posição sobre quem ministrava o batismo
-- **Albert Barnes · Atos 12:25** · tema: escatologia
-  > e podemos estar seguros de que aquele que era então o seu Amigo ainda a tem “gravada nas palmas das suas mãos”, e quer que ela se estenda até encher a terra de luz e salvação.
-  _Motivo:_ expectativa de que a igreja se estenda até encher a terra (visão de tendência pós-milenista)
-- **Albert Barnes · Atos 3:6** · tema: predestinação
-  > Onde ele pode obter poder para fazê-lo é outra questão.
-  _Motivo:_ o autor trata da capacidade do pecador de arrepender-se e crer por ordem de Deus; conferir alinhamento com o ensino sobre chamado e livre-arbítrio
-- **Albert Barnes · Atos 3:16** · tema: dons
-  > foi por meio da fé que os apóstolos exerceram nele que o milagre foi operado, e foi assim um cumprimento da declaração de {{Mat.17.20}}
-  _Motivo:_ o autor afirma que a cura se deu pela fé dos apóstolos, não do enfermo
-- **Albert Barnes · Atos 3:17** · tema: perda da salvação
-  > Está claramente implícito que, se o tivessem matado sabendo que ele era o Messias, e como Messias, não haveria perdão.
-  _Motivo:_ afirmação sobre pecado imperdoável, com base em {{Heb.10.26-29}}
-- **Albert Barnes · Atos 3:18** · tema: predestinação
-  > visto que tudo aconteceu segundo a predição e o propósito de Deus, eles tinham esperança na sua misericórdia.
-  _Motivo:_ o autor trata da presciência e do propósito de Deus em relação ao pecado humano (Deus dirige os pecados para os seus fins), mantendo a culpa do homem
-- **Albert Barnes · Atos 3:19** · tema: predestinação
-  > Ser convertido não pode ser matéria de obrigação; mas voltar-se para Deus é dever de todo pecador.
-  _Motivo:_ o autor nega que a conversão seja passiva e enfatiza a responsabilidade do homem de voltar-se para Deus
-- **Albert Barnes · Atos 3:19** · tema: escatologia
-  > Estais vivendo nos tempos do evangelho, no reinado do Messias, nos tempos do refrigério.
-  _Motivo:_ o autor interpreta os tempos do refrigério como a dispensação presente do evangelho, que vai até o fim do mundo e a volta de Cristo para o juízo
-- **Albert Barnes · Atos 3:21** · tema: escatologia
-  > Esta palavra implica que ele então voltaria à terra; mas não implica que não subiria de novo ao céu.
-  _Motivo:_ posição sobre a volta de Cristo; sugere que ele não permaneceria reinando na terra (contra um reino milenar terreno)
-- **Albert Barnes · Atos 3:21** · tema: escatologia
-  > Transmite também a ideia da predita recuperação do mundo do pecado e da restauração da paz e da ordem;
-  _Motivo:_ visão do triunfo progressivo do evangelho no mundo antes da volta de Cristo (tendência pós-milenista)
-- **Albert Barnes · Atos 3:22** · tema: tipologia
-  > Assim explicada, a profecia não tinha referência exclusiva, nem mesmo direta, ao Messias,
-  _Motivo:_ o autor nega que {{Deu.18.15}} seja profecia direta de Cristo
-- **Albert Barnes · Atos 3:22** · tema: tipologia
-  > A semelhança entre Moisés e o Messias não deve ser forçada demais.
-  _Motivo:_ o autor restringe Moisés como figura de Cristo ao simples fato de ambos terem sido levantados por Deus
-- **Albert Barnes · Atos 4:12** · tema: salvação
-  > Se alguns dos pagãos hão de ser salvos, como supõe a maioria dos cristãos, e como parece estar de acordo com a misericórdia de Deus, não é menos certo que isso será em consequência da intervenção de Cristo.
-  _Motivo:_ o autor admite a possível salvação de pagãos que não ouviram o evangelho (e de crianças pelos méritos da expiação); conferir
-- **Albert Barnes · Atos 4:12** · tema: ofensivo
-  > voltaram para levar esses poucos raios de luz divina aos seus compatriotas mergulhados nas trevas.
-  _Motivo:_ citação de época que descreve os índios americanos como povo “mergulhado nas trevas”
-- **Albert Barnes · Atos 4:13** · tema: dons
-  > e agora haviam sido diretamente dotados pelo Espírito Santo do poder de falar em línguas.
-  _Motivo:_ o autor trata o dom de línguas como dote miraculoso dos apóstolos
-- **Albert Barnes · Atos 4:13** · tema: dons
-  > concedendo-lhes dotes miraculosos que nenhuma erudição pode atualmente proporcionar.
-  _Motivo:_ sugere que os dotes miraculosos pertenciam àquele tempo e hoje são supridos pela instrução (cessacionismo implícito)
-- **Albert Barnes · Atos 4:31** · tema: obra do Espírito Santo
-  > O serem eles cheios do Espírito Santo, aqui, denota antes que foram inspirados de confiança ou ousadia do que dotados de novos poderes, como em {{Act.2.4}}.
-  _Motivo:_ o autor interpreta o novo enchimento do Espírito Santo apenas como ousadia, não como nova concessão de poder
-- **Albert Barnes · Atos 5:3** · tema: obra do Espírito Santo
-  > O Espírito Santo é uma Pessoa distinta do Pai e do Filho;
-  _Motivo:_ o autor argumenta a personalidade e a divindade do Espírito Santo como Terceira Pessoa da Trindade
-- **Albert Barnes · Atos 5:5** · tema: ciencia
-  > Embora tenha sido ato de Deus, não se segue que não estivesse em conexão com as leis usuais pelas quais ele governa os homens, ou que ele não tenha usado meios naturais para isso.
-  _Motivo:_ o autor explica a morte de Ananias pelo choque emocional (causa natural), especulação fisiológica sobre um juízo divino
-- **Albert Barnes · Atos 5:9** · tema: dons
-  > Fica claro por outros exemplos que os apóstolos tinham o poder de punir pecadores, e que a violação dos mandamentos de Cristo era acompanhada de juízos súbitos e temíveis.
-  _Motivo:_ posição sobre o poder/dom apostólico de discernimento e juízo
-- **Albert Barnes · Atos 5:15** · tema: dons
-  > O escritor sagrado, porém, não diz que alguém tenha sido curado desta maneira; nem que lhes tenha sido mandado fazer isto.
-  _Motivo:_ o autor relativiza as curas pela sombra de Pedro
-- **Albert Barnes · Atos 5:31** · tema: obra do Espírito Santo
-  > A sua exaltação está imediatamente ligada à concessão do Espírito Santo, por cuja influência os homens são levados ao arrependimento
-  _Motivo:_ posição sobre a obra do Espírito Santo no arrependimento; conferir junto com o item (4.), se não sugere graça irresistível
-- **Albert Barnes · Atos 5:32** · tema: obra do Espírito Santo
-  > A descida do Espírito Santo para dotá-los de dons notáveis
-  _Motivo:_ interpretação do Pentecostes e dos dons como atestado da doutrina
-- **Albert Barnes · Atos 5:38** · tema: ofensivo
-  > O maometismo é sustentado pela espada e pelo Estado; o paganismo se apoia no braço do poder civil e nos terrores da superstição, e é sustentado por todas as paixões corruptas dos homens;
-  _Motivo:_ juízo depreciativo sobre o islã e outras religiões
-- **Albert Barnes · Atos 5:39** · tema: obra do Espírito Santo
-  > Sem o auxílio do Espírito Santo ninguém pode ser salvo; e resistir às suas influências é rejeitar a única perspectiva de vida eterna.
-  _Motivo:_ o autor afirma que o Espírito pode ser resistido e talvez não volte a contender (coerente com o livre-arbítrio)
-- **Albert Barnes · Atos 6:3** · tema: dons
-  > Isto evidentemente não significa dotados de dons miraculosos ou do poder de falar línguas estrangeiras, pois tais dons não eram necessários para o desempenho do seu ofício;
-  _Motivo:_ o autor nega que “cheios do Espírito Santo” se refira a dons espirituais e entende “línguas” como idiomas estrangeiros
-- **Albert Barnes · Atos 6:6** · tema: obra do Espírito Santo
-  > Isso era feito não para comunicar algum poder ou capacidade, mas para indicar que recebiam a sua autoridade, ou comissão, daqueles que assim lhes impunham as mãos;
-  _Motivo:_ o autor reduz a imposição de mãos a sinal de comissão, sem comunicação de dom
-- **Albert Barnes · Atos 6:10** · tema: obra do Espírito Santo
-  > Isto tem sido comumente entendido como o Espírito Santo, pelo qual ele era auxiliado; mas antes significa a energia, o poder ou o ardor de Estêvão.
-  _Motivo:_ o autor nega que o “espírito” de Estêvão seja o Espírito Santo
-- **Albert Barnes · Atos 6:11** · tema: tipologia
-  > Qualquer insinuação, portanto, de que havia um legislador maior do que ele, ou de que as suas instituições eram meras sombras e tipos e já não obrigavam, seria tida por blasfêmia,
-  _Motivo:_ as instituições mosaicas como sombras e tipos (de Cristo)
-- **Albert Barnes · Atos 6:15** · tema: dons
-  > Não se quer dizer que houve algo de miraculoso no caso de Estêvão;
-  _Motivo:_ o autor nega qualquer manifestação sobrenatural no rosto de Estêvão
-- **Albert Barnes · Atos 7:30** · tema: tipologia
-  > Todas estas circunstâncias parecem apontar para a conclusão de que este não era outro senão o futuro Libertador do mundo, que veio então tomar o seu povo sob a sua própria direção, como emblema da futura redenção da humanidade.
-  _Motivo:_ o autor identifica o Anjo do Senhor da sarça com o Messias (Cristo pré-encarnado) e vê na libertação do Egito figura da redenção
-- **Albert Barnes · Atos 7:30** · tema: cristologia
-  > linguagem que implica que Deus estava ali e que exprime fortemente a doutrina de que o anjo era Jeová.
-  _Motivo:_ posição sobre a identidade divina do Anjo do Senhor
-- **Albert Barnes · Atos 7:38** · tema: cristologia
-  > É claro, portanto, que pelo anjo Estêvão pretende designar aqui aquele que era Deus.
-  _Motivo:_ o autor identifica o anjo do Sinai com o próprio Deus
-- **Albert Barnes · Atos 7:51** · tema: obra do Espírito Santo
-  > A mensagem trazida por Moisés, pelos profetas, pelo Salvador e pelos apóstolos — todos sob a direção infalível do Espírito Santo — eles e seus pais a combateram.
-  _Motivo:_ resistir ao Espírito é entendido como opor-se à mensagem inspirada; afirma que o Espírito pode ser resistido
-- **Albert Barnes · Atos 7:55** · tema: dons
-  > No caso de Estêvão há todo indício de uma visão, ou representação sobrenatural dos objetos celestiais; algo que vai além da mera fé, tal como a que os cristãos moribundos têm agora.
-  _Motivo:_ o autor distingue a visão de Estêvão da experiência dos cristãos de hoje e nega que tenha visto com os olhos do corpo; conferir com o ensino sobre visões
-- **Albert Barnes · Atos 7:59** · tema: cristologia
-  > De todas estas considerações segue-se que o Senhor Jesus é objeto de culto; que, nas circunstâncias mais solenes, é apropriado invocá-lo, adorá-lo e confiar às suas mãos os nossos interesses mais caros. Se isto pode ser feito, ele é divino.
-  _Motivo:_ o autor defende a divindade de Cristo e a oração dirigida a ele
-- **Albert Barnes · Atos 7:0** · tema: inspiração
-  > A respeito deste discurso, pode-se observar ainda que não é necessário supor que Estêvão fosse inspirado.
-  _Motivo:_ undefined
-- **Albert Barnes · Atos 7:0** · tema: inspiração
-  > não um homem de quem haja evidência de que fosse inspirado
-  _Motivo:_ undefined
-- **Albert Barnes · Atos 7:15** · tema: inspiração
-  > Que, tal como o texto se encontra agora, é um erro evidente.
-  _Motivo:_ undefined
-- **Albert Barnes · Atos 8:15** · tema: dons
-  > Estas coisas deixam claro que pelo dom do Espírito Santo se entende aqui o poder de falar novas línguas (comp. {{1Co.14}}) e o poder de operar milagres.
-  _Motivo:_ o autor restringe o dom do Espírito Santo recebido em Samaria a línguas e milagres, distinto da conversão e da santificação
-- **Albert Barnes · Atos 8:15** · tema: dons
-  > Pois, além do fato de que agora não há apóstolos, aquilo de que se fala aqui é inteiramente diferente do rito da confirmação.
-  _Motivo:_ sugere que o dom extraordinário era ligado aos apóstolos e não existe hoje
-- **Albert Barnes · Atos 8:15** · tema: sacramentos
-  > E fica ainda claro que esta passagem não deve ser apresentada em favor do “rito da confirmação” na igreja cristã.
-  _Motivo:_ posição sobre o rito da confirmação
-- **Albert Barnes · Atos 8:15** · tema: dons
-  > Se se perguntar por que este poder foi conferido aos primeiros cristãos, pode-se responder que foi para fornecer uma prova notável da verdade da religião cristã; para impressionar o povo e assim ganhá-lo para abraçar o evangelho.
-  _Motivo:_ finalidade dos dons apresentada como atestação da igreja primitiva
-- **Albert Barnes · Atos 8:15** · tema: obra do Espírito Santo
-  > (1) Não era aquele dom do Espírito Santo pelo qual a alma é convertida ou renovada, pois eles o tinham recebido quando creram, {{Act.8.6}}.
-  _Motivo:_ distinção entre conversão e recebimento do Espírito Santo
-- **Albert Barnes · Atos 8:17** · tema: batismo
-  > Este foi um ato de oração, que exprimia uma invocação a Deus para que ele lhes concedesse a bênção.
-  _Motivo:_ interpretação da imposição de mãos para o recebimento do Espírito Santo
-- **Albert Barnes · Atos 8:18** · tema: dons
-  > Isto é, ele testemunhou os efeitos extraordinários, o poder de falar de maneira miraculosa etc.
-  _Motivo:_ línguas como sinal visível do recebimento do Espírito
-- **Albert Barnes · Atos 8:22** · tema: predestinação
-  > Devem arrepender-se do pecado; e então devem sentir, não que tenham algum direito diante de Deus, mas que dependem dele e hão de ser salvos ou perdidos segundo a vontade dele.
-  _Motivo:_ salvação ou perdição atribuída à vontade soberana de Deus
-- **Albert Barnes · Atos 8:26** · tema: predestinação
-  > Quando tal pecador é convertido, é porque Deus forma um plano ou propósito de fazê-lo.
-  _Motivo:_ conversão atribuída ao propósito de Deus
-- **Albert Barnes · Atos 8:26** · tema: obra do Espírito Santo
-  > É mais provável, penso eu, que a passagem signifique que Deus comunicou a mensagem pelo seu Espírito; pois em {{Act.8.29}}, {{Act.8.39}}, diz-se expressamente que o Espírito falou a Filipe etc.
-  _Motivo:_ o autor inclina-se a ver o “anjo” como comunicação do Espírito, não aparição angélica
-- **Albert Barnes · Atos 8:30** · tema: obra do Espírito Santo
-  > É bom seguir as primeiras sugestões do Espírito; ceder às indicações claras do dever e cumpri-lo de imediato.
-  _Motivo:_ direção do Espírito entendida como sugestão interior
-- **Albert Barnes · Atos 8:33** · tema: ofensivo
-  > uma falsidade manifesta, e uma história que ilustra de modo notável o caráter dos escritos judaicos
-  _Motivo:_ generalização depreciativa dos escritos judaicos
-- **Albert Barnes · Atos 8:33** · tema: cristologia
-  > Mas a palavra nas Escrituras não tem tal significado; e tal sentido não se ajustaria ao contexto.
-  _Motivo:_ rejeita a leitura do texto como referente à geração eterna do Filho (exegese, não negação da doutrina)
-- **Albert Barnes · Atos 8:36** · tema: batismo
-  > Tudo o que se dá a entender é que havia água bastante para realizar o rito do batismo, quer este fosse por aspersão, por efusão ou por imersão.
-  _Motivo:_ posição sobre o modo do batismo
-- **Albert Barnes · Atos 8:37** · tema: sacramentos
-  > Nada menos é exigido; e nada senão isto pode constituir a qualificação própria para a Ceia do Senhor.
-  _Motivo:_ qualificação para a Ceia do Senhor
-- **Albert Barnes · Atos 8:38** · tema: batismo
-  > E segue-se, portanto, que não se pode provar que a imersão seja o único modo legítimo de batismo.
-  _Motivo:_ o autor defende aspersão/efusão como válidas e nega a necessidade da imersão
-- **Albert Barnes · Atos 8:38** · tema: batismo
-  > A aspersão ou a efusão podiam ser realizadas ali tão bem como em qualquer outro lugar.
-  _Motivo:_ posição sobre o modo do batismo
-- **Albert Barnes · Atos 8:39** · tema: obra do Espírito Santo
-  > A tais interpretações tolas muitos expositores têm sido levados.
-  _Motivo:_ o autor nega que Filipe tenha sido arrebatado milagrosamente pelo Espírito
-- **Albert Barnes · Atos 8:39** · tema: obra do Espírito Santo
-  > E tudo o que pode ser significado aqui é que o Espírito advertiu fortemente Filipe a ir para algum outro lugar; que sugeriu o dever à sua mente com tanta força ou vivacidade que o arrancou, por assim dizer, da companhia do eunuco.
-  _Motivo:_ reduz o arrebatamento de Filipe a uma impressão interior do dever
-- **Albert Barnes · Atos 8:40** · tema: obra do Espírito Santo
-  > Não significa aqui que tenha havido algum milagre no caso, mas que Filipe, depois de deixar o eunuco, chegou a Azoto, ou estava em Azoto.
-  _Motivo:_ nega o caráter miraculoso do transporte de Filipe
 - **Adam Clarke · Êxodo 1:19** · tema: ciencia
   > as mulheres que, durante toda a gravidez, estão acostumadas a trabalho pesado, especialmente ao ar livre, têm comparativamente pouca dor no parto
   _Motivo:_ o autor apresenta como fato de experiência geral uma afirmação médica ultrapassada e anedótica
@@ -784,4 +538,397 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Êxodo 9:35** · tema: sábado
   > Lembra-te do dia de sábado, para o santificar
   _Motivo:_ o autor inclui “profanadores do sábado” entre os pecadores com a Bíblia na mão, aplicando o mandamento aos cristãos
+- **Adam Clarke · Atos 1:0** · tema: dons
+  > Todas as promessas que Cristo fez dos dons e das graças do Espírito Santo mostram-se aqui cumpridas da maneira mais eminente
+  _Motivo:_ o autor trata do cumprimento dos dons do Espírito Santo no livro de Atos
+- **Adam Clarke · Atos 1:0** · tema: dons
+  > É digno também de observação que o próprio São Lucas não parece ter possuído o dom de cura miraculosa.
+  _Motivo:_ o autor opina sobre quem possuía o dom de cura e por quê
+- **Adam Clarke · Atos 1:0** · tema: ofensivo
+  > ali, podemos ter certeza, está a mais plena prova de que essa Igreja é inteiramente anticristã
+  _Motivo:_ o autor chama de anticristã e diabólica uma Igreja perseguidora (alusão velada a uma confissão)
+- **Adam Clarke · Atos 1:2** · tema: obra do Espírito Santo
+  > Antes disso, podemos supor que os discípulos só eram feitos participantes do Espírito Santo em ocasiões particulares
+  _Motivo:_ o autor afirma que o Espírito passou a residir nos discípulos já em Jo 20:22, antes do Pentecostes
+- **Adam Clarke · Atos 1:4** · tema: obra do Espírito Santo
+  > assim a inspiração do Espírito Santo tem sido e continuará sendo concedida por todo o decurso do tempo, até a sua vinda outra vez para julgar o mundo
+  _Motivo:_ o autor afirma a continuidade da obra do Espírito até a volta de Cristo
+- **Adam Clarke · Atos 1:5** · tema: batismo
+  > mas Cristo batiza com o Espírito Santo, para a destruição do pecado, a iluminação da mente e a consolação do coração
+  _Motivo:_ o autor define o batismo com o Espírito Santo
+- **Adam Clarke · Atos 1:5** · tema: batismo
+  > isso certamente tem mais afinidade com a aspersão do que com a imersão
+  _Motivo:_ o autor defende que batismo não exige imersão e que o modo é de pouca importância
+- **Adam Clarke · Atos 1:6** · tema: escatologia
+  > Senhor, destruirás neste tempo a comunidade judaica, que se opõe à tua verdade, para que o teu reino seja estabelecido sobre toda a terra?
+  _Motivo:_ o autor discute a restauração do reino a Israel e uma leitura alternativa de destruição da nação judaica
+- **Adam Clarke · Atos 1:7** · tema: predestinação/eleição
+  > Assim, Deus não é um agente necessário — tudo está posto em seu próprio poder
+  _Motivo:_ o autor rejeita decretos fixos e imutáveis que Deus seria obrigado a executar
+- **Adam Clarke · Atos 1:8** · tema: dons
+  > contudo, essa energia seria dada em tais tempos e estações, e em tais medidas, que parecessem melhores à infinita sabedoria de Deus
+  _Motivo:_ o autor trata do poder de operar milagres dado aos discípulos
+- **Adam Clarke · Atos 1:8** · tema: ofensivo
+  > Os samaritanos, um povo mestiço
+  _Motivo:_ o autor chama os samaritanos de “mestiços” (mongrel), termo depreciativo
+- **Adam Clarke · Atos 1:9** · tema: ofensivo
+  > Críticos e teólogos estrangeiros tomam uma liberdade muito pecaminosa em assuntos desse tipo.
+  _Motivo:_ generalização depreciativa sobre estudiosos estrangeiros
+- **Adam Clarke · Atos 1:11** · tema: escatologia
+  > Alguns pensam que aquilo a que os anjos se referem é a sua vinda outra vez para destruir a nação judaica.
+  _Motivo:_ o autor menciona a interpretação da volta de Cristo como a destruição da nação judaica
+- **Adam Clarke · Atos 1:20** · tema: tipologia
+  > como Davi, em certos pormenores, foi tipo de Cristo
+  _Motivo:_ o autor apresenta Davi como tipo de Cristo
+- **Adam Clarke · Atos 1:26** · tema: obra do Espírito Santo
+  > para que a pessoa recém-eleita também fosse feita participante do dom celestial
+  _Motivo:_ o autor relaciona o número doze à descida do Espírito no Pentecostes
+- **Adam Clarke · Atos 1:26** · tema: ciencia
+  > o remorso e a agitação da sua mente produziram uma violenta disenteria, acompanhada de forte inflamação
+  _Motivo:_ explicação médica especulativa da morte de Judas apresentada como a mais provável
+- **Adam Clarke · Atos 1:26** · tema: predestinação/eleição
+  > E sustento, além disso, que não há no texto sagrado prova positiva da condenação final de Judas.
+  _Motivo:_ o autor defende a possibilidade da salvação de Judas, contra a leitura de que ele estava destinado à perdição
+- **Adam Clarke · Atos 1:26** · tema: predestinação/eleição
+  > Que há provas presuntivas de que ele não se matou; e
+  _Motivo:_ o autor nega o suicídio de Judas e sustenta que o seu arrependimento foi sincero
+- **Adam Clarke · Atos 10:11** · tema: dons
+  > O trabalho turbulento da sua imaginação e as grosseiras cruezas terrenas que ele deseja impor ao mundo como revelações de Deus bastam para refutar as suas próprias pretensões blasfemas.
+  _Motivo:_ o autor desqualifica como fanatismo quem afirma receber revelações de Deus
+- **Adam Clarke · Atos 10:31** · tema: predestinação/eleição
+  > nenhum homem pode esperar aumento algum de luz ou de vida se não aproveita a graça já dada
+  _Motivo:_ o autor condiciona o aumento da graça à cooperação do homem
+- **Adam Clarke · Atos 10:34** · tema: predestinação/eleição
+  > ele não podia rejeitar as orações piedosas, o jejum sincero e as esmolas generosas de Cornélio, porque a própria fonte de onde procediam era a sua graça e misericórdia
+  _Motivo:_ o autor trata da aceitação de Cornélio antes de ouvir o evangelho
+- **Adam Clarke · Atos 10:35** · tema: predestinação/eleição
+  > Por que Cornélio foi aceito por Deus enquanto milhares dos seus compatriotas foram deixados de lado? Porque não recebeu em vão a graça de Deus
+  _Motivo:_ o autor atribui a aceitação à resposta do homem à graça, não a decreto
+- **Adam Clarke · Atos 10:35** · tema: predestinação/eleição
+  > se tivessem nascido e ainda vivessem numa terra onde a luz do evangelho jamais houvesse brilhado, e ali estivessem seguindo conscienciosamente o tênue raio de luz celestial que Deus lhes concedera, poderiam, com alguma aparência de razão, falar desse modo
+  _Motivo:_ o autor sugere que pagãos sem o evangelho podem ser aceitos segundo a luz que têm
+- **Adam Clarke · Atos 10:36** · tema: predestinação/eleição
+  > Deus quis a salvação de todos os homens por meio de Jesus Cristo
+  _Motivo:_ o autor afirma a vontade salvífica universal de Deus
+- **Adam Clarke · Atos 10:44** · tema: dons
+  > a sua descida se fez conhecer por serem eles capacitados a falar diferentes espécies de línguas
+  _Motivo:_ o autor trata as línguas como sinal da descida do Espírito Santo
+- **Adam Clarke · Atos 10:44** · tema: obra do Espírito Santo
+  > é muito provável que a mesma aparência tenha ocorrido agora
+  _Motivo:_ o autor supõe que houve línguas de fogo visíveis na casa de Cornélio
+- **Adam Clarke · Atos 10:46** · tema: dons
+  > Eles haviam recebido corações novos, assim como línguas novas
+  _Motivo:_ o autor associa o dom de línguas à regeneração
+- **Adam Clarke · Atos 10:47** · tema: batismo
+  > Portanto, o batismo do Espírito não substituiu o batismo com água; nem, na verdade, pode substituí-lo
+  _Motivo:_ o autor trata da relação entre batismo com o Espírito Santo e batismo com água
+- **Adam Clarke · Atos 10:47** · tema: batismo
+  > Em outros casos, recebiam primeiro o batismo, e depois o Espírito pela imposição das mãos
+  _Motivo:_ o autor afirma a ordem batismo com água e depois Espírito Santo pela imposição de mãos
+- **Adam Clarke · Atos 10:47** · tema: ceia/sacramentos
+  > o batismo, assim como a ceia do Senhor, foi instituído não só para ser meio de graça, mas também prova permanente e irrefutável da verdade do cristianismo
+  _Motivo:_ o autor define batismo e ceia como meios de graça
+- **Adam Clarke · Atos 12:15** · tema: ofensivo
+  > Era opinião comum entre os judeus que todo homem tem um anjo da guarda, e na Igreja papista isso é artigo de fé.
+  _Motivo:_ termo depreciativo (“papista”) para a Igreja Católica
+- **Adam Clarke · Atos 12:17** · tema: ofensivo
+  > Quem é capaz de crer em qualquer coisa pode crer nisso.
+  _Motivo:_ tom depreciativo contra escritores católicos (“papistas”)
+- **Adam Clarke · Atos 12:24** · tema: obra do Espírito Santo
+  > pois o espírito de revelação repousava sobre esses homens, e Deus ia acrescentando diariamente àquela palavra conforme as circunstâncias exigiam
+  _Motivo:_ o autor trata da revelação progressiva dada aos apóstolos até completar o Novo Testamento
+- **Adam Clarke · Atos 12:25** · tema: ofensivo
+  > esse povo mau foi deixado permanecer até encher a medida da sua iniquidade, e então foi exterminado por um juízo terribilíssimo
+  _Motivo:_ generalização negativa sobre os judeus como povo
+- **Adam Clarke · Atos 14:3** · tema: dons
+  > Esse poder não residia neles em todo o tempo; era comunicado apenas de vez em quando, quando um milagre era necessário para a confirmação da verdade pregada.
+  _Motivo:_ o autor afirma que o poder de operar milagres não permanecia nos apóstolos, só era comunicado ocasionalmente
+- **Adam Clarke · Atos 14:11** · tema: religioes
+  > Os seus Puranas estão cheios de relatos da descida de Brahma, Vishnu, Shiva, Narada e outros deuses em forma humana.
+  _Motivo:_ o autor usa os avatares e os Puranas hindus como ilustração
+- **Adam Clarke · Atos 14:22** · tema: perda da salvação
+  > assim era necessário que permanecessem nessa fé, para que ela produzisse aquela obediência sem a qual até a própria fé, por mais excelente que seja, há de ser inútil e morta.
+  _Motivo:_ o autor ensina a necessidade de permanecer na fé e na obediência
+- **Adam Clarke · Atos 2:1** · tema: tipologia
+  > Na Páscoa, Jesus Cristo, que foi prefigurado pelo cordeiro pascal, foi sacrificado pelo pecado do mundo
+  _Motivo:_ o autor apresenta o cordeiro pascal e a libertação do Egito como figuras de Cristo e da redenção
+- **Adam Clarke · Atos 2:1** · tema: obra do Espírito Santo
+  > Quando qualquer assembleia do povo de Deus se reúne no mesmo espírito, pode esperar toda bênção de que precisa.
+  _Motivo:_ o autor liga a descida do Espírito à fé e oração unidas da assembleia
+- **Adam Clarke · Atos 2:2** · tema: ciencia
+  > A passagem de uma grande porção de fluido elétrico sobre aquele lugar ocasionaria não só o som, ou trovão, mas também o vento veemente e impetuoso
+  _Motivo:_ o autor explica o som do Pentecostes pela física do “fluido elétrico” do seu tempo
+- **Adam Clarke · Atos 2:3** · tema: religioes
+  > Alguns maometanos representam a inspiração divina da mesma maneira.
+  _Motivo:_ o autor usa obra persa islâmica, pinturas chinesas e hindus e a Eneida de Virgílio como ilustração das línguas de fogo
+- **Adam Clarke · Atos 2:3** · tema: religioes
+  > as auréolas que aparecem em volta da cabeça de santos chineses, hindus e cristãos, reais ou supostos, tinham simplesmente o propósito de significar que eles tinham comunicação especial com Deus
+  _Motivo:_ o autor equipara auréolas de santos de outras religiões a sinais de comunicação com Deus
+- **Adam Clarke · Atos 2:3** · tema: ciencia
+  > Continuo pensando que em todo este caso o agente foi natural, mas empregado sobrenaturalmente.
+  _Motivo:_ o autor afirma que o fogo do Pentecostes foi um agente natural (elétrico) usado sobrenaturalmente
+- **Adam Clarke · Atos 2:4** · tema: dons
+  > nesta fundação da Igreja cristã, o dom de várias línguas foi dado aos apóstolos, para que as nações dispersas fossem reunidas
+  _Motivo:_ o autor interpreta o dom de línguas como idiomas humanos dados para a pregação às nações
+- **Adam Clarke · Atos 2:6** · tema: dons
+  > Podemos naturalmente supor que, assim que alguém se apresentava a um desses discípulos, ele, o discípulo, era imediatamente capacitado a falar-lhe na sua própria língua
+  _Motivo:_ o autor define as línguas do Pentecostes como idiomas estrangeiros para comunicação
+- **Adam Clarke · Atos 2:8** · tema: dons
+  > Mas que o dom de línguas foi de fato dado aos apóstolos, temos a mais plena prova
+  _Motivo:_ o autor trata do dom de línguas e das ordenanças de 1 Coríntios 14
+- **Adam Clarke · Atos 2:17** · tema: dons
+  > A palavra “profetizar” não deve ser entendida aqui como implicando o conhecimento e a revelação de acontecimentos futuros; significa ensinar e proclamar as grandes verdades de Deus
+  _Motivo:_ o autor reduz a profecia de Joel a ensino e proclamação, sem revelação
+- **Adam Clarke · Atos 2:18** · tema: dons
+  > nem escravo nem livre, nem homem nem mulher, é excluído de participar dos dons e das graças do Espírito divino
+  _Motivo:_ o autor afirma a extensão dos dons do Espírito a todos
+- **Adam Clarke · Atos 2:19** · tema: escatologia
+  > É provável que tanto o profeta como o apóstolo se refiram às calamidades que caíram sobre os judeus na destruição de Jerusalém
+  _Motivo:_ o autor aplica os sinais de Joel à destruição de Jerusalém (leitura preterista)
+- **Adam Clarke · Atos 2:20** · tema: escatologia
+  > Estas são representações figuradas de eclipses, destinadas muito provavelmente a indicar a queda do Estado civil e eclesiástico na Judeia
+  _Motivo:_ o autor interpreta os sinais no sol e na lua como figura da queda da Judeia
+- **Adam Clarke · Atos 2:21** · tema: escatologia
+  > E que ninguém senão os cristãos escapou, quando Deus derramou esses juízos, é bem sabido
+  _Motivo:_ o autor aplica a promessa de salvação ao livramento dos cristãos na destruição de Jerusalém
+- **Adam Clarke · Atos 2:23** · tema: predestinação
+  > o conselho de Deus intencionando o sacrifício, mas nunca ordenando que ele fosse realizado por meios tão miseráveis. Isto foi permitido; aquilo foi decretado.
+  _Motivo:_ o autor distingue o decreto de Deus da permissão do mal
+- **Adam Clarke · Atos 2:24** · tema: ofensivo
+  > E sobre este artigo muita lenda papista foi edificada, em descrédito do bom senso e da verdadeira religião.
+  _Motivo:_ expressão depreciativa contra católicos e crítica ao artigo “desceu ao inferno” do Credo
+- **Adam Clarke · Atos 2:27** · tema: cristologia
+  > e não poderia ter passado pela morte temporária, à qual não estava naturalmente sujeito, se não fosse com o propósito de fazer uma expiação
+  _Motivo:_ o autor afirma que a natureza humana de Cristo não estava sujeita à morte nem à corrupção
+- **Adam Clarke · Atos 2:29** · tema: tipologia
+  > Esta é uma coincidência notável, e pode ser facilmente aplicada àquele de quem Davi era figura.
+  _Motivo:_ o autor apresenta Davi como figura de Cristo
+- **Adam Clarke · Atos 2:30** · tema: inspiração
+  > Esta é uma glosa, diz Schoettgen, que se infiltrou no texto, o que provo assim:
+  _Motivo:_ o autor considera parte do versículo uma glosa a ser suprimida do texto
+- **Adam Clarke · Atos 2:35** · tema: escatologia
+  > Pedro mostra aos judeus, que continuavam inimigos de Cristo, que a sua derrota e ruína deviam necessariamente acontecer
+  _Motivo:_ o autor aplica o salmo à ruína dos judeus
+- **Adam Clarke · Atos 2:38** · tema: batismo
+  > Pois o batismo em si não purifica a consciência; apenas aponta para a graça pela qual isso deve ser feito.
+  _Motivo:_ o autor define o batismo como sinal que aponta para a purificação do Espírito
+- **Adam Clarke · Atos 2:38** · tema: batismo
+  > Se usardes fielmente o sinal, obtereis a substância.
+  _Motivo:_ o autor liga o batismo nas águas ao recebimento do Espírito Santo
+- **Adam Clarke · Atos 2:38** · tema: obra do Espírito Santo
+  > recebereis o Espírito Santo, por cuja única ação a eficácia do sangue da aliança é aplicada e por cujo poder refinador o coração é purificado
+  _Motivo:_ o autor descreve a obra purificadora do Espírito
+- **Adam Clarke · Atos 2:39** · tema: predestinação
+  > isto é, todos aqueles a quem, no curso da sua providência e graça, ele enviar a pregação de Cristo crucificado
+  _Motivo:_ o autor interpreta o chamado de Deus como o envio da pregação a todos
+- **Adam Clarke · Atos 2:40** · tema: predestinação
+  > o poder está presente convosco; fazei dele o uso devido, e sereis livrados
+  _Motivo:_ o autor afirma a responsabilidade humana em usar o poder dado por Deus
+- **Adam Clarke · Atos 2:41** · tema: batismo
+  > os gentios que recebiam a doutrina cristã eram batizados em nome do Pai, e do Filho, e do Espírito Santo; ao passo que os convertidos judeus, pelas razões já dadas, eram batizados em nome do Senhor Jesus
+  _Motivo:_ o autor afirma fórmulas batismais diferentes para gentios e judeus
+- **Adam Clarke · Atos 2:41** · tema: perda da salvação
+  > Este batismo era um meio muito poderoso para impedir a sua apostasia
+  _Motivo:_ o autor fala da possibilidade de apostasia dos convertidos
+- **Adam Clarke · Atos 2:42** · tema: ceia/sacramentos
+  > Se isto significa a santa eucaristia ou as suas refeições comuns, é difícil dizer.
+  _Motivo:_ o autor discute se o partir do pão é a ceia
+- **Adam Clarke · Atos 2:42** · tema: perda da salvação
+  > sabendo que não poderiam ser fiéis por mais tempo do que fossem sustentados pelo seu Deus
+  _Motivo:_ o autor condiciona a perseverança à oração e à graça continuada
+- **Adam Clarke · Atos 2:46** · tema: obra do Espírito Santo
+  > o Espírito Santo tinha feito na alma deles, pela sua influência refinadora, o que outros em vão esperam de austeridades corporais
+  _Motivo:_ o autor contrapõe a obra do Espírito aos jejuns severos
+- **Adam Clarke · Atos 2:47** · tema: perda da salvação
+  > a saber, que aqueles a quem Deus acrescenta à Igreja serão necessária e inevitavelmente salvos eternamente; ao passo que nada disso é sugerido pelo texto original
+  _Motivo:_ o autor rejeita a leitura de perseverança garantida e a “indefectibilidade dos santos”
+- **Adam Clarke · Atos 2:47** · tema: predestinação
+  > A nossa tradução de τους σωζομενους, “aqueles que se haviam de salvar”, é imprópria e insustentável.
+  _Motivo:_ o autor rejeita a tradução que sugere predestinação dos salvos
+- **Adam Clarke · Atos 2:47** · tema: predestinação
+  > Se não há coisas tais como contingências no mundo, então tudo é fixado e determinado por um decreto e propósito inalterável de Deus
+  _Motivo:_ o autor argumenta contra o decreto absoluto e a favor do livre-arbítrio
+- **Adam Clarke · Atos 2:47** · tema: predestinação
+  > Concluo que Deus, embora onisciente, não é obrigado, em consequência disso, a conhecer tudo o que pode conhecer
+  _Motivo:_ o autor sustenta que Deus escolhe não conhecer de antemão as ações contingentes (posição peculiar sobre a presciência)
+- **Adam Clarke · Atos 2:47** · tema: predestinação
+  > Deus de fato conhece de antemão todas as coisas, porque elas serão feitas; mas as coisas não são (por isso) feitas porque ele as conhece de antemão.
+  _Motivo:_ citação de Bird sobre presciência e livre-arbítrio
+- **Adam Clarke · Atos 3:4** · tema: obra do Espírito Santo
+  > Pedro e João provavelmente se sentiram, de repente, impelidos pelo Espírito Santo a pronunciar o nome que cura em favor desse pobre homem.
+  _Motivo:_ o autor atribui a cura a um impulso súbito do Espírito Santo
+- **Adam Clarke · Atos 3:6** · tema: dons
+  > embora os santos dessa igreja não consigam operar milagres enquanto vivos, operam muitos depois de mortos
+  _Motivo:_ o autor fala da ausência de milagres na igreja romana, com tom polêmico contra os católicos
+- **Adam Clarke · Atos 3:14** · tema: ofensivo
+  > eles mesmos eram homicidas, e assim Cristo os chama
+  _Motivo:_ o autor chama os judeus de homicidas
+- **Adam Clarke · Atos 3:19** · tema: escatologia
+  > pode aqui aplicar-se ao espaço de tempo que decorreu desde então até a destruição de Jerusalém pelos romanos
+  _Motivo:_ o autor aplica os “tempos do refrigério” ao período até a queda de Jerusalém
+- **Adam Clarke · Atos 3:20** · tema: escatologia
+  > ele seria enviado de novo, no poder do seu Espírito, para justificá-los e salvá-los
+  _Motivo:_ o autor interpreta o novo envio de Cristo como vinda espiritual
+- **Adam Clarke · Atos 3:21** · tema: escatologia
+  > quando tal obra se tornar universal, como as Escrituras parecem dar a entender que se tornará, então todas as coisas serão restauradas no sentido mais pleno do termo
+  _Motivo:_ o autor interpreta a restauração de todas as coisas como o reinado da graça que se tornará universal
+- **Adam Clarke · Atos 3:22** · tema: escatologia
+  > o Evangelho de Jesus Cristo era aquela nova lei que havia de substituir a antiga
+  _Motivo:_ o autor trata da relação entre a lei de Moisés e o Evangelho
+- **Adam Clarke · Atos 4:12** · tema: tipologia
+  > Todos os outros meios eram apenas subordinados e se referiam a ele, e tinham a sua eficácia somente dele.
+  _Motivo:_ o autor apresenta os meios do Antigo Testamento como figuras que apontavam para Cristo
+- **Adam Clarke · Atos 4:22** · tema: predestinação/eleição
+  > aquele que agora se recusa a obedecer ao chamado de Deus não tem nem a razão nem a revelação para se apoiar
+  _Motivo:_ o autor afirma que o homem pode recusar o chamado de Deus
+- **Adam Clarke · Atos 4:27** · tema: predestinação/eleição
+  > pois, nesse caso, a sua fúria e o seu vão conselho seriam tais como o próprio Deus tinha determinado que acontecessem, o que é ao mesmo tempo ímpio e absurdo
+  _Motivo:_ o autor nega que Deus tenha predeterminado as ações dos que crucificaram Cristo
+- **Adam Clarke · Atos 4:31** · tema: obra do Espírito Santo
+  > Embora esses discípulos tivessem recebido o Espírito Santo no dia de Pentecostes, ainda eram capazes de comunicações maiores
+  _Motivo:_ o autor ensina enchimentos repetidos do Espírito Santo depois do Pentecostes
+- **Adam Clarke · Atos 4:33** · tema: predestinação/eleição
+  > pois todos foram comprados pela sua morte sacrificial
+  _Motivo:_ o autor afirma a expiação universal (Cristo morreu por todos)
+- **Adam Clarke · Atos 4:35** · tema: dons
+  > àqueles homens a quem viam que Deus havia confiado os dons do seu Espírito Santo
+  _Motivo:_ o autor liga a administração da igreja aos dons do Espírito
+- **Adam Clarke · Atos 4:36** · tema: dons
+  > este é certamente um dos sentidos que a profecia tem no Novo Testamento
+  _Motivo:_ o autor identifica a profecia do Novo Testamento com a exortação
+- **Adam Clarke · Atos 5:5** · tema: dons
+  > Esse poder, comumente chamado discernimento de espíritos, os apóstolos o tinham como um dom particular, provavelmente não sempre, mas em ocasiões determinadas, quando Deus o via necessário para o bem da sua Igreja.
+  _Motivo:_ o autor descreve o discernimento de espíritos como dom dos apóstolos, exercido só em ocasiões determinadas
+- **Adam Clarke · Atos 5:10** · tema: perda da salvação
+  > De minha parte, penso que o seu pecado foi o que o apóstolo, em {{1Jn.5.16}}, chama de pecado para morte; um pecado que tinha de ser punido com a morte temporal, ou a morte do corpo, enquanto a misericórdia era estendida à alma.
+  _Motivo:_ o autor supõe que Ananias e Safira foram salvos apesar do juízo
+- **Adam Clarke · Atos 5:10** · tema: perda da salvação
+  > mas, porque não tiveram a prorrogação comum, podemos presumir que Deus lhes estendeu misericórdia, embora tenham sido cortados quase no ato do pecado.
+  _Motivo:_ o autor presume a salvação de quem morreu no ato do pecado
+- **Adam Clarke · Atos 5:11** · tema: batismo
+  > 2. enxertada em Cristo pelo batismo;
+  _Motivo:_ o autor (citando Dodd) diz que a Igreja é enxertada em Cristo pelo batismo
+- **Adam Clarke · Atos 5:15** · tema: dons
+  > Só em casos raros Deus capacitava mesmo um apóstolo a operar um milagre.
+  _Motivo:_ o autor afirma que os milagres eram raros mesmo entre os apóstolos
+- **Adam Clarke · Atos 5:15** · tema: dons
+  > Penso que não há evidência suficiente aqui de que a sombra de Pedro tenha curado alguém, embora o povo pensasse que podia curar;
+  _Motivo:_ o autor duvida de que houve curas pela sombra de Pedro
+- **Adam Clarke · Atos 5:17** · tema: ofensivo
+  > Herege, na acepção dela, é aquele que não é papista e que, por não ser papista, está totalmente fora do caminho e fora da possibilidade de ser salvo.
+  _Motivo:_ polêmica dura contra a Igreja de Roma
+- **Adam Clarke · Atos 5:32** · tema: dons
+  > No dom de línguas recentemente comunicado; e pelo seu poder e influência sobre as nossas almas, pelos quais somos capacitados a dar testemunho irresistível da ressurreição do nosso Senhor.
+  _Motivo:_ o autor liga o testemunho do Espírito ao dom de línguas
+- **Adam Clarke · Atos 5:32** · tema: obra do Espírito Santo
+  > O Espírito de Deus é dado aos obedientes: na proporção em que um homem que recebeu as primeiras influências dele (pois sem isso não pode mover-se na vida espiritual) é obediente a essas influências, na mesma proporção os dons e as graças, a luz, a vida e o poder do Espírito Santo aumentam na sua alma.
+  _Motivo:_ o autor ensina que o Espírito e os dons crescem na medida da obediência
+- **Adam Clarke · Atos 5:41** · tema: inspiração
+  > Nada desse tipo, tanto quanto me recordo, aparece mesmo nos santos mais escolhidos sob a dispensação do Antigo Testamento.
+  _Motivo:_ o autor afirma que os santos do AT nunca se alegraram na perseguição
+- **Adam Clarke · Atos 6:3** · tema: obra do Espírito Santo
+  > Salvos para dentro do espírito da dispensação do Evangelho; e feitos participantes daquele Espírito Santo pelo qual a alma é santificada e dotada daquelas graças que constituem o sentimento que houve em Cristo.
+  _Motivo:_ o autor define “cheios do Espírito Santo” como santificação e graças, sem mencionar o batismo com o Espírito
+- **Adam Clarke · Atos 6:4** · tema: ceia/sacramentos
+  > Na Igreja primitiva, é suficientemente evidente que os diáconos davam o pão e o vinho da Eucaristia aos fiéis na igreja, e os levavam aos ausentes, Justino Mártir, <i>Apologia</i> II, p. 162; também pregavam e, em alguns casos, administravam o batismo.
+  _Motivo:_ o autor descreve a administração da Eucaristia e do batismo por diáconos
+- **Adam Clarke · Atos 6:4** · tema: ceia/sacramentos
+  > Na Igreja da Inglaterra (a mais pura e a mais próxima do modelo apostólico em doutrina e disciplina de todas as igrejas nacionais), o diácono recebe a ordenação pela imposição das mãos de um bispo, em consequência da qual pode pregar, auxiliar no sacramento da Ceia do Senhor e, em geral, desempenhar qualquer ofício sagrado, exceto consagrar os elementos e pronunciar a absolvição.
+  _Motivo:_ o autor exalta a Igreja Anglicana e trata a Ceia como sacramento com consagração e absolvição
+- **Adam Clarke · Atos 6:9** · tema: ofensivo
+  > Esses perseguidores professavam a princípio grande preocupação pelas almas daqueles a quem torturavam de vários modos e por fim queimavam; mas as suas ternas misericórdias eram cruéis, e, quando entregavam o corpo às chamas, de muito bom grado consignavam a alma a Satanás.
+  _Motivo:_ polêmica dura contra os católicos romanos
+- **Adam Clarke · Atos 6:10** · tema: obra do Espírito Santo
+  > O espírito pelo qual falava era o Espírito Santo, e o seu poder era irresistível.
+  _Motivo:_ o autor fala do poder irresistível do Espírito na palavra de Estêvão
+- **Adam Clarke · Atos 7:16** · tema: inspiração
+  > A palavra Abraão, portanto, neste lugar, é certamente um engano; e a palavra Jacó, que alguns suprem, é sem dúvida mais apropriada.
+  _Motivo:_ o autor afirma haver erro no texto (atribuído a copistas) ao nomear Abraão como comprador do sepulcro de Siquém
+- **Adam Clarke · Atos 7:36** · tema: tipologia
+  > E não diz Santo Estêvão claramente com isto que a mesma pessoa, Jesus Cristo, a quem eles haviam rejeitado e entregado nas mãos de Pilatos para ser crucificado, era a única pessoa por quem poderiam ser libertados da sua servidão espiritual e feitos participantes da herança dos santos na luz?
+  _Motivo:_ Moisés rejeitado e libertador como figura de Cristo
+- **Adam Clarke · Atos 7:51** · tema: obra do Espírito Santo
+  > Todo este povo, assim como este texto, são provas temíveis de que o Espírito Santo, a energia todo-poderosa do Deus vivo, pode ser resistido e tornado sem efeito.
+  _Motivo:_ o autor ensina que a operação do Espírito Santo pode ser resistida (contra a graça irresistível)
+- **Adam Clarke · Atos 7:51** · tema: predestinação
+  > Forçar o homem a ver, sentir, arrepender-se, crer e ser salvo seria alterar os princípios essenciais da sua criação e a natureza da mente, e reduzi-lo ao estado de uma máquina
+  _Motivo:_ o autor nega a graça irresistível e afirma o livre-arbítrio do homem diante do chamado
+- **Adam Clarke · Atos 7:59** · tema: cristologia
+  > 1. Que Jesus Cristo é Deus, pois Estêvão morreu orando a ele.
+  _Motivo:_ o autor afirma a divindade de Cristo a partir da oração de Estêvão
+- **Adam Clarke · Atos 8:2** · tema: religioes
+  > E, segundo esse princípio, a esposa de um brâmane é queimada com o corpo do marido falecido.
+  _Motivo:_ o autor usa o costume hindu da viúva queimada como ilustração
+- **Adam Clarke · Atos 8:9** · tema: ofensivo
+  > o que não poderiam fazer entre o povo mais rude de Siquém ou de Sebaste, há mil e oitocentos anos?
+  _Motivo:_ generalização depreciativa sobre povos orientais e o povo de Samaria
+- **Adam Clarke · Atos 8:15** · tema: dons
+  > Parece evidente, por este caso, que mesmo os diáconos mais santos, embora cheios do Espírito Santo, não podiam conferir esse dom celestial a outros.
+  _Motivo:_ o autor restringe aos apóstolos a comunicação do Espírito Santo
+- **Adam Clarke · Atos 8:15** · tema: batismo
+  > Certamente não para a santificação das almas do povo: isso eles tinham ao crer em Cristo Jesus, e isso os apóstolos nunca dispensaram.
+  _Motivo:_ posição sobre a natureza do recebimento do Espírito Santo após a conversão
+- **Adam Clarke · Atos 8:15** · tema: dons
+  > Eram os dons miraculosos do Espírito que assim se comunicavam: o falar em diferentes línguas e aquelas qualificações extraordinárias que eram necessárias para a pregação bem-sucedida do evangelho
+  _Motivo:_ o autor liga o dom do Espírito aos dons miraculosos para o ministério público
+- **Adam Clarke · Atos 8:17** · tema: dons
+  > Provavelmente só sobre algumas pessoas escolhidas, que eram julgadas aptas para o serviço público na Igreja.
+  _Motivo:_ o autor supõe que o Espírito Santo foi dado só a alguns escolhidos
+- **Adam Clarke · Atos 8:29** · tema: obra do Espírito Santo
+  > É provável que o que o Espírito fez neste caso tenha sido por uma forte impressão na mente dele, que não lhe deixou dúvida de que vinha de Deus.
+  _Motivo:_ explicação do modo como o Espírito falou a Filipe
+- **Adam Clarke · Atos 8:33** · tema: cristologia
+  > Alguns pensam que “quem contará a sua geração?” se refere à sua filiação eterna
+  _Motivo:_ o autor (que nega a filiação eterna do Filho) prefere outra leitura
+- **Adam Clarke · Atos 8:37** · tema: inspiração
+  > quase todos os críticos se declaram contra ele como espúrio.
+  _Motivo:_ o autor considera o versículo 37 espúrio, a ser riscado do texto
+- **Adam Clarke · Atos 8:38** · tema: batismo
+  > ele provavelmente mergulhou a si mesmo debaixo da água, pois este parece ter sido o método geralmente seguido entre os judeus nos seus batismos
+  _Motivo:_ posição sobre o modo do batismo (autoimersão)
+- **Adam Clarke · Atos 8:39** · tema: obra do Espírito Santo
+  > Talvez isto não signifique mais do que o Espírito Santo ter sugerido à mente de Filipe que se retirasse abruptamente do eunuco
+  _Motivo:_ o autor reduz o arrebatamento sobrenatural de Filipe a uma sugestão interior
+- **Adam Clarke · Atos 8:39** · tema: obra do Espírito Santo
+  > Para tal intervenção não havia necessidade.
+  _Motivo:_ o autor nega o transporte miraculoso de Filipe
+- **Adam Clarke · Atos 9:2** · tema: ofensivo
+  > assim como os papistas de todos os países reconhecem a autoridade do papa
+  _Motivo:_ o autor usa o termo pejorativo “papistas” para os católicos
+- **Adam Clarke · Atos 9:3** · tema: ciencia
+  > Isto pode ter sido um extraordinário clarão do fluido elétrico, acompanhado de trovão
+  _Motivo:_ o autor explica a luz da conversão de Paulo pela teoria do “fluido elétrico”, ciência da época
+- **Adam Clarke · Atos 9:5** · tema: inspiração
+  > As palavras seguintes, que são vinte no original e trinta na nossa versão, não se encontram em nenhum manuscrito grego.
+  _Motivo:_ o autor afirma que parte do versículo da versão inglesa é acréscimo, não texto original
+- **Adam Clarke · Atos 9:17** · tema: obra do Espírito Santo
+  > Parece, portanto, que o Espírito Santo lhe foi dado nesse momento, e provavelmente pela imposição das mãos de Ananias.
+  _Motivo:_ o autor fala do recebimento do Espírito Santo pela imposição de mãos e da sua finalidade
+- **Adam Clarke · Atos 9:17** · tema: ofensivo
+  > Pode o conclave romano responder a esta pergunta? Creio que não. Seria tão difícil respondê-la quanto provar a supremacia de Pedro.
+  _Motivo:_ polêmica do autor contra a Igreja Católica
+- **Adam Clarke · Atos 9:18** · tema: ciencia
+  > A estrutura da córnea foi sem dúvida muito perturbada, e todo aquele humor se tornaria opaco
+  _Motivo:_ o autor explica as escamas com a fisiologia ocular da época
+- **Adam Clarke · Atos 9:18** · tema: batismo
+  > Como o batismo implicava, num adulto, a profissão pública da fé na qual era batizado
+  _Motivo:_ o autor define o sentido do batismo de adultos
+- **Adam Clarke · Atos 9:31** · tema: obra do Espírito Santo
+  > Os vários poderes, faculdades e paixões devem todos ser purificados e refinados pelo poder do Espírito Santo, e a ordem e a harmonia restituídas à alma inteira.
+  _Motivo:_ o autor descreve a santificação da alma pelo Espírito Santo
+- **Adam Clarke · Atos 9:31** · tema: obra do Espírito Santo
+  > sabendo e sentindo o homem verdadeiramente religioso que é de Deus, pelo Espírito que lhe é dado
+  _Motivo:_ o autor ensina a certeza da aceitação pelo testemunho do Espírito
+- **Adam Clarke · Atos 9:34** · tema: dons
+  > E, como instrumento, qualquer homem poderia curar com esse poder tanto quanto Pedro
+  _Motivo:_ o autor opina sobre o dom de cura e o motivo de Deus ter usado os apóstolos
+- **Adam Clarke · Atos 9:43** · tema: predestinação/eleição
+  > e assim os réprobos se tornaram os eleitos, e os eleitos se tornaram réprobos
+  _Motivo:_ o autor trata a eleição e a reprovação como coletivas, de judeus e gentios
+- **Adam Clarke · Atos 9:43** · tema: perda da salvação
+  > se permaneceres na sua bondade; do contrário, também tu serás cortado
+  _Motivo:_ o autor adverte que o crente pode ser cortado se não permanecer
+- **Adam Clarke · Atos 9:43** · tema: ofensivo
+  > entre os únicos povos que mereciam o nome de nações
+  _Motivo:_ o autor nega a outros povos o nome de nações
 
