@@ -40,84 +40,75 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 
 ## Ainda não revisados
 
-- **Albert Barnes · Marcos 1:24** · tema: cristologia
-  > era o Filho unigênito de Deus — igual ao Pai
-  _Motivo:_ afirma a filiação e a igualdade de Cristo com o Pai
-- **Albert Barnes · Marcos 1:40** · tema: cristologia
-  > Ninguém senão Deus pode operar um milagre. Contudo, Jesus o faz pela sua própria vontade — por um exercício do seu próprio poder. Ele era, portanto, divino.
-  _Motivo:_ argumento da divindade de Cristo a partir dos milagres
-- **Albert Barnes · Marcos 10:16** · tema: batismo
-  > E assim também a questão a respeito do batismo infantil não é tanto se um pai DEVE consagrar os filhos a Deus nesta ordenança, mas se PODE fazê-lo.
-  _Motivo:_ o autor defende o batismo infantil
-- **Albert Barnes · Marcos 10:16** · tema: batismo
-  > e, tendo sido oferecidos a Jesus pela oração e pelo batismo nos seus primeiros dias na terra,
-  _Motivo:_ pressupõe o batismo de crianças pequenas
-- **Albert Barnes · Marcos 13:11** · tema: obra do Espírito Santo
-  > Esta é uma promessa plena de que seriam inspirados; e, consequentemente, as suas defesas registradas nos Atos dos Apóstolos são palavras do Espírito Santo.
-  _Motivo:_ o autor afirma posição sobre a inspiração dos apóstolos pelo Espírito Santo
-- **Albert Barnes · Marcos 13:32** · tema: cristologia
-  > Como homem, o seu conhecimento tinha de ser finito, pois as faculdades da alma humana não são infinitas.
-  _Motivo:_ o autor explica a ignorância do Filho pela sua natureza humana (duas naturezas)
-- **Albert Barnes · Marcos 15:28** · tema: cristologia
-  > Nem significa que Deus o considerasse pecador; mas que, na sua morte, na opinião popular, ou pela sentença do juiz, ele foi considerado transgressor e tratado da mesma maneira que os outros que eram mortos pelas suas transgressões.
-  _Motivo:_ o autor afirma que Cristo foi contado com os transgressores só na estima humana, não diante de Deus
-- **Albert Barnes · Marcos 16:7** · tema: perda da salvação
-  > Antes da sua queda, Jesus havia orado por ele para que a sua fé não desfalecesse ({{Luk.22.32}}); e, como a oração de Jesus era sempre ouvida, {{Jhn.11.42}}, segue-se que Pedro ainda conservava fé suficiente para ser discípulo, embora, como outros discípulos, lhe fosse permitido cair em pecado.
-  _Motivo:_ o autor argumenta que Pedro não deixou de ser discípulo mesmo na queda, com base na oração de Jesus (pode ser lido como perseverança garantida)
-- **Albert Barnes · Marcos 16:15** · tema: predestinação/eleição
-  > Deus não tem culpa se eles não escolhem ser salvos.
-  _Motivo:_ o autor afirma oferta universal da salvação e responsabilidade da escolha humana
-- **Albert Barnes · Marcos 16:16** · tema: batismo
-  > For iniciado na igreja pela aplicação da água, como sinal de que é pecador e necessita das influências purificadoras do Espírito Santo.
-  _Motivo:_ o autor define o batismo como rito de iniciação na igreja pela aplicação da água
-- **Albert Barnes · Marcos 16:16** · tema: batismo
-  > ele não disse, é verdade, que um homem não pudesse ser salvo sem o batismo, mas deu a entender fortemente que, onde este é negligenciado, sabendo-se que é uma ordem do Salvador, isso põe em perigo a salvação da alma.
-  _Motivo:_ o autor trata da necessidade do batismo para a salvação
-- **Albert Barnes · Marcos 16:17** · tema: dons
-  > Os apóstolos e aqueles que, na era primitiva, foram dotados de poder semelhante.
-  _Motivo:_ o autor restringe os sinais aos apóstolos e à era primitiva
-- **Albert Barnes · Marcos 16:17** · tema: dons
-  > o cristão deve ficar satisfeito de que a promessa se cumpriu se estes milagres foram alguma vez realmente operados, embora não ocorram agora; e o crente de hoje não deve esperar um milagre no seu caso. Os milagres foram necessários para o estabelecimento da religião no mundo; não são necessários agora.
-  _Motivo:_ o autor afirma que os sinais e milagres cessaram
-- **Albert Barnes · Marcos 16:17** · tema: cristologia
-  > Ele era, portanto, Deus; eles eram homens sujeitos às mesmas paixões que os outros homens, {{Act.14.15}}.
-  _Motivo:_ o autor afirma a divindade de Cristo a partir dos milagres operados em seu próprio nome
-- **Albert Barnes · Marcos 16:17** · tema: dons
-  > Falarão outras línguas além da sua língua nativa.
-  _Motivo:_ o autor interpreta as novas línguas apenas como idiomas humanos
-- **Albert Barnes · Marcos 16:18** · tema: dons
-  > Quando for necessário para o estabelecimento da religião, manusearão répteis venenosos sem dano, mostrando assim que Deus estava com eles, para guardá-los do mal.
-  _Motivo:_ o autor limita os sinais à necessidade de estabelecer a religião
-- **Albert Barnes · Marcos 2:27** · tema: sábado
-  > E é fácil provar que nenhuma instituição tem sido mais assinaladamente abençoada para o bem-estar do homem do que o dia de descanso cristão.
-  _Motivo:_ trata o “sábado cristão” (Christian Sabbath, o domingo) como dia de guarda obrigatória
-- **Albert Barnes · Marcos 2:27** · tema: sábado
-  > Não seria para o nosso verdadeiro bem, mas para o nosso real e eterno prejuízo, dedicar o dia de descanso ao vício, ao trabalho ou à diversão.
-  _Motivo:_ impõe a guarda do dia de descanso aos cristãos, sob pena de prejuízo eterno
-- **Albert Barnes · Marcos 3:5** · tema: obra do Espírito Santo
-  > Torna-se duro pela entrega ao pecado; por resistir longamente às ofertas de vida; ou por se opor a quaisquer apelos grandes e comoventes que Deus nos faça pelo seu Espírito ou pela sua Providência, pela aflição ou por um avivamento da religião.
-  _Motivo:_ o homem pode resistir aos apelos do Espírito e endurecer o coração (responsabilidade humana)
-- **Albert Barnes · Marcos 4:29** · tema: escatologia
-  > A seu tempo ele voltaria, enviaria os anjos, recolheria a colheita e salvaria o seu povo para sempre.
-  _Motivo:_ interpreta a ceifa como a volta de Cristo e o ajuntamento final dos salvos
-- **Albert Barnes · Marcos 4:39** · tema: cristologia
-  > Ninguém senão o Deus das tempestades e das vagas poderia intimidar, com uma palavra, os elementos revoltos e espalhar uma paz e uma calma universais entre os ventos e as ondas. Ele deve ser, portanto, divino.
-  _Motivo:_ argumento da divindade de Cristo
-- **Albert Barnes · Marcos 7:4** · tema: batismo
-  > e o batismo é legitimamente ministrado sem imergir o corpo inteiro na água.
-  _Motivo:_ o autor defende o batismo por aspersão ou outro modo, sem imersão
-- **Albert Barnes · Marcos 7:4** · tema: batismo
-  > Neste lugar não significa imergir o corpo inteiro, mas apenas as mãos.
-  _Motivo:_ argumento sobre o sentido de batizar sem imersão
-- **Albert Barnes · Marcos 8:25** · tema: obra do Espírito Santo
-  > O efeito da religião, ou da influência do Espírito Santo, é abrir os olhos, mostrar ao pecador a sua condição e o seu perigo, e levá-lo a olhar para aquele a quem traspassou.
-  _Motivo:_ o autor descreve a obra do Espírito Santo na iluminação e conversão do pecador
-- **Albert Barnes · Marcos 9:44** · tema: escatologia
-  > Não se deve supor que haverá algum verme real no inferno; talvez nem fogo material.
-  _Motivo:_ o autor afirma posição sobre a natureza do castigo eterno (fogo talvez não material)
-- **Albert Barnes · Marcos 9:49** · tema: perda da salvação
-  > Fazendo isto, sereis ofertas aceitáveis e sereis salvos; sem isto, sereis inaptos para o seu serviço eterno e estareis perdidos
-  _Motivo:_ o autor afirma que os discípulos podem perder-se se não perseverarem na abnegação
+- **Albert Barnes · Lucas 1:0** · tema: obra do Espírito Santo
+  > Se ele não foi um dos apóstolos, e se não foi um daqueles expressamente comissionados por nosso Senhor, aos quais foi dada a promessa do ensino infalível do Espírito Santo
+  _Motivo:_ o autor discute a inspiração e a promessa do Espírito aos apóstolos
+- **Albert Barnes · Lucas 1:3** · tema: obra do Espírito Santo
+  > Deus, pelo seu Espírito Santo, presidia às suas faculdades, dirigia-as e o guardava do erro.
+  _Motivo:_ o autor explica o modo da inspiração de Lucas pelo Espírito Santo
+- **Albert Barnes · Lucas 1:15** · tema: ciencia
+  > A espécie de vinho comumente usada na Judeia era um vinho leve, muitas vezes não mais forte do que a sidra neste país.
+  _Motivo:_ afirmação histórica discutível sobre o teor do vinho, apresentada como fato
+- **Albert Barnes · Lucas 1:15** · tema: obra do Espírito Santo
+  > Ser cheio do Espírito Santo é ser iluminado, santificado e guiado pela sua influência.
+  _Motivo:_ o autor define o que é ser cheio do Espírito Santo
+- **Albert Barnes · Lucas 1:15** · tema: predestinação/eleição
+  > À intenção divina de que ele fosse separado para esta obra, assim como Deus determinou que Paulo fosse apóstolo desde o ventre de sua mãe
+  _Motivo:_ designação divina desde o ventre
+- **Albert Barnes · Lucas 1:17** · tema: cristologia
+  > Se assim é, segue-se que o Messias era o Senhor Deus de Israel
+  _Motivo:_ o autor afirma a divindade do Messias a partir do texto
+- **Albert Barnes · Lucas 1:33** · tema: escatologia
+  > é o mesmo que dizer que ele reinaria sobre a sua própria igreja e povo para sempre
+  _Motivo:_ o autor interpreta a “casa de Jacó” como a igreja (Israel espiritualizado)
+- **Albert Barnes · Lucas 1:35** · tema: cristologia
+  > Deus, portanto, preparou-lhe um corpo, por criação direta, que fosse puro e santo.
+  _Motivo:_ o autor afirma que o corpo de Jesus foi criado diretamente, livre da corrupção da queda
+- **Albert Barnes · Lucas 1:35** · tema: cristologia
+  > Isto é dito com referência à natureza humana de Cristo, e esta passagem prova, sem controvérsia, que uma das razões por que Jesus foi chamado Filho de Deus foi ter sido gerado de maneira sobrenatural.
+  _Motivo:_ o autor liga o título Filho de Deus à concepção sobrenatural e à ressurreição (posição de Barnes sobre a filiação)
+- **Albert Barnes · Lucas 1:41** · tema: dons
+  > de espírito profético, ou do conhecimento do caráter da criança que havia de nascer dela. Tudo isso foi produzido pelo Espírito Santo.
+  _Motivo:_ o autor fala do espírito profético dado por Espírito Santo
+- **Albert Barnes · Lucas 1:45** · tema: dons
+  > Que o espírito de profecia não tinha cessado inteiramente entre os judeus.
+  _Motivo:_ o autor fala da cessação/continuidade do espírito de profecia
+- **Albert Barnes · Lucas 1:45** · tema: ofensivo
+  > É a partir dessa honra que os católicos romanos determinaram que é justo adorar a Virgem Maria e oferecer-lhe orações, ato de culto tão idólatra quanto qualquer outro que se pudesse oferecer a uma criatura.
+  _Motivo:_ polêmica dura contra os católicos romanos
+- **Albert Barnes · Lucas 1:67** · tema: dons
+  > Ensinar ou pregar o evangelho etc.
+  _Motivo:_ o autor inclui ensinar/pregar no sentido de profetizar
+- **Albert Barnes · Lucas 1:69** · tema: tipologia
+  > Assim o Redentor pode ser chamado o “chifre de salvação”, porque os que fogem para ele estão a salvo.
+  _Motivo:_ os chifres do altar como figura do Redentor
+- **Albert Barnes · Lucas 11:49** · tema: tipologia
+  > Muitos também pensaram que o Messias era referido no capítulo 8 de Provérbios sob o nome de Sabedoria.
+  _Motivo:_ o autor menciona a Sabedoria de {{Pro.8}} como figura do Messias (sem afirmá-la como própria)
+- **Albert Barnes · Lucas 14:1** · tema: sábado
+  > E certamente este deveria ser o último caso do mundo a ser invocado para justificar banquetes e cenas de orgia e glutonaria no sábado.
+  _Motivo:_ o autor trata o sábado como dia de guarda a ser observado pelos cristãos (aplicação ao dia de descanso)
+- **Albert Barnes · Lucas 14:21** · tema: profecia e escatologia
+  > Por eles eram indicados os judeus; pelos que estavam nas ruas, os gentios.
+  _Motivo:_ interpretação da parábola sobre Israel rejeitado e o chamado dos gentios
+- **Albert Barnes · Lucas 14:23** · tema: profecia e escatologia
+  > O grande ponto desta parábola era que Deus chamaria os gentios depois que os judeus tivessem rejeitado o evangelho.
+  _Motivo:_ posição sobre Israel e os gentios
+- **Albert Barnes · Lucas 14:24** · tema: obra do Espírito Santo
+  > Quantas vezes Deus abandona para sempre o pecador que foi uma vez despertado e que entristece o Espírito Santo!
+  _Motivo:_ afirma que Deus abandona para sempre quem resiste ao Espírito; mostra a responsabilidade do homem de aceitar ou rejeitar o chamado
+- **Albert Barnes · Lucas 14:32** · tema: perda da salvação
+  > Nenhum homem pode ser cristão se, ao fazer a sua profissão de fé, está resolvido a voltar daqui a algum tempo para o mundo; nem pode ser verdadeiro cristão se espera que voltará atrás.
+  _Motivo:_ liga a autenticidade do discípulo à perseverança; conferir se não sugere que quem se desvia nunca foi verdadeiro cristão
+- **Albert Barnes · Lucas 2:14** · tema: escatologia
+  > Nos dias do milênio haverá paz universal; todas as causas de guerra terão cessado; os homens amarão uns aos outros e agirão com justiça; todas as nações serão trazidas sob a influência do evangelho.
+  _Motivo:_ o autor descreve o milênio como era de paz universal produzida pela difusão do evangelho (pós-milenismo)
+- **Albert Barnes · Lucas 2:40** · tema: cristologia
+  > Jesus tinha uma alma humana, e essa alma estava sujeita a todas as leis próprias de um espírito humano. Por isso cresceu em conhecimento, em força e em caráter.
+  _Motivo:_ posição sobre a natureza humana de Cristo e o seu crescimento em conhecimento
+- **Albert Barnes · Lucas 3:22** · tema: dons
+  > Assim, assumiu a forma de línguas, para significar os poderes miraculosos de linguagem de que os apóstolos seriam dotados;
+  _Motivo:_ o autor interpreta as línguas de Pentecostes como poder miraculoso de idiomas dado aos apóstolos
 - **Albert Barnes · Lucas 4:16** · tema: ofensivo
   > Se, portanto, o unitarista não adora o Deus verdadeiro, e se o católico romano adora a Deus de maneira proibida e presta homenagem às criaturas de Deus, sendo assim culpado de idolatria, não pode ser um dever frequentar tal lugar de culto.
   _Motivo:_ juízo do autor sobre unitaristas e católicos romanos como idólatras
@@ -136,6 +127,21 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Albert Barnes · Lucas 4:29** · tema: ofensivo
   > Que o caráter atribuído em outros lugares aos galileus, como sendo particularmente perversos, era justo.
   _Motivo:_ generalização negativa sobre um povo (galileus)
+- **Albert Barnes · Lucas 6:12** · tema: cristologia
+  > Se se perguntar por que Jesus haveria de orar, se era divino, pode-se responder que ele era também homem, um homem sujeito aos mesmos sofrimentos que os outros e que, como homem, necessitava da bênção divina.
+  _Motivo:_ posição do autor sobre as duas naturezas de Cristo e a oração de Jesus como homem e Mediador
+- **Albert Barnes · Lucas 6:24** · tema: predestinação
+  > Deus os abandona, e ri-se da calamidade DELES, e zomba quando lhes sobrevém o temor,
+  _Motivo:_ afirma que Deus “abandona” os que adiaram o arrependimento; conferir se não sugere reprovação
+- **Albert Barnes · Lucas 7:11** · tema: ofensivo
+  > entre as quais moram algumas famílias de muçulmanos fanáticos.
+  _Motivo:_ citação de Thomson com expressão depreciativa sobre muçulmanos
+- **Albert Barnes · Lucas 7:12** · tema: ciencia
+  > As emanações dos cadáveres são extremamente insalubres.
+  _Motivo:_ teoria dos miasmas apresentada como fato
+- **Albert Barnes · Lucas 7:30** · tema: predestinação
+  > Os homens não podem frustrar os propósitos reais de Deus, mas podem desprezar as suas mensagens, podem violar os seus mandamentos e, assim, podem rejeitar o conselho que ele lhes dá
+  _Motivo:_ distingue decretos de Deus e vontade revelada; afirma que o homem pode rejeitar o conselho de Deus
 - **Adam Clarke · Êxodo 1:19** · tema: ciencia
   > as mulheres que, durante toda a gravidez, estão acostumadas a trabalho pesado, especialmente ao ar livre, têm comparativamente pouca dor no parto
   _Motivo:_ o autor apresenta como fato de experiência geral uma afirmação médica ultrapassada e anedótica
