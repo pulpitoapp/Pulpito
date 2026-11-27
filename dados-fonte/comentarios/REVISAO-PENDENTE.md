@@ -79,6 +79,66 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 
 ## Ainda não revisados
 
+- **Albert Barnes · Romanos 2:7** · tema: perda da salvação
+  > É doutrina uniforme da Bíblia que ninguém será salvo senão os que perseveram numa vida de santidade,
+  _Motivo:_ o autor afirma que a perseverança na santidade é condição para a salvação
+- **Albert Barnes · Romanos 2:11** · tema: predestinação
+  > nem que não possa fazer diferença no caráter dos homens pela sua providência e pela ação do seu Espírito.
+  _Motivo:_ o autor afirma que Deus, por soberano beneplácito, faz diferença no caráter dos homens
+- **Albert Barnes · Romanos 2:11** · tema: predestinação
+  > Esta passagem, portanto, é muito impropriamente trazida para refutar a doutrina dos decretos, ou da eleição, ou da soberania.
+  _Motivo:_ o autor defende que o texto não refuta a doutrina dos decretos e da eleição
+- **Albert Barnes · Romanos 2:12** · tema: ofensivo
+  > Pode-se acrescentar aqui que todas as investigações modernas têm ido no sentido de confirmar a posição de que os pagãos são hoje tão degradados quanto eram no tempo de Paulo.
+  _Motivo:_ generalização depreciativa sobre os povos pagãos
+- **Albert Barnes · Romanos 2:24** · tema: ofensivo
+  > Estavam dispersos por toda parte; por toda parte eram corruptos e ímpios; e por toda parte eles e a sua religião eram desprezados.
+  _Motivo:_ generalização negativa sobre os judeus
+- **Albert Barnes · Romanos 2:25** · tema: batismo
+  > e ser consagrado a Deus no batismo: pois todas estas são circunstâncias favoráveis à salvação.
+  _Motivo:_ o autor pressupõe o batismo de crianças como consagração a Deus
+- **Albert Barnes · Romanos 2:25** · tema: batismo
+  > Isto se aplica com a mesma força aos que foram batizados na infância
+  _Motivo:_ o autor pressupõe a prática do batismo infantil
+- **Albert Barnes · Romanos 2:29** · tema: obra do Espírito Santo
+  > Não significa pelo Espírito Santo, mas que a obra devia realizar-se na alma, e não somente no corpo.
+  _Motivo:_ o autor nega que “no espírito” se refira ao Espírito Santo
+- **Albert Barnes · Romanos 2:29** · tema: batismo
+  > 4. Que o fato de termos sido consagrados a Deus no batismo não nos salvará.
+  _Motivo:_ o autor pressupõe o batismo de crianças como consagração a Deus
+- **Albert Barnes · Romanos 4:13** · tema: escatologia
+  > dando a entender que os seus descendentes espirituais, isto é, os que possuem a sua fé, ainda hão de ser tão numerosos que possuirão todas as terras
+  _Motivo:_ o autor interpreta “herdeiro do mundo” como futura posse de todas as terras pelos crentes (expectativa de cristianização do mundo)
+- **Albert Barnes · Romanos 4:3** · tema: cristologia
+  > Quando, portanto, se diz que a justiça de Cristo nos é atribuída ou imputada; quando se diz que os seus méritos são transferidos e contados como nossos; seja qual for a verdade dessa doutrina, ela não pode ser defendida com esta passagem da Escritura.
+  _Motivo:_ o autor nega que a passagem ensine a imputação da justiça de Cristo ao crente (posição sobre a obra de Cristo na justificação)
+- **Albert Barnes · Romanos 4:5** · tema: cristologia
+  > Não se quer dizer que a justiça de Cristo lhes seja transferida de modo a tornar-se pessoalmente deles
+  _Motivo:_ o autor rejeita a transferência da justiça de Cristo ao crente; posição doutrinária sobre a justificação
+- **Albert Barnes · Romanos 6:3** · tema: batismo
+  > O ato do batismo denota dedicação ao serviço daquele em cujo nome somos batizados.
+  _Motivo:_ o autor define o sentido do batismo como consagração ao serviço de Cristo
+- **Albert Barnes · Romanos 6:3** · tema: batismo
+  > O nosso batismo tinha forte semelhança com a sua morte. Por ela, ele se tornou insensível às coisas do mundo; pelo batismo, nós, de igual maneira, nos tornamos mortos para o pecado.
+  _Motivo:_ o autor atribui ao batismo o efeito de nos tornar mortos para o pecado
+- **Albert Barnes · Romanos 6:4** · tema: batismo
+  > Mas, embora isto seja admitido, também é certo que o seu objetivo e intenção principal não era descrever o modo do batismo, nem afirmar que esse modo devesse ser universal.
+  _Motivo:_ o autor nega que a imersão seja o modo obrigatório do batismo
+- **Albert Barnes · Romanos 6:4** · tema: batismo
+  > Embora se admita que a alusão aqui era provavelmente ao costume da imersão no batismo, a passagem não pode ser apresentada como argumento de que este seja o único modo, ou de que ele obrigue todos os cristãos em todos os lugares e épocas, pelas seguintes razões:
+  _Motivo:_ o autor defende o batismo por efusão ou aspersão como igualmente válido e menciona o batismo na infância
+- **Albert Barnes · Romanos 6:4** · tema: batismo
+  > É igualmente verdade que os que são batizados por efusão, ou por aspersão, são batizados na sua morte, tornam-se, por profissão, mortos para o pecado e para o mundo e ficam sob a obrigação de viver para Deus, tanto quanto os que são imersos.
+  _Motivo:_ o autor equipara aspersão/efusão à imersão
+- **Albert Barnes · Romanos 6:4** · tema: batismo
+  > não prova que deva ser observado em meio às neves e aos gelos polares, e na infância, na velhice, na fraqueza e na doença.
+  _Motivo:_ o autor pressupõe o batismo de crianças e dispensa a imersão em certos casos
+- **Albert Barnes · Romanos 6:20** · tema: predestinação
+  > Estáveis inteiramente entregues ao pecado; uma expressão forte da depravação total. Isto resolve a questão e prova que eles não tinham nenhuma bondade natural.
+  _Motivo:_ o autor afirma a doutrina calvinista da depravação total
+- **Albert Barnes · Romanos 6:23** · tema: predestinação
+  > Os que forem salvos serão elevados ao céu, não porque o mereçam, mas pela rica e soberana graça de Deus.
+  _Motivo:_ menção à “graça soberana”; conferir se não sugere eleição incondicional
 - **Adam Clarke · Êxodo 1:19** · tema: ciencia
   > as mulheres que, durante toda a gravidez, estão acostumadas a trabalho pesado, especialmente ao ar livre, têm comparativamente pouca dor no parto
   _Motivo:_ o autor apresenta como fato de experiência geral uma afirmação médica ultrapassada e anedótica
@@ -547,307 +607,4 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Êxodo 9:35** · tema: sábado
   > Lembra-te do dia de sábado, para o santificar
   _Motivo:_ o autor inclui “profanadores do sábado” entre os pecadores com a Bíblia na mão, aplicando o mandamento aos cristãos
-- **Jamieson, Fausset e Brown · Atos 1:2** · tema: obra do Espírito Santo
-  > como para assinalar que ele agora estava todo impregnado do Espírito; que aquilo que fora reservado, durante a sua obra de sofrimento, para os seus próprios usos necessários, agora fora liberado, já transbordava dele para os seus discípulos, e só precisava da sua ascensão e glorificação para fluir inteiramente.
-  _Motivo:_ o autor interpreta o sopro de {{Jhn.20.22}} como antecipação da dádiva do Espírito e descreve o Espírito como “reservado” em Cristo durante o sofrimento
-- **Jamieson, Fausset e Brown · Atos 1:6** · tema: escatologia
-  > Mas, assim como claramente esperavam alguma restauração do reino a Israel, assim também não são nem repreendidos nem contraditos neste ponto.
-  _Motivo:_ o autor sugere que a expectativa de restauração do reino a Israel não foi corrigida por Jesus
-- **Jamieson, Fausset e Brown · Atos 1:11** · tema: escatologia
-  > ele virá de novo; não outro, mas ‘esse mesmo Jesus’; e ‘assim como o vistes ir, assim virá’ — tão pessoalmente, tão visivelmente, tão gloriosamente;
-  _Motivo:_ posição sobre a segunda vinda pessoal e visível de Cristo
-- **Jamieson, Fausset e Brown · Atos 1:24** · tema: cristologia
-  > Aqui, portanto, temos o primeiro exemplo de uma oração oferecida ao Redentor exaltado, fornecendo indiretamente a mais forte prova da sua divindade
-  _Motivo:_ o autor (citando Olshausen) entende que a oração é dirigida ao Filho e prova a sua divindade
-- **Jamieson, Fausset e Brown · Atos 10:25** · tema: escatologia
-  > “Os que pretendem ter sucedido a Pedro não imitaram esta parte da sua conduta” [ALFORD] (nisso apenas confirmando {{2Th.2.4}}; e cf. {{Rev.19.10}}; {{Rev.22.9}}).
-  _Motivo:_ o autor identifica implicitamente o papado com o “homem do pecado” de 2Ts 2:4
-- **Jamieson, Fausset e Brown · Atos 10:35** · tema: obra do Espírito Santo
-  > ele envia Pedro, não para ser o instrumento da sua conversão, como isto muito frequentemente é chamado, mas simplesmente para “lhe declarar mais pontualmente o caminho de Deus”
-  _Motivo:_ o autor sustenta que Cornélio já era um crente aprovado por Deus antes de ouvir o evangelho
-- **Jamieson, Fausset e Brown · Atos 10:38** · tema: cristologia
-  > Pois não é à sua unção para a santidade pessoal na encarnação que se faz referência — como muitos dos Pais e alguns modernos o entendem —, mas à sua investidura com as insígnias do ofício messiânico
-  _Motivo:_ o autor situa a unção de Jesus com o Espírito no batismo, como investidura messiânica
-- **Jamieson, Fausset e Brown · Atos 10:44** · tema: obra do Espírito Santo
-  > Com manifestação visível e audível ({{Act.10.46}}).
-  _Motivo:_ derramamento do Espírito sobre os gentios com manifestação visível e audível
-- **Jamieson, Fausset e Brown · Atos 10:46** · tema: dons
-  > Assim como no dia de Pentecostes não foi um milagre vazio, não um mero falar línguas estrangeiras, mas a expressão das “grandezas de Deus” em línguas para eles desconhecidas ({{Act.2.11}}), assim também aqui
-  _Motivo:_ o autor interpreta o dom de línguas como fala em idiomas desconhecidos dos falantes
-- **Jamieson, Fausset e Brown · Atos 10:46** · tema: batismo
-  > que objeção pode haver para admiti-los, pelo selo do batismo, à plena comunhão da Igreja?
-  _Motivo:_ relação entre o recebimento do Espírito Santo e o batismo nas águas como selo e entrada na comunhão da Igreja
-- **Jamieson, Fausset e Brown · Atos 11:16** · tema: batismo
-  > concedendo-lhes o que o Senhor Jesus declarou ser o batismo superior, o do Espírito Santo, não teria sido resistir a Deus se eu lhes tivesse negado o batismo inferior, o da água
-  _Motivo:_ o autor distingue o batismo com o Espírito Santo (superior) do batismo nas águas (inferior)
-- **Jamieson, Fausset e Brown · Atos 11:18** · tema: predestinação/eleição
-  > O caso de Cornélio é tão manifestamente um caso da graça reinando em cada etapa da sua história religiosa que mal podemos duvidar de que era justamente este o traço dele que eles aqui queriam exprimir. E esta é a graça que reina em toda conversão.
-  _Motivo:_ o arrependimento como dom concedido por Deus e a graça que “reina” em toda conversão
-- **Jamieson, Fausset e Brown · Atos 11:27** · tema: dons
-  > Mestres inspirados, uma classe que depois encontraremos frequentemente, os quais às vezes, mas não necessariamente, prediziam acontecimentos futuros.
-  _Motivo:_ o autor define o dom de profecia como ensino inspirado, nem sempre preditivo
-- **Jamieson, Fausset e Brown · Atos 13:2** · tema: obra do Espírito Santo
-  > Assim como a personalidade do Espírito Santo é manifesta por esta linguagem, a sua suprema divindade aparecerá igualmente, comparando-a com {{Heb.5.4}}.
-  _Motivo:_ o autor afirma a personalidade e a divindade do Espírito Santo a partir do chamado de Barnabé e Saulo
-- **Jamieson, Fausset e Brown · Atos 13:2** · tema: dons
-  > Por meio de alguns dos profetas mencionados em {{Act.13.1}}.
-  _Motivo:_ o autor entende que o Espírito falou por meio de profecia na igreja
-- **Jamieson, Fausset e Brown · Atos 13:3** · tema: obra do Espírito Santo
-  > Com o duplo chamado — do Espírito primeiro, e depois da Igreja.
-  _Motivo:_ o autor estabelece como princípio permanente que a nomeação para ofícios sagrados vem do Espírito e depois da Igreja
-- **Jamieson, Fausset e Brown · Atos 13:33** · tema: cristologia
-  > É contra todo o sentido do Novo Testamento atribuir a origem da filiação de Cristo à sua ressurreição.
-  _Motivo:_ o autor defende a filiação eterna e essencial do Filho
-- **Jamieson, Fausset e Brown · Atos 13:36** · tema: tipologia
-  > Davi, portanto (argumenta o apóstolo), não podia ser o objeto da sua própria predição, que teve o seu cumprimento próprio somente na ressurreição do corpo incorrupto do Filho de Deus
-  _Motivo:_ o autor nega que {{Psa.16.10}} se refira propriamente a Davi, aplicando-o só a Cristo
-- **Jamieson, Fausset e Brown · Atos 13:45** · tema: ofensivo
-  > Não há nada mais terrível do que a fúria judaica e a execração do nome de Jesus de Nazaré, quando completamente despertadas.
-  _Motivo:_ generalização negativa sobre os judeus
-- **Jamieson, Fausset e Brown · Atos 13:48** · tema: predestinação
-  > que uma ordenação divina para a vida eterna é a causa, e não o efeito, do crer de qualquer homem.
-  _Motivo:_ o autor afirma eleição incondicional como causa da fé
-- **Jamieson, Fausset e Brown · Atos 13:52** · tema: obra do Espírito Santo
-  > O qual não somente os elevou acima da vergonha e do medo, como discípulos declarados do Senhor Jesus, mas os encheu de emoções santas e elevadas.
-  _Motivo:_ o autor descreve a obra do Espírito Santo nos discípulos perseguidos
-- **Jamieson, Fausset e Brown · Atos 14:9** · tema: dons
-  > o Espírito do Médico glorificado veio inteiramente sobre Paulo, e “em alta voz” ordenou-lhe: “Levanta-te direito sobre os teus pés.”
-  _Motivo:_ o autor descreve o dom de cura operado pelo Espírito por meio de Paulo, ligado à fé do enfermo
-- **Jamieson, Fausset e Brown · Atos 14:18** · tema: ofensivo
-  > quão cedo as tendências idólatras começaram a manifestar-se na Igreja cristã, para afinal serem sistematizadas e prescritas na Igreja de Roma!
-  _Motivo:_ acusação de idolatria contra a Igreja de Roma
-- **Jamieson, Fausset e Brown · Atos 14:27** · tema: obra do Espírito Santo
-  > Como o seu chamado e missão tinham sido solenes e formais, na presença e por meio da Igreja, assim como do Espírito Santo
-  _Motivo:_ o chamado missionário pelo Espírito Santo e pela Igreja
-- **Jamieson, Fausset e Brown · Atos 15:2** · tema: dons
-  > provavelmente como convertido gentio incircunciso dotado dos dons do Espírito.
-  _Motivo:_ o autor supõe que Tito tinha dons espirituais como prova da aceitação dos gentios
-- **Jamieson, Fausset e Brown · Atos 15:14** · tema: predestinação
-  > No exercício da sua adorável soberania.
-  _Motivo:_ o chamado dos gentios atribuído à soberania de Deus
-- **Jamieson, Fausset e Brown · Atos 15:22** · tema: dons
-  > Eram “profetas”, {{Act.15.32}} (e ver. em {{Act.11.27}}), e como tais, sem dúvida, haviam obtido a sua eminência na igreja de Jerusalém.
-  _Motivo:_ o dom de profecia como base de eminência na igreja
-- **Jamieson, Fausset e Brown · Atos 15:28** · tema: obra do Espírito Santo
-  > O Primeiro, guiando interiormente à decisão tomada e pondo nela o seu selo: o outro, a autoridade eclesiástica externa, abraçando, exprimindo e transmitindo devotamente às igrejas essa decisão: — grande princípio este para a Igreja em todos os tempos.
-  _Motivo:_ o autor estabelece como princípio permanente a direção do Espírito Santo junto à autoridade eclesiástica
-- **Jamieson, Fausset e Brown · Atos 15:32** · tema: dons
-  > Isto é, mestres inspirados.
-  _Motivo:_ o autor define os profetas como mestres inspirados
-- **Jamieson, Fausset e Brown · Atos 15:39** · tema: inspiração
-  > a fraqueza humana, em meio aos grandes labores da igreja de Antioquia, separou afinal aqueles que doce e amorosamente tinham suportado juntos o peso e o calor do dia
-  _Motivo:_ o autor atribui a separação de Paulo e Barnabé à fraqueza humana e fala de algo “pecaminoso” na contenda dos apóstolos
-- **Jamieson, Fausset e Brown · Atos 16:6** · tema: dons
-  > Falando por meio de algum profeta; ver. em {{Act.11.27}}.
-  _Motivo:_ o autor atribui a direção do Espírito à fala de um profeta na igreja
-- **Jamieson, Fausset e Brown · Atos 16:7** · tema: obra do Espírito Santo
-  > Esta é a primeira vez que se fala expressamente do Espírito Santo como determinando o curso que deviam seguir em seus esforços para evangelizar as nações
-  _Motivo:_ citação de Baumgarten sobre a direção do Espírito Santo na obra missionária
-- **Jamieson, Fausset e Brown · Atos 16:9** · tema: escatologia
-  > E Israel, andando pelo caminho que Deus lhe traçara, igualmente chegara ao seu fim.
-  _Motivo:_ citação de Baumgarten sobre a vocação de Israel e o seu “fim”, realizada em Paulo
-- **Jamieson, Fausset e Brown · Atos 16:14** · tema: predestinação
-  > Mostrando que a inclinação do coração para a verdade não se origina na vontade do homem. A primeira disposição de voltar-se para o evangelho é obra da graça
-  _Motivo:_ citação de Olshausen que nega à vontade humana a origem da inclinação para a verdade
-- **Jamieson, Fausset e Brown · Atos 16:15** · tema: batismo
-  > Se incluía crianças, também batizadas nesse caso, não se diz explicitamente; mas a presunção, como em outros casos de batismo de casas, é que sim.
-  _Motivo:_ o autor presume batismo de crianças no batismo das casas
-- **Jamieson, Fausset e Brown · Atos 16:15** · tema: batismo
-  > O Senhor Jesus; isto é, “pela fé nele que reconhecestes em mim pelo batismo”.
-  _Motivo:_ o batismo como reconhecimento da fé
-- **Jamieson, Fausset e Brown · Atos 16:32** · tema: batismo
-  > não é necessário inferir que nela não houvesse crianças
-  _Motivo:_ o autor deixa aberta a presença de crianças na casa batizada do carcereiro
-- **Jamieson, Fausset e Brown · Atos 17:29** · tema: ofensivo
-  > Quão vergonhosamente indesculpáveis são, então, as igrejas grega e romana em paganizar o culto da Igreja cristã com o incentivo a pinturas e imagens no serviço religioso!
-  _Motivo:_ ataque direto às igrejas ortodoxa e católica (“cristãos romanistas”)
-- **Jamieson, Fausset e Brown · Atos 17:31** · tema: escatologia
-  > Tal linguagem ensina sem dúvida que o juízo será, em sua essência, uma solene audiência judicial realizada sobre toda a humanidade de uma só vez.
-  _Motivo:_ o autor afirma um juízo único e simultâneo de toda a humanidade
-- **Jamieson, Fausset e Brown · Atos 18:10** · tema: predestinação
-  > “A quem, em virtude da sua eleição para a vida eterna, ele já designa como seus” (compare-se {{Act.13.48}}) [BAUMGARTEN].
-  _Motivo:_ citação de Baumgarten que fundamenta “muito povo” numa eleição prévia para a vida eterna
-- **Jamieson, Fausset e Brown · Atos 18:25** · tema: obra do Espírito Santo
-  > ainda tinha de aprender a nova luz que o derramamento do Espírito no Pentecostes lançara sobre a morte e a ressurreição do Redentor
-  _Motivo:_ o autor associa o batismo de João a um conhecimento incompleto antes do derramamento do Espírito
-- **Jamieson, Fausset e Brown · Atos 18:27** · tema: predestinação
-  > Uma daquelas expressões incidentais que mostram que a fé ser uma produção da graça de Deus no coração era uma verdade tão corrente e reconhecida que se tomava como certa, como consequência necessária do sistema geral da graça, em vez de ser expressamente sustentada.
-  _Motivo:_ o autor apresenta a fé como produção da graça, dentro de um “sistema geral da graça”
-- **Jamieson, Fausset e Brown · Atos 19:2** · tema: obra do Espírito Santo
-  > dando a entender, certamente, que uma coisa não trazia necessariamente consigo a outra
-  _Motivo:_ o autor afirma que crer e receber o Espírito Santo não vêm necessariamente juntos
-- **Jamieson, Fausset e Brown · Atos 19:4** · tema: batismo
-  > O ponto de contraste não é entre João e Cristo pessoalmente, mas entre o batismo de João com água para arrependimento e o prometido batismo do Espírito, das mãos do seu Mestre que havia de vir, para uma vida nova.
-  _Motivo:_ distinção entre batismo com água e batismo com o Espírito Santo
-- **Jamieson, Fausset e Brown · Atos 19:5** · tema: batismo
-  > Para dentro de toda a plenitude da nova economia, tal como agora se abria às suas mentes crentes.
-  _Motivo:_ sentido do novo batismo em nome do Senhor Jesus dos discípulos de João
-- **Jamieson, Fausset e Brown · Atos 19:13** · tema: dons
-  > Que tal poder existiu, ao menos por algum tempo, parece estar implícito em {{Mat.12.27}}.
-  _Motivo:_ o autor sugere que o poder de exorcismo entre os judeus existiu só por algum tempo
-- **Jamieson, Fausset e Brown · Atos 19:24** · tema: ofensivo
-  > são uma imitação tão palpável desta prática pagã que não é de admirar que sejam considerados por juízes imparciais como cristianismo paganizado.
-  _Motivo:_ crítica dura à Igreja Católica Romana
-- **Jamieson, Fausset e Brown · Atos 19:26** · tema: ofensivo
-  > É exatamente assim na Igreja de Roma.
-  _Motivo:_ compara o culto católico às imagens à idolatria pagã
-- **Jamieson, Fausset e Brown · Atos 19:31** · tema: ofensivo
-  > (o mesmo mês que o romanismo dedica à Virgem)
-  _Motivo:_ comparação depreciativa com a devoção católica
-- **Jamieson, Fausset e Brown · Atos 19:35** · tema: ofensivo
-  > “Com isto podemos comparar várias lendas acerca de imagens e pinturas na Igreja Romana, como as tradicionais efígies de Cristo, que se dizia ‘não serem feitas por mãos’” [WEBSTER e WILKINSON].
-  _Motivo:_ comparação depreciativa com a Igreja Católica
-- **Jamieson, Fausset e Brown · Atos 2:4** · tema: dons
-  > embora seja quase certo que os próprios que falavam nada entendiam do que proferiam
-  _Motivo:_ o autor afirma que os que falavam em línguas não entendiam o que diziam
-- **Jamieson, Fausset e Brown · Atos 2:17** · tema: dons
-  > pois no Novo Testamento visões e sonhos são antes a exceção do que a regra.
-  _Motivo:_ o autor trata visões e sonhos como mera acomodação à antiga economia e exceção no Novo Testamento
-- **Jamieson, Fausset e Brown · Atos 2:19** · tema: escatologia
-  > Referindo-se aos sinais que haviam de preceder a destruição de Jerusalém
-  _Motivo:_ o autor aplica os prodígios de Joel à destruição de Jerusalém
-- **Jamieson, Fausset e Brown · Atos 2:37** · tema: escatologia
-  > cuja plena realização está reservada para o dia em que “todo o Israel será salvo”
-  _Motivo:_ posição sobre a futura salvação de Israel
-- **Jamieson, Fausset e Brown · Atos 2:38** · tema: batismo
-  > Como o selo visível dessa remissão.
-  _Motivo:_ o autor entende o batismo como selo visível da remissão dos pecados
-- **Jamieson, Fausset e Brown · Atos 2:41** · tema: batismo
-  > A dificuldade só pode ser removida supondo-se que já empregavam a aspersão, ou batizavam em casas, em grandes vasos.
-  _Motivo:_ o autor (citando Olshausen) sugere batismo por aspersão em Pentecostes
-- **Jamieson, Fausset e Brown · Atos 2:42** · tema: ceia
-  > Certamente não apenas na Ceia do Senhor, mas antes em refeições frugais tomadas em conjunto, às quais a Ceia do Senhor provavelmente estava unida
-  _Motivo:_ posição sobre a prática da Ceia unida às refeições comuns
-- **Jamieson, Fausset e Brown · Atos 2:47** · tema: obra do Espírito Santo
-  > Ela adquiriu o seu valor somente por meio do poder do Espírito Santo, que passava dos apóstolos, enquanto pregavam, para os ouvintes
-  _Motivo:_ o autor (citando Olshausen) descreve o Espírito como passando dos apóstolos aos ouvintes pela pregação
-- **Jamieson, Fausset e Brown · Atos 20:7** · tema: sábado
-  > indica claramente que a observância cristã do dia mais tarde distintamente chamado “o Dia do Senhor” já era uma prática estabelecida das igrejas.
-  _Motivo:_ o autor afirma o primeiro dia da semana (Dia do Senhor) como dia de reunião cristã já estabelecido
-- **Jamieson, Fausset e Brown · Atos 20:11** · tema: ceia
-  > “E comido” — indicando uma refeição comum, distinta do partir do pão eucarístico.
-  _Motivo:_ o autor distingue a refeição comum da ceia eucarística
-- **Jamieson, Fausset e Brown · Atos 20:22** · tema: obra do Espírito Santo
-  > Esta pressão interior, não acompanhada de nenhum conhecimento do “que lá lhe havia de acontecer”, era o resultado daquela direção superior que moldava todos os seus movimentos.
-  _Motivo:_ interpretação da direção do Espírito sobre Paulo
-- **Jamieson, Fausset e Brown · Atos 20:23** · tema: dons
-  > Por declarações proféticas de cidade em cidade, como em {{Act.11.28}}; {{Act.21.10-11}}.
-  _Motivo:_ o autor entende o testemunho do Espírito como profecias de cidade em cidade
-- **Jamieson, Fausset e Brown · Atos 20:25** · tema: inspiração
-  > Não uma predição inspirada do que certamente havia de acontecer, mas aquilo que o apóstolo, nas suas circunstâncias peculiares, plenamente esperava.
-  _Motivo:_ o autor nega que Paulo falasse aqui por inspiração
-- **Jamieson, Fausset e Brown · Atos 20:28** · tema: obra do Espírito Santo
-  > ({{Act.14.23}} mostra que o apóstolo não pretendia excluir a ordenação humana.)
-  _Motivo:_ relação entre a constituição dos bispos pelo Espírito e a ordenação humana
-- **Jamieson, Fausset e Brown · Atos 20:28** · tema: cristologia
-  > No conjunto, portanto, aceitamos a segunda leitura como muito provavelmente a verdadeira.
-  _Motivo:_ o autor prefere a leitura “igreja do Senhor” a “igreja de Deus”, com implicação para a divindade de Cristo no texto
-- **Jamieson, Fausset e Brown · Atos 20:32** · tema: predestinação
-  > Observe-se como a salvação — não só nos seus estágios iniciais de perdão e regeneração, mas em todos os seus estágios subsequentes de “edificação”, até a sua consumação na herança final — é aqui atribuída ao “poder” de Deus para concedê-la
-  _Motivo:_ ênfase na salvação do início à consumação atribuída ao poder de Deus (perseverança)
-- **Jamieson, Fausset e Brown · Atos 21:4** · tema: dons
-  > Talvez não fossem muitos; contudo, havia entre eles alguns dotados de dons.
-  _Motivo:_ o autor associa o aviso dos discípulos de Tiro a dons espirituais
-- **Jamieson, Fausset e Brown · Atos 21:9** · tema: dons
-  > Cumprindo {{Jol.2.28}} (ver. {{Act.2.18}}). Isto é mencionado, ao que parece, meramente como uma alta distinção divinamente conferida a um servo tão dedicado do Senhor Jesus
-  _Motivo:_ o dom de profecia das filhas de Filipe como cumprimento de Joel
-- **Jamieson, Fausset e Brown · Atos 21:11** · tema: dons
-  > Esta predição e a de Tiro ({{Act.21.4}}) tinham o propósito, não de proibi-lo de ir, mas de pôr à prova a sua coragem e, quando ele resistisse à prova, aprofundá-la e amadurecê-la.
-  _Motivo:_ o autor interpreta o propósito das profecias dadas a Paulo
-- **Jamieson, Fausset e Brown · Atos 22:16** · tema: batismo
-  > Este modo de falar provém de ser o batismo o selo visível da remissão.
-  _Motivo:_ o autor entende o batismo como selo visível da remissão dos pecados
-- **Jamieson, Fausset e Brown · Atos 22:16** · tema: batismo
-  > referindo-se à confissão de Cristo que precedia o batismo, como em {{Act.8.37}}.
-  _Motivo:_ confissão de fé antes do batismo
-- **Jamieson, Fausset e Brown · Atos 23:3** · tema: inspiração
-  > Este epíteto, por mais corretamente que descrevesse o homem, não deve ser defendido como dirigido a um juiz
-  _Motivo:_ o autor considera indevida a fala de Paulo ao sumo sacerdote
-- **Jamieson, Fausset e Brown · Atos 23:5** · tema: inspiração
-  > Se a sua conduta, ao ceder ao impulso momentâneo, não foi a do próprio Cristo sob provocação semelhante ({{Jhn.18.22-23}}), certamente o modo como ele reparou a sua falta foi semelhante ao de Cristo
-  _Motivo:_ o autor atribui a Paulo erro e falta nesta fala
-- **Jamieson, Fausset e Brown · Atos 27:35** · tema: ceia/sacramentos
-  > Não entendido pelos cristãos do navio como uma festa de amor, ou celebração da Ceia do Senhor, como alguns pensam
-  _Motivo:_ o autor nega que o partir do pão no navio fosse celebração da Ceia
-- **Jamieson, Fausset e Brown · Atos 28:8** · tema: dons
-  > Observe-se aqui o cumprimento de duas coisas preditas em {{Mrk.16.18}}: o “pegar em serpentes” e a “cura dos enfermos pela imposição das mãos”.
-  _Motivo:_ o autor vê na cura de Malta o cumprimento dos sinais prometidos em Marcos 16
-- **Jamieson, Fausset e Brown · Atos 28:11** · tema: ofensivo
-  > Santo Antônio os substitui nas superstições modernas dos marinheiros (romanistas) do Mediterrâneo.
-  _Motivo:_ expressão depreciativa contra católicos (“romanistas”, “superstições”)
-- **Jamieson, Fausset e Brown · Atos 28:14** · tema: sábado
-  > o apóstolo teve assim oportunidade de passar um sábado com os cristãos do lugar
-  _Motivo:_ o autor usa “Sabbath” para o dia de culto dos cristãos; conferir se deve ficar “sábado” ou “dia do Senhor”
-- **Jamieson, Fausset e Brown · Atos 3:19** · tema: escatologia
-  > e que aqui, como em todos os profetas, é feito depender da conversão nacional de Israel.
-  _Motivo:_ o autor associa os tempos do refrigério a um futuro período de prosperidade dependente da conversão nacional de Israel
-- **Jamieson, Fausset e Brown · Atos 3:21** · tema: escatologia
-  > Compreendendo, provavelmente, a retificação de todas as desordens da queda.
-  _Motivo:_ interpretação da restauração de todas as coisas
-- **Jamieson, Fausset e Brown · Atos 3:22** · tema: tipologia
-  > Particularmente na intimidade de comunicação com Deus ({{Num.12.6-8}}) e como Cabeça mediadora de uma nova ordem de coisas ({{Heb.3.2-6}}).
-  _Motivo:_ Moisés como figura de Cristo, o Profeta prometido
-- **Jamieson, Fausset e Brown · Atos 3:26** · tema: escatologia
-  > e de um futuro glorioso tão logo isso aconteça, que terminará com o Retorno Pessoal de Cristo dos céus para onde subiu
-  _Motivo:_ posição sobre a conversão de Israel e a volta pessoal de Cristo
-- **Jamieson, Fausset e Brown · Atos 4:31** · tema: obra do Espírito Santo
-  > depois, derretendo todo egoísmo e absorvendo até o sentimento de individualidade numa intensa e ardente percepção da unidade cristã.
-  _Motivo:_ o autor descreve a obra do Espírito no enchimento da comunidade e associa a ela a comunhão de bens
-- **Jamieson, Fausset e Brown · Atos 5:4** · tema: obra do Espírito Santo
-  > linguagem que implica claramente tanto a personalidade distinta como a divindade própria do Espírito Santo.
-  _Motivo:_ afirmação sobre a personalidade e a divindade do Espírito Santo
-- **Jamieson, Fausset e Brown · Atos 5:15** · tema: dons
-  > Agora a grandeza predita de Pedro ({{Mat.16.18}}), como espírito dirigente da Igreja primitiva, estava no seu auge.
-  _Motivo:_ o autor associa as curas pela sombra de Pedro à “grandeza predita” de Pedro em {{Mat.16.18}}
-- **Jamieson, Fausset e Brown · Atos 5:32** · tema: obra do Espírito Santo
-  > e o Espírito Santo, atestando-os por milagres inegáveis.
-  _Motivo:_ o autor restringe o testemunho do Espírito à atestação por milagres
-- **Jamieson, Fausset e Brown · Atos 6:3** · tema: dons
-  > Não cheios de dons miraculosos, que não seriam qualificação alguma para os deveres exigidos, mas espiritualmente dotados
-  _Motivo:_ o autor nega que “cheios do Espírito Santo” se refira a dons espirituais
-- **Jamieson, Fausset e Brown · Atos 6:6** · tema: obra do Espírito Santo
-  > a outra simbolizando a comunicação destes aos oficiais escolhidos pelos canais reconhecidos.
-  _Motivo:_ posição sobre a imposição de mãos como transmissão de dons oficiais por canais eclesiásticos
-- **Jamieson, Fausset e Brown · Atos 7:30** · tema: cristologia
-  > Antes, “o Anjo da Aliança”, que logo chama a si mesmo JEOVÁ
-  _Motivo:_ o autor identifica o anjo da sarça com o Anjo da Aliança, que se chama Jeová
-- **Jamieson, Fausset e Brown · Atos 7:37** · tema: tipologia
-  > mas apenas um humilde precursor e pequeno modelo daquele a quem lhes era devida absoluta submissão.
-  _Motivo:_ Moisés como figura de Cristo
-- **Jamieson, Fausset e Brown · Atos 7:55** · tema: obra do Espírito Santo
-  > e a plena torrente do seu Espírito que naquele momento estava derramando no coração da sua heroica testemunha
-  _Motivo:_ o autor explica o “em pé” de Jesus pelo derramamento do Espírito sobre Estêvão
-- **Jamieson, Fausset e Brown · Atos 7:59** · tema: cristologia
-  > sendo Cristo a Pessoa diretamente invocada e chamada pelo nome
-  _Motivo:_ o autor defende a oração dirigida diretamente a Cristo
-- **Jamieson, Fausset e Brown · Atos 7:59** · tema: cristologia
-  > Estêvão presta ao seu Senhor glorificado absoluta adoração divina
-  _Motivo:_ afirmação sobre a adoração divina prestada a Cristo
-- **Jamieson, Fausset e Brown · Atos 8:13** · tema: batismo
-  > Que luz isto lança sobre o que se chama regeneração batismal!
-  _Motivo:_ o autor usa o caso de Simão contra a doutrina da regeneração batismal
-- **Jamieson, Fausset e Brown · Atos 8:15** · tema: batismo com o Espírito Santo
-  > esta comunicação do Espírito Santo pela imposição das mãos dos apóstolos era claramente algo acrescentado; e, assim como era apenas ocasional, era invariavelmente acompanhada de manifestações miraculosas
-  _Motivo:_ o autor trata o recebimento do Espírito como ocasional, ligado aos apóstolos e a manifestações miraculosas
-- **Jamieson, Fausset e Brown · Atos 8:15** · tema: dons
-  > exigia a presença e o poder dos apóstolos para desempenharem a sua parte especial como fundadores da Igreja divinamente designados
-  _Motivo:_ o autor (citando Alford) restringe a comunicação do Espírito ao papel especial dos apóstolos
-- **Jamieson, Fausset e Brown · Atos 8:36** · tema: batismo
-  > Filipe provavelmente lhe dissera que este era o sinal e selo ordenado do discipulado
-  _Motivo:_ posição sobre o batismo como sinal e selo; o autor também considera {{Act.8.37}} um acréscimo posterior
-- **Jamieson, Fausset e Brown · Atos 8:36** · tema: inspiração
-  > ({{Act.8.37}} falta nos principais manuscritos e nas mais veneráveis versões do Novo Testamento. Parece ter sido acrescentado a partir das fórmulas batismais que passaram a ser de uso corrente.)
-  _Motivo:_ o autor considera o versículo 37 um acréscimo ao texto
-- **Jamieson, Fausset e Brown · Atos 8:38** · tema: batismo
-  > Provavelmente derramando a água sobre ele, embora o modo exato não seja certo nem tenha importância alguma.
-  _Motivo:_ o autor sugere batismo por derramamento e diz que o modo não tem importância
-- **Jamieson, Fausset e Brown · Atos 9:15** · tema: predestinação/eleição
-  > Palavra muitas vezes usada por Paulo ao ilustrar a soberania de Deus na eleição
-  _Motivo:_ o autor liga o “vaso escolhido” à soberania de Deus na eleição ({{Rom.9.21-23}})
-- **Jamieson, Fausset e Brown · Atos 9:17** · tema: batismo
-  > e não necessariamente depois do seu batismo [BAUMGARTEN, WEBSTER e WILKINSON] — pois Cornélio e os seus o receberam antes do deles ({{Act.10.44-48}}) —, mas talvez imediatamente depois da recuperação da sua vista pela imposição das mãos de Ananias.
-  _Motivo:_ relação entre o recebimento do Espírito Santo, o batismo nas águas e a imposição de mãos
-- **Jamieson, Fausset e Brown · Atos 9:38** · tema: dons
-  > Mostrando que os discípulos em geral não possuíam dons miraculosos [BENGEL].
-  _Motivo:_ o autor afirma que os discípulos em geral não tinham dons miraculosos
 
