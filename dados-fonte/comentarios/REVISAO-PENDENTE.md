@@ -103,6 +103,162 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 
 ## Ainda não revisados
 
+- **Albert Barnes · 1 Coríntios 1:1** · tema: inspiração
+  > É evidente que Sóstenes não era apóstolo, nem há razão para pensar que fosse inspirado.
+  _Motivo:_ o autor afirma que Sóstenes, coautor da saudação, não era inspirado
+- **Albert Barnes · 1 Coríntios 1:2** · tema: predestinação
+  > E esse chamado não se refere apenas a um convite externo, mas foi aquilo que se tornou eficaz no caso deles, ou aquilo em que se podia fundamentar o fato de serem santos.
+  _Motivo:_ o autor ensina o chamado eficaz
+- **Albert Barnes · 1 Coríntios 1:5** · tema: dons
+  > O poder de falar essas línguas o apóstolo considerava motivo de ação de graças, pois era uma prova do favor divino para com eles.
+  _Motivo:_ posição sobre o dom de línguas como prova do favor divino
+- **Albert Barnes · 1 Coríntios 1:6** · tema: dons
+  > O poder de falar línguas etc. (capítulo 14) seria um milagre contínuo, e seria para eles então uma demonstração da verdade do cristianismo, tal como fora a princípio.
+  _Motivo:_ posição sobre a finalidade dos dons miraculosos como evidência do evangelho
+- **Albert Barnes · 1 Coríntios 1:8** · tema: perda da salvação
+  > O sentido é que eles seriam guardados e não lhes seria permitido desviar-se e perecer; e esta é uma das muitas passagens que expressam a forte confiança de Paulo de que os que são verdadeiros cristãos serão preservados para a vida eterna.
+  _Motivo:_ o autor afirma que o verdadeiro cristão não pode desviar-se e perecer
+- **Albert Barnes · 1 Coríntios 1:9** · tema: perda da salvação
+  > A evidência de que eles perseverarão depende da fidelidade de Deus; e o argumento do apóstolo é que, assim como tinham sido chamados por ele para a comunhão do seu Filho, a fidelidade do seu caráter tornaria certo que seriam guardados para a vida eterna.
+  _Motivo:_ perseverança garantida dos santos
+- **Albert Barnes · 1 Coríntios 1:9** · tema: predestinação
+  > A palavra “chamados” aqui não se refere apenas a um convite ou a uma oferta de vida, mas à influência eficaz que fora exercida, a qual os inclinara a abraçar o evangelho.
+  _Motivo:_ o autor ensina o chamado eficaz
+- **Albert Barnes · 1 Coríntios 1:9** · tema: obra do Espírito Santo
+  > Nesse sentido a palavra ocorre frequentemente nas Escrituras, e destina-se a indicar um poder, ou influência, que acompanha o convite externo e que o torna eficaz.
+  _Motivo:_ o chamado eficaz atribuído à ação do Espírito Santo
+- **Albert Barnes · 1 Coríntios 1:9** · tema: perda da salvação
+  > O argumento a favor da perseverança dos santos é, portanto, seguro.
+  _Motivo:_ o autor defende a perseverança dos santos
+- **Albert Barnes · 1 Coríntios 1:16** · tema: batismo
+  > Se esta for a verdadeira interpretação, então constitui um argumento para provar que Paulo praticava o batismo de famílias, ou o batismo das famílias dos que eram eles mesmos crentes.
+  _Motivo:_ possível argumento a favor do batismo de famílias (infantil)
+- **Albert Barnes · 1 Coríntios 1:16** · tema: inspiração
+  > (1) não era o propósito da inspiração livrar a memória de falhas nas transações comuns, ou naquelas coisas que não deviam ser recebidas para a instrução da igreja.
+  _Motivo:_ o autor admite falhas de memória de Paulo fora do alcance da inspiração
+- **Albert Barnes · 1 Coríntios 1:17** · tema: batismo
+  > É provável que o ofício do batismo fosse confiado a ministros da igreja de talentos inferiores, ou aos que estavam ligados permanentemente às igrejas, e não aos que se ocupavam principalmente em viajar de lugar em lugar.
+  _Motivo:_ opinião sobre quem administrava o batismo
+- **Albert Barnes · 1 Coríntios 1:18** · tema: obra do Espírito Santo
+  > Inclui, portanto, a ação prometida do Espírito Santo, sem a qual não seria eficaz.
+  _Motivo:_ posição sobre a obra do Espírito na eficácia da pregação
+- **Albert Barnes · 1 Coríntios 1:24** · tema: obra do Espírito Santo
+  > Todos os efeitos que o Espírito Santo produz na alma são tais, e somente tais, quais a verdade do evangelho é apropriada para produzir na mente.
+  _Motivo:_ o autor limita a ação do Espírito ao que a verdade produz
+- **Albert Barnes · 1 Coríntios 1:27** · tema: predestinação
+  > O fato de estarem eles na igreja era resultado da escolha dele.
+  _Motivo:_ eleição divina dos que estão na igreja
+- **Albert Barnes · 1 Coríntios 2:4** · tema: dons
+  > A prova, a demonstração que o Espírito fornecia, eram sem dúvida os milagres que se operavam, o dom de línguas e as notáveis conversões que acompanhavam o evangelho.
+  _Motivo:_ o autor trata milagres e dom de línguas como a demonstração do Espírito na pregação apostólica em Corinto
+- **Albert Barnes · 1 Coríntios 2:7** · tema: predestinação
+  > Isto é tudo o que está envolvido na doutrina dos decretos ou propósitos eternos.
+  _Motivo:_ o autor defende a doutrina dos decretos eternos a partir do texto
+- **Albert Barnes · 1 Coríntios 2:7** · tema: predestinação
+  > E, se Deus tinha um plano a este respeito, há a mesma razão para pensar que ele tinha um plano a respeito de todas as coisas.
+  _Motivo:_ o autor estende o decreto eterno a todas as coisas
+- **Albert Barnes · 1 Coríntios 2:10** · tema: dons
+  > Nenhuma verdade é agora comunicada aos cristãos que não tenha sido revelada aos escritores inspirados e por meio deles;
+  _Motivo:_ o autor limita a revelação atual do Espírito ao que já está nas Escrituras (nega revelação nova aos crentes)
+- **Albert Barnes · 1 Coríntios 2:10** · tema: predestinação
+  > Conhece todos os que Deus tenciona salvar;
+  _Motivo:_ o autor fala de um número definido dos que Deus tenciona salvar
+- **Albert Barnes · 1 Coríntios 2:14** · tema: obra do Espírito Santo
+  > Tal é o seu amor ao pecado que nunca será levado a ver a beleza delas, exceto pela ação do Espírito Santo.
+  _Motivo:_ o autor expõe sua posição sobre a capacidade natural do homem e a necessidade da ação do Espírito na conversão
+- **Albert Barnes · 1 Coríntios 2:16** · tema: predestinação
+  > Deus tem um plano; e este plano contempla a salvação do seu povo.
+  _Motivo:_ o autor afirma um propósito eterno de Deus para a salvação do seu povo
+- **Albert Barnes · 1 Coríntios 3:5** · tema: predestinação
+  > que ele é Soberano, e dispensa os seus favores a todos como lhe apraz;
+  _Motivo:_ afirmação da soberania de Deus na distribuição dos dons e da fé; conferir se sugere eleição incondicional
+- **Albert Barnes · 1 Coríntios 3:5** · tema: obra do Espírito Santo
+  > Deus é a Fonte original da fé; e é pela sua influência que alguém é levado a crer.
+  _Motivo:_ posição sobre a origem divina da fé; conferir se não sugere graça irresistível
+- **Albert Barnes · 1 Coríntios 3:8** · tema: escatologia
+  > a medida, ou quantidade, dos favores ali concedidos a eles será segundo os serviços que prestarem na terra.
+  _Motivo:_ o autor ensina graus de recompensa no céu segundo os serviços prestados
+- **Albert Barnes · 1 Coríntios 3:13** · tema: escatologia
+  > Que o mundo será destruído pelo fogo, e que as solenidades do juízo serão introduzidas por uma conflagração universal, está plena e frequentemente revelado.
+  _Motivo:_ posição sobre o fim do mundo por conflagração universal antes do juízo
+- **Albert Barnes · 1 Coríntios 3:15** · tema: perda da salvação
+  > ainda assim, o homem que está edificando sobre o fundamento verdadeiro estará seguro.
+  _Motivo:_ pode ser lido como segurança garantida de quem está sobre o fundamento, mesmo com muito erro; conferir
+- **Albert Barnes · 1 Coríntios 3:15** · tema: sacramentos
+  > Em passagens como esta se baseia a doutrina romana do purgatório.
+  _Motivo:_ o autor refuta o purgatório e as missas pelos mortos com linguagem dura (“absurda e antibíblica”)
+- **Albert Barnes · 1 Coríntios 3:16** · tema: obra do Espírito Santo
+  > O único sentido em que ele pode estar peculiarmente presente em algum lugar é pela sua influência, ou ação.
+  _Motivo:_ o autor nega habitação pessoal do Espírito no crente, reduzindo-a a influência e ação
+- **Albert Barnes · 1 Coríntios 3:23** · tema: cristologia
+  > Isto não implica nenhuma inferioridade de natureza de Cristo em relação a Deus.
+  _Motivo:_ posição sobre a pessoa de Cristo: subordinação apenas de ofício, igualdade de natureza com Deus
+- **Albert Barnes · 1 Coríntios 3:23** · tema: obra do Espírito Santo
+  > descobrirão que tudo isto não era piedade — que o sentimento animal foi confundido com o amor de Deus;
+  _Motivo:_ o autor desconfia do fervor e do sentimento arrebatado na religião; conferir à luz da experiência espiritual
+- **Albert Barnes · 1 Coríntios 3:23** · tema: ofensivo
+  > Quem lançaria um fundamento tão profundo e largo como base para levantar a cabana do selvagem, ou a choupana de barro do hindu?
+  _Motivo:_ expressão depreciativa sobre povos (“selvagem”, “hindu”)
+- **Albert Barnes · 1 Coríntios 4:7** · tema: predestinação
+  > A raça inteira teria rejeitado a sua misericórdia; e é somente pelo seu amor distintivo que alguns são levados a crer e a ser salvos.
+  _Motivo:_ o autor atribui a diferença entre os que creem e os que não creem unicamente ao “amor distintivo” de Deus (eleição)
+- **Albert Barnes · 1 Coríntios 4:7** · tema: predestinação
+  > Esta passagem declara uma doutrina geral: que a razão pela qual um homem difere de outro deve ser atribuída a Deus;
+  _Motivo:_ o autor aplica o versículo à diferença na salvação, embora em seguida afirme o dever do esforço humano
+- **Albert Barnes · 1 Coríntios 4:20** · tema: dons
+  > (1.) No poder miraculoso pelo qual a igreja foi estabelecida — o poder do Salvador e dos apóstolos ao operar milagres.
+  _Motivo:_ o autor situa o poder miraculoso e o dom de línguas na fundação da igreja, distinguindo-os do poder contínuo de governá-la
+- **Albert Barnes · 1 Coríntios 4:20** · tema: obra do Espírito Santo
+  > (2.) No poder do Espírito Santo, no dom de línguas e na sua influência sobre o coração ao converter os homens.
+  _Motivo:_ o autor descreve a obra do Espírito no dom de línguas e na conversão
+- **Albert Barnes · 1 Coríntios 4:21** · tema: predestinação
+  > que um possua mais que outro prova que Deus é soberano, e não que sejamos mais dignos que outro, ou que haja por natureza algum motivo de preferência que um tenha sobre outro.
+  _Motivo:_ o autor fala da soberania de Deus na distribuição da graça, em linha com a eleição
+- **Albert Barnes · 1 Coríntios 5:4** · tema: dons
+  > E se Paulo não o faria, e isso num caso em que dores corporais deviam ser infligidas por ação miraculosa,
+  _Motivo:_ o autor entende que a entrega a Satanás envolvia castigo corporal miraculoso
+- **Albert Barnes · 1 Coríntios 5:5** · tema: dons
+  > Houve evidentemente poder miraculoso manifestado neste caso, e esse poder há muito tempo cessou na igreja.
+  _Motivo:_ o autor afirma que o poder miraculoso cessou na igreja
+- **Albert Barnes · 1 Coríntios 5:5** · tema: dons
+  > e cessou, sem dúvida, com os apóstolos. A igreja agora não tem tal poder. Não pode agora operar milagres;
+  _Motivo:_ o autor afirma que os milagres cessaram com os apóstolos (cessacionismo)
+- **Albert Barnes · 1 Coríntios 5:7** · tema: tipologia
+  > Não pode haver dúvida aqui de que o cordeiro pascal era um tipo do Messias;
+  _Motivo:_ o cordeiro pascal como figura de Cristo
+- **Albert Barnes · 1 Coríntios 5:7** · tema: tipologia
+  > Esta passagem prova que Paulo quis ensinar que Cristo tomou o lugar do cordeiro pascal — que esse cordeiro era destinado a prefigurá-lo ou a ser tipo dele —
+  _Motivo:_ o cordeiro pascal como tipo de Cristo
+- **Albert Barnes · 1 Coríntios 5:8** · tema: ceia
+  > Não significa aqui literalmente a ceia pascal — pois essa deixara de ser observada pelos cristãos —, nem particularmente a Ceia do Senhor;
+  _Motivo:_ o autor nega que a “festa” se refira particularmente à Ceia do Senhor
+- **Albert Barnes · 1 Coríntios 5:9** · tema: inspiração
+  > Que não há evidência de que esses escritos fossem inspirados. Paulo muitas vezes faz distinção quanto às suas próprias palavras e doutrinas, como inspiradas ou não inspiradas, ver. {{1Co.7}}; e o mesmo pode ter ocorrido nos seus escritos.
+  _Motivo:_ o autor admite que Paulo teria escritos e doutrinas não inspirados
+- **Albert Barnes · 1 Coríntios 5:9** · tema: inspiração
+  > assim como todos os livros inspirados serão destruídos no fim do mundo.
+  _Motivo:_ afirmação de que os livros inspirados serão destruídos no fim do mundo
+- **Albert Barnes · 1 Coríntios 5:13** · tema: ofensivo
+  > Este foi o erro do sistema monástico, e esse erro tem sido ocasião de inúmeras corrupções e abominações na igreja papal.
+  _Motivo:_ linguagem polêmica contra a Igreja Católica
+- **Albert Barnes · 1 Coríntios 6:2** · tema: escatologia
+  > A interpretação comum, a de Grócio, Beza, Calvino, Doddridge etc., é que se refere ao juízo futuro, e que os cristãos naquele dia serão empregados de algum modo no julgamento do mundo.
+  _Motivo:_ o autor afirma que os santos participarão do juízo final, aprovando a condenação de homens e anjos
+- **Albert Barnes · 1 Coríntios 6:3** · tema: escatologia
+  > Ou talvez isto signifique que os santos, no mundo futuro, serão elevados a uma posição em alguns aspectos mais elevada que a dos próprios anjos no céu (Prof. Stuart).
+  _Motivo:_ especulação sobre a posição futura dos santos acima dos anjos
+- **Albert Barnes · 1 Coríntios 6:11** · tema: batismo
+  > A primeira, a de lavar, eu a entendo daquela obra do Espírito pela qual começou na alma o processo de purificação, e que era especialmente significada no batismo — a obra da regeneração ou conversão a Deus.
+  _Motivo:_ o autor liga a lavagem à regeneração pelo Espírito, significada no batismo nas águas
+- **Albert Barnes · 1 Coríntios 6:11** · tema: espirito_santo
+  > Isto designa o processo progressivo e crescente de purificação que sucede à regeneração no cristão.
+  _Motivo:_ o autor descreve a santificação como obra progressiva do Espírito após a regeneração
+- **Albert Barnes · 1 Coríntios 6:11** · tema: batismo
+  > (2.) É renovado pelo Espírito Santo e lavado pelo batismo.
+  _Motivo:_ o autor põe a renovação pelo Espírito e o batismo como etapas da salvação
+- **Albert Barnes · 1 Coríntios 6:18** · tema: ciencia
+  > Os que desejarem ver esses efeitos expostos podem encontrá-los no Dr. Rush, <i>Diseases of the Mind</i> (Doenças da Mente).
+  _Motivo:_ o autor apoia-se na medicina do séc. XIX (Dr. Rush) para afirmar efeitos físicos da fornicação
 - **Adam Clarke · Êxodo 1:19** · tema: ciencia
   > as mulheres que, durante toda a gravidez, estão acostumadas a trabalho pesado, especialmente ao ar livre, têm comparativamente pouca dor no parto
   _Motivo:_ o autor apresenta como fato de experiência geral uma afirmação médica ultrapassada e anedótica
@@ -571,316 +727,4 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Êxodo 9:35** · tema: sábado
   > Lembra-te do dia de sábado, para o santificar
   _Motivo:_ o autor inclui “profanadores do sábado” entre os pecadores com a Bíblia na mão, aplicando o mandamento aos cristãos
-- **Jamieson, Fausset e Brown · Romanos 1:4** · tema: cristologia
-  > Assim, a filiação de Cristo não é, em nenhum sentido próprio, uma relação com o Pai que tenha começado por nascimento, como a concebem alguns teólogos, aliás sãos.
-  _Motivo:_ o autor defende a filiação eterna e incriada do Filho, anterior à encarnação
-- **Jamieson, Fausset e Brown · Romanos 1:4** · tema: cristologia
-  > Esta é aqui chamada “espírito”, como natureza impalpável e imaterial ({{Jhn.4.24}}), e “espírito de santidade”, provavelmente em contraste absoluto com aquela “semelhança da carne do pecado” que ele assumiu.
-  _Motivo:_ o autor interpreta “espírito de santidade” como a natureza divina de Cristo, e não o Espírito Santo
-- **Jamieson, Fausset e Brown · Romanos 1:11** · tema: dons
-  > Não algum dom sobrenatural, como mostra a cláusula seguinte; e compare-se {{1Co.1.7}}.
-  _Motivo:_ o autor nega que o “dom espiritual” de Paulo seja um dom sobrenatural
-- **Jamieson, Fausset e Brown · Romanos 1:17** · tema: predestinação
-  > que esta fé é dom do próprio Deus — pelo qual, por isso mesmo, no caso dos crentes romanos, ele “dá graças ao seu Deus por meio de Jesus Cristo” ({{Rom.1.8}}).
-  _Motivo:_ a fé como dom de Deus, tema ligado à eleição
-- **Jamieson, Fausset e Brown · Romanos 1:25** · tema: ofensivo
-  > Quão agravada é a culpa da Igreja de Roma, que, sob o mesmo pretexto frágil, faz desavergonhadamente aquilo por que os pagãos são aqui condenados, e com uma luz que os pagãos nunca tiveram!
-  _Motivo:_ ataque à Igreja Católica comparada aos idólatras pagãos
-- **Jamieson, Fausset e Brown · Romanos 1:26** · tema: ofensivo
-  > não só se torna mais desavergonhado do que o outro sexo, mas vive dali em diante apenas para arrastar o outro sexo ao seu nível.
-  _Motivo:_ generalização depreciativa sobre as mulheres
-- **Jamieson, Fausset e Brown · Romanos 1:32** · tema: ofensivo
-  > desde a idolatria mais elaborada da Índia e a idolatria mais simples e mais estúpida da China, até os rudimentos infantis do culto à natureza predominante entre as tribos selvagens.
-  _Motivo:_ expressões depreciativas sobre povos do Oriente e “tribos selvagens”
-- **Jamieson, Fausset e Brown · Romanos 1:32** · tema: ofensivo
-  > (para não falar do culto menos ofensivo, porém mais estúpido, da Igreja grega)
-  _Motivo:_ expressões depreciativas sobre as Igrejas católica e ortodoxa
-- **Jamieson, Fausset e Brown · Romanos 1:32** · tema: ofensivo
-  > Mas olhe-se para o romanismo onde ele tem liberdade irrestrita para desenvolver o seu verdadeiro caráter, e veja-se se a impureza não contamina ali a sociedade até o âmago, permeando igualmente as classes mais altas e as mais baixas;
-  _Motivo:_ acusação generalizada de imoralidade às sociedades católicas
-- **Jamieson, Fausset e Brown · Romanos 10:9** · tema: predestinação/eleição
-  > Assim, em {{2Pe.1.10}}, a “vocação dos crentes” é posta antes da sua “eleição”, como aquilo que primeiro é “confirmado”, embora em ordem de tempo venha depois dela.
-  _Motivo:_ o autor afirma que a eleição precede a vocação no tempo
-- **Jamieson, Fausset e Brown · Romanos 10:21** · tema: profecia e escatologia
-  > bastavam para prevenir os judeus tanto do propósito de Deus de os despojar dos seus privilégios em favor dos gentios, como da causa disso da parte deles mesmos.
-  _Motivo:_ posição sobre a rejeição de Israel em favor dos gentios
-- **Jamieson, Fausset e Brown · Romanos 10:21** · tema: perda da salvação
-  > A bênção de uma relação de aliança com Deus não é privilégio irrevogável de nenhum povo nem de nenhuma Igreja; só pode ser preservada pela fidelidade, da nossa parte, à própria aliança
-  _Motivo:_ o autor condiciona a permanência na aliança à fidelidade
-- **Jamieson, Fausset e Brown · Romanos 10:21** · tema: predestinação/eleição
-  > O trato de Deus, mesmo com pecadores réprobos, é cheio de ternura e compaixão; o dia todo estende os braços da sua misericórdia até aos rebeldes e contradizentes.
-  _Motivo:_ uso do termo “réprobos” para os que perecem
-- **Jamieson, Fausset e Brown · Romanos 11:0** · tema: profecia e escatologia
-  > a introdução final de todo Israel, para formar, com os gentios, um só reino de Deus na terra
-  _Motivo:_ título temático que afirma a restauração nacional de Israel e um reino de Deus na terra
-- **Jamieson, Fausset e Brown · Romanos 11:1** · tema: profecia e escatologia
-  > a sua resposta é uma admissão virtual de que Israel, em certo sentido, já estava fora da aliança
-  _Motivo:_ posição sobre a situação de Israel diante da aliança
-- **Jamieson, Fausset e Brown · Romanos 11:5** · tema: predestinação/eleição
-  > mas uma escolha soberana de alguns do próprio Israel, dentre outros, para crerem e serem salvos.
-  _Motivo:_ o autor defende eleição soberana e individual para crer e ser salvo
-- **Jamieson, Fausset e Brown · Romanos 11:7** · tema: predestinação/eleição
-  > mas a eleição (o resto eleito de Israel) o achou, e os outros foram endurecidos”, ou judicialmente entregues à “dureza do seu próprio coração”.
-  _Motivo:_ eleição e endurecimento judicial dos demais
-- **Jamieson, Fausset e Brown · Romanos 11:15** · tema: profecia e escatologia
-  > A recepção de toda a família de Israel, dispersa como está entre todas as nações debaixo do céu, e os mais inveterados inimigos do Senhor Jesus, será uma manifestação tão estupenda do poder de Deus
-  _Motivo:_ o autor prevê a conversão futura de todo Israel; chama os judeus de “os mais inveterados inimigos do Senhor Jesus”
-- **Jamieson, Fausset e Brown · Romanos 11:23** · tema: profecia e escatologia
-  > o reenxerto da nação como tal, quando “não permanecerem na incredulidade”.
-  _Motivo:_ o autor defende a recuperação nacional futura de Israel
-- **Jamieson, Fausset e Brown · Romanos 11:25** · tema: profecia e escatologia
-  > Isto é, não a conversão geral do mundo a Cristo, como muitos entendem; pois isto pareceria contradizer a última parte deste capítulo e lançar a recuperação nacional de Israel longe demais no futuro
-  _Motivo:_ interpretação escatológica da “plenitude dos gentios”
-- **Jamieson, Fausset e Brown · Romanos 11:26** · tema: profecia e escatologia
-  > Só pode significar o recolhimento final de Israel como nação, em contraste com o “resto” atual.
-  _Motivo:_ o autor afirma a salvação futura de Israel como nação
-- **Jamieson, Fausset e Brown · Romanos 11:27** · tema: profecia e escatologia
-  > Os que creem que não há no Antigo Testamento predições a respeito do Israel literal que se estendam além do fim da economia judaica
-  _Motivo:_ o autor defende predições do AT sobre o Israel literal ainda por cumprir
-- **Jamieson, Fausset e Brown · Romanos 11:29** · tema: profecia e escatologia
-  > Em outras palavras, o Israel natural — não “o resto deles segundo a eleição da graça”, mas A NAÇÃO, nascida de Abraão segundo a carne — é ainda um povo eleito e, como tal, “amado”.
-  _Motivo:_ o autor afirma que Israel nacional continua povo eleito e será restabelecido
-- **Jamieson, Fausset e Brown · Romanos 11:31** · tema: profecia e escatologia
-  > que será por intermédio de gentios crentes que Israel, como nação, há de por fim “olhar para aquele a quem traspassaram e pranteá-lo”
-  _Motivo:_ previsão da conversão nacional de Israel por meio dos gentios
-- **Jamieson, Fausset e Brown · Romanos 11:32** · tema: predestinação/eleição
-  > Certamente não é “toda a humanidade individualmente” [MEYER, ALFORD]; pois o apóstolo não está aqui tratando de indivíduos
-  _Motivo:_ o autor restringe o “todos” da misericórdia a grupos, não a indivíduos
-- **Jamieson, Fausset e Brown · Romanos 11:36** · tema: perda da salvação
-  > (5) Assim como somos “justificados pela fé”, assim também somos “guardados na virtude de Deus, mediante a fé” — somente a fé — “para a salvação”
-  _Motivo:_ posição sobre a preservação do crente até a salvação
-- **Jamieson, Fausset e Brown · Romanos 11:36** · tema: profecia e escatologia
-  > E por isso é que os judeus como nação ainda serão restaurados à família de Deus, pela sujeição do seu coração orgulhoso àquele a quem traspassaram.
-  _Motivo:_ o autor afirma a perpetuidade da aliança com Israel natural e a sua restauração nacional
-- **Jamieson, Fausset e Brown · Romanos 11:36** · tema: profecia e escatologia
-  > Os que pensam que em todas as profecias evangélicas do Antigo Testamento os termos “Jacó”, “Israel” etc. devem ser entendidos unicamente da Igreja cristã
-  _Motivo:_ o autor rejeita a leitura de “Israel” nas profecias como sendo só a Igreja
-- **Jamieson, Fausset e Brown · Romanos 12:1** · tema: tipologia
-  > A morte do único “Cordeiro de Deus, que tira o pecado do mundo”, varreu todas as vítimas mortas de cima do altar de Deus
-  _Motivo:_ os sacrifícios levíticos como figura cumprida no Cordeiro de Deus
-- **Jamieson, Fausset e Brown · Romanos 12:6** · tema: dons
-  > Isto é, de ensino inspirado (como em {{Act.15.32}}). Qualquer um que falasse com autoridade divina — quer com referência ao passado, ao presente ou ao futuro — era chamado profeta ({{Exo.7.1}}).
-  _Motivo:_ o autor define o dom de profecia como ensino inspirado
-- **Jamieson, Fausset e Brown · Romanos 12:6** · tema: dons
-  > como todos os dons dos crentes são segundo a respectiva capacidade deles para recebê-los, não devem ensoberbecer-se por causa deles
-  _Motivo:_ interpretação de “profetizar segundo a medida da fé”
-- **Jamieson, Fausset e Brown · Romanos 12:7** · tema: dons
-  > Os mestres são expressamente distinguidos dos profetas e postos depois deles, como exercendo uma função inferior
-  _Motivo:_ hierarquia entre os dons de profecia e de ensino
-- **Jamieson, Fausset e Brown · Romanos 12:21** · tema: ceia/sacramentos
-  > que havemos de pensar do chamado “sacrifício incruento da missa, continuamente oferecido a Deus como propiciação pelos pecados tanto dos vivos como dos mortos”, que os adeptos da fé corrompida de Roma
-  _Motivo:_ o autor ataca a doutrina católica da missa, com expressão forte contra Roma
-- **Jamieson, Fausset e Brown · Romanos 12:21** · tema: batismo
-  > Que necessidade de um novo batismo do Espírito para isto!
-  _Motivo:_ o autor fala de um novo batismo do Espírito para a Igreja
-- **Jamieson, Fausset e Brown · Romanos 13:11** · tema: profecia e escatologia
-  > que representa o dia decisivo da segunda vinda de Cristo como próximo, para manter os crentes sempre na atitude de expectativa vigilante, mas sem referência à proximidade ou distância cronológica desse acontecimento.
-  _Motivo:_ posição sobre a iminência da segunda vinda de Cristo
-- **Jamieson, Fausset e Brown · Romanos 13:14** · tema: profecia e escatologia
-  > A rápida marcha do reino de Deus, o estágio avançado dele a que chegamos e a aproximação cada vez maior do dia perfeito
-  _Motivo:_ visão do avanço progressivo do reino de Deus até o dia perfeito
-- **Jamieson, Fausset e Brown · Romanos 15:13** · tema: obra do Espírito Santo
-  > A quem, na economia da redenção, cabe inspirar nos crentes todos os afetos da graça.
-  _Motivo:_ o autor define a função do Espírito Santo na economia da redenção
-- **Jamieson, Fausset e Brown · Romanos 15:16** · tema: tipologia
-  > O fim para o qual as antigas ofertas apontavam tipicamente.
-  _Motivo:_ as ofertas antigas como figura da santificação pelo Espírito
-- **Jamieson, Fausset e Brown · Romanos 15:19** · tema: dons
-  > Isto parece destinado a explicar a eficácia da palavra pregada, bem como a operação dos milagres que a confirmavam.
-  _Motivo:_ o autor atribui ao Espírito a eficácia da pregação e os milagres que a confirmavam
-- **Jamieson, Fausset e Brown · Romanos 15:33** · tema: ofensivo
-  > Que contraste isto apresenta com o orgulho hierárquico, e em particular com a humildade afetada do bispo desta mesma Roma!
-  _Motivo:_ polêmica pessoal contra o papa
-- **Jamieson, Fausset e Brown · Romanos 15:33** · tema: ceia/sacramentos
-  > Na Igreja cristã não há sacerdócio real, nem outros sacrifícios senão os figurados.
-  _Motivo:_ o autor nega o sacerdócio ministerial, a presença real e o sacrifício da missa
-- **Jamieson, Fausset e Brown · Romanos 16:13** · tema: predestinação/eleição
-  > Significando não “que é um dos eleitos”, como todo crente o é, mas “o escolhido”, ou “o precioso” no Senhor.
-  _Motivo:_ o autor afirma que todo crente é um dos eleitos
-- **Jamieson, Fausset e Brown · Romanos 16:20** · tema: tipologia
-  > e, de fato, esta certeza não é senão uma reprodução da primeira grande promessa, de que a Semente da mulher esmagaria a cabeça da Serpente ({{Gen.3.15}}).
-  _Motivo:_ Gn 3:15 lido como promessa de Cristo (protoevangelho)
-- **Jamieson, Fausset e Brown · Romanos 2:28** · tema: batismo
-  > assim também a falta deles não excluirá do reino dos céus os que, sem eles, experimentaram aquela mudança de coração que os selos da aliança de Deus tinham por fim assinalar.
-  _Motivo:_ o autor afirma que a falta dos sinais exteriores da aliança (batismo e sacramentos) não exclui do reino
-- **Jamieson, Fausset e Brown · Romanos 2:28** · tema: ceia
-  > não têm motivo para tremer todos os discípulos batizados e participantes dos sacramentos do Senhor Jesus
-  _Motivo:_ menção ao batismo e aos sacramentos como distintivos exteriores
-- **Jamieson, Fausset e Brown · Romanos 4:25** · tema: ceia
-  > Os sacramentos da Igreja nunca tiveram por fim, nem são aptos para, conferir graça, ou as bênçãos da salvação, aos homens.
-  _Motivo:_ posição do autor sobre os sacramentos (batismo e ceia) como selos, não meios de graça
-- **Jamieson, Fausset e Brown · Romanos 4:25** · tema: batismo
-  > Assim como a circuncisão apenas “selou” a aceitação já existente de Abraão por Deus, assim também se dá com os sacramentos do Novo Testamento.
-  _Motivo:_ o batismo apresentado como selo de um estado já existente, à semelhança da circuncisão
-- **Jamieson, Fausset e Brown · Romanos 4:25** · tema: ofensivo
-  > como insistem os romanistas e outros errôneos
-  _Motivo:_ expressão depreciativa sobre católicos
-- **Jamieson, Fausset e Brown · Romanos 5:5** · tema: obra do Espírito Santo
-  > Isto é, no grande derramamento do Pentecostes, que é visto como a doação formal do Espírito à Igreja de Deus, para todo o tempo e para cada crente.
-  _Motivo:_ o autor vê o Pentecostes como a doação formal e única do Espírito à Igreja, para todos os crentes
-- **Jamieson, Fausset e Brown · Romanos 5:11** · tema: perda da salvação
-  > e, onde isto existe, traz consigo uma certeza da salvação final que não pode enganar
-  _Motivo:_ o autor afirma uma certeza da salvação final que não pode falhar (perseverança garantida)
-- **Jamieson, Fausset e Brown · Romanos 5:14** · tema: tipologia
-  > O sentido simples é, como concordam quase todos os intérpretes, que Adão é tipo daquele que havia de vir depois dele no mesmo caráter público, e assim ser “o segundo Adão”.
-  _Motivo:_ Adão como figura (tipo) de Cristo
-- **Jamieson, Fausset e Brown · Romanos 5:19** · tema: predestinação/eleição
-  > Só que, neste último caso, é unicamente a família remida do homem que está em vista; é a humanidade como realmente perdida, mas também como realmente salva, como arruinada e recuperada.
-  _Motivo:_ o autor rejeita a leitura de uma justificação oferecida a todos e restringe o “todos” aos remidos; confirmar à luz do ensino sobre o chamado
-- **Jamieson, Fausset e Brown · Romanos 5:19** · tema: profecia e escatologia
-  > Assim, a doutrina da restauração universal não tem lugar aqui.
-  _Motivo:_ o autor rejeita o universalismo
-- **Jamieson, Fausset e Brown · Romanos 5:21** · tema: predestinação/eleição
-  > Certamente não como mera morte temporal, como afirmam os comentaristas arminianos.
-  _Motivo:_ polêmica do autor contra a posição arminiana
-- **Jamieson, Fausset e Brown · Romanos 6:3** · tema: batismo
-  > Quem, pois, foi batizado na morte de Cristo entregou formalmente todo o estado e vida de pecado, como coisa morta em Cristo.
-  _Motivo:_ o autor atribui ao batismo com água o selo e a entrada formal nos benefícios da morte de Cristo
-- **Jamieson, Fausset e Brown · Romanos 6:4** · tema: batismo
-  > e nós, ao sermos “sepultados com ele pelo nosso batismo na sua morte”, cortamos por este ato público o nosso último laço de ligação com toda aquela condição e vida de pecado
-  _Motivo:_ o batismo como ato público que rompe com a vida de pecado
-- **Jamieson, Fausset e Brown · Romanos 6:4** · tema: batismo
-  > assim a essência do batismo parece estar no simples contato do elemento com o corpo, simbolizando o contato vivo com Cristo crucificado; sendo o modo e a extensão da aplicação indiferentes e variáveis conforme o clima e as circunstâncias.
-  _Motivo:_ o autor relativiza o batismo por imersão e aceita aspersão
-- **Jamieson, Fausset e Brown · Romanos 6:14** · tema: perda da salvação
-  > assim agora, que estão “debaixo da graça”, o Pecado não pode deixar de ser subjugado sob eles.
-  _Motivo:_ afirmação de vitória garantida sobre o pecado para os que estão debaixo da graça
-- **Jamieson, Fausset e Brown · Romanos 6:21** · tema: predestinação/eleição
-  > e na morte — “a segunda morte” — para a qual os estava arrastando quando a pura Graça os deteve.
-  _Motivo:_ possível ênfase numa graça que detém o pecador independentemente da sua resposta
-- **Jamieson, Fausset e Brown · Romanos 7:25** · tema: perda da salvação
-  > e assim triunfar sobre tudo o que ameaça destruir aqueles por quem Cristo morreu, a ponto de levá-los a salvo, através dos mares tempestuosos desta vida, ao porto do descanso eterno
-  _Motivo:_ o autor sugere que a obra da Cruz leva infalivelmente os remidos ao descanso eterno (perseverança garantida)
-- **Jamieson, Fausset e Brown · Romanos 7:25** · tema: predestinação/eleição
-  > No século seguinte, os ortodoxos da Holanda tiveram de travar a mesma controvérsia com “os Remonstrantes” (os seguidores de Armínio), e travaram-na no campo deste capítulo.
-  _Motivo:_ o autor chama de “ortodoxos” os calvinistas contra os arminianos
-- **Jamieson, Fausset e Brown · Romanos 7:25** · tema: ofensivo
-  > Quando os teólogos daquela igreja corrupta, num espírito pelagiano
-  _Motivo:_ linguagem polêmica contra a Igreja de Roma
-- **Jamieson, Fausset e Brown · Romanos 8:2** · tema: obra do Espírito Santo
-  > É o Espírito Santo que aqui é chamado “o Espírito de vida”, por abrir na alma dos crentes uma fonte de vida espiritual
-  _Motivo:_ o autor descreve a obra do Espírito como princípio de vida que liberta o crente do domínio do pecado
-- **Jamieson, Fausset e Brown · Romanos 8:3** · tema: cristologia
-  > Esta e outras expressões semelhantes implicam claramente que Cristo era o “PRÓPRIO FILHO” de Deus antes de ser enviado
-  _Motivo:_ o autor afirma a filiação eterna do Filho, anterior à encarnação
-- **Jamieson, Fausset e Brown · Romanos 8:9** · tema: obra do Espírito Santo
-  > É como “o Espírito de Cristo” que o Espírito Santo toma posse dos crentes
-  _Motivo:_ o autor afirma que o Espírito Santo habita em todo crente e que quem não o tem não é de Cristo
-- **Jamieson, Fausset e Brown · Romanos 8:13** · tema: obra do Espírito Santo
-  > (6) Visto que o Espírito Santo é, num mesmo fôlego, chamado indistintamente “o Espírito de Deus”, “o Espírito de Cristo” e o próprio “Cristo”
-  _Motivo:_ o autor fundamenta a doutrina da Trindade na linguagem sobre o Espírito
-- **Jamieson, Fausset e Brown · Romanos 8:16** · tema: obra do Espírito Santo
-  > pois o Espírito Santo dentro de nós, sim, naquele mesmo clamor que é obra sua suscitar, põe o seu próprio e distinto selo ao nosso
-  _Motivo:_ o autor descreve o testemunho interior do Espírito sobre a filiação do crente
-- **Jamieson, Fausset e Brown · Romanos 8:21** · tema: escatologia
-  > Isto é, a própria criação será, num sentido glorioso, libertada para aquela isenção da debilidade e da decadência
-  _Motivo:_ o autor afirma a futura libertação da criação material na ressurreição
-- **Jamieson, Fausset e Brown · Romanos 8:22** · tema: escatologia
-  > Se só por causa do homem a terra foi amaldiçoada, não nos pode surpreender que ela participe da sua restauração.
-  _Motivo:_ o autor ensina a restauração futura da terra junto com a redenção do homem
-- **Jamieson, Fausset e Brown · Romanos 8:26** · tema: obra do Espírito Santo
-  > Pois ‘o próprio Espírito’ está neles, dando às emoções que ele mesmo acendeu a única linguagem de que são capazes
-  _Motivo:_ o autor interpreta os gemidos inexprimíveis como intercessão do Espírito por meio dos gemidos do próprio crente
-- **Jamieson, Fausset e Brown · Romanos 8:27** · tema: ofensivo
-  > e a “fé duvidosa” que a Igreja papista inculca sistematicamente
-  _Motivo:_ expressão depreciativa (“papista”) dirigida à Igreja Católica
-- **Jamieson, Fausset e Brown · Romanos 8:28** · tema: predestinação
-  > E, sabendo que é em cumprimento de um “propósito” eterno de amor que foram “chamados à comunhão de seu Filho Jesus Cristo”
-  _Motivo:_ o autor afirma que o propósito eterno de Deus não pode ser frustrado no chamado dos crentes
-- **Jamieson, Fausset e Brown · Romanos 8:29** · tema: predestinação
-  > “Aqueles que ele previu que se arrependeriam e creriam”, dizem os pelagianos de todas as épocas e de todos os matizes. Mas isto é introduzir à força no texto o que é contrário a todo o espírito, e até à letra, do ensino do apóstolo
-  _Motivo:_ o autor rejeita a predestinação baseada na presciência da fé e defende a eleição como propósito fixo de Deus
-- **Jamieson, Fausset e Brown · Romanos 8:30** · tema: predestinação
-  > Significa sempre “chamados interior, eficaz e salvadoramente”.
-  _Motivo:_ o autor afirma o chamado eficaz (que não é mero convite exterior)
-- **Jamieson, Fausset e Brown · Romanos 8:30** · tema: perda da salvação
-  > tudo é contemplado como uma única salvação inteira, eternamente consumada.
-  _Motivo:_ o autor apresenta a cadeia predestinação-glorificação como inquebrável, implicando perseverança garantida
-- **Jamieson, Fausset e Brown · Romanos 8:32** · tema: tipologia
-  > o comovente elogio que Jeová faz do procedimento de Abraão quanto a seu filho Isaque parece destinado a oferecer algo como um vislumbre do espírito do seu próprio ato de entregar o seu próprio Filho
-  _Motivo:_ o sacrifício de Isaque como figura da entrega do Filho por Deus
-- **Jamieson, Fausset e Brown · Romanos 8:32** · tema: cristologia
-  > Mas isto é inconcebível se Cristo não for o “próprio” Filho de Deus, participante da sua própria natureza
-  _Motivo:_ o autor defende a filiação essencial (não adotiva) de Cristo
-- **Jamieson, Fausset e Brown · Romanos 8:33** · tema: predestinação
-  > É o primeiro lugar nesta epístola em que os crentes são chamados “os escolhidos” (eleitos).
-  _Motivo:_ remete à doutrina da eleição desenvolvida no capítulo 9
-- **Jamieson, Fausset e Brown · Romanos 8:35** · tema: perda da salvação
-  > mas é o mais forte fundamento de certeza estar convencido de que o amor dele nunca mudará
-  _Motivo:_ a citação de Hodge apoia a segurança do crente no amor imutável de Cristo
-- **Jamieson, Fausset e Brown · Romanos 8:39** · tema: perda da salvação
-  > nos braços do Amor eterno, de onde nenhum poder hostil nem acontecimento imaginável nos poderá jamais arrancar
-  _Motivo:_ o autor afirma que nada pode separar o crente justificado do amor de Deus (perseverança)
-- **Jamieson, Fausset e Brown · Romanos 8:39** · tema: predestinação
-  > (1) Há uma gloriosa coerência entre os propósitos eternos de Deus e o livre-arbítrio dos homens
-  _Motivo:_ o autor trata da relação entre propósito eterno e livre-arbítrio
-- **Jamieson, Fausset e Brown · Romanos 8:39** · tema: predestinação
-  > Ele não pode experimentar a alegria e a confiança que fluem da sua eleição sem a humildade que
-  _Motivo:_ a citação de Hodge trata da eleição gratuita como doutrina da graça
-- **Jamieson, Fausset e Brown · Romanos 9:1** · tema: obra do Espírito Santo
-  > “A minha consciência, vivificada, iluminada e, ainda agora, sob a operação direta do Espírito Santo.”
-  _Motivo:_ o autor descreve a operação direta do Espírito sobre a consciência
-- **Jamieson, Fausset e Brown · Romanos 9:5** · tema: cristologia
-  > Nesta compreensão da passagem, como testemunho da suprema divindade de Cristo
-  _Motivo:_ o autor defende a leitura de Rm 9:5 como afirmação da divindade de Cristo
-- **Jamieson, Fausset e Brown · Romanos 9:6** · tema: predestinação
-  > que a eleição tratada no corpo deste capítulo é eleição nacional, e não pessoal, e, consequentemente, eleição meramente para vantagens religiosas, e não para a salvação eterna
-  _Motivo:_ o autor rejeita a leitura nacional e defende a eleição pessoal para a salvação eterna
-- **Jamieson, Fausset e Brown · Romanos 9:6** · tema: predestinação
-  > E que esta é uma escolha não para meros privilégios exteriores, mas para a salvação eterna, ficará abundantemente claro pelo que se segue.
-  _Motivo:_ eleição soberana para a salvação eterna
-- **Jamieson, Fausset e Brown · Romanos 9:6** · tema: escatologia
-  > mas nem todos os que pertencem à descendência natural e levam o nome de ‘Israel’ são o Israel da escolha irrevogável de Deus
-  _Motivo:_ posição sobre Israel e a escolha irrevogável
-- **Jamieson, Fausset e Brown · Romanos 9:7** · tema: predestinação
-  > A verdadeira eleição são aqueles da descendência de Abraão que Deus escolhe incondicionalmente
-  _Motivo:_ eleição incondicional
-- **Jamieson, Fausset e Brown · Romanos 9:10** · tema: predestinação
-  > e tudo para mostrar que o único fundamento da distinção estava na escolha incondicional de Deus
-  _Motivo:_ eleição incondicional
-- **Jamieson, Fausset e Brown · Romanos 9:14** · tema: predestinação
-  > de que Deus escolhe um e rejeita outro, não por causa das suas obras, mas puramente no exercício do seu próprio beneplácito
-  _Motivo:_ eleição e rejeição pelo beneplácito de Deus
-- **Jamieson, Fausset e Brown · Romanos 9:17** · tema: predestinação
-  > aqui mostra, por um exemplo, que Deus pune a quem quer
-  _Motivo:_ o autor aplica a soberania divina à punição (caso de Faraó)
-- **Jamieson, Fausset e Brown · Romanos 9:17** · tema: predestinação
-  > foi com isso em vista que Deus dispôs que o mal que nele havia se manifestasse nesta forma definida
-  _Motivo:_ Faraó como destinado a ser monumento da justiça penal
-- **Jamieson, Fausset e Brown · Romanos 9:18** · tema: predestinação
-  > Abandonando-os judicialmente à influência endurecedora do próprio pecado
-  _Motivo:_ endurecimento como ato judicial de Deus
-- **Jamieson, Fausset e Brown · Romanos 9:19** · tema: predestinação
-  > que é a eleição e a não eleição para a salvação eterna, anteriores a qualquer diferença de caráter pessoal
-  _Motivo:_ o autor afirma eleição e não eleição (reprovação) independentes do caráter pessoal
-- **Jamieson, Fausset e Brown · Romanos 9:21** · tema: predestinação
-  > é, portanto, perfeitamente lícito a Deus poupar um e não outro, fazer um vaso para honra e outro para desonra
-  _Motivo:_ soberania de Deus em conceder ou negar graça
-- **Jamieson, Fausset e Brown · Romanos 9:22** · tema: predestinação
-  > Isto é, “destinados à ira”
-  _Motivo:_ o autor interpreta os vasos da ira como destinados à ira
-- **Jamieson, Fausset e Brown · Romanos 9:22** · tema: predestinação
-  > e, se a escolha entre as duas classes não devia fundar-se, como o nosso apóstolo também ensina, nas suas próprias ações, mas no beneplácito de Deus, a decisão tinha de repousar, em última instância, em Deus
-  _Motivo:_ reprovação/eleição fundada só no beneplácito de Deus
-- **Jamieson, Fausset e Brown · Romanos 9:22** · tema: inspiração
-  > e, mesmo que abandonemos a própria Bíblia, enquanto reconhecermos um Deus onipotente e onisciente
-  _Motivo:_ citação hipotética de Stuart sobre abandonar a Bíblia (não nega a inspiração, mas convém conferir)
-- **Jamieson, Fausset e Brown · Romanos 9:23** · tema: predestinação
-  > que “se manifestou em escolher e dispor eternamente a salvação de pecadores”
-  _Motivo:_ eleição eterna
-- **Jamieson, Fausset e Brown · Romanos 9:24** · tema: predestinação
-  > mas no devido tempo “chamando-nos” eficazmente
-  _Motivo:_ chamado eficaz
-- **Jamieson, Fausset e Brown · Romanos 9:24** · tema: escatologia
-  > mas, sendo a rejeição de Israel apenas parcial, a preservação de um “remanescente”, no qual a promessa se cumpriu, foi simplesmente “segundo a eleição da graça”
-  _Motivo:_ posição sobre a rejeição parcial de Israel
-- **Jamieson, Fausset e Brown · Romanos 9:27** · tema: predestinação
-  > Isto é, somente o remanescente eleito será salvo.
-  _Motivo:_ salvação restrita ao remanescente eleito
-- **Jamieson, Fausset e Brown · Romanos 9:33** · tema: predestinação
-  > e, contudo, em calma confiança de que “aos que Deus predestina, e chama, e justifica, a esses (no devido tempo) também glorifica”
-  _Motivo:_ certeza da glorificação dos predestinados (perseverança)
-- **Jamieson, Fausset e Brown · Romanos 9:33** · tema: dons
-  > não é peculiar aos que foram sobrenaturalmente inspirados
-  _Motivo:_ distinção entre inspiração sobrenatural e a operação comum do Espírito no crente
 
