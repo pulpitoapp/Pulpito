@@ -22,6 +22,18 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Albert Barnes · Atos 4:12** · tema: salvação
   > Se alguns dos pagãos hão de ser salvos, como supõe a maioria dos cristãos, e como parece estar de acordo com a misericórdia de Deus, não é menos certo que isso será em consequência da intervenção de Cristo.
   _Motivo:_ o autor admite a possível salvação de pagãos que não ouviram o evangelho (e de crianças pelos méritos da expiação); conferir
+- **Albert Barnes · Romanos 1:4** · tema: cristologia
+  > De qualquer derivação de Deus, ou emanação dele na eternidade, as Escrituras se calam.
+  _Motivo:_ o autor nega que o título “Filho de Deus” se refira a uma filiação eterna, aplicando-o só à condição encarnada (nega a filiação eterna do Filho)
+- **Albert Barnes · Romanos 1:4** · tema: cristologia
+  > Não se afirma que este título tenha sido dado à Segunda Pessoa da Trindade antes de se encarnar
+  _Motivo:_ o autor restringe o título de Filho à encarnação
+- **Albert Barnes · Romanos 3:26** · tema: cristologia
+  > não para sofrer a pena exata dela, pois os seus sofrimentos não foram eternos, nem foram acompanhados de remorso de consciência ou de desespero, que são a pena própria da lei; mas ele sofreu o suficiente para alcançar os mesmos fins como se os que hão de ser salvos por ele tivessem sido condenados à morte eterna
+  _Motivo:_ visão governamental da expiação: Cristo não teria sofrido a pena do pecado, apenas um equivalente
+- **Albert Barnes · Romanos 4:5** · tema: cristologia
+  > Não se quer dizer que a justiça de Cristo lhes seja transferida de modo a tornar-se pessoalmente deles
+  _Motivo:_ o autor rejeita a transferência da justiça de Cristo ao crente; posição doutrinária sobre a justificação
 - **Adam Clarke · Gênesis 36:43** · tema: predestinação/eleição
   > por que não podemos esperar encontrá-lo com eles no último dia, assim como Ló, ou Jó, ou qualquer outro homem bom e virtuoso que não foi destinado a ser participante da bênção dada a Abraão?
   _Motivo:_ especulação sobre a salvação final de Esaú
@@ -79,66 +91,6 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 
 ## Ainda não revisados
 
-- **Albert Barnes · Romanos 2:7** · tema: perda da salvação
-  > É doutrina uniforme da Bíblia que ninguém será salvo senão os que perseveram numa vida de santidade,
-  _Motivo:_ o autor afirma que a perseverança na santidade é condição para a salvação
-- **Albert Barnes · Romanos 2:11** · tema: predestinação
-  > nem que não possa fazer diferença no caráter dos homens pela sua providência e pela ação do seu Espírito.
-  _Motivo:_ o autor afirma que Deus, por soberano beneplácito, faz diferença no caráter dos homens
-- **Albert Barnes · Romanos 2:11** · tema: predestinação
-  > Esta passagem, portanto, é muito impropriamente trazida para refutar a doutrina dos decretos, ou da eleição, ou da soberania.
-  _Motivo:_ o autor defende que o texto não refuta a doutrina dos decretos e da eleição
-- **Albert Barnes · Romanos 2:12** · tema: ofensivo
-  > Pode-se acrescentar aqui que todas as investigações modernas têm ido no sentido de confirmar a posição de que os pagãos são hoje tão degradados quanto eram no tempo de Paulo.
-  _Motivo:_ generalização depreciativa sobre os povos pagãos
-- **Albert Barnes · Romanos 2:24** · tema: ofensivo
-  > Estavam dispersos por toda parte; por toda parte eram corruptos e ímpios; e por toda parte eles e a sua religião eram desprezados.
-  _Motivo:_ generalização negativa sobre os judeus
-- **Albert Barnes · Romanos 2:25** · tema: batismo
-  > e ser consagrado a Deus no batismo: pois todas estas são circunstâncias favoráveis à salvação.
-  _Motivo:_ o autor pressupõe o batismo de crianças como consagração a Deus
-- **Albert Barnes · Romanos 2:25** · tema: batismo
-  > Isto se aplica com a mesma força aos que foram batizados na infância
-  _Motivo:_ o autor pressupõe a prática do batismo infantil
-- **Albert Barnes · Romanos 2:29** · tema: obra do Espírito Santo
-  > Não significa pelo Espírito Santo, mas que a obra devia realizar-se na alma, e não somente no corpo.
-  _Motivo:_ o autor nega que “no espírito” se refira ao Espírito Santo
-- **Albert Barnes · Romanos 2:29** · tema: batismo
-  > 4. Que o fato de termos sido consagrados a Deus no batismo não nos salvará.
-  _Motivo:_ o autor pressupõe o batismo de crianças como consagração a Deus
-- **Albert Barnes · Romanos 4:13** · tema: escatologia
-  > dando a entender que os seus descendentes espirituais, isto é, os que possuem a sua fé, ainda hão de ser tão numerosos que possuirão todas as terras
-  _Motivo:_ o autor interpreta “herdeiro do mundo” como futura posse de todas as terras pelos crentes (expectativa de cristianização do mundo)
-- **Albert Barnes · Romanos 4:3** · tema: cristologia
-  > Quando, portanto, se diz que a justiça de Cristo nos é atribuída ou imputada; quando se diz que os seus méritos são transferidos e contados como nossos; seja qual for a verdade dessa doutrina, ela não pode ser defendida com esta passagem da Escritura.
-  _Motivo:_ o autor nega que a passagem ensine a imputação da justiça de Cristo ao crente (posição sobre a obra de Cristo na justificação)
-- **Albert Barnes · Romanos 4:5** · tema: cristologia
-  > Não se quer dizer que a justiça de Cristo lhes seja transferida de modo a tornar-se pessoalmente deles
-  _Motivo:_ o autor rejeita a transferência da justiça de Cristo ao crente; posição doutrinária sobre a justificação
-- **Albert Barnes · Romanos 6:3** · tema: batismo
-  > O ato do batismo denota dedicação ao serviço daquele em cujo nome somos batizados.
-  _Motivo:_ o autor define o sentido do batismo como consagração ao serviço de Cristo
-- **Albert Barnes · Romanos 6:3** · tema: batismo
-  > O nosso batismo tinha forte semelhança com a sua morte. Por ela, ele se tornou insensível às coisas do mundo; pelo batismo, nós, de igual maneira, nos tornamos mortos para o pecado.
-  _Motivo:_ o autor atribui ao batismo o efeito de nos tornar mortos para o pecado
-- **Albert Barnes · Romanos 6:4** · tema: batismo
-  > Mas, embora isto seja admitido, também é certo que o seu objetivo e intenção principal não era descrever o modo do batismo, nem afirmar que esse modo devesse ser universal.
-  _Motivo:_ o autor nega que a imersão seja o modo obrigatório do batismo
-- **Albert Barnes · Romanos 6:4** · tema: batismo
-  > Embora se admita que a alusão aqui era provavelmente ao costume da imersão no batismo, a passagem não pode ser apresentada como argumento de que este seja o único modo, ou de que ele obrigue todos os cristãos em todos os lugares e épocas, pelas seguintes razões:
-  _Motivo:_ o autor defende o batismo por efusão ou aspersão como igualmente válido e menciona o batismo na infância
-- **Albert Barnes · Romanos 6:4** · tema: batismo
-  > É igualmente verdade que os que são batizados por efusão, ou por aspersão, são batizados na sua morte, tornam-se, por profissão, mortos para o pecado e para o mundo e ficam sob a obrigação de viver para Deus, tanto quanto os que são imersos.
-  _Motivo:_ o autor equipara aspersão/efusão à imersão
-- **Albert Barnes · Romanos 6:4** · tema: batismo
-  > não prova que deva ser observado em meio às neves e aos gelos polares, e na infância, na velhice, na fraqueza e na doença.
-  _Motivo:_ o autor pressupõe o batismo de crianças e dispensa a imersão em certos casos
-- **Albert Barnes · Romanos 6:20** · tema: predestinação
-  > Estáveis inteiramente entregues ao pecado; uma expressão forte da depravação total. Isto resolve a questão e prova que eles não tinham nenhuma bondade natural.
-  _Motivo:_ o autor afirma a doutrina calvinista da depravação total
-- **Albert Barnes · Romanos 6:23** · tema: predestinação
-  > Os que forem salvos serão elevados ao céu, não porque o mereçam, mas pela rica e soberana graça de Deus.
-  _Motivo:_ menção à “graça soberana”; conferir se não sugere eleição incondicional
 - **Adam Clarke · Êxodo 1:19** · tema: ciencia
   > as mulheres que, durante toda a gravidez, estão acostumadas a trabalho pesado, especialmente ao ar livre, têm comparativamente pouca dor no parto
   _Motivo:_ o autor apresenta como fato de experiência geral uma afirmação médica ultrapassada e anedótica
@@ -607,4 +559,223 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Êxodo 9:35** · tema: sábado
   > Lembra-te do dia de sábado, para o santificar
   _Motivo:_ o autor inclui “profanadores do sábado” entre os pecadores com a Bíblia na mão, aplicando o mandamento aos cristãos
+- **Adam Clarke · Romanos 1:0** · tema: escatologia
+  > que Deus havia rejeitado os judeus incrédulos e posto em seu lugar uma sociedade de crentes em Cristo, reunidos indistintamente de judeus e gentios
+  _Motivo:_ resumo de Paley sobre a rejeição de Israel e sua substituição pela Igreja
+- **Adam Clarke · Romanos 1:0** · tema: religioes
+  > As suratas, ou capítulos, do Alcorão foram dispostas no mesmo tipo de ordem
+  _Motivo:_ o autor usa o Alcorão como ilustração da ordenação das epístolas
+- **Adam Clarke · Romanos 1:0** · tema: predestinação/eleição
+  > Deste único erro surgiram as principais controvérsias que agitaram e dividiram a Igreja de Cristo a respeito das doutrinas da reprovação e da eleição incondicionais.
+  _Motivo:_ o autor atribui a eleição/reprovação incondicional a uma má leitura de Romanos (aplicar aos indivíduos o que se refere aos judeus)
+- **Adam Clarke · Romanos 1:0** · tema: cristologia
+  > Esta Chave é, no essencial, uma obra inestimável e fez grande justiça ao assunto.
+  _Motivo:_ o autor recomenda e anuncia extrato da obra de John Taylor, que ele mesmo diz ser ariano
+- **Adam Clarke · Romanos 1:4** · tema: cristologia
+  > era o Filho de Deus, o próprio Messias prometido antes nas santas Escrituras
+  _Motivo:_ o autor lê “Filho de Deus” como título messiânico (Clarke negava a filiação eterna)
+- **Adam Clarke · Romanos 1:4** · tema: obra do Espírito Santo
+  > Ele foi provado Filho de Deus, o Messias prometido, pelo Espírito Santo (chamado aqui espírito de santidade), que ele enviou sobre os seus apóstolos, e não só sobre eles, mas sobre todos os que creram no seu nome
+  _Motivo:_ o autor identifica o espírito de santidade com o Espírito Santo derramado sobre todos os crentes
+- **Adam Clarke · Romanos 1:6** · tema: predestinação/eleição
+  > ser chamado pelo evangelho é ser convidado a crer em Cristo Jesus e tornar-se seu discípulo.
+  _Motivo:_ o autor entende “chamados” como convite que pode ser aceito ou recusado
+- **Adam Clarke · Romanos 1:7** · tema: perda da salvação
+  > para que ninguém apostate da religião cristã e das bênçãos de perdão e santidade que recebeu por meio dela
+  _Motivo:_ o autor ensina que quem recebeu perdão e santidade pode apostatar
+- **Adam Clarke · Romanos 1:7** · tema: perda da salvação
+  > perdestes as bênçãos do evangelho por vos submeterdes à circuncisão
+  _Motivo:_ o autor afirma que é possível perder as bênçãos do evangelho (Gl 5:4)
+- **Adam Clarke · Romanos 1:11** · tema: dons
+  > é muito provável que esses dons só fossem conferidos por meio dos apóstolos
+  _Motivo:_ o autor restringe a concessão dos dons extraordinários à mediação dos apóstolos
+- **Adam Clarke · Romanos 1:16** · tema: escatologia
+  > têm continuado sob o desagrado de Deus e estão envergonhados da sua confiança
+  _Motivo:_ o autor afirma a condição atual dos judeus sob o desagrado de Deus
+- **Adam Clarke · Romanos 1:17** · tema: tipologia
+  > naquele glorioso Mediador do qual eram os tipos e as representações
+  _Motivo:_ o autor vê as observâncias da lei como tipos de Cristo
+- **Adam Clarke · Romanos 1:17** · tema: perda da salvação
+  > só aquele que o trouxe a esse estado de salvação pode conservá-lo nele; e ele está firme pela fé
+  _Motivo:_ o autor condiciona a permanência na salvação à fé contínua
+- **Adam Clarke · Romanos 1:27** · tema: ciencia
+  > debilitaram os seus corpos, de modo que prevaleceu a esterilidade
+  _Motivo:_ afirmação médica/histórica especulativa apresentada como fato
+- **Adam Clarke · Romanos 1:28** · tema: predestinação/eleição
+  > eles abusaram das suas faculdades, e Deus os privou do reto uso dessas faculdades
+  _Motivo:_ o autor explica o “sentimento réprobo” como abandono judicial por culpa dos homens, não decreto
+- **Adam Clarke · Romanos 1:30** · tema: ofensivo
+  > Todos os deístas devassos são desta classe; e isto parece ser o remate de um caráter diabólico.
+  _Motivo:_ juízo depreciativo generalizado sobre os deístas
+- **Adam Clarke · Romanos 1:31** · tema: ofensivo
+  > Os pagãos, em geral, não tiveram escrúpulo de expor os filhos que não julgavam conveniente criar, e de despachar os pais quando estes ficavam velhos ou incapazes de trabalhar.
+  _Motivo:_ generalização depreciativa sobre os povos pagãos
+- **Adam Clarke · Romanos 1:32** · tema: predestinação/eleição
+  > Blasfema contra Deus quem sustenta o contrário.
+  _Motivo:_ o autor afirma a salvação oferecida a todos e condena a redenção restrita
+- **Adam Clarke · Romanos 10:13** · tema: perda da salvação
+  > e, se permanecer na fé, arraigado e fundado nele, anunciando as virtudes daquele que o chamou das trevas para a sua maravilhosa luz, será salvo com todo o poder de uma vida eterna
+  _Motivo:_ o autor condiciona a salvação final à perseverança na fé
+- **Adam Clarke · Romanos 10:13** · tema: cristologia
+  > a sua palavra κυριος tem de corresponder à palavra do profeta, יהוה Yehovah, o que não é pequena prova da divindade de Jesus Cristo
+  _Motivo:_ o autor argumenta a divindade de Cristo pela aplicação do nome Yehovah a ele
+- **Adam Clarke · Romanos 10:16** · tema: predestinação/eleição
+  > Pois, embora Deus leve a mensagem de salvação aos homens, não os obriga a abraçá-la.
+  _Motivo:_ o autor nega a graça irresistível e afirma a liberdade de aceitar ou rejeitar
+- **Adam Clarke · Romanos 10:21** · tema: Israel
+  > e, tendo-o rejeitado, não podiam esperar outro
+  _Motivo:_ o autor afirma que os judeus que rejeitaram o Evangelho não teriam outro meio de salvação
+- **Adam Clarke · Romanos 10:21** · tema: obra do Espírito Santo
+  > Recebe contínuos suprimentos de graça de Cristo pelo Espírito eterno, por meio dos quais o homem é capacitado a amar a Deus de todo o seu coração, alma, mente e força, e ao seu próximo como a si mesmo.
+  _Motivo:_ o autor descreve a capacitação do crente pela graça mediante o Espírito
+- **Adam Clarke · Romanos 14:5** · tema: sábado
+  > Que o sábado é de obrigação perpétua pode-se razoavelmente concluir da sua instituição (ver. a nota sobre {{Gen.2.3}}) e da sua referência típica.
+  _Motivo:_ o autor afirma que o sábado continua obrigatório para os cristãos até a consumação de todas as coisas
+- **Adam Clarke · Romanos 14:5** · tema: tipologia
+  > Todos admitem que o sábado é um tipo daquele repouso na glória que resta para o povo de Deus.
+  _Motivo:_ o sábado como tipo do repouso eterno, usado para defender a sua vigência
+- **Adam Clarke · Romanos 14:15** · tema: perda da salvação
+  > Deste versículo aprendemos que um homem por quem Cristo morreu pode perecer, ou ter a sua alma destruída, e destruída com uma destruição tal que implica perdição;
+  _Motivo:_ o autor afirma que o irmão por quem Cristo morreu pode perecer eternamente
+- **Adam Clarke · Romanos 14:20** · tema: perda da salvação
+  > E não destruas a alma do teu irmão cristão, {{Rom.14.15}}, ofendendo-o a ponto de induzi-lo a apostatar.
+  _Motivo:_ possibilidade de o crente apostatar e se perder
+- **Adam Clarke · Romanos 14:21** · tema: perda da salvação
+  > No Novo Testamento ela geralmente se refere à apostasia total da religião cristã; e este parece ser o seu sentido neste lugar.
+  _Motivo:_ apostasia total do crente
+- **Adam Clarke · Romanos 14:23** · tema: obra do Espírito Santo
+  > “As obras feitas antes da graça de Cristo e da inspiração do seu Espírito não são agradáveis a Deus, visto que não procedem da fé em Jesus Cristo;
+  _Motivo:_ cita o Artigo XIII anglicano sobre obras antes da graça e da inspiração do Espírito
+- **Adam Clarke · Romanos 2:11** · tema: predestinação/eleição
+  > Nenhum homem, naquele grande dia, será levado ao céu por alguma parcialidade do Juiz; e nenhum homem será enviado ao inferno porque Deus não lhe concedeu graça suficiente, ou porque tivesse feito um decreto que tornasse ineficaz para a sua salvação até mesmo o uso que ele fizesse dela.
+  _Motivo:_ o autor nega o decreto de reprovação e afirma graça suficiente concedida a todos
+- **Adam Clarke · Romanos 2:16** · tema: obra do Espírito Santo
+  > Estas são as leis, νομινα, que o Espírito de Deus escreveu originalmente no coração deles e que, sob diferentes formas, eles haviam posto por escrito.
+  _Motivo:_ o autor atribui as leis dos pagãos à obra do Espírito de Deus em seus corações
+- **Adam Clarke · Romanos 2:16** · tema: religioes
+  > Assim diz Sófocles, no nobre discurso que põe na boca de Antígona:
+  _Motivo:_ usa texto pagão (Antígona, que fala das leis dos deuses) como ilustração da lei escrita no coração
+- **Adam Clarke · Romanos 2:21** · tema: ofensivo
+  > A sua poligamia era escandalosa: até os seus rabinos, quando chegavam a algum lugar, exclamavam: “Quem será minha mulher por um dia?”
+  _Motivo:_ acusações generalizadas contra os judeus e seus rabinos
+- **Adam Clarke · Romanos 2:29** · tema: obra do Espírito Santo
+  > pelo Espírito de Deus, que é o autor de todas as afeições espirituais e dos propósitos santos
+  _Motivo:_ afirmação sobre a obra do Espírito na circuncisão do coração
+- **Adam Clarke · Romanos 2:29** · tema: obra do Espírito Santo
+  > Foi esse Espírito que deu originalmente a palavra; e esse mesmo Espírito pode falar sem essa palavra.
+  _Motivo:_ o autor afirma que o Espírito pode salvar os gentios sem a Palavra escrita
+- **Adam Clarke · Romanos 2:29** · tema: predestinação/eleição
+  > Não devemos supor que Deus não se encontra onde a sua palavra escrita não aparece, nem que a salvação das nações ainda não abençoadas com a luz do evangelho seja impossível.
+  _Motivo:_ o autor admite a salvação de povos que não ouviram o evangelho
+- **Adam Clarke · Romanos 2:29** · tema: escatologia
+  > e parece que o reino de Deus está agora prestes a vir com poder que tudo conquista.
+  _Motivo:_ expectativa de que o reino de Deus viria pela difusão da Bíblia em sua época
+- **Adam Clarke · Romanos 3:0** · tema: escatologia
+  > Nesse diálogo o apóstolo sem dúvida se refere à rejeição dos judeus, que ele considera extensamente nos capítulos nono, décimo e undécimo.
+  _Motivo:_ posição sobre a rejeição de Israel como povo de Deus
+- **Adam Clarke · Romanos 3:4** · tema: predestinação/eleição
+  > Devemos sempre sustentar que Deus é verdadeiro, e que, se em algum caso a sua promessa parecer falhar, é porque a condição sob a qual foi dada não foi cumprida
+  _Motivo:_ o autor afirma que as promessas de Deus são condicionais
+- **Adam Clarke · Romanos 3:19** · tema: obra do Espírito Santo
+  > quer pela inspiração secreta do seu Espírito, como em certos casos aos gentios
+  _Motivo:_ o autor afirma que o Espírito escreve a lei moral no coração dos gentios
+- **Adam Clarke · Romanos 3:22** · tema: predestinação/eleição
+  > mas é para toda a humanidade na sua intenção e oferta, e se torna eficaz para os que creem
+  _Motivo:_ o autor ensina a oferta universal da salvação, eficaz pela fé
+- **Adam Clarke · Romanos 3:25** · tema: tipologia
+  > O propiciatório era a tampa ou cobertura da arca da aliança, onde Deus se manifestava no símbolo da sua presença, entre os querubins; por isso a expiação que se fazia nesse lugar era propriamente feita ao próprio Deus.
+  _Motivo:_ o propiciatório da arca como figura de Cristo
+- **Adam Clarke · Romanos 3:31** · tema: tipologia
+  > Por lei aqui podemos entender toda a lei mosaica, nos seus ritos e cerimônias, da qual Jesus Cristo era o objeto e o fim.
+  _Motivo:_ os ritos da lei mosaica como figuras de Cristo, o Cordeiro de Deus
+- **Adam Clarke · Romanos 3:31** · tema: perda da salvação
+  > Só é salvo dos seus pecados aquele que tem a lei de Deus escrita no coração; e só tem a lei escrita no coração aquele que vive uma vida inocente, santa e útil.
+  _Motivo:_ o autor condiciona a salvação à vida de santidade
+- **Adam Clarke · Romanos 4:12** · tema: ofensivo
+  > Essa é uma conclusão irrespondível e deve, neste ponto, confundir para sempre os judeus.
+  _Motivo:_ tom polêmico contra os judeus
+- **Adam Clarke · Romanos 4:16** · tema: predestinação/eleição
+  > a graça, sendo a pura boa vontade do doador, é livre e aberta a todos aqueles que ele escolhe fazer objetos dela
+  _Motivo:_ citação de Taylor sobre Deus escolher os objetos da graça (eleição)
+- **Adam Clarke · Romanos 4:11** · tema: ceia/sacramentos
+  > Também é inegavelmente evidente, por este versículo onze, bem como por {{Gen.17.1-11}}, que a circuncisão era selo ou sinal da aliança do Evangelho na qual agora estamos.
+  _Motivo:_ circuncisão como selo da aliança do Evangelho (argumento usado para sinais/sacramentos da aliança)
+- **Adam Clarke · Romanos 4:25** · tema: cristologia
+  > Jesus não podia deixar de ser justo e obediente; isso é consequência da pureza imaculada da sua natureza; mas a sua morte não era consequência necessária.
+  _Motivo:_ o autor rejeita a imputação da obediência ativa de Cristo e trata da necessidade de sua obediência e morte
+- **Adam Clarke · Romanos 4:25** · tema: perda da salvação
+  > Quem não vive no devido cumprimento de todo dever cristão, seja qual for a fé que professe, é ou um vil hipócrita ou um escandaloso antinomiano.
+  _Motivo:_ fé professada sem obediência é invalidada; tema da segurança e perseverança
+- **Adam Clarke · Romanos 5:2** · tema: perda da salvação
+  > a nossa permanência no estado de justificados depende da sua graciosa influência em nosso coração e da sua intercessão diante do trono de Deus
+  _Motivo:_ o autor trata a permanência na justificação como dependente, não garantida
+- **Adam Clarke · Romanos 5:5** · tema: dons
+  > Estes eram então necessários; e, se fossem necessários agora, seriam outra vez comunicados.
+  _Motivo:_ o autor sugere que os dons miraculosos do Espírito não são dados hoje por não serem necessários
+- **Adam Clarke · Romanos 5:5** · tema: obra do Espírito Santo
+  > e pela sua luz descobrimos o que ele é e conhecemos o estado de graça em que estamos
+  _Motivo:_ o autor afirma o testemunho interior do Espírito sobre o estado de graça
+- **Adam Clarke · Romanos 5:14** · tema: tipologia
+  > Adão foi a figura, τυπος, o tipo, modelo ou semelhança daquele que havia de vir, isto é, do Messias.
+  _Motivo:_ Adão como tipo de Cristo
+- **Adam Clarke · Romanos 5:15** · tema: tipologia
+  > {{Gen.3.15}}: a semente da mulher ferirá a cabeça da serpente
+  _Motivo:_ o dom gratuito visto já na promessa de Gênesis 3:15 (protoevangelho)
+- **Adam Clarke · Romanos 5:15** · tema: predestinação/eleição
+  > para ser coerente com a doutrina da redenção particular, teria de dizer: A graça de Deus, e o dom pela graça, abundou para alguns.
+  _Motivo:_ o autor rejeita a redenção particular (expiação limitada)
+- **Adam Clarke · Romanos 5:15** · tema: perda da salvação
+  > assim como todos podem receber, assim todos podem aproveitar e reter a graça que recebem; e, consequentemente, todos podem ser eternamente salvos
+  _Motivo:_ o autor afirma graça oferecida a todos e a necessidade de reter a graça recebida
+- **Adam Clarke · Romanos 5:15** · tema: obra do Espírito Santo
+  > uma medida da luz divina é efetivamente comunicada a todo coração
+  _Motivo:_ o autor afirma uma graça/luz comunicada a todo homem
+- **Adam Clarke · Romanos 5:17** · tema: perda da salvação
+  > Em todas essas passagens é evidente que receber e não receber implicam aproveitar ou não aproveitar.
+  _Motivo:_ o autor condiciona o reinar em vida a receber, reter e aproveitar a graça
+- **Adam Clarke · Romanos 5:17** · tema: escatologia
+  > serão remidos do império da morte e exaltados ao trono de Deus, para viver e reinar com ele para sempre
+  _Motivo:_ o autor interpreta o reinar com Cristo citando o Apocalipse
+- **Adam Clarke · Romanos 5:18** · tema: predestinação/eleição
+  > todos serão postos num estado em que podem ser salvos aqui, e toda a raça humana será ressuscitada para a vida no grande dia
+  _Motivo:_ o autor afirma que todos são postos em estado de poder ser salvos
+- **Adam Clarke · Romanos 5:20** · tema: obra do Espírito Santo
+  > mas também o Espírito Santo, na abundância dos seus dons e graças, é comunicado
+  _Motivo:_ o autor fala da comunicação do Espírito Santo e dos seus dons pelo evangelho
+- **Adam Clarke · Romanos 5:21** · tema: predestinação/eleição
+  > e pusesse toda alma que recebesse essa graça (e todos podem recebê-la)
+  _Motivo:_ o autor afirma que todos podem receber a graça
+- **Adam Clarke · Romanos 5:21** · tema: predestinação/eleição
+  > todos os seres humanos que morrem em estado de infância são regenerados por aquela graça de Deus que traz salvação a todos os homens, {{Tit.2.11}}, e vão infalivelmente para o Reino dos céus
+  _Motivo:_ o autor afirma a salvação de todas as crianças que morrem na infância
+- **Adam Clarke · Romanos 5:21** · tema: predestinação/eleição
+  > Nenhum homem será finalmente condenado por ter sido gentio, mas por não ter feito uso apropriado da graça e das vantagens que Deus lhe havia dado.
+  _Motivo:_ o autor afirma que os pagãos serão julgados pela luz que receberam do Espírito
+- **Adam Clarke · Romanos 5:21** · tema: perda da salvação
+  > quando um homem de piedade e probidade é vencido por algum ato de pecado, dizemos que ele caiu
+  _Motivo:_ o autor fala da queda do homem piedoso, que fica exposto ao desagrado de Deus
+- **Adam Clarke · Romanos 6:3** · tema: batismo
+  > Ser batizado em Cristo é receber a doutrina de Cristo crucificado, e receber o batismo como prova da autenticidade dessa fé e da obrigação de viver segundo os seus preceitos.
+  _Motivo:_ o autor define o batismo como prova e profissão da fé, não como meio de regeneração
+- **Adam Clarke · Romanos 6:4** · tema: batismo
+  > Digo que é provável que o apóstolo aluda a esse modo de imersão; mas não é absolutamente certo que o faça, como alguns imaginam
+  _Motivo:_ o autor opina sobre o modo do batismo (imersão ou aspersão) e relativiza a imersão
+- **Adam Clarke · Romanos 6:6** · tema: obra do Espírito Santo
+  > se abriu o caminho para que o Espírito vivificante tivesse o mais pleno acesso ao coração humano e nele exercesse a mais poderosa operação
+  _Motivo:_ o autor descreve a obra do Espírito vivificante na destruição do corpo do pecado
+- **Adam Clarke · Romanos 6:7** · tema: obra do Espírito Santo
+  > de modo que não só é justificado gratuitamente de todo pecado, mas inteiramente santificado para Deus?
+  _Motivo:_ o autor defende a inteira santificação (perfeição cristã) nesta vida e combate quem a nega
+- **Adam Clarke · Romanos 6:13** · tema: predestinação/eleição
+  > Satanás não pode forçar a vontade, e Deus não o fará.
+  _Motivo:_ o autor afirma o livre-arbítrio: Deus não força a vontade humana
+- **Adam Clarke · Romanos 6:14** · tema: perda da salvação
+  > se novamente vos tornardes sujeitos a ele, será efeito da vossa própria escolha ou negligência
+  _Motivo:_ o autor admite que o crente liberto pode voltar a ser dominado pelo pecado por escolha própria
+- **Adam Clarke · Romanos 6:16** · tema: perda da salvação
+  > Podeis supor que continuareis a ser servos de Cristo se cederdes ao pecado?
+  _Motivo:_ o autor afirma que quem cede ao pecado deixa de ser servo de Cristo
+- **Adam Clarke · Romanos 6:17** · tema: obra do Espírito Santo
+  > que foi estampada na sua alma ao crerem no evangelho e receberem o Espírito Santo
+  _Motivo:_ o autor liga o recebimento do Espírito Santo ao momento da fé no evangelho
 
