@@ -61,6 +61,15 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · João 16:13** · tema: dons
   > vos dará tal conhecimento do futuro que, em todos os casos necessários, vos capacitará a predizer acontecimentos futuros; e suprirá toda verdade necessária para tornar completa e perfeita a revelação da nova aliança
   _Motivo:_ o autor fala do dom de profecia aos apóstolos e o liga à conclusão da revelação do Novo Testamento (pode sugerir cessação)
+- **Adam Clarke · Atos 13:33** · tema: cristologia
+  > Se entendido da sua encarnação, não pode significar mais do que isto: que a natureza humana do nosso bendito Senhor foi gerada pela energia do Espírito Santo no ventre da bendita virgem; pois, quanto à sua natureza divina, que se admite ser Deus, ela não podia ser nem criada nem gerada.
+  _Motivo:_ o autor limita a filiação de Cristo à natureza humana
+- **Adam Clarke · Atos 13:33** · tema: cristologia
+  > Mas nas razões acima se demonstra que a doutrina da filiação eterna de Cristo é absolutamente inconciliável com a razão e contraditória em si mesma.
+  _Motivo:_ o autor nega a filiação eterna do Filho
+- **Adam Clarke · Atos 13:33** · tema: cristologia
+  > portanto, a conjunção racional desses dois termos, Filho e eternidade, é absolutamente impossível, pois implicam ideias essencialmente diferentes e opostas.
+  _Motivo:_ o autor nega a filiação eterna do Filho
 - **Jamieson, Fausset e Brown · João 3:10** · tema: obra do Espírito Santo
   > Pois a proposição de nosso Senhor é universal: nenhum homem caído é, nem pode ser, espiritual sem uma operação regeneradora do Espírito Santo
   _Motivo:_ o autor sustenta que havia regeneração pelo Espírito também no Antigo Testamento
@@ -538,397 +547,307 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Êxodo 9:35** · tema: sábado
   > Lembra-te do dia de sábado, para o santificar
   _Motivo:_ o autor inclui “profanadores do sábado” entre os pecadores com a Bíblia na mão, aplicando o mandamento aos cristãos
-- **Adam Clarke · Atos 1:0** · tema: dons
-  > Todas as promessas que Cristo fez dos dons e das graças do Espírito Santo mostram-se aqui cumpridas da maneira mais eminente
-  _Motivo:_ o autor trata do cumprimento dos dons do Espírito Santo no livro de Atos
-- **Adam Clarke · Atos 1:0** · tema: dons
-  > É digno também de observação que o próprio São Lucas não parece ter possuído o dom de cura miraculosa.
-  _Motivo:_ o autor opina sobre quem possuía o dom de cura e por quê
-- **Adam Clarke · Atos 1:0** · tema: ofensivo
-  > ali, podemos ter certeza, está a mais plena prova de que essa Igreja é inteiramente anticristã
-  _Motivo:_ o autor chama de anticristã e diabólica uma Igreja perseguidora (alusão velada a uma confissão)
-- **Adam Clarke · Atos 1:2** · tema: obra do Espírito Santo
-  > Antes disso, podemos supor que os discípulos só eram feitos participantes do Espírito Santo em ocasiões particulares
-  _Motivo:_ o autor afirma que o Espírito passou a residir nos discípulos já em Jo 20:22, antes do Pentecostes
-- **Adam Clarke · Atos 1:4** · tema: obra do Espírito Santo
-  > assim a inspiração do Espírito Santo tem sido e continuará sendo concedida por todo o decurso do tempo, até a sua vinda outra vez para julgar o mundo
-  _Motivo:_ o autor afirma a continuidade da obra do Espírito até a volta de Cristo
-- **Adam Clarke · Atos 1:5** · tema: batismo
-  > mas Cristo batiza com o Espírito Santo, para a destruição do pecado, a iluminação da mente e a consolação do coração
-  _Motivo:_ o autor define o batismo com o Espírito Santo
-- **Adam Clarke · Atos 1:5** · tema: batismo
-  > isso certamente tem mais afinidade com a aspersão do que com a imersão
-  _Motivo:_ o autor defende que batismo não exige imersão e que o modo é de pouca importância
-- **Adam Clarke · Atos 1:6** · tema: escatologia
-  > Senhor, destruirás neste tempo a comunidade judaica, que se opõe à tua verdade, para que o teu reino seja estabelecido sobre toda a terra?
-  _Motivo:_ o autor discute a restauração do reino a Israel e uma leitura alternativa de destruição da nação judaica
-- **Adam Clarke · Atos 1:7** · tema: predestinação/eleição
-  > Assim, Deus não é um agente necessário — tudo está posto em seu próprio poder
-  _Motivo:_ o autor rejeita decretos fixos e imutáveis que Deus seria obrigado a executar
-- **Adam Clarke · Atos 1:8** · tema: dons
-  > contudo, essa energia seria dada em tais tempos e estações, e em tais medidas, que parecessem melhores à infinita sabedoria de Deus
-  _Motivo:_ o autor trata do poder de operar milagres dado aos discípulos
-- **Adam Clarke · Atos 1:8** · tema: ofensivo
-  > Os samaritanos, um povo mestiço
-  _Motivo:_ o autor chama os samaritanos de “mestiços” (mongrel), termo depreciativo
-- **Adam Clarke · Atos 1:9** · tema: ofensivo
-  > Críticos e teólogos estrangeiros tomam uma liberdade muito pecaminosa em assuntos desse tipo.
-  _Motivo:_ generalização depreciativa sobre estudiosos estrangeiros
-- **Adam Clarke · Atos 1:11** · tema: escatologia
-  > Alguns pensam que aquilo a que os anjos se referem é a sua vinda outra vez para destruir a nação judaica.
-  _Motivo:_ o autor menciona a interpretação da volta de Cristo como a destruição da nação judaica
-- **Adam Clarke · Atos 1:20** · tema: tipologia
-  > como Davi, em certos pormenores, foi tipo de Cristo
-  _Motivo:_ o autor apresenta Davi como tipo de Cristo
-- **Adam Clarke · Atos 1:26** · tema: obra do Espírito Santo
-  > para que a pessoa recém-eleita também fosse feita participante do dom celestial
-  _Motivo:_ o autor relaciona o número doze à descida do Espírito no Pentecostes
-- **Adam Clarke · Atos 1:26** · tema: ciencia
-  > o remorso e a agitação da sua mente produziram uma violenta disenteria, acompanhada de forte inflamação
-  _Motivo:_ explicação médica especulativa da morte de Judas apresentada como a mais provável
-- **Adam Clarke · Atos 1:26** · tema: predestinação/eleição
-  > E sustento, além disso, que não há no texto sagrado prova positiva da condenação final de Judas.
-  _Motivo:_ o autor defende a possibilidade da salvação de Judas, contra a leitura de que ele estava destinado à perdição
-- **Adam Clarke · Atos 1:26** · tema: predestinação/eleição
-  > Que há provas presuntivas de que ele não se matou; e
-  _Motivo:_ o autor nega o suicídio de Judas e sustenta que o seu arrependimento foi sincero
-- **Adam Clarke · Atos 10:11** · tema: dons
-  > O trabalho turbulento da sua imaginação e as grosseiras cruezas terrenas que ele deseja impor ao mundo como revelações de Deus bastam para refutar as suas próprias pretensões blasfemas.
-  _Motivo:_ o autor desqualifica como fanatismo quem afirma receber revelações de Deus
-- **Adam Clarke · Atos 10:31** · tema: predestinação/eleição
-  > nenhum homem pode esperar aumento algum de luz ou de vida se não aproveita a graça já dada
-  _Motivo:_ o autor condiciona o aumento da graça à cooperação do homem
-- **Adam Clarke · Atos 10:34** · tema: predestinação/eleição
-  > ele não podia rejeitar as orações piedosas, o jejum sincero e as esmolas generosas de Cornélio, porque a própria fonte de onde procediam era a sua graça e misericórdia
-  _Motivo:_ o autor trata da aceitação de Cornélio antes de ouvir o evangelho
-- **Adam Clarke · Atos 10:35** · tema: predestinação/eleição
-  > Por que Cornélio foi aceito por Deus enquanto milhares dos seus compatriotas foram deixados de lado? Porque não recebeu em vão a graça de Deus
-  _Motivo:_ o autor atribui a aceitação à resposta do homem à graça, não a decreto
-- **Adam Clarke · Atos 10:35** · tema: predestinação/eleição
-  > se tivessem nascido e ainda vivessem numa terra onde a luz do evangelho jamais houvesse brilhado, e ali estivessem seguindo conscienciosamente o tênue raio de luz celestial que Deus lhes concedera, poderiam, com alguma aparência de razão, falar desse modo
-  _Motivo:_ o autor sugere que pagãos sem o evangelho podem ser aceitos segundo a luz que têm
-- **Adam Clarke · Atos 10:36** · tema: predestinação/eleição
-  > Deus quis a salvação de todos os homens por meio de Jesus Cristo
-  _Motivo:_ o autor afirma a vontade salvífica universal de Deus
-- **Adam Clarke · Atos 10:44** · tema: dons
-  > a sua descida se fez conhecer por serem eles capacitados a falar diferentes espécies de línguas
-  _Motivo:_ o autor trata as línguas como sinal da descida do Espírito Santo
-- **Adam Clarke · Atos 10:44** · tema: obra do Espírito Santo
-  > é muito provável que a mesma aparência tenha ocorrido agora
-  _Motivo:_ o autor supõe que houve línguas de fogo visíveis na casa de Cornélio
-- **Adam Clarke · Atos 10:46** · tema: dons
-  > Eles haviam recebido corações novos, assim como línguas novas
-  _Motivo:_ o autor associa o dom de línguas à regeneração
-- **Adam Clarke · Atos 10:47** · tema: batismo
-  > Portanto, o batismo do Espírito não substituiu o batismo com água; nem, na verdade, pode substituí-lo
-  _Motivo:_ o autor trata da relação entre batismo com o Espírito Santo e batismo com água
-- **Adam Clarke · Atos 10:47** · tema: batismo
-  > Em outros casos, recebiam primeiro o batismo, e depois o Espírito pela imposição das mãos
-  _Motivo:_ o autor afirma a ordem batismo com água e depois Espírito Santo pela imposição de mãos
-- **Adam Clarke · Atos 10:47** · tema: ceia/sacramentos
-  > o batismo, assim como a ceia do Senhor, foi instituído não só para ser meio de graça, mas também prova permanente e irrefutável da verdade do cristianismo
-  _Motivo:_ o autor define batismo e ceia como meios de graça
-- **Adam Clarke · Atos 12:15** · tema: ofensivo
-  > Era opinião comum entre os judeus que todo homem tem um anjo da guarda, e na Igreja papista isso é artigo de fé.
-  _Motivo:_ termo depreciativo (“papista”) para a Igreja Católica
-- **Adam Clarke · Atos 12:17** · tema: ofensivo
-  > Quem é capaz de crer em qualquer coisa pode crer nisso.
-  _Motivo:_ tom depreciativo contra escritores católicos (“papistas”)
-- **Adam Clarke · Atos 12:24** · tema: obra do Espírito Santo
-  > pois o espírito de revelação repousava sobre esses homens, e Deus ia acrescentando diariamente àquela palavra conforme as circunstâncias exigiam
-  _Motivo:_ o autor trata da revelação progressiva dada aos apóstolos até completar o Novo Testamento
-- **Adam Clarke · Atos 12:25** · tema: ofensivo
-  > esse povo mau foi deixado permanecer até encher a medida da sua iniquidade, e então foi exterminado por um juízo terribilíssimo
-  _Motivo:_ generalização negativa sobre os judeus como povo
-- **Adam Clarke · Atos 14:3** · tema: dons
-  > Esse poder não residia neles em todo o tempo; era comunicado apenas de vez em quando, quando um milagre era necessário para a confirmação da verdade pregada.
-  _Motivo:_ o autor afirma que o poder de operar milagres não permanecia nos apóstolos, só era comunicado ocasionalmente
-- **Adam Clarke · Atos 14:11** · tema: religioes
-  > Os seus Puranas estão cheios de relatos da descida de Brahma, Vishnu, Shiva, Narada e outros deuses em forma humana.
-  _Motivo:_ o autor usa os avatares e os Puranas hindus como ilustração
-- **Adam Clarke · Atos 14:22** · tema: perda da salvação
-  > assim era necessário que permanecessem nessa fé, para que ela produzisse aquela obediência sem a qual até a própria fé, por mais excelente que seja, há de ser inútil e morta.
-  _Motivo:_ o autor ensina a necessidade de permanecer na fé e na obediência
-- **Adam Clarke · Atos 2:1** · tema: tipologia
-  > Na Páscoa, Jesus Cristo, que foi prefigurado pelo cordeiro pascal, foi sacrificado pelo pecado do mundo
-  _Motivo:_ o autor apresenta o cordeiro pascal e a libertação do Egito como figuras de Cristo e da redenção
-- **Adam Clarke · Atos 2:1** · tema: obra do Espírito Santo
-  > Quando qualquer assembleia do povo de Deus se reúne no mesmo espírito, pode esperar toda bênção de que precisa.
-  _Motivo:_ o autor liga a descida do Espírito à fé e oração unidas da assembleia
-- **Adam Clarke · Atos 2:2** · tema: ciencia
-  > A passagem de uma grande porção de fluido elétrico sobre aquele lugar ocasionaria não só o som, ou trovão, mas também o vento veemente e impetuoso
-  _Motivo:_ o autor explica o som do Pentecostes pela física do “fluido elétrico” do seu tempo
-- **Adam Clarke · Atos 2:3** · tema: religioes
-  > Alguns maometanos representam a inspiração divina da mesma maneira.
-  _Motivo:_ o autor usa obra persa islâmica, pinturas chinesas e hindus e a Eneida de Virgílio como ilustração das línguas de fogo
-- **Adam Clarke · Atos 2:3** · tema: religioes
-  > as auréolas que aparecem em volta da cabeça de santos chineses, hindus e cristãos, reais ou supostos, tinham simplesmente o propósito de significar que eles tinham comunicação especial com Deus
-  _Motivo:_ o autor equipara auréolas de santos de outras religiões a sinais de comunicação com Deus
-- **Adam Clarke · Atos 2:3** · tema: ciencia
-  > Continuo pensando que em todo este caso o agente foi natural, mas empregado sobrenaturalmente.
-  _Motivo:_ o autor afirma que o fogo do Pentecostes foi um agente natural (elétrico) usado sobrenaturalmente
-- **Adam Clarke · Atos 2:4** · tema: dons
-  > nesta fundação da Igreja cristã, o dom de várias línguas foi dado aos apóstolos, para que as nações dispersas fossem reunidas
-  _Motivo:_ o autor interpreta o dom de línguas como idiomas humanos dados para a pregação às nações
-- **Adam Clarke · Atos 2:6** · tema: dons
-  > Podemos naturalmente supor que, assim que alguém se apresentava a um desses discípulos, ele, o discípulo, era imediatamente capacitado a falar-lhe na sua própria língua
-  _Motivo:_ o autor define as línguas do Pentecostes como idiomas estrangeiros para comunicação
-- **Adam Clarke · Atos 2:8** · tema: dons
-  > Mas que o dom de línguas foi de fato dado aos apóstolos, temos a mais plena prova
-  _Motivo:_ o autor trata do dom de línguas e das ordenanças de 1 Coríntios 14
-- **Adam Clarke · Atos 2:17** · tema: dons
-  > A palavra “profetizar” não deve ser entendida aqui como implicando o conhecimento e a revelação de acontecimentos futuros; significa ensinar e proclamar as grandes verdades de Deus
-  _Motivo:_ o autor reduz a profecia de Joel a ensino e proclamação, sem revelação
-- **Adam Clarke · Atos 2:18** · tema: dons
-  > nem escravo nem livre, nem homem nem mulher, é excluído de participar dos dons e das graças do Espírito divino
-  _Motivo:_ o autor afirma a extensão dos dons do Espírito a todos
-- **Adam Clarke · Atos 2:19** · tema: escatologia
-  > É provável que tanto o profeta como o apóstolo se refiram às calamidades que caíram sobre os judeus na destruição de Jerusalém
-  _Motivo:_ o autor aplica os sinais de Joel à destruição de Jerusalém (leitura preterista)
-- **Adam Clarke · Atos 2:20** · tema: escatologia
-  > Estas são representações figuradas de eclipses, destinadas muito provavelmente a indicar a queda do Estado civil e eclesiástico na Judeia
-  _Motivo:_ o autor interpreta os sinais no sol e na lua como figura da queda da Judeia
-- **Adam Clarke · Atos 2:21** · tema: escatologia
-  > E que ninguém senão os cristãos escapou, quando Deus derramou esses juízos, é bem sabido
-  _Motivo:_ o autor aplica a promessa de salvação ao livramento dos cristãos na destruição de Jerusalém
-- **Adam Clarke · Atos 2:23** · tema: predestinação
-  > o conselho de Deus intencionando o sacrifício, mas nunca ordenando que ele fosse realizado por meios tão miseráveis. Isto foi permitido; aquilo foi decretado.
-  _Motivo:_ o autor distingue o decreto de Deus da permissão do mal
-- **Adam Clarke · Atos 2:24** · tema: ofensivo
-  > E sobre este artigo muita lenda papista foi edificada, em descrédito do bom senso e da verdadeira religião.
-  _Motivo:_ expressão depreciativa contra católicos e crítica ao artigo “desceu ao inferno” do Credo
-- **Adam Clarke · Atos 2:27** · tema: cristologia
-  > e não poderia ter passado pela morte temporária, à qual não estava naturalmente sujeito, se não fosse com o propósito de fazer uma expiação
-  _Motivo:_ o autor afirma que a natureza humana de Cristo não estava sujeita à morte nem à corrupção
-- **Adam Clarke · Atos 2:29** · tema: tipologia
-  > Esta é uma coincidência notável, e pode ser facilmente aplicada àquele de quem Davi era figura.
-  _Motivo:_ o autor apresenta Davi como figura de Cristo
-- **Adam Clarke · Atos 2:30** · tema: inspiração
-  > Esta é uma glosa, diz Schoettgen, que se infiltrou no texto, o que provo assim:
-  _Motivo:_ o autor considera parte do versículo uma glosa a ser suprimida do texto
-- **Adam Clarke · Atos 2:35** · tema: escatologia
-  > Pedro mostra aos judeus, que continuavam inimigos de Cristo, que a sua derrota e ruína deviam necessariamente acontecer
-  _Motivo:_ o autor aplica o salmo à ruína dos judeus
-- **Adam Clarke · Atos 2:38** · tema: batismo
-  > Pois o batismo em si não purifica a consciência; apenas aponta para a graça pela qual isso deve ser feito.
-  _Motivo:_ o autor define o batismo como sinal que aponta para a purificação do Espírito
-- **Adam Clarke · Atos 2:38** · tema: batismo
-  > Se usardes fielmente o sinal, obtereis a substância.
-  _Motivo:_ o autor liga o batismo nas águas ao recebimento do Espírito Santo
-- **Adam Clarke · Atos 2:38** · tema: obra do Espírito Santo
-  > recebereis o Espírito Santo, por cuja única ação a eficácia do sangue da aliança é aplicada e por cujo poder refinador o coração é purificado
-  _Motivo:_ o autor descreve a obra purificadora do Espírito
-- **Adam Clarke · Atos 2:39** · tema: predestinação
-  > isto é, todos aqueles a quem, no curso da sua providência e graça, ele enviar a pregação de Cristo crucificado
-  _Motivo:_ o autor interpreta o chamado de Deus como o envio da pregação a todos
-- **Adam Clarke · Atos 2:40** · tema: predestinação
-  > o poder está presente convosco; fazei dele o uso devido, e sereis livrados
-  _Motivo:_ o autor afirma a responsabilidade humana em usar o poder dado por Deus
-- **Adam Clarke · Atos 2:41** · tema: batismo
-  > os gentios que recebiam a doutrina cristã eram batizados em nome do Pai, e do Filho, e do Espírito Santo; ao passo que os convertidos judeus, pelas razões já dadas, eram batizados em nome do Senhor Jesus
-  _Motivo:_ o autor afirma fórmulas batismais diferentes para gentios e judeus
-- **Adam Clarke · Atos 2:41** · tema: perda da salvação
-  > Este batismo era um meio muito poderoso para impedir a sua apostasia
-  _Motivo:_ o autor fala da possibilidade de apostasia dos convertidos
-- **Adam Clarke · Atos 2:42** · tema: ceia/sacramentos
-  > Se isto significa a santa eucaristia ou as suas refeições comuns, é difícil dizer.
-  _Motivo:_ o autor discute se o partir do pão é a ceia
-- **Adam Clarke · Atos 2:42** · tema: perda da salvação
-  > sabendo que não poderiam ser fiéis por mais tempo do que fossem sustentados pelo seu Deus
-  _Motivo:_ o autor condiciona a perseverança à oração e à graça continuada
-- **Adam Clarke · Atos 2:46** · tema: obra do Espírito Santo
-  > o Espírito Santo tinha feito na alma deles, pela sua influência refinadora, o que outros em vão esperam de austeridades corporais
-  _Motivo:_ o autor contrapõe a obra do Espírito aos jejuns severos
-- **Adam Clarke · Atos 2:47** · tema: perda da salvação
-  > a saber, que aqueles a quem Deus acrescenta à Igreja serão necessária e inevitavelmente salvos eternamente; ao passo que nada disso é sugerido pelo texto original
-  _Motivo:_ o autor rejeita a leitura de perseverança garantida e a “indefectibilidade dos santos”
-- **Adam Clarke · Atos 2:47** · tema: predestinação
-  > A nossa tradução de τους σωζομενους, “aqueles que se haviam de salvar”, é imprópria e insustentável.
-  _Motivo:_ o autor rejeita a tradução que sugere predestinação dos salvos
-- **Adam Clarke · Atos 2:47** · tema: predestinação
-  > Se não há coisas tais como contingências no mundo, então tudo é fixado e determinado por um decreto e propósito inalterável de Deus
-  _Motivo:_ o autor argumenta contra o decreto absoluto e a favor do livre-arbítrio
-- **Adam Clarke · Atos 2:47** · tema: predestinação
-  > Concluo que Deus, embora onisciente, não é obrigado, em consequência disso, a conhecer tudo o que pode conhecer
-  _Motivo:_ o autor sustenta que Deus escolhe não conhecer de antemão as ações contingentes (posição peculiar sobre a presciência)
-- **Adam Clarke · Atos 2:47** · tema: predestinação
-  > Deus de fato conhece de antemão todas as coisas, porque elas serão feitas; mas as coisas não são (por isso) feitas porque ele as conhece de antemão.
-  _Motivo:_ citação de Bird sobre presciência e livre-arbítrio
-- **Adam Clarke · Atos 3:4** · tema: obra do Espírito Santo
-  > Pedro e João provavelmente se sentiram, de repente, impelidos pelo Espírito Santo a pronunciar o nome que cura em favor desse pobre homem.
-  _Motivo:_ o autor atribui a cura a um impulso súbito do Espírito Santo
-- **Adam Clarke · Atos 3:6** · tema: dons
-  > embora os santos dessa igreja não consigam operar milagres enquanto vivos, operam muitos depois de mortos
-  _Motivo:_ o autor fala da ausência de milagres na igreja romana, com tom polêmico contra os católicos
-- **Adam Clarke · Atos 3:14** · tema: ofensivo
-  > eles mesmos eram homicidas, e assim Cristo os chama
-  _Motivo:_ o autor chama os judeus de homicidas
-- **Adam Clarke · Atos 3:19** · tema: escatologia
-  > pode aqui aplicar-se ao espaço de tempo que decorreu desde então até a destruição de Jerusalém pelos romanos
-  _Motivo:_ o autor aplica os “tempos do refrigério” ao período até a queda de Jerusalém
-- **Adam Clarke · Atos 3:20** · tema: escatologia
-  > ele seria enviado de novo, no poder do seu Espírito, para justificá-los e salvá-los
-  _Motivo:_ o autor interpreta o novo envio de Cristo como vinda espiritual
-- **Adam Clarke · Atos 3:21** · tema: escatologia
-  > quando tal obra se tornar universal, como as Escrituras parecem dar a entender que se tornará, então todas as coisas serão restauradas no sentido mais pleno do termo
-  _Motivo:_ o autor interpreta a restauração de todas as coisas como o reinado da graça que se tornará universal
-- **Adam Clarke · Atos 3:22** · tema: escatologia
-  > o Evangelho de Jesus Cristo era aquela nova lei que havia de substituir a antiga
-  _Motivo:_ o autor trata da relação entre a lei de Moisés e o Evangelho
-- **Adam Clarke · Atos 4:12** · tema: tipologia
-  > Todos os outros meios eram apenas subordinados e se referiam a ele, e tinham a sua eficácia somente dele.
-  _Motivo:_ o autor apresenta os meios do Antigo Testamento como figuras que apontavam para Cristo
-- **Adam Clarke · Atos 4:22** · tema: predestinação/eleição
-  > aquele que agora se recusa a obedecer ao chamado de Deus não tem nem a razão nem a revelação para se apoiar
-  _Motivo:_ o autor afirma que o homem pode recusar o chamado de Deus
-- **Adam Clarke · Atos 4:27** · tema: predestinação/eleição
-  > pois, nesse caso, a sua fúria e o seu vão conselho seriam tais como o próprio Deus tinha determinado que acontecessem, o que é ao mesmo tempo ímpio e absurdo
-  _Motivo:_ o autor nega que Deus tenha predeterminado as ações dos que crucificaram Cristo
-- **Adam Clarke · Atos 4:31** · tema: obra do Espírito Santo
-  > Embora esses discípulos tivessem recebido o Espírito Santo no dia de Pentecostes, ainda eram capazes de comunicações maiores
-  _Motivo:_ o autor ensina enchimentos repetidos do Espírito Santo depois do Pentecostes
-- **Adam Clarke · Atos 4:33** · tema: predestinação/eleição
-  > pois todos foram comprados pela sua morte sacrificial
-  _Motivo:_ o autor afirma a expiação universal (Cristo morreu por todos)
-- **Adam Clarke · Atos 4:35** · tema: dons
-  > àqueles homens a quem viam que Deus havia confiado os dons do seu Espírito Santo
-  _Motivo:_ o autor liga a administração da igreja aos dons do Espírito
-- **Adam Clarke · Atos 4:36** · tema: dons
-  > este é certamente um dos sentidos que a profecia tem no Novo Testamento
-  _Motivo:_ o autor identifica a profecia do Novo Testamento com a exortação
-- **Adam Clarke · Atos 5:5** · tema: dons
-  > Esse poder, comumente chamado discernimento de espíritos, os apóstolos o tinham como um dom particular, provavelmente não sempre, mas em ocasiões determinadas, quando Deus o via necessário para o bem da sua Igreja.
-  _Motivo:_ o autor descreve o discernimento de espíritos como dom dos apóstolos, exercido só em ocasiões determinadas
-- **Adam Clarke · Atos 5:10** · tema: perda da salvação
-  > De minha parte, penso que o seu pecado foi o que o apóstolo, em {{1Jn.5.16}}, chama de pecado para morte; um pecado que tinha de ser punido com a morte temporal, ou a morte do corpo, enquanto a misericórdia era estendida à alma.
-  _Motivo:_ o autor supõe que Ananias e Safira foram salvos apesar do juízo
-- **Adam Clarke · Atos 5:10** · tema: perda da salvação
-  > mas, porque não tiveram a prorrogação comum, podemos presumir que Deus lhes estendeu misericórdia, embora tenham sido cortados quase no ato do pecado.
-  _Motivo:_ o autor presume a salvação de quem morreu no ato do pecado
-- **Adam Clarke · Atos 5:11** · tema: batismo
-  > 2. enxertada em Cristo pelo batismo;
-  _Motivo:_ o autor (citando Dodd) diz que a Igreja é enxertada em Cristo pelo batismo
-- **Adam Clarke · Atos 5:15** · tema: dons
-  > Só em casos raros Deus capacitava mesmo um apóstolo a operar um milagre.
-  _Motivo:_ o autor afirma que os milagres eram raros mesmo entre os apóstolos
-- **Adam Clarke · Atos 5:15** · tema: dons
-  > Penso que não há evidência suficiente aqui de que a sombra de Pedro tenha curado alguém, embora o povo pensasse que podia curar;
-  _Motivo:_ o autor duvida de que houve curas pela sombra de Pedro
-- **Adam Clarke · Atos 5:17** · tema: ofensivo
-  > Herege, na acepção dela, é aquele que não é papista e que, por não ser papista, está totalmente fora do caminho e fora da possibilidade de ser salvo.
-  _Motivo:_ polêmica dura contra a Igreja de Roma
-- **Adam Clarke · Atos 5:32** · tema: dons
-  > No dom de línguas recentemente comunicado; e pelo seu poder e influência sobre as nossas almas, pelos quais somos capacitados a dar testemunho irresistível da ressurreição do nosso Senhor.
-  _Motivo:_ o autor liga o testemunho do Espírito ao dom de línguas
-- **Adam Clarke · Atos 5:32** · tema: obra do Espírito Santo
-  > O Espírito de Deus é dado aos obedientes: na proporção em que um homem que recebeu as primeiras influências dele (pois sem isso não pode mover-se na vida espiritual) é obediente a essas influências, na mesma proporção os dons e as graças, a luz, a vida e o poder do Espírito Santo aumentam na sua alma.
-  _Motivo:_ o autor ensina que o Espírito e os dons crescem na medida da obediência
-- **Adam Clarke · Atos 5:41** · tema: inspiração
-  > Nada desse tipo, tanto quanto me recordo, aparece mesmo nos santos mais escolhidos sob a dispensação do Antigo Testamento.
-  _Motivo:_ o autor afirma que os santos do AT nunca se alegraram na perseguição
-- **Adam Clarke · Atos 6:3** · tema: obra do Espírito Santo
-  > Salvos para dentro do espírito da dispensação do Evangelho; e feitos participantes daquele Espírito Santo pelo qual a alma é santificada e dotada daquelas graças que constituem o sentimento que houve em Cristo.
-  _Motivo:_ o autor define “cheios do Espírito Santo” como santificação e graças, sem mencionar o batismo com o Espírito
-- **Adam Clarke · Atos 6:4** · tema: ceia/sacramentos
-  > Na Igreja primitiva, é suficientemente evidente que os diáconos davam o pão e o vinho da Eucaristia aos fiéis na igreja, e os levavam aos ausentes, Justino Mártir, <i>Apologia</i> II, p. 162; também pregavam e, em alguns casos, administravam o batismo.
-  _Motivo:_ o autor descreve a administração da Eucaristia e do batismo por diáconos
-- **Adam Clarke · Atos 6:4** · tema: ceia/sacramentos
-  > Na Igreja da Inglaterra (a mais pura e a mais próxima do modelo apostólico em doutrina e disciplina de todas as igrejas nacionais), o diácono recebe a ordenação pela imposição das mãos de um bispo, em consequência da qual pode pregar, auxiliar no sacramento da Ceia do Senhor e, em geral, desempenhar qualquer ofício sagrado, exceto consagrar os elementos e pronunciar a absolvição.
-  _Motivo:_ o autor exalta a Igreja Anglicana e trata a Ceia como sacramento com consagração e absolvição
-- **Adam Clarke · Atos 6:9** · tema: ofensivo
-  > Esses perseguidores professavam a princípio grande preocupação pelas almas daqueles a quem torturavam de vários modos e por fim queimavam; mas as suas ternas misericórdias eram cruéis, e, quando entregavam o corpo às chamas, de muito bom grado consignavam a alma a Satanás.
-  _Motivo:_ polêmica dura contra os católicos romanos
-- **Adam Clarke · Atos 6:10** · tema: obra do Espírito Santo
-  > O espírito pelo qual falava era o Espírito Santo, e o seu poder era irresistível.
-  _Motivo:_ o autor fala do poder irresistível do Espírito na palavra de Estêvão
-- **Adam Clarke · Atos 7:16** · tema: inspiração
-  > A palavra Abraão, portanto, neste lugar, é certamente um engano; e a palavra Jacó, que alguns suprem, é sem dúvida mais apropriada.
-  _Motivo:_ o autor afirma haver erro no texto (atribuído a copistas) ao nomear Abraão como comprador do sepulcro de Siquém
-- **Adam Clarke · Atos 7:36** · tema: tipologia
-  > E não diz Santo Estêvão claramente com isto que a mesma pessoa, Jesus Cristo, a quem eles haviam rejeitado e entregado nas mãos de Pilatos para ser crucificado, era a única pessoa por quem poderiam ser libertados da sua servidão espiritual e feitos participantes da herança dos santos na luz?
-  _Motivo:_ Moisés rejeitado e libertador como figura de Cristo
-- **Adam Clarke · Atos 7:51** · tema: obra do Espírito Santo
-  > Todo este povo, assim como este texto, são provas temíveis de que o Espírito Santo, a energia todo-poderosa do Deus vivo, pode ser resistido e tornado sem efeito.
-  _Motivo:_ o autor ensina que a operação do Espírito Santo pode ser resistida (contra a graça irresistível)
-- **Adam Clarke · Atos 7:51** · tema: predestinação
-  > Forçar o homem a ver, sentir, arrepender-se, crer e ser salvo seria alterar os princípios essenciais da sua criação e a natureza da mente, e reduzi-lo ao estado de uma máquina
-  _Motivo:_ o autor nega a graça irresistível e afirma o livre-arbítrio do homem diante do chamado
-- **Adam Clarke · Atos 7:59** · tema: cristologia
-  > 1. Que Jesus Cristo é Deus, pois Estêvão morreu orando a ele.
-  _Motivo:_ o autor afirma a divindade de Cristo a partir da oração de Estêvão
-- **Adam Clarke · Atos 8:2** · tema: religioes
-  > E, segundo esse princípio, a esposa de um brâmane é queimada com o corpo do marido falecido.
-  _Motivo:_ o autor usa o costume hindu da viúva queimada como ilustração
-- **Adam Clarke · Atos 8:9** · tema: ofensivo
-  > o que não poderiam fazer entre o povo mais rude de Siquém ou de Sebaste, há mil e oitocentos anos?
-  _Motivo:_ generalização depreciativa sobre povos orientais e o povo de Samaria
-- **Adam Clarke · Atos 8:15** · tema: dons
-  > Parece evidente, por este caso, que mesmo os diáconos mais santos, embora cheios do Espírito Santo, não podiam conferir esse dom celestial a outros.
-  _Motivo:_ o autor restringe aos apóstolos a comunicação do Espírito Santo
-- **Adam Clarke · Atos 8:15** · tema: batismo
-  > Certamente não para a santificação das almas do povo: isso eles tinham ao crer em Cristo Jesus, e isso os apóstolos nunca dispensaram.
-  _Motivo:_ posição sobre a natureza do recebimento do Espírito Santo após a conversão
-- **Adam Clarke · Atos 8:15** · tema: dons
-  > Eram os dons miraculosos do Espírito que assim se comunicavam: o falar em diferentes línguas e aquelas qualificações extraordinárias que eram necessárias para a pregação bem-sucedida do evangelho
-  _Motivo:_ o autor liga o dom do Espírito aos dons miraculosos para o ministério público
-- **Adam Clarke · Atos 8:17** · tema: dons
-  > Provavelmente só sobre algumas pessoas escolhidas, que eram julgadas aptas para o serviço público na Igreja.
-  _Motivo:_ o autor supõe que o Espírito Santo foi dado só a alguns escolhidos
-- **Adam Clarke · Atos 8:29** · tema: obra do Espírito Santo
-  > É provável que o que o Espírito fez neste caso tenha sido por uma forte impressão na mente dele, que não lhe deixou dúvida de que vinha de Deus.
-  _Motivo:_ explicação do modo como o Espírito falou a Filipe
-- **Adam Clarke · Atos 8:33** · tema: cristologia
-  > Alguns pensam que “quem contará a sua geração?” se refere à sua filiação eterna
-  _Motivo:_ o autor (que nega a filiação eterna do Filho) prefere outra leitura
-- **Adam Clarke · Atos 8:37** · tema: inspiração
-  > quase todos os críticos se declaram contra ele como espúrio.
-  _Motivo:_ o autor considera o versículo 37 espúrio, a ser riscado do texto
-- **Adam Clarke · Atos 8:38** · tema: batismo
-  > ele provavelmente mergulhou a si mesmo debaixo da água, pois este parece ter sido o método geralmente seguido entre os judeus nos seus batismos
-  _Motivo:_ posição sobre o modo do batismo (autoimersão)
-- **Adam Clarke · Atos 8:39** · tema: obra do Espírito Santo
-  > Talvez isto não signifique mais do que o Espírito Santo ter sugerido à mente de Filipe que se retirasse abruptamente do eunuco
-  _Motivo:_ o autor reduz o arrebatamento sobrenatural de Filipe a uma sugestão interior
-- **Adam Clarke · Atos 8:39** · tema: obra do Espírito Santo
-  > Para tal intervenção não havia necessidade.
-  _Motivo:_ o autor nega o transporte miraculoso de Filipe
-- **Adam Clarke · Atos 9:2** · tema: ofensivo
-  > assim como os papistas de todos os países reconhecem a autoridade do papa
-  _Motivo:_ o autor usa o termo pejorativo “papistas” para os católicos
-- **Adam Clarke · Atos 9:3** · tema: ciencia
-  > Isto pode ter sido um extraordinário clarão do fluido elétrico, acompanhado de trovão
-  _Motivo:_ o autor explica a luz da conversão de Paulo pela teoria do “fluido elétrico”, ciência da época
-- **Adam Clarke · Atos 9:5** · tema: inspiração
-  > As palavras seguintes, que são vinte no original e trinta na nossa versão, não se encontram em nenhum manuscrito grego.
-  _Motivo:_ o autor afirma que parte do versículo da versão inglesa é acréscimo, não texto original
-- **Adam Clarke · Atos 9:17** · tema: obra do Espírito Santo
-  > Parece, portanto, que o Espírito Santo lhe foi dado nesse momento, e provavelmente pela imposição das mãos de Ananias.
-  _Motivo:_ o autor fala do recebimento do Espírito Santo pela imposição de mãos e da sua finalidade
-- **Adam Clarke · Atos 9:17** · tema: ofensivo
-  > Pode o conclave romano responder a esta pergunta? Creio que não. Seria tão difícil respondê-la quanto provar a supremacia de Pedro.
-  _Motivo:_ polêmica do autor contra a Igreja Católica
-- **Adam Clarke · Atos 9:18** · tema: ciencia
-  > A estrutura da córnea foi sem dúvida muito perturbada, e todo aquele humor se tornaria opaco
-  _Motivo:_ o autor explica as escamas com a fisiologia ocular da época
-- **Adam Clarke · Atos 9:18** · tema: batismo
-  > Como o batismo implicava, num adulto, a profissão pública da fé na qual era batizado
-  _Motivo:_ o autor define o sentido do batismo de adultos
-- **Adam Clarke · Atos 9:31** · tema: obra do Espírito Santo
-  > Os vários poderes, faculdades e paixões devem todos ser purificados e refinados pelo poder do Espírito Santo, e a ordem e a harmonia restituídas à alma inteira.
-  _Motivo:_ o autor descreve a santificação da alma pelo Espírito Santo
-- **Adam Clarke · Atos 9:31** · tema: obra do Espírito Santo
-  > sabendo e sentindo o homem verdadeiramente religioso que é de Deus, pelo Espírito que lhe é dado
-  _Motivo:_ o autor ensina a certeza da aceitação pelo testemunho do Espírito
-- **Adam Clarke · Atos 9:34** · tema: dons
-  > E, como instrumento, qualquer homem poderia curar com esse poder tanto quanto Pedro
-  _Motivo:_ o autor opina sobre o dom de cura e o motivo de Deus ter usado os apóstolos
-- **Adam Clarke · Atos 9:43** · tema: predestinação/eleição
-  > e assim os réprobos se tornaram os eleitos, e os eleitos se tornaram réprobos
-  _Motivo:_ o autor trata a eleição e a reprovação como coletivas, de judeus e gentios
-- **Adam Clarke · Atos 9:43** · tema: perda da salvação
-  > se permaneceres na sua bondade; do contrário, também tu serás cortado
-  _Motivo:_ o autor adverte que o crente pode ser cortado se não permanecer
-- **Adam Clarke · Atos 9:43** · tema: ofensivo
-  > entre os únicos povos que mereciam o nome de nações
-  _Motivo:_ o autor nega a outros povos o nome de nações
+- **Jamieson, Fausset e Brown · Atos 1:2** · tema: obra do Espírito Santo
+  > como para assinalar que ele agora estava todo impregnado do Espírito; que aquilo que fora reservado, durante a sua obra de sofrimento, para os seus próprios usos necessários, agora fora liberado, já transbordava dele para os seus discípulos, e só precisava da sua ascensão e glorificação para fluir inteiramente.
+  _Motivo:_ o autor interpreta o sopro de {{Jhn.20.22}} como antecipação da dádiva do Espírito e descreve o Espírito como “reservado” em Cristo durante o sofrimento
+- **Jamieson, Fausset e Brown · Atos 1:6** · tema: escatologia
+  > Mas, assim como claramente esperavam alguma restauração do reino a Israel, assim também não são nem repreendidos nem contraditos neste ponto.
+  _Motivo:_ o autor sugere que a expectativa de restauração do reino a Israel não foi corrigida por Jesus
+- **Jamieson, Fausset e Brown · Atos 1:11** · tema: escatologia
+  > ele virá de novo; não outro, mas ‘esse mesmo Jesus’; e ‘assim como o vistes ir, assim virá’ — tão pessoalmente, tão visivelmente, tão gloriosamente;
+  _Motivo:_ posição sobre a segunda vinda pessoal e visível de Cristo
+- **Jamieson, Fausset e Brown · Atos 1:24** · tema: cristologia
+  > Aqui, portanto, temos o primeiro exemplo de uma oração oferecida ao Redentor exaltado, fornecendo indiretamente a mais forte prova da sua divindade
+  _Motivo:_ o autor (citando Olshausen) entende que a oração é dirigida ao Filho e prova a sua divindade
+- **Jamieson, Fausset e Brown · Atos 10:25** · tema: escatologia
+  > “Os que pretendem ter sucedido a Pedro não imitaram esta parte da sua conduta” [ALFORD] (nisso apenas confirmando {{2Th.2.4}}; e cf. {{Rev.19.10}}; {{Rev.22.9}}).
+  _Motivo:_ o autor identifica implicitamente o papado com o “homem do pecado” de 2Ts 2:4
+- **Jamieson, Fausset e Brown · Atos 10:35** · tema: obra do Espírito Santo
+  > ele envia Pedro, não para ser o instrumento da sua conversão, como isto muito frequentemente é chamado, mas simplesmente para “lhe declarar mais pontualmente o caminho de Deus”
+  _Motivo:_ o autor sustenta que Cornélio já era um crente aprovado por Deus antes de ouvir o evangelho
+- **Jamieson, Fausset e Brown · Atos 10:38** · tema: cristologia
+  > Pois não é à sua unção para a santidade pessoal na encarnação que se faz referência — como muitos dos Pais e alguns modernos o entendem —, mas à sua investidura com as insígnias do ofício messiânico
+  _Motivo:_ o autor situa a unção de Jesus com o Espírito no batismo, como investidura messiânica
+- **Jamieson, Fausset e Brown · Atos 10:44** · tema: obra do Espírito Santo
+  > Com manifestação visível e audível ({{Act.10.46}}).
+  _Motivo:_ derramamento do Espírito sobre os gentios com manifestação visível e audível
+- **Jamieson, Fausset e Brown · Atos 10:46** · tema: dons
+  > Assim como no dia de Pentecostes não foi um milagre vazio, não um mero falar línguas estrangeiras, mas a expressão das “grandezas de Deus” em línguas para eles desconhecidas ({{Act.2.11}}), assim também aqui
+  _Motivo:_ o autor interpreta o dom de línguas como fala em idiomas desconhecidos dos falantes
+- **Jamieson, Fausset e Brown · Atos 10:46** · tema: batismo
+  > que objeção pode haver para admiti-los, pelo selo do batismo, à plena comunhão da Igreja?
+  _Motivo:_ relação entre o recebimento do Espírito Santo e o batismo nas águas como selo e entrada na comunhão da Igreja
+- **Jamieson, Fausset e Brown · Atos 11:16** · tema: batismo
+  > concedendo-lhes o que o Senhor Jesus declarou ser o batismo superior, o do Espírito Santo, não teria sido resistir a Deus se eu lhes tivesse negado o batismo inferior, o da água
+  _Motivo:_ o autor distingue o batismo com o Espírito Santo (superior) do batismo nas águas (inferior)
+- **Jamieson, Fausset e Brown · Atos 11:18** · tema: predestinação/eleição
+  > O caso de Cornélio é tão manifestamente um caso da graça reinando em cada etapa da sua história religiosa que mal podemos duvidar de que era justamente este o traço dele que eles aqui queriam exprimir. E esta é a graça que reina em toda conversão.
+  _Motivo:_ o arrependimento como dom concedido por Deus e a graça que “reina” em toda conversão
+- **Jamieson, Fausset e Brown · Atos 11:27** · tema: dons
+  > Mestres inspirados, uma classe que depois encontraremos frequentemente, os quais às vezes, mas não necessariamente, prediziam acontecimentos futuros.
+  _Motivo:_ o autor define o dom de profecia como ensino inspirado, nem sempre preditivo
+- **Jamieson, Fausset e Brown · Atos 13:2** · tema: obra do Espírito Santo
+  > Assim como a personalidade do Espírito Santo é manifesta por esta linguagem, a sua suprema divindade aparecerá igualmente, comparando-a com {{Heb.5.4}}.
+  _Motivo:_ o autor afirma a personalidade e a divindade do Espírito Santo a partir do chamado de Barnabé e Saulo
+- **Jamieson, Fausset e Brown · Atos 13:2** · tema: dons
+  > Por meio de alguns dos profetas mencionados em {{Act.13.1}}.
+  _Motivo:_ o autor entende que o Espírito falou por meio de profecia na igreja
+- **Jamieson, Fausset e Brown · Atos 13:3** · tema: obra do Espírito Santo
+  > Com o duplo chamado — do Espírito primeiro, e depois da Igreja.
+  _Motivo:_ o autor estabelece como princípio permanente que a nomeação para ofícios sagrados vem do Espírito e depois da Igreja
+- **Jamieson, Fausset e Brown · Atos 13:33** · tema: cristologia
+  > É contra todo o sentido do Novo Testamento atribuir a origem da filiação de Cristo à sua ressurreição.
+  _Motivo:_ o autor defende a filiação eterna e essencial do Filho
+- **Jamieson, Fausset e Brown · Atos 13:36** · tema: tipologia
+  > Davi, portanto (argumenta o apóstolo), não podia ser o objeto da sua própria predição, que teve o seu cumprimento próprio somente na ressurreição do corpo incorrupto do Filho de Deus
+  _Motivo:_ o autor nega que {{Psa.16.10}} se refira propriamente a Davi, aplicando-o só a Cristo
+- **Jamieson, Fausset e Brown · Atos 13:45** · tema: ofensivo
+  > Não há nada mais terrível do que a fúria judaica e a execração do nome de Jesus de Nazaré, quando completamente despertadas.
+  _Motivo:_ generalização negativa sobre os judeus
+- **Jamieson, Fausset e Brown · Atos 13:48** · tema: predestinação
+  > que uma ordenação divina para a vida eterna é a causa, e não o efeito, do crer de qualquer homem.
+  _Motivo:_ o autor afirma eleição incondicional como causa da fé
+- **Jamieson, Fausset e Brown · Atos 13:52** · tema: obra do Espírito Santo
+  > O qual não somente os elevou acima da vergonha e do medo, como discípulos declarados do Senhor Jesus, mas os encheu de emoções santas e elevadas.
+  _Motivo:_ o autor descreve a obra do Espírito Santo nos discípulos perseguidos
+- **Jamieson, Fausset e Brown · Atos 14:9** · tema: dons
+  > o Espírito do Médico glorificado veio inteiramente sobre Paulo, e “em alta voz” ordenou-lhe: “Levanta-te direito sobre os teus pés.”
+  _Motivo:_ o autor descreve o dom de cura operado pelo Espírito por meio de Paulo, ligado à fé do enfermo
+- **Jamieson, Fausset e Brown · Atos 14:18** · tema: ofensivo
+  > quão cedo as tendências idólatras começaram a manifestar-se na Igreja cristã, para afinal serem sistematizadas e prescritas na Igreja de Roma!
+  _Motivo:_ acusação de idolatria contra a Igreja de Roma
+- **Jamieson, Fausset e Brown · Atos 14:27** · tema: obra do Espírito Santo
+  > Como o seu chamado e missão tinham sido solenes e formais, na presença e por meio da Igreja, assim como do Espírito Santo
+  _Motivo:_ o chamado missionário pelo Espírito Santo e pela Igreja
+- **Jamieson, Fausset e Brown · Atos 15:2** · tema: dons
+  > provavelmente como convertido gentio incircunciso dotado dos dons do Espírito.
+  _Motivo:_ o autor supõe que Tito tinha dons espirituais como prova da aceitação dos gentios
+- **Jamieson, Fausset e Brown · Atos 15:14** · tema: predestinação
+  > No exercício da sua adorável soberania.
+  _Motivo:_ o chamado dos gentios atribuído à soberania de Deus
+- **Jamieson, Fausset e Brown · Atos 15:22** · tema: dons
+  > Eram “profetas”, {{Act.15.32}} (e ver. em {{Act.11.27}}), e como tais, sem dúvida, haviam obtido a sua eminência na igreja de Jerusalém.
+  _Motivo:_ o dom de profecia como base de eminência na igreja
+- **Jamieson, Fausset e Brown · Atos 15:28** · tema: obra do Espírito Santo
+  > O Primeiro, guiando interiormente à decisão tomada e pondo nela o seu selo: o outro, a autoridade eclesiástica externa, abraçando, exprimindo e transmitindo devotamente às igrejas essa decisão: — grande princípio este para a Igreja em todos os tempos.
+  _Motivo:_ o autor estabelece como princípio permanente a direção do Espírito Santo junto à autoridade eclesiástica
+- **Jamieson, Fausset e Brown · Atos 15:32** · tema: dons
+  > Isto é, mestres inspirados.
+  _Motivo:_ o autor define os profetas como mestres inspirados
+- **Jamieson, Fausset e Brown · Atos 15:39** · tema: inspiração
+  > a fraqueza humana, em meio aos grandes labores da igreja de Antioquia, separou afinal aqueles que doce e amorosamente tinham suportado juntos o peso e o calor do dia
+  _Motivo:_ o autor atribui a separação de Paulo e Barnabé à fraqueza humana e fala de algo “pecaminoso” na contenda dos apóstolos
+- **Jamieson, Fausset e Brown · Atos 16:6** · tema: dons
+  > Falando por meio de algum profeta; ver. em {{Act.11.27}}.
+  _Motivo:_ o autor atribui a direção do Espírito à fala de um profeta na igreja
+- **Jamieson, Fausset e Brown · Atos 16:7** · tema: obra do Espírito Santo
+  > Esta é a primeira vez que se fala expressamente do Espírito Santo como determinando o curso que deviam seguir em seus esforços para evangelizar as nações
+  _Motivo:_ citação de Baumgarten sobre a direção do Espírito Santo na obra missionária
+- **Jamieson, Fausset e Brown · Atos 16:9** · tema: escatologia
+  > E Israel, andando pelo caminho que Deus lhe traçara, igualmente chegara ao seu fim.
+  _Motivo:_ citação de Baumgarten sobre a vocação de Israel e o seu “fim”, realizada em Paulo
+- **Jamieson, Fausset e Brown · Atos 16:14** · tema: predestinação
+  > Mostrando que a inclinação do coração para a verdade não se origina na vontade do homem. A primeira disposição de voltar-se para o evangelho é obra da graça
+  _Motivo:_ citação de Olshausen que nega à vontade humana a origem da inclinação para a verdade
+- **Jamieson, Fausset e Brown · Atos 16:15** · tema: batismo
+  > Se incluía crianças, também batizadas nesse caso, não se diz explicitamente; mas a presunção, como em outros casos de batismo de casas, é que sim.
+  _Motivo:_ o autor presume batismo de crianças no batismo das casas
+- **Jamieson, Fausset e Brown · Atos 16:15** · tema: batismo
+  > O Senhor Jesus; isto é, “pela fé nele que reconhecestes em mim pelo batismo”.
+  _Motivo:_ o batismo como reconhecimento da fé
+- **Jamieson, Fausset e Brown · Atos 16:32** · tema: batismo
+  > não é necessário inferir que nela não houvesse crianças
+  _Motivo:_ o autor deixa aberta a presença de crianças na casa batizada do carcereiro
+- **Jamieson, Fausset e Brown · Atos 17:29** · tema: ofensivo
+  > Quão vergonhosamente indesculpáveis são, então, as igrejas grega e romana em paganizar o culto da Igreja cristã com o incentivo a pinturas e imagens no serviço religioso!
+  _Motivo:_ ataque direto às igrejas ortodoxa e católica (“cristãos romanistas”)
+- **Jamieson, Fausset e Brown · Atos 17:31** · tema: escatologia
+  > Tal linguagem ensina sem dúvida que o juízo será, em sua essência, uma solene audiência judicial realizada sobre toda a humanidade de uma só vez.
+  _Motivo:_ o autor afirma um juízo único e simultâneo de toda a humanidade
+- **Jamieson, Fausset e Brown · Atos 18:10** · tema: predestinação
+  > “A quem, em virtude da sua eleição para a vida eterna, ele já designa como seus” (compare-se {{Act.13.48}}) [BAUMGARTEN].
+  _Motivo:_ citação de Baumgarten que fundamenta “muito povo” numa eleição prévia para a vida eterna
+- **Jamieson, Fausset e Brown · Atos 18:25** · tema: obra do Espírito Santo
+  > ainda tinha de aprender a nova luz que o derramamento do Espírito no Pentecostes lançara sobre a morte e a ressurreição do Redentor
+  _Motivo:_ o autor associa o batismo de João a um conhecimento incompleto antes do derramamento do Espírito
+- **Jamieson, Fausset e Brown · Atos 18:27** · tema: predestinação
+  > Uma daquelas expressões incidentais que mostram que a fé ser uma produção da graça de Deus no coração era uma verdade tão corrente e reconhecida que se tomava como certa, como consequência necessária do sistema geral da graça, em vez de ser expressamente sustentada.
+  _Motivo:_ o autor apresenta a fé como produção da graça, dentro de um “sistema geral da graça”
+- **Jamieson, Fausset e Brown · Atos 19:2** · tema: obra do Espírito Santo
+  > dando a entender, certamente, que uma coisa não trazia necessariamente consigo a outra
+  _Motivo:_ o autor afirma que crer e receber o Espírito Santo não vêm necessariamente juntos
+- **Jamieson, Fausset e Brown · Atos 19:4** · tema: batismo
+  > O ponto de contraste não é entre João e Cristo pessoalmente, mas entre o batismo de João com água para arrependimento e o prometido batismo do Espírito, das mãos do seu Mestre que havia de vir, para uma vida nova.
+  _Motivo:_ distinção entre batismo com água e batismo com o Espírito Santo
+- **Jamieson, Fausset e Brown · Atos 19:5** · tema: batismo
+  > Para dentro de toda a plenitude da nova economia, tal como agora se abria às suas mentes crentes.
+  _Motivo:_ sentido do novo batismo em nome do Senhor Jesus dos discípulos de João
+- **Jamieson, Fausset e Brown · Atos 19:13** · tema: dons
+  > Que tal poder existiu, ao menos por algum tempo, parece estar implícito em {{Mat.12.27}}.
+  _Motivo:_ o autor sugere que o poder de exorcismo entre os judeus existiu só por algum tempo
+- **Jamieson, Fausset e Brown · Atos 19:24** · tema: ofensivo
+  > são uma imitação tão palpável desta prática pagã que não é de admirar que sejam considerados por juízes imparciais como cristianismo paganizado.
+  _Motivo:_ crítica dura à Igreja Católica Romana
+- **Jamieson, Fausset e Brown · Atos 19:26** · tema: ofensivo
+  > É exatamente assim na Igreja de Roma.
+  _Motivo:_ compara o culto católico às imagens à idolatria pagã
+- **Jamieson, Fausset e Brown · Atos 19:31** · tema: ofensivo
+  > (o mesmo mês que o romanismo dedica à Virgem)
+  _Motivo:_ comparação depreciativa com a devoção católica
+- **Jamieson, Fausset e Brown · Atos 19:35** · tema: ofensivo
+  > “Com isto podemos comparar várias lendas acerca de imagens e pinturas na Igreja Romana, como as tradicionais efígies de Cristo, que se dizia ‘não serem feitas por mãos’” [WEBSTER e WILKINSON].
+  _Motivo:_ comparação depreciativa com a Igreja Católica
+- **Jamieson, Fausset e Brown · Atos 2:4** · tema: dons
+  > embora seja quase certo que os próprios que falavam nada entendiam do que proferiam
+  _Motivo:_ o autor afirma que os que falavam em línguas não entendiam o que diziam
+- **Jamieson, Fausset e Brown · Atos 2:17** · tema: dons
+  > pois no Novo Testamento visões e sonhos são antes a exceção do que a regra.
+  _Motivo:_ o autor trata visões e sonhos como mera acomodação à antiga economia e exceção no Novo Testamento
+- **Jamieson, Fausset e Brown · Atos 2:19** · tema: escatologia
+  > Referindo-se aos sinais que haviam de preceder a destruição de Jerusalém
+  _Motivo:_ o autor aplica os prodígios de Joel à destruição de Jerusalém
+- **Jamieson, Fausset e Brown · Atos 2:37** · tema: escatologia
+  > cuja plena realização está reservada para o dia em que “todo o Israel será salvo”
+  _Motivo:_ posição sobre a futura salvação de Israel
+- **Jamieson, Fausset e Brown · Atos 2:38** · tema: batismo
+  > Como o selo visível dessa remissão.
+  _Motivo:_ o autor entende o batismo como selo visível da remissão dos pecados
+- **Jamieson, Fausset e Brown · Atos 2:41** · tema: batismo
+  > A dificuldade só pode ser removida supondo-se que já empregavam a aspersão, ou batizavam em casas, em grandes vasos.
+  _Motivo:_ o autor (citando Olshausen) sugere batismo por aspersão em Pentecostes
+- **Jamieson, Fausset e Brown · Atos 2:42** · tema: ceia
+  > Certamente não apenas na Ceia do Senhor, mas antes em refeições frugais tomadas em conjunto, às quais a Ceia do Senhor provavelmente estava unida
+  _Motivo:_ posição sobre a prática da Ceia unida às refeições comuns
+- **Jamieson, Fausset e Brown · Atos 2:47** · tema: obra do Espírito Santo
+  > Ela adquiriu o seu valor somente por meio do poder do Espírito Santo, que passava dos apóstolos, enquanto pregavam, para os ouvintes
+  _Motivo:_ o autor (citando Olshausen) descreve o Espírito como passando dos apóstolos aos ouvintes pela pregação
+- **Jamieson, Fausset e Brown · Atos 20:7** · tema: sábado
+  > indica claramente que a observância cristã do dia mais tarde distintamente chamado “o Dia do Senhor” já era uma prática estabelecida das igrejas.
+  _Motivo:_ o autor afirma o primeiro dia da semana (Dia do Senhor) como dia de reunião cristã já estabelecido
+- **Jamieson, Fausset e Brown · Atos 20:11** · tema: ceia
+  > “E comido” — indicando uma refeição comum, distinta do partir do pão eucarístico.
+  _Motivo:_ o autor distingue a refeição comum da ceia eucarística
+- **Jamieson, Fausset e Brown · Atos 20:22** · tema: obra do Espírito Santo
+  > Esta pressão interior, não acompanhada de nenhum conhecimento do “que lá lhe havia de acontecer”, era o resultado daquela direção superior que moldava todos os seus movimentos.
+  _Motivo:_ interpretação da direção do Espírito sobre Paulo
+- **Jamieson, Fausset e Brown · Atos 20:23** · tema: dons
+  > Por declarações proféticas de cidade em cidade, como em {{Act.11.28}}; {{Act.21.10-11}}.
+  _Motivo:_ o autor entende o testemunho do Espírito como profecias de cidade em cidade
+- **Jamieson, Fausset e Brown · Atos 20:25** · tema: inspiração
+  > Não uma predição inspirada do que certamente havia de acontecer, mas aquilo que o apóstolo, nas suas circunstâncias peculiares, plenamente esperava.
+  _Motivo:_ o autor nega que Paulo falasse aqui por inspiração
+- **Jamieson, Fausset e Brown · Atos 20:28** · tema: obra do Espírito Santo
+  > ({{Act.14.23}} mostra que o apóstolo não pretendia excluir a ordenação humana.)
+  _Motivo:_ relação entre a constituição dos bispos pelo Espírito e a ordenação humana
+- **Jamieson, Fausset e Brown · Atos 20:28** · tema: cristologia
+  > No conjunto, portanto, aceitamos a segunda leitura como muito provavelmente a verdadeira.
+  _Motivo:_ o autor prefere a leitura “igreja do Senhor” a “igreja de Deus”, com implicação para a divindade de Cristo no texto
+- **Jamieson, Fausset e Brown · Atos 20:32** · tema: predestinação
+  > Observe-se como a salvação — não só nos seus estágios iniciais de perdão e regeneração, mas em todos os seus estágios subsequentes de “edificação”, até a sua consumação na herança final — é aqui atribuída ao “poder” de Deus para concedê-la
+  _Motivo:_ ênfase na salvação do início à consumação atribuída ao poder de Deus (perseverança)
+- **Jamieson, Fausset e Brown · Atos 21:4** · tema: dons
+  > Talvez não fossem muitos; contudo, havia entre eles alguns dotados de dons.
+  _Motivo:_ o autor associa o aviso dos discípulos de Tiro a dons espirituais
+- **Jamieson, Fausset e Brown · Atos 21:9** · tema: dons
+  > Cumprindo {{Jol.2.28}} (ver. {{Act.2.18}}). Isto é mencionado, ao que parece, meramente como uma alta distinção divinamente conferida a um servo tão dedicado do Senhor Jesus
+  _Motivo:_ o dom de profecia das filhas de Filipe como cumprimento de Joel
+- **Jamieson, Fausset e Brown · Atos 21:11** · tema: dons
+  > Esta predição e a de Tiro ({{Act.21.4}}) tinham o propósito, não de proibi-lo de ir, mas de pôr à prova a sua coragem e, quando ele resistisse à prova, aprofundá-la e amadurecê-la.
+  _Motivo:_ o autor interpreta o propósito das profecias dadas a Paulo
+- **Jamieson, Fausset e Brown · Atos 22:16** · tema: batismo
+  > Este modo de falar provém de ser o batismo o selo visível da remissão.
+  _Motivo:_ o autor entende o batismo como selo visível da remissão dos pecados
+- **Jamieson, Fausset e Brown · Atos 22:16** · tema: batismo
+  > referindo-se à confissão de Cristo que precedia o batismo, como em {{Act.8.37}}.
+  _Motivo:_ confissão de fé antes do batismo
+- **Jamieson, Fausset e Brown · Atos 23:3** · tema: inspiração
+  > Este epíteto, por mais corretamente que descrevesse o homem, não deve ser defendido como dirigido a um juiz
+  _Motivo:_ o autor considera indevida a fala de Paulo ao sumo sacerdote
+- **Jamieson, Fausset e Brown · Atos 23:5** · tema: inspiração
+  > Se a sua conduta, ao ceder ao impulso momentâneo, não foi a do próprio Cristo sob provocação semelhante ({{Jhn.18.22-23}}), certamente o modo como ele reparou a sua falta foi semelhante ao de Cristo
+  _Motivo:_ o autor atribui a Paulo erro e falta nesta fala
+- **Jamieson, Fausset e Brown · Atos 27:35** · tema: ceia/sacramentos
+  > Não entendido pelos cristãos do navio como uma festa de amor, ou celebração da Ceia do Senhor, como alguns pensam
+  _Motivo:_ o autor nega que o partir do pão no navio fosse celebração da Ceia
+- **Jamieson, Fausset e Brown · Atos 28:8** · tema: dons
+  > Observe-se aqui o cumprimento de duas coisas preditas em {{Mrk.16.18}}: o “pegar em serpentes” e a “cura dos enfermos pela imposição das mãos”.
+  _Motivo:_ o autor vê na cura de Malta o cumprimento dos sinais prometidos em Marcos 16
+- **Jamieson, Fausset e Brown · Atos 28:11** · tema: ofensivo
+  > Santo Antônio os substitui nas superstições modernas dos marinheiros (romanistas) do Mediterrâneo.
+  _Motivo:_ expressão depreciativa contra católicos (“romanistas”, “superstições”)
+- **Jamieson, Fausset e Brown · Atos 28:14** · tema: sábado
+  > o apóstolo teve assim oportunidade de passar um sábado com os cristãos do lugar
+  _Motivo:_ o autor usa “Sabbath” para o dia de culto dos cristãos; conferir se deve ficar “sábado” ou “dia do Senhor”
+- **Jamieson, Fausset e Brown · Atos 3:19** · tema: escatologia
+  > e que aqui, como em todos os profetas, é feito depender da conversão nacional de Israel.
+  _Motivo:_ o autor associa os tempos do refrigério a um futuro período de prosperidade dependente da conversão nacional de Israel
+- **Jamieson, Fausset e Brown · Atos 3:21** · tema: escatologia
+  > Compreendendo, provavelmente, a retificação de todas as desordens da queda.
+  _Motivo:_ interpretação da restauração de todas as coisas
+- **Jamieson, Fausset e Brown · Atos 3:22** · tema: tipologia
+  > Particularmente na intimidade de comunicação com Deus ({{Num.12.6-8}}) e como Cabeça mediadora de uma nova ordem de coisas ({{Heb.3.2-6}}).
+  _Motivo:_ Moisés como figura de Cristo, o Profeta prometido
+- **Jamieson, Fausset e Brown · Atos 3:26** · tema: escatologia
+  > e de um futuro glorioso tão logo isso aconteça, que terminará com o Retorno Pessoal de Cristo dos céus para onde subiu
+  _Motivo:_ posição sobre a conversão de Israel e a volta pessoal de Cristo
+- **Jamieson, Fausset e Brown · Atos 4:31** · tema: obra do Espírito Santo
+  > depois, derretendo todo egoísmo e absorvendo até o sentimento de individualidade numa intensa e ardente percepção da unidade cristã.
+  _Motivo:_ o autor descreve a obra do Espírito no enchimento da comunidade e associa a ela a comunhão de bens
+- **Jamieson, Fausset e Brown · Atos 5:4** · tema: obra do Espírito Santo
+  > linguagem que implica claramente tanto a personalidade distinta como a divindade própria do Espírito Santo.
+  _Motivo:_ afirmação sobre a personalidade e a divindade do Espírito Santo
+- **Jamieson, Fausset e Brown · Atos 5:15** · tema: dons
+  > Agora a grandeza predita de Pedro ({{Mat.16.18}}), como espírito dirigente da Igreja primitiva, estava no seu auge.
+  _Motivo:_ o autor associa as curas pela sombra de Pedro à “grandeza predita” de Pedro em {{Mat.16.18}}
+- **Jamieson, Fausset e Brown · Atos 5:32** · tema: obra do Espírito Santo
+  > e o Espírito Santo, atestando-os por milagres inegáveis.
+  _Motivo:_ o autor restringe o testemunho do Espírito à atestação por milagres
+- **Jamieson, Fausset e Brown · Atos 6:3** · tema: dons
+  > Não cheios de dons miraculosos, que não seriam qualificação alguma para os deveres exigidos, mas espiritualmente dotados
+  _Motivo:_ o autor nega que “cheios do Espírito Santo” se refira a dons espirituais
+- **Jamieson, Fausset e Brown · Atos 6:6** · tema: obra do Espírito Santo
+  > a outra simbolizando a comunicação destes aos oficiais escolhidos pelos canais reconhecidos.
+  _Motivo:_ posição sobre a imposição de mãos como transmissão de dons oficiais por canais eclesiásticos
+- **Jamieson, Fausset e Brown · Atos 7:30** · tema: cristologia
+  > Antes, “o Anjo da Aliança”, que logo chama a si mesmo JEOVÁ
+  _Motivo:_ o autor identifica o anjo da sarça com o Anjo da Aliança, que se chama Jeová
+- **Jamieson, Fausset e Brown · Atos 7:37** · tema: tipologia
+  > mas apenas um humilde precursor e pequeno modelo daquele a quem lhes era devida absoluta submissão.
+  _Motivo:_ Moisés como figura de Cristo
+- **Jamieson, Fausset e Brown · Atos 7:55** · tema: obra do Espírito Santo
+  > e a plena torrente do seu Espírito que naquele momento estava derramando no coração da sua heroica testemunha
+  _Motivo:_ o autor explica o “em pé” de Jesus pelo derramamento do Espírito sobre Estêvão
+- **Jamieson, Fausset e Brown · Atos 7:59** · tema: cristologia
+  > sendo Cristo a Pessoa diretamente invocada e chamada pelo nome
+  _Motivo:_ o autor defende a oração dirigida diretamente a Cristo
+- **Jamieson, Fausset e Brown · Atos 7:59** · tema: cristologia
+  > Estêvão presta ao seu Senhor glorificado absoluta adoração divina
+  _Motivo:_ afirmação sobre a adoração divina prestada a Cristo
+- **Jamieson, Fausset e Brown · Atos 8:13** · tema: batismo
+  > Que luz isto lança sobre o que se chama regeneração batismal!
+  _Motivo:_ o autor usa o caso de Simão contra a doutrina da regeneração batismal
+- **Jamieson, Fausset e Brown · Atos 8:15** · tema: batismo com o Espírito Santo
+  > esta comunicação do Espírito Santo pela imposição das mãos dos apóstolos era claramente algo acrescentado; e, assim como era apenas ocasional, era invariavelmente acompanhada de manifestações miraculosas
+  _Motivo:_ o autor trata o recebimento do Espírito como ocasional, ligado aos apóstolos e a manifestações miraculosas
+- **Jamieson, Fausset e Brown · Atos 8:15** · tema: dons
+  > exigia a presença e o poder dos apóstolos para desempenharem a sua parte especial como fundadores da Igreja divinamente designados
+  _Motivo:_ o autor (citando Alford) restringe a comunicação do Espírito ao papel especial dos apóstolos
+- **Jamieson, Fausset e Brown · Atos 8:36** · tema: batismo
+  > Filipe provavelmente lhe dissera que este era o sinal e selo ordenado do discipulado
+  _Motivo:_ posição sobre o batismo como sinal e selo; o autor também considera {{Act.8.37}} um acréscimo posterior
+- **Jamieson, Fausset e Brown · Atos 8:36** · tema: inspiração
+  > ({{Act.8.37}} falta nos principais manuscritos e nas mais veneráveis versões do Novo Testamento. Parece ter sido acrescentado a partir das fórmulas batismais que passaram a ser de uso corrente.)
+  _Motivo:_ o autor considera o versículo 37 um acréscimo ao texto
+- **Jamieson, Fausset e Brown · Atos 8:38** · tema: batismo
+  > Provavelmente derramando a água sobre ele, embora o modo exato não seja certo nem tenha importância alguma.
+  _Motivo:_ o autor sugere batismo por derramamento e diz que o modo não tem importância
+- **Jamieson, Fausset e Brown · Atos 9:15** · tema: predestinação/eleição
+  > Palavra muitas vezes usada por Paulo ao ilustrar a soberania de Deus na eleição
+  _Motivo:_ o autor liga o “vaso escolhido” à soberania de Deus na eleição ({{Rom.9.21-23}})
+- **Jamieson, Fausset e Brown · Atos 9:17** · tema: batismo
+  > e não necessariamente depois do seu batismo [BAUMGARTEN, WEBSTER e WILKINSON] — pois Cornélio e os seus o receberam antes do deles ({{Act.10.44-48}}) —, mas talvez imediatamente depois da recuperação da sua vista pela imposição das mãos de Ananias.
+  _Motivo:_ relação entre o recebimento do Espírito Santo, o batismo nas águas e a imposição de mãos
+- **Jamieson, Fausset e Brown · Atos 9:38** · tema: dons
+  > Mostrando que os discípulos em geral não possuíam dons miraculosos [BENGEL].
+  _Motivo:_ o autor afirma que os discípulos em geral não tinham dons miraculosos
 
