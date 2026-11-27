@@ -148,6 +148,255 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Albert Barnes · 1 Coríntios 1:27** · tema: predestinação
   > O fato de estarem eles na igreja era resultado da escolha dele.
   _Motivo:_ eleição divina dos que estão na igreja
+- **Albert Barnes · 1 Coríntios 10:2** · tema: batismo
+  > E, se esta interpretação é correta, segue-se que a palavra batizar não significa necessariamente imergir.
+  _Motivo:_ o autor argumenta contra o batismo por imersão e admite a aspersão
+- **Albert Barnes · 1 Coríntios 10:2** · tema: batismo
+  > Esta passagem é muito importante para provar que a palavra batismo não significa necessariamente imersão completa em água.
+  _Motivo:_ o autor nega que batismo signifique necessariamente imersão
+- **Albert Barnes · 1 Coríntios 10:4** · tema: tipologia
+  > tudo o que isto pode significar é que aquela rocha, com a corrente de água que assim jorrava dela, era uma representação do Messias.
+  _Motivo:_ a rocha como figura de Cristo (o autor nega a leitura literal de Cristo acompanhando Israel)
+- **Albert Barnes · 1 Coríntios 10:4** · tema: ceia
+  > Assim, na instituição da Ceia do Senhor, o Salvador diz do pão: “Isto é o meu corpo”, isto é, representa o meu corpo.
+  _Motivo:_ interpretação simbólica/representativa dos elementos da ceia
+- **Albert Barnes · 1 Coríntios 10:7** · tema: ofensivo
+  > A maior parte das danças orientais era grosseiramente indecente e licenciosa;
+  _Motivo:_ generalização depreciativa sobre os povos orientais
+- **Albert Barnes · 1 Coríntios 10:9** · tema: cristologia
+  > há razão para pensar que os escritores sagrados entendiam que se tratava do Messias; e que aquele que depois se encarnou era aquele a quem eles tentaram.
+  _Motivo:_ o anjo da aliança/da presença identificado com o Cristo preexistente
+- **Albert Barnes · 1 Coríntios 10:11** · tema: escatologia
+  > Mas de modo algum indica necessariamente que a duração deste período, chamado “os últimos tempos” e “os fins dos séculos”, seria breve, ou que o apóstolo cria que o mundo logo chegaria ao fim.
+  _Motivo:_ interpretação dos “últimos tempos” como dispensação possivelmente longa
+- **Albert Barnes · 1 Coríntios 10:13** · tema: predestinação
+  > Há, portanto, aqui um reconhecimento da doutrina de que o homem tem capacidade natural para resistir a todas as tentações a que está sujeito; e de que, consequentemente, se ele cede, é responsável por isso.
+  _Motivo:_ afirma capacidade natural do homem e sua responsabilidade (livre-arbítrio)
+- **Albert Barnes · 1 Coríntios 10:13** · tema: perda da salvação
+  > Pode ser usada como argumento de que nenhum dos que são verdadeiros cristãos, e que são assim provados, jamais cairá e se perderá.
+  _Motivo:_ perseverança garantida: o verdadeiro cristão não pode se perder
+- **Albert Barnes · 1 Coríntios 10:13** · tema: perda da salvação
+  > Como nenhum cristão pode crer em nenhuma destas coisas, segue-se que os que são convertidos serão guardados para a salvação.
+  _Motivo:_ perseverança garantida dos convertidos
+- **Albert Barnes · 1 Coríntios 10:16** · tema: ceia
+  > Não pode significar que o cálice tenha sofrido qualquer mudança física, ou que o vinho seja outra coisa senão vinho; mas que foi solenemente separado para o serviço da religião e, pela oração e pelo louvor, designado para ser usado com o propósito de comemorar o amor do Salvador.
+  _Motivo:_ posição sobre a natureza dos elementos da ceia (memorial, sem mudança física)
+- **Albert Barnes · 1 Coríntios 10:16** · tema: ceia
+  > Não é o emblema pelo qual o sangue de Cristo é exibido, e o meio pelo qual é exibida a nossa união por meio desse sangue?
+  _Motivo:_ o cálice como emblema da comunhão
+- **Albert Barnes · 1 Coríntios 10:25** · tema: sábado
+  > É lícito usar aquilo que se sabe ter sido feito no sábado;
+  _Motivo:_ Barnes usa “Sabbath” (traduzido “sábado”) para o dia de descanso cristão e trata sua violação como abominação
+- **Albert Barnes · 1 Coríntios 10:31** · tema: religioes
+  > Assim, Arriano (<i>Discursos de Epicteto</i>, I, 19) diz: “Olhando para Deus em todas as coisas, pequenas e grandes.”
+  _Motivo:_ uso de escritores rabínicos e pagãos (Maimônides, Epicteto) como ilustração
+- **Albert Barnes · 1 Coríntios 11:3** · tema: cristologia
+  > Cristo, como Mediador, consentiu em assumir uma posição subordinada e em reconhecer Deus Pai como superior no ofício.
+  _Motivo:_ subordinação de Cristo ao Pai como Mediador
+- **Albert Barnes · 1 Coríntios 11:4** · tema: dons
+  > A palavra profetizar aqui significa, evidentemente, ensinar; ou falar publicamente ao povo sobre o assunto da religião.
+  _Motivo:_ o autor reduz o profetizar a ensinar/falar publicamente
+- **Albert Barnes · 1 Coríntios 11:5** · tema: dons
+  > Se houver algumas assim; se algumas forem diretamente inspiradas por Deus, então haverá evidente conveniência em que proclamem publicamente a vontade dele, e não antes disso.
+  _Motivo:_ o autor trata a inspiração profética como própria da igreja primitiva e condiciona a participação feminina a ela
+- **Albert Barnes · 1 Coríntios 11:20** · tema: ceia
+  > Na maioria das igrejas o horário foi indevidamente mudado para a manhã — costume que não tem sanção no Novo Testamento e que é um afastamento da própria ideia de uma ceia.
+  _Motivo:_ o autor defende o horário vespertino da Ceia
+- **Albert Barnes · 1 Coríntios 11:25** · tema: ceia
+  > É um simples memorial, ou lembrança, destinado a recordar, de maneira marcante e impressionante, a memória do Redentor.
+  _Motivo:_ visão memorial da Ceia
+- **Albert Barnes · 1 Coríntios 11:26** · tema: ceia
+  > E que absurdo assombroso e espantoso é crer que aquele pão se transforma na carne e no sangue de Jesus Cristo!
+  _Motivo:_ polêmica contra a transubstanciação
+- **Albert Barnes · 1 Coríntios 11:27** · tema: ceia
+  > Os romanistas não creem que seja pão, nem o chamariam assim; e isto mostra quão necessário lhes é manter as Escrituras longe do povo, e quão impossível é expressar os seus dogmas na linguagem da Bíblia.
+  _Motivo:_ polêmica dura contra os católicos romanos sobre a Ceia
+- **Albert Barnes · 1 Coríntios 11:29** · tema: ceia
+  > nem a nenhuma visão que se possa supor que a fé tenha para discernir o corpo do Senhor através dos elementos
+  _Motivo:_ o autor nega um discernimento espiritual do corpo do Senhor nos elementos
+- **Albert Barnes · 1 Coríntios 11:32** · tema: perda da salvação
+  > Não eram considerados por Deus como inteiramente estranhos à piedade, e não se perderiam para sempre.
+  _Motivo:_ afirmação de que os crentes disciplinados não se perderiam
+- **Albert Barnes · 1 Coríntios 12:3** · tema: obra do Espírito Santo
+  > É verdade que nenhum homem jamais terá a devida consideração por Jesus Cristo, nem amará o seu nome e a sua obra, a não ser que seja influenciado pelo Espírito Santo.
+  _Motivo:_ o autor afirma que todo reconhecimento verdadeiro de Cristo e toda religião verdadeira são produção do Espírito Santo
+- **Albert Barnes · 1 Coríntios 12:4** · tema: obra do Espírito Santo
+  > Mas, se ele se refere ao Espírito Santo, então é um argumento irrespondível a favor da sua personalidade, e da sua igualdade com o Pai e o Filho.
+  _Motivo:_ o autor defende a personalidade e a divindade do Espírito Santo e a leitura trinitária de 1Co 12:4-6
+- **Albert Barnes · 1 Coríntios 12:7** · tema: obra do Espírito Santo
+  > Esta passagem, portanto, é muito impropriamente aduzida para provar que os dons e as graças do Espírito Santo são conferidos igualmente a todos os homens, e que os pagãos, os blasfemos e os pecadores em geral estão sob as suas influências iluminadoras.
+  _Motivo:_ o autor limita a manifestação do Espírito aos cristãos e nega influência iluminadora sobre os não crentes a partir deste texto
+- **Albert Barnes · 1 Coríntios 12:9** · tema: dons
+  > Isto foi prometido aos discípulos do Salvador; e na igreja primitiva foi conferido a muitos.
+  _Motivo:_ o autor situa o dom de curar na igreja primitiva, sem dizer se continua
+- **Albert Barnes · 1 Coríntios 12:10** · tema: dons
+  > Na verdade, os dotes extraordinários conferidos aos apóstolos e aos primeiros cristãos parecem ter sido regulados, em grau notável, de acordo com a regra pela qual os dotes comuns são conferidos aos homens.
+  _Motivo:_ o autor trata os milagres como dotes extraordinários dos apóstolos e dos primeiros cristãos (possível visão cessacionista)
+- **Albert Barnes · 1 Coríntios 12:10** · tema: dons
+  > O poder de falar várias línguas.
+  _Motivo:_ o autor interpreta o dom de línguas como capacidade de falar idiomas estrangeiros
+- **Albert Barnes · 1 Coríntios 12:10** · tema: dons
+  > O poder de interpretar línguas estrangeiras; ou de interpretar a linguagem que pudesse ser usada pelos “profetas” nas suas comunicações.
+  _Motivo:_ o autor interpreta a interpretação de línguas como tradução de idiomas estrangeiros
+- **Albert Barnes · 1 Coríntios 12:11** · tema: predestinação
+  > Ele dispensa os seus favores por uma regra que não deu a conhecer, mas que, podemos estar seguros, está de acordo com a sabedoria e a bondade.
+  _Motivo:_ o autor enfatiza a soberania do Espírito na distribuição de favores, ligando-a à vida eterna
+- **Albert Barnes · 1 Coríntios 12:13** · tema: batismo
+  > Mas a conexão parece antes exigir que o entendamos do batismo do Espírito Santo ({{Mat.3.11}}); e, se assim for, significa que, pela ação do Espírito Santo, todos eles haviam sido habilitados, cada um para o seu lugar apropriado, a constituir o corpo de Cristo — a igreja.
+  _Motivo:_ o autor interpreta “batizados em um corpo” como batismo com o Espírito Santo que une à igreja, e não batismo com água
+- **Albert Barnes · 1 Coríntios 12:13** · tema: ceia/sacramentos
+  > O sentido é que, ao beberem do mesmo cálice que comemora a morte de Cristo, haviam participado das mesmas influências do Espírito Santo, que descem igualmente sobre todos os que observam essa ordenança de maneira apropriada.
+  _Motivo:_ o autor liga “beber de um Espírito” à Ceia do Senhor e atribui a ela a comunicação das influências do Espírito
+- **Albert Barnes · 1 Coríntios 12:13** · tema: ofensivo
+  > Ao mesmo tempo, não diminuiria, mas aumentaria o seu respeito real pelos seus senhores e pelos que estavam acima deles, se os considerassem como irmãos cristãos, destinados ao mesmo céu.
+  _Motivo:_ o autor trata a escravidão sem condená-la, enfatizando o respeito dos escravos pelos senhores
+- **Albert Barnes · 1 Coríntios 12:28** · tema: dons
+  > É certo que a “ordem” dos apóstolos cessou, e também a “ordem” dos milagres, e a “ordem” das curas e da variedade de línguas.
+  _Motivo:_ o autor afirma que os milagres, as curas e as línguas cessaram
+- **Albert Barnes · 1 Coríntios 13:1** · tema: dons
+  > É evidente que entre os coríntios o poder de falar uma língua estrangeira era considerado um dom singularmente valioso; e não pode haver dúvida de que alguns dos líderes daquela igreja se envaideciam especialmente dele.
+  _Motivo:_ o autor entende o dom de línguas como capacidade de falar idiomas estrangeiros
+- **Albert Barnes · 1 Coríntios 13:1** · tema: dons
+  > A linguagem dos anjos aqui parece ser usada para denotar o mais alto poder de usar a linguagem, ou a mais elevada faculdade de eloquência e de expressão.
+  _Motivo:_ interpreta as “línguas dos anjos” como figura de eloquência, não como língua espiritual
+- **Albert Barnes · 1 Coríntios 13:2** · tema: dons
+  > Não se refere à predição de acontecimentos futuros, mas às grandes e profundas verdades ligadas à religião; às coisas que não tinham sido explicadas na antiga economia, ao significado dos tipos e emblemas, e às partes obscuras do plano da redenção.
+  _Motivo:_ posição sobre a natureza do dom de profecia
+- **Albert Barnes · 1 Coríntios 13:5** · tema: escatologia
+  > É este princípio que ainda há de converter o mundo.
+  _Motivo:_ visão de que o mundo inteiro será convertido antes da volta de Cristo (pós-milenarismo); ver o parágrafo (3.) inteiro
+- **Albert Barnes · 1 Coríntios 13:8** · tema: dons
+  > O poder de falar línguas estrangeiras.
+  _Motivo:_ define o dom de línguas como idiomas estrangeiros
+- **Albert Barnes · 1 Coríntios 13:8** · tema: dons
+  > Mas a interpretação mais natural é referi-lo à vida futura; visto que a ideia principal que Paulo está aqui sustentando é o valor do amor acima de todos os outros dons, pelo fato de que ele seria duradouro, ou permanente — ideia que é atendida de modo mais certo e mais completo por uma referência ao mundo futuro do que por uma referência ao estado de coisas na igreja na terra.
+  _Motivo:_ o autor rejeita que as línguas tenham cessado na igreja e situa a cessação no céu
+- **Albert Barnes · 1 Coríntios 13:12** · tema: escatologia
+  > Os espíritos desencarnados e os habitantes do mundo celestial têm este conhecimento; e, quando estivermos lá, veremos as verdades, não à distância e obscuramente, mas clara e abertamente.
+  _Motivo:_ afirmação sobre o estado intermediário dos mortos
+- **Albert Barnes · 1 Coríntios 14:0** · tema: dons
+  > Neste capítulo o assunto continua, com referência especial à profecia, como o mais valioso dos dons miraculosos, ou dons extraordinários do Espírito.
+  _Motivo:_ o autor trata línguas e profecia como dons miraculosos/extraordinários da igreja primitiva
+- **Albert Barnes · 1 Coríntios 14:0** · tema: dons
+  > (7.) O verdadeiro uso do poder de falar línguas estrangeiras era ser um sinal para os incrédulos — uma prova de que a religião vinha de Deus —, e não para ser usado entre os que já eram cristãos
+  _Motivo:_ o autor identifica o dom de línguas com idiomas estrangeiros e restringe o seu uso entre cristãos
+- **Albert Barnes · 1 Coríntios 14:0** · tema: dons
+  > (11.) O apóstolo dá então uma orientação positiva de que, sob nenhum pretexto, se deve permitir que as mulheres falem na igreja, ainda que aleguem estar inspiradas
+  _Motivo:_ o autor proíbe às mulheres falar/profetizar na igreja mesmo se inspiradas
+- **Albert Barnes · 1 Coríntios 14:1** · tema: dons
+  > o profeta falava mais pelo impulso de uma inspiração súbita, pela luz de uma revelação súbita no momento
+  _Motivo:_ o autor define a profecia como fala por revelação súbita
+- **Albert Barnes · 1 Coríntios 14:1** · tema: dons
+  > O propósito de Paulo aqui é mostrar que ele era, na realidade, um dom de menor valor e devia ser menos desejado pelos cristãos do que o dom da instrução profética
+  _Motivo:_ o autor diz que o dom de línguas deve ser menos desejado
+- **Albert Barnes · 1 Coríntios 14:2** · tema: dons
+  > Ele não desvalorizava o poder de falar línguas estrangeiras quando havia estrangeiros presentes, ou quando iam pregar a estrangeiros.
+  _Motivo:_ o autor entende o dom de línguas como falar idiomas estrangeiros para estrangeiros
+- **Albert Barnes · 1 Coríntios 14:3** · tema: dons
+  > um se destinava a edificar a igreja, o outro a dirigir-se aos que falavam línguas estrangeiras, ou a dar demonstração, pelo poder de falar línguas estrangeiras, de que a religião vinha de Deus.
+  _Motivo:_ o autor reduz o propósito das línguas a falar a estrangeiros ou provar a religião
+- **Albert Barnes · 1 Coríntios 14:4** · tema: dons
+  > E, contudo, como bem observou Doddridge, havia o perigo de que um homem fosse prejudicado por este dom quando exercido dessa maneira ostentosa.
+  _Motivo:_ o autor vê o falar em línguas para si como exercício ostentoso e perigoso
+- **Albert Barnes · 1 Coríntios 14:9** · tema: ofensivo
+  > Pode-se observar aqui que a prática dos papistas concorda com o que o apóstolo aqui condena
+  _Motivo:_ termo pejorativo contra católicos
+- **Albert Barnes · 1 Coríntios 14:13** · tema: dons
+  > A verdade parece ter sido que estes dons extraordinários do Espírito Santo eram concedidos aos homens de modo semelhante àquele em que hoje são conferidos os talentos e as faculdades mentais comuns
+  _Motivo:_ o autor equipara os dons do Espírito a talentos naturais e os trata como coisa do passado
+- **Albert Barnes · 1 Coríntios 14:14** · tema: espirito_santo
+  > Mas é provável que a palavra “espírito” se refira à vontade; ou à mente como sede das afeições e emoções; isto é, ao coração, aos desejos ou às intenções.
+  _Motivo:_ o autor nega que “meu espírito ora” se refira ao Espírito Santo ou ao dom, entendendo-o como as emoções do homem
+- **Albert Barnes · 1 Coríntios 14:18** · tema: dons
+  > Sou capaz de falar mais línguas estrangeiras do que todos vós.
+  _Motivo:_ o autor interpreta o falar em línguas de Paulo como domínio de idiomas estrangeiros
+- **Albert Barnes · 1 Coríntios 14:21** · tema: dons
+  > A passagem de Isaías não tem nenhuma referência ao dom miraculoso de línguas, e não pode ter sido usada pelo apóstolo como contendo alguma indicação de que tais dons miraculosos seriam concedidos.
+  _Motivo:_ o autor nega que Isaías 28 aponte para o dom de línguas (uso por acomodação)
+- **Albert Barnes · 1 Coríntios 14:22** · tema: dons
+  > É um sinal, ou um milagre, que, como todos os outros milagres, pode ter o propósito de convencer o mundo incrédulo de que a religião vem de Deus.
+  _Motivo:_ o autor restringe as línguas a sinal miraculoso para incrédulos
+- **Albert Barnes · 1 Coríntios 14:26** · tema: espirito_santo
+  > Nem se pode alegar que, em tais casos, os que se ocupam nesses exercícios estão sob a influência do Espírito Santo; pois, por mais verdadeiro que isso seja, não é mais verdadeiro do que era em Corinto, e contudo o apóstolo repreendeu a prática ali.
+  _Motivo:_ o autor avalia manifestações simultâneas em cultos e a ação do Espírito
+- **Albert Barnes · 1 Coríntios 14:27** · tema: dons
+  > Paulo lhes havia mostrado ({{1Co.14.22}}) que o propósito principal do dom de línguas era convencer os incrédulos
+  _Motivo:_ o autor afirma que o propósito principal das línguas era convencer incrédulos
+- **Albert Barnes · 1 Coríntios 14:28** · tema: dons
+  > Comunique-se consigo mesmo e com Deus; medite nas verdades que lhe são reveladas e exprima em secreto os seus desejos a Deus.
+  _Motivo:_ o autor interpreta o falar consigo e com Deus como meditação, não como falar em línguas
+- **Albert Barnes · 1 Coríntios 14:32** · tema: inspiração
+  > Este versículo confirma a suposição de que os dons extraordinários do Espírito Santo estavam sujeitos substancialmente às mesmas leis que os dotes naturais de um homem.
+  _Motivo:_ o autor explica o modo da inspiração e dos dons como sujeitos às leis dos dotes naturais
+- **Albert Barnes · 1 Coríntios 14:33** · tema: espirito_santo
+  > (4.) Todas aquelas pretensas conversões, por mais súbitas e impressionantes que sejam, que são acompanhadas de desordem, confusão e gritos públicos, devem ser tidas por suspeitas.
+  _Motivo:_ o autor julga manifestações espirituais com clamores como suspeitas
+- **Albert Barnes · 1 Coríntios 14:34** · tema: dons
+  > Ele havia discorrido sobre falar línguas estrangeiras e sobre a profecia; e o sentido evidente é que, em relação a todas estas coisas, elas deviam guardar silêncio, ou não deviam ocupar-se nelas.
+  _Motivo:_ o autor exclui as mulheres de profetizar e de falar em línguas na igreja
+- **Albert Barnes · 1 Coríntios 14:39** · tema: dons
+  > Não suponhais que o poder de falar línguas estrangeiras seja inútil, ou deva ser desprezado, ou que deva ser proibido.
+  _Motivo:_ o autor identifica o dom de línguas com idiomas estrangeiros
+- **Albert Barnes · 1 Coríntios 14:40** · tema: ofensivo
+  > Contudo, este tem sido um grande artifício do grande inimigo do homem.
+  _Motivo:_ o autor atribui a prática católica ao diabo
+- **Albert Barnes · 1 Coríntios 14:40** · tema: ofensivo
+  > É um sistema que só vive e prospera nas trevas.
+  _Motivo:_ polêmica ofensiva contra os católicos romanos
+- **Albert Barnes · 1 Coríntios 15:23** · tema: escatologia
+  > Isto prova que os mortos não serão ressuscitados até que Cristo apareça de novo.
+  _Motivo:_ o autor situa a ressurreição dos mortos na vinda de Cristo para julgar o mundo
+- **Albert Barnes · 1 Coríntios 15:24** · tema: cristologia
+  > Naturalmente, não se seguirá que a Segunda Pessoa da Trindade entregará todo o poder, ou deixará de exercer o governo.
+  _Motivo:_ o autor explica a entrega do reino como fim do poder mediador de Cristo, retomado pela Divindade
+- **Albert Barnes · 1 Coríntios 15:24** · tema: escatologia
+  > É, portanto, a nosso ver, apenas um modo peculiar de denotar a transferência, a passagem dos reinos deste mundo dos seus antigos governantes despóticos e anticristãos para a soberania de Jesus Cristo, o herdeiro designado e cabeça de todas as coisas, cujo reino há de ser eterno.
+  _Motivo:_ citação de Bush/Storr que liga a passagem a Ap 11:15 e aos governantes anticristãos
+- **Albert Barnes · 1 Coríntios 15:26** · tema: escatologia
+  > O evangelho se teria espalhado por toda parte, e o mundo estaria convertido a Deus.
+  _Motivo:_ visão de que o mundo será convertido antes da ressurreição final (pós-milenismo)
+- **Albert Barnes · 1 Coríntios 15:27** · tema: cristologia
+  > Está implícito por esta exceção aqui que, quando cessasse a necessidade do reino mediador peculiar do Filho, haveria uma retomada da autoridade e do domínio do Pai, da maneira como subsistiam antes da encarnação.
+  _Motivo:_ o autor afirma o fim do reino mediador do Filho e a retomada do domínio pelo Pai
+- **Albert Barnes · 1 Coríntios 15:28** · tema: cristologia
+  > A interpretação que afirma que o Filho estará então sujeito ao Pai, no sentido de depor a sua autoridade delegada e deixar de exercer o seu reinado mediador, tem sido a interpretação comum de todos os tempos.
+  _Motivo:_ posição sobre a sujeição do Filho e o fim do seu reinado mediador
+- **Albert Barnes · 1 Coríntios 15:28** · tema: cristologia
+  > Como homem, ele deixará de exercer qualquer domínio distinto.
+  _Motivo:_ o autor afirma que Cristo, como homem, deixará de exercer domínio
+- **Albert Barnes · 1 Coríntios 15:29** · tema: batismo
+  > A outra opinião, portanto, é que o apóstolo se refere aqui ao batismo administrado a todos os crentes.
+  _Motivo:_ interpretação do “batismo pelos mortos” como o batismo de todos os crentes na esperança da ressurreição
+- **Albert Barnes · 1 Coríntios 15:41** · tema: escatologia
+  > Embora todos venham a ser diferentes do que eram na terra, e todos venham a ser gloriosos, pode haver diferença nesse esplendor e nessa glória.
+  _Motivo:_ o autor sugere graus diferentes de glória entre os santos no céu
+- **Albert Barnes · 1 Coríntios 15:51** · tema: inspiração
+  > Não sei se a doutrina correta da inspiração sofre, se admitirmos que os apóstolos ignoravam o tempo exato em que o mundo terminaria; ou mesmo que, quanto ao período preciso em que isso aconteceria, eles pudessem estar em erro.
+  _Motivo:_ o autor admite que os apóstolos poderiam estar em erro quanto ao tempo do fim
+- **Albert Barnes · 1 Coríntios 15:51** · tema: inspiração
+  > Não há, portanto, afastamento da doutrina correta da inspiração em supor que os apóstolos não eram inspirados nestes assuntos, e que podiam ignorá-los como os outros.
+  _Motivo:_ o autor afirma que os apóstolos não eram inspirados quanto aos tempos dos acontecimentos futuros
+- **Albert Barnes · 1 Coríntios 15:51** · tema: escatologia
+  > As leis ordinárias, portanto, pelas quais os homens são levados à eternidade, não operarão a respeito deles, e eles serão levados de uma vez para a sua nova morada.
+  _Motivo:_ posição sobre a transformação e o arrebatamento dos vivos na vinda de Cristo
+- **Albert Barnes · 1 Coríntios 16:2** · tema: sábado
+  > Que há aqui prova clara de que o primeiro dia da semana era observado pela igreja de Corinto como tempo santo.
+  _Motivo:_ o autor trata o dia do Senhor como tempo santo de observância obrigatória, de autoridade apostólica
+- **Albert Barnes · 1 Coríntios 16:2** · tema: sábado
+  > É justo e próprio pôr de parte da nossa riqueza, para fins de benevolência, no dia de sábado.
+  _Motivo:_ o autor chama o domingo de “sábado” cristão
+- **Albert Barnes · 1 Coríntios 16:9** · tema: obra do Espírito Santo
+  > mas tal oposição é muitas vezes prova de que o Espírito de Deus está entre um povo
+  _Motivo:_ o autor afirma que a oposição ao evangelho é sinal da presença e operação do Espírito
+- **Albert Barnes · 1 Coríntios 16:13** · tema: perda da salvação
+  > Deviam vigiar para que a sua alma não se arruinasse e a sua salvação não corresse perigo
+  _Motivo:_ o autor afirma que a salvação do crente pode correr perigo
+- **Albert Barnes · 1 Coríntios 16:22** · tema: escatologia
+  > e o Senhor Jesus em breve voltará para executar a tremenda sentença sobre um mundo culpado.
+  _Motivo:_ posição sobre a volta de Cristo e o juízo
+- **Albert Barnes · 1 Coríntios 16:24** · tema: inspiração
+  > Neste caso, a subscrição é evidentemente falsa na sua afirmação principal.
+  _Motivo:_ o autor afirma que a subscrição tradicional da epístola é falsa e não inspirada
 - **Albert Barnes · 1 Coríntios 2:4** · tema: dons
   > A prova, a demonstração que o Espírito fornecia, eram sem dúvida os milagres que se operavam, o dom de línguas e as notáveis conversões que acompanhavam o evangelho.
   _Motivo:_ o autor trata milagres e dom de línguas como a demonstração do Espírito na pregação apostólica em Corinto
@@ -259,6 +508,78 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Albert Barnes · 1 Coríntios 6:18** · tema: ciencia
   > Os que desejarem ver esses efeitos expostos podem encontrá-los no Dr. Rush, <i>Diseases of the Mind</i> (Doenças da Mente).
   _Motivo:_ o autor apoia-se na medicina do séc. XIX (Dr. Rush) para afirmar efeitos físicos da fornicação
+- **Albert Barnes · 1 Coríntios 7:0** · tema: ofensivo
+  > doutrina que tem sido a causa de tanta corrupção no sistema monástico e no celibato do clero entre os papistas.
+  _Motivo:_ linguagem polêmica contra a Igreja Católica (“papistas”)
+- **Albert Barnes · 1 Coríntios 7:2** · tema: ofensivo
+  > Quanto mal, quanta profunda corrupção, quantos crimes abomináveis se teriam evitado, que desde então brotaram do sistema monástico e do celibato do clero entre os papistas, se o conselho de Paulo tivesse sido seguido por todos os que professam o cristianismo!
+  _Motivo:_ linguagem polêmica contra a Igreja Católica (“papistas”)
+- **Albert Barnes · 1 Coríntios 7:6** · tema: inspiração
+  > Paulo aqui não afirma estar sob inspiração nestas orientações que ele especifica.
+  _Motivo:_ o autor afirma que Paulo não escrevia inspirado nestas orientações
+- **Albert Barnes · 1 Coríntios 7:6** · tema: inspiração
+  > Não pretendo, nisto, estar sob a influência da inspiração; e o meu conselho aqui pode ser acolhido ou não, conforme fordes capazes de recebê-lo.
+  _Motivo:_ o autor põe na boca de Paulo que este conselho não é inspirado e pode ser desconsiderado
+- **Albert Barnes · 1 Coríntios 7:12** · tema: inspiração
+  > Não pretendo, neste conselho, estar sob a influência da inspiração; não tenho do Senhor mandamento expresso sobre o assunto;
+  _Motivo:_ o autor afirma que Paulo não falava inspirado em {{1Co.7.12}}
+- **Albert Barnes · 1 Coríntios 7:14** · tema: batismo
+  > Não há uma só palavra sobre batismo aqui; nem uma alusão a ele;
+  _Motivo:_ o autor rejeita o uso do versículo para fundamentar o batismo de crianças (“santidade federal”)
+- **Albert Barnes · 1 Coríntios 7:14** · tema: batismo
+  > Creio que o batismo infantil é próprio e correto, e um privilégio inestimável para os pais e para os filhos.
+  _Motivo:_ o autor defende o batismo infantil
+- **Albert Barnes · 1 Coríntios 7:25** · tema: ofensivo
+  > Sabe-se que essa opinião prevaleceu cedo, e deu origem ao estabelecimento de conventos de freiras na igreja papal; opinião que em toda parte tem sido acompanhada de libertinagem e corrupção.
+  _Motivo:_ linguagem polêmica contra a Igreja Católica
+- **Albert Barnes · 1 Coríntios 7:25** · tema: inspiração
+  > O conselho de um homem assim, um cristão dedicado, fiel, abnegado e experimentado, merece respeitosa deferência, mesmo quando não há pretensão de inspiração.
+  _Motivo:_ o autor trata o conselho de Paulo sobre as virgens como não inspirado
+- **Albert Barnes · 1 Coríntios 8:6** · tema: cristologia
+  > A palavra “Pai” aqui não é usada como aplicável à primeira pessoa da Trindade, enquanto distinta da segunda, mas é aplicada a Deus como Deus; não como o Pai em contraposição ao Filho, mas à natureza divina como tal, sem referência a essa distinção — o Pai enquanto distinto da sua descendência, as obras que lhe devem a sua origem.
+  _Motivo:_ o autor interpreta “Pai” como a natureza divina em geral, não como a primeira pessoa da Trindade
+- **Albert Barnes · 1 Coríntios 8:6** · tema: cristologia
+  > admitem-na e mantêm-na plenamente, tanto em relação à sua existência eterna (isto é, que há uma distinção eterna de pessoas na Divindade), como em relação ao seu ofício de Mediador.
+  _Motivo:_ posição do autor sobre a divindade de Cristo e a distinção eterna de pessoas, contra arianos e socinianos
+- **Albert Barnes · 1 Coríntios 8:11** · tema: perda da salvação
+  > Mas isto não prova que algum dos que foram verdadeiramente convertidos venha a apostatar e se perder; porque:
+  _Motivo:_ o autor nega que o verdadeiro convertido possa se perder
+- **Albert Barnes · 1 Coríntios 8:11** · tema: perda da salvação
+  > (3.) O apóstolo não diz que algum verdadeiro cristão se perderia.
+  _Motivo:_ o autor reduz a advertência a mera hipótese, negando que o crente possa se perder
+- **Albert Barnes · 1 Coríntios 8:11** · tema: perda da salvação
+  > (4.) Está abundantemente provado em outros lugares que ninguém que foi verdadeiramente convertido apostatará e será destruído.
+  _Motivo:_ perseverança garantida: crente verdadeiro não pode se perder
+- **Albert Barnes · 1 Coríntios 8:13** · tema: ofensivo
+  > e deve levar-nos a não esperar a mesma medida de piedade, zelo e pureza nos convertidos dentre pagãos degradados que esperamos em terras cristãs
+  _Motivo:_ expressão depreciativa sobre povos pagãos (“pagãos degradados”)
+- **Albert Barnes · 1 Coríntios 9:1** · tema: dons
+  > E segue-se também que os apóstolos não podiam ter sucessores naquilo que constituía a PECULIARIDADE do seu ofício; e que o ofício deve ter começado e terminado com eles.
+  _Motivo:_ o autor afirma que o ofício apostólico terminou com os Doze (e Paulo), sem sucessores
+- **Albert Barnes · 1 Coríntios 9:5** · tema: ofensivo
+  > E, se eles eram casados, é justo e próprio que os ministros se casem agora, diga o papista o que quiser em contrário.
+  _Motivo:_ polêmica antipapal em tom depreciativo
+- **Albert Barnes · 1 Coríntios 9:5** · tema: ofensivo
+  > E não é estranho que esta doutrina do celibato do clero, que tem sido em toda parte fonte de abominação, impureza e libertinagem, tenha sido de algum modo mantida e favorecida pelo mundo cristão?
+  _Motivo:_ linguagem ofensiva contra o papado e o clero católico
+- **Albert Barnes · 1 Coríntios 9:16** · tema: predestinação/eleição
+  > ou que a evidência do seu chamado era irresistível e não deixava lugar para hesitação.
+  _Motivo:_ fala de chamado “irresistível”, embora o autor ressalve que Paulo era livre
+- **Albert Barnes · 1 Coríntios 9:24** · tema: perda da salvação
+  > como muitos que lutam por ele então o perdem, é possível que nós o percamos;
+  _Motivo:_ o autor afirma a possibilidade de o crente perder a coroa
+- **Albert Barnes · 1 Coríntios 9:25** · tema: perda da salvação
+  > (2.) O perigo de perder a coroa de glória é grande.
+  _Motivo:_ perigo de perder a salvação
+- **Albert Barnes · 1 Coríntios 9:27** · tema: perda da salvação
+  > Sentia que havia perigo de ser enganado e perder-se;
+  _Motivo:_ Paulo temia poder perder-se
+- **Albert Barnes · 1 Coríntios 9:27** · tema: predestinação/eleição
+  > que se viesse a ver, afinal, que ele não tinha religião, e fosse então lançado fora como inapto para entrar no céu.
+  _Motivo:_ o autor interpreta o “reprovado” como quem se revela nunca ter tido religião verdadeira, o que pode supor a perseverança garantida dos santos
+- **Albert Barnes · 1 Coríntios 9:27** · tema: perda da salvação
+  > (4.) Os ministros, como os outros, estão em perigo de perder a sua alma.
+  _Motivo:_ perigo de perder a salvação, inclusive para ministros
 - **Adam Clarke · Êxodo 1:19** · tema: ciencia
   > as mulheres que, durante toda a gravidez, estão acostumadas a trabalho pesado, especialmente ao ar livre, têm comparativamente pouca dor no parto
   _Motivo:_ o autor apresenta como fato de experiência geral uma afirmação médica ultrapassada e anedótica
@@ -727,4 +1048,268 @@ Enquanto não forem aprovados, aparecem no app como "[trecho omitido]". Para apr
 - **Adam Clarke · Êxodo 9:35** · tema: sábado
   > Lembra-te do dia de sábado, para o santificar
   _Motivo:_ o autor inclui “profanadores do sábado” entre os pecadores com a Bíblia na mão, aplicando o mandamento aos cristãos
+- **Jamieson, Fausset e Brown · 1 Coríntios 1:2** · tema: ceia/sacramentos
+  > “Bastava a Paulo, para reconhecer os coríntios como igreja, ver entre eles a doutrina evangélica, o batismo e a Ceia do Senhor” [CALVINO].
+  _Motivo:_ o batismo e a Ceia como marcas da verdadeira igreja
+- **Jamieson, Fausset e Brown · 1 Coríntios 1:6** · tema: dons
+  > pelo poder interior do seu Espírito e pelos dons e milagres exteriores que o acompanhavam [CALVINO].
+  _Motivo:_ dons e milagres como confirmação do evangelho
+- **Jamieson, Fausset e Brown · 1 Coríntios 1:9** · tema: predestinação/eleição
+  > Segundo o seu propósito ({{Rom.8.28}}).
+  _Motivo:_ o chamado ligado ao propósito de Deus
+- **Jamieson, Fausset e Brown · 1 Coríntios 1:13** · tema: batismo
+  > Antes, “para o nome” ({{Gal.3.27}}), o que indica a incorporação envolvida na ideia do batismo.
+  _Motivo:_ o batismo como incorporação a Cristo
+- **Jamieson, Fausset e Brown · 1 Coríntios 1:14** · tema: batismo
+  > Batizar era ofício dos diáconos ({{Act.10.48}}) mais do que dos apóstolos
+  _Motivo:_ o autor atribui o batismo ao ofício dos diáconos
+- **Jamieson, Fausset e Brown · 1 Coríntios 1:16** · tema: batismo
+  > É provável que tais “famílias” incluíssem crianças pequenas ({{Act.16.33}}). A história da Igreja favorece este parecer, pois o batismo de crianças foi o costume desde as eras mais antigas.
+  _Motivo:_ o autor defende o batismo de crianças
+- **Jamieson, Fausset e Brown · 1 Coríntios 1:24** · tema: predestinação/eleição
+  > os eleitos, que obedeceram ao chamado; chamados eficazmente ({{Rom.8.28}}, {{Rom.8.30}}).
+  _Motivo:_ chamado “eficaz” dos eleitos
+- **Jamieson, Fausset e Brown · 1 Coríntios 1:27** · tema: predestinação/eleição
+  > A repetição indica a graciosa deliberação do propósito de Deus ({{Jas.2.5}}).
+  _Motivo:_ a escolha de Deus como propósito deliberado
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:2** · tema: batismo
+  > se o batismo virtual destes não lhes valeu para salvá-los da condenação da concupiscência, tampouco o batismo efetivo daqueles os salvará.
+  _Motivo:_ o autor interpreta a passagem do mar como batismo e compara-o ao batismo cristão
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:2** · tema: batismo
+  > OLSHAUSEN entende “a nuvem” e “o mar” como símbolos do Espírito e da água, respectivamente ({{Jhn.3.5}}; {{Act.10.44-47}}).
+  _Motivo:_ nuvem e mar como símbolos do batismo com o Espírito e com água
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:2** · tema: tipologia
+  > Cristo é a coluna de nuvem que nos protege do calor da ira de Deus.
+  _Motivo:_ nuvem, rocha e maná lidos como figuras de Cristo
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:2** · tema: inspiração
+  > Uma forte prova da inspiração é dada neste fato: as partes históricas da Escritura, sem que nem mesmo os seus autores tivessem consciência disso, são profecias veladas do futuro.
+  _Motivo:_ o autor afirma uma tese sobre a inspiração (autores inconscientes do sentido profético)
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:3** · tema: ceia/sacramentos
+  > assim tiveram o maná, que correspondia ao outro dos dois sacramentos cristãos, a Ceia do Senhor.
+  _Motivo:_ o autor trata batismo e ceia como os dois sacramentos e defende a sua necessidade
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:3** · tema: tipologia
+  > Antes, “espiritual” em sua significação típica, sendo significado Cristo, o verdadeiro Pão do céu ({{Jhn.6.32}}).
+  _Motivo:_ maná como figura de Cristo
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:3** · tema: ceia/sacramentos
+  > e a fé implícita e reverente deles, embora indistinta, foi-lhes imputada para justificação, da qual o maná era uma espécie de selo sacramental.
+  _Motivo:_ o maná como selo sacramental da justificação
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:4** · tema: tipologia
+  > e esta bebida para o corpo simbolizava a bebida espiritual da Pedra espiritual
+  _Motivo:_ a rocha do deserto como Cristo
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:8** · tema: inspiração
+  > Se esta fosse uma discrepância real, militaria antes contra a inspiração do assunto e do pensamento do que contra a inspiração verbal.
+  _Motivo:_ o autor discute discrepância numérica e graus de inspiração (embora a concilie)
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:9** · tema: tipologia
+  > Neste caso, sendo castigados pelas serpentes abrasadoras, foram salvos pela serpente de bronze, o emblema de Cristo
+  _Motivo:_ a serpente de bronze como figura de Cristo
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:12** · tema: perda da salvação
+  > Do seu lugar na Igreja de Deus (cf. {{1Co.10.8}}, “caíram”). Tanto temporal como espiritualmente ({{Rom.14.4}}).
+  _Motivo:_ o autor admite que o crente pode cair espiritualmente
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:14** · tema: ceia/sacramentos
+  > O Espírito Santo, com isso, também advertiu presciente a Igreja contra a idolatria que foi depois transferida do banquete idólatra para a própria Ceia do Senhor, na ficção da transubstanciação.
+  _Motivo:_ posição sobre a ceia e a transubstanciação
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:16** · tema: ceia/sacramentos
+  > Quem com fé participa do cálice e do pão participa real, mas espiritualmente, do sangue e do corpo de Cristo ({{Eph.5.30}}; {{Eph.5.32}}) e dos benefícios do seu sacrifício na cruz (cf. {{1Co.10.18}}).
+  _Motivo:_ doutrina da presença real espiritual na ceia
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:16** · tema: ceia/sacramentos
+  > É o selo da nossa união viva com Cristo como nosso Salvador, e um meio de participarmos dele ({{Jhn.6.53-57}}).
+  _Motivo:_ a ceia como selo e meio de graça
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:16** · tema: ceia/sacramentos
+  > A especificação distinta do pão e do vinho refuta a doutrina romana da concomitância e a exclusão dos leigos do cálice.
+  _Motivo:_ posição sobre a forma da ceia (contra Roma)
+- **Jamieson, Fausset e Brown · 1 Coríntios 10:21** · tema: ceia/sacramentos
+  > o comungante na Ceia do Senhor tem nela uma comunhão real do corpo de Cristo, ou participação nele, uma vez sacrificado e agora exaltado como Cabeça da humanidade redimida.
+  _Motivo:_ natureza da comunhão na ceia
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:3** · tema: cristologia
+  > “Jesus, portanto, deve ser da mesma essência que Deus: pois, visto que o homem é a cabeça da mulher, e a cabeça é da mesma essência que o corpo, e Deus é a cabeça do Filho, segue-se que o Filho é da mesma essência que o Pai” [CRISÓSTOMO].
+  _Motivo:_ posição sobre a relação entre o Pai e o Filho
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:4** · tema: dons
+  > Pregando no Espírito ({{1Co.12.10}}).
+  _Motivo:_ o autor define profecia como pregação no Espírito
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:5** · tema: dons
+  > Este exemplo de mulheres falando no culto público é um caso extraordinário, justificado apenas pelos dons miraculosos que tais mulheres possuíam como suas credenciais
+  _Motivo:_ posição sobre o exercício de dons (profecia) por mulheres no culto
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:5** · tema: dons
+  > Mesmo aquelas mulheres dotadas de profecia estavam destinadas a exercer o seu dom antes em outros tempos e lugares do que na congregação pública.
+  _Motivo:_ restrição ao uso do dom de profecia por mulheres na congregação
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:7** · tema: cristologia
+  > O Filho divino não é meramente “semelhante” a Deus; ele é Deus de Deus, “sendo de uma só substância (essência) com o Pai” [Credo Niceno].
+  _Motivo:_ afirmação sobre a divindade do Filho
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:24** · tema: ceia/sacramentos
+  > Eles só podiam tê-lo entendido simbólica e analogicamente: assim como este pão é para a vossa saúde corporal, assim o meu corpo é para a saúde espiritual do comungante crente.
+  _Motivo:_ interpretação simbólica das palavras da instituição
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:26** · tema: ceia/sacramentos
+  > Que a Ceia do Senhor seja em memória dele implica que ele está corporalmente ausente, embora espiritualmente presente, pois não se pode dizer que comemoramos alguém ausente.
+  _Motivo:_ posição sobre a presença de Cristo na ceia
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:26** · tema: tipologia
+  > Os pães da proposição, literalmente “pão da presença”, estavam no santuário, mas não no Santo dos Santos ({{Heb.9.1-8}}); assim, a Ceia do Senhor será substituída no céu, o antítipo do Santo dos Santos, pela própria presença corporal de Cristo
+  _Motivo:_ pães da proposição, Lugar Santo e Santo dos Santos como figuras
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:26** · tema: profecia e escatologia
+  > A primeira e a segunda vindas são consideradas como uma só vinda; por isso a expressão não é “volte”, mas “venha”
+  _Motivo:_ posição sobre a vinda de Cristo
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:27** · tema: ceia/sacramentos
+  > Quem toma o pão sem o vinho, ou o vinho sem o pão, comunga “indignamente” e, assim, “é culpado do corpo e do sangue de Cristo”
+  _Motivo:_ posição sobre a comunhão nas duas espécies
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:29** · tema: ceia/sacramentos
+  > O corpo do Senhor é o seu corpo literal, apreciado e discernido pela alma na recepção fiel, e não presente nos próprios elementos.
+  _Motivo:_ posição sobre a presença de Cristo nos elementos
+- **Jamieson, Fausset e Brown · 1 Coríntios 11:30** · tema: ceia/sacramentos
+  > não uma morte violenta, mas uma resultante de doença, enviada como castigo do Senhor para a salvação do indivíduo
+  _Motivo:_ doença e morte como juízo pela participação indigna na ceia
+- **Jamieson, Fausset e Brown · 1 Coríntios 14:1** · tema: dons
+  > A nossa pregação moderna é a sucessora da profecia, mas sem a inspiração.
+  _Motivo:_ o autor dá a entender que a profecia inspirada cessou, restando só a pregação
+- **Jamieson, Fausset e Brown · 1 Coríntios 14:5** · tema: dons
+  > As línguas, portanto, devem significar idiomas, e não rapsódias extáticas e ininteligíveis (como imaginou NEANDER): pois Paulo jamais poderia “querer” estas últimas para eles.
+  _Motivo:_ o autor define o dom de línguas apenas como idiomas humanos
+- **Jamieson, Fausset e Brown · 1 Coríntios 14:22** · tema: dons
+  > mas principalmente para ser uma condenação para aqueles, a maioria, que, como Israel nos dias de Isaías, rejeitam o sinal e a mensagem que o acompanha.
+  _Motivo:_ interpretação das línguas como sinal principalmente condenatório para incrédulos
+- **Jamieson, Fausset e Brown · 1 Coríntios 14:23** · tema: dons
+  > que todo o corpo de adoradores é uma turba de “loucos” fanáticos; e de que “a Igreja é como a companhia dos construtores de Babel depois da confusão das línguas, ou como a causa julgada entre dois surdos diante de um juiz surdo, celebrada no epigrama grego” [GRÓCIO].
+  _Motivo:_ caracterização depreciativa do falar em línguas na congregação
+- **Jamieson, Fausset e Brown · 1 Coríntios 14:30** · tema: dons
+  > dê lugar àquele que na reunião é movido a profetizar por uma revelação súbita do Espírito.
+  _Motivo:_ posição sobre o funcionamento da revelação e da profecia no culto
+- **Jamieson, Fausset e Brown · 1 Coríntios 14:32** · tema: obra do Espírito Santo
+  > os seus próprios espíritos, movidos pelo Espírito Santo, não são de tal modo arrebatados pela influência dele que deixem de estar sob o seu próprio controle
+  _Motivo:_ posição sobre como o Espírito Santo age no profeta
+- **Jamieson, Fausset e Brown · 1 Coríntios 14:37** · tema: dons
+  > que parte dessa demonstração consistiu na comunicação de poder miraculoso, que eles então exerciam de modo tão geral que precisavam ser corrigidos no seu emprego irregular
+  _Motivo:_ o “então” pode sugerir que os dons miraculosos eram próprios daquela época
+- **Jamieson, Fausset e Brown · 1 Coríntios 2:4** · tema: dons
+  > manifestada então tanto exteriormente por milagres como interiormente pela atuação no coração; agora somente desta última e mais importante maneira
+  _Motivo:_ o autor afirma que a demonstração do Espírito por milagres cessou
+- **Jamieson, Fausset e Brown · 1 Coríntios 2:7** · tema: predestinação/eleição
+  > Literalmente, “predestinou” (cf. {{1Co.2.9}}), “preparou para os que o amam”.
+  _Motivo:_ predestinação da sabedoria de Deus para os que o amam
+- **Jamieson, Fausset e Brown · 1 Coríntios 2:10** · tema: obra do Espírito Santo
+  > A inspiração dos pensamentos (no que diz respeito à verdade essencial à salvação) faz o cristão
+  _Motivo:_ o autor distingue a inspiração de pensamentos (do cristão) da inspiração de palavras (do profeta)
+- **Jamieson, Fausset e Brown · 1 Coríntios 2:10** · tema: obra do Espírito Santo
+  > Isto prova a personalidade e a divindade do Espírito Santo.
+  _Motivo:_ personalidade e divindade do Espírito
+- **Jamieson, Fausset e Brown · 1 Coríntios 2:13** · tema: tipologia
+  > ilustrando os mistérios do evangelho pela comparação com os tipos do Antigo Testamento [CRISÓSTOMO].
+  _Motivo:_ os tipos do Antigo Testamento como ilustração do evangelho
+- **Jamieson, Fausset e Brown · 1 Coríntios 2:15** · tema: obra do Espírito Santo
+  > O Espírito guia a toda a verdade e santidade; mas a sua influência sobre os crentes e sobre a Igreja é por enquanto parcial.
+  _Motivo:_ o autor afirma que nem o crente nem a Igreja guiados pelo Espírito são infalíveis
+- **Jamieson, Fausset e Brown · 1 Coríntios 3:6** · tema: obra do Espírito Santo
+  > Deus opera por meio de instrumentos e promete o Espírito Santo no uso fiel dos meios.
+  _Motivo:_ o Espírito prometido no uso fiel dos meios
+- **Jamieson, Fausset e Brown · 1 Coríntios 3:13** · tema: escatologia
+  > O fogo (provavelmente figurado aqui, como o ouro, o feno etc.) não é o purgatório (como Roma ensina, isto é, purificador e punitivo), mas probatório
+  _Motivo:_ interpretação do fogo do juízo final e refutação do purgatório
+- **Jamieson, Fausset e Brown · 1 Coríntios 3:15** · tema: perda da salvação
+  > não que perderá a salvação (que é inteiramente um dom gratuito, não um “galardão” ou salário), pois ele continua sobre o fundamento
+  _Motivo:_ o mestre que edifica mal não perde a salvação
+- **Jamieson, Fausset e Brown · 1 Coríntios 3:15** · tema: perda da salvação
+  > um homem pode errar quanto às primeiras e ainda assim ser salvo, mas não quanto às últimas
+  _Motivo:_ distinção entre doutrinas secundárias e fundamentais para a salvação
+- **Jamieson, Fausset e Brown · 1 Coríntios 3:17** · tema: perda da salvação
+  > assim qualquer cristão que viole a santidade do templo espiritual perecerá eternamente
+  _Motivo:_ o cristão que profana o templo pode perecer eternamente
+- **Jamieson, Fausset e Brown · 1 Coríntios 4:15** · tema: batismo
+  > a regeneração não pode estar inseparavelmente no batismo e pelo batismo ({{1Co.1.14-17}}).
+  _Motivo:_ o autor nega a regeneração batismal
+- **Jamieson, Fausset e Brown · 1 Coríntios 4:20** · tema: obra do Espírito Santo
+  > Não “discursos” vazios, mas o “poder” manifesto do Espírito atesta a presença do “reino de Deus”
+  _Motivo:_ o poder manifesto do Espírito como sinal do reino numa igreja
+- **Jamieson, Fausset e Brown · 1 Coríntios 5:2** · tema: ceia/sacramentos
+  > aquela, a exclusão apenas da Ceia do Senhor, mas não da Igreja.
+  _Motivo:_ o autor descreve graus de excomunhão, um deles a exclusão da Ceia do Senhor
+- **Jamieson, Fausset e Brown · 1 Coríntios 5:4** · tema: dons
+  > Este poder de juízo infalível limitava-se aos apóstolos; pois só eles tinham o poder de operar milagres como credenciais que atestavam a sua infalibilidade.
+  _Motivo:_ o autor restringe aos apóstolos o poder de operar milagres e de juízo infalível
+- **Jamieson, Fausset e Brown · 1 Coríntios 5:4** · tema: inspiração
+  > Mesmo os apóstolos, em casos comuns e quando não estavam especial e conscientemente inspirados, eram falíveis
+  _Motivo:_ o autor afirma que os apóstolos nem sempre falavam inspirados
+- **Jamieson, Fausset e Brown · 1 Coríntios 5:5** · tema: dons
+  > Paulo delega aqui à Igreja de Corinto o seu próprio poder especial de apóstolo, o de infligir doença corporal ou morte como castigo do pecado
+  _Motivo:_ o autor interpreta “entregar a Satanás” como poder apostólico especial de infligir doença ou morte
+- **Jamieson, Fausset e Brown · 1 Coríntios 5:7** · tema: tipologia
+  > assim também, já tendo sido imolado Cristo, a nossa Páscoa, não haja fermento de mal em vós, que sois a “massa sem fermento”.
+  _Motivo:_ o cordeiro pascal como figura de Cristo
+- **Jamieson, Fausset e Brown · 1 Coríntios 5:7** · tema: ceia/sacramentos
+  > Assim a Páscoa judaica deu lugar naturalmente à nossa Páscoa cristã.
+  _Motivo:_ o autor liga a Páscoa judaica à festa cristã da Páscoa
+- **Jamieson, Fausset e Brown · 1 Coríntios 5:9** · tema: inspiração
+  > a nossa primeira Epístola, como trata do mesmo assunto com mais amplitude, substituiu a anterior, que o Espírito Santo não destinou à orientação da Igreja em geral e que, por isso, não foi preservada.
+  _Motivo:_ o autor afirma a existência de uma carta apostólica perdida, não destinada pelo Espírito à Igreja
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:2** · tema: escatologia
+  > As nações da terra, e Israel à frente delas, na carne, serão, segundo esta visão, os súditos do governo do Senhor e dos seus santos em corpos glorificados.
+  _Motivo:_ o autor expõe um reino milenar terreno de Cristo e dos santos sobre as nações e Israel
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:2** · tema: escatologia
+  > O erro dos quiliastas foi adotar a visão meramente carnal, restringindo o reino à sua parte terrestre.
+  _Motivo:_ posição sobre o milênio (quiliasmo)
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:2** · tema: eleição
+  > Reinar e ser salvo não são necessariamente sinônimos.
+  _Motivo:_ o autor distingue os santos que reinam dos salvos que são governados
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:5** · tema: dons
+  > uma pessoa sábia que tivesse o carisma, ou dom, de governo da igreja.
+  _Motivo:_ menção ao dom de governo da igreja
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:11** · tema: batismo
+  > “Lavados” precede ambas, e portanto deve referir-se ao novo nascimento exterior do cristão pela água, sinal da separação interior para o Senhor pela inspiração do Espírito como semente de nova vida
+  _Motivo:_ o autor interpreta “lavados” como o batismo com água, “novo nascimento exterior”
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:11** · tema: batismo
+  > presume que o batismo realiza o seu propósito original e que os batizados exteriormente entram interiormente em comunhão vital com Cristo
+  _Motivo:_ o autor cita o Ofício Batismal anglicano e liga o batismo exterior à comunhão com Cristo
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:11** · tema: predestinação
+  > onde parece significar antes a separação de alguém como consagrado pelo Espírito no propósito eterno de Deus.
+  _Motivo:_ santificação ligada ao propósito eterno de Deus
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:14** · tema: escatologia
+  > Os crentes serão ressuscitados dentre os demais mortos (ver sobre {{Php.3.11}}): a primeira ressurreição ({{Rev.20.5}}).
+  _Motivo:_ o autor defende a primeira ressurreição, só dos crentes, distinta da dos demais mortos
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:17** · tema: obra do Espírito Santo
+  > pois o espírito, que normalmente é o órgão do Espírito Santo no homem, está no homem carnal tão encoberto pelo que é sensual que é totalmente ignorado
+  _Motivo:_ o espírito humano como órgão do Espírito Santo
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:19** · tema: obra do Espírito Santo
+  > O Espírito de Deus, invisível, mas muito mais eficaz, no templo espiritual, ocupa agora o lugar da Shekiná visível no antigo templo material.
+  _Motivo:_ o Espírito habitando no crente como templo
+- **Jamieson, Fausset e Brown · 1 Coríntios 6:19** · tema: tipologia
+  > Assim como os judeus tinham um só templo, assim, no sentido mais pleno, todas as igrejas cristãs e todos os crentes individuais formam um só templo.
+  _Motivo:_ o templo antigo como figura da Igreja e do crente
+- **Jamieson, Fausset e Brown · 1 Coríntios 7:10** · tema: inspiração
+  > Em ambos os casos, igualmente, as coisas escritas são inspiradas pelo Espírito de Deus, “mas não todas para todos os tempos, nem todas sobre as verdades primárias da fé” [ALFORD].
+  _Motivo:_ o autor, citando Alford, relativiza a validade permanente de partes do texto inspirado
+- **Jamieson, Fausset e Brown · 1 Coríntios 7:14** · tema: batismo
+  > mas onde um dos pais é crente, os filhos são considerados não estranhos, mas admissíveis, mesmo na infância, como participantes da aliança cristã
+  _Motivo:_ o autor defende o batismo de crianças
+- **Jamieson, Fausset e Brown · 1 Coríntios 7:14** · tema: batismo
+  > O batismo de crianças substituiu tacitamente a circuncisão das crianças
+  _Motivo:_ o autor defende o batismo infantil como substituto da circuncisão e critica os anabatistas
+- **Jamieson, Fausset e Brown · 1 Coríntios 7:14** · tema: batismo
+  > Os anabatistas querem que adiemos o batismo até a maturidade, já que a criança não pode entender a natureza dele.
+  _Motivo:_ o autor rejeita o batismo só na maturidade, com o argumento de Whately
+- **Jamieson, Fausset e Brown · 1 Coríntios 7:14** · tema: sábado
+  > assim como o domingo cristão, o dia do Senhor, substituiu gradualmente o sábado judaico
+  _Motivo:_ posição sobre a substituição do sábado pelo domingo
+- **Jamieson, Fausset e Brown · 1 Coríntios 7:17** · tema: eleição
+  > “Como o Senhor repartiu a cada um, como Deus chamou a cada um, assim ande”
+  _Motivo:_ menção ao chamado de Deus e à condição designada a cada um
+- **Jamieson, Fausset e Brown · 1 Coríntios 7:25** · tema: inspiração
+  > O Senhor me inspira neste caso a vos dar apenas uma recomendação, que sois livres para adotar ou rejeitar, não uma ordem positiva.
+  _Motivo:_ o autor distingue graus de autoridade nas palavras inspiradas de Paulo
+- **Jamieson, Fausset e Brown · 1 Coríntios 7:25** · tema: inspiração
+  > Paulo, pelo Espírito, revoga o mandamento de Deus do Antigo Testamento de despedir as mulheres estrangeiras
+  _Motivo:_ o autor afirma que Paulo revoga um mandamento do Antigo Testamento
+- **Jamieson, Fausset e Brown · 1 Coríntios 7:26** · tema: escatologia
+  > e que haviam de prevalecer por todo o mundo antes da destruição de Jerusalém, segundo a profecia de Cristo
+  _Motivo:_ o autor liga a “instante necessidade” à destruição de Jerusalém
+- **Jamieson, Fausset e Brown · 1 Coríntios 8:3** · tema: eleição
+  > Amar a Deus é conhecer a Deus; e aquele que assim conhece a Deus foi primeiro conhecido por Deus
+  _Motivo:_ o conhecimento prévio de Deus como fonte do amor do crente
+- **Jamieson, Fausset e Brown · 1 Coríntios 8:6** · tema: cristologia
+  > Tão inteiramente o Pai e o Filho são um
+  _Motivo:_ afirmação sobre a unidade do Pai e do Filho
+- **Jamieson, Fausset e Brown · 1 Coríntios 8:11** · tema: perda da salvação
+  > O irmão fraco perde a sua fé e, se não a recuperar, a sua salvação [BENGEL]
+  _Motivo:_ o autor afirma que o irmão pode perder a fé e a salvação
+- **Jamieson, Fausset e Brown · 1 Coríntios 8:11** · tema: expiação
+  > Note-se aqui que não é argumento contra o dogma de que Cristo morreu por todos, até pelos que perecem, dizer que assim Ele teria morrido em vão por muitos.
+  _Motivo:_ o autor defende a expiação universal (Cristo morreu por todos, até pelos que perecem)
+- **Jamieson, Fausset e Brown · 1 Coríntios 8:11** · tema: predestinação
+  > O ingrediente mais terrível do seu cálice será que poderiam ter sido salvos, mas não quiseram: Cristo morreu para redimir até a eles.
+  _Motivo:_ o autor afirma que os perdidos poderiam ter sido salvos, mas recusaram
 
